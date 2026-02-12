@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,130">
+  <controller name="optCtrl" exported="true" pages="0,,1,,2,,20," selected="1">
+    <remark page="0" value="升级"/>
+    <remark page="1" value="突破"/>
+    <remark page="2" value="获得"/>
+    <remark page="3" value="合成"/>
+  </controller>
+  <controller name="maxCtrl" exported="true" pages="0,,1,,2," selected="1">
+    <remark page="0" value="不是最大"/>
+    <remark page="1" value="最大"/>
+    <remark page="2" value="最终满级"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n80_ozj9" controller="maxCtrl" targetPage="~1"/>
+  </controller>
+  <controller name="uploadCtrl" pages="1,,0," selected="0">
+    <remark page="0" value="未上阵"/>
+    <remark page="1" value="已上阵"/>
+  </controller>
+  <controller name="tupoLock" pages="0,,1," selected="1">
+    <remark page="0" value="能突破"/>
+    <remark page="1" value="突破锁了"/>
+  </controller>
+  <controller name="levelLock" pages="0,,1," selected="0">
+    <remark page="0" value="能升级"/>
+    <remark page="1" value="锁了"/>
+  </controller>
+  <displayList>
+    <image id="n33_f34j" name="n33" src="f34jdxybl" fileName="Res/newItem2/general_tap_bg2.png" pkg="5moj1x39" xy="0,0" group="n6_rm2c"/>
+    <component id="n1_rm2c" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="16,7" size="116,116" group="n6_rm2c">
+      <Button icon="ui://5moj1x39ucd4dxycg"/>
+    </component>
+    <component id="n5_rm2c" name="levelUpBtn" src="dr5adxy6a" fileName="Component/RoleOptAniBtn.xml" xy="382,22" size="218,84" group="n6_rm2c">
+      <gearDisplay controller="optCtrl" pages="0"/>
+      <gearLook controller="levelLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearDisplay2 controller="maxCtrl" pages="0" condition="0"/>
+    </component>
+    <image id="n29_f34j" name="n29" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="395,40" group="n6_rm2c">
+      <gearDisplay controller="levelLock" pages="1"/>
+      <gearDisplay2 controller="optCtrl" pages="0" condition="0"/>
+      <relation target="n5_rm2c" sidePair="left-left,top-top"/>
+    </image>
+    <component id="n2_rm2c" name="upLoadBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="143,22" size="218,84" group="n18_p9n0">
+      <gearDisplay controller="optCtrl" pages="0,1"/>
+      <gearXY controller="maxCtrl" pages="0,1,2" values="150,23|143,22|255,26"/>
+      <gearLook controller="uploadCtrl" pages="1" values="1,0,0,1" default="1,0,1,0"/>
+      <Button titleColor="#ffffff" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <text id="n17_p9n0" name="n17" xy="218,41" size="68,44" group="n18_p9n0" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="上阵">
+      <gearDisplay controller="optCtrl" pages="0,1"/>
+      <relation target="n2_rm2c" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n18_p9n0" name="n18" xy="143,22" size="218,84" group="n6_rm2c"/>
+    <component id="n4_rm2c" name="getHeroBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,23" size="218,84" group="n23_p9n0">
+      <gearDisplay controller="optCtrl" pages="2"/>
+      <Button icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <text id="n22_p9n0" name="n22" xy="324,40" size="68,44" group="n23_p9n0" fontSize="32" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="2" text="获得">
+      <gearDisplay controller="optCtrl" pages="2"/>
+      <relation target="n4_rm2c" sidePair=""/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n23_p9n0" name="n23" xy="251,23" size="218,84" group="n6_rm2c"/>
+    <component id="n12_rm2c" name="composeHeroBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,23" size="218,84" group="n26_p9n0">
+      <gearDisplay controller="optCtrl" pages="20"/>
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n25_p9n0" name="n25" xy="325,39" size="68,44" group="n26_p9n0" fontSize="32" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="2" text="合成">
+      <gearDisplay controller="optCtrl" pages="20"/>
+      <relation target="n12_rm2c" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n26_p9n0" name="n26" xy="251,23" size="218,84" group="n6_rm2c"/>
+    <component id="n13_rm2c" name="breakBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="382,22" size="218,84" group="n28_p9n0" grayed="true">
+      <gearDisplay controller="maxCtrl" pages="1"/>
+      <gearLook controller="tupoLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearDisplay2 controller="optCtrl" pages="1" condition="0"/>
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n27_p9n0" name="n27" xy="456,38" size="68,44" group="n28_p9n0" fontSize="32" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="2" text="突破">
+      <gearDisplay controller="optCtrl" pages="1"/>
+      <gearDisplay2 controller="maxCtrl" pages="1" condition="0"/>
+      <relation target="n13_rm2c" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n28_p9n0" name="n28" xy="382,22" size="218,84" group="n6_rm2c"/>
+    <group id="n6_rm2c" name="bottom" xy="0,0" size="720,130" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n31_f34j" name="n31" src="f34jdxya6" fileName="Res/new/role_btn2.png" xy="618,22" group="n11_rm2c"/>
+    <image id="n30_f34j" name="n30" src="f34jdxya2" fileName="Res/new/role_intensify_bg6.png" xy="604,-16" group="n11_rm2c"/>
+    <loader id="n7_rm2c" name="lvItemIcon" xy="629,-7" size="25,25" group="n11_rm2c" aspect="true" url="ui://5moj1x39ju03m" fill="scale"/>
+    <text id="n8_rm2c" name="avGetLb" xy="655,-9" size="26,29" group="n11_rm2c" fontSize="20" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="10"/>
+    <component id="n10_rm2c" name="adBtn" src="ozj920" fileName="Component/RoleAdBtn.xml" xy="622,29" size="76,76" group="n11_rm2c"/>
+    <group id="n11_rm2c" name="adWatchGroup" xy="604,-16" size="104,122" advanced="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <image id="n32_f34j" name="n32" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="390,40">
+      <gearDisplay controller="tupoLock" pages="1"/>
+      <gearDisplay2 controller="optCtrl" pages="1" condition="0"/>
+      <relation target="n13_rm2c" sidePair="left-left,top-top"/>
+    </image>
+  </displayList>
+</component>

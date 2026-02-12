@@ -1,0 +1,9 @@
+Lobby_exp.png
+size:128,64
+filter:Linear,Linear
+2000
+bounds:4,4,28,30
+offsets:1,0,30,30
+ICON-EXP
+bounds:36,6,29,28
+offsets:0,1,30,30

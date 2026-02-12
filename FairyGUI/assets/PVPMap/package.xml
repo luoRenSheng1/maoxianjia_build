@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zoxecbv2">
+  <resources>
+    <component id="qc4n0" name="PVPMapMain.xml" path="/" exported="true"/>
+    <component id="qc4n1" name="Panel.xml" path="/Res/UI/"/>
+    <image id="qc4n5" name="主界面.png" path="/Res/Sample/"/>
+    <image id="qc4n6" name="主界面1.png" path="/Res/Sample/"/>
+    <component id="qc4n7" name="battleRoot.xml" path="/Component/" exported="true"/>
+    <component id="qc4n8" name="battleBg.xml" path="/Component/"/>
+    <image id="qc4n9" name="map_bg.png" path="/Res/map/"/>
+    <image id="qc4na" name="map_middle.png" path="/Res/map/"/>
+    <component id="qc4nb" name="battleScene.xml" path="/Component/"/>
+    <component id="qc4nc" name="battleMap.xml" path="/Component/"/>
+    <component id="qc4nd" name="MapLoadItem.xml" path="/Component/" exported="true"/>
+    <image id="qc4ne" name="map01.png" path="/Res/map/"/>
+    <image id="qc4nf" name="map02.png" path="/Res/map/"/>
+    <image id="qc4ng" name="map03.png" path="/Res/map/"/>
+    <component id="qc4nh" name="battleObject.xml" path="/Component/"/>
+    <component id="qc4ni" name="battleFly.xml" path="/Component/"/>
+    <image id="qc4no" name="主界面.png" path="/Res/"/>
+    <image id="qc4nr" name="n456.png" path="/Res/"/>
+    <image id="qc4nu" name="nadd.png" path="/Res/"/>
+    <image id="qc4nv" name="nlock.png" path="/Res/"/>
+    <image id="qc4nx" name="nskillbg.png" path="/Res/" duplicatePadding="true"/>
+    <component id="qc4n10" name="BtnSkill.xml" path="/Component/"/>
+    <component id="qc4n11" name="skillIcon.xml" path="/Component/"/>
+    <image id="qc4n12" name="mask1.png" path="/Res/" duplicatePadding="true" disableTrim="true"/>
+    <image id="u5mt13" name="bg1.png" path="/Res/"/>
+    <component id="u5mt14" name="AthleticsItem.xml" path="/Component/"/>
+    <image id="u5mt15" name="dxfhdh4.png" path="/Res/"/>
+    <component id="u5mt16" name="AthleticsMain.xml" path="/" exported="true"/>
+    <component id="u5mt17" name="BattleReport.xml" path="/Component/"/>
+    <component id="u5mt18" name="BattleReportItem.xml" path="/Component/"/>
+    <image id="u5mt19" name="sdfgfdg564.png" path="/Res/" scale="9grid" scale9grid="54,10,108,14"/>
+    <component id="u5mt1a" name="BattleReportMain.xml" path="/" exported="true"/>
+    <component id="u5mt1b" name="RankingListMain.xml" path="/" exported="true"/>
+    <image id="u5mt1c" name="dfghdfh695.png" path="/Res/"/>
+    <component id="u5mt1d" name="RankingItem.xml" path="/Component/"/>
+    <image id="u5mt1f" name="dfgdf4g6.png" path="/Res/"/>
+    <image id="u5mt1g" name="dxfhfghf465.png" path="/Res/"/>
+    <image id="u5mt1h" name="dfhdh4564.png" path="/Res/"/>
+    <image id="u5mt1i" name="xfghf56.png" path="/Res/"/>
+    <image id="u5mt1j" name="xfgsd45.png" path="/Res/"/>
+    <image id="u5mt1k" name="dxfhdfhdfhdf465.png" path="/Res/"/>
+    <image id="u5mt1l" name="txdyds.png" path="/Res/"/>
+    <image id="u5mt1m" name="1.png" path="/Res/"/>
+    <image id="u5mt1n" name="01.png" path="/Res/" scale="9grid" scale9grid="15,14,16,70" duplicatePadding="true"/>
+    <image id="u5mt1o" name="02.png" path="/Res/" scale="9grid" scale9grid="8,28,12,56" duplicatePadding="true"/>
+    <image id="u5mt1p" name="03.png" path="/Res/" scale="9grid" scale9grid="16,28,19,56" duplicatePadding="true"/>
+    <image id="u5mt1q" name="04.png" path="/Res/" scale="9grid" scale9grid="15,28,16,56" duplicatePadding="true"/>
+    <image id="u5mt1r" name="05.png" path="/Res/" scale="9grid" scale9grid="15,13,14,26"/>
+    <image id="u5mt1t" name="111.png" path="/Res/" scale="9grid" scale9grid="14,14,28,28"/>
+    <component id="u5mt1u" name="MyselfItem.xml" path="/Component/"/>
+    <image id="u5mt1v" name="06.png" path="/Res/" scale="9grid" scale9grid="18,28,24,56" duplicatePadding="true"/>
+    <image id="u5mt1w" name="07.png" path="/Res/" scale="9grid" scale9grid="10,28,17,56" duplicatePadding="true"/>
+    <image id="auqc1x" name="dfsgdfh5644dg.png" path="/Res/"/>
+    <image id="auqc1y" name="dfsghdf4hg56.png" path="/Res/" scale="9grid" scale9grid="0,31,11,14"/>
+    <image id="auqc1z" name="cgfj2fg6j256fg.png" path="/Res/" scale="9grid" scale9grid="7,50,14,6"/>
+    <image id="auqc20" name="xdgdfg54.png" path="/Res/newRes2/"/>
+    <image id="auqc21" name="dfgdfh151.png" path="/Res/newRes2/"/>
+    <component id="auqc22" name="Vs.xml" path="/Component/"/>
+    <component id="auqc23" name="LeftBarExp.xml" path="/Component/" exported="true"/>
+    <component id="auqc27" name="RightBarExp.xml" path="/Component/" exported="true"/>
+    <component id="auqc28" name="PVPFight.xml" path="/" exported="true"/>
+    <image id="auqc29" name="3.png" path="/Res/bossFight/" scale9grid="90,49,180,28" atlas="10"/>
+    <image id="auqc2a" name="2.PNG" path="/Res/bossFight/" atlas="10"/>
+    <image id="auqc2b" name="1.png" path="/Res/bossFight/" atlas="10"/>
+    <component id="auqc2c" name="PVPWin.xml" path="/" exported="true"/>
+    <component id="auqc2d" name="PVPLose.xml" path="/" exported="true"/>
+    <image id="auqc2e" name="dfhdf456h4.png" path="/Res/newRes2/"/>
+    <image id="auqc2f" name="xfghdfh44515.png" path="/Res/newRes2/"/>
+    <image id="auqc2g" name="zdsb.png" path="/Res/newRes2/"/>
+    <image id="auqc2h" name="zdsl.png" path="/Res/newRes2/"/>
+    <image id="auqc2i" name="dfhdfhdf754.png" path="/Res/newRes2/"/>
+    <image id="auqc2j" name="dfhdh54d5.png" path="/Res/newRes2/"/>
+    <image id="auqc2k" name="sdgsdgh456.png" path="/Res/newRes2/"/>
+    <image id="auqc2m" name="dhdf486gh46f.png" path="/Res/newRes2/"/>
+    <image id="auqc2n" name="nn1.png" path="/Res/newRes2/"/>
+    <image id="auqc2o" name="nn2.png" path="/Res/newRes2/"/>
+    <image id="auqc2p" name="dfgdfhd156456.png" path="/Res/newRes2/"/>
+    <image id="auqc2q" name="dfhdf5h41.png" path="/Res/newRes2/"/>
+    <image id="auqc2r" name="dfgdfgdfg.png" path="/Res/newRes2/"/>
+    <image id="auqc2s" name="dhdfhdh4684.png" path="/Res/newRes2/"/>
+    <component id="auqc2t" name="fightLb.xml" path="/Component/"/>
+    <misc id="auqc2v" name="PVPMap_VS.atlas" path="/Res/newRes2/spine/"/>
+    <image id="auqc2w" name="PVPMap_VS.png" path="/Res/newRes2/spine/"/>
+    <spine id="auqc2u" name="PVPMap_VS.skel" path="/Res/newRes2/spine/" width="269" height="270" require="auqc2v,auqc2w" atlasNames="PVPMap_VS" anchor="130,137"/>
+    <image id="pu202x" name="fgjfjh46.png" path="/Res/" scale="9grid" scale9grid="31,12,62,18"/>
+    <image id="pu202y" name="dddv44.png" path="/Res/"/>
+    <image id="pu202z" name="sdgsdghdf4174.png" path="/Res/"/>
+    <component id="eh4f30" name="BuyFightTimes.xml" path="/" exported="true"/>
+    <image id="eh4f31" name="reduceBtn.png" path="/Component/Window/Res/useitem/"/>
+    <image id="eh4f32" name="addBtn.png" path="/Component/Window/Res/useitem/"/>
+    <image id="eh4f33" name="txtbg.png" path="/Component/Window/Res/useitem/" scale="9grid" scale9grid="26,16,7,7"/>
+    <image id="gssc34" name="kongbai.png" path="/Res/"/>
+    <image id="r2pa35" name="dgsd6546.png" path="/Res/"/>
+    <image id="r2pa36" name="dfhd458h4d.png" path="/Res/newRes2/"/>
+    <image id="r2pa37" name="sdmflksglksdfg3.png" path="/Res/newRes2/"/>
+    <image id="xezf38" name="arena_popup_btn01.png" path="/Res/new/"/>
+    <image id="xezf39" name="arena_popup_btn02.png" path="/Res/new/"/>
+    <image id="xezf3a" name="arena_popup_icon01.png" path="/Res/new/"/>
+    <image id="xezf3b" name="arena_popup_bg01.png" path="/Res/new/" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="xezf3c" name="arena_popup_bg02.png" path="/Res/new/"/>
+    <image id="xezf3d" name="arena_popup_bg03.png" path="/Res/new/"/>
+    <image id="xezf3e" name="arena_fight_bg01.png" path="/Res/new/"/>
+    <image id="xezf3f" name="arena_fight_icon01.png" path="/Res/new/"/>
+    <image id="xezf3g" name="arena_fight_img01.png" path="/Res/new/"/>
+    <image id="xezf3h" name="arena_icon01.png" path="/Res/new/"/>
+    <image id="xezf3i" name="arena_img1.png" path="/Res/new/"/>
+    <image id="xezf3j" name="arena_bg01.png" path="/Res/new/" scale="9grid" scale9grid="14,14,28,28"/>
+    <image id="xezf3k" name="arena_bg02.png" path="/Res/new/" scale="9grid" scale9grid="16,16,32,32"/>
+    <image id="xezf3l" name="arena_bg03.png" path="/Res/new/"/>
+    <image id="xezf3m" name="竞技场-挑战次数购买.png" path="/Res/new/"/>
+    <image id="xezf3n" name="竞技场-战报.png" path="/Res/new/"/>
+    <image id="xezf3o" name="首页-战斗胜利.png" path="/Res/new/"/>
+    <image id="xezf3p" name="首页-战斗失败.png" path="/Res/new/"/>
+    <image id="xezf3q" name="竞技场.png" path="/Res/new/"/>
+    <image id="xezf3r" name="竞技场-帮助.png" path="/Res/new/"/>
+    <image id="xezf3s" name="竞技场-入口.png" path="/Res/new/"/>
+    <image id="xezf3t" name="arena_bottom_btn01.png" path="/Res/new/"/>
+    <image id="xezf3u" name="arena_bottom_icon01.png" path="/Res/new/"/>
+    <image id="xezf3v" name="arena_list_bg01.png" path="/Res/new/"/>
+    <image id="xezf3w" name="arena_list_bg021.png" path="/Res/new/" scale="9grid" scale9grid="16,1,32,31"/>
+    <image id="xezf3x" name="arena_list_bg022.png" path="/Res/new/" scale="9grid" scale9grid="16,0,32,32"/>
+    <image id="xezf3y" name="arena_list_bg031.png" path="/Res/new/"/>
+    <image id="xezf3z" name="arena_list_bg032.png" path="/Res/new/"/>
+    <image id="xezf40" name="arena_list_bg041.png" path="/Res/new/"/>
+    <image id="xezf41" name="arena_list_bg042.png" path="/Res/new/"/>
+    <image id="xezf42" name="arena_list_bg0421.png" path="/Res/new/"/>
+    <image id="xezf43" name="arena_list_btn01.png" path="/Res/new/"/>
+    <image id="xezf44" name="arena_list_top_bg01.png" path="/Res/new/" scale="9grid" scale9grid="19,19,38,38"/>
+    <image id="xezf45" name="arena_list_top_bg02.png" path="/Res/new/"/>
+    <image id="xezf46" name="arena_list_top_icon022.png" path="/Res/new/"/>
+    <component id="xezf47" name="ReportBtn.xml" path="/Component/"/>
+    <misc id="xezf48" name="PVPMap_jjc.atlas.txt" path="/Res/spine/"/>
+    <image id="xezf49" name="PVPMap_jjc.png" path="/Res/spine/"/>
+    <image id="xezf4a" name="PVPMap_jjc_2.png" path="/Res/spine/"/>
+    <image id="xezf4b" name="PVPMap_jjc_3.png" path="/Res/spine/"/>
+    <spine id="xezf4c" name="PVPMap_jjc.skel" path="/Res/spine/" width="749" height="263" require="xezf48,xezf49,xezf4a,xezf4b" atlasNames="PVPMap_jjc,PVPMap_jjc_2,PVPMap_jjc_3" anchor="412,138"/>
+    <component id="xezf4d" name="PvpItem.xml" path="/Component/"/>
+  </resources>
+  <publish name="PVPMap" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,136 @@
+Pet_cwxl.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+kuang_001
+	bounds: 2, 908, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_002
+	bounds: 2, 792, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_003
+	bounds: 2, 676, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_004
+	bounds: 2, 560, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_005
+	bounds: 2, 444, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_006
+	bounds: 2, 328, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_007
+	bounds: 690, 336, 686, 114
+	offsets: 1, 1, 688, 116
+	rotate: 90
+kuang_008
+	bounds: 2, 212, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_009
+	bounds: 806, 336, 686, 114
+	offsets: 1, 1, 688, 116
+	rotate: 90
+kuang_010
+	bounds: 2, 96, 686, 114
+	offsets: 1, 1, 688, 116
+xing_001
+	bounds: 922, 656, 28, 33
+	offsets: 7, 57, 104, 100
+xing_002
+	bounds: 320, 57, 31, 37
+	offsets: 5, 55, 104, 100
+xing_003
+	bounds: 786, 258, 90, 76
+	offsets: 4, 18, 104, 100
+xing_004
+	bounds: 922, 942, 94, 80
+	offsets: 2, 16, 104, 100
+xing_005
+	bounds: 690, 253, 94, 81
+	offsets: 4, 13, 104, 100
+xing_006
+	bounds: 86, 15, 93, 79
+	offsets: 6, 12, 104, 100
+xing_007
+	bounds: 2, 2, 92, 82
+	offsets: 8, 7, 104, 100
+	rotate: 90
+xing_008
+	bounds: 690, 170, 90, 81
+	offsets: 10, 5, 104, 100
+xing_009
+	bounds: 878, 296, 35, 38
+	offsets: 64, 5, 104, 100
+xing_010
+	bounds: 690, 111, 74, 57
+	offsets: 23, 4, 104, 100
+xing_011
+	bounds: 181, 34, 75, 60
+	offsets: 21, 3, 104, 100
+xing_012
+	bounds: 922, 878, 75, 62
+	offsets: 19, 3, 104, 100
+xing_013
+	bounds: 922, 814, 62, 62
+	offsets: 18, 4, 104, 100
+xing_014
+	bounds: 922, 751, 62, 61
+	offsets: 17, 6, 104, 100
+xing_015
+	bounds: 258, 34, 60, 60
+	offsets: 18, 7, 104, 100
+xing_016
+	bounds: 922, 691, 58, 58
+	offsets: 19, 8, 104, 100
+xing_017
+	bounds: 999, 920, 20, 23
+	offsets: 20, 42, 104, 100
+	rotate: 90
+xing_018
+	bounds: 181, 15, 17, 19
+	offsets: 21, 44, 104, 100
+	rotate: 90
+xing_019
+	bounds: 766, 152, 14, 16
+	offsets: 22, 45, 104, 100
+xing_020
+	bounds: 766, 152, 14, 16
+	offsets: 22, 45, 104, 100
+
+Pet_cwxl_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+kuang_011
+	bounds: 2, 814, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_012
+	bounds: 2, 698, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_013
+	bounds: 2, 582, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_014
+	bounds: 2, 466, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_015
+	bounds: 2, 350, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_016
+	bounds: 2, 234, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_017
+	bounds: 690, 242, 686, 114
+	offsets: 1, 1, 688, 116
+	rotate: 90
+kuang_018
+	bounds: 2, 118, 686, 114
+	offsets: 1, 1, 688, 116
+kuang_019
+	bounds: 806, 242, 686, 114
+	offsets: 1, 1, 688, 116
+	rotate: 90
+kuang_020
+	bounds: 2, 2, 686, 114
+	offsets: 1, 1, 688, 116

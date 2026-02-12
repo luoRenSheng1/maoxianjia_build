@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="83,18" extention="ProgressBar">
+  <displayList>
+    <image id="n0_j2lc" name="n0" src="j2lc5" fileName="Res/hc1.png" pkg="5moj1x39" xy="0,0" size="83,18"/>
+    <loader id="n1_j2lc" name="bar" xy="1,1" size="81,16" url="ui://5moj1x39j2lc6" fill="scaleFree"/>
+    <text id="n2_j2lc" name="title" xy="21,0" size="40,19" fontSize="12" color="#ffffff" align="center" autoSize="none" strokeColor="#1d9583" text=""/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

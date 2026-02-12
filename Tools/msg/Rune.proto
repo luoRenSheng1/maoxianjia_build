@@ -1,0 +1,131 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+		
+	         
+	         
+	        
+	          
+
+		
+
+//下发新获取的符石 --作弊码或运营添加
+message NewRune_PC
+{			//[eMsg_NewRune_PC = 850 ; ];
+	optional RuneInfo  runes = 1;
+}
+
+//符石自动出售--超过上限获得即出售
+message RuneAutoSell_PC   //eMsg_RuneAutoSell_PC = 851 ; 
+{
+	repeated  RuneInfo sold_runes = 1;  //已出售的符石
+	optional double gold = 2;    //本次出售获得的金币
+	optional Finance finance = 3;  //最新账户余额
+}
+
+//符石放入战斗栏
+message RuneInSlot_CS   //eMsg_RuneInSlot_CS = 852 ;  
+{
+	optional uint64  rune_guid = 1; //符石guid
+	optional uint32  slot_id  = 2;  //栏id
+}		   					
+			
+//符石放入战斗栏回复
+message RuneInSlot_SC  //eMsg_RuneInSlot_SC = 853 ;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  rune_guid = 2; //卸下的符石guid
+	optional PlayerRuneSlotsInfo rune_slot = 3;  //符石栏状信息
+}
+
+	         
+	         	
+
+//符石移除战斗栏
+message RemoveRuneFromSlot_CS   //eMsg_RemoveRuneFromSlot_CS = 854 ; 
+{
+	optional uint32  slot_id  = 1;  //栏id
+}		   					
+			
+//符石移除战斗栏回复
+message RemoveRuneFromSlot_SC   //eMsg_RemoveRuneFromSlot_SC = 855 ; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  rune_guid = 2; // 移除成功的技能id
+	optional PlayerRuneSlotsInfo rune_slot = 3;  //符石栏状信息
+}
+
+
+
+//符石再装备栏里交换位置
+message RunesSwitchInSlots_CS   //eMsg_RunesSwitchInSlots_CS = 856;  
+{
+	optional uint32  slot_id1  = 1;  //要交换的栏1
+	optional uint32  slot_id2  = 2;  //要交换的栏2
+}      
+
+//符石再装备栏里交换位置回复     
+message RunesSwitchInSlots_SC   //eMsg_RunesSwitchInSlots_SC = 857;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerRuneSlotsInfo skill_slot = 2;  //符石栏状信息
+}
+        
+	          
+//符石批量放入战斗栏
+message BatchReplaceRuneInSlot_CS   //eMsg_BatchReplaceRuneInSlot_CS = 858 ;    
+{
+	repeated uint64  rune_guid = 1; //要放入的符石guid
+}		   					
+			
+//符石批量放入战斗栏回复
+message BatchReplaceRuneInSlot_SC   //eMsg_BatchReplaceRuneInSlot_SC = 859 ;      
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerRuneSlotsInfo rune_slot = 2;  //符石栏状信息
+}	
+
+
+	
+
+//符石出售
+message RunesSell_CS  //eMsg_RunesSell_CS = 860;
+{
+	//以下二者填一个即可，两个都填充，优先处理atk_counter（按攻击倍数出售）
+	repeated uint64  rune_guid = 1; //要出售的符石
+	optional uint32  atk_counter = 2; //按攻击倍数出售 --ui用户自己选择，如果填0，则处理成员1--- 提交的 要出售的符石  
+	optional uint32  stage_node = 3; //提交时候所处的关卡中节点
+}		   					
+			
+//符石出售回复	
+message RunesSell_SC   //eMsg_RunesSell_SC = 861; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint64  rune_guid = 2; //被出售的符石
+	optional double gold = 3;    //本次出售获得的金币 -- 用于表现用
+	optional Finance finance = 4;  //最新账户余额
+}	
+
+
+	
+	 
+
+	
+
+
+   
+
+
+
+	 
+	
+	   					
+			
+
+	 
+	
+	
+	      

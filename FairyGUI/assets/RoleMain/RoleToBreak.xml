@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="attrCtrl" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18," selected="0"/>
+  <displayList>
+    <component id="n1_rm2c" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_rm2c" name="bgLoader" xy="16,153" size="688,895" group="n14_rm2c" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <loader id="n16_llb1" name="n16" xy="109,130" size="502,94" group="n14_rm2c" url="ui://5moj1x39f34jdxybj">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n15_llb1" name="n15" xy="294,147" size="132,44" group="n14_rm2c" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="角色突破">
+      <relation target="n16_llb1" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n27_llb1" name="n27" xy="27,251" size="666,400" group="n14_rm2c" url="ui://m37flevdllb1dxyec"/>
+    <graph id="n3_rm2c" name="spine" xy="229,326" pivot="0.5,1" size="262,283" group="n14_rm2c" aspect="true" alpha="0.5" type="rect" fillColor="#ff666666">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+    </graph>
+    <loader id="n18_llb1" name="n18" xy="27,652" size="666,12" group="n14_rm2c" url="ui://5moj1x39llb1dxye0" fill="scaleFree">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n28_llb1" name="n28" xy="497,544" size="192,93" group="n31_llb1" url="ui://m37flevdllb1dxyfz"/>
+    <list id="n5_rm2c" name="starList" xy="515,507" size="150,33" group="n31_llb1" layout="row" colGap="6" defaultItem="ui://5moj1x39ozj9dxy5m" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n28_llb1" sidePair="center-center,bottom-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_rm2c" name="roleNameLb" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="551,554" group="n31_llb1">
+      <relation target="n28_llb1" sidePair="center-center,top-top"/>
+    </component>
+    <loader id="n29_llb1" name="occupationLb" xy="514,591" size="70,38" group="n31_llb1" url="ui://m37flevdllb1dxyfw">
+      <relation target="n28_llb1" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n30_llb1" name="attrLb" xy="603,591" size="70,38" group="n31_llb1" url="ui://m37flevdllb1dxyfv">
+      <relation target="n28_llb1" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <group id="n31_llb1" name="n31" xy="497,507" size="192,130" group="n14_rm2c" advanced="true">
+      <relation target="n0_rm2c" sidePair="right-right,top-top"/>
+    </group>
+    <loader id="n19_llb1" name="n19" xy="40,682" size="640,80" group="n22_llb1" url="ui://5moj1x39f34jdxyae" fill="scaleFree"/>
+    <text id="n6_rm2c" name="n6" xy="68,709" size="100,34" group="n22_llb1" fontSize="24" color="#4c2911" bold="true" text="等级上限">
+      <relation target="n19_llb1" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n8_rm2c" name="curLb" xy="403,709" size="78,34" group="n22_llb1" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=100}"/>
+    <loader id="n21_llb1" name="n21" xy="512,709" size="32,32" group="n22_llb1" url="ui://5moj1x39f34jdxybv"/>
+    <text id="n7_rm2c" name="nextLb" xy="576,709" size="78,34" group="n22_llb1" fontSize="24" color="#b8df13" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=160}"/>
+    <group id="n22_llb1" name="n22" xy="40,682" size="640,80" group="n14_rm2c" advanced="true">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n20_llb1" name="n20" xy="40,779" size="640,80" group="n25_llb1" url="ui://5moj1x39f34jdxyae" fill="scaleFree"/>
+    <text id="n23_llb1" name="n23" xy="68,804" size="100,34" group="n25_llb1" fontSize="24" color="#4c2911" bold="true" text="属性提升">
+      <relation target="n20_llb1" sidePair="middle-middle,left-left"/>
+    </text>
+    <loader id="n12_rm2c" name="attrIcon" xy="403,796" size="48,48" group="n26_llb1" url="ui://5moj1x39ozj9dxy64" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="attrCtrl" pages="0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18" values="ui://5moj1x39ozj9dxy64|ui://5moj1x39ozj9dxy63|ui://5moj1x39ozj9dxy62|ui://5moj1x39ozj9dxy61|ui://5moj1x39ozj9dxy5z|ui://5moj1x39ozj9dxy5y|ui://5moj1x39ozj9dxy65|ui://5moj1x39ozj9dxy5x|ui://5moj1x39ozj9dxy5v|ui://5moj1x39ozj9dxy5u|ui://5moj1x39ozj9dxy5t|ui://5moj1x39ozj9dxy5s|ui://5moj1x39ozj9dxy5r|ui://5moj1x39ozj9dxy5q|ui://5moj1x39ozj9dxy5p|ui://5moj1x39ozj9dxy5w|ui://5moj1x39ozj9dxy66|ui://5moj1x39ozj9dxy5o" default="ui://5moj1x39ozj9dxy60"/>
+    </loader>
+    <text id="n24_llb1" name="attrName" xy="459,804" size="108,34" group="n26_llb1" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="生命上限:"/>
+    <text id="n13_rm2c" name="attrValue" xy="575,804" size="78,34" group="n26_llb1" fontSize="24" color="#b8df13" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=100}%"/>
+    <group id="n26_llb1" name="n26" xy="403,796" size="250,48" group="n25_llb1" advanced="true" layout="hz" lineGap="2" colGap="8" excludeInvisibles="true">
+      <relation target="n20_llb1" sidePair="right-right"/>
+    </group>
+    <group id="n25_llb1" name="n25" xy="40,779" size="640,80" group="n14_rm2c" advanced="true">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+    </group>
+    <list id="n10_rm2c" name="itemList" xy="208,891" size="303,40" group="n14_rm2c" layout="row" colGap="20" defaultItem="ui://5moj1x39kqmidxy8g" align="center">
+      <relation target="n0_rm2c" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_rm2c" name="breakBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,935" size="218,84" group="n14_rm2c">
+      <Button title="突破" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n17_llb1" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1066" size="84,84" group="n14_rm2c">
+      <relation target="n0_rm2c" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n14_rm2c" name="n14" xy="16,130" size="688,1020" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

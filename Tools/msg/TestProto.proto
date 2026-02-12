@@ -1,0 +1,92 @@
+syntax = "proto2";
+
+package msg;
+
+
+enum eTestProtoType
+{
+	eTestProtoType_test1 = 1;		
+	eTestProtoType_test2 = 2;		
+	eTestProtoType_test3 = 3;	
+}
+
+
+// 玩家属性条目
+message MemberTestAttr 
+{
+	optional uint32 attr_id = 1;		//属性ID
+	optional int64 attr_value = 2;		//属性值
+	optional string attr_name = 3;       //属性字符串
+	
+	
+	repeated uint32 attr_repeated_id = 4;		//属性ID
+	repeated int64 attr_repeated_value = 5;		//属性值
+	repeated string attr_repeated_name = 6;       //属性字符串
+	
+	
+	optional eTestProtoType test_enum=7;                    //enum
+	repeated eTestProtoType test_repeated_enum=8;                    //enum
+}
+
+
+
+// 获取玩家信息反馈&&推送玩家信息
+message TestMsg_Proto2_CS {			//[default id= eTestMsg_Proto2_CS]
+		optional double test_double = 1;				//double
+		optional float test_float = 2;				//float
+		optional int32 test_int32 = 3;				//int32
+		optional int64 test_int64 = 4;				//int64
+		optional uint32 test_uint32 = 5;				//uint32
+		optional uint64 test_uint64 = 6;				//uint64
+		optional bool test_bool = 7;				//bool
+		optional string test_string = 8;				//string
+		optional bytes test_bytes = 9;				//bytes
+		optional MemberTestAttr test_member=10;                    //MemberTestAttr
+		
+		
+		repeated double test_repeated_double = 11;				//double
+		repeated float test_repeated_float = 12;				//float
+		repeated int32 test_repeated_int32 = 13;				//int32
+		repeated int64 test_repeated_int64 = 14;				//int64
+		repeated uint32 test_repeated_uint32 = 15;				//uint32
+		repeated uint64 test_repeated_uint64 = 16;				//uint64
+		repeated bool test_repeated_bool = 17;				//bool
+		repeated string test_repeated_string = 18;				//string
+		repeated bytes test_repeated_bytes = 19;				//bytes
+		repeated MemberTestAttr test_repeated_member=20;                    //MemberTestAttr
+		
+		
+		optional eTestProtoType test_enum=21;                    //enum
+		repeated eTestProtoType test_repeated_enum=22;                    //enum
+}
+
+// 获取玩家信息反馈&&推送玩家信息
+message TestMsg_Proto2_SC {			//[default id= eTestMsg_Proto2_SC]
+		optional double test_double = 1;				//double
+		optional float test_float = 2;				//float
+		optional int32 test_int32 = 3;				//int32
+		optional int64 test_int64 = 4;				//int64
+		optional uint32 test_uint32 = 5;				//uint32
+		optional uint64 test_uint64 = 6;				//uint64
+		optional bool test_bool = 7;				//bool
+		optional string test_string = 8;				//string
+		optional bytes test_bytes = 9;				//bytes
+		optional MemberTestAttr test_member=10;                    //MemberTestAttr
+		
+		
+		repeated double test_repeated_double = 11;				//double
+		repeated float test_repeated_float = 12;				//float
+		repeated int32 test_repeated_int32 = 13;				//int32
+		repeated int64 test_repeated_int64 = 14;				//int64
+		repeated uint32 test_repeated_uint32 = 15;				//uint32
+		repeated uint64 test_repeated_uint64 = 16;				//uint64
+		repeated bool test_repeated_bool = 17;				//bool
+		repeated string test_repeated_string = 18;				//string
+		repeated bytes test_repeated_bytes = 19;				//bytes
+		repeated MemberTestAttr test_repeated_member=20;                    //MemberTestAttr
+		
+		
+		optional eTestProtoType test_enum=21;                    //enum
+		repeated eTestProtoType test_repeated_enum=22;                    //enum
+}
+

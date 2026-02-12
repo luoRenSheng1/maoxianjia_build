@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n3_plio" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n13_f34j" name="n13" xy="16,363" size="688,448" group="n4_plio" url="ui://5moj1x39f34jdxy9y" fill="scaleFree">
+      <relation target="n6_plio" sidePair="height-height"/>
+    </loader>
+    <text id="n10_hz5c" name="n10" xy="326,382" size="68,44" group="n4_plio" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="帮助">
+      <relation target="n13_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n6_plio" name="helpList" xy="40,474" size="640,264" group="n4_plio" lineGap="10" defaultItem="ui://0anhreylplio1c" align="center">
+      <relation target="n13_f34j" sidePair="top-top"/>
+      <item controllers="ctrl,1"/>
+      <item controllers="ctrl,2"/>
+      <item controllers="ctrl,3"/>
+    </list>
+    <component id="n11_hz5c" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="322,840" size="76,76" group="n4_plio">
+      <relation target="n13_f34j" sidePair="top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n4_plio" name="n4" xy="16,363" size="688,553" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,40" pivot="0.5,0.5">
+  <controller name="type" pages="0,,1," selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="充足"/>
+    <remark page="1" value="不足"/>
+  </controller>
+  <displayList>
+    <loader id="n4_f34j" name="n4" xy="5,8" size="127,24" url="ui://5moj1x39f34jdxybt" fill="scaleFree"/>
+    <loader id="n1_kqmi" name="icon" xy="-9,0" size="40,40" url="ui://0anhreylf34jdxy9n" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n2_kqmi" name="num1" xy="30,3" size="87,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#25211d" strokeSize="2" text="5555.00万">
+      <gearDisplay controller="type" pages="0"/>
+      <gearColor controller="status" pages="0,1" values="#ffffff,#25211d|#f05769,#25211d"/>
+      <relation target="n1_kqmi" sidePair="left-left"/>
+    </text>
+    <text id="n3_kqmi" name="num2" xy="30,3" size="87,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{value=5555}/{cost=11}">
+      <gearDisplay controller="type" pages="1"/>
+      <gearColor controller="status" pages="0,1" values="#ffffff,#000000|#f05769,#25211d"/>
+      <relation target="n1_kqmi" sidePair="left-left"/>
+    </text>
+  </displayList>
+</component>

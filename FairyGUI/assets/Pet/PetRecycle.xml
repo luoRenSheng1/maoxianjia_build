@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://lxs2h4iff34jdxy8s" designImageAlpha="0" designImageLayer="1">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="宠物回收"/>
+    <remark page="1" value="技能书回收"/>
+  </controller>
+  <displayList>
+    <component id="n0_kqmi" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n15_f34j" name="n15" xy="16,82" size="688,1008" group="n13_kqmi" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n2_kqmi" name="n2" xy="326,97" size="68,44" group="n13_kqmi" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="回收">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n6_kqmi" name="list" xy="40,205" size="640,690" group="n13_kqmi" lineGap="12" defaultItem="ui://lxs2h4ifhz5cdxy7i" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_kqmi" name="n7" xy="263,923" size="52,34" group="n9_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="回收"/>
+    <component id="n8_kqmi" name="tabCom" src="kqmidxy8g" fileName="Component/TabCom.xml" pkg="5moj1x39" xy="325,922" group="n9_kqmi"/>
+    <group id="n9_kqmi" name="n9" xy="263,922" size="194,40" group="n13_kqmi" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n16_ucd4" name="recycleBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,971" size="218,84" group="n13_kqmi">
+      <gearDisplay controller="type" pages="0"/>
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="一键回收" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n17_ucd4" name="recycleBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,971" size="218,84" group="n13_kqmi">
+      <gearDisplay controller="type" pages="1"/>
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="一键回收" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n12_kqmi" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="322,1110" size="76,76" group="n13_kqmi">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n13_kqmi" name="n13" xy="16,82" size="688,1104" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

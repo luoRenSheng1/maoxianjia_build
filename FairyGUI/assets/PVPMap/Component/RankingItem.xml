@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,100">
+  <controller name="numCtrl" exported="true" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="第一"/>
+    <remark page="1" value="第二"/>
+    <remark page="2" value="第三"/>
+    <remark page="3" value="其他"/>
+  </controller>
+  <controller name="status" pages="0,,1,,2," selected="0">
+    <remark page="0" value="挑战"/>
+    <remark page="1" value="站领"/>
+    <remark page="2" value="自己"/>
+  </controller>
+  <displayList>
+    <loader id="n26_xezf" name="n26" xy="0,0" size="696,100" url="ui://zoxecbv2xezf40"/>
+    <loader id="n27_xezf" name="n27" xy="9,10" size="80,80" url="ui://zoxecbv2xezf3z"/>
+    <text id="n4_u5mt" name="num" xy="38,28" size="22,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="1">
+      <relation target="n27_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n17_u5mt" name="heroIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="103,4" pivot="0.5,0.5" group="n22_pu20" aspect="true" scale="0.9,0.9"/>
+    <text id="n18_u5mt" name="pName" xy="198,14" size="151,33" group="n22_pu20" fontSize="20" color="#3d558d" vAlign="middle" autoSize="shrink" bold="true" text="名字123456789"/>
+    <loader id="n28_xezf" name="n28" xy="216,54" size="123,32" group="n22_pu20" url="ui://zoxecbv2xezf3w" fill="scaleFree">
+      <relation target="n20_u5mt" sidePair="width-width"/>
+    </loader>
+    <loader id="n29_xezf" name="n29" xy="196,45" size="48,48" group="n22_pu20" url="ui://5moj1x39f34jdxyax" fill="scale">
+      <relation target="n28_xezf" sidePair="left-left"/>
+    </loader>
+    <text id="n20_u5mt" name="fightingCapacity" xy="246,52" size="70,34" group="n22_pu20" fontSize="24" color="#ffffff" vAlign="middle" bold="true" text="6.24M">
+      <relation target="n28_xezf" sidePair="left-left"/>
+    </text>
+    <group id="n22_pu20" name="n22" xy="103,4" size="246,92" advanced="true">
+      <gearDisplay controller="status" pages="0,2,3"/>
+      <relation target="n26_xezf" sidePair="left-left"/>
+    </group>
+    <list id="n21_pu20" name="rewardList" xy="384,10" size="165,79" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="5" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_u5mt" name="challengeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="558,10" size="128,80">
+      <gearDisplay controller="status" pages="0,2"/>
+      <gearLook controller="status" pages="2" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="挑战" titleFontSize="28" icon="ui://zoxecbv2xezf43"/>
+    </component>
+    <component id="n9_u5mt" name="standCollarBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="558,10" size="128,80">
+      <gearDisplay controller="status" pages="1"/>
+      <Button title="占领" titleFontSize="28" icon="ui://zoxecbv2xezf43"/>
+    </component>
+    <text id="n24_pu20" name="n24" xy="167,28" size="132,44" group="n25_pu20" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="虚位以待"/>
+    <group id="n25_pu20" name="n25" xy="167,28" size="132,44" advanced="true">
+      <gearDisplay controller="status" pages="1"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,111 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+message CopyInfo
+{
+	optional eCopyType copy_type = 1; //副本类型
+	optional int32 tickets = 2;  //入场券数量   
+    optional uint32 copy_stage_id = 3; //当前所处关卡  为0表示没打过，
+	optional int32 ticket_item_id = 4; //入场券item id
+	optional  uint32 free_times_ad = 5; //免费剩余通过广告打副本次数
+}
+
+//请求副本信息
+message CopyInfo_CS   //eMsg_CopyInfo_CS = 406; 
+{
+
+}
+
+	     
+//请求副本信息反馈
+message CopyInfo_SC   //eMsg_CopyInfo_SC = 407;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated CopyInfo  copy_info = 2;  //副本信息
+}
+
+	           
+	          
+	
+	              
+	              
+	
+					
+			        
+
+//副本开始  客户端提交
+message Copy_Begin_CS   //eMsg_Copy_Begin_CS = 408;   
+{
+	optional eCopyType copy_type = 1; //要开始的副本类型
+	optional uint32 start_stage_id = 2;  // 要开始的关卡
+	optional bool is_by_ad = 3;  //是否通过广告次数
+}
+
+	     
+//副本开始反馈
+message Copy_Begin_SC   //eMsg_Copy_Begin_SC = 409;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional eCopyType copy_type = 2; //要开始的副本类型
+	optional uint32 start_stage_id = 3;  // 要开始的关卡
+	optional uint64 required_end_time = 4;  // 在该时间戳结束前完成有奖励
+}
+
+
+
+
+
+                
+//副本结束 客户端提交
+message Copy_End_CS   //eMsg_Copy_End_CS = 410;	
+{
+	optional eCopyType copy_type = 1; //副本类型
+	optional uint32 start_stage_id = 2;  // 本次打的关卡
+	optional bool is_win = 3; //是否获胜
+	optional bool is_direct_finish = 4; //是否扫荡
+}	                
+	
+//副本结束 服务器提交	
+message Copy_End_SC   //eMsg_Copy_End_SC = 411;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 start_stage_id = 2;  // 本次打的关卡
+	optional CopyInfo copy_info = 3; //最新副本信息
+	repeated ItemInfoWithGuid reward_items = 4;  //奖励道具
+	optional Finance finance = 5;  //最终账户货币
+	optional bool is_win = 6; //是否获胜
+	optional bool is_direct_finish = 7; //是否扫荡
+}		
+				
+						
+  
+	          
+
+//通过广告获得副本券请求	
+message GetCopyFreeTimesByAD_CS   //eMsg_GetCopyFreeTimesByAD_CS = 424;    
+{
+	optional eCopyType copy_type = 1; //要开始的副本类型
+}
+
+//通过广告获得副本券反馈				
+message GetCopyFreeTimesByAD_SC   //eMsg_GetCopyFreeTimesByAD_SC = 425;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional eCopyType copy_type = 2; //要开始的副本类型
+	optional int32 tickets = 3;  //本次获得的入场券个数
+	optional int32 free_times_ad = 4;  //该副本剩余的免费广告次数
+	optional int32 ticket_item_id = 5;  //入场券itemID
+}
+
+
+
+
+
+
+                  
+

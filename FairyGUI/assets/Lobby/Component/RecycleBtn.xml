@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_kqmi" name="icon" xy="0,0" size="124,46" url="ui://s7x7ku0nf34jdxya1" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_kqmi" name="title" xy="24,10" size="76,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#313e10" strokeSize="2" text="一键回收">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

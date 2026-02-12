@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3ketdju5c">
+  <displayList>
+    <component id="n16_jiq9" name="frame" src="s2xhdxy7a" fileName="Component/Common/FrameMask_1.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_tdju" name="currency" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="47,14">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Label icon="ui://pdufy3kec2niid3"/>
+    </component>
+    <component id="n17_llb1" name="goldCurrency" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="200,14">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n18_llb1" name="diaCurrency" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="354,14">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n14_tdju" name="huntingShopBtn" src="tdju5l" fileName="Component/HuntingShopBtn.xml" xy="544,24">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n0_tdju" name="n0" xy="16,412" size="688,372" group="n12_tdju" url="ui://5moj1x39f34jdxyb3" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n8_tdju" sidePair="height-height"/>
+    </loader>
+    <loader id="n1_tdju" name="n1" xy="40,394" size="44,86" group="n12_tdju" url="ui://5moj1x39f34jdxybk">
+      <relation target="n0_tdju" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n2_tdju" name="n2" xy="636,392" size="44,86" group="n12_tdju" url="ui://5moj1x39f34jdxybk">
+      <relation target="n0_tdju" sidePair="right-right,top-top"/>
+    </loader>
+    <loader id="n4_tdju" name="n4" xy="109,389" size="502,94" group="n12_tdju" url="ui://5moj1x39f34jdxya1">
+      <relation target="n0_tdju" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n5_tdju" name="n5" xy="294,404" size="132,44" group="n12_tdju" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="狩猎任务">
+      <relation target="n4_tdju" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n6_tdju" name="n6" xy="291,515" size="32,32" group="n10_tdju" url="ui://5moj1x39f34jdxyaz">
+      <relation target="n9_tdju" sidePair="left-left"/>
+    </loader>
+    <text id="n9_tdju" name="timeLb" xy="328,515" size="98,34" group="n10_tdju" fontSize="24" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="00:00:00"/>
+    <group id="n10_tdju" name="n10" xy="291,515" size="135,34" group="n12_tdju" advanced="true" layout="hz" colGap="5" excludeInvisibles="true">
+      <relation target="n0_tdju" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n8_tdju" name="n8" xy="24,565" size="672,148" group="n12_tdju" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="n0_tdju" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n15_ob1s" name="taskInfo" src="p9n015" fileName="Component/TaskItem.xml" xy="40,580" group="n12_tdju"/>
+    <component id="n7_tdju" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,808" size="84,84" group="n12_tdju">
+      <relation target="n0_tdju" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n12_tdju" name="n12" xy="16,389" size="688,503" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

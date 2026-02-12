@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="v1wfpt3l">
+  <resources>
+    <component id="i9slh" name="Main.xml" path="/" exported="true"/>
+    <image id="i9sli" name="宝箱升级.png" path="/Sample/"/>
+    <image id="i9slj" name="升级中.png" path="/Sample/"/>
+    <component id="i9sl1a" name="Panel.xml" path="/UI/"/>
+    <image id="i9sl1c" name="btn-skip.png" path="/Res/"/>
+    <image id="i9sl1e" name="btn-close.png" path="/Res/"/>
+    <image id="i9sl1r" name="UI-04.png" path="/Res/"/>
+    <image id="i9sl20" name="ICON-+.png" path="/Res/"/>
+    <component id="i9sl21" name="BtnClose.xml" path="/Component/"/>
+    <component id="i9sl22" name="BtnSkip.xml" path="/Component/"/>
+    <component id="i9sl24" name="BtnHasten.xml" path="/Component/"/>
+    <component id="i9sl25" name="BtnCurrency.xml" path="/Component/"/>
+    <component id="i9sl28" name="ComAttrItem.xml" path="/Component/" exported="true"/>
+    <component id="i9sl29" name="BtnUpgrade.xml" path="/Component/"/>
+    <component id="i9sl2a" name="BtnBuy.xml" path="/Component/"/>
+    <component id="i9sl2b" name="ProgressBar.xml" path="/Component/"/>
+    <image id="9rjy2e" name="UI-btnGreen.png" path="/Res/" scale="9grid" scale9grid="96,32,40,7"/>
+    <image id="f34j2j" name="宠物-锻造升级.png" path="/Sample/"/>
+    <image id="f34j2k" name="general_forging_bg21.png" path="/Res/new/"/>
+    <image id="f34j2l" name="general_forging_bg31.png" path="/Res/new/"/>
+    <image id="f34j2m" name="general_forging_bg11.png" path="/Res/new/" scale="9grid" scale9grid="11,0,288,44"/>
+    <image id="ucd42n" name="首页-锻造升级2.png" path="/Res/"/>
+    <image id="ucd42o" name="首页-锻造升级3.png" path="/Res/"/>
+    <image id="ucd42p" name="首页-锻造升级1.png" path="/Res/"/>
+  </resources>
+  <publish name="TreasureLevelup" genCode="true"/>
+</packageDescription>

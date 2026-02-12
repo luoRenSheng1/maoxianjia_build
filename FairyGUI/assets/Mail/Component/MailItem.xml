@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,116">
+  <controller name="mailState" pages="0,,1,,2," selected="2">
+    <remark page="0" value="未读"/>
+    <remark page="1" value="已读"/>
+    <remark page="2" value="已读并领取"/>
+  </controller>
+  <displayList>
+    <image id="n12_f34j" name="n12" src="f34jdxybh" fileName="Res/newItem2/general_list_bg1.png" pkg="5moj1x39" xy="0,0" size="640,116"/>
+    <image id="n11_f34j" name="n11" src="f34jdxyb6" fileName="Res/newItem2/general_Item bottom frame_bg1.png" pkg="5moj1x39" xy="16,10"/>
+    <image id="n1_vcwq" name="n1" src="vcwq1" fileName="Res/n2.png" xy="32,26">
+      <gearDisplay controller="mailState" pages="0"/>
+      <relation target="n11_f34j" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_vcwq" name="n2" src="vcwq2" fileName="Res/n4.png" xy="32,26">
+      <gearDisplay controller="mailState" pages="1,2"/>
+      <relation target="n11_f34j" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n4_vcwq" name="titleLb" xy="122,22" size="221,34" fontSize="24" color="#4c2911" autoSize="shrink" bold="true" text="日常任务奖励"/>
+    <text id="n6_vcwq" name="endTimeLb" xy="122,66" size="109,25" fontSize="17" color="#fcf78e" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{value=9}天后到期"/>
+    <list id="n7_vcwq" name="rewardList" xy="139,53" size="355,78" scale="0.6,0.6" visible="false" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_vcwq" name="sendTimeLb" xy="359,79" size="116,34" visible="false" fontSize="24" color="#4c2911" align="right" autoSize="none" bold="true" text="刚刚"/>
+    <component id="n13_f34j" name="getBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="411,16" size="218,84">
+      <Button title="领取奖励" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n9_oekv" name="n9" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="602,12">
+      <gearDisplay controller="mailState" pages="0"/>
+    </component>
+    <loader id="n18_ucd4" name="n18" xy="0,0" size="640,116" url="ui://5moj1x39ucd4dxycl" fill="scaleFree">
+      <gearDisplay controller="mailState" pages="2"/>
+    </loader>
+    <image id="n15_f34j" name="n15" src="f34jdxybd" fileName="Res/newItem2/general_select_img.png" pkg="5moj1x39" xy="240,41" size="32,32" group="n17_f34j" aspect="true">
+      <relation target="n16_f34j" sidePair="left-left"/>
+    </image>
+    <text id="n16_f34j" name="n16" xy="276,38" size="88,39" group="n17_f34j" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="已领取">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n17_f34j" name="n17" xy="240,38" size="124,39" advanced="true">
+      <gearDisplay controller="mailState" pages="2"/>
+    </group>
+  </displayList>
+</component>

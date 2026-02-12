@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <loader id="n12_llb1" name="n12" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <image id="n0_ftc9" name="n0" src="surfi" fileName="Res/n78.png" xy="0,0" size="720,1108" visible="false">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <image id="n1_ftc9" name="n1" src="surfs" fileName="Res/n8.png" xy="0,0" size="720,1108" visible="false">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <loader id="n11_f34j" name="n11" xy="0,0" size="720,1108" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <loader id="n3_ftc9" name="bannerBg" xy="0,0" size="720,351" url="ui://i7ojazuuftc92j" fill="scaleFree" clearOnPublish="true"/>
+    <graph id="n9_pu20" name="spine" xy="317,63" pivot="0.5,1" size="100,100" visible="false"/>
+    <image id="n4_ftc9" name="n4" src="ftc92i" fileName="Res/gift/nn 1044 .png" xy="206,157" size="307,152"/>
+    <image id="n10_f34j" name="n10" src="f34j37" fileName="Res/new/title.png" xy="57,279">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n6_ftc9" name="n6" xy="267,290" size="185,54" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="钻石商店">
+      <relation target="n10_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n7_p3wt" name="diamondList" xy="0,382" size="721,692" layout="flow_hz" overflow="scroll" lineGap="10" colGap="-15" defaultItem="ui://i7ojazuup3wt2q" align="center" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_p3wt" name="n8" xy="33,391" size="504,35" visible="false" fontSize="25" color="#ffffff" strokeColor="#000000" strokeSize="2" text="钻石可直接用于购买游戏内所有钻石付费内容"/>
+  </displayList>
+</component>

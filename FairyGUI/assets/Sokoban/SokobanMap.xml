@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <loader id="n2_osqg" name="touch" xy="-640,-116" size="2000,1513"/>
+    <component id="n0_osqg" name="map" src="s3cg1w" fileName="Component/SokobanMapClip.xml" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height,left-left,bottom-bottom"/>
+    </component>
+    <loader id="n3_m9rf" name="close" xy="30,1152" pivot="0.5,0.5" size="120,127" url="ui://5moj1x39nl60dxyd7" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </loader>
+    <component id="n5_q30a" name="btnReset" src="p9n0dxy87" fileName="Component/comBtn.xml" pkg="5moj1x39" xy="555,1178" size="138,76">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="重置"/>
+    </component>
+  </displayList>
+</component>

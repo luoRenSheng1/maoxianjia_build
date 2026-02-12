@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1400">
+  <displayList>
+    <loader id="n6_jn60" name="n6" xy="0,0" size="720,1400" group="n5_qaln" url="ui://s7x7ku0nqalndxycb">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader3D id="n2_qaln" name="spine" xy="243,610" size="100,100" group="n5_qaln" url="ui://s7x7ku0nxezfdxycj" animation="huo" skin="" loop="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader3D>
+    <loader3D id="n7_xezf" name="n7" xy="243,610" size="100,100" group="n5_qaln" url="ui://s7x7ku0nxezfdxycj" animation="chong" skin="" loop="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader3D>
+    <graph id="n3_qaln" name="hero" xy="123,650" pivot="0.5,1" size="100,100" group="n5_qaln">
+      <relation target="" sidePair="center-center,top-top"/>
+    </graph>
+    <group id="n5_qaln" name="n5" xy="0,0" size="720,1400" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ddc23erl">
+  <resources>
+    <component id="hdtee" name="NewEquipObtain.xml" path="/UI/"/>
+    <image id="hdtef" name="新装备.png" path="/Sample/"/>
+    <component id="skp6o" name="ComAttributeItem.xml" path="/Component/" exported="true"/>
+    <component id="skp6q" name="NewEquipRecommend.xml" path="/UI/"/>
+    <image id="skp6r" name="装备弹窗.png" path="/Sample/"/>
+    <component id="un3j12" name="Main.xml" path="/" exported="true"/>
+    <component id="qbcg15" name="PopupEquipAttribute.xml" path="/UI/" exported="true"/>
+    <component id="p4bn1e" name="Check.xml" path="/Component/"/>
+    <component id="x3dk1f" name="ComEntryAttributeItem.xml" path="/Component/" exported="true"/>
+    <component id="kqmidxy93" name="InheritReItem.xml" path="/Component/"/>
+    <component id="kqmidxy8s" name="InheritRecycle.xml" path="/" exported="true"/>
+    <image id="kqmidxy94" name="ordinary_bg22.png" path="/Res/Equip/"/>
+    <image id="kqmidxy95" name="ordinary_icon1.png" path="/Res/Equip/"/>
+    <image id="kqmidxy96" name="ordinary_icon2.png" path="/Res/Equip/"/>
+    <image id="kqmidxy97" name="ordinary_bg1.png" path="/Res/Equip/" scale="9grid" scale9grid="166,109,332,218"/>
+    <image id="kqmidxy98" name="ordinary_bg3.png" path="/Res/Equip/"/>
+    <image id="kqmidxy99" name="ordinary_bg21.png" path="/Res/Equip/"/>
+    <image id="kqmidxy9a" name="普通装备1.png" path="/Sample/"/>
+    <component id="kqmidxy9b" name="NewInheritObtain.xml" path="/UI/"/>
+    <component id="kqmidxy9c" name="NewInheritRecommend.xml" path="/UI/"/>
+    <component id="kqmidxy9d" name="InheritMain.xml" path="/" exported="true"/>
+    <image id="hz5cdxy9e" name="smriti_icon1.png" path="/Res/"/>
+    <image id="hz5cdxy9f" name="smriti_icon2.png" path="/Res/"/>
+    <image id="hz5cdxy9g" name="smriti_icon3.png" path="/Res/"/>
+    <image id="hz5cdxy9h" name="smriti_icon4.png" path="/Res/"/>
+    <image id="hz5cdxy9i" name="smriti_icon5.png" path="/Res/"/>
+    <image id="hz5cdxy9j" name="smriti_icon6.png" path="/Res/"/>
+    <image id="hz5cdxy9k" name="smriti_icon7.png" path="/Res/"/>
+    <image id="f34jdxy9l" name="普通装备1.png" path="/Res/new/"/>
+    <image id="f34jdxy9m" name="ordinary_icon2.png" path="/Res/new/"/>
+    <image id="f34jdxy9n" name="ordinary_icon1.png" path="/Res/new/"/>
+    <image id="f34jdxy9o" name="ordinary_bg3.png" path="/Res/new/" scale="9grid" scale9grid="20,25,658,53"/>
+    <image id="f34jdxy9p" name="传承装备-一键回收.png" path="/Res/new/"/>
+    <image id="ucd4dxy9q" name="普通装备3.png" path="/Res/new/"/>
+    <image id="ucd4dxy9r" name="ordinary_bg51.png" path="/Res/new2/"/>
+    <image id="ucd4dxy9s" name="ordinary_bg42.png" path="/Res/new2/" scale="9grid" scale9grid="39,163,295,51"/>
+    <image id="ucd4dxy9t" name="ordinary_bg43.png" path="/Res/new2/" scale="9grid" scale9grid="43,164,434,201"/>
+    <component id="ucd4dxy9u" name="ComAttributeItem2.xml" path="/Component/"/>
+    <component id="ucd4dxy9v" name="ComEntryAttributeItem2.xml" path="/Component/"/>
+    <image id="ucd4dxy9w" name="ordinary_bg41.png" path="/Res/new2/" scale="9grid" scale9grid="38,161,233,84"/>
+    <image id="ucd4dxy9x" name="首页4.png" path="/Res/new/"/>
+    <component id="ef8udxy9y" name="EquipSystem.xml" path="/" exported="true"/>
+    <component id="ef8udxy9z" name="EquipTabBtn.xml" path="/Component/" exported="true"/>
+    <image id="ef8udxya0" name="equip_bg02.png" path="/Res/new3/" scale="9grid" scale9grid="18,19,155,152"/>
+    <image id="ef8udxya1" name="equip_bg03.png" path="/Res/new3/" scale="9grid" scale9grid="17,19,115,113"/>
+    <image id="ef8udxya2" name="equip_btn01.png" path="/Res/new3/"/>
+    <image id="ef8udxya3" name="equip_btn02.png" path="/Res/new3/"/>
+    <image id="ef8udxya4" name="equip_btn11.png" path="/Res/new3/"/>
+    <image id="ef8udxya5" name="equip_icon01.png" path="/Res/new3/"/>
+    <image id="ef8udxya6" name="equip_icon02.png" path="/Res/new3/"/>
+    <image id="ef8udxya7" name="equip_icon03.png" path="/Res/new3/"/>
+    <image id="ef8udxya8" name="equip_icon04.png" path="/Res/new3/"/>
+    <image id="ef8udxya9" name="equip_icon11.png" path="/Res/new3/"/>
+    <image id="ef8udxyaa" name="equip_icon12.png" path="/Res/new3/"/>
+    <image id="ef8udxyab" name="equip_icon13.png" path="/Res/new3/"/>
+    <image id="ef8udxyac" name="equip_icon14.png" path="/Res/new3/"/>
+    <image id="ef8udxyad" name="equip_bg01.png" path="/Res/new3/" scale="9grid" scale9grid="27,22,661,186"/>
+    <image id="ef8udxyae" name="equip_bg1.png" path="/Res/new3/"/>
+    <image id="ef8udxyaf" name="普通装备-矿镐升级2.png" path="/Res/new3/"/>
+    <image id="ef8udxyag" name="普通装备-矿镐升级3.png" path="/Res/new3/"/>
+    <image id="ef8udxyah" name="普通装备-替换装备1.png" path="/Res/new3/"/>
+    <image id="ef8udxyai" name="普通装备-替换装备2.png" path="/Res/new3/"/>
+    <image id="ef8udxyaj" name="普通装备-替换装备3.png" path="/Res/new3/"/>
+    <image id="ef8udxyak" name="神器.png" path="/Res/new3/"/>
+    <image id="ef8udxyal" name="神器-1.png" path="/Res/new3/"/>
+    <image id="ef8udxyam" name="装备-普通装备1.png" path="/Res/new3/"/>
+    <image id="ef8udxyan" name="装备-普通装备2.png" path="/Res/new3/"/>
+    <image id="ef8udxyao" name="传承装备.png" path="/Res/new3/"/>
+    <image id="ef8udxyap" name="传承装备-一键回收.png" path="/Res/new3/"/>
+    <image id="ef8udxyaq" name="普通装备-矿镐升级1.png" path="/Res/new3/"/>
+    <component id="ef8udxyar" name="EquipSystemEquip.xml" path="/" exported="true"/>
+    <component id="ef8udxyas" name="UpLvBtn.xml" path="/Component/"/>
+    <component id="ef8udxyat" name="MakeEquipBtn.xml" path="/Component/"/>
+    <component id="ef8udxyau" name="EquipCurrency.xml" path="/Component/"/>
+    <component id="ef8udxyav" name="LoreEquip.xml" path="/" exported="true"/>
+    <component id="ef8udxyaw" name="LoreEquipItem.xml" path="/Component/"/>
+    <component id="ef8udxyax" name="ArtifactEquip.xml" path="/" exported="true"/>
+    <image id="ef8udxyb2" name="home_artifact_bg01.png" path="/Res/new3/" scale="9grid" scale9grid="15,54,52,43"/>
+    <image id="ef8udxyb3" name="ordinary_icon3.png" path="/Res/new3/"/>
+    <component id="ef8udxyb4" name="ArtifactAttrItem.xml" path="/Component/"/>
+    <component id="ef8udxyb6" name="ArtifactAttrItem2.xml" path="/Component/"/>
+    <image id="ef8udxyb7" name="equip_btn23.png" path="/Res/new3/"/>
+    <image id="ef8udxyb8" name="equip_btn24.png" path="/Res/new3/"/>
+    <image id="ef8udxyb9" name="equip_btn21.png" path="/Res/new3/"/>
+    <image id="ef8udxyba" name="equip_btn22.png" path="/Res/new3/"/>
+    <component id="ef8udxybb" name="ArtifactSelectBtn.xml" path="/Component/"/>
+    <component id="ef8udxybc" name="ArtifactItem1.xml" path="/Component/"/>
+    <misc id="ef8udxybd" name="Equip_sqtx.atlas.txt" path="/Res/spine/"/>
+    <image id="ef8udxybe" name="Equip_sqtx.png" path="/Res/spine/"/>
+    <spine id="ef8udxybf" name="Equip_sqtx.skel" path="/Res/spine/" width="200" height="200" require="ef8udxybd,ef8udxybe" atlasNames="Equip_sqtx" anchor="96,105"/>
+    <image id="ef8udxybg" name="equip_bg31.png" path="/Res/new3/"/>
+    <image id="ga86dxybh" name="wabaoBg.jpg" path="/Res/new3/"/>
+    <image id="ga86dxybi" name="baoxiang.png" path="/Res/new3/"/>
+    <image id="ga86dxybj" name="挖宝页面示意图.jpg" path="/Res/new3/"/>
+    <image id="ga86dxybk" name="Blank2.png" path="/Res/new3/"/>
+    <misc id="ga86dxybl" name="Equip_sqcc.atlas.txt" path="/Res/loreSpine/"/>
+    <image id="ga86dxybm" name="Equip_sqcc.png" path="/Res/loreSpine/"/>
+    <image id="ga86dxybn" name="Equip_sqcc_2.png" path="/Res/loreSpine/"/>
+    <image id="ga86dxybo" name="Equip_sqcc_3.png" path="/Res/loreSpine/"/>
+    <image id="ga86dxybp" name="Equip_sqcc_4.png" path="/Res/loreSpine/"/>
+    <image id="ga86dxybq" name="Equip_sqcc_5.png" path="/Res/loreSpine/"/>
+    <spine id="ga86dxybr" name="Equip_sqcc.skel" path="/Res/loreSpine/" width="100" height="100" require="ga86dxybl,ga86dxybm,ga86dxybn,ga86dxybo,ga86dxybp,ga86dxybq" atlasNames="Equip_sqcc,Equip_sqcc_2,Equip_sqcc_3,Equip_sqcc_4,Equip_sqcc_5" anchor="100,100"/>
+    <image id="ga86dxybs" name="equip_img11.png" path="/Res/new3/"/>
+    <component id="llb1dxybt" name="MakeEquipBtnAni.xml" path="/Component/"/>
+  </resources>
+  <publish name="Equip" genCode="true"/>
+</packageDescription>

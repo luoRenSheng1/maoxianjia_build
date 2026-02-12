@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,102">
+  <displayList>
+    <component id="n0_llb1" name="btnTopped" src="w02ndxy2s" fileName="Component/BtnTopped.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="突破"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_llb1" tween="true" startValue="1,1" endValue="0.85,0.85" duration="9" ease="Linear"/>
+    <item time="9" type="Scale" target="n0_llb1" tween="true" startValue="0.85,0.85" endValue="1,1" duration="15" ease="Linear"/>
+    <item time="24" type="Scale" target="n0_llb1" value="1,1"/>
+  </transition>
+</component>

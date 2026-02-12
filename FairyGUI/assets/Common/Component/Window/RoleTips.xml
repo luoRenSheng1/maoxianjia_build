@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,301" extention="Label">
+  <controller name="posType" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <displayList>
+    <image id="n2_tcgl" name="n2" src="tcgldxy4t" fileName="Res/guideRes/zimudi.png" xy="118,64" size="577,156">
+      <gearXY controller="posType" pages="1" values="23,64" default="118,64"/>
+    </image>
+    <richtext id="n0_tcgl" name="title" xy="227,89" size="442,108" fontSize="25" color="#835c25" ubb="true" autoSize="shrink" text="恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励">
+      <gearXY controller="posType" pages="0,1" values="227,89|63,87"/>
+    </richtext>
+    <image id="n1_tcgl" name="n1" src="tcgldxy4s" fileName="Res/guideRes/role.png" xy="2,1" pivot="0.5,0.5">
+      <gearXY controller="posType" pages="0,1" values="2,1|497,0"/>
+      <gearSize controller="posType" pages="1" values="221,281,-1,1" default="221,281,1,1"/>
+    </image>
+  </displayList>
+</component>

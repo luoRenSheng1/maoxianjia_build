@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3ketdju56">
+  <displayList>
+    <component id="n0_tdju" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_tdju" name="n1" xy="16,301" size="688,544" group="n18_tdju" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n2_tdju" name="n2" xy="326,317" size="68,44" group="n18_tdju" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="购买">
+      <relation target="n1_tdju" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n3_tdju" name="n3" xy="40,431" size="640,148" group="n6_tdju" url="ui://5moj1x39f34jdxyb2" fill="scaleFree"/>
+    <component id="n5_tdju" name="itemCom" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="55,443" group="n6_tdju" scale="1.5,1.5"/>
+    <text id="n4_tdju" name="name" xy="196,455" size="196,44" group="n6_tdju" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="普鲁斯特神剑">
+      <relation target="n5_tdju" sidePair="left-right"/>
+      <relation target="n3_tdju" sidePair="top-top"/>
+    </text>
+    <text id="n7_tdju" name="desc" xy="198,510" size="452,39" group="n6_tdju" fontSize="28" color="#4c2911" bold="true" text="是一把神器，是一把神器是一把神器">
+      <relation target="n5_tdju" sidePair="left-right"/>
+      <relation target="n3_tdju" sidePair="top-top"/>
+    </text>
+    <group id="n6_tdju" name="n6" xy="40,431" size="640,148" group="n18_tdju" advanced="true">
+      <relation target="n1_tdju" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n12_tdju" name="n12" xy="254,617" size="212,48" group="n17_tdju" url="ui://pdufy3ketdju5r" fill="scaleFree"/>
+    <text id="n13_tdju" name="num" xy="262,619" size="196,44" group="n17_tdju" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="1" input="true" restrict="[0-9]" keyboardType="4">
+      <relation target="n12_tdju" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n17_tdju" name="n17" xy="254,617" size="212,48" group="n16_tdju"/>
+    <component id="n14_tdju" name="reduceBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="222,608" size="64,64" group="n16_tdju">
+      <Button icon="ui://pdufy3ketdju5s"/>
+    </component>
+    <component id="n15_tdju" name="addBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="435,609" size="64,64" group="n16_tdju">
+      <Button icon="ui://pdufy3ketdju5t"/>
+    </component>
+    <group id="n16_tdju" name="n16" xy="222,608" size="277,65" group="n18_tdju" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n11_tdju" name="n11" xy="40,688" size="640,16" group="n18_tdju" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n1_tdju" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n9_tdju" name="buyBtn" src="tdju5q" fileName="Component/ShopBuyBtn.xml" xy="251,729" group="n18_tdju">
+      <relation target="n1_tdju" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n10_tdju" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,869" size="84,84" group="n18_tdju">
+      <relation target="n1_tdju" sidePair="bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n18_tdju" name="n18" xy="16,301" size="688,652" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

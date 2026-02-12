@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ozj9" name="n0" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n1_ozj9" name="spine" xy="158,230" pivot="0.5,1" size="403,434" group="n5_ozj9" alpha="0.5" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <component id="n3_ozj9" name="roleNameLb" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="318,792" group="n5_ozj9"/>
+    <component id="n4_ozj9" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,964" size="218,84" group="n5_ozj9">
+      <Button title="确定" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader3D id="n6_ozj9" name="starSpine" xy="177,535" size="366,374" group="n5_ozj9" url="ui://m37flevdozj921" animation="moon_sun" skin=""/>
+    <group id="n5_ozj9" name="n5" xy="158,230" size="403,818" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" options="2">
+    <item time="0" type="Visible" target="n4_ozj9" value="false"/>
+    <item time="24" type="Visible" target="n4_ozj9" value="true"/>
+  </transition>
+</component>

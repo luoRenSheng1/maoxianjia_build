@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="superCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不是super"/>
+    <remark page="1" value="是super"/>
+  </controller>
+  <displayList>
+    <loader3D id="n8_ozj9" name="spineUI" xy="59,322" size="599,162" group="n7_v534" touchable="false" url="ui://0anhreylozj9dxy50" fill="scale" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <loader3D id="n9_ozj9" name="superUI" xy="-293,-52" size="986,516" group="n7_v534" aspect="true" touchable="false" url="ui://0anhreylozj9dxy53" fill="scale" animation="" skin="" loop="true">
+      <gearDisplay controller="superCtrl" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <image id="n10_ozj9" name="n10" src="qj2edxy4j" fileName="Res/fight/ICON-zhanli.png" pkg="5moj1x39" xy="162,361" group="n4_isql" visible="false"/>
+    <loader id="n11_a2kw" name="n11" xy="162,362" size="64,64" group="n4_isql" url="ui://5moj1x39f34jdxyax" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n0_isql" name="fightValLb" xy="228,368" size="229,45" group="n4_isql" font="ui://0anhreylisqldxy3f" fontSize="10" color="#ffffff" text="1.34不可思议"/>
+    <text id="n1_isql" name="addValue" xy="459,368" size="94,45" group="n4_isql" font="ui://0anhreylisqldxy3f" fontSize="10" color="#9bf452" strokeColor="#000000" strokeSize="2" text="+{value=99}"/>
+    <group id="n4_isql" name="n4" xy="162,362" size="391,64" group="n7_v534" visible="false" advanced="true" layout="hz" colGap="2" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n7_v534" name="n7" xy="-293,-52" size="986,536" group="n3_isql" advanced="true"/>
+    <group id="n3_isql" name="n3" xy="-293,-52" size="986,536" advanced="true">
+      <relation target="" sidePair="top-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Visible" target="n4_isql" value="false"/>
+    <item time="8" type="Visible" target="n4_isql" value="true"/>
+  </transition>
+</component>

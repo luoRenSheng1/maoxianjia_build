@@ -1,0 +1,74 @@
+CommonEx_tenman.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+ten_001
+	bounds: 2, 339, 137, 79
+	rotate: 90
+ten_002
+	bounds: 395, 922, 100, 144
+	offsets: 0, 1, 100, 154
+	rotate: 90
+ten_003
+	bounds: 2, 104, 110, 87
+	rotate: 90
+ten_004
+	bounds: 541, 943, 155, 79
+	offsets: 0, 0, 168, 79
+ten_005
+	bounds: 698, 919, 123, 103
+ten_006
+	bounds: 2, 866, 232, 156
+ten_007
+	bounds: 2, 478, 89, 147
+ten_008
+	bounds: 2, 21, 80, 81
+ten_009
+	bounds: 236, 894, 157, 128
+ten_010
+	bounds: 2, 722, 192, 142
+ten_011
+	bounds: 823, 917, 106, 105
+ten_012
+	bounds: 2, 627, 158, 93
+ten_013
+	bounds: 2, 216, 88, 121
+ten_014
+	bounds: 196, 757, 107, 69
+	offsets: 0, 1, 108, 70
+	rotate: 90
+yinying_001
+	bounds: 162, 653, 67, 23
+	rotate: 90
+yinying_002
+	bounds: 267, 825, 77, 67
+yinying_003
+	bounds: 931, 917, 84, 60
+yinying_004
+	bounds: 395, 897, 64, 23
+yinying_005
+	bounds: 461, 895, 46, 25
+	offsets: 1, 0, 48, 26
+yinying_006
+	bounds: 931, 979, 91, 43
+	offsets: 1, 1, 92, 44
+yinying_007
+	bounds: 632, 916, 33, 25
+yinying_008
+	bounds: 588, 906, 42, 35
+	offsets: 1, 0, 44, 35
+yinying_009
+	bounds: 93, 497, 128, 50
+	rotate: 90
+yinying_010
+	bounds: 346, 835, 57, 40
+	offsets: 1, 1, 58, 42
+	rotate: 90
+yinying_011
+	bounds: 541, 909, 45, 32
+	offsets: 1, 1, 47, 33
+yinying_012
+	bounds: 196, 724, 50, 31
+	offsets: 0, 0, 50, 32
+yinying_013
+	bounds: 267, 764, 75, 59

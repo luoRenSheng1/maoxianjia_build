@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="117,116">
+  <displayList>
+    <image id="n0_auqc" name="n0" src="auqc21" fileName="Res/newRes2/dfgdfh151.png" xy="0,0"/>
+    <image id="n1_auqc" name="n1" src="auqc20" fileName="Res/newRes2/xdgdfg54.png" xy="20,14"/>
+    <text id="n2_auqc" name="timeLb" xy="32,58" size="52,39" fontSize="28" color="#ffd99b" align="center" bold="true" strokeColor="#332626" strokeSize="2" text="130">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

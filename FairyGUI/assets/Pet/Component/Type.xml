@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,34">
+  <controller name="type" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n0_hz5c" name="icon" xy="0,0" size="86,34" url="ui://5moj1x39hz5cdxy98">
+      <gearIcon controller="type" pages="0,1,2,3,4" values="ui://5moj1x39hz5cdxy98|ui://5moj1x39hz5cdxy99|ui://5moj1x39hz5cdxy96|ui://5moj1x39hz5cdxy9a|ui://5moj1x39hz5cdxy97"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_hz5c" name="title" xy="11,2" size="64,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="伤害型">
+      <gearText controller="type" pages="0,1,2,3,4" values="伤害型|辅助型|回复型|防御型|恢复型"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

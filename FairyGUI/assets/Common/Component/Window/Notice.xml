@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n5_8824" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n6_ju03" name="n6" xy="16,358" size="688,564" group="n4_8824" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <list id="n0_8824" name="noticeList" xy="60,470" size="600,311" group="n4_8824" overflow="scroll" lineGap="10" defaultItem="ui://0anhreyl8824dxy3z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_8824" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,808" size="218,84" group="n4_8824">
+      <Button title="确定" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n3_8824" name="n3" xy="294,377" size="132,44" group="n4_8824" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="游戏公告"/>
+    <group id="n4_8824" name="n4" xy="16,358" size="688,564" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Visible" target="n2_8824" value="false"/>
+    <item time="36" type="Visible" target="n2_8824" value="true"/>
+  </transition>
+</component>

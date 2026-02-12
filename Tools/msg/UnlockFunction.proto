@@ -1,0 +1,158 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+//解锁功能条件类型
+enum eUnlockFuncCondition
+{
+	eUnlockFuncCondition_HeroLevel	= 1;	//  英雄等级，
+	eUnlockFuncCondition_MainTask	= 2;	// 接收任务时候，
+	eUnlockFuncCondition_PassStage	= 3;	// 通关，
+}
+//解锁功能
+enum eUnlockFunction
+{
+    eUnlockFunction_PersonInfo =100;	    //个人信息
+    eUnlockFunction_MainTask =200;	    //主线任务
+    eUnlockFunction_RingLevelUp =300;	    //属性升级
+    eUnlockFunction_RingInfo =400;	    //属性详情
+    eUnlockFunction_RedPoints =500;	    //红点
+    eUnlockFunction_Guide =600;	    //新手引导
+    eUnlockFunction_PassPort = 700;	    //通行证按钮开放
+    eUnlockFunction_Mall = 701;	    //商城
+    eUnlockFunction_PackShop = 702;	    //礼包商店
+    eUnlockFunction_LoginPack = 703;	    //登录礼包
+    eUnlockFunction_WorldChat =800;	    //世界聊天
+    eUnlockFunction_CollectionBook =1100;	//图鉴
+    eUnlockFunction_Mail =1200;	//邮箱
+    eUnlockFunction_FirstRechargeGiftPack =1300;	//新人礼包
+    eUnlockFunction_NoobSignIn =1400;	//七日签到
+    eUnlockFunction_DailyTask =1500;	//日常任务
+    eUnlockFunction_IdleAward =1600;	//挂机奖励
+    eUnlockFunction_EquipBox =1700;	//铸造
+    eUnlockFunction_AutoGenEquip =1701;	//自动锻造
+    eUnlockFunction_LoreEquip =1702;	//传承装备
+    eUnlockFunction_ArtifactEquip =1703;	//神器
+    eUnlockFunction_FunctionUI =1800;	//角色功能界面
+    eUnlockFunction_HeroLevelUp =1801;	//角色升级
+    eUnlockFunction_HeroBreak =1802;	//角色突破
+    eUnlockFunction_HeroSkillLevelUp =1803;	//角色技能升级
+    eUnlockFunction_HeroTalent =1804;	//角色天赋
+    eUnlockFunction_HeroClassic =1805;	//角色秘典
+    eUnlockFunction_HolyItem =1806;	//圣物
+    eUnlockFunction_Skill =1900;	//召唤技能
+    eUnlockFunction_SkillSlot1 =1901;	//召唤技能栏1
+    eUnlockFunction_SkillSlot2 =1902;	//召唤技能栏2
+    eUnlockFunction_SkillSlot3 =1903;	//召唤技能栏3
+    eUnlockFunction_SkillSlot4 =1904;	//召唤技能栏4
+    eUnlockFunction_SkillSlot5 =1905;	//召唤技能栏5
+    eUnlockFunction_Pet =2000;	//召唤宠物
+    eUnlockFunction_PetSlot1 =2001;	//召唤宠物栏1
+    eUnlockFunction_PetSlot2 =2002;	//召唤宠物栏2
+    eUnlockFunction_PetSlot3 =2003;	//召唤宠物栏3
+    eUnlockFunction_PetLevel =2004;	//宠物升级
+    eUnlockFunction_PetSkillLevelUp =2005;	//宠物技能升级
+    eUnlockFunction_PetTalent =2006;	//宠物天赋
+    eUnlockFunction_PetSkillBook =2007;	//宠物技能书
+    eUnlockFunction_HeroLotto =2100;	//抽英雄
+    eUnlockFunction_Copy =2200;	//副本
+    eUnlockFunction_GoldCopy =2201;	//金币副本
+    eUnlockFunction_EquipCopy =2202;	//铸造锤副本
+    eUnlockFunction_DiamondCopy =2203;	//钻石副本
+    eUnlockFunction_HeroExpCopy =2204;	//经验药水副本
+    eUnlockFunction_PetStuffCopy =2205;	//宠物材料副本
+    eUnlockFunction_PetSkillBookCopy =2206;	//宠物技能书副本
+    eUnlockFunction_ArtifactCopy =2207;	//神器副本
+    eUnlockFunction_HolyItemCopy =2208;	//圣物副本
+    eUnlockFunction_HomeTown =2300;	//家园
+    eUnlockFunction_Mine =2301;	//石头矿区
+    eUnlockFunction_FinalFactory =2302;	//加工厂
+    eUnlockFunction_FoodFactory =2303;	//粮食工坊
+    eUnlockFunction_TrainingGround =2304;	//训练场
+    eUnlockFunction_Reproduce =2305;	//窝棚
+    eUnlockFunction_Camp =2306;	//探索营地
+	
+    eUnlockFunction_EventRandomBox =2400;	//深埋宝藏
+    eUnlockFunction_EventRuinsBuff =2401;	//遗迹建筑
+    eUnlockFunction_EventNpcTask =2402;	//狩猎任务
+    eUnlockFunction_EventStageDropPet =2403;	//搜寻宠物
+    eUnlockFunction_EventNextChapterBoss =2404;	//传承BOSS
+    eUnlockFunction_EventRandomDiamond  =2405;	//钻石矿
+    eUnlockFunction_EventRandomGold =2406;	//天女散花
+    eUnlockFunction_EventRandomEuip =2407;	//开箱子砍树
+    eUnlockFunction_EventFishing =2408;	//奇遇商人
+    eUnlockFunction_EventAdventureBusinessMan =2409;	//垂钓玩法
+	
+    eUnlockFunction_GlobalFirst =2500;	//竞技  天下第一
+    eUnlockFunction_Achievement =2600;	//成就系统
+}	      
+	      	       
+	
+
+//玩家最新解锁功能
+message PlayerUnlockFunction_PC   //eMsg_PlayerUnlockFunction_PC = 339;	
+{
+	repeated FunctionInfo unlock_function = 1;  //已解锁功能
+}
+
+
+
+
+//解锁功能奖励领取请求
+//message FunctionClaimAward_CS    //eMsg_FunctionClaimAward_CS = 340; 
+//{      
+//	optional uint32 function_id = 1; //system表里的功能id
+//}
+
+
+
+//解锁功能奖励领取反馈
+//message FunctionClaimAward_SC { //eMsg_FunctionClaimAward_SC = 341;     
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional FunctionInfo  unlock_functions = 2;  //领取奖励的解锁功能
+//	repeated ItemInfo   awards = 3;  //任务奖励
+//	optional Finance finance = 4;  //最新账户余额
+//}
+
+	  
+	    
+
+	         
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+	
+				
+						
+				        
+
+
+
+
+
+
+
+
+                  
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,74" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n3_kqmi" name="icon" xy="0,0" size="184,74">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_kqmi" name="title" xy="62,20" size="60,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="神器">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n5_kqmi" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="152,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

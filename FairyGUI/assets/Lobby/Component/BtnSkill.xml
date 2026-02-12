@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="hasSkill" pages="0,,1,,2," selected="1">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+    <remark page="2" value="未解锁"/>
+  </controller>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <loader id="n24_f34j" name="n24" xy="0,0" size="84,84" url="ui://5moj1x39f34jdxyb6" fill="scaleFree">
+      <gearIcon controller="hasSkill" pages="2" values="ui://5moj1x39f34jdxyaw" default="ui://5moj1x39f34jdxyb6"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n28_ucd4" name="qualityIcon" xy="0,0" size="84,84" visible="false" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <component id="n15_harg" name="skillIcon" src="hargdxy3b" fileName="Component/skillIcon.xml" xy="11,11" size="62,62">
+      <gearDisplay controller="hasSkill" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n23_u84q" name="mask2" src="u84qdxy85" fileName="Res/home_Skill Bar_skill1.png" xy="1,1" size="82,82" alpha="0.65" fillMethod="radial360" fillClockwise="false">
+      <gearDisplay controller="hasSkill" pages="0"/>
+    </image>
+    <image id="n10_pdpa" name="mask" src="pdpadxxz5" fileName="Res/mask1.png" xy="9,9" size="65,65" visible="false" alpha="0.6" fillMethod="radial360" fillClockwise="false">
+      <gearDisplay controller="hasSkill" pages="0"/>
+    </image>
+    <image id="n27_f34j" name="n27" src="f34jdxybo" fileName="Res/newItem2/general_top_icon1.png" pkg="5moj1x39" xy="25,25" size="34,34" aspect="true">
+      <gearDisplay controller="hasSkill" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n26_f34j" name="n26" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="18,18">
+      <gearDisplay controller="hasSkill" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n16_ot6f" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="52,0" touchable="false">
+      <gearDisplay controller="hasSkill" pages="1"/>
+    </component>
+    <loader3D id="n18_p0se" name="tapSpine" xy="4,4" size="64,64" url="ui://0anhreylp0sedxy5d" animation="chuxian" skin="" playing="false">
+      <gearDisplay controller="hasSkill" pages="0"/>
+    </loader3D>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,165">
+  <displayList>
+    <image id="n0_kvsz" name="n0" src="r13rb" fileName="Res/n11.png" xy="0,0"/>
+    <image id="n4_f34j" name="n4" src="f34jv" fileName="Res/new/chat_bg4.png" xy="89,37" size="408,115">
+      <relation target="n2_kvsz" sidePair="height-height"/>
+    </image>
+    <text id="n2_kvsz" name="content" xy="120,46" size="366,98" fontSize="24" color="#4c2911" autoSize="height" text="聊天内容啊聊天内容啊聊天内容啊聊天内容啊聊天内容啊啊聊天内啊聊天内容啊啊聊天啊聊"/>
+    <text id="n3_kvsz" name="playerName" xy="89,4" size="267,34" fontSize="24" color="#4c2911" autoSize="none" bold="true" text="系统"/>
+  </displayList>
+  <relation target="n4_f34j" sidePair="height-height"/>
+</component>

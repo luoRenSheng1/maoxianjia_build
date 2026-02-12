@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3keka12igv">
+  <displayList>
+    <component id="n1_ka12" name="fishingBar" src="ka12igy" fileName="Component/FishingBar.xml" xy="56,825">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n0_ka12" name="fishingBtnAni" src="ka12igx" fileName="Component/FishingBtnAni.xml" xy="278,927">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

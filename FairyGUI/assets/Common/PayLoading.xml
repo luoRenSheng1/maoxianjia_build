@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="ctrl" pages="0,,1," selected="1">
+    <remark page="0" value="充值"/>
+    <remark page="1" value="广告"/>
+  </controller>
+  <displayList>
+    <component id="n1_dnrx" name="n1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" alpha="0.6" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_dnrx" name="loading" src="kwfmxxne" fileName="Component/ProgressBar/LoadingCircleProgress.xml" xy="310,647">
+      <gearText controller="ctrl" pages="1" values="拉取广告" default="支付中"/>
+      <Label title="拉取广告"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="2" autoPlay="true">
+    <item time="0" type="Visible" target="n0_dnrx" value="false"/>
+    <item time="6" type="Visible" target="n0_dnrx" value="true"/>
+  </transition>
+</component>

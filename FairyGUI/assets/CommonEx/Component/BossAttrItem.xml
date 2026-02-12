@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,108" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_llb1" name="n3" xy="0,0" size="108,108" url="ui://5moj1x39f34jdxyb6" fill="scale"/>
+    <loader id="n4_llb1" name="icon" xy="14,14" size="80,80" fill="scale">
+      <relation target="n3_llb1" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

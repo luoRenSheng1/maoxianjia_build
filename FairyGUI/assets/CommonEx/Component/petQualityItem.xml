@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="173,62">
+  <controller name="quality" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <displayList>
+    <loader id="n0_ozj9" name="n0" xy="0,0" size="173,62" url="ui://5moj1x39k6272s">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5,6" values="ui://5moj1x39k6272m|ui://5moj1x39k6272n|ui://5moj1x39k6272o|ui://5moj1x39k6272p|ui://5moj1x39k6272q|ui://5moj1x39k6272r|ui://5moj1x39k6272s"/>
+    </loader>
+    <text id="n1_ozj9" name="n1" xy="64,14" size="44,29" fontSize="20" color="#ff877a" align="center" bold="true" strokeColor="#981717" strokeSize="2" text="不朽">
+      <gearColor controller="quality" pages="0,1,2,3,4,5,6" values="#bdaba2,#645757|#74d5a4,#114926|#80bee4,#03214e|#c688dc,#3d043e|#fbd968,#9f4f00|#ff8bca,#a7216d|#ff877a,#981717"/>
+      <gearText controller="quality" pages="0,1,2,3,4,5" values="普通|良好|稀有|史诗|传说|神话" default="不朽"/>
+    </text>
+  </displayList>
+</component>

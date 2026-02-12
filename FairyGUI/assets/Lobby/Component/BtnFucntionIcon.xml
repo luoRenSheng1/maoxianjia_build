@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n0_lx83" name="icon" xy="0,0" size="100,100" url="ui://s7x7ku0nv51sdxy3m" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_recz" name="title" xy="6,65" size="88,41" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="功能预告">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n2_ng62" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="60,0" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+  <relation target="n1_recz" sidePair="height-height"/>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://i7ojazuul5cy3g" designImageAlpha="0">
+  <displayList>
+    <component id="n3_surf" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_surf" name="n0" xy="16,85" size="688,948" group="n5_surf" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n8_k4ck" name="n8" xy="294,102" size="132,44" group="n5_surf" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="召唤概率">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n27_l5cy" name="n27" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="244,457" group="n31_l5cy"/>
+    <image id="n28_l5cy" name="n28" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="453,457" group="n31_l5cy"/>
+    <image id="n29_l5cy" name="n29" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="48,467" size="188,4" group="n31_l5cy"/>
+    <image id="n30_l5cy" name="n30" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="485,467" size="188,4" group="n31_l5cy"/>
+    <text id="n17_k4ck" name="n17" xy="274,450" size="172,34" group="n31_l5cy" fontSize="24" color="#4c2911" bold="true" text="各品质获得概率"/>
+    <group id="n31_l5cy" name="n31" xy="48,450" size="625,34" group="n5_surf" advanced="true">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n21_l5cy" name="n21" xy="136,318" size="448,96" group="n26_l5cy" url="ui://i7ojazuul5cy3m" fill="scaleFree"/>
+    <loader id="n22_l5cy" name="n22" xy="268,227" size="184,192" group="n26_l5cy" url="ui://i7ojazuul5cy3h" align="center" vAlign="middle" fill="scale"/>
+    <text id="n9_k4ck" name="n9" xy="299,291" size="124,42" group="n26_l5cy" fontSize="30" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="商店等级"/>
+    <text id="n10_k4ck" name="lvLb" xy="308,325" size="104,42" group="n26_l5cy" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="18"/>
+    <component id="n11_k4ck" name="preBtn" src="p4bn8" fileName="Component/PreBtn.xml" pkg="5moj1x39" xy="51,318" group="n26_l5cy"/>
+    <component id="n12_k4ck" name="nextBtn" src="p4bn9" fileName="Component/NextBtn.xml" pkg="5moj1x39" xy="620,317" group="n26_l5cy"/>
+    <group id="n26_l5cy" name="n26" xy="51,227" size="617,192" group="n5_surf" advanced="true">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n24_l5cy" name="n24" xy="40,497" size="640,16" group="n5_surf" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n19_k4ck" name="propList" xy="30,522" size="660,397" group="n5_surf" overflow="scroll" defaultItem="ui://i7ojazuuk4ck1h" autoClearItems="true">
+      <relation target="n0_surf" sidePair="center-center"/>
+      <item controllers="ctrl,0"/>
+      <item controllers="ctrl,1"/>
+      <item controllers="ctrl,0"/>
+      <item controllers="ctrl,1"/>
+      <item controllers="ctrl,0"/>
+      <item controllers="ctrl,1"/>
+      <item controllers="ctrl,0"/>
+    </list>
+    <loader id="n25_l5cy" name="n25" xy="40,921" size="640,16" group="n5_surf" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n0_surf" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n2_surf" name="n2" xy="218,960" size="284,29" group="n5_surf" fontSize="20" color="#4c2911" bold="true" text="召唤一定数量后，商店等级增加">
+      <relation target="n0_surf" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n20_l5cy" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="319,1059" size="84,84" group="n5_surf">
+      <relation target="n0_surf" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n5_surf" name="n5" xy="16,85" size="688,1058" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

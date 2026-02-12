@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <displayList>
+    <loader id="n3_ef8u" name="n3" xy="0,0" size="80,80"/>
+    <loader id="n4_ef8u" name="qualityIcon" xy="0,0" size="80,80" url="ui://5moj1x39f34jdxyak" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5" default="ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader3D id="n7_ef8u" name="spineEff" xy="3,-7" size="100,100" url="ui://ddc23erlef8udxybf" align="center" vAlign="middle" animation="Equip_sqtx" skin="" loop="true"/>
+    <loader id="n5_ef8u" name="icon1" xy="11,11" size="58,58" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_ef8u" name="lvLb" xy="7,51" size="66,29" fontSize="20" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=700}">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

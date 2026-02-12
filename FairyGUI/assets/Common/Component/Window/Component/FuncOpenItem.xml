@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="113,149">
+  <displayList>
+    <loader3D id="n2_r18s" name="n2" xy="-42,-42" size="100,100" url="ui://0anhreylr18sdxy7q" animation="idle_down" skin="" loop="true"/>
+    <loader id="n0_wpko" name="funcIcon" xy="3,0" size="107,107" aspect="true" url="ui://0anhreylha87dxy75" fill="scale"/>
+    <text id="n1_wpko" name="funcName" xy="0,107" size="113,42" fontSize="30" color="#663e20" align="center" autoSize="shrink" bold="true" strokeColor="#ffffff" text="功能名称"/>
+  </displayList>
+</component>

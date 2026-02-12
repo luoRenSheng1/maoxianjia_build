@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <component id="n16_k55b" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n12_b0e4" name="comMessage" src="pdpadxxyu" fileName="Component/ComMessage.xml" pkg="s7x7ku0n" xy="95,1097" visible="false">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <loader id="n22_llb1" name="n22" xy="16,60" size="688,1057" group="n17_tw1c" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n4_b0e4" name="n4" xy="326,80" size="68,44" group="n17_tw1c" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="副本">
+      <relation target="n22_llb1" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n23_llb1" name="n23" xy="40,173" size="640,56" group="n17_tw1c" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <relation target="n22_llb1" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n14_b0e4" name="stageList" xy="40,256" size="640,827" group="n17_tw1c" overflow="scroll" lineGap="20" defaultItem="ui://57yc4rb0b0e435" autoClearItems="true">
+      <relation target="n22_llb1" sidePair="center-center,top-top"/>
+      <item title="抽奖券副本" icon="ui://57yc4rb0nfkb3b"/>
+      <item title="钻石副本" icon="ui://57yc4rb0nfkb3c"/>
+      <item title="符文副本" icon="ui://57yc4rb0nfkb3b"/>
+      <item title="宠物装备副本" icon="ui://57yc4rb0nfkb3a"/>
+    </list>
+    <text id="n24_llb1" name="tiemdesc" xy="282,183" size="52,34" group="n19_ju03" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="时间"/>
+    <text id="n9_b0e4" name="timeLeft" xy="340,183" size="98,34" group="n19_ju03" fontSize="24" color="#fcf78e" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=12:00:00}">
+      <relation target="n24_llb1" sidePair="left-right"/>
+    </text>
+    <group id="n19_ju03" name="n19" xy="282,183" size="156,34" group="n17_tw1c" advanced="true" layout="hz" colGap="6">
+      <relation target="n23_llb1" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n21_a2kw" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1135" size="84,84" group="n17_tw1c">
+      <relation target="n22_llb1" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n17_tw1c" name="n17" xy="16,60" size="688,1159" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

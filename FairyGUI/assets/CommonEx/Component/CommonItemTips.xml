@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,286">
+  <displayList>
+    <loader id="n1_w61t" name="n1" xy="0,0" size="415,286" url="ui://5moj1x39mtmsdxycs" fill="scaleFree">
+      <relation target="n3_w61t" sidePair="height-height"/>
+    </loader>
+    <text id="n7_llb1" name="n7" xy="173,18" size="68,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="详情">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n5_kn0f" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" xy="168,86" controller="hasCount,1"/>
+    <component id="n2_w61t" name="pName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" xy="174,172" size="67,29">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+      <Label title="蓝色+1" titleFontSize="20"/>
+    </component>
+    <loader id="n8_llb1" name="n8" xy="18,203" size="379,16" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n3_w61t" name="pContent" xy="20,229" size="374,39" fontSize="28" ubb="true" autoSize="height" bold="true" text="增加30%连击"/>
+    <text id="n6_kn0f" name="pLv" xy="12,80" size="102,29" visible="false" fontSize="20" color="#835c25" vars="true" text="等级：Lv.{value=1}"/>
+  </displayList>
+  <relation target="n1_w61t" sidePair="width-width,height-height"/>
+</component>

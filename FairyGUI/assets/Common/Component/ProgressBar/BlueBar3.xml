@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,24">
+  <displayList>
+    <image id="n0_ayts" name="n0" src="dwt8dxy1h" fileName="Res/stage/2.png" xy="27,1" size="247,30" scale="0.7,0.7"/>
+    <component id="n2_s6xg" name="bar" src="s6xgdxxxs" fileName="Component/ProgressBar/ProgressBlueBar.xml" xy="37,2" size="231,26" scale="0.7,0.7">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n3_z3j5" name="title" xy="77,2" size="99,28" scale="0.7,0.7" font="ui://0anhreyldwt8dxy1i" fontSize="19" align="center" vAlign="middle" strokeColor="#3b3630" text="10:22">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n6_ecee" name="n6" src="dwt8dxy1g" fileName="Res/stage/1.png" xy="-2,-15" scale="0.7,0.7"/>
+  </displayList>
+</component>

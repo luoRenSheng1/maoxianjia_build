@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,75" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlAuto" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_pdpa" name="icon" xy="0,0" size="85,73" grayed="true" url="ui://57yc4rb0gwxth" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearLook controller="ctrlAuto" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n5_fqst" name="n5" src="gwxti" fileName="Res/ef.png" xy="2,-7" pivot="0.5,0.5">
+      <gearDisplay controller="ctrlAuto" pages="1"/>
+      <gearLook controller="ctrlAuto" default="1,0,0,0"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Rotation" target="n5_fqst" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

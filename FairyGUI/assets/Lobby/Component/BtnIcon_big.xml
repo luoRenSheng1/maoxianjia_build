@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="lockCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n1_pdpa" name="icon" xy="0,0" size="85,73" grayed="true" url="ui://s7x7ku0ndd3xdxxy9" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_pdpa" name="title" xy="20,68" size="43,16" fontSize="10" color="#ffffff" align="center" autoSize="shrink" strokeColor="#361200" strokeSize="2" singleLine="true" autoClearText="true" text=""/>
+    <image id="n3_uq40" name="n3" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="23,15">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

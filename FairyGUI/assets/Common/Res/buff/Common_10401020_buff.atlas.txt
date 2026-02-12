@@ -1,0 +1,198 @@
+Common_10401020_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+diquan_001
+	bounds: 530, 3, 116, 29
+	offsets: 40, 15, 200, 60
+diquan_002
+	bounds: 843, 466, 130, 31
+	offsets: 33, 14, 200, 60
+	rotate: 90
+diquan_003
+	bounds: 962, 272, 146, 36
+	offsets: 25, 11, 200, 60
+	rotate: 90
+diquan_004
+	bounds: 789, 54, 163, 40
+	offsets: 16, 9, 200, 60
+diquan_005
+	bounds: 892, 469, 184, 45
+	offsets: 6, 7, 200, 60
+	rotate: 90
+diquan_006
+	bounds: 452, 80, 197, 48
+	offsets: 0, 5, 200, 60
+	rotate: 90
+diquan_007
+	bounds: 488, 601, 200, 51
+	offsets: 0, 4, 200, 60
+diquan_008
+	bounds: 969, 622, 200, 53
+	offsets: 0, 3, 200, 60
+	rotate: 90
+diquan_009
+	bounds: 690, 598, 200, 54
+	offsets: 0, 2, 200, 60
+diquan_011
+	bounds: 2, 34, 200, 56
+	offsets: 0, 1, 200, 60
+diquan_012
+	bounds: 204, 34, 200, 56
+	offsets: 0, 1, 200, 60
+diquan_013
+	bounds: 502, 34, 200, 56
+	offsets: 0, 1, 200, 60
+diquan_014
+	bounds: 939, 420, 200, 56
+	offsets: 0, 1, 200, 60
+	rotate: 90
+diquan_021
+	bounds: 974, 824, 198, 48
+	offsets: 0, 5, 200, 60
+	rotate: 90
+diquan_022
+	bounds: 704, 4, 196, 48
+	offsets: 0, 5, 200, 60
+diquan_023
+	bounds: 402, 2, 126, 30
+	offsets: 40, 15, 200, 60
+diquan_024
+	bounds: 272, 2, 128, 30
+	offsets: 39, 15, 200, 60
+diquan_025
+	bounds: 138, 2, 132, 30
+	offsets: 37, 15, 200, 60
+diquan_026
+	bounds: 2, 2, 134, 30
+	offsets: 36, 15, 200, 60
+diquan_027
+	bounds: 945, 136, 134, 32
+	offsets: 36, 14, 200, 60
+	rotate: 90
+diquan_028
+	bounds: 928, 282, 136, 32
+	offsets: 35, 14, 200, 60
+	rotate: 90
+jiantou_001
+	bounds: 158, 92, 151, 183
+	offsets: 5, 0, 160, 190
+jiantou_002
+	bounds: 320, 279, 148, 183
+	offsets: 6, 0, 160, 190
+jiantou_003
+	bounds: 325, 464, 144, 184
+	offsets: 8, 0, 160, 190
+jiantou_004
+	bounds: 311, 92, 139, 185
+	offsets: 11, 0, 160, 190
+jiantou_005
+	bounds: 2, 837, 160, 185
+	offsets: 0, 0, 160, 190
+jiantou_006
+	bounds: 2, 650, 160, 185
+	offsets: 0, 0, 160, 190
+jiantou_007
+	bounds: 164, 837, 160, 185
+	offsets: 0, 0, 160, 190
+jiantou_008
+	bounds: 326, 653, 160, 183
+	offsets: 0, 0, 160, 190
+jiantou_009
+	bounds: 488, 839, 160, 183
+	offsets: 0, 0, 160, 190
+jiantou_010
+	bounds: 326, 838, 160, 184
+	offsets: 0, 0, 160, 190
+jiantou_011
+	bounds: 2, 462, 159, 186
+	offsets: 0, 0, 160, 190
+jiantou_012
+	bounds: 163, 279, 155, 183
+	offsets: 2, 0, 160, 190
+jiantou_013
+	bounds: 2, 92, 154, 183
+	offsets: 3, 0, 160, 190
+jiantou_014
+	bounds: 470, 279, 153, 183
+	offsets: 3, 0, 160, 190
+jiantou_015
+	bounds: 625, 279, 151, 183
+	offsets: 5, 0, 160, 190
+jiantou_016
+	bounds: 778, 281, 148, 183
+	offsets: 6, 0, 160, 190
+jiantou_017
+	bounds: 643, 93, 144, 184
+	offsets: 8, 0, 160, 190
+jiantou_018
+	bounds: 502, 92, 139, 185
+	offsets: 11, 0, 160, 190
+jiantou_019
+	bounds: 471, 464, 135, 184
+	offsets: 13, 1, 160, 190
+	rotate: 90
+jiantou_020
+	bounds: 657, 466, 130, 184
+	offsets: 15, 1, 160, 190
+	rotate: 90
+jiantou_021
+	bounds: 164, 650, 160, 185
+	offsets: 0, 0, 160, 190
+jiantou_022
+	bounds: 488, 654, 160, 183
+	offsets: 0, 0, 160, 190
+jiantou_023
+	bounds: 650, 839, 160, 183
+	offsets: 0, 0, 160, 190
+jiantou_024
+	bounds: 650, 654, 160, 183
+	offsets: 0, 0, 160, 190
+jiantou_025
+	bounds: 812, 840, 160, 182
+	offsets: 0, 1, 160, 190
+jiantou_026
+	bounds: 163, 464, 160, 184
+	offsets: 0, 0, 160, 190
+jiantou_027
+	bounds: 2, 277, 159, 183
+	offsets: 0, 0, 160, 190
+jiantou_028
+	bounds: 812, 655, 155, 183
+	offsets: 2, 0, 160, 190
+jiantou_029
+	bounds: 789, 96, 154, 183
+	offsets: 3, 0, 160, 190
+
+Common_10401020_buff_2.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+diquan_010
+	bounds: 2, 2, 200, 55
+	offsets: 0, 2, 200, 60
+	rotate: 90
+diquan_015
+	bounds: 157, 332, 200, 55
+	offsets: 0, 2, 200, 60
+diquan_016
+	bounds: 59, 2, 200, 55
+	offsets: 0, 2, 200, 60
+	rotate: 90
+diquan_017
+	bounds: 157, 276, 200, 54
+	offsets: 0, 2, 200, 60
+diquan_018
+	bounds: 157, 221, 200, 53
+	offsets: 0, 3, 200, 60
+diquan_019
+	bounds: 116, 2, 200, 51
+	offsets: 0, 4, 200, 60
+	rotate: 90
+diquan_020
+	bounds: 169, 19, 200, 51
+	offsets: 0, 4, 200, 60
+	rotate: 90
+jiantou_030
+	bounds: 2, 204, 153, 183
+	offsets: 3, 0, 160, 190

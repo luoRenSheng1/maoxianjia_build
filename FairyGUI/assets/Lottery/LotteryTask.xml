@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="adCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不看广告"/>
+    <remark page="1" value="看广告"/>
+  </controller>
+  <controller name="ctrl" pages="0,,1," selected="0">
+    <remark page="0" value="有任务"/>
+    <remark page="1" value="没有任务"/>
+  </controller>
+  <controller name="rewardCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未完成"/>
+    <remark page="1" value="完成"/>
+  </controller>
+  <controller name="doubleCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不是双倍"/>
+    <remark page="1" value="双倍"/>
+  </controller>
+  <controller name="lotterying" pages="0,,1," selected="0">
+    <remark page="0" value="没有转动"/>
+    <remark page="1" value="转动中"/>
+  </controller>
+  <controller name="taskType" pages="0,,1," selected="0">
+    <remark page="0" value="不是直接"/>
+    <remark page="1" value="直接奖励"/>
+  </controller>
+  <displayList>
+    <component id="n10_ju03" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <gearLook controller="lotterying" pages="1" values="1,0,0,0" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n4_tcgl" name="lotteryParent" src="tcgl3" fileName="Component/LotteryParent.xml" xy="360,656" pivot="0.5,0.5" anchor="true" group="n42_ju03"/>
+    <image id="n7_ddc1" name="lotteryPin" src="ju03b" fileName="Res/n3.png" xy="359,656" pivot="0.5,0.5" anchor="true" group="n42_ju03">
+      <gearLook controller="lotterying" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n9_ju03" name="bg" xy="93,405" size="534,502" group="n42_ju03" aspect="true" touchable="false" url="ui://6izp804wju03e" fill="scale"/>
+    <loader id="n11_ju03" name="n11" xy="167,115" size="385,126" group="n42_ju03" url="ui://6izp804wju035"/>
+    <component id="n12_ju03" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="590,140" size="56,56" group="n42_ju03">
+      <gearLook controller="lotterying" pages="0,1" values="1,0,0,1|1,0,1,0"/>
+      <Button icon="ui://6izp804wju03d"/>
+    </component>
+    <text id="n15_ju03" name="n15" xy="333,644" size="54,35" group="n42_ju03" fontSize="25" color="#ffffff" autoSize="none" bold="true" strokeColor="#8c4c1e" text="转动"/>
+    <text id="n16_ju03" name="countLb" xy="300,679" size="127,24" group="n42_ju03" fontSize="16" color="#ffffff" align="center" ubb="true" vars="true" autoSize="none" strokeColor="#8c4c1e" text="剩余[color=#63e16c]{value=18}[/color]次">
+      <gearText controller="adCtrl" pages="1" values="广告剩余[color=#63e16c]{value=18}[/color]次" default="剩余[color=#63e16c]{value=18}[/color]次"/>
+    </text>
+    <component id="n17_ju03" name="check" src="ju03l" fileName="Component/check.xml" xy="485,908" group="n42_ju03"/>
+    <text id="n18_ju03" name="n18" xy="516,908" size="84,29" group="n42_ju03" fontSize="20" color="#948d84" strokeColor="#8c4c1e" text="跳过动画"/>
+    <component id="n5_tcgl" name="lotteryBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="302,612" size="116,126" group="n42_ju03">
+      <gearDisplay controller="lotterying" pages="0"/>
+    </component>
+    <image id="n19_ju03" name="n19" src="ju03m" fileName="Res/adnn3.png" pkg="5moj1x39" xy="383,625" group="n42_ju03">
+      <gearDisplay controller="adCtrl" pages="1"/>
+    </image>
+    <loader id="n14_ju03" name="n14" xy="65,949" size="593,215" group="n40_ju03" url="ui://6izp804wju03f" fill="scaleFree"/>
+    <image id="n20_ju03" name="n20" src="ju03n" fileName="Res/newPetsystem/nn7.png" xy="265,970" group="n40_ju03"/>
+    <image id="n21_ju03" name="n21" src="ozj91y" fileName="Res/nn8.png" pkg="5moj1x39" xy="124,978" size="136,8" group="n40_ju03"/>
+    <image id="n22_ju03" name="n22" src="ju03n" fileName="Res/newPetsystem/nn7.png" xy="437,970" group="n40_ju03"/>
+    <image id="n23_ju03" name="n23" src="ozj91y" fileName="Res/nn8.png" pkg="5moj1x39" xy="461,978" size="138,8" group="n40_ju03"/>
+    <text id="n24_ju03" name="n24" xy="318,970" size="84,29" group="n40_ju03" fontSize="20" color="#663e20" bold="true" text="领取要求"/>
+    <image id="n25_ju03" name="n25" src="ju03n" fileName="Res/newPetsystem/nn7.png" xy="281,1034" group="n40_ju03"/>
+    <image id="n26_ju03" name="n26" src="ozj91y" fileName="Res/nn8.png" pkg="5moj1x39" xy="124,1041" size="136,8" group="n40_ju03"/>
+    <image id="n27_ju03" name="n27" src="ju03n" fileName="Res/newPetsystem/nn7.png" xy="422,1033" group="n40_ju03"/>
+    <image id="n28_ju03" name="n28" src="ozj91y" fileName="Res/nn8.png" pkg="5moj1x39" xy="462,1041" size="138,8" group="n40_ju03"/>
+    <text id="n29_ju03" name="n29" xy="338,1028" size="44,29" group="n40_ju03" fontSize="20" color="#663e20" bold="true" text="奖励"/>
+    <list id="n30_ju03" name="rewardList" xy="123,1062" size="250,80" group="n40_ju03" overflow="scroll" defaultItem="ui://5moj1x39ewjfdxy22">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n32_ju03" name="txtValue" xy="121,1004" size="120,26" group="n40_ju03" fontSize="18" color="#663e20" align="center" vAlign="middle" letterSpacing="1" vars="true" text="喂食熊猫{count=30}次"/>
+    <text id="n33_ju03" name="txtProgress" xy="242,1004" size="73,26" group="n40_ju03" fontSize="18" color="#ff0000" align="center" vAlign="middle" letterSpacing="2" ubb="true" vars="true" singleLine="true" text="({min=30}/{max=30})">
+      <gearDisplay controller="taskType" pages="0"/>
+      <gearColor controller="rewardCtrl" pages="0" values="#ff0000,#603a1c" default="#63e16c,#603a1c"/>
+      <relation target="n32_ju03" sidePair="left-right"/>
+    </text>
+    <component id="n34_ju03" name="getRwBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="458,1090" size="145,58" group="n40_ju03">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <Button title="领取" titleColor="#846248" titleFontSize="21" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <text id="n37_ju03" name="timeLeft" xy="436,1057" size="190,26" group="n40_ju03" fontSize="18" color="#25972d" align="center" vars="true" autoSize="none" text="双倍倒计时：{value=15:00}">
+      <gearDisplay controller="doubleCtrl" pages="1"/>
+      <gearDisplay2 controller="rewardCtrl" pages="0" condition="0"/>
+    </text>
+    <text id="n38_ju03" name="n38" xy="459,1004" size="58,26" group="n40_ju03" fontSize="18" color="#25972d" align="center" vars="true" text="已完成">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <gearDisplay2 controller="ctrl" pages="0" condition="0"/>
+    </text>
+    <image id="n39_ju03" name="n39" src="x3dk2r" fileName="Res/check_1.png" pkg="5moj1x39" xy="528,1001" group="n40_ju03">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <gearDisplay2 controller="ctrl" pages="0" condition="0"/>
+    </image>
+    <component id="n43_ju03" name="gotoBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="458,1090" size="145,58" group="n40_ju03">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+      <Button title="前往" titleColor="#846248" titleFontSize="21" icon="ui://5moj1x39ddc1dxy4x"/>
+    </component>
+    <image id="n35_ju03" name="n35" src="ju036" fileName="Res/10.png" xy="424,1082" group="n44_ju03"/>
+    <text id="n36_ju03" name="n36" xy="439,1092" pivot="0.5,0.5" size="32,26" group="n44_ju03" rotation="-18" fontSize="18" color="#ffffff" strokeColor="#409033" text="2倍"/>
+    <group id="n44_ju03" name="n44" xy="424,1082" size="63,49" group="n40_ju03" advanced="true">
+      <gearDisplay2 controller="doubleCtrl" pages="1" condition="0"/>
+    </group>
+    <group id="n40_ju03" name="n40" xy="65,949" size="593,215" group="n42_ju03" advanced="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </group>
+    <component id="n41_ju03" name="boxItem" src="ju03s" fileName="Component/LotteyBoxReward.xml" xy="90,299" group="n42_ju03"/>
+    <component id="n45_ju03" name="tips" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="572,235" size="30,29" group="n42_ju03">
+      <Button icon="ui://5moj1x39ddc14i"/>
+    </component>
+    <group id="n42_ju03" name="n42" xy="54,115" size="612,1049" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n6_tcgl" name="enablePanel" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,-1" visible="false" alpha="0" touchable="false" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

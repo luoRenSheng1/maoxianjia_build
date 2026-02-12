@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="688,115">
+  <controller name="isCheck" pages="0,,1," selected="0">
+    <remark page="0" value="未选择"/>
+    <remark page="1" value="选择"/>
+  </controller>
+  <controller name="isShow" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <component id="n0_hz5c" name="petTalentItem" src="hz5cdxy79" fileName="Component/PetTalentItem.xml" xy="14,17"/>
+    <text id="n1_hz5c" name="talentName" xy="104,26" size="100,34" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="尖锐音波"/>
+    <text id="n2_hz5c" name="talentdesc" xy="104,61" size="319,29" fontSize="20" color="#4c2911" ubb="true" vars="true" bold="true" text="发出音波攻击，造成[color=#48A542]{value=10000}[/color]点伤害。"/>
+    <loader id="n3_hz5c" name="itemIcon" xy="498,37" size="40,40" url="ui://0anhreylf34jdxy9n" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="isShow" pages="0"/>
+      <relation target="n4_hz5c" sidePair="left-left"/>
+    </loader>
+    <text id="n4_hz5c" name="goldNum" xy="539,40" size="56,34" fontSize="24" color="#9feb59" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="1000">
+      <gearDisplay controller="isShow" pages="0"/>
+    </text>
+    <loader id="n11_a2kw" name="n11" xy="619,33" size="48,48" url="ui://5moj1x39f34jdxybc"/>
+    <image id="n10_f34j" name="n10" src="f34jdxybd" fileName="Res/newItem2/general_select_img.png" pkg="5moj1x39" xy="610,23">
+      <gearDisplay controller="isCheck" pages="1"/>
+    </image>
+    <component id="n7_hz5c" name="checkBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="605,24" size="80,66">
+      <relation target="n11_a2kw" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n8_hz5c" name="n8" src="hz5cdxy97" fileName="Res/home_skill_list_line.png" pkg="0anhreyl" xy="674,108" size="4,660" rotation="90"/>
+    <loader3D id="n9_hz5c" name="spine" xy="244,-42" size="100,100" visible="false" url="ui://lxs2h4ifucd4dxya8" animation="Pet_xltf" skin="" loop="true"/>
+  </displayList>
+</component>

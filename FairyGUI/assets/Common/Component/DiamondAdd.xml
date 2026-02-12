@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,50" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <image id="n2_qfmc" name="icon" src="f34jdxy9n" fileName="Res/Currency/1000.png" xy="0,-7"/>
+    <text id="n1_qfmc" name="num" xy="61,3" pivot="0,0.5" size="112,45" font="ui://0anhreylkbxrdxxw7" fontSize="10" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-8" text="+111"/>
+  </displayList>
+  <relation target="n1_qfmc" sidePair="width-width"/>
+</component>

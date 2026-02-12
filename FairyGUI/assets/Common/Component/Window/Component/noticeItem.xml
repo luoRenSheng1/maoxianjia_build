@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,115">
+  <displayList>
+    <image id="n4_f34j" name="n4" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="0,0" size="600,115">
+      <relation target="n1_8824" sidePair="height-height"/>
+    </image>
+    <text id="n0_8824" name="title" xy="107,6" size="386,35" fontSize="24" color="#4c2911" align="center" autoSize="none" bold="true" text="公告标题"/>
+    <richtext id="n1_8824" name="content" xy="24,54" size="553,34" fontSize="24" color="#663e20" ubb="true" autoSize="height" bold="true" text="游戏公告啊个啊噶噶"/>
+  </displayList>
+</component>

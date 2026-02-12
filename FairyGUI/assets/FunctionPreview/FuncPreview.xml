@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n7_v51s" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader3D id="n0_v51s" name="n0" xy="331,996" size="71,105" group="n8_v51s" url="ui://5moj1x39ot6fdxy3v" animation="idle" skin="" loop="true"/>
+    <loader id="n1_v51s" name="n1" xy="60,126" size="599,893" group="n8_v51s" url="ui://5moj1x39x3dkdxy3o" fill="scaleFree"/>
+    <image id="n2_v51s" name="n2" src="x3dkdxy3m" fileName="Res/allAttr/13.png" pkg="5moj1x39" xy="105,65" size="510,63" group="n8_v51s"/>
+    <image id="n3_v51s" name="n3" src="fpa2dxy32" fileName="Res/7.PNG" pkg="5moj1x39" xy="74,150" size="570,840" group="n8_v51s"/>
+    <text id="n5_v51s" name="n5" xy="244,109" size="232,42" group="n8_v51s" fontSize="30" color="#00ffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="功能开启"/>
+    <list id="n6_v51s" name="funcList" xy="91,172" size="538,802" group="n8_v51s" layout="flow_hz" overflow="scroll" lineGap="10" colGap="15" defaultItem="ui://tekh4dt9v51s5">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n8_v51s" name="n8" xy="60,65" size="599,1036" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

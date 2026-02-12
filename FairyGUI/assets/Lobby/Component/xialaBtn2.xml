@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,44" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <loader id="n3_llb1" name="n3" xy="0,0" size="90,44" url="ui://s7x7ku0nllb1dxyd3">
+      <gearIcon controller="button" pages="0,1" values="ui://s7x7ku0nllb1dxyd2|ui://s7x7ku0nllb1dxyd3"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,120">
+  <controller name="showHandle" pages="0,,1," selected="1">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <controller name="attrCtrl" pages="0,,1,,2,,5,,6,,3,,4," selected="0">
+    <remark page="0" value="生命"/>
+    <remark page="1" value="攻击力"/>
+    <remark page="2" value="生命恢复"/>
+    <remark page="5" value="暴击"/>
+    <remark page="6" value="暴击伤害"/>
+  </controller>
+  <displayList>
+    <image id="n9_njeb" name="n9" src="njebdxy6u" fileName="Res/home_functional area_list1@2.png" xy="0,0" size="700,120">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_ozj9" name="attrIcon" xy="21,21" size="68,65" url="ui://s7x7ku0nnjebdxy6s" fill="scale">
+      <gearIcon controller="attrCtrl" pages="0,1,2,3,4" values="ui://s7x7ku0nnjebdxy6s|ui://s7x7ku0nnjebdxy7l|ui://s7x7ku0nnjebdxy6t|ui://s7x7ku0nnjebdxy6q|ui://s7x7ku0nnjebdxy6r" default="ui://5moj1x39ozj9dxy62"/>
+    </loader>
+    <text id="n2_ozj9" name="attrName" xy="134,24" size="88,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="攻击力"/>
+    <component id="n4_ozj9" name="strengthBtn" src="dr5adxy5c" fileName="Component/HeroAttrAniBtn.xml" xy="457,18" size="200,84" scale="1.1,1.1">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n5_ozj9" name="lvLb" xy="23,76" size="63,24" fontSize="16" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{lv=9999}">
+      <relation target="n1_ozj9" sidePair="center-center"/>
+    </text>
+    <component id="n6_ibgi" name="n6" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="578,14" touchable="false">
+      <gearDisplay controller="showHandle" pages="1"/>
+    </component>
+    <component id="n8_khmx" name="attrVal" src="khmxdxy5j" fileName="Component/HeroAttrLabel.xml" xy="136,61"/>
+    <image id="n10_u84q" name="n10" src="u84qdxy82" fileName="Res/home_functional area_list_line.png" xy="110,22"/>
+  </displayList>
+</component>

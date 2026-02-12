@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="685,197">
+  <controller name="rewardCtrl" pages="0,,1,,2,,3," selected="3">
+    <remark page="0" value="前往"/>
+    <remark page="1" value="领取"/>
+    <remark page="2" value="已领取"/>
+    <remark page="3" value="待领取"/>
+  </controller>
+  <controller name="reachCtrl" pages="0,,2,,1," selected="0">
+    <remark page="0" value="未完成"/>
+    <remark page="1" value="有进度"/>
+    <remark page="2" value="已完成"/>
+  </controller>
+  <displayList>
+    <loader id="n1_ftc9" name="n1" xy="0,0" size="685,197" url="ui://nmzfxo89ftc9e"/>
+    <text id="n2_ftc9" name="ttTitle" xy="33,21" size="143,35" fontSize="25" color="#ffffff" bold="true" strokeColor="#a0542e" strokeSize="2" text="累计充值1天"/>
+    <text id="n3_ftc9" name="dayTitle" xy="503,21" size="133,35" fontSize="25" color="#ffffff" align="right" vars="true" autoSize="none" bold="true" strokeColor="#a0542e" strokeSize="2" text="未达成充值天数">
+      <gearText controller="reachCtrl" pages="2,1" values="{cur=2}/{total=3}天|已达成" default="未达成充值天数"/>
+    </text>
+    <list id="n5_ftc9" name="rewardList" xy="24,84" size="321,79" layout="row" scroll="horizontal" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_ftc9" name="gotoBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="493,95" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+      <Button title="前往" titleColor="#663e20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n6_ftc9" name="getRwBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="493,95" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="1,2"/>
+      <gearLook controller="rewardCtrl" pages="2" values="1,0,1,0" default="1,0,0,1"/>
+      <gearText controller="rewardCtrl" pages="1,2" values="领取奖励|已领取" default="领取"/>
+      <Button title="领取" titleColor="#663e20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n7_u5mt" name="waitGetBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="493,95" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="3"/>
+      <Button title="待领取" titleColor="#663e20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+  </displayList>
+</component>

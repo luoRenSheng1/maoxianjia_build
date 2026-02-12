@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,87">
+  <controller name="hasCtrl" pages="0,,1,,2," selected="1">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+    <remark page="2" value="锁"/>
+  </controller>
+  <controller name="ctrlQuality" exported="true" pages="2,普通,11,良好,12,稀有,13,史诗,14,传说,15,神话,16,不朽" selected="0"/>
+  <controller name="showHandCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <controller name="bgiCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="小"/>
+    <remark page="1" value="大"/>
+  </controller>
+  <controller name="uploadCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="上阵"/>
+    <remark page="1" value="未上阵"/>
+  </controller>
+  <controller name="countCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <displayList>
+    <image id="n1_rm2c" name="n1" src="eau0dxy6t" fileName="Res/rune/869.png" xy="-19,-25" size="126,138" aspect="true">
+      <gearDisplay controller="bgiCtrl" pages="1"/>
+    </image>
+    <image id="n8_rm2c" name="n8" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="50,0">
+      <gearDisplay controller="hasCtrl" pages="2"/>
+    </image>
+    <image id="n2_rm2c" name="n2" src="ewjfdxy23" fileName="Res/5.png" pkg="5moj1x39" xy="0,0" size="87,87" group="n11_rm2c"/>
+    <loader id="n3_rm2c" name="n3" xy="0,0" size="87,87" group="n11_rm2c" aspect="true" url="ui://5moj1x39w02nq" fill="scale">
+      <gearIcon controller="ctrlQuality" pages="11,12,13,14,15,16" values="ui://5moj1x39w02nr|ui://5moj1x39w02ns|ui://5moj1x39w02nt|ui://5moj1x39w02nv|ui://5moj1x39w02nx|ui://5moj1x39w02nw" default="ui://5moj1x39w02nq"/>
+    </loader>
+    <loader id="n4_rm2c" name="icon" xy="8,7" size="71,71" group="n11_rm2c" aspect="true" url="ui://m37flevdrm2cdxy6l" fill="scale" clearOnPublish="true"/>
+    <group id="n11_rm2c" name="n11" xy="0,0" size="87,87" advanced="true">
+      <gearDisplay controller="hasCtrl" pages="0"/>
+    </group>
+    <component id="n12_rm2c" name="n12" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="13,21">
+      <gearDisplay controller="showHandCtrl" pages="1"/>
+      <gearDisplay2 controller="hasCtrl" pages="0" condition="0"/>
+    </component>
+    <text id="n13_eau0" name="countLb" xy="7,3" size="73,26" fontSize="18" color="#4f444a" autoSize="none" strokeColor="#ffffff" text="100000">
+      <gearDisplay controller="hasCtrl" pages="0"/>
+      <gearDisplay2 controller="countCtrl" pages="0" condition="0"/>
+    </text>
+    <loader id="n14_sfml" name="n14" xy="-21,2" size="129,47" url="ui://m37flevdsfmldxy73" vAlign="middle" fill="scale">
+      <gearDisplay controller="uploadCtrl" pages="0"/>
+      <gearDisplay2 controller="bgiCtrl" pages="0" condition="0"/>
+    </loader>
+    <component id="n15_ryjn" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="58,-2"/>
+  </displayList>
+</component>

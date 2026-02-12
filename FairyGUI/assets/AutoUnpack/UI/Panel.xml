@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageAlpha="75">
+  <displayList>
+    <loader3D id="n137_x3dk" name="n137" xy="323,788" size="69,105" visible="false" url="ui://5moj1x39ot6fdxy3v" animation="idle" skin="" loop="true"/>
+    <loader id="n138_x3dk" name="n138" xy="100,275" size="519,526" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <image id="n145_ds1c" name="n145" src="ddc147" fileName="Res/n281.png" pkg="5moj1x39" xy="100,243" size="519,85"/>
+    <image id="n146_ds1c" name="n146" src="ddc13h" fileName="Res/nn3.png" pkg="5moj1x39" xy="124,323" size="471,324"/>
+    <text id="n118_mmjj" name="n118" xy="298,254" size="124,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" bold="true" text="自动锻造"/>
+    <text id="n119_mmjj" name="n119" xy="146,344" size="120,35" fontSize="20" color="#663e20" vAlign="middle" autoSize="shrink" bold="true" text="装备品质"/>
+    <text id="n120_mmjj" name="n120" xy="146,407" size="120,35" fontSize="20" color="#663e20" vAlign="middle" autoSize="shrink" bold="true" text="筛选条件一"/>
+    <text id="n121_mmjj" name="n121" xy="147,497" size="120,35" fontSize="20" color="#663e20" vAlign="middle" autoSize="shrink" bold="true" text="筛选条件二"/>
+    <text id="n122_mmjj" name="n122" xy="146,585" size="220,35" fontSize="20" color="#663e20" vAlign="middle" autoSize="shrink" bold="true" text="单次开启锻造次数"/>
+    <component id="n123_mmjj" name="btnStart" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="277,722" size="165,58">
+      <Button title="开始" titleColor="#846248" titleFontSize="25" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <text id="n124_mmjj" name="n124" xy="306,645" size="220,35" visible="false" fontSize="18" color="#948d84" vAlign="middle" autoSize="shrink" text="挑战券满时停止"/>
+    <text id="n125_mmjj" name="n125" xy="179,679" size="361,35" fontSize="18" color="#cb7802" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="不符合条件的装备将自动出售"/>
+    <component id="n126_mmjj" name="checkBoxFullTickets" src="mmjj2a" fileName="Component/Checkbox_as.xml" xy="262,645" visible="false"/>
+    <component id="n127_mmjj" name="checkBoxFilter1" src="mmjj2a" fileName="Component/Checkbox_as.xml" xy="547,409"/>
+    <component id="n129_mmjj" name="entry1" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="146,445" size="200,36"/>
+    <component id="n135_mmjj" name="openNumBtn" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="379,585" size="200,36"/>
+    <component id="n136_mmjj" name="equipBtn" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="272,344" size="308,36">
+      <relation target="n119_mmjj" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n141_x3dk" name="checkBoxFilter2" src="mmjj2a" fileName="Component/Checkbox_as.xml" xy="547,497"/>
+    <component id="n142_x3dk" name="entry2" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="380,445" size="200,36"/>
+    <component id="n143_x3dk" name="entry3" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="146,535" size="200,36"/>
+    <component id="n144_x3dk" name="entry4" src="x3dk2u" fileName="Component/openCountBtn.xml" xy="380,535" size="200,36"/>
+    <component id="n147_ds1c" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,831">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>

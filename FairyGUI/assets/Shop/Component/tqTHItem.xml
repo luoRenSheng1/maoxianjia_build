@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="698,367">
+  <controller name="cardType" pages="2,终身卡,1,月卡,0,周卡" selected="0"/>
+  <controller name="rewardCtrl" pages="0,未购买,1,已购买,2,已领取" selected="0"/>
+  <displayList>
+    <loader id="n0_ftc9" name="bgUrl" xy="6,13" size="685,352" url="ui://nmzfxo89ftc9q" fill="scaleFree">
+      <gearIcon controller="cardType" pages="1,0" values="ui://nmzfxo89ftc9p|ui://nmzfxo89ftc9s" default="ui://nmzfxo89ftc9q"/>
+    </loader>
+    <list id="n1_ftc9" name="rewardList" xy="81,262" size="238,78" layout="row" scroll="horizontal" defaultItem="ui://5moj1x39ewjfdxy22" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2_ftc9" name="n2" src="ftc9t" fileName="Res/card/n2.png" xy="37,226" pivot="0.5,0.5" group="n5_ftc9" scale="-1,1"/>
+    <text id="n4_ftc9" name="n4" xy="159,220" size="80,28" group="n5_ftc9" fontSize="19" color="#bb7f4a" text="每日领取">
+      <gearColor controller="cardType" pages="2,1,0" values="#bb7f4a,#000000|#8c4abb,#000000|#4a4fbb,#000000"/>
+    </text>
+    <image id="n3_ftc9" name="n3" src="ftc9t" fileName="Res/card/n2.png" xy="243,226" group="n5_ftc9"/>
+    <group id="n5_ftc9" name="n5" xy="37,220" size="324,28" advanced="true" layout="hz" colGap="4" excludeInvisibles="true"/>
+    <richtext id="n7_ftc9" name="attrLb" xy="68,82" size="283,132" fontSize="22" color="#84301b" vAlign="middle" ubb="true" vars="true" autoSize="none" autoClearText="true" text="挂机时间上限+4小时&amp;#xA;契约可自动签约&amp;#xA;购买立得:[img]ui://s7x7ku0ni9sldxy04[/img][color=#00FF66]256000[/color]">
+      <gearColor controller="cardType" pages="2,1,0" values="#84301b,#ffffff|#4a1b84,#ffffff|#2d377d,#ffffff"/>
+    </richtext>
+    <loader id="n8_ftc9" name="img" xy="106,33" size="122,43" url="ui://nmzfxo89ftc9n" autoSize="true" clearOnPublish="true">
+      <gearIcon controller="cardType" pages="1,0" values="ui://nmzfxo89ftc9o|ui://nmzfxo89ftc9r" default="ui://nmzfxo89ftc9n"/>
+    </loader>
+    <component id="n9_ftc9" name="getRwBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="469,267" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="1,2"/>
+      <gearLook controller="rewardCtrl" pages="2" values="1,0,1,0" default="1,0,0,1"/>
+      <gearText controller="rewardCtrl" pages="1,2" values="领取奖励|今日已领取" default="领取"/>
+      <Button title="领取" titleColor="#663e20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n10_ftc9" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="469,267" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+      <Button icon="ui://5moj1x39ddc13t"/>
+    </component>
+  </displayList>
+</component>

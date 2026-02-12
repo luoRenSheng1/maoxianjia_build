@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,66">
+  <displayList>
+    <image id="n0_khmx" name="n0" src="khmxb" fileName="Res/sdgdfg5247.png" xy="0,0" size="224,66"/>
+    <text id="n1_khmx" name="cntLb" xy="80,15" size="56,33" fontSize="23" color="#ffffff" vars="true" bold="true" text="x{cur=100}"/>
+    <component id="n2_khmx" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="11,4" scale="0.75,0.75"/>
+  </displayList>
+</component>

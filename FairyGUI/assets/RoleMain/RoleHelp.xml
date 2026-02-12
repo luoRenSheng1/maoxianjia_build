@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ozj9" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_ozj9" name="n1" xy="86,319" size="547,694" group="n4_ozj9" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n2_ozj9" name="n2" xy="86,266" size="547,77" group="n4_ozj9" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <list id="n3_ozj9" name="helpList" xy="102,359" size="520,614" group="n4_ozj9" overflow="scroll" lineGap="13" defaultItem="ui://m37flevdozj91w">
+      <item title="奶酪在家园玩法中产出，主线关卡也会掉落"/>
+      <item title="奶酪可以用于升级英雄"/>
+      <item title="英雄突破消耗道具：帝王蟹与同名英雄碎片"/>
+      <item title="每次突破提升20级等级上限，突破梯度：星星、月亮、太阳、皇冠"/>
+    </list>
+    <component id="n5_ozj9" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="567,268" group="n4_ozj9"/>
+    <text id="n6_ozj9" name="n6" xy="328,272" size="64,42" group="n4_ozj9" fontSize="30" color="#ffffff" strokeColor="#1c8887" text="帮助"/>
+    <group id="n4_ozj9" name="n4" xy="86,266" size="547,747" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

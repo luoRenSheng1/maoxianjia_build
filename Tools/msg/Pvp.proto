@@ -1,0 +1,168 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+	
+
+ //客户端请求排行榜数据
+message GlobalFirstRank_CS   //eMsg_GlobalFirstRank_CS = 1703; 
+{
+}	  
+
+//客户端请求排行榜数据反馈
+message GlobalFirstRank_SC  //eMsg_GlobalFirstRank_SC = 1705; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated GlobalFirstPlayerRankData rank_data = 2;         //显示数据
+	optional SplitPkgPC split_pkg_rank_data = 3;  //分包
+}
+
+
+
+	
+//请求排行榜成功后马上独立下发
+message GlobalFirstWarReports_PC  //eMsg_GlobalFirstWarReports_PC = 1732; 
+{
+	repeated GlobalFirstWarReport war_reports = 1;         //显示数据
+	optional SplitPkgPC split_pkg = 2;  //分包
+}
+
+//排行榜最新数据
+message GlobalFirstRank_PC  //eMsg_GlobalFirstRank_PC = 1706; 
+{
+	repeated GlobalFirstPlayerRankData rank_data = 1;         //显示数据
+	optional SplitPkgPC split_pkg_rank_data = 2;  //分包
+}
+    
+//最新玩家天下第一每日挑战相关数据
+message GlobalFirstPlayerInfo_PC  //eMsg_GlobalFirstPlayerInfo_PC = 1707;  
+{
+	optional GlobalFirstPlayerDailyData player_daily_data = 1;         //每日挑战相关数据
+}   
+    
+//排行榜战报新数据下发--一条或多条新战报
+message GlobalFirstRankNewWarReport_PC  //eMsg_GlobalFirstRankNewWarReport_PC = 1708; 
+{
+	repeated GlobalFirstWarReport war_reports = 1;  //战报
+}   
+ 
+	
+//发现空位占坑请求
+message GlobalFirstTakeOverRank_CS   //eMsg_GlobalFirstTakeOverRank_CS = 1709;   
+{
+	optional uint32 rank_pos = 1; //要占领的坑位
+	optional double battle_power = 2; //提交的战力 
+}	  
+
+//发现空位占坑请求反馈
+message GlobalFirstTakeOverRank_SC  //eMsg_GlobalFirstTakeOverRank_SC = 1712;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional GlobalFirstPlayerRankData rank_data = 2;         //显示数据--占领成功后的显示坑位信息
+	optional GlobalFirstWarReport war_reports = 3;  //战报        //占领成功后的战报
+	optional GlobalFirstPlayerDailyData player_daily_data = 4;         //每日挑战相关数据
+}
+	
+
+	
+//开始挑战   请求
+message GlobalFirstChallengeReq_CS   //eMsg_GlobalFirstChallengeReq_CS = 1713;  
+{
+	optional uint32 rank_pos = 1; //要占领的坑位
+	optional double battle_power = 2; //提交的战力 
+}
+
+//开始挑战  反馈 
+message GlobalFirstChallengeReq_SC  //eMsg_GlobalFirstChallengeReq_SC = 1715;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+}
+
+
+//下发被挑战者数据，客户端pvp开始
+message GlobalFirstPvPStart_PC   //eMsg_GlobalFirstPvPStart_PC = 1716;     
+{
+	optional GlobalFirstPlayerRankData opponent_data = 1;         //对手的显示数据
+	optional GlobalFirstPlayerBattleData opponent_battle_data = 2;  //对手的战斗数据
+}
+	
+
+    
+         
+       
+//战斗结束提交 
+message GlobalFirstPvPBattleFinish_CS  //eMsg_GlobalFirstPvPBattleFinish_CS = 1717; 
+{
+	optional bool is_win = 1;  //是否胜利,平局也算输
+	optional GlobalFirstPlayerRankData opponent_data = 3;         //对手的显示数据
+}
+
+//战斗结束提交反馈
+message GlobalFirstPvPBattleFinish_SC  //eMsg_GlobalFirstPvPBattleFinish_SC = 1720; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional GlobalFirstPlayerRankData rank_data = 2;         //挑战坑位的显示数据
+	optional GlobalFirstWarReport war_reports = 3;  //战报
+	optional GlobalFirstPlayerDailyData player_daily_data = 4;         //每日挑战相关数据
+	optional bool is_win = 5;  //是否胜利,平局也算输
+}
+	
+
+//给被挑战者发送失败信息
+message GlobalFirstDefeatedInfo_PC  //eMsg_GlobalFirstDefeatedInfo_PC = 1721;  
+{
+	optional GlobalFirstPlayerRankData rank_data = 1;         //自己原有坑位的显示数据
+	optional GlobalFirstWarReport war_reports = 2;  //战报
+	optional GlobalFirstPlayerDailyData player_daily_data = 3;         //每日挑战相关数据
+}
+
+
+// 领取昨日排行奖励请求
+message GlobalFirstClaimAward_CS  //Msg_GlobalFirstClaimAward_CS = 1722;  
+{
+}
+    
+// 领取昨日排行奖励反馈
+message GlobalFirstClaimAward_SC    //eMsg_GlobalFirstClaimAward_SC = 1723; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional Finance finance = 2; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox claimed_items = 3; //本次领取成功礼包中的所有道具
+	optional GlobalFirstPlayerDailyData player_daily_data = 4;         //每日挑战相关数据
+}
+
+//购买挑战次数请求
+message GlobalBuyChallengeCounter_CS  //eMsg_GlobalBuyChallengeCounter_CS = 1724;  
+{
+	optional int32 purchase_counter = 1; //购买次数
+}     
+//购买挑战次数反馈
+message GlobalBuyChallengeCounter_SC  //eMsg_GlobalBuyChallengeCounter_SC = 1725;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional Finance finance = 2; //最新账户货币信息,各种货币余额
+	optional int32 challenge_opportunity = 3;  //每日剩余挑战数--最新剩余次数
+	optional int32 today_purchase_counter = 4; //今日已购买次数
+}      
+    
+  
+
+	
+	
+
+//战斗力变更上报CS
+message BattlePowerChange_CS  //eMsg_BattlePowerChange_CS = 1733; 
+{
+	optional double battle_power = 1; 
+}
+    
+//战斗力变更上报SC--客户端可以不处理
+message BattlePowerChange_SC    //eMsg_BattlePowerChange_SC = 1734; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+}
+	

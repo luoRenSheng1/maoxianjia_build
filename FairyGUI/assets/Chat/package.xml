@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x1rxl2id">
+  <resources>
+    <component id="r13r0" name="ChatView.xml" path="/" exported="true"/>
+    <image id="r13r1" name="n2.png" path="/Res/"/>
+    <image id="r13r2" name="n3.png" path="/Res/" scale="9grid" scale9grid="147,0,8,93" duplicatePadding="true"/>
+    <image id="r13r3" name="n4.png" path="/Res/"/>
+    <image id="r13r4" name="n1.png" path="/Res/"/>
+    <image id="r13r5" name="n8.png" path="/Res/"/>
+    <image id="r13r6" name="n5.png" path="/Res/" scale="9grid" scale9grid="83,30,13,13"/>
+    <image id="r13r8" name="n7.png" path="/Res/"/>
+    <image id="r13r9" name="n9.png" path="/Res/"/>
+    <image id="r13ra" name="n10.png" path="/Res/"/>
+    <image id="r13rb" name="n11.png" path="/Res/"/>
+    <image id="r13rd" name="n12.png" path="/Res/"/>
+    <component id="r13re" name="TabBtn.xml" path="/Component/"/>
+    <image id="kvszf" name="n22.png" path="/Res/"/>
+    <image id="kvszg" name="n33.png" path="/Res/" scale="tile" duplicatePadding="true"/>
+    <image id="kvszh" name="n34.png" path="/Res/" scale="9grid" scale9grid="300,53,29,59"/>
+    <image id="kvszi" name="n66.png" path="/Res/"/>
+    <image id="kvszj" name="line.png" path="/Res/"/>
+    <component id="kvszk" name="ChatLeftItem.xml" path="/Component/" exported="true"/>
+    <component id="kvszl" name="ChatRightItem.xml" path="/Component/" exported="true"/>
+    <image id="kvszm" name="ICON-touxiang.png" path="/Res/"/>
+    <component id="kvszn" name="ChatSysItem.xml" path="/Component/" exported="true"/>
+    <image id="f34jp" name="chat_btn2.png" path="/Res/new/"/>
+    <image id="f34js" name="chat_bg1.png" path="/Res/new/" scale="9grid" scale9grid="13,24,691,43"/>
+    <image id="f34jt" name="chat_bg2.png" path="/Res/new/" scale="9grid" scale9grid="4,12,580,26"/>
+    <image id="f34ju" name="chat_bg3.png" path="/Res/new/" scale="9grid" scale9grid="10,12,61,40"/>
+    <image id="f34jv" name="chat_bg4.png" path="/Res/new/" scale="9grid" scale9grid="27,27,68,30"/>
+    <image id="f34jx" name="chat_btn1.png" path="/Res/new/"/>
+    <image id="f34jy" name="聊天_世界1-1.png" path="/Res/new/"/>
+    <image id="f34jz" name="聊天_系统.png" path="/Res/new/"/>
+    <image id="f34j10" name="聊天_世界1.png" path="/Res/new/"/>
+    <image id="l5cy1l" name="chat_btn3.png" path="/Res/new/"/>
+    <image id="l5cy1o" name="chat_btn02.png" path="/Res/new/" scale="9grid" scale9grid="128,196,48,212"/>
+    <image id="l5cy1p" name="chat_btn01.png" path="/Res/new/" scale="9grid" scale9grid="123,201,53,216"/>
+  </resources>
+  <publish name="Chat" genCode="true"/>
+</packageDescription>

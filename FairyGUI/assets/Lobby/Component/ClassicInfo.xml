@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,365" designImageOffsetX="-10" designImageOffsetY="-521">
+  <controller name="maxCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <displayList>
+    <loader id="n0_mtms" name="n0" xy="0,0" size="415,346" url="ui://5moj1x39mtmsdxycs" fill="scaleFree">
+      <relation target="n5_mtms" sidePair="height-height"/>
+    </loader>
+    <loader id="n6_mtms" name="n6" xy="46,333" size="35,35" url="ui://5moj1x39mtmsdxyct">
+      <relation target="n0_mtms" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <text id="n1_mtms" name="classicName" xy="141,15" size="132,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="秘典名字">
+      <relation target="n0_mtms" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n2_mtms" name="classItem" src="mtmsdxyco" fileName="Component/ClassicItem.xml" xy="153,90">
+      <relation target="n0_mtms" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n7_mtms" name="n7" xy="149,202" size="116,39" fontSize="28" color="#4c2911" bold="true" text="满级加成">
+      <gearText controller="maxCtrl" pages="1" values="已激活" default="满级加成"/>
+      <relation target="n0_mtms" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n8_mtms" name="n8" src="u84qdxy82" fileName="Res/home_functional area_list_line.png" xy="206,65" pivot="0.5,0.5" size="2,379" rotation="90">
+      <relation target="n0_mtms" sidePair="center-center,top-top"/>
+    </image>
+    <list id="n5_mtms" name="maxAttrList" xy="5,275" size="405,39" scroll="horizontal" defaultItem="ui://s7x7ku0nmtmsdxycp" align="center" vAlign="middle">
+      <relation target="n0_mtms" sidePair="center-center,top-top"/>
+      <item/>
+    </list>
+    <loader id="n9_fr3p" name="n9" xy="4,75" size="407,296" group="n14_fr3p" url="ui://5moj1x39jiq9dxyd6" fill="scaleFree">
+      <relation target="n0_mtms" sidePair="height-height,center-center,top-top"/>
+    </loader>
+    <loader id="n10_fr3p" name="n10" xy="55,163" size="304,72" group="n13_fr3p" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n12_fr3p" name="n12" xy="64,177" size="48,48" group="n13_fr3p" url="ui://5moj1x39fr3pdxyd3" align="center" vAlign="middle">
+      <relation target="n10_fr3p" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n11_fr3p" name="n11" xy="119,181" size="228,39" group="n13_fr3p" fontSize="28" color="#ffffff" align="right" bold="true" strokeColor="#000000" strokeSize="3" text="满级解锁额外加成">
+      <relation target="n10_fr3p" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n13_fr3p" name="n13" xy="55,163" size="304,72" group="n14_fr3p" advanced="true">
+      <relation target="n9_fr3p" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n14_fr3p" name="n14" xy="4,75" size="407,296" advanced="true">
+      <gearDisplay controller="maxCtrl" pages="0"/>
+    </group>
+  </displayList>
+</component>

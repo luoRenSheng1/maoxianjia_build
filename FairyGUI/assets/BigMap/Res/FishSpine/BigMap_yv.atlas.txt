@@ -1,0 +1,95 @@
+BigMap_yv.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+yv_001
+	bounds: 181, 233, 33, 16
+	offsets: 1, 2, 34, 18
+yv_002
+	bounds: 180, 215, 33, 16
+	offsets: 1, 2, 34, 18
+yv_003
+	bounds: 37, 121, 33, 16
+	offsets: 1, 2, 34, 18
+yv_004
+	bounds: 2, 83, 33, 16
+	offsets: 1, 2, 34, 18
+yv_005
+	bounds: 2, 83, 33, 16
+	offsets: 1, 2, 34, 18
+yv_006
+	bounds: 216, 233, 33, 16
+	offsets: 1, 2, 34, 18
+yv_007
+	bounds: 215, 215, 33, 16
+	offsets: 1, 2, 34, 18
+yv_008
+	bounds: 74, 213, 33, 17
+	offsets: 1, 1, 34, 18
+yv_009
+	bounds: 110, 232, 33, 17
+	offsets: 1, 1, 34, 18
+yv_010
+	bounds: 2, 232, 34, 17
+	offsets: 0, 1, 34, 18
+yv_011
+	bounds: 2, 213, 34, 17
+	offsets: 0, 1, 34, 18
+yv_012
+	bounds: 38, 232, 34, 17
+	offsets: 0, 1, 34, 18
+yv_013
+	bounds: 2, 194, 34, 17
+	offsets: 0, 1, 34, 18
+yv_014
+	bounds: 38, 213, 34, 17
+	offsets: 0, 1, 34, 18
+yv_015
+	bounds: 2, 157, 34, 16
+	offsets: 0, 1, 34, 18
+yv_016
+	bounds: 38, 176, 34, 16
+	offsets: 0, 1, 34, 18
+yv_017
+	bounds: 74, 177, 34, 16
+	offsets: 0, 1, 34, 18
+	rotate: 90
+yv_018
+	bounds: 109, 214, 34, 16
+	offsets: 0, 1, 34, 18
+yv_019
+	bounds: 145, 233, 34, 16
+	offsets: 0, 1, 34, 18
+yv_020
+	bounds: 2, 139, 34, 16
+	offsets: 0, 1, 34, 18
+yv_021
+	bounds: 2, 139, 34, 16
+	offsets: 0, 1, 34, 18
+yv_022
+	bounds: 2, 139, 34, 16
+	offsets: 0, 1, 34, 18
+yv_023
+	bounds: 38, 158, 34, 16
+	offsets: 0, 1, 34, 18
+yv_024
+	bounds: 74, 232, 34, 17
+	offsets: 0, 1, 34, 18
+yv_025
+	bounds: 2, 175, 34, 17
+	offsets: 0, 1, 34, 18
+yv_026
+	bounds: 38, 194, 34, 17
+	offsets: 0, 1, 34, 18
+yv_027
+	bounds: 145, 214, 33, 17
+	offsets: 1, 1, 34, 18
+yv_028
+	bounds: 2, 120, 33, 17
+	offsets: 1, 1, 34, 18
+yv_029
+	bounds: 38, 139, 33, 17
+	offsets: 1, 1, 34, 18
+yv_030
+	bounds: 2, 101, 33, 17
+	offsets: 1, 1, 34, 18

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlef8udxyam">
+  <controller name="typeCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="装备"/>
+    <remark page="1" value="传承"/>
+    <remark page="2" value="神器"/>
+  </controller>
+  <displayList>
+    <component id="n3_ef8u" name="commonEquip" src="ef8udxyar" fileName="EquipSystemEquip.xml" xy="0,0">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </component>
+    <loader id="n0_ef8u" name="n0" xy="0,1041" size="720,115" group="n2_ef8u" url="ui://5moj1x39f34jdxybb" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <list id="n1_ef8u" name="tabList" xy="0,1059" size="720,70" group="n2_ef8u" layout="row" colGap="18" defaultItem="ui://ddc23erlef8udxy9z" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+      <item title="装备" icon="ui://ddc23erlef8udxya3" selectedIcon="ui://ddc23erlef8udxya2"/>
+      <item title="传承装备" icon="ui://ddc23erlef8udxya3" selectedIcon="ui://ddc23erlef8udxya2"/>
+      <item title="神器" icon="ui://ddc23erlef8udxya3" selectedIcon="ui://ddc23erlef8udxya2"/>
+    </list>
+    <group id="n2_ef8u" name="n2" xy="0,1041" size="720,115" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

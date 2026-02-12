@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,39" extention="Label">
+  <controller name="shuxingCtrl" pages="0,,1,,5,,2,,3," selected="0">
+    <remark page="0" value="攻击"/>
+    <remark page="1" value="生命"/>
+    <remark page="2" value="暴击"/>
+    <remark page="3" value="爆伤"/>
+    <remark page="4" value="生命恢复"/>
+  </controller>
+  <displayList>
+    <text id="n0_khmx" name="attrLb" xy="0,0" pivot="0.5,0.5" size="52,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=100}">
+      <gearText controller="shuxingCtrl" pages="0,1,5,2,3" values="{value=100}|{value=10}|{value=1}%|{value=10}%|{value=10}"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <relation target="n0_khmx" sidePair="width-width,height-height"/>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_khmx" tween="true" startValue="1,1" endValue="1.5,1.5" duration="3"/>
+    <item time="3" type="Scale" target="n0_khmx" tween="true" startValue="1.5,1.5" endValue="1,1" duration="3"/>
+  </transition>
+</component>

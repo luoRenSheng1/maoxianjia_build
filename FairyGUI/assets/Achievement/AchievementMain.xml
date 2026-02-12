@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_r1ah" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_r1ah" name="n1" xy="16,117" size="688,938" group="n5_rwnp" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <loader id="n7_f34j" name="n7" xy="25,306" size="670,715" group="n5_rwnp" url="ui://5moj1x39f34jdxyb8" fill="scaleFree"/>
+    <text id="n2_r1ah" name="n2" xy="326,136" size="68,44" group="n5_rwnp" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="成就">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n3_rwnp" name="list" xy="40,321" size="640,683" group="n5_rwnp" overflow="scroll" lineGap="8" defaultItem="ui://b8bvql0ir1ahi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n4_rwnp" name="tabList" xy="38,221" size="643,70" group="n5_rwnp" layout="row" colGap="16" defaultItem="ui://b8bvql0irwnpm">
+      <relation target="n1_r1ah" sidePair="top-bottom"/>
+      <item title="装备" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="宠物" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="技能" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="玩法" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+    </list>
+    <component id="n6_rwnp" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="318,1079" size="84,84" group="n5_rwnp">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n5_rwnp" name="n5" xy="16,117" size="688,1046" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

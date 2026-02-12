@@ -1,0 +1,316 @@
+syntax = "proto2";
+package msg;
+
+enum eErrCode {
+// 0-99：通用错误码段
+	eErrCode_Success					= 0;	// 成功
+	eErrCode_Fail						= 1;	// 失败
+	eErrCode_Unknow						= 2;	// 系统内部未知错误
+	eErrCode_Config						= 3;	// 配置数据有问题
+	eErrCode_IGGID_Invalid				= 4;	// IGGID无效(客户端可以尝试重新登录)
+	eErrCode_Guid_Invalid				= 5;	// Guid无效/不存在，比如道具、玩家等Guid
+	eErrCode_BaseID_Invalid				= 6;	// (配置类/基础)ID无效，比如道具类型等
+	eErrCode_Level_Invalid				= 7;	// 等级不符合条件，比如等级太低、不等、太高
+	eErrCode_Diamond_NotEnough			= 8;	// 钻石不足
+	eErrCode_Gold_NotEnough				= 9;	// 金币不足
+	eErrCode_Item_NotEnough				= 10;	// Item不足
+	eErrCode_NotOpen					= 11;	// 功能/系统未开启/解锁，比如剧情系统、邮件系统等
+	eErrCode_Param						= 12;	// 客户端上传协议参数不正确，比如购买商城物品数量为负数等
+	eErrCode_LoginBan					= 13;	// 封号(客户端退出，不能再登录)
+	eErrCode_ServerExiting				= 14;	// 服务器正在退出，禁止登录(客户端退出，不能再登录)
+	eErrCode_Remove_Item				= 15;	// 删除道具失败
+	eErrCode_Add_Item					= 16;	// 添加道具失败
+	eErrCode_Parse_Json					= 17;	// json串解析失败
+	eErrCode_SendMySQL					= 18;	// 转发mysql到数据库失败
+	eErrCode_ObjOptAndSave				= 19;	// 对象管理器操作或存库失败
+	eErrCode_Energy_NotEnough			= 20;	// 体力不足
+	eErrCode_Server_Maintenance			= 21;	// 服务器维护中(客户端退出，不能再登录)
+	eErrCode_CheckCode_Error			= 22;	// 登录：校验码错误(客户端可以尝试重新登录)
+	eErrCode_Auth_Error					= 23;	// 登录：帐号认证失败(客户端可以尝试重新登录)
+	eErrCode_GateServer_Error			= 24;	// 登录：帐号登错GateServer(客户端可以尝试重新登录)
+	eErrCode_Server_Version_Error		= 25;	// 登录：Server_Version参数错误，用于校验客户端断线重连是否跨服务器维护(客户端可以尝试重新登录)
+	eErrCode_StoryNotOpenOrNoRes		= 26;	// 功能不开放，对应故事书未解锁或资源未下载
+	eErrCode_ReviewServer_Version_Error	= 27;	// 此为审核服，客户端版本号错误，请连正式服
+	eErrCode_Server_Is_Busy				= 28;	// 服务器已满，无法登录
+	eErrCode_AccountHasBeenDelOrBan		= 29;	// 账户被删或不存在或被ban
+	eErrCode_Milestone_Already_Finished = 30;   //  里程碑已达成
+	eErrCode_Already_TopLevel = 31;             // 已经是最高等级
+	eErrCode_Milestone_not_Finished = 32;             // 未达升级条件---等级内里程碑次数未满足 或 未达到领奖的里程碑要求数值
+	eErrCode_In_Colddown_time = 33;             // 在冷却时间里，无法进行操作--  满足操作的时间未到
+	eErrCode_Object_In_Using = 34;             // 物品使用中
+	eErrCode_Object_NotIn_Using = 35;             // 物品不在使用中
+	eErrCode_Object_Invalid = 36;             // 无效物品或物品参数
+	eErrCode_Same_Object = 37;             // 无需变更，数据一样
+	eErrCode_Slot_Was_Empty = 38;             // 插槽已经是空的
+	
+	
+	eErrCode_Pet_Exist = 39; //宠物已存在
+	eErrCode_Same_Evenlution_Pet_Exist = 40; //有进化线路上的宠物已存在
+	eErrCode_No_BreakUp = 41;   //无需突破
+	eErrCode_Only_BasePet_Support = 42;  //只支持基础宠物生成
+	eErrCode_Pet_Not_Exist = 43; //宠物不存在
+
+	eErrCode_DailyReset_Too_Early = 44; //每日重置时间未到
+	
+	
+	eErrCode_Copy_Over_Required_Time = 45; //副本超时
+	eErrCode_Copy_Not_Reach_Stage = 46; //扫荡未完成管卡
+	
+	eErrCode_Task_Not_Finished = 47; //任务未完成
+	
+	eErrCode_Build_Condition_Not_Match = 48; //其他建筑需要完成前置升级
+	eErrCode_WareHouseItem_Is_Full					= 49;	// 仓库道具已满
+	eErrCode_WareHouseWood_Is_Full					= 50;	// 仓库木材已满
+	eErrCode_WareHouseOre_Is_Full					= 51;	// 仓库矿石已满
+	eErrCode_vigour_too_low					= 52;	// 体力不足无法派遣
+	eErrCode_Build_No_Dispatch_Room					= 53;	// 建筑派遣已满
+	eErrCode_Pet_In_Dispatching					= 54;	// 宠物在派遣中
+	eErrCode_Dispatch_DestBuild_Illegal					= 55;	// 派遣建筑不支持
+	
+	eErrCode_Function_Not_Unlock = 56;   //功能未解锁
+	eErrCode_Function_Award_Claimed = 57;   //功能解锁奖励已领取
+	
+	eErrCode_Acceleration_Object_Illegal = 58;  //加速对象非法  --不存在或未解锁 或未再派遣中
+	eErrCode_Not_Need_Acceleration = 59;   //不需要加速
+	
+	eErrCode_Award_Has_Claimed = 60;  //奖励已领取
+	eErrCode_Item_Has_Purchased = 61;  //道具已购买过
+	eErrCode_Item_Has_Purchased_Reach_Limit = 62;  //道具已购买达到次数
+	
+	
+	eErrCode_CampTask_is_Taking = 63;  //营地任务已经有在进行中
+	eErrCode_CampTask_Have_Claimed_Award = 64;  //营地任务已被领取奖励
+	eErrCode_CampTask_Have_Finished = 65;  //营地任务已完成
+
+	eErrCode_ClickAcceleration_TooShort = 66;  //点击加速时间过短，可能非法作弊
+	
+	eErrCode_WorkStaion_NotFound = 67;  //工位不存在
+	eErrCode_WorkStation_Locked = 68;  //工位未解锁
+	eErrCode_WorkStation_HaveBeenUnlocked = 69;  //工位已经被解锁
+	eErrCode_WorkStation_ProficincyNotReach = 70;  //熟练度未达到
+	eErrCode_WorkStation_NotProducing = 71;  //工位未生产中
+	eErrCode_WorkStation_Producing = 72;  //工位生产中
+	eErrCode_WorkStation_Need_To_Obtain_Item = 73;  //需要先领取产品
+	eErrCode_WorkStation_Is_Empty = 74;  //工位为空
+	
+	eErrCode_ClaimAward_Time_NotReach = 75;  //奖励时间未到
+	
+	eErrCode_WildPet_NotSupport = 76;  //野宠不支持该操作
+	
+	eErrCode_HomeTalentLevel_AreadyOwned = 77; //家园天赋等级已升级或升级中，已拥有
+	eErrCode_HomeTalent_ParentTalentNotReach = 78; //家园天赋等级其依赖的天赋未达到等级条件
+	eErrCode_HomeTalent_NotExit = 79; //家园天赋不存在
+	eErrCode_HomeTalent_BuildLevelLimit = 80; //家园天赋建筑限制最高等级
+	
+	eErrCode_Bed_NotFound = 81;  //床位不存在
+	eErrCode_Bed_Locked = 82;  //床位未解锁
+	eErrCode_Bed_HaveBeenUnlocked = 83;  //床位已经被解锁
+	eErrCode_Bed_NotProducing = 84;  //床位未生产中
+	eErrCode_Bed_Producing = 85;  //床位生产中
+	eErrCode_Bed_Need_To_Obtain_Pet = 86;  //需要先领取宠物
+	eErrCode_Bed_Is_Empty = 87;  //床位为空
+	eErrCode_OnlyWildPet_Support = 88;  //只支持野宠
+	eErrCode_WildPets_ReachLimit = 89;  //达到野宠上限
+	
+	eErrCode_PetLevelUp_LevelNotReach = 90; //宠物进化等级未达到
+	eErrCode_PetLevelUp_QualityNotReach = 91; //宠物进化品质未达到
+	eErrCode_PetLevelUp_StarNotReach = 92; //宠物进化星级未达到
+	eErrCode_PetLevelUp_SkillNotReach = 93; //宠物进化技能等级未达到
+	eErrCode_PetLevelUp_JewelryNotReach = 94; //宠物进化饰品等级未达到
+	
+	eErrCode_PetLevel_ReachLimit = 95; //宠物等级达到上限,petbasis限制或不能超过角色等级
+	eErrCode_PetQuality_ReachLimit = 96; //宠物品质达到上限
+	eErrCode_PetStar_ReachLimit = 97; //宠物星级达到上限
+
+	eErrCode_ExchangeCode_NotExist = 98; //兑换码不存在
+	
+	eErrCode_Stage_Cheat_Not_KillAnyMonster = 99; //未杀死一只怪物，不能过关
+	eErrCode_Stage_NotCommit_BeginStage = 100; //未提交过关卡开始
+	
+	
+	eErrCode_Need_BreakUp = 101;   //需要先突破
+	eErrCode_Hero_Exist = 102;   //英雄已存在
+	eErrCode_Hero_Not_Exist = 103;   //英雄不存在
+	eErrCode_FreeTimes_UsedOut = 104;   //当日免费次数已用光
+	
+	eErrCode_NoItem_Sold = 105;  //没有道具出售成功
+	eErrCode_Item_SellTime_Expired = 106;  //道具销售时间已过
+	
+	eErrCode_Last_Recharge_NotFinished = 107;  //同类型支付上一单未完成，请等待到账后再发起充值（防止重复购买）
+	eErrCode_Waiting_For_InAccount = 108;  //充值未到账，还无法领取，请等待到账
+	
+	eErrCode_GFPVP_RankIsTaken = 109; //排行榜位置已被占领
+	eErrCode_Skill_In_RuneSlots = 110; //不允许装备有同样的技能的符石
+	
+	
+	eErrCode_Activity_Expired = 111;   //活动已过期  
+	eErrCode_NotPlay_AnyGame = 112;   //未参与任何一场比赛
+	eErrCode_Activity_InClean = 113;   //活动在日或月结算中
+	eErrCode_Power_Illegal = 114;   //战斗力异常
+	eErrCode_Please_Send_Take = 115;   //当前排位为空，请发起占领
+	eErrCode_Win_ButNotFirst = 116;   //获胜但不是第一
+	
+	eErrCode_Reach_Daily_Limit = 117; //已达每日上限
+	eErrCode_Event_Already_Finished = 118; //事件已完成
+	eErrCode_Event_Expired = 119; //事件已过期
+	
+	eErrCode_Task_Exist = 120; //任务已存在
+	eErrCode_Talent_NeedUnlock = 121; //天赋需要先解锁获得
+	eErrCode_Talent_NeedPreTalent = 122; //需要先升级前置天赋
+	eErrCode_Talent_PointsNotEnough = 123; //天赋点不足
+	eErrCode_Talent_Exist = 124; //天赋已存在
+	eErrCode_Talent_NotExist = 125; //天赋不存在
+	eErrCode_Talent_NotMatchLevel = 126; //前置天赋未到条件要求的等级
+	
+	eErrCode_Over_Limit = 127;  //超过上限要求
+	eErrCode_Slot_Already_Unlocked = 128;  //插槽已解锁
+	eErrCode_Slot_Not_Unlocked = 129;  //插槽未解锁
+	
+	eErrCode_Achievement_NotExist = 130;  //成就不存在
+	eErrCode_Achievement_InProcessing = 131;  //成就进行中
+	
+	eErrCode_HolyItem_NotExist = 132;  //圣物不存在
+	
+	eErrCode_TaskFinishedOrInTaking = 133; //任务已完成 或 进行中
+	eErrCode_TaskFinished = 134; //任务已完成 
+	
+	
+// 150-199：道具错误码段
+	eErrCode_Item_NoItem				= 150;	// 道具不存在
+	eErrCode_Formula_NotExist			= 151;	// 物品合成公式不存在
+	eErrCode_Material_NotEnough			= 152;	// 物品合成材料不足
+	eErrCode_LabExchanged				= 153;	// 地下实验室已完成兑换
+	eErrCode_Material_NotFit			= 154;	// 地下实验室兑换风格或星级不符
+	eErrCode_GiftTableLvCfgNotExist		= 155;	// 制作台等级配置不存在
+	eErrCode_ItemCannotBuy				= 156;	// 物品不支持购买
+	eErrCode_ItemCannotUse				= 157;	// 物品不能使用
+	eErrCode_ItemUseGiftCfgError		= 158;	// 礼包物品配置错误
+	eErrCode_BuyTimesNotEnough 			= 159;	// 购买次数不足
+	eErrCode_BuyConfigError				= 160;	// 购买配置错误
+	eErrCode_CRewardHadGot				= 161;	// 此条收集册奖励已领取
+	eErrCode_CollectRewardInvalid		= 162;	// 收集册奖励不合法
+	eErrCode_CollectNotUnlocked			= 163;	// 收集册条目未解锁
+	eErrCode_CompoundTimesInvalid		= 164;	// 合成次数错误，vip等级不足
+	eErrCode_OptionalGift_SelectItemTimesInvalid= 165;// 自选礼包选择道具数量不正确
+	eErrCode_OptionalGift_ItemInvalid	= 166;// 自选礼包选择的道具不存在
+	
+	eErrCode_ActivityNotUnlock = 167;   //活动未解锁
+	eErrCode_ActivityUnlocked = 168;   //活动已解锁
+
+// 200-249：邮件错误码段
+	eErrCode_Extract					= 200;	// 提取附件失败
+	eErrCode_Mail_Frequently			= 201;	// 玩家发送邮件太频繁
+	eErrCode_Mail_EndTime				= 202;	// 系统邮件失效时间太小导致邮件无效
+	eErrCode_Mail_NotJson				= 203;	// 玩家邮件内容不是合法的json格式
+	eErrCode_Mail_SnExist				= 204;	// 邮件sn已存在
+	eErrCode_Extract_Yet					= 205;	// 附件已提取
+	eErrCode_Extract_NoAttach					= 206;	// 没有附件
+
+
+// 400-449：充值错误码段
+	eErrCode_Insert_Order_Repeat		= 400;	// insert_order:订单号已经存在，禁止重复插入
+	eErrCode_Insert_Order_DbFail		= 401;	// insert_order:订单号插入数据表失败
+
+	eErrCode_Receive_Order_NotExist		= 410;	// receive_one_order:订单号不存在，无法领取
+	eErrCode_Receive_Order_Received		= 411;	// receive_one_order:订单号已被领取过，无法重复领取
+	eErrCode_Receive_Order_Move_Fail	= 412;	// receive_one_order:订单号移到已领取表时失败
+
+	eErrCode_Cancel_Order_SnNotExist	= 420;	// cancel_order:订单号不存在，无法取消
+	eErrCode_Cancel_Order_HadReceived	= 421;	// cancel_order:订单号已领取，无法取消
+	eErrCode_Cancel_Order_HadCanceled	= 422;	// cancel_order:订单号已取消，无法重复取消
+	eErrCode_Cancel_Order_DbFail		= 423;	// cancel_order:订单号删除时失败
+	
+	eErrCode_Game_Order_NotExist		= 424;	// game_order:游戏内生成的订单不存在
+
+// 600-629：改名错误码段
+	eErrCode_Invalid_Name				= 600;	// 非法名字
+	eErrCode_Name_Len_error				= 601;	// 名称长度错误
+	eErrCode_Duplicate_Name				= 602;	// 重名
+
+
+// 1300-1399: redis缓存相关错误码段
+	eErrCode_Redis_Disconnect			= 1300; // redis未连接
+	eErrCode_Redis_Null					= 1301; // redis缓存不存在
+
+// 2200-2299: 聊天相关错误码
+    eErrCode_PlayerIsOffline            = 2200; // 私聊目标玩家不在线，无法聊天
+    eErrCode_ChatForbid                 = 2201; // 被禁言
+    eErrCode_ChatItemNotEnough          = 2202; // 没有喇叭
+    eErrCode_ChatInterval               = 2203; // 发送太快了
+    eErrCode_ChannelClosed              = 2204; // 频道关闭
+    eErrCode_ChannelInvalid             = 2205; // 无效的聊天频道
+    eErrCode_ContentLen_Error           = 2206; // 聊天内容长度错误（0或者超长）
+    eErrCode_JsonLen_Error              = 2207; // json内容超长（长度可以为0）
+    eErrCode_LowLevel                   = 2208; // 玩家等级不足，无法发言
+    eErrCode_ChannelOverload            = 2209; // 频道超载（同一秒收到的消息过多）
+    eErrCode_Block                      = 2210; // 屏蔽(拉黑)对方，无法聊天
+    eErrCode_BeBlocked                  = 2211; // 被对方屏蔽(拉黑)，无法聊天
+    eErrCode_OfflineMsgEmpty            = 2212; // 私聊离线消息为空
+    eErrCode_ChatStoryIDInvalid         = 2213; // 无效的故事书频道ID
+    eErrCode_HasBlocked                 = 2214; // 已经在黑名单里了
+    eErrCode_NotOnBlockList             = 2215; // 不在黑名单里
+    eErrCode_BlockListLimit             = 2216; // 黑名单列表已达上限
+    eErrCode_ChatMsgCanNotLike          = 2217; // 不是点赞类消息
+    eErrCode_ChatMsgHasLiked            = 2218; // 已经点赞过了
+    eErrCode_ChatGuidNotExist           = 2219; // 消息不存在
+    eErrCode_ChatLanguageTypeInvalid    = 2220; // 无效的语言频道ID
+    eErrCode_BlockSelf                  = 2221; // 拉黑自己
+    eErrCode_CancelBlockSelf            = 2222; // 取消拉黑自己
+    eErrCode_ChatSelf                   = 2223; // 和自己私聊
+	eErrCode_ChatEmoji_Lock             = 2224; // 聊天表情未解锁
+	eErrCode_ChatJson_Invalid           = 2225; // 无效的输入
+
+
+
+// 2300-2399: 公会相关错误码
+    eErrCode_Guild_IdNameLanguage_IsNull    = 2300; // 公会id、名字、语言为空
+    eErrCode_Guild_Is_Not_Exist             = 2301; // 公会不存在
+    eErrCode_Guild_Permission_Denied        = 2302; // 没有权限
+	eErrCode_Guild_Condition_NotMeet		= 2303;	// 不满足公会条件
+	eErrCode_Guild_Calm_Down_Time   		= 2304;	// 加入公会冷静时间
+	eErrCode_Guild_Vice_Leader_Amount_Limit = 2305;	// 副会长人数上限
+	eErrCode_Guild_Request_Is_Null          = 2306;	// 申请记录为空
+	eErrCode_Guild_Today_Join_Limit         = 2307;	// 旧公会当日加入限制
+	eErrCode_Guild_New_Today_Join_Limit     = 2308;	// 新公会当日加入限制
+
+	eErrCode_Guild_Invalid_Name				= 2310;	// 名称错误（含敏感词）
+	eErrCode_Guild_Name_Len_error			= 2311;	// 名称长度错误
+	eErrCode_Guild_Duplicate_Name			= 2312;	// 公会重名
+	eErrCode_Guild_Invalid_Declaration		= 2313;	// 公会宣言错误（含敏感词）
+	eErrCode_Guild_Language_error			= 2314;	// 公会语种错误
+	eErrCode_Guild_Lock_Declaration		    = 2315;	// 公会宣言锁定
+
+	eErrCode_Guild_Declaration_Len_error	= 2320;	// 公会宣言长度错误
+	eErrCode_Guild_Member_Iggid_error		= 2321;	// 公会成员iggid错误
+	eErrCode_Guild_Leader_Cannt_Leave		= 2322;	// 盟主不能离开公会
+
+	eErrCode_Guild_Already_Join_Guild		= 2330;	// 已加入公会
+	eErrCode_Guild_Is_Full					= 2331;	// 成员已满
+	eErrCode_Guild_Request_Limit_All		= 2332;	// 公会申请太多(此公会申请数量上限)
+	eErrCode_Guild_Request_Limit_Personal	= 2333;	// 公会申请太多(个人申请数量上限)
+    eErrCode_Guild_Event_Is_Not_Exist       = 2334; // 公会事件不存在
+
+
+
+// 2700-2799: 屏蔽词库相关错误码
+	eErrCode_ForbiddenWord_ClientVersion		= 2700;	// 客户端版本号错误，请从头开始取
+	eErrCode_ForbiddenWord_Lastid				= 2701;	// 上个包最后的id错误，请从头开始取
+
+
+// 3000-3099: 内测验证码相关错误码
+	eErrCode_Login_Code_Bound					= 3000; // 此帐号已绑定内测验证码
+	eErrCode_Login_Code_NotExist				= 3001; // 此内测验证码不存在
+	eErrCode_Login_Code_Invalid					= 3002; // 内测验证码不可用（已被人使用）
+
+	eErrCode_LoginBan_Login_Code				= 3020; // 此iggid没有绑定内测验证码，禁止登录
+
+	
+	
+	
+
+	// 以下服务器内部使用 =====================================================================
+
+// 65000-55999：服务器内部错误码段
+	eErrCode_Server_Reply_SessionRepeat				= 65000;	// 服务器连接注册：重复Session注册
+	eErrCode_Server_Reply_TimeZone_Different		= 65001;	// 服务器连接注册：双方时区不一致
+}

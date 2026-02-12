@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <controller name="type" pages="0,,1,,2,,3," selected="3"/>
+  <displayList>
+    <loader id="n3_l8pn" name="icon" xy="0,0" size="80,80" url="ui://pdufy3keipa3v" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="type" pages="1,2,3" values="ui://pdufy3keipa3t|ui://pdufy3keipa3u|ui://pdufy3keipa3v" default="ui://pdufy3keipa3w"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

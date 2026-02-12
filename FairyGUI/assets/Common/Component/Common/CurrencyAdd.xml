@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="287,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_f34j" name="n3" xy="13,16" size="260,48" url="ui://5moj1x39f34jdxya3" fill="scaleFree"/>
+    <loader id="n4_f34j" name="icon" xy="0,0" size="80,80" url="ui://0anhreylf34jdxy9m" fill="scaleFree"/>
+    <text id="n5_f34j" name="value" xy="81,13" size="152,54" fontSize="40" color="#ffffff" autoSize="shrink" bold="true" text="5566W">
+      <relation target="n3_f34j" sidePair="middle-middle"/>
+    </text>
+    <component id="n6_f34j" name="addBtn" src="iqkovm" fileName="Component/NotExportedCode/BtnAddItem.xml" xy="235,22"/>
+  </displayList>
+  <Button/>
+</component>

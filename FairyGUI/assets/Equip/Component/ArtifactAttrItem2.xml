@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,34">
+  <displayList>
+    <text id="n1_kqmi" name="name" xy="0,0" size="76,34" fontSize="24" color="#ffffff" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="攻击力"/>
+    <text id="n0_kqmi" name="num" xy="147,0" size="103,34" fontSize="24" color="#ffffff" align="right" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+ {value=100333}">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

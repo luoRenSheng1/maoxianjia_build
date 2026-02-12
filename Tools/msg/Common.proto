@@ -1,0 +1,667 @@
+syntax = "proto2";
+import "Enum.proto";
+package msg;
+
+
+//天赋升级信息
+message TalentLevelUp
+{
+	optional uint32 talent_id = 1; //配置表中的天赋ID
+	optional uint32 level_up_value = 2; //要升级的等级数
+}
+//天赋
+message TalentInfo
+{
+	optional uint32 talent_id = 1; //配置表中的天赋ID
+	optional uint32 level = 2; //天赋等级 
+}
+
+
+// 新章节地图信息
+message ChapterMapInfo
+{
+    optional uint32 chapter_id = 1; //章节ID
+	repeated uint32 stage_ids = 2; //过关的关卡id
+	repeated uint32 badge_stage_ids = 3; //获得徽章的关卡id
+}
+
+// 随机事件完成数
+message FinishEvent
+{
+    optional uint32 event_type = 1; //event表的type
+	//optional uint64 event_guid = 3; //事件的guid
+    optional uint32 finish_counter = 2; //已完成个数
+}
+
+//随机事件附属详细内容--根据具体业务而定含义
+message StuffDetail
+{
+    optional uint32 detail_id = 1;  
+	optional uint64 detauk_num = 2; 
+}
+
+//随机事件内部生成的数据
+message BatchStuff
+{
+    optional uint32 id = 1;  //内部维护id  1 ,2 ,3
+	optional uint32 cfg_id = 2;  //配置id  针对不同事件 会是不同表内的配置id，详见时序说明
+	optional uint64 amount = 3; //分配数量 或 当前进度
+	optional uint64 end_time = 4;  //结束时间  为0表示和随机事件结束时间相同
+	optional uint32 extra_cfg_id1 = 5; //额外配置id 1 一般为0，备用，有启用会在时序中说明
+	optional eRandomEventStatus event_status = 6; //状态   
+	
+	repeated  StuffDetail details = 7;  //其他具体业务数据
+}
+
+
+//随机事件信息
+message RandomEvent
+{
+    optional uint64 guid = 8;  //guid
+	optional uint32 event_id = 1; //事件id，event表里的id
+	optional eRandomEventType event_type = 2; //事件类型，event表里的类型
+	optional eRandomEventStatus event_status = 3; //状态
+	optional uint64 start_time = 4; //开始时间
+	optional uint64 end_time = 5; //结束时间
+	repeated BatchStuff batch_stuff = 9; //随机事件内部道具或事件数据
+	optional uint32 type_group = 10; //event表的 TypeGroup 内容，用于标识固定点还是随机分布
+	
+	
+	repeated uint32 extra_id = 6;  //参数ID---旧参数暂时留用，备用
+	repeated int64 extra_num = 7;  //参数ID对应的生成数量 ---旧参数暂时留用，备用
+	
+}
+
+
+//npc兑换积分道具信息
+message NpcTaskExchangeItemsInfo
+{
+    optional uint32 item_id = 1;  //兑换的道具
+	optional uint64 change_counter = 2;  //今日兑换次数
+}
+
+
+//npc委托任务
+message NpcTask
+{
+	optional uint32 task_id = 1; //任务id，配置表中的主id
+	optional uint64 process = 2; //任务进度
+	optional uint64 start_time = 4; //开始时间
+	optional uint64 end_time = 5; //结束时间
+}
+
+
+// 玩家属性条目
+message PlayerAttr 
+{
+	optional ePlayerAttrID attr_type_id = 1;		//属性ID
+	optional double attr_value = 2;		//属性值
+}
+
+
+//典籍信息
+message OccupationClassic
+{
+    optional int32 classic_id = 1;  //Classics.xlsx表格中的 典籍id
+	optional int32 level = 2;  //典籍id对应的等级  
+	repeated BattleAttr all_attrs = 3; //当前加的属性总和  attr+attr2
+	repeated BattleAttr attr = 9; //attr字段所加属性   
+	repeated BattleAttr attr2 = 10; //attr2字段所加属性 
+	
+	optional int32 next_level = 4;   //下一等级  为0表示没有下一等级
+	optional int64 next_cost_gold = 5; //升到下一等级所需金币   为0表示没有下一等级
+	repeated BattleAttr next_attr = 6; //下一等级 attr字段所加属性   为空表示没有下一等级
+	repeated BattleAttr next_attr2 = 7; //下一等级 attr2字段所加属性  为空表示没有下一等级
+	
+	repeated BattleAttr top_extra_attr = 8; //满级额外加成
+	
+}
+
+
+//英雄角色信息
+message HeroRoleInfo
+{
+	optional uint32 hero_id = 1; //英雄角色 配置表里的 id
+	optional uint32 level = 2; //等级  //可能没用到
+	optional uint64 exp = 3; //经验
+	optional uint32 break_level = 4;  //突破等级  如果是0表示初始值，非0表示玩家已保存的突破等级
+	repeated BattleAttr battle_attr = 5; //突破升级拥有的各种属性---界面显示用，计算战斗属性时服务器端会在登录和更新PlayerBattleAttrUpdate_PC包里都计算好下发，客户端不用额外计算
+	optional double skill_damage = 6; //当前的技能伤害
+	optional uint32 break_tier_level = 7;  //突破等级映射为序数，升级一次就加1
+	optional uint32  main_skill_level = 9; //技能等级
+}
+
+// 战斗基本属性
+message BattleAttr 
+{
+	optional eBattleAttr attr_id = 1;		//属性ID
+	optional double attr_value = 2;		//属性值
+}
+
+// buff信息
+message BattleBuff
+{
+    repeated BattleAttr battle_attr = 1; 
+	optional uint64 start_time = 2;  //毫秒
+	optional uint64 end_time = 3;   //毫秒
+	optional uint32 cfg_id = 4; //配置表中id，如没有就是自己维护的序列id，或无视，无用
+}
+
+
+
+// buff信息--按关卡重置
+message BattleBuff4Stage
+{
+    repeated BattleAttr battle_attr = 1; 
+	optional uint32 start_time = 2;
+	optional uint64 end_time = 3;
+	optional uint32 buff_id = 4; //SkillAchieve.xlsx配置表中id
+	//其他待扩充
+}
+
+
+//受buff影响缩短 cd时间的技能
+message ShortenCDSkill
+{
+    optional uint32 skill_id = 1; //各自技能表中的 技能id
+	//optional uint32 mili_seconds = 2; //当前技能的CD时间  -- 单位毫秒
+	//optional uint32 last_seconds = 3;  //该影响的持续时间  -- 单位秒
+	
+	optional uint64 pet_guid = 4; //是宠物时，需提交guid； 英雄的话无视
+}
+
+//本次提交释放技能次数
+message CastSkillInfo
+{
+    optional uint32 skill_id = 1; // 释放的技能id 或者 组合技能ID
+	optional uint32 counter = 2; // 本轮累计次数
+	repeated double atk_value = 3; // 每次攻击的技能攻击值
+	
+}
+
+//本次提交宠物攻击信息
+message PetAttackInfo
+{
+	optional uint64 pet_guid = 1; //需提交guid； 
+	repeated CastSkillInfo cast_skills  = 2; //释放技能次数信息  ---只提交宠物释放的 主技能ID 和 可释放的上阵 技能书ID
+	optional uint32 atk_counter = 3; //本轮累计普攻次数
+	optional double pet_hurt = 4;  //宠物面板上的 宠物伤害值
+}
+
+// 客户端提交的战斗数据 -- 服务器端校验或产生buff用
+message ClientBattleInfo
+{
+	repeated CastSkillInfo hero_cast_skill  = 1; //本轮500毫秒内 英雄释放技能次数信息 --- 只提交释放 hero表的主技能(普通攻击和被动技能不提交) 和 上阵的skillID
+	optional uint32 hero_atk_counter = 2; //本轮500毫秒内英雄累计普攻次数
+    optional uint32 hero_hurt_counter = 3; //本轮500毫秒内累计英雄受到伤害(有减HP) 的次数
+	optional uint32 hero_be_atk_counter = 4; //本轮500毫秒内累计英雄受到普攻的次数
+    repeated PetAttackInfo pet_atk_info = 5; //本轮500毫秒内宠物攻击信息
+	repeated double hero_hp = 6;  //本轮500毫秒内 每次HP变动后的数值
+	
+	repeated ShortenCDSkill hero_shorten_skill = 7; //本轮500毫秒 内角色绑定技能和上阵技能  发生的 CD重置的  技能ID
+	repeated ShortenCDSkill pet_shorten_skill = 8; //本轮500毫秒内 宠物绑定技能与上阵技能(技能书可能有)  发生的 CD重置的  技能ID
+}
+
+
+// 其他基本属性--兼容旧的，修改为基础属性
+//message OtherAttr 
+//{
+//	optional eBattleAttr attr_id = 1;		//属性ID
+//	optional double attr_value = 2;		//属性值
+//}
+
+// 魔戒基本属性
+message RingAttr 
+{
+	optional eBattleAttr attr_id = 1;		//属性ID
+	optional double attr_value = 2;		//属性值
+	optional uint64 level = 3;    //等级
+}
+
+// 技能
+message SkillInfo
+{
+	optional uint32 skill_id = 1;  //技能id
+	optional uint32 level = 2; //等级 
+	optional int64   amount = 3;  //同名卡数---经验
+	optional double skill_atk_value = 4; //攻击技能
+	optional double carry_atk_value = 5; //携带技能攻击加成
+	optional double owned_atk_value = 6; //全局拥有技能攻击加成
+}
+
+//符石信息
+message RuneInfo
+{
+	optional uint64  guid = 1;  //符石gu id
+	optional uint32 item_id = 2; //装备的符石id，暂时用item id，等以后有出设计再改动  //可能没用到
+	optional uint32 level = 3; //等级  //可能没用到
+	optional uint32 quality = 4; //品质等级
+	optional uint32 skill_id = 5;  //对应技能id
+	optional uint32 atk_counter = 6; //生成的魔法对应的攻击次数
+}
+
+// 装备栏信息
+message PlayerEquipSlotsInfo
+{
+	optional uint32 slot_type = 1;  //该装备栏对应属性，对应策划案子，枚举定义在enum.proto中
+	optional uint64 equip_id= 2; //装备id
+	optional eSlotStatus slot_status = 3; //状态 
+	optional uint32 base_item_id =4;//
+}
+
+// 成就
+message AchievementInfo
+{
+	optional uint32 aid = 1;  //成就配置表中的成就id
+	optional int64 process = 2; //进度
+	optional uint32 status = 3; //状态 --- enum eAchievementStatusType
+	optional uint32 next_aid = 4;  //为0无视；非0则有用---在领取奖励的回包中--可以用来替换掉前置ID，其他数据包无视
+}
+
+
+// 符石栏信息（目前3个）
+message PlayerRuneSlotsInfo
+{
+	optional uint32 slot_id = 1;  //未知作用，暂时用id表示
+	optional uint32 item_id = 2; //装备的符石id，暂时用item id，等以后有出设计再改动
+	optional uint64 rune_guid= 3; //rune guid
+	optional eSlotStatus slot_status = 4; //状态 
+}
+
+// 宠物战斗栏信息
+message PlayerPetSlotsInfo
+{
+	optional uint32 slot_id = 1;  //slotID
+	optional uint32 pet_id = 2; //装备的宠物id--PetBasis表中的id ,为0表示 没宠物，放空
+	optional eSlotStatus slot_status = 3; //状态 
+	optional uint64 pet_guid = 4;  //宠物guid ,为0表示 没宠物，放空
+}
+
+// 技能战斗栏信息
+message PlayerSkillSlotsInfo
+{
+	optional uint32 slot_id = 1;  //slotID
+	optional uint32 skill_id = 2; //技能id--技能表的 基础id
+	optional eSlotStatus slot_status = 3; //状态 
+}
+
+// 圣物战斗栏信息
+message PlayerHolySlotsInfo
+{
+	optional uint32 slot_id = 1;  //slotID
+	optional uint32 item_id = 2; //item id-- 装备的id， Holy表中HolyId  
+	optional eSlotStatus slot_status = 3; //状态 
+}
+
+//装备属性
+message EquipAttr
+{
+	optional eBattleAttr attr_id = 1; //属性
+	optional double attr_val = 2; //属性值
+}
+
+//属性词条
+message EntryAttr
+{
+	optional uint32 entry_id = 1; //词条ID
+	repeated EquipAttr equip_attr = 2; //基础属性值
+}
+
+//技能倍数定义
+message SkillMultiple
+{
+	optional uint32 skill_id = 1; //技能ID
+	optional int64 skill_multiple = 2; //倍数
+}
+
+//圣物
+message HolyItemInfo
+{
+	optional uint32 holy_id = 1;  //holy表中的holy id
+	optional int32 level = 2; 
+	optional uint32 table_key_id = 3;  //holy表中的id--用于读取 itemid
+}
+
+//装备
+message EquipInfo
+{
+	optional uint64  guid = 1;  //装备id
+	repeated EquipAttr equip_attr = 2; //基础属性值
+	optional uint32  base_item_id  = 3; //配置表item id
+	optional uint32 equip_type = 4 ;  //装备类型
+	repeated EntryAttr entry_info = 5 ;  //词条加的属性
+	optional int32 level = 6; //等级
+	optional uint32 quality = 7; //品质等级
+	optional double recall_gold = 8; //回收金币
+	repeated SkillMultiple entry_skills = 9 ;  //绑定生成技能倍数信息
+}
+
+//装备宝箱
+message EquipBox
+{
+	optional int32  box_level = 1;                //等级
+	optional int32  box_levelup_milestone = 2; //升级等级内里程碑
+	optional uint64  next_levelup_time = 3;  //下次升级时间戳
+	optional uint32  remain_free_ad_times = 4; //剩余广告次数
+}
+
+//宠物老虎机
+message PetLottery
+{
+	optional int32  lottery_level = 1;                //等级
+	optional int64  lottery_exp = 2; //exp
+}
+
+//技能老虎机
+message SkillLottery
+{
+	optional int32  lottery_level = 1;                //等级
+	optional int64  lottery_exp = 2; //exp
+}
+
+
+//宠物战斗属性
+message PetBattleAttr
+{
+	optional eBattleAttr attr_id = 1; //属性
+	optional double attr_val = 2; //属性值
+}
+
+//宠物id
+message PetID
+{
+	optional uint32  pet_id = 1; //宠物表PetBasis.xlsx中item id
+	optional uint64  pet_guid = 2; //宠物guid
+}
+
+//宠物书插槽
+message PetSkillBookSlot
+{
+	optional uint32 slot_id = 1;  //slotID  --- 从0开始
+	optional eSlotStatus slot_status = 2; //状态 目前就锁定未锁定
+	optional uint32 book_id = 3;   //PetSkillBook.xlsx中的id  ，为0表示没有装备
+    repeated BattleAttr battle_attr = 4; //加的属性--具体给加的对象需查表再加给英雄或宠物 参照SkillAchieve表作用对象
+}
+
+//宠物技能书
+message PetSkillBook
+{
+	optional uint32 book_id = 1;   //PetSkillBook.xlsx中的id
+	optional int64  amount = 2;  //数量
+	optional double gold = 3;   //回收价格--回收用
+    repeated BattleAttr battle_attr = 4; //加的属性--具体给加的对象需查表再加给英雄或宠物 参照SkillAchieve表作用对象
+	optional uint64 guid = 5;
+	optional uint32 quality = 6;
+}
+
+
+//宠物天赋
+message PetTalent
+{
+    optional uint32 talent_id = 1; //宠物天赋表中的id
+    repeated BattleAttr battle_attr = 2; //加的属性--具体给加的对象需查表再加给英雄或宠物
+	optional uint32 obj_type = 3; //作用对象，参照SkillAchieve表作用对象，只有1--英雄 和 2--宠物  (或许未来有4--己方全部)
+}
+
+
+//宠物
+message PetInfo
+{
+	optional uint32  pet_id = 1; //宠物表PetBasis.xlsx中item id
+	optional uint64  pet_guid = 2;  //唯一id
+	optional int32  level = 3; //等级
+	optional int32  skill_level = 4;  //PetBasis.xlsx中  SkillId 字段 对应技能的 等级
+	repeated PetTalent talents = 5;  //天赋
+	repeated PetSkillBookSlot book_slots = 6; //技能书插槽
+	optional uint64 grow_rate = 7;  //生长率 使用时候需乘以万分比
+	optional uint32 quality = 8;   //品质 enum ePetQuality 
+	optional uint32 skill_id = 9;  //初始生成的随机技能
+}
+
+//宝箱随机结果
+message RandBoxResult
+{
+	optional uint32 item_id = 1;  //itemtype表中的道具id
+	optional uint64 item_guid = 2; //支持有用到的guid的道具会有值,其他情况为0
+	optional double item_num = 3; //道具数量
+	optional uint32 replace_item_id = 5;  //非0表示 转换为替换道具id；
+	optional double replace_item_num = 6;  //替换道具的数量
+}
+
+//随机宝箱
+//message RandBox
+//{
+//	optional uint32 box_item_id = 1; //宝箱itemid --itemtype表中的道具id
+//	repeated RandBoxResult box_rand_result = 2; //随机结果
+//}
+
+
+
+//头像
+message AvatarInfo 
+{
+	optional uint32 id = 1;  //itemtype表的item id
+	optional uint64 expired_time = 2; //到期时间戳，如果是0表示普通道具，proto不占用数据包空间
+}
+
+//头像框
+message AvatarFrameInfo 
+{
+	optional uint32 id = 1;  //itemtype表的item id
+	optional uint64 expired_time = 2; //到期时间戳，如果是0表示普通道具，proto不占用数据包空间
+}
+
+//道具
+message ItemInfo 
+{
+	optional uint32 id = 1;  //itemtype表的item id
+	optional double num = 2; //数量   //如果是随机宝箱，目前数量会是1
+	optional uint64 expired_time = 3; //最早一个要到期道具的到期时间戳，如果是0表示普通道具，proto不占用数据包空间
+	//optional double gold_num = 4; //金币专用，金币会超出uint64,所以如果 id是msg::eCurrencyItemID_Gold 的话并且 num溢出变成负数，则读取该字段显示数量
+	optional uint32 replace_item_id = 5;  //非0表示 转换为替换道具id；
+	optional double replace_item_num = 6;  //替换道具的数量
+	optional uint64 guid = 7; //道具guid 
+}
+
+//待领取奖励列表成员
+message ItemListNode
+{
+    optional uint32 item_index = 1; //下标 --按业务需要从0 或1开始
+	optional uint32 item_id = 2;  //itemtype表的item id
+	optional double num = 3; //数量，兼容后面关卡大额金币，用double
+}
+
+
+//道具带guid
+message ItemInfoWithGuid 
+{
+	optional uint32 id = 1;  //itemtype表的item id
+	optional double num = 2; //数量   //如果是随机宝箱，目前数量会是1
+	optional uint64 expired_time = 3; //最早一个要到期道具的到期时间戳，如果是0表示普通道具，proto不占用数据包空间
+	optional uint64 item_guid = 4; //道具guid 
+	optional uint32 replace_item_id = 5;  //非0表示 转换为替换道具id；
+	optional double replace_item_num = 6;  //替换道具的数量
+}
+
+//道具附带随机宝箱
+message ItemInfoWithRandBox
+{
+	repeated ItemInfo items = 1; //获得的所有道具
+	repeated RandBoxResult box_rand_result = 2; //随机结果--和老虎机一样普通道具客户端需要自行添加本地管理器，如果是角色，技能，符石，宠物会通过pc包下发完整通知
+                                           	//随机宝箱的结果，size为0，proto不占用内存空
+}
+
+//道具Guid附带随机宝箱
+//message ItemInfoGuidWithRandBox
+//{
+//	repeated ItemInfoWithGuid items = 1; //获得的所有道具
+//	repeated RandBoxResult box_rand_result = 2; //随机结果--和老虎机一样普通道具客户端需要自行添加本地管理器，如果是角色，技能，符石，宠物会通过pc包下发完整通知
+                                           	//随机宝箱的结果，size为0，proto不占用内存空
+//}
+
+
+//货币
+message Finance
+{
+	optional double golds = 1;  //金币
+	optional int64 diamonds = 2;  //钻石
+	optional int64 free_diamonds = 3; //免费钻石
+}
+
+//奖励
+message ItemEx {
+	optional uint32 id = 1;
+	optional int64 num = 2;
+	optional bool is_new = 3[default = false];	//新标志
+	optional uint32 multi = 4[default = 1];		//倍数标志(实际拿到物品为num的multi倍)
+	optional ItemInfo resolve_items = 5;			//被分解后获得物品(被分解时显示，空说明未被分解)
+}
+
+
+
+//服务器端主动下发数据的分包结构
+message SplitPkgPC
+{
+    optional bool is_end = 1;    //是否最后一个包
+	optional int32 pkg_id = 2;   //第几个分包id，可能用不上
+}
+
+
+//协议分包结构
+//客户端根据pkt_guid来确定是否为相同请求反馈列表
+message PktFlag {
+	optional uint64 pkt_guid = 1;
+	optional bool is_last_pkt = 2[default = true];
+}
+
+
+
+// 消息记录
+message ChatInfo
+{
+    optional uint64 guid = 1;   		// 聊天消息guid，方便运营后台撤销某条消息
+    optional uint32 channel = 2;  		// 聊天消息频道(eChatChannel)
+    optional uint64 sender_iggid = 3;   // 发送者的iggid
+    optional string sender_name = 4;    // 发送者的名字
+    optional string content = 5;        // 聊天内容
+    optional string json = 6;        	// json格式，可存在物品id、url等等，具体各方协商确定
+    optional int64  time_stamp = 7;     // 发送时间
+    optional int32 sender_icon = 8;     // 发送者的头像
+    optional int32 sender_iconbox = 9;  // 发送者的头像框    
+    optional bool can_like = 10;        //是不是点赞类消息
+    optional bool liked = 11;		    //消息是否已点赞
+	optional uint32 like_cnt = 12;		//消息点赞数
+    optional int32 sender_level = 13;   //发送者的等级
+    optional uint64 sender_guid = 14;   //发送者的playerguid	
+	optional int32 sender_real_vip_lv = 15; 	// vip等级
+	
+	// 红包聊天消息时，json字段是有包含红包信息，但是操作更新json再转string比较耗时
+	// 改为直接下发红包信息
+	message LuckyPackage
+	{
+		optional uint64 guid = 1;				// 红包Guid
+		optional int32 base_id = 3;				// 对应lucky_package.xlsx表的ID
+		optional int32 received = 8;			// 已经被抢数量
+		optional int32 total = 9;				// 总数量
+		optional bool enable = 10;				// 是否可抢
+	}
+	// 客户端先解析下json，判断是红包消息时，该字段的值才有效
+	optional LuckyPackage package = 16;	// 红包信息
+	
+	optional int32 sender_title = 17;  // 发送者的称号
+	optional int32 sender_battle_level = 18;  // 发送者战斗等级
+}
+
+
+
+//角色属性
+message RoleAttr {
+	optional eRoleAttrType type = 1;
+	optional uint64 value = 2;
+}
+
+
+//家园建筑
+message BuildInfo 
+{
+	optional eBuildType build = 1;  //建筑
+	optional uint64  start_produce_time = 2;  //开始生产时间，为0表示未解锁，非0表示解锁生产中; 如果当前时间戳 >= start_produce_time + 配置表peak_time 表示停止生产，已满
+	optional double	item_num = 3; //当前待领取道具数量
+	repeated uint64 pets = 4;   //驻扎宠物信息pet_guid，固定会下发配置的驻扎坑位数数据，如果坑位是0，表示没有驻扎
+	optional uint64 next_produce_time = 5;   //下一次道具产出时间  ,如果  当前时间戳 >= next_produce_time 表示停止生产，已满
+	//optional double gold_num = 6; //当前待领取金币数量
+}
+
+
+
+
+
+
+//解锁功能
+message FunctionInfo 
+{
+	optional uint32 func_id = 1;  //system表id
+	optional bool is_claim_award = 2; //是否领取了奖励
+}
+
+
+//限制礼包信息
+message LimitPackInfo
+{
+	optional int32 pack_id = 1;  //各个配置表里的 礼包id
+	optional int32 purchase_counter = 2; //当前礼包购买次数
+	optional uint64 expired_time = 3;  //当前限制购买过期时间---到该时间后，清除，可以重新购买
+	optional int32 claim_award_counter = 4;  //礼包奖励领取次数 0--表示没领取， 非0表示领取次数也可以表示已领取了（如果配置没有说明领取次数）
+	optional uint64 latest_claimed_time = 5; //最后领取奖励时间--如果判断每日领取的话，没有的话忽视无用
+	optional int32 in_counter_counter = 6;  //到账充值数
+}
+
+
+//天下第一玩家排行榜相关数据
+message GlobalFirstPlayerRankData
+{
+	optional uint32 rank = 1;    //排名
+	optional uint64 user_id = 2;  //用户id
+	optional string user_name = 3;  //姓名
+	optional uint32 hero_id = 4;  //英雄id
+	optional double battle_power = 5;  //战力
+	optional uint64 user_guid = 6;  //服务器端用--客户端可以忽略
+	optional uint32 avatar_id = 7;  //头像ID
+	optional uint32 avatar_frame_id = 8;  //头像框ID
+}
+
+//天下第一玩家战斗相关数据
+message GlobalFirstPlayerBattleData
+{
+	repeated BattleAttr battle_attr = 1;  //统计加好的战斗各项属性
+	repeated RuneInfo rune_in_slots = 2;  //符石
+	repeated PetInfo pet_in_slots = 3;  //宠物
+	repeated SkillInfo skill_in_slots = 4;  //技能
+	//optional HeroRoleInfo hero_in_battle = 5;   //英雄 
+}
+
+//天下第一玩家每日次数相关数据
+message GlobalFirstPlayerDailyData
+{
+	optional int32 challenge_opportunity = 1;  //每日剩余挑战数
+	optional int32 yesterday_rank = 2;    //昨日排名  --小于等于0表示没上榜，大于0表示上榜
+	optional int32 today_rank = 3;    //当前排名  --小于等于0表示没上榜，大于0表示上榜
+	optional bool has_claim_award = 4; //是否领取昨日奖励
+	optional uint32 yesterday_play_counter = 5; //昨日参赛次数
+	optional uint32 today_play_counter = 6; //今日参赛次数
+	optional int32 today_purchase_counter = 7; //今日已购买次数
+}
+
+
+//战报信息
+message GlobalFirstWarReport
+{
+	optional GFWarReportType war_report = 1; //消息内容
+	repeated string  params = 2; //参数
+	optional uint64 time_stamp = 3; //发生时间戳
+}
+
+
+
+
+

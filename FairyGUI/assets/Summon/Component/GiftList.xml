@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,720" mask="n1_izi8">
+  <displayList>
+    <list id="n0_izi8" name="giftList" xy="12,0" size="699,720" overflow="scroll" lineGap="5" defaultItem="ui://i7ojazuuftc92n" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n1_izi8" name="n1" xy="0,0" size="720,720" touchable="false" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

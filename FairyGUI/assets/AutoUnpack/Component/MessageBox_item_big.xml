@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,50" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n3_x3dk" name="n3" src="x3dk2l" fileName="Res/1.PNG" xy="0,0" size="306,52">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n1_xihe" name="title" xy="12,0" size="288,45" fontSize="18" color="#44afd7" vAlign="middle" ubb="true" vars="true" autoSize="shrink" strokeColor="#474746" singleLine="true" autoClearText="true" text="MESSAGE"/>
+    <image id="n2_x3dk" name="n2" src="x3dk2y" fileName="Res/7.png" xy="13,46" size="286,2" pkg="5moj1x39">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

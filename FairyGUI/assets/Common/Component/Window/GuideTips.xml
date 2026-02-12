@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,102" extention="Label">
+  <displayList>
+    <image id="n0_uq40" name="n0" src="uq40dxy4a" fileName="Res/guideRes/g4.png" xy="0,0" size="181,102">
+      <relation target="n1_uq40" sidePair="width-width,height-height,center-center"/>
+    </image>
+    <text id="n1_uq40" name="title" xy="35,35" size="112,26" restrictSize="0,220,0,0" fontSize="18" color="#835c25" text="点击领取奖励"/>
+    <image id="n2_uq40" name="n2" src="uq40dxy4b" fileName="Res/guideRes/g5.png" xy="136,30">
+      <relation target="n0_uq40" sidePair="left-right"/>
+    </image>
+  </displayList>
+  <relation target="n0_uq40" sidePair="width-width,height-height"/>
+</component>

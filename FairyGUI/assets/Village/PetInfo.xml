@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://8glegefcajor3s">
+  <controller name="qualityCtrl" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="0">
+    <action type="change_page" fromPage="" toPage="" objectId="n10_oppe" controller="quality" targetPage="~1"/>
+  </controller>
+  <controller name="upOrDown" pages="0,,1,,7," selected="0">
+    <remark page="0" value="下阵"/>
+    <remark page="1" value="驻扎"/>
+    <remark page="2" value="替换"/>
+  </controller>
+  <displayList>
+    <component id="n19_oppe" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_oppe" name="n1" xy="16,339" size="688,494" group="n20_oppe" url="ui://5moj1x39f34jdxy9y" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n3_oppe" name="n3" xy="294,354" size="132,44" group="n20_oppe" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="家园宠物">
+      <relation target="n1_oppe" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n4_oppe" name="petCom" src="oppew" fileName="Component/PetCom.xml" xy="38,452" size="114,114" group="n17_oppe" controller="isStation,1">
+      <relation target="n1_oppe" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n5_oppe" name="petName" xy="167,469" size="76,34" group="n17_oppe" fontSize="24" color="#f8f2b6" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="炎尾狐">
+      <relation target="n1_oppe" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n6_oppe" name="petLv" xy="167,515" size="57,29" group="n17_oppe" fontSize="20" color="#4c2911" vAlign="middle" vars="true" bold="true" text="LV.{value=30}">
+      <relation target="n1_oppe" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n7_oppe" name="barExp" src="eb0tdxxzf" fileName="Component/BarExp.xml" pkg="5moj1x39" xy="231,520" size="341,21" group="n17_oppe">
+      <relation target="n6_oppe" sidePair="left-right"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n27_ajor" name="petQ" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" pkg="5moj1x39" xy="601,469" group="n17_oppe" scale="1.2,1.2">
+      <relation target="n1_oppe" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n17_oppe" name="n17" xy="38,452" size="627,114" group="n20_oppe"/>
+    <loader id="n24_ajor" name="n24" xy="40,580" size="640,16" group="n20_oppe" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n1_oppe" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n26_ajor" name="n26" xy="40,615" size="640,80" group="n18_oppe" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <relation target="n1_oppe" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n13_oppe" name="n13" xy="61,635" size="100,34" group="n18_oppe" fontSize="24" color="#4c2911" vAlign="middle" bold="true" text="家园加成">
+      <relation target="n26_ajor" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n14_oppe" name="jcLb" xy="563,635" size="64,34" group="n18_oppe" fontSize="24" color="#b8df13" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=300}%">
+      <relation target="n26_ajor" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n18_oppe" name="n18" xy="40,615" size="640,80" group="n20_oppe"/>
+    <component id="n16_oppe" name="downarrayBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,717" size="218,84" group="n20_oppe">
+      <gearDisplay controller="upOrDown" pages="0"/>
+      <relation target="n1_oppe" sidePair="center-center,bottom-bottom"/>
+      <Button title="下阵" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n22_h8lo" name="uparrayBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,717" size="218,84" group="n20_oppe">
+      <gearDisplay controller="upOrDown" pages="1"/>
+      <relation target="n1_oppe" sidePair="center-center,bottom-bottom"/>
+      <Button title="驻扎" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n23_l955" name="replaceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,717" size="218,84" group="n20_oppe">
+      <gearDisplay controller="upOrDown" pages="7"/>
+      <relation target="n1_oppe" sidePair="center-center,bottom-bottom"/>
+      <Button title="替换" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n25_ajor" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,857" size="84,84" group="n20_oppe">
+      <relation target="n1_oppe" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n20_oppe" name="n20" xy="16,339" size="688,602" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

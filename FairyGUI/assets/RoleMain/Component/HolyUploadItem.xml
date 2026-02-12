@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,148">
+  <controller name="status" pages="1,,2,,3," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+    <remark page="2" value="锁"/>
+  </controller>
+  <controller name="isSelect" pages="0,,1," selected="0">
+    <remark page="0" value="没有选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <loader id="n0_a2kw" name="n0" xy="0,0" size="148,148" url="ui://m37flevda2kwdxyat"/>
+    <loader id="n3_a2kw" name="n3" xy="-20,-20" size="188,188" url="ui://m37flevda2kwdxyap">
+      <gearDisplay controller="isSelect" pages="1"/>
+    </loader>
+    <loader id="n1_a2kw" name="icon" xy="39,19" size="70,70" url="ui://m37flevdrm2cdxy6l" fill="scaleFree">
+      <gearDisplay controller="status" pages="2"/>
+    </loader>
+    <loader id="n2_a2kw" name="n2" xy="50,27" size="48,48" url="ui://m37flevda2kwdxyaq" fill="scaleFree">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n4_a2kw" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="116,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n5_a2kw" name="n5" xy="50,27" size="48,48" url="ui://5moj1x39f34jdxyb7">
+      <gearDisplay controller="status" pages="3"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n6_a2kw" name="guide" xy="49,-27" pivot="0.5,0.5" size="50,50" visible="false" rotation="180" url="ui://5moj1x39f34jdxyal" fill="scale">
+      <gearDisplay controller="status" pages="1,2"/>
+    </loader>
+  </displayList>
+</component>

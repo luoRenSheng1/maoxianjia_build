@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n5_ktw8" name="n5" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n11_xjh0" name="img" xy="205,323" size="309,71" group="n2_ktw8" url="ui://0anhreylr18sdxy7h" align="center" vAlign="middle"/>
+    <loader3D id="n7_r18s" name="n7" xy="-473,-6" size="1219,687" group="n2_ktw8" url="ui://0anhreyli8evdxy72" animation="Chuxian" skin=""/>
+    <list id="n6_wpko" name="funcList" xy="134,536" size="452,303" group="n2_ktw8" layout="flow_hz" lineGap="89" colGap="136" defaultItem="ui://0anhreylwpkodxy7e" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n2_ktw8" name="n2" xy="-473,-6" size="1219,845" group="n10_r18s" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n10_r18s" name="n10" xy="-473,-6" size="1219,845"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Visible" target="n6_wpko" value="false"/>
+    <item time="11" type="Visible" target="n6_wpko" value="true"/>
+  </transition>
+</component>

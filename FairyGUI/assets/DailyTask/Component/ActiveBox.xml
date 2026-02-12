@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,86">
+  <controller name="rewardCtrl" pages="0,,1,,2," selected="2">
+    <remark page="0" value="未达到"/>
+    <remark page="1" value="领取"/>
+    <remark page="2" value="已领取"/>
+    <action type="play_transition" fromPage="" toPage="1" transition="t0" repeat="-1" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <component id="n0_sc7h" name="proBar" src="sc7hd" fileName="Component/bar.xml" xy="0,19" size="97,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n1_sc7h" name="boxIcon" xy="85,0" size="70,59" url="ui://fdbg11jxsc7h5" fill="scale" autoSize="true"/>
+    <text id="n2_sc7h" name="valLb" xy="85,60" size="69,26" fontSize="16" color="#97603b" align="center" vAlign="middle" autoSize="shrink" text="50"/>
+    <image id="n3_sc7h" name="n3" src="x3dk2r" fileName="Res/check_1.png" pkg="5moj1x39" xy="107,7">
+      <gearDisplay controller="rewardCtrl" pages="2"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="0">
+    <item time="0" type="XY" target="n1_sc7h" tween="true" startValue="85,0" endValue="85,6" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

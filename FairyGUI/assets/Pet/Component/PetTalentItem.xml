@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <loader id="n3_hz5c" name="n3" xy="0,0" size="80,80" url="ui://5moj1x39f34jdxyb6" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="lockCtrl" pages="1" values="ui://5moj1x39f34jdxyaw" default="ui://5moj1x39f34jdxyb6"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n8_hz5c" name="qualityIcon" xy="0,0" size="80,80" visible="false" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_hz5c" name="n6" xy="16,16" size="48,48" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_hz5c" name="icon" xy="10,10" size="60,60" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="lockCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n7_hz5c" name="talentName" xy="-2,53" size="84,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="天赋名称">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

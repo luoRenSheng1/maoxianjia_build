@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_llb1" name="icon" xy="0,0" size="218,84" fill="scaleFree"/>
+    <text id="n4_llb1" name="title" xy="79,7" size="60,39" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="回收">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n5_llb1" name="itemIcon" xy="64,42" size="38,38" group="n7_llb1" url="ui://0anhreylf34jdxy9n" align="center" vAlign="middle" fill="scale">
+      <relation target="n6_llb1" sidePair="left-left"/>
+    </loader>
+    <text id="n6_llb1" name="num" xy="105,41" size="52,39" group="n7_llb1" fontSize="28" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=20}"/>
+    <group id="n7_llb1" name="n7" xy="64,41" size="93,39" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

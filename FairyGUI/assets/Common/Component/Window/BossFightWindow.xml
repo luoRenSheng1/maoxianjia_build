@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,600">
+  <displayList>
+    <text id="n2_mrdw" name="n2" xy="139,228" size="442,66" fontSize="50" color="#ffffff" text="对战BOSS立绘界面">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n4_ot6f" name="n4" xy="-17,-747" pivot="0.5,0.5" size="758,1661" url="ui://0anhreylot6fdxy2j" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n7_ot6f" name="monster" xy="400,-179" pivot="0.5,1" size="270,300"/>
+    <image id="n6_ot6f" name="n6" src="ot6fdxy2i" fileName="Res/bossFight/2.PNG" xy="-596,-305" pivot="0.5,0.5" size="1914,781" rotation="28">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n5_ot6f" name="n5" src="ot6fdxy2h" fileName="Res/bossFight/1.png" xy="343,98" pivot="0.5,0.5" anchor="true" size="153,155" aspect="true"/>
+    <graph id="n8_ot6f" name="hero" xy="41,24" pivot="0.5,1" size="270,300"/>
+  </displayList>
+  <transition name="vs">
+    <item time="0" type="Scale" target="n5_ot6f" value="0,0"/>
+    <item time="0" type="XY" target="n6_ot6f" tween="true" startValue="218,324" endValue="-556,-278" duration="5" ease="Quad.In"/>
+    <item time="5" type="Scale" target="n5_ot6f" tween="true" startValue="0.506,0.506" endValue="3,3" duration="4"/>
+    <item time="9" type="Scale" target="n5_ot6f" tween="true" startValue="3,3" endValue="1,1" duration="3" ease="Back.InOut"/>
+  </transition>
+</component>

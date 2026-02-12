@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,180" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="hasPet" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <controller name="showHandCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <loader id="n15_ajor" name="n15" xy="10,116" size="124,44" url="ui://8glegefcajor43">
+      <gearDisplay controller="hasPet" pages="0"/>
+    </loader>
+    <graph id="n10_oppe" name="spine" xy="72,134" pivot="0.5,1" anchor="true" size="100,113">
+      <gearDisplay controller="hasPet" pages="1"/>
+    </graph>
+    <loader id="n14_ajor" name="n14" xy="17,29" size="111,116" url="ui://8glegefcajor42">
+      <gearDisplay controller="hasPet" pages="0"/>
+    </loader>
+    <loader id="n16_ajor" name="n16" xy="-2,134" size="149,46" group="n18_ajor" url="ui://8glegefcajor44"/>
+    <component id="n4_oppe" name="petName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="41,142" size="84,29" group="n18_ajor">
+      <gearDisplay controller="hasPet" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+      <Label title="宠物名字" titleFontSize="20"/>
+    </component>
+    <component id="n17_ajor" name="qualityLb" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" pkg="5moj1x39" xy="-20,123" group="n18_ajor"/>
+    <group id="n18_ajor" name="n18" xy="-20,123" size="167,64" advanced="true">
+      <gearDisplay controller="hasPet" pages="1"/>
+    </group>
+    <component id="n13_ldi1" name="n13" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="113,30">
+      <gearDisplay controller="hasPet" pages="0"/>
+    </component>
+    <component id="n12_ncna" name="n12" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="48,86">
+      <gearDisplay2 controller="showHandCtrl" pages="1" condition="0"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

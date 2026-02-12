@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,65" pivot="0.5,0.5" overflow="hidden" extention="Button">
+  <displayList>
+    <image id="n81_pdpa" name="n81" src="v5rfdxy4f" fileName="Res/newRes/n116.png" xy="6,-8" size="47,58" aspect="true" visible="false"/>
+    <text id="n79_pdpa" name="txtBoxLv" xy="9,6" size="43,42" fontSize="20" color="#ffda4d" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="11"/>
+    <component id="n82_qonn" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="41,5" aspect="true" scale="0.8,0.8" visible="false"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

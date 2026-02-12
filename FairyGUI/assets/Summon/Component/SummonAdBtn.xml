@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,68" pivot="0.5,0.5" extention="Button">
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <loader id="n6_f34j" name="n6" xy="0,0" size="174,68" url="ui://5moj1x39f34jdxyah" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_surf" name="adSummLb" xy="44,4" size="86,29" fontSize="20" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#25211d" strokeSize="2" text="召唤{value=30}次"/>
+    <image id="n4_surf" name="n4" src="ju03dxy58" fileName="Res/adbtn/adicon.png" pkg="5moj1x39" xy="64,36" size="22,22" group="n5_surf" aspect="true"/>
+    <text id="n3_surf" name="adLb" xy="86,36" size="24,23" group="n5_surf" fontSize="15" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{cur=3}/{total=3}"/>
+    <group id="n5_surf" name="n5" xy="64,36" size="46,23" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n7_n5nh" name="n7" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="142,0">
+      <gearDisplay controller="redCtrl" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="688,594">
+  <controller name="typeCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <displayList>
+    <loader id="n6_xezf" name="n6" xy="0,0" size="688,594" url="ui://5moj1x39f34jdxy9y" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n2_u5mt" name="title" xy="310,18" size="68,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="战报">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n3_u5mt" name="reportList" xy="24,112" size="640,454" overflow="scroll" lineGap="15" defaultItem="ui://zoxecbv2u5mt18" align="center" autoClearItems="true">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_xezf" name="n7" xy="252,267" size="184,60" fontSize="45" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="暂无战报">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="n6_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

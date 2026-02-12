@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,114" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1_pdpa" name="icon" xy="0,0" size="130,114" aspect="true" url="ui://s7x7ku0ndd3xdxxxy" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_pdpa" name="title" xy="1,27" size="43,16" visible="false" fontSize="10" color="#ffffff" align="center" autoSize="shrink" strokeColor="#361200" strokeSize="2" singleLine="true" autoClearText="true" text=""/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

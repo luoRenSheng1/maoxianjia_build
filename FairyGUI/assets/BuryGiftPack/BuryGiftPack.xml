@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://zjhq3sc3r18sa" designImageAlpha="0">
+  <controller name="ctrl" pages="0,,1," selected="0">
+    <remark page="0" value="限购"/>
+    <remark page="1" value="不限购"/>
+  </controller>
+  <controller name="typeCtrl" pages="0,,1,,2,,5," selected="0">
+    <remark page="0" value="锻造锤礼包"/>
+    <remark page="1" value="英雄令礼包|金矿挑战包|符石副本挑战包|英雄副本挑战包|装备副本挑战包|帝王蟹礼包"/>
+    <remark page="2" value="奶酪礼包"/>
+    <remark page="3" value="金币补充包"/>
+  </controller>
+  <controller name="buyMax" pages="1,,0," selected="0">
+    <remark page="0" value="还能购买"/>
+    <remark page="1" value="购买最大"/>
+  </controller>
+  <displayList>
+    <component id="n12_khmx" name="n12" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n2_khmx" name="n2" src="khmx6" fileName="Res/juxing 1.png" xy="88,555" size="540,284" group="n6_khmx"/>
+    <image id="n8_khmx" name="n8" src="khmx8" fileName="Res/sdg55.png" xy="148,447" size="444,166" group="n6_khmx" aspect="true"/>
+    <image id="n0_khmx" name="n0" src="khmx7" fileName="Res/sdfg5214.png" xy="169,452" group="n6_khmx"/>
+    <image id="n1_khmx" name="n1" src="khmx3" fileName="Res/dsgdf5445.png" xy="111,606" size="497,131" group="n6_khmx"/>
+    <image id="n17_r18s" name="n17" src="khmx9" fileName="Res/sgdsgh52.png" xy="218,627" group="n6_khmx"/>
+    <component id="n3_khmx" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="292,753" group="n6_khmx">
+      <gearDisplay controller="buyMax" pages="1"/>
+    </component>
+    <list id="n4_khmx" name="rewardList" xy="179,627" size="361,80" group="n6_khmx" layout="row" overflow="scroll" colGap="20" defaultItem="ui://5moj1x39ewjfdxy22" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_khmx" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="327,895" group="n6_khmx"/>
+    <image id="n9_khmx" name="n9" src="khmx4" fileName="Res/fgjfgj1515.png" xy="50,290" group="n6_khmx"/>
+    <loader id="n10_khmx" name="n10" xy="108,296" size="96,96" group="n6_khmx" url="ui://s7x7ku0nozj9dxy4x" fill="scale">
+      <gearIcon controller="typeCtrl" pages="0,2,5" values="ui://s7x7ku0nozj9dxy4x|ui://s7x7ku0nozj9dxy4x|ui://s7x7ku0nozj9dxy4x" default="ui://zjhq3sc3khmx1"/>
+    </loader>
+    <text id="n11_khmx" name="n11" xy="233,328" size="154,35" group="n6_khmx" fontSize="25" color="#ffffff" align="center" text="装备副本获得">
+      <gearText controller="typeCtrl" pages="0,2,5" values="装备副本获得|英雄经验副本获得|金矿副本获得" default="运营活动获得"/>
+    </text>
+    <component id="n13_khmx" name="gotoBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="546,303" size="102,86" group="n6_khmx">
+      <gearDisplay controller="typeCtrl" pages="0,2,5"/>
+      <Button icon="ui://zjhq3sc3khmx5"/>
+    </component>
+    <text id="n7_khmx" name="titleLb" xy="290,541" size="139,38" group="n15_khmx" fontSize="27" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#8a4602" strokeSize="2" autoClearText="true" text="金币补充包"/>
+    <text id="n14_khmx" name="cntLb" xy="429,547" size="46,29" group="n15_khmx" fontSize="20" color="#ffffff" align="center" vars="true" strokeColor="#8a4602" strokeSize="2" text="({cur=0}/{total=5})">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </text>
+    <group id="n15_khmx" name="n15" xy="290,541" size="139,38" group="n6_khmx" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n16_89ax" name="n16" xy="249,750" size="244,42" group="n6_khmx" fontSize="30" color="#663e20" bold="true" strokeColor="#ffffff" text="今日已到购买上限">
+      <gearDisplay controller="buyMax" pages="0"/>
+    </text>
+    <image id="n18_r18s" name="n18" src="r18sb" fileName="Res/jiaobiao.png" xy="562,501" group="n20_r18s"/>
+    <text id="n19_r18s" name="rebate" xy="608,526" size="60,62" group="n20_r18s" rotation="18" fontSize="22" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#5c1b0d" strokeSize="2" text="{value=600}%&#xA;返利">
+      <relation target="n18_r18s" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n20_r18s" name="n20" xy="562,501" size="118,120" group="n6_khmx"/>
+    <group id="n6_khmx" name="n6" xy="50,290" size="642,699" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,814 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+      
+	                  
+	
+
+//进入新章节地图
+message EnterChapterMap_CS   //eMsg_EnterChapterMap_CS = 428; 
+{
+	optional uint64  start_chapter_id = 1; // 要开始的章节
+}	
+
+//进入新章节地图回包  
+message EnterChapterMap_SC   //eMsg_EnterChapterMap_SC = 429;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	//optional uint64 start_stage_id = 2;  // 要开始的关卡  --- 为0--表示本章节无可挂机关卡，非0 表示可挂机的本章最高关卡，同步玩家属性里的 latest_passed_stage
+	//optional uint64  start_chapter_id = 3; // 要开始的章节
+
+	//optional  eChapterMapStatus player_map_status = 4;  //是否在大地图上
+	//optional  eBattleStatus is_idle = 5;  //是挂机，还是过关
+	
+	optional ChapterMapInfo chapter_stage = 6;				//章节关卡信息
+	repeated  RandomEvent events = 7;				//随机任务	
+}
+
+
+//关卡选择  客户端提交
+message ChooseStage_CS   //eMsg_ChooseStage_CS = 426; 
+{
+	optional uint64 start_stage_id = 1;  // 要开始的关卡
+	optional uint64  start_chapter_id = 2; // 要开始的章节
+	
+}
+
+//关卡选择  服务器反馈
+message ChooseStage_SC   //eMsg_ChooseStage_SC = 427;       
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 start_stage_id = 2;  // 要开始的关卡
+	optional uint64  start_chapter_id = 3; // 要开始的章节
+}
+	
+	
+//关卡开始  客户端提交
+message Stage_Begin_CS   //eMsg_Stage_Begin_CS = 400; 
+{
+	optional uint64 start_stage_id = 1;  // 要开始的关卡
+	optional uint64  start_chapter_id = 2; // 要开始的章节
+	optional  eBattleStatus is_idle = 3;  //是挂机，还是过关
+}
+
+message MonsterAward
+{
+	optional int32 monster_id  = 1; //monster group表里的 MonsterId
+	optional int32 monster_id_index  = 2; //monster group表里的 MonsterId对应的num如果多个的话，则未index下表 从0开始表示第一只
+	optional double award_gold = 3; //击杀该怪物获得的金钱 --- 没有就是 0
+}
+
+message MonsterGroup
+{
+	optional int32 group_id = 1;  //stage.xlsx表格里出现的 怪物 group的 id 
+	repeated MonsterAward monster_awards = 2;  //每一波怪物里的每个怪物的出产金币信息
+	optional uint32 node_id = 3;  //第几波怪的id -- stage表里的 Node 字段
+}
+
+	     
+//关卡开始服务器端下发相关数值
+message Stage_Begin_SC   //eMsg_Stage_Begin_SC = 401; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 start_stage_id = 2;  // 要开始的关卡
+	repeated MonsterGroup  monster_group_awards = 3;  //要出产的金币
+	
+	//optional  eChapterMapStatus player_map_status = 4;  //是否在大地图上
+	optional  eBattleStatus is_idle = 5;  //是挂机，还是过关
+}
+
+
+
+//挑战中到达第几个节点上报请求(过完后)
+message ReachNodeInStageChallenge_CS   //eMsg_ReachNodeInStageChallenge_CS = 430;   
+{
+	optional uint32 node_id = 1;  // 到达的节点 ，初始没有0，开始到第一个节点开始打怪发1，依次类推
+}
+
+//挑战中到达第几个节点上报回馈--客户端应该无需处理，如果是作弊提交数据包会提示失败
+message ReachNodeInStageChallenge_SC   //eMsg_ReachNodeInStageChallenge_SC = 431;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 node_id = 2;  // 到达的节点 ，初始没有0，开始到第一个节点开始打怪发1，依次类推
+	
+}
+
+
+	 
+
+
+
+//每波怪物奖励提交
+message Stage_AwardCommit_CS   //eMsg_Stage_AwardCommit_CS = 402;
+{
+	//optional int32 group_id = 1;  //怪物groupID，不用穿
+	optional uint32 node_id = 1;  //第几波怪的id -- stage表里的 Node 字段
+	optional int32 monster_id = 2;  //怪物id
+	optional int32 monster_idx = 3;  //如果怪物id一样的话， 发送index索引上来
+	optional float pos_x = 5; //透传客户端坐标
+	optional float pos_y = 6; //透传客户端坐标
+	
+	optional bool killed_by_pet = 7;  //是否被宠物杀死， false--英雄杀死， true---宠物杀死
+	optional bool killed_by_atk = 8;  //是否被普攻杀死， false--被技能杀死, true---普通攻击杀死
+	optional uint32 killed_by_skill_id  =9;  //如果是被技能杀害，则传技能ID（宠物杀害的话传宠物技能ID， 英雄的传英雄身上的技能ID）。不是技能击杀的，填0即可
+	optional uint64 killed_by_pet_guid = 10;  //如果是被宠物普攻或技能杀死的，填宠物guid，否则填0
+}
+
+//每波怪物奖励提交服务器端反馈
+message Stage_AwardCommit_SC   //eMsg_Stage_AwardCommit_SC = 403;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional int32 group_id = 2;  //第几波怪物
+	optional int32 monster_id = 3;  //怪物id
+	optional int32 monster_idx = 4;  //如果怪物id一样的话， 发送index索引上来
+	optional double monster_gold = 5; //服务器端下发本次杀怪获得的金币
+	optional Finance finance = 6;  //最新账户余额
+	optional uint32 node_id = 7;  //第几波怪的id -- stage表里的 Node 字段
+	optional float pos_x = 8; //透传客户端坐标
+	optional float pos_y = 9; //透传客户端坐标
+	optional RuneInfo rune = 10;  //是否随机生成符石
+	optional ItemInfoWithRandBox drop_item = 11;  //是否随机额外掉落道具
+}
+
+                
+//关卡结束 客户端提交
+message Stage_End_CS   //eMsg_Stage_End_CS = 404;
+{
+	optional float pos_x = 1; //透传客户端坐标
+	optional float pos_y = 2; //透传客户端坐标
+}	                
+	
+//关卡结束 服务器提交
+message Stage_End_SC   //eMsg_Stage_End_SC = 405;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional bool is_first = 2;  //是否首通
+	optional ItemInfoWithRandBox reward_items = 5;  //首通奖励
+	optional ItemInfoWithRandBox radnom_reward_items = 6;  //随机奖励
+	
+	optional uint32  latest_node = 3;  //最后挂机节点
+	optional uint64  latest_passed_stage = 7; //当前通过的最后关卡--最后挂机关卡
+	optional Finance finance = 8;  //最新账户余额
+	optional RuneInfo rune = 10;  //是否随机生成符石
+	optional eBattleStatus status = 11;   //战场状态
+	optional float pos_x = 12; //透传客户端坐标
+	optional float pos_y = 13; //透传客户端坐标
+	
+	optional ChapterMapInfo chapter_stage = 16;				//章节关卡信息
+}		
+				
+						
+		        
+     	           
+//离线奖励    
+message OfflineAward_PC   //eMsg_OfflineAward_PC = 412;
+{
+	optional ItemInfoWithRandBox reward_items = 1;  //奖励
+	optional Finance finance = 2;  //最新账户余额
+	optional uint64 latest_offline_seconds = 3; //上次离线多少秒
+}
+
+//领取在线奖励
+message ClaimOnlineAward_CS   //eMsg_ClaimOnlineAward_CS= 413
+{
+}
+
+//在线奖励领取反馈
+message ClaimOnlineAward_SC   //eMsg_ClaimOnlineAward_SC= 414;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfoWithRandBox reward_items = 2;  //奖励
+	optional Finance finance = 3;  //最新账户余额
+	optional uint64 online_award_count = 4; //在线奖励计时累计秒数 
+}
+
+
+		     
+	     
+
+//在线奖励查看
+message OnlineAwardClick_CS   //eMsg_OnlineAwardClick_CS= 415;
+{
+}
+ //在线奖励查看反馈
+message OnlineAwardClick_SC   //eMsg_OnlineAwardClick_SC= 416;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo reward_items = 2;  //奖励
+	optional uint64 online_award_count = 3; //在线奖励计时累计秒数 
+}
+
+                  
+    
+	
+	
+	
+//通过广告奖励领取关卡奖励
+message ClaimStageAwardByAD_CS   //eMsg_ClaimStageAwardByAD_CS = 418;
+{
+	optional bool is_online = 1;  //false--离线，  online--在线
+}
+//通过广告奖励领取关卡奖励反馈
+message ClaimStageAwardByAD_SC   //eMsg_ClaimStageAwardByAD_SC = 419;    
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfoWithRandBox reward_items = 2;  //奖励
+	optional Finance finance = 3;  //最新账户余额
+	optional uint32 online_remaind_ad_free_times = 4;  //剩余在线免费观看广告奖励次数
+	optional uint32 offline_remaind_ad_free_times = 5;  //剩余离线线免费观看广告奖励次数
+}
+
+
+						
+			        
+
+//关卡失败 客户端提交
+message Stage_Failed_CS   //eMsg_Stage_Failed_CS = 420;
+{
+	
+}	                
+	
+//关卡失败 服务器反馈
+message Stage_Failed_SC   //eMsg_Stage_Failed_SC = 421;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  latest_node = 2;  //最后挂机节点
+	optional uint64  latest_passed_stage = 4; //当前通过的最后关卡--最后挂机关卡
+	optional eBattleStatus status = 5;   //战场状态
+	//optional eChapterMapStatus map_status = 6; //地图状态
+}	
+
+
+
+						
+				        
+	
+//离开关卡
+message StageExit_CS   //eMsg_Stage_Exit_CS = 422;
+{
+}	                
+	
+//离开关卡反馈
+message StageExit_SC   //eMsg_Stage_Exit_SC = 423;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional eBattleStatus status = 5;   //战场状态
+}
+
+
+//离开营地
+message CampExit_CS   //eMsg_Camp_Exit_CS = 436;
+{
+}	                
+	
+//离开营地反馈
+message CampExit_SC   //eMsg_Camp_Exit_SC = 437;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional eBattleStatus status = 5;   //战场状态
+}
+//进入营地
+message CampEnter_CS   //eMsg_Camp_Enter_CS = 438;	
+{
+}	                
+	
+//进入营地反馈
+message CampEnter_SC   //eMsg_Camp_Enter_SC = 439;	
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional eBattleStatus status = 5;   //战场状态
+}
+					
+			        
+					
+			        
+
+
+
+
+
+     
+//新下发的随机事件
+message NewRandomEvents_PC   //eMsg_NewRandomEvents_PC = 450;  
+{
+    repeated  RandomEvent events = 1;				//随机事件
+}
+
+//某个或几个随机事件变更
+message RandomEventsUpdate_PC   //eMsg_RandomEventsUpdate_PC = 451; 
+{
+    repeated  RandomEvent events = 1;				//随机事件
+	repeated FinishEvent finish_events = 2;  //当前每日完成计数，只与本次下发的随机事件有关
+}
+//删除随机事件 --- 
+message DelRandomEvents_PC   //eMsg_DelRandomEvents_PC = 452;  
+{
+    optional uint64 guid = 1;				//随机事件
+	optional FinishEvent finish_events = 2;  //当前删除随机事件每日完成计数
+}
+	  
+	  
+
+
+// 事件怪物或boss
+message RandomEventMonster
+{
+    optional uint32 event_stage_id = 1;  //EventStage表中的id
+	optional uint32 index_id = 2; //怪物索引id，只会是 0,1,2
+}
+
+//进入废墟请求
+message EnterRuin_CS   //eMsg_EnterRuin_CS = 467; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+}
+
+ //进入废墟返回
+message EnterRuin_SC   //eMsg_EnterRuin_SC = 468;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	repeated RandomEventMonster monsters = 3; //生成的怪物id
+}
+
+//开始打怪请求
+message BeginRuinMosterFight_CS   //eMsg_BeginRuinMosterFight_CS = 469;  
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 monster_index = 2;  //选中怪物的 index id 0,1,2
+}
+	  
+//开始打怪返回
+message BeginRuinMosterFight_SC   //eMsg_BeginRuinMosterFight_SC = 470;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 monster_index = 3;  //选中挑战的monster
+}
+	
+	
+//结束打怪请求
+message EndRuinMosterFight_CS   //eMsg_EndRuinMosterFight_CS = 471;
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 monster_index = 2;  //选中挑战的monster
+	optional bool  is_win = 3; //是否获胜
+}
+	  
+//结束打怪返回
+message EndRuinMosterFight_SC   //eMsg_EndRuinMosterFight_SC = 472; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 monster_index = 3;  //选中挑战的monster
+	repeated uint32 buff_id = 4;  //ruin表中的id，供玩家选择需要的buff
+	optional bool  is_win = 5; //是否获胜
+}
+
+
+ //  领取buff 
+message ClaimBuff_CS   //eMsg_ClaimBuff_CS = 455;   
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 monster_index = 2;  //战胜的monster
+    optional  uint32 buff_id = 3;				//选中的buff id
+}
+
+// 领取buff回复  	  
+message ClaimBuff_SC  //eMsg_ClaimBuff_SC = 456;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 monster_index = 3;  //战胜的monster
+	repeated BattleBuff buffs = 4;  //获取buff  -- 显示用， 战斗属性变化会用现有的pc包下发更新
+	optional ItemInfoWithRandBox reward_items = 5;  //奖励道具
+	optional Finance finance = 6;  //最新账户余额 如果有涉及货币奖励会有变动
+}
+
+
+
+	
+	
+	
+//退出废墟请求
+message ExitRuin_CS   //eMsg_ExitRuin_CS = 473;   
+{
+	optional uint64 event_guid = 1;  //事件guid
+}
+
+//退出废墟返回
+message ExitRuin_SC   //eMsg_ExitRuin_SC = 474;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+}
+
+//  领取随机事件货币奖励
+message ClaimRandomFinance_CS   //eMsg_ClaimRandomFinance_CS = 457;
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2; //金币堆或钻石堆id
+}
+
+// 领取随机事件货币奖励回复	
+message ClaimRandomFinance_SC   //eMsg_ClaimRandomFinance_SC = 458;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfoWithRandBox reward_items = 2;  //奖励
+	optional Finance finance = 3;  //最新账户余额
+	optional uint64 event_guid = 4;  //事件guid
+	optional uint32 batch_stuff_id = 5; //金币堆或钻石堆id
+}	    
+       
+//野外boss开始攻击 
+message AttackWildBossBegin_CS   //eMsg_AttackWildBossBegin_CS = 459; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+	
+}   
+//野外boss开始攻击回复
+message AttackWildBossBegin_SC   //eMsg_AttackWildBossBegin_SC = 460;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+}   
+
+//野外boss攻击结束
+message AttackWildBossEnd_CS   //eMsg_AttackWildBossEnd_CS = 461;
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+	optional bool is_win = 5; //是否获胜
+}  
+
+//野外boss攻击结束回复
+message AttackWildBossEnd_SC   //eMsg_AttackWildBossEnd_SC = 462; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+	optional ItemInfoWithRandBox reward_items = 4;  //奖励
+	optional Finance finance = 5;  //最新账户余额
+	optional bool is_win = 6; //是否获胜
+}
+	
+	
+
+	
+	
+//接收捕捉宠物开始 
+message AcceptWildPet_CS   //eMsg_AcceptWildPet_CS = 475;  
+{
+	optional uint64 event_guid = 1;  //事件guid
+	
+}   
+//接收捕捉宠物回复
+message AcceptWildPet_SC   //eMsg_AcceptWildPet_SC = 476;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional eRandomEventStatus event_status = 3;  //事件状态
+}   
+
+//捕捉宠物成功请求
+message CatchWildPetSuccess_CS   //eMsg_CatchWildPetSuccess_CS = 477;  
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+} 
+
+//捕捉宠物成功回复
+message CatchWildPetSuccess_SC   //eMsg_CatchWildPetSuccess_SC = 478;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+	optional eRandomEventStatus pet_status = 4;  //宠物状态
+	repeated ItemListNode select_items = 5;  //三选一奖励
+}
+
+
+//三选一奖励领取  
+message ClaimWildPetAward_CS   //eMsg_ClaimWildPetAward_CS = 444;    
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+	optional uint32 item_index = 3;  //玩家选择的三选一道具
+} 
+
+//三选一奖励领取反馈
+message ClaimWildPetAward_SC   //eMsg_ClaimWildPetAward_SC = 445;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+	optional ItemInfoWithRandBox reward_items = 4;  //奖励
+	optional Finance finance = 5;  //最新账户余额
+	optional uint32 item_index = 6;  //玩家选择的三选一道具
+	optional eRandomEventStatus pet_status = 7;  //宠物状态
+}		
+	
+	
+	
+	
+	
+//在逃宠物开始攻击
+message AttackWildPetBegin_CS   //eMsg_AttackWildPetBegin_CS = 463; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+}   
+//在逃宠物开始攻击回复
+message AttackWildPetBegin_SC   //eMsg_AttackWildPetBegin_SC = 464; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+}   
+
+//在逃宠物攻击结束
+message AttackWildPetEnd_CS   //eMsg_AttackWildPetEnd_CS = 465; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 batch_stuff_id = 2;  //stuff 里的id
+	optional bool is_win = 5; //是否获胜
+}  
+
+//在逃宠物攻击结束回复
+message AttackWildPetEnd_SC   //eMsg_AttackWildPetEnd_SC = 466; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 batch_stuff_id = 3;  //stuff 里的id
+	repeated ItemListNode select_items = 4;  //三选一奖励
+	optional eRandomEventStatus pet_status = 5;  //宠物状态
+	optional bool is_win = 6; //是否获胜
+}	 
+	
+//新增buff
+message PlayerBattleAttrAddBuff_PC {			//[eMsg_PlayerBattleAttrAddBuff_PC = 432;     ]
+	repeated BattleAttr battle_attr = 1;        //最新受影响的战斗属性最新值--客户端覆盖本地
+	repeated BattleBuff battle_buff = 2;       //新加的buf -- ui表现用，实际数值都已在 battle_attr 中
+	repeated BattleBuff4Stage battle_buf_4stage = 3;  //新加的关卡内有效的buff -- ui表现用，实际数值都已在 battle_attr 中
+}
+	
+ ////删除buff
+message PlayerBattleAttrDelBuff_PC {			//[eMsg_PlayerBattleAttrDelBuff_PC = 433;      ]
+	repeated BattleAttr battle_attr = 1;       //最新受影响的战斗属性最新值--客户端覆盖本地
+	repeated BattleBuff battle_buff = 2;       //删除的buf  -- ui表现用，实际数值都已在 battle_attr 中
+	repeated BattleBuff4Stage battle_buf_4stage = 3;  //删除的关卡内有效的buff -- ui表现用，实际数值都已在 battle_attr 中
+}
+
+//触发关卡内buff请求
+message TriggerStageBuff_CS  // eMsg_TriggerStageBuff_CS = 434; 
+{
+    optional ClientBattleInfo battle_frame_info = 1;    //本轮收集信息
+	optional uint64  client_send_timestamp = 2;  //客户端触发技能时间戳
+}
+
+//触发关卡内buff反馈
+message TriggerStageBuff_SC  // eMsg_TriggerStageBuff_SC = 435;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  server_send_timestamp = 2;  //服务器端处理完回包时间戳
+}
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+//开始挥杆申请
+message BeginFishing_CS  // eMsg_BeginFishing_CS = 479;   
+{
+}
+
+//开始挥杆返回
+message BeginFishing_SC  // eMsg_BeginFishing_SC = 480;    
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional  eFishingResult  fishing_result = 2;  //垂钓结果
+	optional ItemInfoWithRandBox reward_items = 3;  //奖励     //垂钓结果是金币，钻石，道具时
+	optional uint32  boss_id = 4;  //垂钓结果是 普通boss，则是stage表的id；  垂钓结果是传承boss，则是 EventStage表中的id
+}
+
+
+//钓鱼boss开始攻击
+message AttackFishingBossBegin_CS   //eMsg_AttackFishingBossBegin_CS = 481; 
+{
+
+}   
+//钓鱼boss开始攻击回复
+message AttackFishingBossBegin_SC   //eMsg_AttackFishingBossBegin_SC = 482; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+} 
+
+//钓鱼boss结束攻击
+message AttackFishingBossEnd_CS   //eMsg_AttackFishingBossEnd_CS = 483; 
+{
+    optional bool is_win = 1;
+} 
+
+//钓鱼boss结束攻击回复
+message AttackFishingBossEnd_SC   //eMsg_AttackFishingBossEnd_SC = 484; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional bool is_win = 2;
+	optional ItemInfoWithRandBox reward_items = 3;  //奖励
+	optional Finance finance = 4;  //最新账户余额
+	optional uint32 today_fishing_counter  = 6; //今日最新钓鱼次数
+}
+
+
+//钓鱼结果是直接奖励领取
+message FishingClaimAward_CS  //eMsg_FishingClaimAward_CS = 493; 
+{
+
+}
+
+
+//钓鱼结果是直接奖励领取回复
+message FishingClaimAward_SC  // eMsg_FishingClaimAward_SC = 494; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfoWithRandBox reward_items = 3;  //奖励     //垂钓结果是金币，钻石，道具时
+	optional Finance finance = 5;  //最新账户余额  
+	optional uint32 today_fishing_counter  = 6; //今日最新钓鱼次数
+}
+
+		
+	
+	  
+//钓鱼失败请求
+message FishingFailed_CS  //eMsg_FishingFailed_CS = 495;   
+{
+
+}
+	 
+	  
+//钓鱼失败请求返回
+message FishingFailed_SC  //eMsg_FishingFailed_SC = 496;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 today_fishing_counter  = 2; //今日最新钓鱼次数
+	
+}	
+	  
+	
+
+//进入奇遇商人山洞
+message EnterCave_CS   //eMsg_EnterCave_CS = 485; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	
+}   
+//进入奇遇商人山洞反馈
+message EnterCave_SC   //eMsg_EnterCave_SC = 486;    
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	repeated ItemInfo player_item_limitation = 3; //目前没每日限制，无用，就是空，无视 --- 玩家当前奇遇商人本日购买材料个数信息，可与配置表比较，得出是否可以购买
+}
+
+//找奇遇商人购买
+message PurchaseInCave_CS   //eMsg_PurchaseInCave_CS = 487;  
+{
+	optional uint64 event_guid = 1;  //事件guid 
+	optional uint32 stuff_id = 2; //服务器下发的  stuff里的id
+	optional uint32 amount = 3; //购买数量----废弃
+}
+//找奇遇商人购买反馈
+message PurchaseInCave_SC   //eMsg_PurchaseInCave_SC = 488;    
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 stuff_id = 3; //要购买的道具id -- 服务器下发的 cfg_id
+	optional uint32 amount = 4; //剩余限制购买次数
+	optional ItemInfo player_item_limitation = 5; //目前没每日限制，无用，就是空，无视 ---该购买道具每日购买次数刷新
+	optional ItemInfoWithRandBox reward_items = 6;  //购买成功的道具
+	optional Finance finance = 7;  //最新账户余额
+	optional BatchStuff remain_items_in_store = 8; //该id剩余可购买数量  
+}
+
+
+//离开奇遇商人山洞
+message ExitCave_CS   //eMsg_ExitCave_CS = 489; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	
+} 
+
+//离开奇遇商人山洞反馈
+message ExitCave_SC   //eMsg_ExitCave_SC = 490;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+} 
+
+
+//进入挖宝推箱子地图  
+message EnterBoxMap_CS   //eMsg_EnterBoxMap_CS = 491;  
+{
+	optional uint64 event_guid = 1;  //事件guid
+	
+}   
+//进入挖宝推箱子地图反馈
+message EnterBoxMap_SC   //eMsg_EnterBoxMap_SC = 492; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	repeated BatchStuff batch_stuff = 3;  //服务器端生成的结果
+	//optional  eFishingResult  box_result = 3;  //宝箱结果
+	//optional ItemInfoWithRandBox reward_items = 4;  //奖励     //结果是金币，钻石，道具时
+	//optional uint32  boss_id = 5;  //  结果是传承boss，则是 EventStage表中的id
+}
+
+
+   
+//  领取随机宝箱
+message ClaimRandomBox_CS   //eMsg_ClaimRandomBox_CS = 453; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 stuff_id = 2;  //挖到的结果的 stuff id
+}
+
+// 领取随机宝箱回复	  
+message ClaimRandomBox_SC  //eMsg_ClaimRandomBox_SC = 454;     
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 stuff_id = 3;  //挖到的结果的 stuff id
+	optional ItemInfoWithRandBox reward_items = 4;  //奖励     //垂钓结果是金币，钻石，道具时
+	optional Finance finance = 5;  //最新账户余额  
+}
+
+
+//宝箱boss开始攻击
+message AttackBoxBossBegin_CS   //eMsg_AttackBoxBossBegin_CS = 497;
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 stuff_id = 2;  //挖到的结果的 stuff id
+}   
+//宝箱boss开始攻击回复
+message AttackBoxBossBegin_SC   //eMsg_AttackBoxBossBegin_SC = 498; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+	optional uint32 stuff_id = 3;  //挖到的结果的 stuff id
+} 
+
+//宝箱boss结束攻击
+message AttackBoxBossEnd_CS   //eMsg_AttackBoxBossEnd_CS = 440; 
+{
+	optional uint64 event_guid = 1;  //事件guid
+	optional uint32 stuff_id = 2;  //挖到的结果的 stuff id
+    optional bool is_win = 3;
+} 
+
+//宝箱boss结束攻击回复
+message AttackBoxBossEnd_SC    //eMsg_AttackBoxBossEnd_SC = 441; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional bool is_win = 2;
+	optional ItemInfoWithRandBox reward_items = 3;  //奖励
+	optional Finance finance = 4;  //最新账户余额
+	optional uint64 event_guid = 5;  //事件guid
+	optional uint32 stuff_id = 6;  //挖到的结果的 stuff id
+}
+
+//离开挖宝推箱子地图  
+message ExitBoxMap_CS   //eMsg_ExitBoxMap_CS = 442;  
+{
+	optional uint64 event_guid = 1;  //事件guid
+	
+} 
+
+//离开挖宝推箱子地图反馈
+message ExitBoxMap_SC   //eMsg_ExitBoxMap_SC = 443;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 event_guid = 2;  //事件guid
+} 
+
+
+
+
+
+  
+	  
+

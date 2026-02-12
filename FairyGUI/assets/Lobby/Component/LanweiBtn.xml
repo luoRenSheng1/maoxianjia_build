@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,72" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n8_mqvf" name="n8" xy="0,0" size="166,72" url="ui://s7x7ku0na2kwdxybi" fill="scaleFree"/>
+    <loader id="n4_ocee" name="icon" xy="14,8" size="56,56" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n5_ocee" name="title" xy="73,21" size="88,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="123">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n11_mqvf" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="134,0" visible="false"/>
+  </displayList>
+  <Button/>
+</component>

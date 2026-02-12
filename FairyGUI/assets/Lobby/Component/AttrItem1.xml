@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,84">
+  <controller name="attrCtrl" pages="1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n3_ax20" name="icon" xy="0,0" size="77,64" url="ui://s7x7ku0nnjebdxy6r" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="attrCtrl" pages="2,3" values="ui://s7x7ku0nnjebdxy6s|ui://s7x7ku0nnjebdxy6t" default="ui://s7x7ku0nnjebdxy6r"/>
+    </loader>
+    <component id="n0_e4bb" name="attrBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="0,0" size="77,64">
+      <Button icon="ui://s7x7ku0nax20dxy8b"/>
+    </component>
+    <text id="n1_e4bb" name="num" xy="0,55" size="77,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=12345}">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

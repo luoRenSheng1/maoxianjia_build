@@ -1,0 +1,14 @@
+{
+  "scaleMode": "ScaleWithScreenSize",
+  "screenMathMode": "MatchWidthOrHeight",
+  "designResolutionX": 720,
+  "designResolutionY": 1280,
+  "devices": [
+    {
+      "name": "微信",
+      "resolutionX": 800,
+      "resolutionY": 480
+    }
+  ],
+  "fileName": "Adaptation"
+}

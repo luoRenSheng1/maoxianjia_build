@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,372">
+  <controller name="typeCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="宠物"/>
+    <remark page="1" value="技能"/>
+  </controller>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="开了"/>
+    <remark page="1" value="锁了"/>
+  </controller>
+  <displayList>
+    <loader id="n5_surf" name="itemBgUrl" xy="0,36" size="720,300" url="ui://i7ojazuullb14r" align="center" vAlign="middle" clearOnPublish="true">
+      <gearIcon controller="typeCtrl" pages="1" values="ui://i7ojazuullb14s" default="ui://i7ojazuullb14r"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_llb1" name="n21" xy="0,0" size="720,36" url="ui://5moj1x39f34jdxybb" fill="scaleFree">
+      <relation target="n5_surf" sidePair="top-top"/>
+    </loader>
+    <loader id="n22_llb1" name="n22" xy="0,336" size="720,36" url="ui://5moj1x39f34jdxybb" fill="scaleFree">
+      <relation target="n5_surf" sidePair="bottom-bottom"/>
+    </loader>
+    <loader id="n20_llb1" name="n20" xy="8,51" size="137,44" url="ui://i7ojazuullb14p">
+      <gearIcon controller="typeCtrl" pages="1" values="ui://i7ojazuullb14q" default="ui://i7ojazuullb14p"/>
+      <relation target="n5_surf" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n4_surf" name="n4" xy="65,55" size="52,34" fontSize="24" color="#ffffff" align="right" bold="true" strokeColor="#000000" strokeSize="2" text="宠物">
+      <gearText controller="typeCtrl" pages="1" values="技能" default="宠物"/>
+      <relation target="n20_llb1" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n2_surf" name="lvLb" xy="316,53" size="49,34" fontSize="24" color="#ffffff" align="right" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="{value=9}级"/>
+    <component id="n24_llb1" name="expBar" src="llb152" fileName="Component/SummonBarExp.xml" xy="377,57">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n1_surf" name="tipsBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="668,58" size="30,30">
+      <relation target="n5_surf" sidePair="right-right,top-top"/>
+      <Button icon="ui://5moj1x39f34jdxybi"/>
+    </component>
+    <component id="n6_surf" name="adSummon" src="surf9" fileName="Component/SummonAdBtn.xml" xy="521,148">
+      <relation target="n5_surf" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n7_surf" name="Summon10" src="surf8" fileName="Component/SummonBtn.xml" xy="332,230" size="174,68">
+      <relation target="n5_surf" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n8_surf" name="Summon30" src="surf8" fileName="Component/SummonBtn.xml" xy="521,230" size="174,68" controller="ctrl,1">
+      <relation target="n5_surf" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <loader3D id="n11_lzt1" name="n11" xy="217,250" size="100,100" url="ui://i7ojazuullb150" align="right" vAlign="bottom" animation="Summon_cwzh" skin="" loop="true">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+    </loader3D>
+    <loader3D id="n12_lzt1" name="n12" xy="89,125" size="165,137" url="ui://i7ojazuullb151" animation="Summon_jnzh" skin="" loop="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+    </loader3D>
+    <graph id="n15_ktw8" name="n15" xy="1,0" size="720,372" alpha="0.85" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </graph>
+    <text id="n16_ktw8" name="lockDesc" xy="261,167" size="250,42" group="n18_ktw8" fontSize="30" color="#ffffff" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="达到多少解锁"/>
+    <loader id="n23_llb1" name="n23" xy="209,162" size="48,48" group="n18_ktw8" url="ui://5moj1x39f34jdxyb7"/>
+    <group id="n18_ktw8" name="n18" xy="209,162" size="302,48" advanced="true">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </group>
+  </displayList>
+</component>

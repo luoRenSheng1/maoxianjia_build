@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="612,612" opaque="false">
+  <displayList>
+    <loader id="n0_tcgl" name="bg" xy="39,55" size="534,502" aspect="true" visible="false" touchable="false" url="ui://6izp804wju03e" fill="scaleFree"/>
+    <component id="n1_tcgl" name="lotteryParent" src="jxfv10" fileName="Component/parentItem.xml" xy="305,305" size="1,1"/>
+  </displayList>
+</component>

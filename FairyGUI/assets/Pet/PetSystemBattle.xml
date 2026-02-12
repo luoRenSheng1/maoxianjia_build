@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://lxs2h4ifucd4dxyc2" designImageAlpha="0" designImageLayer="1">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="isShow" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+  </controller>
+  <displayList>
+    <loader id="n52_hz5c" name="n52" xy="0,82" size="720,246" url="ui://lxs2h4ifs444n" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n70_klzx" name="n70" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxyce">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n51_hz5c" name="n51" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxycd" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n64_hz5c" name="n64" xy="0,374" size="720,670" url="ui://5moj1x39f34jdxyay" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n68_f34j" name="n68" xy="-3,313" size="726,70" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n52_hz5c" sidePair="top-bottom"/>
+    </loader>
+    <text id="n69_jsfx" name="n69" xy="302,325" size="116,39" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="2" text="宠物列表">
+      <relation target="n68_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n54_hz5c" name="petUpItem0" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="41,62" group="n57_hz5c"/>
+    <component id="n55_hz5c" name="petUpItem1" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="246,62" group="n57_hz5c"/>
+    <component id="n56_hz5c" name="petUpItem2" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="454,62" group="n57_hz5c"/>
+    <group id="n57_hz5c" name="upGroup" xy="41,62" size="631,250" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n52_hz5c" sidePair="bottom-bottom"/>
+    </group>
+    <loader id="n58_hz5c" name="n58" xy="24,399" size="672,514" group="n63_hz5c" url="ui://5moj1x39f34jdxyb2" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n64_hz5c" sidePair="bottomext-bottom"/>
+    </loader>
+    <list id="n59_hz5c" name="petAllList" xy="39,412" size="641,485" group="n63_hz5c" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://lxs2h4ifhz5cdxy7c">
+      <relation target="n58_hz5c" sidePair="height-height,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n71_ucd4" name="recycleBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,942" size="218,84" group="n63_hz5c">
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n58_hz5c" sidePair="bottom-bottom"/>
+      <Button title="一键回收" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n75_n5nh" name="recycleBtnRed" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="438,941" group="n63_hz5c" visible="false">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n71_ucd4" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n74_usf5" name="limit" xy="547,962" pivot="1,0.5" size="148,42" group="n63_hz5c" fontSize="30" color="#ffffff" align="right" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="1000/1000">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <group id="n63_hz5c" name="n63" xy="24,399" size="672,627" advanced="true">
+      <gearDisplay controller="isShow" pages="0"/>
+    </group>
+    <component id="n65_hz5c" name="currency1" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="9,13" group="n67_hz5c"/>
+    <component id="n66_hz5c" name="currency2" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="190,13" group="n67_hz5c">
+      <Button icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+    <group id="n67_hz5c" name="n67" xy="9,13" size="351,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n72_ucd4" name="n72" xy="174,545" size="371,346" url="ui://lxs2h4ifucd4dxyc0" align="center" vAlign="middle">
+      <gearDisplay controller="isShow" pages="1"/>
+      <relation target="n73_ucd4" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n73_ucd4" name="n73" xy="24,399" size="672,624" url="ui://5moj1x39f34jdxyb2" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="isShow" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+      <relation target="n64_hz5c" sidePair="bottomext-bottom"/>
+    </loader>
+  </displayList>
+</component>

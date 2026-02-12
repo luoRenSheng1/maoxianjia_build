@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,40" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_ot6f" name="n0" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="0,0" size="100,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_ot6f" name="title" xy="2,1" size="96,39" fontSize="25" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="1000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://0anhreylot6fdxy2m"/>
+</component>

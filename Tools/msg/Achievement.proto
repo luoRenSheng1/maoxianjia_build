@@ -1,0 +1,68 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+//成就列表请求  -------本地没有成就数据，点开成就页面向服务器请求
+message AchievementList_CS   //eMsg_AchievementList_CS = 1450;
+{
+}		   					
+			
+//成就列表请求回复
+//本地获取有成就数据后保存，下次打开成就页面无需向服务器请求
+//服务器返回只记录开启进行中的有成就，
+//客户端结合配置表 ：
+//a. 服务器端有下发的肯定process都是大于等于0,根据状态显示在ui上  
+//b. 配置表中如果存在前置成就ID的则UI显示上忽略不用管（服务器端会在奖励领取后通过pc包下发客户端替换即可）
+//c. 配置表中不存在前置成就ID且服务器端未下发的，直接显示在ui上，且进度为0，状态进行中
+message AchievementList_SC   //eMsg_AchievementList_SC = 1451; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated AchievementInfo  achievement_info = 2; //成就
+	optional SplitPkgPC split_pkg = 3;  //分包支持
+}
+
+//新的成就服务器端开始累计
+message NewAchievement_PC   //eMsg_NewAchievement_PC = 1452; 
+{
+	repeated AchievementInfo  achievement_info = 1; //成就
+}
+
+//已存在成就最新信息
+message AchievementUpdate_PC  //eMsg_AchievementUpdate_PC = 1453;
+{
+	optional AchievementInfo  achievement_info = 1; //成就
+}
+	  
+//领取进度奖励请求
+message ClaimAchievementAward_CS   //eMsg_ClaimAchievementAward_CS = 1454;  
+{
+	optional uint32 aid = 1;  //成就配置表中的成就id
+}  
+
+//领取进度奖励回复
+message ClaimAchievementAward_SC  //eMsg_ClaimAchievementAward_SC = 1455; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated AchievementInfo  achievement_info = 2; //成就--状态变成已领取
+	                                                // next_aid不为0，要用next_aid 替换覆盖掉 本地aid的信息(aid对应的成就服务器端会删除)
+	repeated BattleAttr award_attr = 3;  //奖励的属性加成 ---只做表现用，实际加成服务器端会通过  PlayerBattleAttrUpdate_PC 下发
+}
+	   
+	 
+	  
+
+	         
+	          
+
+
+
+
+
+
+	
+
+
+

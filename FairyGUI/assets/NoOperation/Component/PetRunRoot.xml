@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,108">
+  <displayList>
+    <graph id="n0_v51s" name="p4" xy="-660,6" pivot="1,1" size="100,100"/>
+    <graph id="n1_v51s" name="p3" xy="-540,6" pivot="1,1" size="100,100"/>
+    <graph id="n2_v51s" name="p2" xy="-420,6" pivot="1,1" size="100,100"/>
+    <graph id="n3_v51s" name="p1" xy="-300,6" pivot="1,1" size="100,100"/>
+    <graph id="n4_v51s" name="p0" xy="-180,6" pivot="1,1" size="100,100"/>
+    <image id="n7_v51s" name="n7" src="v51s8" fileName="Res/222.png" xy="-4,-107" size="128,337"/>
+    <image id="n8_v51s" name="n8" src="v51s8" fileName="Res/222.png" xy="733,-107" size="128,337" scale="-1,1"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n4_v51s" tween="true" startValue="-102,6" endValue="35,6" duration="6" label2="start" ease="Linear"/>
+    <item time="6" type="XY" target="n4_v51s" label="start" tween="true" startValue="35,6" endValue="720,6" duration="30" ease="Linear"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="XY" target="n3_v51s" tween="true" startValue="-102,6" endValue="38.914,6" duration="6" label2="start" ease="Linear"/>
+    <item time="6" type="XY" target="n3_v51s" label="start" tween="true" startValue="38.914,6" endValue="720,6" duration="29" ease="Linear"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="XY" target="n2_v51s" tween="true" startValue="-102,6" endValue="35,6" duration="6" label2="start" ease="Linear"/>
+    <item time="6" type="XY" target="n2_v51s" label="start" tween="true" startValue="35,6" endValue="720,6" duration="30" ease="Linear"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="XY" target="n1_v51s" tween="true" startValue="-102,6" endValue="35,6" duration="6" label2="start" ease="Linear"/>
+    <item time="6" type="XY" target="n1_v51s" label="start" tween="true" startValue="35,6" endValue="720,6" duration="30" ease="Linear"/>
+  </transition>
+  <transition name="t4">
+    <item time="0" type="XY" target="n0_v51s" tween="true" startValue="-102,6" endValue="35,6" duration="6" label2="start" ease="Linear"/>
+    <item time="6" type="XY" target="n0_v51s" label="start" tween="true" startValue="35,6" endValue="720,6" duration="30" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,630" opaque="false" designImage="ui://s7x7ku0nnjebdxy6z" designImageOffsetY="-283" designImageAlpha="0" designImageLayer="1">
+  <controller name="skillCtrl" pages="0,,1," selected="0"/>
+  <controller name="copyCtrl" pages="0,关卡战斗,1,副本战斗" selected="1"/>
+  <displayList>
+    <component id="n4_wrej" name="bg" src="wrejdxy0x" fileName="Component/battleBg.xml" xy="0,-109" size="720,440">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_f646" name="scene" src="f646dxy0w" fileName="Component/battleScene.xml" xy="0,0" size="720,630">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <image id="n19_ozj9" name="n19" src="ozj9dxy52" fileName="Res/newRes2/diandi.png" xy="-15,631" size="744,925">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n20_iqva" name="comMessage" src="pdpadxxyu" fileName="Component/ComMessage.xml" xy="119,472" size="590,44">
+      <gearXY controller="skillCtrl" pages="0" values="119,472" default="104,478"/>
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <component id="n13_w02n" name="comSkills" src="pdpadxxz6" fileName="Component/ComSkills.xml" xy="13,524">
+      <gearXY controller="skillCtrl" pages="0" values="13,524" default="13,538"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <text id="n7_w02n" name="stageName" xy="255,7" size="209,39" group="n15_w02n" fontSize="28" color="#ffffff" align="right" letterSpacing="4" vars="true" bold="true" strokeColor="#27221e" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="奇111森林{min=1}-{max=1}">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n8_w02n" name="barBossTime" src="aytsdxxwo" fileName="Component/ProgressBar/BlueBar3.xml" pkg="0anhreyl" xy="260,103" group="n15_w02n" visible="false" touchable="false">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n9_w02n" name="monsterGroup" src="eceedxy1u" fileName="Component/ProgressBar/MonsterGroupBar.xml" pkg="0anhreyl" xy="262,51" group="n15_w02n" touchable="false">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n10_w02n" name="loopIcon" src="mydgdxy1p" fileName="Res/loopIcon.png" xy="467,0" pivot="0.5,0.5" size="50,50" group="n15_w02n" scale="-1,1">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="n7_w02n" sidePair="right-right"/>
+    </image>
+    <component id="n27_llb1" name="btnToppedAni" src="llb1dxycr" fileName="Component/BtnToppedAni.xml" xy="338,61" group="n15_w02n" visible="false">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+    </component>
+    <text id="n21_hach" name="zctz" xy="335,144" size="100,34" group="n15_w02n" visible="false" fontSize="24" color="#ffffff" bold="true" strokeColor="#27221e" strokeSize="2" singleLine="true" text="再次挑战">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+    </text>
+    <component id="n22_ez9m" name="btnStage" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="465,42" size="154,52" group="n15_w02n" visible="false">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Button title="下一关" icon="ui://s7x7ku0nf34jdxya1"/>
+    </component>
+    <text id="n24_iv53" name="copyBossStageName" xy="265,-66" size="189,54" group="n15_w02n" fontSize="40" color="#fcf78e" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="传承B0SS">
+      <gearDisplay controller="copyCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n25_iv53" name="copyBlood" src="iv53dxyh9" fileName="Component/ProgressBar/BossBlood.xml" pkg="0anhreyl" xy="101,-4" size="203,24" group="n15_w02n">
+      <gearDisplay controller="copyCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <list id="n29_llb1" name="bossTxList" xy="160,31" size="141,38" group="n15_w02n" layout="row" colGap="10" defaultItem="ui://s7x7ku0na2kwdxyas">
+      <gearDisplay controller="copyCtrl" pages="1"/>
+      <relation target="" sidePair="top-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n26_iv53" name="copyBossTime" src="iv53dxyha" fileName="Component/ProgressBar/BossTime.xml" pkg="0anhreyl" xy="278,101" group="n15_w02n">
+      <gearDisplay controller="copyCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n28_llb1" name="copyBossTime1" src="iv53dxyha" fileName="Component/ProgressBar/BossTime.xml" pkg="0anhreyl" xy="507,-69" group="n15_w02n">
+      <gearDisplay controller="copyCtrl" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n15_w02n" name="topGroup" xy="101,-69" size="570,247" advanced="true">
+      <relation target="" sidePair=""/>
+    </group>
+    <component id="n6_9rjy" name="fightBoss" src="mrdwdxy20" fileName="Component/Window/BossFightWindow.xml" pkg="0anhreyl" xy="0,139" size="720,839" visible="false">
+      <relation target="" sidePair="height-height,top-middle"/>
+    </component>
+    <graph id="n17_ot6f" name="commonTimeSp" xy="487,502" size="108,100">
+      <relation target="" sidePair="bottom-bottom"/>
+    </graph>
+    <graph id="n18_ddc1" name="touchPanel" xy="-16,-15" size="736,845" alpha="0.001" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="bottom-bottom"/>
+    </graph>
+  </displayList>
+  <transition name="loopEff" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n10_w02n" tween="true" startValue="0" endValue="360" duration="48" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

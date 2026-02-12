@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,36">
+  <displayList>
+    <text id="n0_kqmi" name="attrName" xy="0,1" size="100,34" fontSize="24" color="#4c2911" align="center" bold="true" text="生命恢复"/>
+    <text id="n1_kqmi" name="attrValue" xy="291,1" size="69,34" fontSize="24" color="#4c2911" align="right" vAlign="middle" bold="true" text="10001">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

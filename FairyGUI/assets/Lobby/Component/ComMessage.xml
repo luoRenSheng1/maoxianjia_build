@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="512,44" pivot="0.5,0.5" extention="Button" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetY="-1107" designImageAlpha="0" designImageLayer="1">
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="系统"/>
+    <remark page="1" value="世界"/>
+  </controller>
+  <displayList>
+    <loader id="n80_f34j" name="n80" xy="0,0" size="512,44" url="ui://s7x7ku0nf34jdxyal" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n70_jto9" name="btnChat" src="rx0xo8b" fileName="Component/BtnChat.xml" xy="1,4" size="72,36" scale="0.8,0.8"/>
+    <component id="n72_kvsz" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="52,-8" controller="countType,1"/>
+    <component id="n73_kvsz" name="chatBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="76,8" size="432,28"/>
+    <text id="n74_kvsz" name="n74" xy="76,7" size="85,29" group="n77_kvsz" fontSize="20" color="#ffffff" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="【系统】">
+      <gearText controller="type" pages="0,1" values="【系统】|【世界】"/>
+    </text>
+    <text id="n75_kvsz" name="pNameLb" xy="163,8" size="128,29" group="n77_kvsz" fontSize="20" color="#ffffff" vAlign="middle" vars="true" autoSize="ellipsis" bold="true" strokeColor="#000000" strokeSize="2" text="{pName=这是玩家名字}:"/>
+    <text id="n76_kvsz" name="contentLb" xy="295,7" size="214,29" group="n77_kvsz" fontSize="20" color="#ffffff" vAlign="middle" vars="true" autoSize="ellipsis" bold="true" strokeColor="#000000" strokeSize="2" text="内容啊啊啊啊">
+      <relation target="n75_kvsz" sidePair="left-right"/>
+    </text>
+    <group id="n77_kvsz" name="pGroup" xy="76,7" size="433,30" advanced="true"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

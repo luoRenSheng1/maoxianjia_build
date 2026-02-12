@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1800,360">
+  <displayList>
+    <loader id="n0_ucd4" name="bg2" xy="0,0" size="1800,360" aspect="true" url="ui://s7x7ku0nucd4dxybu" fill="scale"/>
+  </displayList>
+</component>

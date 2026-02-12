@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://m37flevdf34jdxyaj" designImageAlpha="21">
+  <controller name="ctrl" pages="0,,3,,1,,2," selected="0">
+    <remark page="0" value="卸下"/>
+    <remark page="1" value="装备"/>
+    <remark page="2" value="替换"/>
+    <remark page="3" value="获取"/>
+  </controller>
+  <controller name="tipsCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不是tips"/>
+    <remark page="1" value="是tips"/>
+  </controller>
+  <displayList>
+    <component id="n0_rm2c" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_rm2c" name="n1" xy="16,256" size="688,662" group="n28_rm2c" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n26_rm2c" name="n26" xy="293,271" size="134,44" group="n28_rm2c" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="技能详情"/>
+    <component id="n3_rm2c" name="skilltem" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="39,365" group="n28_rm2c" scale="1.5,1.5" controller="hasCount,1"/>
+    <loader id="n52_a2kw" name="n52" xy="252,386" size="101,34" group="n33_rm2c" url="ui://5moj1x39a2kwdxyc8" fill="scaleFree">
+      <relation target="n6_rm2c" sidePair="left-right"/>
+    </loader>
+    <image id="n42_f34j" name="n42" src="f34jdxyaz" fileName="Res/newItem2/general_clock_icon.png" pkg="5moj1x39" xy="263,387" group="n44_f34j">
+      <relation target="n9_rm2c" sidePair="left-left"/>
+    </image>
+    <text id="n9_rm2c" name="cdLb" xy="293,388" size="46,29" group="n44_f34j" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=15}秒"/>
+    <group id="n44_f34j" name="n44" xy="263,387" size="76,32" group="n33_rm2c" advanced="true">
+      <relation target="n52_a2kw" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n33_rm2c" name="n33" xy="252,386" size="101,34" group="n28_rm2c"/>
+    <component id="n4_rm2c" name="petExp" src="eb0tdxxzf" fileName="Component/BarExp.xml" pkg="5moj1x39" xy="242,435" size="373,21" group="n28_rm2c">
+      <relation target="n7_rm2c" sidePair="left-right"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n41_f34j" name="petQ" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" pkg="5moj1x39" xy="601,385" size="64,64" group="n28_rm2c" scale="1.2,1.2"/>
+    <text id="n6_rm2c" name="skillName" xy="169,385" size="76,34" group="n28_rm2c" fontSize="24" color="#f8f2b6" bold="true" strokeColor="#000000" strokeSize="2" text="幻影猫"/>
+    <text id="n7_rm2c" name="skillLv" xy="169,432" size="68,29" group="n28_rm2c" fontSize="20" color="#4c2911" vars="true" bold="true" text="LV.{value=300}"/>
+    <image id="n45_f34j" name="n45" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="40,577" size="640,16" group="n28_rm2c"/>
+    <image id="n46_f34j" name="n46" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="40,610" size="640,80" group="n16_rm2c"/>
+    <text id="n13_rm2c" name="n13" xy="63,631" size="100,34" group="n16_rm2c" fontSize="24" color="#4c2911" bold="true" text="佩戴属性">
+      <relation target="n46_f34j" sidePair="middle-middle"/>
+    </text>
+    <component id="n49_a2kw" name="pdLb" src="a2kwdxyan" fileName="Component/skillAttrLb.xml" xy="473,633" group="n16_rm2c">
+      <relation target="n46_f34j" sidePair="middle-middle"/>
+    </component>
+    <group id="n16_rm2c" name="n16" xy="40,610" size="640,80" group="n28_rm2c"/>
+    <image id="n47_f34j" name="n47" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="40,697" size="640,80" group="n21_rm2c"/>
+    <text id="n18_rm2c" name="n18" xy="63,719" size="100,34" group="n21_rm2c" fontSize="24" color="#4c2911" bold="true" text="全局属性">
+      <relation target="n47_f34j" sidePair="middle-middle"/>
+    </text>
+    <component id="n50_a2kw" name="qjLb" src="a2kwdxyan" fileName="Component/skillAttrLb.xml" xy="473,719" group="n21_rm2c">
+      <relation target="n47_f34j" sidePair="middle-middle"/>
+    </component>
+    <group id="n21_rm2c" name="n21" xy="40,697" size="640,80" group="n28_rm2c"/>
+    <richtext id="n35_rm2c" name="skillDesc" xy="48,497" size="623,65" group="n28_rm2c" fontSize="24" color="#4c2911" ubb="true" vars="true" autoSize="none" bold="true" autoClearText="true" text="这里是技能描述啊这里是技能描述啊这里是技能描述啊这里是技能描述啊这里是技能描述啊这里是技能描述啊"/>
+    <component id="n22_rm2c" name="downBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,804" size="218,84" group="n40_cyaq">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <Button title="卸下" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n23_rm2c" name="replaceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,804" size="218,84" group="n40_cyaq">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <Button title="替换" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n24_rm2c" name="uploadBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,804" size="218,84" group="n40_cyaq">
+      <gearDisplay controller="ctrl" pages="3"/>
+      <Button title="装备" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n25_rm2c" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,804" size="218,84" group="n40_cyaq">
+      <gearDisplay controller="ctrl" pages="2"/>
+      <Button title="获取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n40_cyaq" name="n40" xy="251,804" size="218,84" group="n28_rm2c" advanced="true">
+      <gearDisplay controller="tipsCtrl" pages="0"/>
+    </group>
+    <component id="n48_f34j" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,940" size="84,84" group="n28_rm2c">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n28_rm2c" name="n28" xy="16,256" size="688,768" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="422,483" pivot="0.5,0.5" opaque="false" extention="Label">
+  <controller name="lockCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n13_pchv" controller="lockCtrl" targetPage="~1"/>
+  </controller>
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="没有"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <component id="n13_pchv" name="buildItem" src="pchvi" fileName="Component/BuildItem.xml" xy="52,55">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n15_pchv" name="n15" src="l9552s" fileName="Res/16.png" xy="98,319" size="225,37" group="n16_pchv"/>
+    <text id="n1_pchv" name="title" xy="114,319" size="194,35" group="n16_pchv" fontSize="19" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#09574f" text="建筑名称"/>
+    <group id="n16_pchv" name="n16" xy="98,319" size="225,37" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n17_h4wb" name="n17" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="102,310">
+      <gearDisplay controller="lockCtrl" pages="0"/>
+    </image>
+    <component id="n18_ldi1" name="n18" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="269,320">
+      <gearDisplay controller="redCtrl" pages="1"/>
+      <gearDisplay2 controller="lockCtrl" pages="1" condition="0"/>
+    </component>
+  </displayList>
+</component>

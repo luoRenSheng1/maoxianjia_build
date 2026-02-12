@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_mqvf" name="n3" xy="0,0" size="84,84" url="ui://5moj1x39f34jdxyb6" fill="scale"/>
+    <loader id="n4_mqvf" name="icon" xy="10,10" size="64,64" url="ui://pdufy3kemqvf34" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_jiq9" name="num" xy="52,53" size="22,24" fontSize="16" color="#ffffff" align="right" bold="true" strokeColor="#25211d" strokeSize="2" text="10">
+      <relation target="n3_mqvf" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

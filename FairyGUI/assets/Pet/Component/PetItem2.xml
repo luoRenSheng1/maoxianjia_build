@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,134" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <loader id="n4_f34j" name="qualityIcon" xy="19,19" size="96,96" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearSize controller="button" pages="0,1" values="96,96,1,1|126,126,1,1"/>
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_f34j" name="icon" xy="30,30" size="74,74" align="center" vAlign="middle" fill="scaleFree">
+      <gearSize controller="button" pages="0" values="74,74,1,1" default="100,100,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n3_f34j" name="n3" xy="0,0" size="134,134" url="ui://lxs2h4iff34jdxy8p" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <component id="n6_n5nh" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="89,13" visible="false">
+      <relation target="n3_f34j" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

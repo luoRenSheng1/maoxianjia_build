@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,59" pivot="0.5,0.5" extention="Button">
+  <controller name="moneyType" pages="0,,1," selected="0">
+    <remark page="0" value="人民币"/>
+    <remark page="1" value="美元"/>
+  </controller>
+  <displayList>
+    <loader id="n1_cy7n" name="icon" xy="0,0" size="135,59" url="ui://5moj1x39ddc13t" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_cy7n" name="moneyLb1" xy="0,8" size="134,43" fontSize="26" color="#846248" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" text="{value=9} 元">
+      <gearDisplay controller="moneyType" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_ju03" name="moneyLb2" xy="0,8" size="134,43" fontSize="26" color="#846248" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" text="$ {value=9}">
+      <gearDisplay controller="moneyType" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.06"/>
+</component>

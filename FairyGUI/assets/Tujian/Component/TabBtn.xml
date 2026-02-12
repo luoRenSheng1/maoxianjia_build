@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,68" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <image id="n0_j2lc" name="n0" src="j2lc9" fileName="Res/9.PNG" xy="0,-12" size="65,80" visible="false">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <image id="n1_j2lc" name="n1" src="j2lc9" fileName="Res/9.PNG" xy="0,5" visible="false" color="#cccccc">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <loader id="n2_j2lc" name="icon" xy="7,11" size="50,50" url="ui://5moj1x39p4bn14" fill="scale"/>
+    <image id="n3_r0wo" name="n3" src="r0wov" fileName="NewRes/nn8.png" xy="67,0" size="4,71"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

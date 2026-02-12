@@ -1,0 +1,561 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	         
+	       
+// 充值购买类型
+enum eRechargePurchaseType
+{
+	eRechargePurchaseType_Diamond	= 1;	// 普通钻石
+	eRechargePurchaseType_Others	= 2;	// 其他活动或道具礼包
+}	
+	 
+
+
+
+//道具购买（非宠物 和 装备，这两个单独购买处理）
+message Buy_Item_CS   //eMsg_Buy_Item_CS = 500;
+{
+	optional uint32 shop_index = 1;  //shop表的滚动id
+}
+
+//道具购买返回
+message Buy_Item_SC    //eMsg_Buy_Item_SC = 501;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfoWithRandBox items = 2;  //本次购买获得 
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+//---所有老虎机返回的  repeated ItemInfo  (客户端根据ItemType自行分类判断---只要是英雄角色，技能，宠物的，服务器端会通过pc端下发，客户端只要做展示表现；如果是碎片或道具，则客户端自行添加到本地内存管理器)
+ //老虎机英雄角色每日首次免费
+message HeroDailyFreeLottery_CS   //eMsg_HeroDailyFreeLottery_CS = 502;
+{
+	
+}
+
+
+//老虎机英雄角色每日首次免费返回
+message HeroDailyFreeLottery_SC    //eMsg_HeroDailyFreeLottery_SC = 503;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional bool used_freeplay = 3;  //是否用掉了每日首次免费
+}
+
+//角色老虎机
+message HeroLottery_CS   //eMsg_HeroLottery_CS = 533; 
+{
+	optional uint32 player_times = 1; //
+}
+
+
+//角色老虎机返回
+message HeroLottery_SC    //eMsg_HeroLottery_SC = 534; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional ItemInfo cost_items = 3; //本次消耗的角色抽奖券
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+}
+
+	        
+	        
+	       
+	      
+	
+//宠物老虎机
+message PetLottery_CS   //eMsg_PetLottery_CS = 535;  
+{
+	optional bool is_by_ad = 1;  //是否通过每日广告免费次数,该字段为true，其他字段不用传数值
+	optional uint32 player_times = 2; //上一个字段为false的话，该字段要设置抽奖的次数
+}
+
+
+//宠物老虎机返回
+message PetLottery_SC    //eMsg_PetLottery_SC = 536;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional PetLottery lottery = 4;  //老虎机最新信息
+	optional int32  free_ad_times = 5; //通过视频剩余的免费次数
+}
+
+	       
+	       
+
+//技能老虎机
+message SkillLottery_CS   //eMsg_SkillLottery_CS = 537;  
+{
+	optional bool is_by_ad = 1;  //是否通过每日广告免费次数,该字段为true，其他字段不用传数值
+	optional uint32 player_times = 2; //上一个字段为false的话，该字段要设置抽奖的次数
+}
+
+
+//技能老虎机返回
+message SkillLottery_SC   //eMsg_SkillLottery_SC = 538;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional SkillLottery lottery = 4;  //老虎机最新信息
+	optional int32  free_ad_times = 5; //通过视频剩余的免费次数
+}
+
+	         
+	      
+	       
+	        
+//引导免费宠物老虎机
+message FreePetLottery4Guide_CS   //eMsg_FreePetLottery4Guide_CS = 555;
+{
+}
+//引导免费宠物老虎机返回
+message FreePetLottery4Guide_SC    //eMsg_FreePetLottery4Guide_SC = 556;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional PetLottery lottery = 4;  //老虎机最新信息
+	optional bool  has_used_free = 5; //是否用掉了引导免费，更新到本地的登录时保存的 enum ePlayerAttrID 
+}
+
+//引导免费技能老虎机
+message FreeSkillLottery4Guide_CS   //eMsg_FreeSkillLottery4Guide_CS = 557;  
+{
+}
+
+//引导免费技能老虎机返回
+message FreeSkillLottery4Guide_SC   //eMsg_FreeSkillLottery4Guide_SC = 558; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated ItemInfo items = 2;  //本次抽奖获得
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional SkillLottery lottery = 4;  //老虎机最新信息
+	optional bool  has_used_free = 5; //是否用掉了引导免费，更新到本地的登录时保存的 enum ePlayerAttrID 
+}
+
+
+
+
+
+//宠物购买
+message Buy_Pet_CS   //eMsg_Buy_Pet_CS = 504; 
+{
+	optional uint32 shop_index = 1;  //shop表的滚动id
+}
+
+//宠物购买返回
+message Buy_Pet_SC    //eMsg_Buy_Pet_SC = 505; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PetInfo pets = 2;  //本次购买获得 
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+//装备购买
+message Buy_Equip_CS   //eMsg_Buy_Equip_CS = 506; 
+{
+	optional uint32 shop_index = 1;  //shop表的滚动id
+}
+
+//装备购买返回
+message Buy_Equip_SC    //eMsg_Buy_Equip_SC = 507; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated EquipInfo equips = 2;  //本次购买获得 
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+
+	        
+	     
+	         
+	        
+//限制礼包购买信息请求
+message LimitGiftPackInfo_CS   //eMsg_LimitGiftPackInfo_CS = 510;
+{
+}
+
+//限制礼包购买信息请求反馈
+message LimitGiftPackInfo_SC    //eMsg_LimitGiftPackInfo_SC = 511; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated LimitPackInfo daily_limit_packs = 2; //已购买每日限制礼包信息--任何gift配置表里日限制购买礼包
+	repeated LimitPackInfo weekly_limit_packs = 3; //已购买每周限制礼包信息--任何gift配置表里按周为单位的限制礼包--单周，双周，四周(具体服务器端维护)，限制结束时间为 expired_time 成员变量
+	repeated LimitPackInfo double_weekly_limit_packs = 4; //双周
+	repeated LimitPackInfo monthly_limit_packs = 5; //月
+}
+
+
+	 
+	
+//充值信息请求---仅限于付费购买钻石
+message RechargeInfo_CS   //eMsg_RechargeInfo_CS = 512;
+{
+}
+
+//充值信息请求反馈
+message RechargeInfo_SC    //eMsg_RechargeInfo_SC = 513; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated int32 recharged_id = 2; //已充值过的id -- paylist.xlsx中的id，表示已拿过首充额外钻石奖励
+}
+
+
+
+	 
+	
+
+//购买礼包请求
+message BuyGiftPack_CS   //eMsg_BuyGiftPack_CS = 522;
+{
+	optional int32 gift_pack_id = 1;  //GiftPackShop.xlsx中的id
+}
+
+//购买礼包反馈   
+message BuyGiftPack_SC    //eMsg_BuyGiftPack_SC = 523; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated LimitPackInfo daily_limit_packs = 2; //已购买每日限制礼包信息
+	repeated LimitPackInfo weekly_limit_packs = 3; //已购买每周限制礼包信息
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox purchased_items = 5; //本次购买成功礼包中的所有道具
+	optional int32 gift_pack_id = 6;  //本次购买的礼包id   GiftPackShop.xlsx中的id
+}
+
+	 
+	
+	 
+	
+	   	 
+
+// 充值状态
+enum eRechargeStatus
+{
+	eRechargeStatus_Handling	= 1;	// 已提交处理中,等第三方回复结果
+	eRechargeStatus_Success	= 2;	// 充值成功
+	eRechargeStatus_Failed	= 3;	// 充值失败
+}	
+	        
+
+//充值请求
+//message Recharge_CS   //eMsg_Recharge_CS = 515;
+//{
+//	optional int32 recharg_id = 1; //充值id -- paylist.xlsx中的id
+//	optional string game_order_id = 2; //游戏产生的订单id， 暂时以  [user_id]+'_'+[recharg_id]+'_'+[时间戳]  例如   98721_1_1728380311
+//	optional string sdk_order_id = 3;  //sdk返回的唯一订单id，没有的话，可以不传
+//}
+
+//充值请求反馈
+//message Recharge_SC   //eMsg_Recharge_SC = 516; 
+//{
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional int32 recharg_id = 2; //充值id
+//	optional eRechargeStatus	recharge_status = 3;// 充值单状态
+//	repeated int32 recharged_id = 4; //已充值过的id -- paylist.xlsx中的id，表示已拿过首充额外钻石奖励
+//	optional Finance finance = 5; //最新账户货币信息,各种货币余额
+//	optional int32 recharg_diamond = 6; //本次购买钻石
+//	optional int32 first_recharge_diamond = 7; //首充额外钻石
+//	repeated ItemInfo purchased_items = 8; //本次购买所有道具
+//	optional string game_order_id = 9; //游戏产生的订单id
+//	optional string sdk_order_id = 10;  //sdk返回的唯一订单id
+//}
+
+
+	
+	
+
+
+
+//充值购买钻石专用第三方返回结果--服务器主动推
+message Recharge_PC   //eMsg_Recharge_PC = 517; 
+{
+	optional int32 recharg_id = 1; //本次通知的充值id  paylist.xlsx中的id
+	optional eRechargeStatus	recharge_status = 2;// 充值单状态
+	repeated int32 recharged_id = 3; //已充值过的id -- paylist.xlsx中的type为购买钻石的 id，表示已拿过首充额外钻石奖励
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional int32 recharg_diamond = 5; //本次购买钻石
+	optional int32 first_recharge_diamond = 6; //首充额外钻石
+	optional ItemInfoWithRandBox purchased_items = 8; //本次购买所有道具
+}
+
+//充值第三方返回结果--通过购买解锁月卡周卡相关活动--monthly.xlsx
+message PurchaseMonthActivity_PC   //eMsg_PurchaseMonthActivity_PC = 1609; 
+{
+	optional int32 recharg_id = 1; //本次通知的充值id  paylist.xlsx中的id
+	optional eRechargeStatus	recharge_status = 2;// 充值单状态
+	optional uint32 activity_id = 3;   //Monthly.xlsx表里面的id
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox purchased_items = 5; //本次购买所有道具
+	repeated BattleAttr purchased_attr = 6; //本次购买所获得的提升属性 -- 只做提示表现，具体会通过属性变更pc包下发
+	optional uint64 end_timestamp = 7;   //如果是月卡周卡之类活动 或 时效性属性(暂时没有)的，该时间表示本次充值购买到的活动时间的结束时间戳  
+	//repeated OtherAttr purchased_other_attr = 8; //本次购买所获得的提升属性 -- 其他属性，详见枚举，主要是各种加成，客户端有用到的话去显示，无用无视
+}
+
+//充值第三方返回结果-以下礼包专用---gift.xlsx  logingift.xlsx
+message Recharge4GiftPack_PC  //eMsg_Recharge4GiftPack_PC = 539; //充值到账--充值成功主动推--gift.xlsx  logingift.xlsx专用
+{
+	optional int32 recharg_id = 1; //本次通知的充值id  paylist.xlsx中的id
+	optional eRechargeStatus	recharge_status = 2;// 充值单状态
+	optional uint32 giftpack_id = 3;   //gift.xlsx   logingift.xlsx表里面的id
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox purchased_items = 5; //本次购买所有道具
+	repeated LimitPackInfo daily_limit_packs = 7; //已购买每日限制礼包信息
+	repeated LimitPackInfo weekly_limit_packs = 8; //已购买每周限制礼包信息
+	repeated LimitPackInfo double_weekly_limit_packs = 9; //双周
+	repeated LimitPackInfo monthly_limit_packs = 10; //月
+
+}
+	 
+	 
+//礼包码兑换请求
+message AwardCode_CS   //eMsg_AwardCode_CS = 524;
+{
+	optional string award_code = 1;  //兑换码
+}
+
+//礼包码兑换反馈 
+message AwardCode_SC    //eMsg_AwardCode_SC = 525;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional string award_code = 2;  //兑换码
+	optional ItemInfoWithRandBox award_items = 3; //兑换获得的道具
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+}
+
+
+
+
+	
+
+//钻石兑换金币请求
+message DiamondExchange4Gold_CS   //eMsg_DiamondExchange4Gold_CS = 526; 
+{
+	optional int64 diamonds = 1;  //兑换提交钻石
+}
+
+//钻石兑换金币反馈
+message DiamondExchange4Gold_SC   //eMsg_DiamondExchange4Gold_SC = 527; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional Finance finance = 2; //最新账户货币信息,各种货币余额
+}
+                
+	
+
+			
+						
+				        
+
+ //钻石兑换卷轴请求
+message DiamondExchange4AccItem_CS   //eMsg_DiamondExchange4AccItem_CS = 528;
+{
+	optional int32 item_counter = 1;  //兑换多少个卷轴
+}
+
+//钻石兑换卷轴反馈	
+message DiamondExchange4AccItem_SC   //eMsg_DiamondExchange4AccItem_SC = 529; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ItemInfo items = 2; //最新账户货币信息,各种货币余额
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+
+
+	
+	
+	
+
+
+//充值游戏订单生成请求
+message ApplyRechargeGameOrder_CS   //eMsg_ApplyRechargeGameOrder_CS = 515; 
+{
+	optional int32 paylist_id = 1;  //paylist.xlsx中的id
+}
+
+//充值游戏订单生成反馈
+message ApplyRechargeGameOrder_SC    //eMsg_ApplyRechargeGameOrder_SC = 516; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional string game_order_no = 2;  //游戏产生的订单id，用于运营与支付方 查对
+	optional int32 paylist_id = 3;  //paylist.xlsx中的id
+}
+
+
+//充值付款成功后告知服务器订单可以入库
+message CommitGameOrder_CS   //eMsg_CommitGameOrder_CS = 530; 
+{
+	optional int32 paylist_id = 1;  //paylist.xlsx中的id
+}
+
+//充值付款成功后告知服务器订单可以入库反馈
+message CommitGameOrder_SC   //eMsg_CommitGameOrder_SC = 531; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional string game_order_no = 2; //入库的订单号
+}
+                  
+
+
+	
+//充值付款成功后告知服务器  ,如果是 礼包次数的话，要下发pc包通知客户端更新次数限制
+message LimitGiftPackInfo_PC   //eMsg_LimitGiftPackInfo_PC = 532; 
+{
+	repeated LimitPackInfo daily_limit_packs = 1; //已购买每日限制礼包信息
+	repeated LimitPackInfo weekly_limit_packs = 2; //已购买每周限制礼包信息
+	repeated LimitPackInfo double_weekly_limit_packs = 3; //双周
+	repeated LimitPackInfo monthly_limit_packs = 4; //月
+}
+
+
+
+
+	
+	
+
+//领取礼包奖励请求
+message ClaimGiftAward_CS   //eMsg_ClaimGiftAward_CS = 540; 
+{
+	optional int32 gift_pack_id = 1;  //Gift.xlsx中的id
+}
+
+//领取礼包奖励反馈  
+message ClaimGiftAward_SC    //eMsg_ClaimGiftAward_SC = 541; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated LimitPackInfo daily_limit_packs = 2; //已购买每日限制礼包信息
+	repeated LimitPackInfo weekly_limit_packs = 3; //已购买每周限制礼包信息
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox claimed_items = 5; //本次领取成功礼包中的所有道具
+	optional int32 gift_pack_id = 6;  //本次领取的礼包id   Gift.xlsx中的id
+	repeated LimitPackInfo double_weekly_limit_packs = 7; //双周
+	repeated LimitPackInfo monthly_limit_packs = 8; //月
+}
+
+
+
+
+
+
+	
+	
+//天天好礼请求
+message DailyAwardOfRechargeInfo_CS   //eMsg_DailyAwardOfRechargeInfo_CS = 542; 
+{
+}
+
+//天天好礼反馈
+message DailyAwardOfRechargeInfo_SC    //eMsg_DailyAwardOfRechargeInfo_SC = 543; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint32 claimed_recharged_daily_award = 2; //已领取天天奖励---按配置表都领取完会重置掉
+	optional uint64 recharge_days_of_dailyaward = 3;  //累计达到天天奖励充值标准的充值天数
+	optional uint64 latest_recharge_timestamp = 4;  //最近一笔达标充值时间
+	optional int32 today_claimed_day_id = 5;  //为0表示今日未领取过，不为0表示今日已领取的最后的id
+	optional int32 waiting_assign_days = 6;  //待分配的充值天数---7日捆版礼包专用
+}
+
+//领取天天好礼奖励请求
+message ClaimDailyAwardOfRechargeAward_CS   //eMsg_ClaimDailyAwardOfRechargeAward_CS = 544; 
+{
+	optional int32 day_id = 1;  //ContinuousSave.xlsx中的id,客户端也要判断必须小于等于  recharge_days_of_dailyaward
+}
+
+//领取天天好礼奖励反馈
+message ClaimDailyAwardOfRechargeAward_SC    //eMsg_ClaimDailyAwardOfRechargeAward_SC = 545; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint32 claimed_recharged_daily_award = 2; //已领取天天奖励---按配置表都领取完会重置掉
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox claimed_items = 4; //本次领取成功礼包中的所有道具
+	optional int32 day_id = 5;  //本次领取的id   ContinuousSave.xlsx中的id
+}
+
+//天天好礼信息变更下发
+message DailyAwardOfRechargeInfo_PC    //eMsg_DailyAwardOfRechargeInfo_PC = 546; 
+{
+	optional uint64 recharge_days_of_dailyaward = 1;  //累计达到天天奖励充值标准的充值天数
+	optional uint64 latest_recharge_timestamp = 2;  //最近一笔达标充值时间
+	optional int32 waiting_assign_days = 3;  //待分配的充值天数---7日捆版礼包专用
+}
+
+	
+//疯狂指南信息请求
+message StageGuideAwardInfo_CS   //eMsg_StageGuideAwardInfo_CS = 547; 
+{
+
+}
+
+//疯狂指南信息反馈
+message StageGuideAwardInfo_SC   //eMsg_StageGuideAwardInfo_SC = 548; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint32 purchased_chapter = 2; //已购买到账关卡引导礼包对应的章节id -- guidereward.xlsx
+	repeated uint32 claimed_stage_award = 4;  //已领取的关卡引导礼包的关卡id
+}	
+
+//疯狂指南信息变更下发
+message StageGuideAwardInfo_PC   //eMsg_StageGuideAwardInfo_PC = 549; 
+{
+	repeated uint32 purchased_chapter = 1; //已购买到账关卡引导礼包对应的章节id -- guidereward.xlsx
+	repeated uint32 claimed_stage_award = 2;  //已领取的关卡引导礼包的关卡id
+}	
+
+//充值第三方返回结果--//疯狂充值到账下发
+message RechargeStageGuideAward_PC  //eMsg_RechargeStageGuideAward_PC = 550; 
+{
+	optional int32 recharg_id = 1; //本次通知的充值id  paylist.xlsx中的id
+	optional eRechargeStatus	recharge_status = 2;// 充值单状态
+	optional uint32 chapter_id = 3;   //guidereward.xlsx表里面的章节 id
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox purchased_items = 5; //本次购买所有道具
+	repeated uint32 purchased_chapter_in_recharging = 6; //已购买未到账（如有需要，玩家点按钮要弹出已购买等待到账提示）关卡引导礼包对应的章节id -- guidereward.xlsx
+	repeated uint32 purchased_chapter = 7; //已购买到账关卡引导礼包对应的章节id -- guidereward.xlsx
+}
+
+
+//领取疯狂指南奖励请求
+message ClaimStageGuideAward_CS   //eMsg_ClaimStageGuideAward_CS = 551; 
+{
+	optional int32 stage_id = 1;  //guidereward.xlsx表中的Levelid
+}
+
+//领取疯狂指南奖励反馈
+message ClaimStageGuideAward_SC    //eMsg_ClaimStageGuideAward_SC = 552;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint32 claimed_stage_award = 3;  //已领取的关卡引导礼包的关卡id
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox claimed_items = 5; //本次领取成功礼包中的所有道具
+	optional int32 stage_id = 6;  //本次领取的stage_id  
+}
+
+
+	
+	
+	
+	
+//领取商城免费请求
+message ClaimMallFreeAward_CS   //eMsg_ClaimMallFreeAward_CS = 553; 
+{
+	optional ePlayerAttrID mall_func = 1;  //商城功能区分
+}
+
+//领取商城免费反馈
+message ClaimMallFreeAward_SC    //eMsg_ClaimMallFreeAward_SC = 554; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional ePlayerAttrID mall_func = 2;  //商城功能区分
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	optional ItemInfoWithRandBox claimed_items = 4; //本次领取成功礼包中的所有道具
+}
+
+
+

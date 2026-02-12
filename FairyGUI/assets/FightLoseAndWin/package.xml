@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h7b921iw">
+  <resources>
+    <component id="q38ddxy23" name="FightLoseWindow.xml" path="/" exported="true"/>
+    <image id="vcwq0" name="n1.png" path="/Res/"/>
+    <image id="vcwq1" name="n2.png" path="/Res/"/>
+    <image id="vcwq2" name="n4.png" path="/Res/"/>
+    <image id="vcwq3" name="b3.png" path="/Res/"/>
+    <component id="vcwq4" name="FailItem.xml" path="/Component/"/>
+    <component id="j3d5dxy2a" name="FightWinWindow.xml" path="/" exported="true"/>
+    <image id="vcwq5" name="sb.png" path="/Res/"/>
+    <misc id="wg7fdxy2g" name="FightLoseAndWin_win.atlas" path="/Res/"/>
+    <image id="wg7fdxy2h" name="FightLoseAndWin_win.png" path="/Res/"/>
+    <spine id="wg7fdxy2f" name="FightLoseAndWin_win.skel" path="/Res/" width="495" height="429" require="wg7fdxy2g,wg7fdxy2h" atlasNames="FightLoseAndWin_win" anchor="251,218"/>
+    <image id="ryjndxy2i" name="n3.png" path="/Res/"/>
+    <image id="r2padxy2j" name="b1.png" path="/Res/"/>
+    <image id="ucd4dxy2k" name="首页-战斗失败.png" path="/Res/new/"/>
+    <image id="ucd4dxy2l" name="首页-战斗胜利.png" path="/Res/new/"/>
+    <image id="ucd4dxy2m" name="battle_fail_img11.png" path="/Res/new/" exported="true"/>
+    <image id="ucd4dxy2n" name="battle_victory_img11.png" path="/Res/new/" exported="true"/>
+    <image id="ucd4dxy2o" name="battle_fail_btn1.png" path="/Res/new/"/>
+    <image id="ucd4dxy2p" name="battle_fail_bg1.png" path="/Res/new/" scale="9grid" scale9grid="26,26,52,52"/>
+  </resources>
+  <publish name="FightLoseAndWin" genCode="true"/>
+</packageDescription>

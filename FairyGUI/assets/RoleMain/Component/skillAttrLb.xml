@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,34" extention="Label">
+  <displayList>
+    <text id="n0_a2kw" name="pContent" xy="0,0" size="184,34" fontSize="24" color="#ffffff" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="{name=技能伤害}：[color=#B8DF13]{value=20}%[/color]"/>
+  </displayList>
+</component>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3ketdju59" designImageAlpha="60">
+  <controller name="resetBtnStatus" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <displayList>
+    <component id="n20_jiq9" name="frame" src="s2xhdxy7a" fileName="Component/Common/FrameMask_1.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n18_tdju" name="currency" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="49,14">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Label icon="ui://pdufy3kec2niid3"/>
+    </component>
+    <component id="n19_tdju" name="huntingShopBtn" src="tdju5l" fileName="Component/HuntingShopBtn.xml" xy="544,24">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n9_f34j" name="n9" xy="16,240" size="688,719" group="n8_p9n0" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <loader id="n11_mqvf" name="n11" xy="24,387" size="672,396" group="n8_p9n0" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="n9_f34j" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n14_tdju" name="n14" xy="262,338" size="196,34" group="n8_p9n0" fontSize="24" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="只能选择一个任务">
+      <relation target="n9_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n12_mqvf" name="n12" src="f34jdxybk" fileName="Res/newItem2/general_module_img1.png" pkg="5moj1x39" xy="41,216" group="n8_p9n0">
+      <relation target="n9_f34j" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n13_mqvf" name="n13" src="f34jdxybk" fileName="Res/newItem2/general_module_img1.png" pkg="5moj1x39" xy="637,216" group="n8_p9n0">
+      <relation target="n9_f34j" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n10_f34j" name="n10" src="f34jdxya1" fileName="Res/newItem2/general_title_bg2.png" pkg="5moj1x39" xy="109,212" group="n8_p9n0">
+      <relation target="n9_f34j" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n3_p9n0" name="name" xy="294,228" size="132,44" group="n8_p9n0" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="狩猎任务">
+      <relation target="n10_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n5_p9n0" name="list" xy="40,404" size="640,369" group="n8_p9n0" overflow="scroll" lineGap="10" defaultItem="ui://pdufy3kep9n015" align="center">
+      <relation target="n9_f34j" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_tdju" name="costItem" src="tdju5k" fileName="Component/CostItemCom.xml" xy="294,800" group="n8_p9n0">
+      <relation target="n9_f34j" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n15_tdju" name="resetTaskBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,844" size="218,84" group="n8_p9n0">
+      <gearLook controller="resetBtnStatus" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n9_f34j" sidePair="center-center,bottom-bottom"/>
+      <Button title="刷新任务" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n7_p9n0" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,984" size="84,84" group="n8_p9n0">
+      <relation target="n9_f34j" sidePair="bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n8_p9n0" name="n8" xy="16,212" size="688,856" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

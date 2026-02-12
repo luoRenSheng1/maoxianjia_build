@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jbbd3ox4">
+  <resources>
+    <component id="ctxhdxy34" name="OfflineReward.xml" path="/" exported="true"/>
+    <component id="ng623" name="OfflineGetReward.xml" path="/" exported="true"/>
+    <image id="ng624" name="n3.png" path="/Res/"/>
+    <image id="ng627" name="n1.png" path="/Res/"/>
+    <image id="ng628" name="n2.png" path="/Res/"/>
+  </resources>
+  <publish name="Offline" genCode="true"/>
+</packageDescription>

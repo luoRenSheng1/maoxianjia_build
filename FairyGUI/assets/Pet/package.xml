@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lxs2h4if">
+  <resources>
+    <component id="s4440" name="PetSystem.xml" path="/" exported="true"/>
+    <component id="s444c" name="PetSystemDetail.xml" path="/" exported="true"/>
+    <component id="s444d" name="PetSystemBattle.xml" path="/" exported="true"/>
+    <component id="s444e" name="PetSystemTalent.xml" path="/" exported="true"/>
+    <component id="s444f" name="PetSystemBook.xml" path="/" exported="true"/>
+    <image id="s444k" name="pet_btn1 .png" path="/Res/"/>
+    <image id="s444l" name="pet_icon1.png" path="/Res/"/>
+    <image id="s444m" name="pet_icon2.png" path="/Res/"/>
+    <image id="s444n" name="pet_img1.png" path="/Res/" scale="9grid" scale9grid="180,147,360,35"/>
+    <image id="s444o" name="pet_name_bg1.png" path="/Res/"/>
+    <component id="oo1wp" name="PetUpLoadItem.xml" path="/Component/" exported="true"/>
+    <image id="oo1wq" name="nn6.png" path="/Component/newPetsystem/"/>
+    <image id="oo1wt" name="1.png" path="/Component/newPetsystem/"/>
+    <component id="k6272k" name="PetDetail.xml" path="/" exported="true"/>
+    <component id="k6272y" name="PetStrength.xml" path="/" exported="true"/>
+    <component id="ncnadxy76" name="PetStrengList.xml" path="/Component/"/>
+    <component id="k6272z" name="PetStrengthItem.xml" path="/Component/"/>
+    <component id="hz5cdxy77" name="Type.xml" path="/Component/"/>
+    <component id="hz5cdxy78" name="PetSkillBtn.xml" path="/Component/"/>
+    <component id="hz5cdxy79" name="PetTalentItem.xml" path="/Component/"/>
+    <component id="hz5cdxy7a" name="PetBookItem.xml" path="/Component/"/>
+    <component id="hz5cdxy7c" name="PetItem.xml" path="/Component/"/>
+    <component id="hz5cdxy7d" name="PetQualityLb.xml" path="/Component/"/>
+    <image id="hz5cdxy7e" name="pet_Selected_img.png" path="/Res/" scale9grid="33,33,66,66"/>
+    <component id="hz5cdxy7f" name="PetSkillTips.xml" path="/Component/" exported="true"/>
+    <component id="hz5cdxy7g" name="PetRecycle.xml" path="/" exported="true"/>
+    <component id="hz5cdxy7i" name="InheritReItem.xml" path="/Component/Component/"/>
+    <component id="hz5cdxy7s" name="TalentItem.xml" path="/Component/"/>
+    <image id="f34jdxy8o" name="pet_btn2.png" path="/Res/new/"/>
+    <image id="f34jdxy8p" name="pet_Selected_img1.png" path="/Res/new/" scale9grid="25,28,55,50"/>
+    <image id="f34jdxy8r" name="pet_btn1.png" path="/Res/new/"/>
+    <image id="f34jdxy8s" name="宠物-宠物书-一键回收.png" path="/Res/new/"/>
+    <image id="f34jdxy8t" name="宠物-上阵.png" path="/Res/new/"/>
+    <image id="f34jdxy8u" name="宠物-上阵-宠物详情1.png" path="/Res/new/"/>
+    <image id="f34jdxy8v" name="宠物-上阵-宠物详情2.png" path="/Res/new/"/>
+    <image id="f34jdxy8w" name="宠物-上阵-一键回收.png" path="/Res/new/"/>
+    <image id="f34jdxy8x" name="宠物-天赋.png" path="/Res/new/"/>
+    <image id="f34jdxy8y" name="宠物-详情.png" path="/Res/new/"/>
+    <image id="f34jdxy8z" name="宠物-详情-技能详情.png" path="/Res/new/"/>
+    <image id="f34jdxy90" name="宠物-帮助.png" path="/Res/new/"/>
+    <image id="f34jdxy91" name="宠物-宠物书.png" path="/Res/new/"/>
+    <image id="f34jdxy93" name="pet_bg02.png" path="/Res/new/"/>
+    <image id="f34jdxy94" name="pet_bg03.png" path="/Res/new/"/>
+    <image id="f34jdxy95" name="pet_bg04.png" path="/Res/new/"/>
+    <image id="f34jdxy96" name="pet_bg05.png" path="/Res/new/"/>
+    <image id="f34jdxy97" name="pet_bg06.png" path="/Res/new/"/>
+    <image id="f34jdxy98" name="pet_bg07.png" path="/Res/new/"/>
+    <image id="f34jdxy99" name="pet_bg01.png" path="/Res/new/"/>
+    <image id="f34jdxy9a" name="pet_bg3.png" path="/Res/new/" scale="9grid" scale9grid="9,54,124,45"/>
+    <component id="f34jdxy9b" name="PetItem2.xml" path="/Component/"/>
+    <image id="klzxdxy9c" name="pet_bg41.png" path="/Res/new/"/>
+    <image id="ucd4dxy9d" name="home_btn21.png" path="/Res/new/"/>
+    <image id="ucd4dxy9u" name="Pet_cwds_2.png" path="/Res/spine2/"/>
+    <image id="ucd4dxy9v" name="Pet_cwds.png" path="/Res/spine2/"/>
+    <misc id="ucd4dxy9x" name="Pet_cwds.atlas.txt" path="/Res/spine2/"/>
+    <image id="ucd4dxy9y" name="Pet_cwds(1).png" path="/Res/spine2/"/>
+    <image id="ucd4dxy9z" name="Pet_cwds_2(1).png" path="/Res/spine2/"/>
+    <spine id="ucd4dxy9w" name="Pet_cwds.skel" path="/Res/spine2/" width="100" height="100" require="ucd4dxy9x,ucd4dxy9y,ucd4dxy9z" atlasNames="Pet_cwds,Pet_cwds_2" anchor="100,100"/>
+    <image id="ucd4dxya0" name="Pet_banner_2.png" path="/Res/spine3/"/>
+    <image id="ucd4dxya1" name="Pet_banner.png" path="/Res/spine3/"/>
+    <misc id="ucd4dxya3" name="Pet_banner.atlas.txt" path="/Res/spine3/"/>
+    <image id="ucd4dxya4" name="Pet_banner(1).png" path="/Res/spine3/"/>
+    <image id="ucd4dxya5" name="Pet_banner_2(1).png" path="/Res/spine3/"/>
+    <spine id="ucd4dxya2" name="Pet_banner.skel" path="/Res/spine3/" width="682" height="162" require="ucd4dxya3,ucd4dxya1,ucd4dxya0" atlasNames="Pet_banner,Pet_banner_2" anchor="341,81"/>
+    <image id="ucd4dxya6" name="Pet_cwxl_2.png" path="/Res/spine/"/>
+    <image id="ucd4dxya7" name="Pet_cwxl.png" path="/Res/spine/"/>
+    <misc id="ucd4dxya9" name="Pet_cwxl.atlas.txt" path="/Res/spine/"/>
+    <image id="ucd4dxyaa" name="Pet_cwxl(1).png" path="/Res/spine/"/>
+    <image id="ucd4dxyab" name="Pet_cwxl_2(1).png" path="/Res/spine/"/>
+    <spine id="ucd4dxya8" name="Pet_cwxl.skel" path="/Res/spine/" width="100" height="100" require="ucd4dxya9,ucd4dxyaa,ucd4dxyab" atlasNames="Pet_cwxl,Pet_cwxl_2" anchor="100,100"/>
+    <misc id="ucd4dxybq" name="Pet_cwxq.atlas.txt" path="/Res/spine4/"/>
+    <image id="ucd4dxybr" name="Pet_cwxq.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybs" name="Pet_cwxq_2.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybt" name="Pet_cwxq_3.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybu" name="Pet_cwxq_4.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybv" name="Pet_cwxq_5.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybw" name="Pet_cwxq_6.png" path="/Res/spine4/"/>
+    <image id="ucd4dxybx" name="Pet_cwxq_7.png" path="/Res/spine4/"/>
+    <spine id="ucd4dxyby" name="Pet_cwxq.skel" path="/Res/spine4/" width="720" height="360" require="ucd4dxybq,ucd4dxybr,ucd4dxybs,ucd4dxybt,ucd4dxybu,ucd4dxybv,ucd4dxybw,ucd4dxybx" atlasNames="Pet_cwxq,Pet_cwxq_2,Pet_cwxq_3,Pet_cwxq_4,Pet_cwxq_5,Pet_cwxq_6,Pet_cwxq_7" anchor="360,360"/>
+    <image id="ucd4dxybz" name="宠物-宠物书-空置界面.png" path="/Res/new/"/>
+    <image id="ucd4dxyc0" name="Blank1.png" path="/Res/new/"/>
+    <image id="ucd4dxyc1" name="Blank2.png" path="/Res/new/"/>
+    <image id="ucd4dxyc2" name="宠物-上阵-空置界面.png" path="/Res/new/"/>
+    <image id="ucd4dxyc3" name="宠物-天赋-空置界面.png" path="/Res/new/"/>
+    <component id="llb1dxyc4" name="makeBtnAni.xml" path="/Component/"/>
+    <component id="llb1dxyc6" name="MakeBtn.xml" path="/Component/"/>
+    <component id="llb1dxyc7" name="RecyclePetBtn.xml" path="/Component/"/>
+    <image id="llb1dxyc8" name="宠物-上阵-宠物详情2(1).png" path="/Res/new/"/>
+  </resources>
+  <publish name="Pet" genCode="true"/>
+</packageDescription>

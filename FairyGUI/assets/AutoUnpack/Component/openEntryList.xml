@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,418">
+  <displayList>
+    <image id="n0_x3dk" name="n0" src="x3dk2x" fileName="Res/6.png" xy="0,0" size="220,418">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_x3dk" name="list" xy="0,0" size="220,418" overflow="scroll" scrollBarFlags="128" lineGap="2" defaultItem="ui://rr0734r5mmjj2c">
+      <relation target="" sidePair="width-width"/>
+      <item title="任意"/>
+      <item title="生命加成"/>
+      <item title="攻击加成"/>
+      <item title="暴击"/>
+      <item title="爆伤"/>
+      <item title="Boss伤害加成"/>
+      <item title="小怪伤害加成"/>
+      <item title="减伤"/>
+      <item title="吸血"/>
+      <item title="技能伤害"/>
+      <item title="技能次数加成"/>
+      <item title="技能次数"/>
+      <item title="金币加成"/>
+      <item title="技能冷却"/>
+      <item title="攻速"/>
+      <item title="连击"/>
+      <item title="反击"/>
+    </list>
+  </displayList>
+  <relation target="n1_x3dk" sidePair="height-height"/>
+</component>

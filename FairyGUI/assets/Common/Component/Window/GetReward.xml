@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n9_umzk" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n16_xjh0" name="img" xy="223,197" size="274,77" group="n6_x3dk" visible="false"/>
+    <image id="n22_f34j" name="n22" src="f34jdxya0" fileName="Res/newItem2/general_title_bg12.png" pkg="5moj1x39" xy="57,245" group="n21_kqmi"/>
+    <text id="n20_kqmi" name="name" xy="326,261" size="68,44" group="n21_kqmi" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="奖励">
+      <relation target="n22_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n21_kqmi" name="title" xy="57,245" size="606,96" group="n6_x3dk" advanced="true"/>
+    <component id="n13_umzk" name="rewardList" src="umzkdxy7b" fileName="Component/Window/ItemList.xml" xy="37,361" size="646,600" group="n6_x3dk"/>
+    <component id="n23_ucd4" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="251,1039" size="218,84" group="n6_x3dk">
+      <Button title="确认" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <image id="n15_r18s" name="wb" src="r18sdxy7i" fileName="Res/getSpine/g2.png" xy="223,197" group="n24_om2e"/>
+    <loader3D id="n11_umzk" name="gxhdSpine" xy="-479,-116" size="1219,687" group="n24_om2e" touchable="false" url="ui://0anhreyli8evdxy72" animation="Chuxian" skin=""/>
+    <group id="n24_om2e" name="titaction" xy="-479,-116" size="1219,687" group="n6_x3dk" visible="false" advanced="true"/>
+    <group id="n6_x3dk" name="n6" xy="-479,-116" size="1219,1239" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="shake">
+    <item time="0" type="XY" target="n6_x3dk" tween="true" startValue="-479,-264" endValue="-457,-249" duration="3"/>
+    <item time="3" type="XY" target="n6_x3dk" tween="true" startValue="-457,-249" endValue="-474,-269" duration="3"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Visible" target="n16_xjh0" value="false"/>
+    <item time="7" type="Visible" target="n16_xjh0" value="true"/>
+  </transition>
+</component>

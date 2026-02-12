@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" opaque="false">
+  <displayList>
+    <richtext id="n1_ou44" name="textNumber" xy="0,0" pivot="0.5,0.5" anchor="true" size="119,28" scale="1.2,1.2" touchable="false" font="ui://0anhreylkbxrdxxw7" fontSize="6" color="#ffffff" align="center" vAlign="bottom" ubb="true" strokeColor="#000000" autoClearText="true" text="-99.1K">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <text id="n4_rrqk" name="tip" xy="0,433" pivot="0.5,0.5" anchor="true" size="42,28" fontSize="19" color="#ffffff" align="right" ubb="true" strokeColor="#000000" autoClearText="true" text="暴击">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n1_ou44" sidePair="bottom-top"/>
+    </text>
+  </displayList>
+  <transition name="nomral">
+    <item time="0" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="1" duration="18"/>
+    <item time="0" type="Alpha" target="n4_rrqk" tween="true" startValue="1" endValue="1" duration="9"/>
+    <item time="0" type="Scale" target="n1_ou44" tween="true" startValue="1,1" endValue="1.5,1.5" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3525,0.655,0.95,1,0,1,1"/>
+    <item time="0" type="Scale" target="n4_rrqk" tween="true" startValue="1,1" endValue="1.5,1.5" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3525,0.655,0.95,1,0,1,1"/>
+    <item time="0" type="XY" target="n1_ou44" label="begin" tween="true" startValue="0,0" endValue="0,0" duration="6" ease="Custom" customEase="2,0,0,0.05,0.3525,0.6475,0.945,1,0,1,1"/>
+    <item time="2" type="Scale" target="n1_ou44" tween="true" startValue="1.5,1.5" endValue="1,1" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3475,0.655,0.9475,1,0,1,1"/>
+    <item time="2" type="Scale" target="n4_rrqk" tween="true" startValue="1.5,1.5" endValue="1,1" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3475,0.655,0.9475,1,0,1,1"/>
+    <item time="6" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,-66" duration="12" label2="end"/>
+    <item time="9" type="Alpha" target="n4_rrqk" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+  </transition>
+  <transition name="baoji">
+    <item time="0" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="1" duration="18"/>
+    <item time="0" type="Alpha" target="n4_rrqk" tween="true" startValue="1" endValue="1" duration="12"/>
+    <item time="0" type="Color" target="n1_ou44" tween="true" startValue="#ffffff" endValue="#ffa600" duration="2"/>
+    <item time="0" type="Color" target="n4_rrqk" tween="true" startValue="#ffffff" endValue="#ffa600" duration="2"/>
+    <item time="0" type="Scale" target="n1_ou44" tween="true" startValue="1,1" endValue="5,5" duration="2" ease="Custom" customEase="2,0,0,0.0475,0.3525,0.65,0.9525,1,0,1,1"/>
+    <item time="0" type="Scale" target="n4_rrqk" tween="true" startValue="1,1" endValue="5,5" duration="2" ease="Custom" customEase="2,0,0,0.0475,0.3525,0.65,0.9525,1,0,1,1"/>
+    <item time="0" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,0" duration="4"/>
+    <item time="2" type="Color" target="n1_ou44" tween="true" startValue="#ffa600" endValue="#e12727" duration="2"/>
+    <item time="2" type="Color" target="n4_rrqk" tween="true" startValue="#ffa600" endValue="#e12727" duration="2"/>
+    <item time="2" type="Scale" target="n1_ou44" tween="true" startValue="5,5" endValue="1.2,1.2" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3475,0.6475,0.9525,1,0,1,1"/>
+    <item time="2" type="Scale" target="n4_rrqk" tween="true" startValue="5,5" endValue="1.2,1.2" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3475,0.6475,0.9525,1,0,1,1"/>
+    <item time="4" type="Color" target="n1_ou44" tween="true" startValue="#e12727" endValue="#ffa600" duration="1"/>
+    <item time="4" type="Color" target="n4_rrqk" tween="true" startValue="#e12727" endValue="#ffa600" duration="1"/>
+    <item time="4" type="Scale" target="n1_ou44" tween="true" startValue="1.2,1.2" endValue="1.4,1.4" duration="1" ease="Custom" customEase="2,0,0,0.0425,0.3575,0.65,0.95,1,0,1,1"/>
+    <item time="4" type="Scale" target="n4_rrqk" tween="true" startValue="1.2,1.2" endValue="1.4,1.4" duration="1" ease="Custom" customEase="2,0,0,0.0425,0.3575,0.65,0.95,1,0,1,1"/>
+    <item time="4" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,0" duration="8"/>
+    <item time="5" type="Scale" target="n1_ou44" tween="true" startValue="1.4,1.4" endValue="1,1" duration="1" ease="Custom" customEase="2,0,0,0.045,0.3525,0.6525,0.955,1,0,1,1"/>
+    <item time="5" type="Scale" target="n4_rrqk" tween="true" startValue="1.4,1.4" endValue="1,1" duration="1" ease="Custom" customEase="2,0,0,0.045,0.3525,0.6525,0.955,1,0,1,1"/>
+    <item time="6" type="Color" target="n1_ou44" value="#e12727"/>
+    <item time="6" type="Color" target="n4_rrqk" value="#e12727"/>
+    <item time="12" type="Alpha" target="n4_rrqk" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="12" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,-60" duration="6" ease="Custom" customEase="2,0,0,0.0525,0.3525,0.65,0.9475,1,0,1,1"/>
+    <item time="18" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+  <transition name="buff">
+    <item time="0" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="1" duration="9"/>
+    <item time="0" type="Scale" target="n1_ou44" tween="true" startValue="2,2" endValue="1,1" duration="2"/>
+    <item time="0" type="XY" target="n1_ou44" value="0,0"/>
+    <item time="0" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,0" duration="2"/>
+    <item time="2" type="Scale" target="n1_ou44" tween="true" startValue="1,1" endValue="1,1" duration="2"/>
+    <item time="2" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,-59" duration="7"/>
+    <item time="9" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="9" type="XY" target="n1_ou44" tween="true" startValue="0,-59" endValue="0,0" duration="6" ease="Custom" customEase="2,0,0,0.0475,0.3475,0.65,0.95,1,0,1,1"/>
+  </transition>
+  <transition name="skill">
+    <item time="0" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="1" duration="16"/>
+    <item time="0" type="Scale" target="n1_ou44" tween="true" startValue="0,0" endValue="1.2,1.2" duration="1"/>
+    <item time="0" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,0" duration="10"/>
+    <item time="1" type="Scale" target="n1_ou44" tween="true" startValue="1.2,1.2" endValue="1,1" duration="1"/>
+    <item time="10" type="XY" target="n1_ou44" tween="true" startValue="0,0" endValue="0,-80" duration="8" ease="Custom" customEase="2,0,0,0.0475,0.3475,0.65,0.95,1,0,1,1"/>
+    <item time="16" type="Alpha" target="n1_ou44" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="ctrl" pages="0,,3,,1," selected="0">
+    <remark page="0" value="卸下"/>
+    <remark page="1" value="装备"/>
+    <remark page="2" value="替换"/>
+  </controller>
+  <controller name="isTips" pages="0,,1," selected="0">
+    <remark page="0" value="不是tips"/>
+    <remark page="1" value="是tips"/>
+  </controller>
+  <displayList>
+    <component id="n27_k627" name="n27" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_k627" name="n0" xy="45,355" size="629,473" group="n2_k627" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n1_k627" name="n1" xy="45,302" size="629,88" group="n2_k627" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <component id="n3_k627" name="runeItem" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="69,406" group="n2_k627" scale="1.2,1.2" controller="hasCount,1"/>
+    <text id="n6_k627" name="runeName" xy="174,409" size="94,42" group="n2_k627" fontSize="30" color="#663e20" bold="true" text="幻影猫"/>
+    <image id="n12_k627" name="n12" src="ozj92" fileName="Res/bagnzhu-di.png" xy="77,536" size="566,123" group="n21_k627"/>
+    <text id="n14_k627" name="skillDesc" xy="110,552" size="514,88" group="n21_k627" fontSize="25" color="#663e20" vars="true" autoSize="none" text="【{skillName=雷霆万钧}】伤害次数增加{value=99}次"/>
+    <group id="n21_k627" name="n21" xy="77,536" size="566,123" group="n2_k627"/>
+    <component id="n18_k627" name="downBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="394,695" size="169,82" group="n2_k627">
+      <gearDisplay controller="isTips" pages="0"/>
+      <Button title="卸下" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <component id="n23_k627" name="replaceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="394,695" size="169,82" group="n2_k627">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <gearDisplay2 controller="isTips" pages="0" condition="0"/>
+      <Button title="替换" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <component id="n28_k627" name="uploadBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="394,695" size="169,82" group="n2_k627">
+      <gearDisplay controller="ctrl" pages="3"/>
+      <gearDisplay2 controller="isTips" pages="0" condition="0"/>
+      <Button title="装备" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <component id="n24_k627" name="RecycleBtn" src="ph24dxy6z" fileName="Component/RecycleBtn.xml" xy="170,694" size="168,82" group="n2_k627" touchable="false" grayed="true">
+      <gearDisplay controller="isTips" pages="0"/>
+      <gearLook controller="ctrl" pages="0" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="回收" titleColor="#846248" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <text id="n25_k627" name="n25" xy="293,312" size="134,42" group="n2_k627" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1c8887" text="符石详情">
+      <relation target="n1_k627" sidePair="center-center"/>
+    </text>
+    <component id="n26_k627" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,881" group="n2_k627"/>
+    <group id="n2_k627" name="n2" xy="45,302" size="629,673" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

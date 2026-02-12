@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="646,730" overflow="hidden" mask="n1_s503">
+  <displayList>
+    <list id="n0_s503" name="itemList" xy="0,0" size="430,485" scale="1.5,1.5" layout="flow_hz" overflow="scroll" lineGap="20" colGap="8" defaultItem="ui://5moj1x39ewjfdxy22" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n1_s503" name="n1" xy="0,0" size="646,730" touchable="false" type="rect"/>
+  </displayList>
+</component>

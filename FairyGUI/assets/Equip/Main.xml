@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="uiType" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_un3j" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n2_un3j" name="uiEquipObtain" src="hdtee" fileName="UI/NewEquipObtain.xml" xy="0,0">
+      <gearDisplay controller="uiType" pages="0"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </component>
+    <component id="n1_un3j" name="uiEquipRecommand" src="skp6q" fileName="UI/NewEquipRecommend.xml" xy="0,0">
+      <gearDisplay controller="uiType" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </component>
+  </displayList>
+</component>

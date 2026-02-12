@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="142,55" extention="Button">
+  <displayList>
+    <loader id="n0_vnmw" name="n0" xy="0,0" size="57,55" url="ui://5moj1x39sc7h2" fill="scaleMatchHeight"/>
+    <text id="n1_vnmw" name="title" xy="57,1" size="76,53" font="ui://0anhreylisqldxy3f" fontSize="12" color="#ffffff" text="20"/>
+    <component id="n2_qonn" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" xy="108,1" visible="false"/>
+  </displayList>
+  <Button/>
+  <relation target="n1_vnmw" sidePair="width-width"/>
+</component>

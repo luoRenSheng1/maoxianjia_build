@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="526,92" pivot="0.5,0.5" opaque="false" extention="Button" designImage="ui://s7x7ku0ni9sldxy0o" designImageAlpha="0">
+  <displayList>
+    <component id="n113_rx0x" name="headIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="1,1"/>
+    <text id="n114_rx0x" name="txtName" xy="103,10" size="149,32" visible="false" fontSize="22" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="shrink" bold="true" strokeColor="#3b3630" autoClearText="true" text="疯狂的熊猫娃哈哈"/>
+    <component id="n123_w02n" name="comCurrency" src="btyu3f" fileName="Component/Common/ComCurrency.xml" pkg="0anhreyl" xy="107,9">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

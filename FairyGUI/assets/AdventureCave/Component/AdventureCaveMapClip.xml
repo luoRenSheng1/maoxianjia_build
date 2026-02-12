@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" overflow="hidden">
+  <displayList>
+    <component id="n43_koot" name="panel" src="rjj26" fileName="Component/AdventureCaveMap.xml" xy="0,0" size="720,1153">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://v1wfpt3lucd42o" designImageAlpha="0" designImageLayer="1">
+  <controller name="type" pages="0,,1,,2," selected="0">
+    <remark page="2" value="最大"/>
+  </controller>
+  <controller name="treasureProType" pages="0,,1," selected="0">
+    <remark page="0" value="购买进度"/>
+    <remark page="1" value="已购买完进度"/>
+  </controller>
+  <displayList>
+    <loader id="n55_f34j" name="n55" xy="16,85" size="688,1000" group="n41_uobv" url="ui://5moj1x39f34jdxy9y" fill="scaleFree">
+      <gearSize controller="type" pages="1,2" values="688,1019,1,1|688,871,1,1" default="688,1000,1,1"/>
+    </loader>
+    <text id="n10_i9sl" name="n10" xy="239,100" size="242,44" group="n41_uobv" fontSize="32" color="#ffffff" align="center" vAlign="middle" letterSpacing="3" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="3" singleLine="true" text="矿镐升级">
+      <relation target="n55_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n57_f34j" name="btnCurrency" src="f34jdxy9l" fileName="Component/Common/CurrencyAdd.xml" pkg="0anhreyl" xy="229,197" group="n41_uobv">
+      <relation target="n55_f34j" sidePair="center-center,top-top"/>
+    </component>
+    <loader id="n58_f34j" name="n58" xy="40,294" size="640,64" group="n65_f34j" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n59_f34j" name="n59" src="f34jdxybv" fileName="Res/newItem2/ordinary_icon3.png" pkg="5moj1x39" xy="344,309" group="n65_f34j">
+      <relation target="n58_f34j" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n60_f34j" name="n60" xy="109,307" size="108,34" group="n65_f34j" fontSize="24" color="#4c2911" bold="true" text="当前等级:">
+      <relation target="n58_f34j" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n17_i9sl" name="txtCurrLv" xy="218,307" size="43,34" group="n65_f34j" fontSize="24" color="#ffffff" letterSpacing="2" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="{value=1}级">
+      <relation target="n60_f34j" sidePair="left-right"/>
+      <relation target="n58_f34j" sidePair="middle-middle"/>
+    </text>
+    <text id="n61_f34j" name="n61" xy="444,307" size="108,34" group="n65_f34j" fontSize="24" color="#4c2911" bold="true" text="下一等级:">
+      <relation target="n58_f34j" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n18_i9sl" name="txtNextLv" xy="553,307" size="58,34" group="n65_f34j" fontSize="24" color="#b8df13" letterSpacing="2" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="{value=30}级">
+      <relation target="n61_f34j" sidePair="left-right"/>
+      <relation target="n58_f34j" sidePair="middle-middle"/>
+    </text>
+    <group id="n65_f34j" name="n65" xy="40,294" size="640,64" group="n41_uobv" advanced="true">
+      <relation target="n55_f34j" sidePair="center-center,top-top"/>
+    </group>
+    <image id="n64_f34j" name="n64" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="40,373" size="640,16" group="n41_uobv">
+      <relation target="n65_f34j" sidePair="top-top"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <loader id="n62_f34j" name="n62" xy="40,829" size="640,116" group="n29_i9sl" url="ui://5moj1x39f34jdxyad" fill="scaleFree"/>
+    <text id="n28_i9sl" name="n28" xy="54,843" size="340,34" group="n29_i9sl" fontSize="24" color="#4c2911" letterSpacing="2" bold="true" singleLine="true" text="升级提高获得高级装备的概率"/>
+    <component id="n24_i9sl" name="btnUpgrade" src="ot6fdxy3y" fileName="Component/EmptyYellowBtn.xml" pkg="5moj1x39" xy="250,969" size="218,84" group="n29_i9sl">
+      <Button title="升级" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n25_i9sl" name="btnBuy" src="i9sl2a" fileName="Component/BtnBuy.xml" xy="445,845" size="218,84" group="n29_i9sl">
+      <gearLook controller="treasureProType" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="购买"/>
+    </component>
+    <loader id="n71_a2kw" name="proBg" xy="51,892" size="299,40" group="n29_i9sl" url="ui://v1wfpt3lf34j2m" fill="scaleFree">
+      <relation target="n42_ctxh" sidePair="width-width"/>
+    </loader>
+    <list id="n42_ctxh" name="treasureNumPro" xy="53,896" size="294,32" group="n29_i9sl" layout="row" scroll="horizontal" colGap="5" defaultItem="ui://v1wfpt3li9sl2b">
+      <relation target="n71_a2kw" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n43_ax61" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="640,837" size="24,26" group="n29_i9sl" visible="false">
+      <gearDisplay controller="treasureProType" pages="0"/>
+    </component>
+    <component id="n45_uq40" name="lvRedDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="440,961" size="24,26" group="n29_i9sl" visible="false"/>
+    <group id="n29_i9sl" name="n29" xy="40,829" size="640,224" group="n41_uobv" advanced="true">
+      <gearDisplay controller="type" pages="0"/>
+    </group>
+    <loader id="n68_f34j" name="n68" xy="40,824" size="640,64" group="n23_i9sl" url="ui://5moj1x39f34jdxyad" fill="scaleFree"/>
+    <text id="n49_zthq" name="adLb" xy="265,913" size="189,34" group="n23_i9sl" fontSize="24" color="#4c2911" leading="0" vars="true" bold="true" text="广告剩余次数:{cur=2}/{total=2}">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n7_i9sl" name="n7" xy="271,842" size="90,34" group="n72_ucd4" fontSize="24" color="#4c2911" align="center" vAlign="middle" letterSpacing="2" bold="true" singleLine="true" text="升级中:"/>
+    <image id="n69_f34j" name="n69" src="f34jdxyaz" fileName="Res/newItem2/general_clock_icon.png" pkg="5moj1x39" xy="361,844" group="n72_ucd4"/>
+    <text id="n9_i9sl" name="txtCountdown" xy="393,845" size="55,29" group="n72_ucd4" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="59:59">
+      <relation target="n69_f34j" sidePair="left-left"/>
+    </text>
+    <group id="n72_ucd4" name="n72" xy="271,842" size="177,34" group="n23_i9sl" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="n68_f34j" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n1_i9sl" name="btnSkip" src="ju03dxy4z" fileName="Component/EmptyAdBtn.xml" pkg="5moj1x39" xy="112,967" size="218,84" group="n70_f34j">
+      <Button title="跳过30分钟" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n3_i9sl" name="btnHasten" src="ot6fdxy3y" fileName="Component/EmptyYellowBtn.xml" pkg="5moj1x39" xy="390,967" size="218,84" group="n70_f34j">
+      <Button title="加速" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n70_f34j" name="n70" xy="112,967" size="496,84" group="n23_i9sl"/>
+    <group id="n23_i9sl" name="n23" xy="40,824" size="640,227" group="n41_uobv" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+    </group>
+    <list id="n22_i9sl" name="listAttrs" xy="30,397" size="660,395" group="n41_uobv" defaultItem="ui://v1wfpt3li9sl28">
+      <item title="普通" controllers="quality,0,ctrl,0"/>
+      <item title="良好" controllers="quality,1,ctrl,1"/>
+      <item title="稀有" controllers="quality,2,ctrl,0"/>
+      <item title="史诗" controllers="quality,3,ctrl,1"/>
+      <item title="传说" controllers="quality,4,ctrl,0"/>
+      <item title="神话" controllers="quality,5,ctrl,1"/>
+      <item title="不朽" controllers="quality,6,ctrl,0"/>
+    </list>
+    <image id="n67_f34j" name="n67" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="40,797" size="640,16" group="n41_uobv"/>
+    <component id="n73_ucd4" name="n73" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,836" size="218,84" group="n41_uobv">
+      <gearDisplay controller="type" pages="2"/>
+      <Button title="已满级" titleFontSize="32" icon="ui://5moj1x39f34jdxyb1"/>
+    </component>
+    <graph id="n47_iei2" name="spine" xy="310,775" size="100,100" group="n41_uobv">
+      <gearDisplay controller="type" pages="0,2"/>
+      <relation target="" sidePair="center-center,bottomext-bottom"/>
+    </graph>
+    <component id="n56_f34j" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1110" size="84,84" group="n41_uobv">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n55_f34j" sidePair="bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n41_uobv" name="n41" xy="16,85" size="688,1109" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

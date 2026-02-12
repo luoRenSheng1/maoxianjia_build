@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z3lv15h6">
+  <resources>
+    <image id="khmx0" name="xdfhfj4244.png" path="/Res/"/>
+    <image id="khmx1" name="BGlight1534.png" path="/Res/"/>
+    <image id="khmx2" name="dchffgh568.png" path="/Res/" scale="9grid" scale9grid="116,0,11,61"/>
+    <image id="khmx3" name="dfgdfg56.png" path="/Res/"/>
+    <image id="khmx4" name="dfgdfg57.png" path="/Res/"/>
+    <image id="khmx5" name="dfgdfg58.png" path="/Res/"/>
+    <image id="khmx6" name="dg6846.png" path="/Res/"/>
+    <image id="khmx7" name="dsfgdfg11.png" path="/Res/" scale9grid="15,0,7,326" duplicatePadding="true"/>
+    <image id="khmx8" name="dsfgdfg12.png" path="/Res/" scale="tile" duplicatePadding="true"/>
+    <image id="khmx9" name="dsfgdfg13.png" path="/Res/" duplicatePadding="true"/>
+    <image id="khmxa" name="jiaobiao.png" path="/Res/"/>
+    <image id="khmxb" name="sdgdfg5247.png" path="/Res/" scale="9grid" scale9grid="50,27,100,11"/>
+    <image id="khmxc" name="xsdfs.png" path="/Res/"/>
+    <image id="khmxd" name="xdfhfj4243.png" path="/Res/" scale="9grid" scale9grid="23,23,3,3"/>
+    <component id="khmxe" name="LoginGift.xml" path="/" exported="true"/>
+    <image id="khmxf" name="1 宠物.png" path="/Res/"/>
+    <component id="khmxg" name="RightPanel.xml" path="/Component/"/>
+    <component id="khmxh" name="LeftPanel.xml" path="/Component/"/>
+    <component id="khmxi" name="RewardItem.xml" path="/Component/"/>
+    <image id="r2paj" name="title135799.png" path="/Res/"/>
+  </resources>
+  <publish name="LoginGift" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n0_tdju" name="equipIcon" xy="20,20" size="60,60" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader3D id="n2_tdju" name="qiPaoSpine" xy="0,0" size="100,100" url="ui://pdufy3ketdju62" align="center" vAlign="middle" animation="buff" skin="" loop="true"/>
+  </displayList>
+</component>

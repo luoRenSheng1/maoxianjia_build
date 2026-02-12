@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,65" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_l06b" name="n0" src="mjyexxp4" fileName="Res/UI-kefu.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_l06b" name="n1" xy="-39,54" pivot="0.5,0.5" size="148,42" fontSize="20" color="#ffffff" align="center" autoSize="shrink" strokeColor="#361200" strokeSize="2" text="客服"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

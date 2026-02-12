@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="lockCtrl" pages="0,,1,,7," selected="0">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="锁"/>
+    <remark page="2" value="有书"/>
+  </controller>
+  <controller name="qualityCtrl" pages="2,,3,,4,,5,,6,,7,,8," selected="0"/>
+  <controller name="hasCount" pages="0,,1," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <loader id="n3_hz5c" name="n3" xy="2,2" size="80,80" url="ui://5moj1x39f34jdxyb6" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="lockCtrl" pages="1" values="ui://5moj1x39f34jdxyaw" default="ui://5moj1x39f34jdxyb6"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_hz5c" name="n4" xy="24,24" size="36,36" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n7_hz5c" name="qualityIcon" xy="2,2" size="80,80" visible="false" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="lockCtrl" pages="7"/>
+      <gearIcon controller="qualityCtrl" pages="2,3,4,5,6,7,8" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_hz5c" name="icon" xy="12,12" size="60,60" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="lockCtrl" pages="7"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_hz5c" name="name" xy="0,51" size="84,29" visible="false" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="技能名称">
+      <gearDisplay controller="lockCtrl" pages="7"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_hz5c" name="txtLv" xy="49,53" size="26,29" fontSize="20" color="#ffffff" align="right" bold="true" strokeColor="#000000" strokeSize="2" text="11">
+      <gearDisplay controller="hasCount" pages="1"/>
+      <gearDisplay2 controller="lockCtrl" pages="7" condition="0"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader3D id="n11_kb97" name="spine" xy="-59,-61" size="100,100" visible="false" url="ui://lxs2h4ifucd4dxy9w" align="center" vAlign="middle" animation="Pet_cwds" skin="" loop="true"/>
+    <loader id="n9_hz5c" name="selectIcon" xy="0,0" size="84,84" url="ui://5moj1x39a2kwdxycb" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n12_n5nh" name="bookRedPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="52,0" visible="false">
+      <relation target="n3_hz5c" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="reacts"/>
+</component>

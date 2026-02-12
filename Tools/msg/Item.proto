@@ -1,0 +1,86 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+
+//下发所有物品信息   
+message Items_PC   //eMsg_Items_PC = 800;  
+{
+	repeated ItemInfo item = 1;
+	optional SplitPkgPC split_pkg = 2;
+}		   					
+			
+
+
+
+
+//推送增加新物品协议
+message NewItems_PC 
+{			//[default = eMsg_NewItems_PC];
+	repeated ItemInfo item = 1;
+}
+
+
+
+
+//使用物品
+message ItemUse_CS { 			//[default = eMsg_ItemUse_CS];
+	optional uint32 base_item_id = 1;
+	optional uint32 num = 2;
+}
+
+//使用物品反馈
+message ItemUse_SC { 			//[default = eMsg_ItemUse_SC];
+	optional uint32 used_item_id = 1;
+	optional uint32 used_num = 2;
+	optional eErrCode err_code = 4;
+	//repeated ItemEx items_added = 5;   //获取的新道具，金融，宠物，装备等，通过其他pc包主动下发，如有表现需要再议
+}
+
+
+
+// 缩短时间操作枚举
+enum eAccelerationOp 
+{
+	eAccelerationOp_EquipBoxLevelUp = 1;		// 装备宝箱升级
+	eAccelerationOp_BuildLevelUp = 2;		// 建筑物升级
+	eAccelerationOp_PetDispathching = 3;		// 宠物派遣
+	eAccelerationOp_CampExploring = 4;		// 探险营地
+	eAccelerationOp_FinalFactoryProducing = 5;		// 加工厂制造
+	eAccelerationOp_HomeTalentLevelUp = 6;		// 家园天赋升级
+	eAccelerationOp_PetReproducing = 7;		// 窝棚繁殖
+}
+
+//缩短时间道具使用
+message ItemUse4Acceleration_CS { 			//eMsg_ItemUse4Acceleration_CS = 804 ; 
+	optional ItemInfo used_items = 1;  //使用道具
+	optional eAccelerationOp operation = 2;
+	optional uint32 object_id = 3;  //如果是宝箱升级不用填；如果是建筑升级填eBuildType;如果是宠物派遣，填petID;如果是加速营地任务填 任务id. 加工厂，窝棚，训练场都填写内部升级或加工相关id
+	optional uint64 object_guid = 4;  //object_id 无法区分对象的场合，需要填写此字段，比如petGuid	
+	optional bool is_use_diamond = 5;  //如果使用钻石，以上参数不用填，钻石服务器端直接结束倒计时并扣钱
+}
+
+//缩短时间道具使用回复
+message ItemUse4Acceleration_SC { 			//eMsg_ItemUse4Acceleration_SC = 805 ;
+	optional eErrCode result = 1;
+	optional ItemInfo used_items = 2;  //使用道具
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+
+	         
+	          
+
+
+
+
+
+
+	
+
+
+

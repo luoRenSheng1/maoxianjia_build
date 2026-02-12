@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,102" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_w02n" name="n3" src="w02ndxy22" fileName="Res/ICON-tupo1.PNG" xy="-28,-25" pivot="0.5,0.5" size="147,153" visible="false"/>
+    <loader id="n1_pdpa" name="icon" xy="0,0" size="90,102" aspect="true" url="ui://s7x7ku0nnjebdxy6a" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_pdpa" name="title" xy="5,23" size="10,39" visible="false" fontSize="28" color="#ffffff" align="center" bold="true" strokeColor="#27221e" strokeSize="2" singleLine="true" autoClearText="true" text=""/>
+  </displayList>
+  <Button/>
+  <transition name="eff" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n3_w02n" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

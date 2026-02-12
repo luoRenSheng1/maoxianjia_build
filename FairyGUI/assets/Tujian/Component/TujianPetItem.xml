@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="112,253" extention="Button">
+  <displayList>
+    <graph id="n2_j2lc" name="spine" xy="15,48" pivot="0.5,1" size="81,185" lineSize="0" fillColor="#ff999999"/>
+    <text id="n1_j2lc" name="petName" xy="15,0" size="82,35" group="n8_r0wo" fontSize="25" color="#fffad1" align="center" vAlign="middle" autoSize="shrink" strokeColor="#452102" text="海冀龟"/>
+    <group id="n8_r0wo" name="n8" xy="15,0" size="82,35" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" mask="n1_orx2" reversedMask="true">
+  <displayList>
+    <component id="n3_usf5" name="panel" src="usf5iix" fileName="Component/ChapterPanel.xml" xy="0,0"/>
+    <graph id="n1_orx2" name="mask" xy="0,1153" size="720,127" touchable="false" type="rect">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+  </displayList>
+</component>

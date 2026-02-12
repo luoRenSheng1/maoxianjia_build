@@ -1,0 +1,9 @@
+{
+  "langFiles": [
+    {
+      "name": "zh-Hans",
+      "path": "../Assets/DynamicAssets/UILang/zh-Hans.xml",
+      "fontName": ""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3ketdju5d">
+  <displayList>
+    <component id="n10_jiq9" name="frame" src="s2xhdxy7a" fileName="Component/Common/FrameMask_1.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n9_tdju" name="currency" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="48,13">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Label icon="ui://pdufy3kec2niid3"/>
+    </component>
+    <loader id="n0_tdju" name="n0" xy="16,162" size="688,872" group="n8_tdju" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <loader id="n1_tdju" name="n1" xy="40,144" size="44,86" group="n8_tdju" url="ui://5moj1x39f34jdxybk">
+      <relation target="n0_tdju" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n2_tdju" name="n2" xy="637,144" size="44,86" group="n8_tdju" url="ui://5moj1x39f34jdxybk">
+      <relation target="n0_tdju" sidePair="right-right,top-top"/>
+    </loader>
+    <loader id="n3_tdju" name="n3" xy="109,137" size="502,94" group="n8_tdju" url="ui://5moj1x39f34jdxya1">
+      <relation target="n0_tdju" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n4_tdju" name="n4" xy="294,154" size="132,44" group="n8_tdju" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="狩猎商店">
+      <relation target="n3_tdju" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n7_tdju" name="list" xy="39,265" size="641,737" group="n8_tdju" layout="flow_hz" overflow="scroll" lineGap="15" colGap="15" defaultItem="ui://pdufy3ketdju5o">
+      <relation target="n0_tdju" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_tdju" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1058" size="84,84" group="n8_tdju">
+      <relation target="n0_tdju" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n8_tdju" name="n8" xy="16,137" size="688,1005" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

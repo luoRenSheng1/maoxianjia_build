@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" designImage="ui://57yc4rb0edee3w" designImageAlpha="0" designImageLayer="1">
+  <controller name="copyType" pages="0,,1," selected="0">
+    <remark page="0" value="副本"/>
+    <remark page="1" value="随机事件副本"/>
+  </controller>
+  <displayList>
+    <component id="n117_cj33" name="battleRoot" src="cj33dxxzg" fileName="Component/battleRoot.xml" pkg="s7x7ku0n" xy="0,104" size="720,630">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+    </component>
+    <component id="n133_tw1c" name="userInfo" src="rx0xo87" fileName="Component/ComUserInfo.xml" pkg="5moj1x39" xy="25,39" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n143_iv53" name="n143" src="rgi33o" fileName="Res/battle/boss_fight_bg11.png" xy="0,731" size="720,800" group="n147_iv53"/>
+    <image id="n155_r1s6" name="n155" src="e3id3u" fileName="Res/battle/gengeral_fight_bg01.png" xy="17,825" size="688,246" group="n147_iv53"/>
+    <text id="n138_pbu0" name="txtBattleContent" xy="28,899" size="662,81" group="n147_iv53" fontSize="28" color="#4c2911" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" bold="true" text="as法大大阿萨大大阿萨大大\n阿萨">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n147_iv53" name="n147" xy="0,731" size="720,800" advanced="true">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+    </group>
+    <image id="n146_iv53" name="left" src="rgi33t" fileName="Res/battle/combat_icon_02.png" xy="267,746" size="102,32" group="n141_pchv" flip="hz"/>
+    <image id="n145_iv53" name="right" src="rgi33t" fileName="Res/battle/combat_icon_02.png" xy="369,746" size="100,32" group="n141_pchv"/>
+    <image id="n134_pbu0" name="n134" src="gwxtq" fileName="Res/loopIcon.png" xy="448,762" pivot="0.5,0.5" anchor="true" group="n141_pchv" scale="-1,1"/>
+    <text id="n135_pbu0" name="n135" xy="321,744" size="100,34" group="n141_pchv" fontSize="24" color="#fcf78e" autoSize="none" strokeColor="#000000" text="正在挑战"/>
+    <image id="n144_iv53" name="n144" src="f34jdxyax" fileName="Res/newItem2/general_fighting capacity_icon1.png" pkg="5moj1x39" xy="249,738" size="48,48" group="n141_pchv"/>
+    <group id="n141_pchv" name="n141" xy="249,738" size="220,48" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n132_gwxt" name="runBtn" src="pbu03f" fileName="Component/RunAwayBtn.xml" xy="251,1106" size="218,84">
+      <gearXY controller="copyType" pages="0,1" values="251,1106|251,1130"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="逃跑" titleFontSize="32" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <text id="n139_pbu0" name="txtDesc" xy="137,1195" size="446,36" fontSize="26" color="#cccccc" align="center" text="逃跑不扣除副本券，但不获得副本奖励">
+      <gearDisplay controller="copyType" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n134_pbu0" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

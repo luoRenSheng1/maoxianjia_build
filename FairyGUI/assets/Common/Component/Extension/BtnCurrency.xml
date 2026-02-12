@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,50" pivot="0.5,0.5" extention="Button" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetX="-405" designImageAlpha="3" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="itemType" exported="true" homePageType="specific" homePage="2" pages="24,1,25,2,0,3" selected="0"/>
+  <displayList>
+    <loader id="n9_a4i1" name="clicker" xy="2,1" size="120,27"/>
+    <image id="n13_f34j" name="n13" src="f34jdxybr" fileName="Res/newItem2/general_top_bg2.png" pkg="5moj1x39" xy="3,0"/>
+    <text id="n3_uzka" name="txtValue" xy="45,10" size="85,29" fontSize="20" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="11546.00不可思议"/>
+    <loader id="n6_h8jp" name="icon" xy="1,5" pivot="0.5,0.5" size="44,44" touchable="false" url="ui://0anhreylf34jdxy9m" vAlign="middle" fill="scale">
+      <gearIcon controller="itemType" pages="24,25,0" values="ui://0anhreylf34jdxy9m|ui://0anhreylf34jdxy9n|ui://0anhreylv5rfdxy4n"/>
+    </loader>
+    <component id="n2_uzka" name="btnAdd" src="iqkovm" fileName="Component/NotExportedCode/BtnAddItem.xml" xy="141,7" pivot="1,0.5" aspect="true"/>
+  </displayList>
+  <Button/>
+  <transition name="reacts">
+    <item time="0" type="Scale" target="n6_h8jp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3"/>
+    <item time="3" type="Scale" target="n6_h8jp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3"/>
+  </transition>
+</component>

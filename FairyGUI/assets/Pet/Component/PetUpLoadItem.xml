@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,250">
+  <controller name="state" pages="0,,7,,1," selected="0">
+    <remark page="0" value="空"/>
+    <remark page="1" value="宠物"/>
+    <remark page="2" value="锁"/>
+  </controller>
+  <controller name="showHandCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <image id="n22_klzx" name="n22" src="klzxdxy9c" fileName="Res/new/pet_bg41.png" xy="47,195"/>
+    <image id="n17_hz5c" name="n17" src="s444k" fileName="Res/pet_btn1 .png" xy="53,104">
+      <gearDisplay controller="state" pages="0,1"/>
+    </image>
+    <image id="n21_a2kw" name="n21" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="85,141">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <graph id="n4_ddc1" name="spine" xy="3,4" pivot="0.5,1" size="215,221" lineSize="0"/>
+    <component id="n8_ddc1" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="136,93">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <image id="n18_hz5c" name="n18" src="s444o" fileName="Res/pet_name_bg1.png" xy="50,197" group="n7_ddc1"/>
+    <component id="n20_hz5c" name="petQuality" src="hz5cdxy7d" fileName="Component/PetQualityLb.xml" xy="18,187" group="n7_ddc1" scale="0.8,0.8"/>
+    <text id="n19_hz5c" name="petName" xy="87,206" size="84,29" group="n7_ddc1" fontSize="20" color="#ffffff" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="宠物名称">
+      <relation target="n18_hz5c" sidePair="middle-middle"/>
+    </text>
+    <group id="n7_ddc1" name="n7" xy="18,187" size="181,66" advanced="true">
+      <gearDisplay controller="state" pages="7"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n10_iqva" name="n10" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="81,144">
+      <gearDisplay controller="state" pages="0,7"/>
+      <gearDisplay2 controller="showHandCtrl" pages="1" condition="0"/>
+    </component>
+  </displayList>
+</component>

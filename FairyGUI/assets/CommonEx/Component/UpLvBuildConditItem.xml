@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="542,40" extention="Label">
+  <controller name="reachCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未达到"/>
+    <remark page="1" value="达到"/>
+  </controller>
+  <controller name="buildType" pages="0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,100,12,101" selected="0">
+    <remark page="0" value="主城"/>
+    <remark page="1" value="伐木场"/>
+    <remark page="2" value="精炼厂"/>
+    <remark page="3" value="仓库"/>
+    <remark page="4" value="玩具工厂"/>
+    <remark page="5" value="粮食工坊"/>
+    <remark page="6" value="护理中心"/>
+    <remark page="7" value="加工厂"/>
+    <remark page="8" value="探索营地"/>
+    <remark page="9" value="窝棚"/>
+    <remark page="10" value="训练场"/>
+    <remark page="11" value="木头矿区"/>
+    <remark page="12" value="石头矿区"/>
+  </controller>
+  <displayList>
+    <text id="n6_pchv" name="indexLb" xy="1,4" size="22,32" fontSize="22" color="#835c25" vars="true" text="{value=1}."/>
+    <text id="n0_pchv" name="title" xy="24,4" size="180,32" fontSize="22" color="#835c25" vars="true" text="宠物小屋等级达到">
+      <gearText controller="buildType" pages="0,1,2,3,4,5,6,7,8,9,10,11,12" values="宠物小屋等级达到|伐木场等级达到|精炼厂等级达到|仓库等级达到|玩具工厂等级达到|粮食工坊等级达到|护理中心等级达到|加工厂等级达到|探索营地等级达到|窝棚等级达到|训练场等级达到|木头矿区等级达到|石头矿区等级达到"/>
+      <relation target="n6_pchv" sidePair="left-right"/>
+    </text>
+    <image id="n4_pchv" name="n4" src="fpa2dxy34" fileName="Res/14.png" xy="461,-2">
+      <gearDisplay controller="reachCtrl" pages="1"/>
+    </image>
+    <text id="n1_pchv" name="needLb" xy="208,2" size="32,35" group="n5_pchv" fontSize="25" color="#ff0000" ubb="true" vars="true" text="10">
+      <gearColor controller="reachCtrl" pages="0" values="#ff0000,#000000" default="#ff7200,#000000"/>
+    </text>
+    <text id="n2_pchv" name="n11" xy="241,2" size="11,35" group="n5_pchv" fontSize="25" color="#ff7200" vars="true" text="/">
+      <relation target="n1_pchv" sidePair="right-right"/>
+    </text>
+    <text id="n3_pchv" name="totalLb" xy="253,2" size="32,35" group="n5_pchv" fontSize="25" color="#ff7200" vars="true" text="20">
+      <relation target="n2_pchv" sidePair="right-left"/>
+    </text>
+    <group id="n5_pchv" name="n5" xy="208,2" size="77,35" advanced="true">
+      <relation target="n0_pchv" sidePair="left-right"/>
+    </group>
+  </displayList>
+</component>

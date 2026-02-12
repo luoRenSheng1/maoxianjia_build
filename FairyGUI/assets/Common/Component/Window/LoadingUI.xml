@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" designImage="ui://0anhreylceq2dxxx0" designImageAlpha="90" designImageLayer="1">
+  <controller name="showType" pages="0,,4," selected="0">
+    <remark page="0" value="登入切换"/>
+    <remark page="1" value="普通切换"/>
+  </controller>
+  <displayList>
+    <loader id="n19_geqb" name="bg" xy="0,0" size="720,1280" touchable="false" url="ui://0anhreyl9piddxy7u" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="showType" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n28_kwfm" name="n28" src="kwfmxxn8" fileName="Res/Loading/LoadingHeiDi.png" xy="0,1010" size="720,270" group="n32_kwfm">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n29_kwfm" name="pro_Loading" src="kwfmxxn7" fileName="Component/ProgressBar/LoadingProgress.xml" xy="5,1227" size="709,15" group="n32_kwfm" touchable="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n30_kwfm" name="txtTips" xy="372,1207" pivot="0.5,0.5" anchor="true" size="478,39" group="n32_kwfm" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="Loading....">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n31_kwfm" name="txtValue" src="kwfmxxne" fileName="Component/ProgressBar/LoadingCircleProgress.xml" xy="612,1135" group="n32_kwfm">
+      <relation target="n29_kwfm" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n32_kwfm" name="n32" xy="0,1010" size="720,270" advanced="true">
+      <gearDisplay controller="showType" pages="0"/>
+    </group>
+    <graph id="n37_ddmd" name="n37" xy="0,0" size="720,1280" group="n39_ceq2" type="rect" fillColor="#ff191919">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <richtext id="n38_ceq2" name="n38" xy="253,623" pivot="0.5,0.5" size="215,34" group="n39_ceq2" fontSize="24" color="#ffffff" align="center" autoSize="shrink" text="LOADING"/>
+    <group id="n39_ceq2" name="n39" xy="0,0" size="720,1280" advanced="true">
+      <gearDisplay controller="showType" pages="4"/>
+    </group>
+  </displayList>
+</component>

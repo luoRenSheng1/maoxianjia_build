@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,114" pivot="0.5,0.5">
+  <controller name="ctrlQuality" exported="true" pages="2,普通,11,良好,12,稀有,13,史诗,14,传说,15,神话,16,不朽" selected="0"/>
+  <displayList>
+    <loader id="n141_skp6" name="n1" xy="0,0" size="114,114" aspect="true" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearIcon controller="ctrlQuality" pages="2,11,12,13,14,15,16" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader id="n144_mpxe" name="icon" xy="15,15" size="84,84" aspect="true" url="ui://5moj1x39vcwc3" fill="scale" clearOnPublish="true"/>
+    <text id="n142_skp6" name="txtLv" xy="11,75" size="91,29" visible="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" letterSpacing="1" vars="true" autoSize="shrink" bold="true" strokeColor="#25211d" strokeSize="2" singleLine="true" text="Lv.{value=7}"/>
+  </displayList>
+</component>

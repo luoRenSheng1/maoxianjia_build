@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://8glegefcajor3u">
+  <controller name="titleCtrl" pages="4,,3,,2,,0,,5,,1," selected="0">
+    <remark page="0" value="粮食工坊"/>
+    <remark page="1" value="加工厂"/>
+    <remark page="2" value="探险营地"/>
+    <remark page="3" value="窝棚"/>
+    <remark page="4" value="训练场"/>
+    <remark page="5" value="石头矿区"/>
+  </controller>
+  <controller name="hasReward" pages="0,,1," selected="1">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <controller name="showPetHand" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <component id="n58_ajor" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_nif6" name="bg" xy="16,54" size="688,1062" group="n43_oppe" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <loader3D id="n55_mugw" name="buildSpine" xy="307,236" size="100,100" group="n43_oppe" url="ui://8glegefcsylb3l" align="center" vAlign="middle" animation="idle" skin="" loop="true">
+      <gearIcon controller="titleCtrl" pages="4,3,2,0,5,1" values="ui://8glegefcsylb3l|ui://8glegefct89j36|ui://8glegefcsylb3o|ui://8glegefcf5q435|ui://8glegefcsylb3f|ui://8glegefcf5q434"/>
+      <relation target="n1_nif6" sidePair="left-left,top-top"/>
+    </loader3D>
+    <text id="n3_nif6" name="title" xy="294,74" size="132,44" group="n43_oppe" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="3" text="粮食工坊">
+      <gearText controller="titleCtrl" pages="3,2,0,5,1" values="加工厂|探索营地|窝棚|训练场|石头矿区" default="粮食工坊"/>
+      <relation target="n1_nif6" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n60_ajor" name="n60" xy="41,330" size="288,64" group="n28_nif6" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n61_ajor" name="n61" xy="390,330" size="288,64" group="n28_nif6" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <text id="n11_nif6" name="n11" xy="63,349" size="91,29" group="n28_nif6" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="当前产能:"/>
+    <text id="n14_nif6" name="n14" xy="455,349" size="91,29" group="n28_nif6" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="宠物加成:"/>
+    <text id="n15_nif6" name="addValue" xy="560,349" size="55,29" group="n28_nif6" fontSize="20" color="#b8df13" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="{value=150}%"/>
+    <component id="n20_nif6" name="itemBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="161,348" size="29,29" group="n48_ibgi">
+      <Button icon="ui://8glegefcnif6j"/>
+    </component>
+    <text id="n49_ibgi" name="capacityValue" xy="193,349" size="37,29" group="n48_ibgi" fontSize="20" color="#b8df13" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="600"/>
+    <text id="n50_ibgi" name="hx" xy="233,349" size="10,29" group="n48_ibgi" fontSize="20" color="#b8df13" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="/"/>
+    <text id="n13_nif6" name="timeLb" xy="246,349" size="66,29" group="n48_ibgi" fontSize="20" color="#b8df13" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="{value=60}分钟"/>
+    <group id="n48_ibgi" name="n48" xy="161,348" size="151,30" group="n28_nif6" advanced="true" layout="hz" colGap="3" excludeInvisibles="true"/>
+    <group id="n28_nif6" name="n28" xy="41,330" size="637,64" group="n43_oppe" advanced="true">
+      <relation target="n1_nif6" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n56_ajor" name="n56" xy="40,411" size="640,56" group="n43_oppe" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <relation target="n1_nif6" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n16_nif6" name="helpBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="636,423" size="32,32" group="n43_oppe">
+      <relation target="n56_ajor" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://5moj1x39ajordxydw"/>
+    </component>
+    <text id="n19_nif6" name="n19" xy="310,423" size="100,34" group="n43_oppe" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="驻扎宠物">
+      <relation target="n56_ajor" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n44_h8lo" name="petUp0" src="oppet" fileName="Component/PetShow.xml" xy="64,510" group="n47_h8lo" controller="hasPet,0"/>
+    <component id="n45_h8lo" name="petUp1" src="oppet" fileName="Component/PetShow.xml" xy="287,510" group="n47_h8lo"/>
+    <component id="n46_h8lo" name="petUp2" src="oppet" fileName="Component/PetShow.xml" xy="512,510" group="n47_h8lo"/>
+    <group id="n47_h8lo" name="upGroup" xy="64,510" size="593,180" group="n43_oppe" advanced="true">
+      <relation target="n1_nif6" sidePair="center-center"/>
+    </group>
+    <loader id="n57_ajor" name="n57" xy="40,736" size="640,191" group="n42_oppe" url="ui://5moj1x39f34jdxyad" fill="scaleFree">
+      <relation target="n35_oppe" sidePair="height-height"/>
+    </loader>
+    <list id="n35_oppe" name="petList2" xy="50,743" size="620,176" group="n42_oppe" layout="flow_hz" overflow="scroll" lineGap="12" colGap="12" defaultItem="ui://8glegefcoppew" autoClearItems="true">
+      <relation target="n57_ajor" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n42_oppe" name="rloader" xy="40,736" size="640,191" group="n43_oppe" advanced="true">
+      <relation target="n1_nif6" sidePair="center-center,top-top"/>
+    </group>
+    <text id="n36_oppe" name="n36" xy="261,951" size="108,34" group="n39_oppe" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="当前奖励:"/>
+    <component id="n41_oppe" name="rewardBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="378,952" size="29,29" group="n39_oppe">
+      <Button icon="ui://8glegefcnif6j"/>
+    </component>
+    <text id="n38_oppe" name="rewardValue" xy="411,951" size="43,34" group="n39_oppe" fontSize="24" color="#b8df13" vAlign="middle" vars="true" strokeColor="#000000" strokeSize="2" text="888"/>
+    <group id="n39_oppe" name="n39" xy="261,951" size="193,34" group="n43_oppe" advanced="true">
+      <relation target="n1_nif6" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n40_oppe" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,999" size="218,84" group="n43_oppe">
+      <gearLook controller="hasReward" pages="1" values="1,0,0,1" default="1,0,1,1"/>
+      <relation target="n1_nif6" sidePair="center-center,bottom-bottom"/>
+      <Button title="领取" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n54_qc4n" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="440,996" group="n43_oppe" visible="false">
+      <gearDisplay controller="hasReward" pages="1"/>
+      <relation target="n40_oppe" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n43_oppe" name="n43" xy="16,54" size="688,1062" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n51_h4wb" name="hideUpload1" xy="-30,635" size="780,740" alpha="0.01" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="showPetHand" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n53_h4wb" name="hideUpload2" xy="-30,-2" size="780,435" alpha="0.01" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="showPetHand" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n59_ajor" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1143" size="84,84">
+      <relation target="n1_nif6" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+  </displayList>
+</component>

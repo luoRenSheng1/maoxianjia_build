@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,48" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n1_l5cy" name="n1" xy="0,0" size="48,48" url="ui://i7ojazuul5cy3l"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

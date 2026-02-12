@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="685,197">
+  <controller name="rewardCtrl" pages="0,未购买,1,已购买,2,已领取" selected="2"/>
+  <displayList>
+    <loader id="n0_ftc9" name="n0" xy="0,0" size="685,197" url="ui://nmzfxo89ftc9e"/>
+    <text id="n1_ftc9" name="dailyTitle" xy="33,21" size="193,35" fontSize="25" color="#ffffff" bold="true" strokeColor="#a0542e" strokeSize="2" text="每日特惠1元礼包"/>
+    <text id="n2_ftc9" name="limitLb" xy="503,21" size="133,35" fontSize="25" color="#ffffff" align="right" vars="true" autoSize="none" bold="true" strokeColor="#a0542e" strokeSize="2" text="限购{cur=0}/{total=2}"/>
+    <list id="n4_ftc9" name="rewardList" xy="24,84" size="321,79" layout="row" scroll="horizontal" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_ftc9" name="getRwBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="493,95" size="151,66" touchable="false" grayed="true">
+      <gearDisplay controller="rewardCtrl" pages="1,2"/>
+      <gearLook controller="rewardCtrl" pages="2" values="1,0,1,0" default="1,0,0,1"/>
+      <gearText controller="rewardCtrl" pages="1,2" values="领取奖励|已领取" default="领取"/>
+      <Button title="已领取" titleColor="#663e20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n3_ftc9" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="493,95" size="151,66">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+      <Button icon="ui://5moj1x39ddc13t"/>
+    </component>
+  </displayList>
+</component>

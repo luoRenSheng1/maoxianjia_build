@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="516,100">
+  <displayList>
+    <image id="n3_ipa3" name="n3" src="ipa3x" fileName="Res/setout_information_bg(1).png" xy="0,0"/>
+    <text id="n1_syvc" name="title" xy="14,20" size="44,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="抗性"/>
+    <text id="n2_syvc" name="desc" xy="13,54" size="412,24" fontSize="16" color="#ffffff" ubb="true" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Boss提升[color=#FCE76F]{value=50}%[/color]的火元素抗性，挑战者的回复效果减少[color=#FCE76F]{value=20}%[/color]"/>
+  </displayList>
+</component>

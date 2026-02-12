@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" overflow="hidden">
+  <displayList>
+    <component id="n0_w224" name="n0" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" size="720,1153">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_w224" name="mapBg" xy="0,-223" size="720,1600" url="ui://pdufy3kejiq9ig7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </loader>
+    <loader3D id="n31_wwyd" name="n31" xy="283,254" size="100,100" url="ui://pdufy3kewwydihq" animation="BigMap_yiji_yunwu" skin="" loop="true">
+      <relation target="" sidePair="left-left,top-top%"/>
+    </loader3D>
+    <loader3D id="n27_wwyd" name="step0" xy="355,437" size="100,100" url="ui://pdufy3kewwydiho" animation="BigMap_yiji_taijie_2" skin="" loop="true">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n26_wwyd" name="step1" xy="143,238" size="100,100" url="ui://pdufy3kewwydiho" animation="BigMap_yiji_taijie_1" skin="" loop="true">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader id="n6_w224" name="pos1" xy="200,920" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n7_w224" name="pos2" xy="290,885" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n8_w224" name="pos3" xy="375,830" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n9_w224" name="pos4" xy="457,770" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n10_w224" name="pos5" xy="432,507" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n11_w224" name="pos6" xy="341,507" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n12_w224" name="pos7" xy="247,510" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n13_w224" name="pos8" xy="202,369" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n14_w224" name="pos9" xy="222,309" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n24_jiq9" name="pos10" xy="244,249" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n25_jiq9" name="pos11" xy="265,137" pivot="0.5,0.5" size="30,30">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n16_w224" name="reward0" xy="399,509" pivot="0.5,0.5" size="120,183" visible="false" url="ui://pdufy3kejiq9ig8" align="center" vAlign="middle">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <component id="n28_wwyd" name="rewardBuild0" src="wwydihr" fileName="Component/RuinRwBuild.xml" xy="387,463">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <loader id="n17_w224" name="reward1" xy="190,318" pivot="0.5,0.5" size="120,183" visible="false" url="ui://pdufy3kejiq9ig8" align="center" vAlign="middle">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <component id="n29_wwyd" name="rewardBuild1" src="wwydihr" fileName="Component/RuinRwBuild.xml" xy="182,286">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <loader id="n18_w224" name="reward2" xy="126,-51" pivot="0.5,0.5" size="120,183" visible="false" url="ui://pdufy3kejiq9ig8" align="center" vAlign="middle">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <component id="n30_wwyd" name="rewardBuild2" src="wwydihr" fileName="Component/RuinRwBuild.xml" xy="145,-74">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <graph id="n2_w224" name="boss0" xy="507,761" pivot="0.5,1" anchor="true" size="100,100">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <graph id="n3_w224" name="boss1" xy="241,550" pivot="0.5,1" anchor="true" size="100,100">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <graph id="n4_w224" name="boss2" xy="374,169" pivot="0.5,1" anchor="true" size="100,100">
+      <relation target="n1_w224" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <component id="n19_w224" name="bossBtn0" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="457,660" size="100,100">
+      <relation target="n2_w224" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_w224" name="bossBtn1" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="193,450" size="100,100">
+      <relation target="n3_w224" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n21_w224" name="bossBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="322,69" size="100,100">
+      <relation target="n4_w224" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n15_w224" name="buffList" xy="31,23" size="38,40" scale="2,2" layout="row" colGap="10" defaultItem="ui://pdufy3kex2p02f">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n5_w224" name="hero" xy="158,893" pivot="0.5,0.5" size="100,100"/>
+  </displayList>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,112">
+  <controller name="status" pages="0,,2,,1," selected="0">
+    <remark page="0" value="领取"/>
+    <remark page="1" value="不能领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <controller name="rankCtrl" pages="0,,3,,1," selected="0">
+    <remark page="0" value="在排行榜上"/>
+    <remark page="1" value="参与未上榜"/>
+    <remark page="2" value="不在排行榜上"/>
+  </controller>
+  <controller name="numCtrl" exported="true" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="第一"/>
+    <remark page="1" value="第二"/>
+    <remark page="2" value="第三"/>
+    <remark page="3" value="其他"/>
+  </controller>
+  <displayList>
+    <loader id="n1_u5mt" name="bg2" xy="0,0" size="720,112" url="ui://zoxecbv2xezf41" fill="scaleFree"/>
+    <loader id="n24_xezf" name="n24" xy="16,16" size="80,80" url="ui://zoxecbv2xezf3y">
+      <relation target="n1_u5mt" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n5_u5mt" name="num" xy="41,38" size="30,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="50">
+      <gearDisplay controller="rankCtrl" pages="0"/>
+      <gearDisplay2 controller="status" pages="2,1" condition="0"/>
+      <relation target="n24_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n22_t89j" name="n22" xy="7,28" size="100,55" fontSize="20" color="#4c2911" align="center" autoSize="none" bold="true" text="昨日排名奖励">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n24_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n14_cuae" name="n14" xy="14,41" size="84,29" fontSize="20" color="#4c2911" bold="true" text="暂未上榜">
+      <gearDisplay controller="rankCtrl" pages="3,1"/>
+      <relation target="n24_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n6_u5mt" name="headIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="115,10" pivot="0.5,0.5" group="n27_xezf" scale="0.9,0.9"/>
+    <text id="n7_u5mt" name="pName" xy="211,21" size="148,33" group="n27_xezf" fontSize="20" color="#4c2911" autoSize="shrink" bold="true" text="名字123456789">
+      <relation target="n6_u5mt" sidePair="left-right"/>
+    </text>
+    <loader id="n26_xezf" name="n26" xy="228,59" size="123,32" group="n27_xezf" url="ui://zoxecbv2xezf3x" fill="scaleFree">
+      <relation target="n9_u5mt" sidePair="width-width"/>
+    </loader>
+    <loader id="n25_xezf" name="n25" xy="207,51" size="48,48" group="n27_xezf" url="ui://5moj1x39f34jdxyax" fill="scale">
+      <relation target="n26_xezf" sidePair="left-left"/>
+    </loader>
+    <text id="n9_u5mt" name="fightingCapacity" xy="257,58" size="82,34" group="n27_xezf" fontSize="24" color="#ffffff" vAlign="middle" bold="true" text="666666">
+      <relation target="n26_xezf" sidePair="left-left"/>
+    </text>
+    <group id="n27_xezf" name="n27" xy="115,10" size="244,92" advanced="true">
+      <relation target="n1_u5mt" sidePair="left-left"/>
+    </group>
+    <list id="n13_pu20" name="rewardList" xy="396,16" size="165,79" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n21_coz7" name="n21" xy="584,28" size="109,55" fontSize="20" color="#4c2911" autoSize="none" bold="true" text="挑战或者占领空位即可进入榜单">
+      <gearDisplay controller="rankCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+    <component id="n3_u5mt" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="569,16" size="128,80">
+      <gearDisplay controller="rankCtrl" pages="0,3"/>
+      <gearLook controller="status" pages="2,1" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="status" pages="1" values="已领取" default="领取"/>
+      <Button title="领取" titleFontSize="28" icon="ui://zoxecbv2xezf43"/>
+    </component>
+    <component id="n23_t89j" name="n23" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="663,18">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n3_u5mt" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

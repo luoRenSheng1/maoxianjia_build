@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fdbg11jx">
+  <resources>
+    <image id="sc7h0" name="2.png" path="/Res/" scale="9grid" scale9grid="40,6,3,2"/>
+    <image id="sc7h5" name="box1.png" path="/Res/"/>
+    <image id="sc7h6" name="box2.png" path="/Res/"/>
+    <image id="sc7h7" name="box3.png" path="/Res/"/>
+    <component id="sc7ha" name="DailyTask.xml" path="/" exported="true"/>
+    <component id="sc7hd" name="bar.xml" path="/Component/"/>
+    <component id="sc7he" name="ActiveBox.xml" path="/Component/"/>
+    <component id="sc7hf" name="DailyTaskItem.xml" path="/Component/"/>
+  </resources>
+  <publish name="DailyTask" genCode="true"/>
+</packageDescription>

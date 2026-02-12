@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,50" pivot="0.5,0.5" extention="Label">
+  <displayList>
+    <image id="n6_f34j" name="n6" src="f34jdxybr" fileName="Res/newItem2/general_top_bg2.png" pkg="5moj1x39" xy="0,0"/>
+    <loader id="n3_ddc1" name="icon" xy="2,4" pivot="0.5,0.5" size="44,44" touchable="false" url="ui://0anhreylf34jdxy9m" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n2_ddc1" name="txtValue" xy="45,10" size="96,29" fontSize="20" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="1111.00不可思议"/>
+    <component id="n5_f34j" name="addBtn" src="f34jdxybn" fileName="Component/addBtn.xml" pkg="5moj1x39" xy="142,13"/>
+  </displayList>
+</component>

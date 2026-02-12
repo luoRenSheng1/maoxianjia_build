@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,66">
+  <displayList>
+    <loader id="n2_p9n0" name="bg" xy="0,0" size="460,66" url="ui://m37flevdf34jdxyam" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n3_p9n0" name="btnList" xy="0,0" size="460,66" layout="row" defaultItem="ui://m37flevdp9n0dxy7d" align="center" vAlign="middle">
+      <item title="伤害" selectedIcon="ui://m37flevdp9n0dxy8s"/>
+      <item title="防御" selectedIcon="ui://m37flevdp9n0dxy8s"/>
+      <item title="辅助" selectedIcon="ui://m37flevdp9n0dxy8s"/>
+    </list>
+  </displayList>
+</component>

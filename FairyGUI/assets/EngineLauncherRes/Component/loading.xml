@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="158,158">
+  <displayList>
+    <loader3D id="n21_walj" name="spine" xy="79,62" pivot="0.5,0.5" anchor="true" size="158,158" group="n22_walj" scale="0.7,0.7" url="ui://n8v1s7mdo49e1x" animation="animation" skin="" loop="true" clearOnPublish="true"/>
+    <text id="n4_ppuk" name="msg" xy="26,135" pivot="0.5,0.5" size="105,39" group="n22_walj" fontSize="28" color="#00ace4" align="center" vAlign="middle" autoSize="shrink" text="加载中"/>
+    <group id="n22_walj" name="n22" xy="0,-16" size="158,191" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n21_walj" value="0"/>
+    <item time="0" type="Alpha" target="n4_ppuk" value="0"/>
+    <item time="0" type="Visible" value="false"/>
+    <item time="0" type="Visible" target="n21_walj" value="false"/>
+    <item time="9" type="Alpha" target="n21_walj" tween="true" startValue="0.77" endValue="1" duration="23"/>
+    <item time="9" type="Alpha" target="n4_ppuk" tween="true" startValue="0" endValue="1" duration="23" ease="Linear"/>
+    <item time="9" type="Visible" label="startSpine" value="true"/>
+    <item time="9" type="Visible" target="n21_walj" value="true"/>
+    <item time="10" type="Visible" value="true"/>
+  </transition>
+</component>

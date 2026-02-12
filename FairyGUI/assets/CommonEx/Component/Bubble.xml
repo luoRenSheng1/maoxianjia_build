@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" pivot="0.5,0.5" anchor="true" extention="Label">
+  <displayList>
+    <loader id="n1_yd2h" name="bubbleBg" xy="0,0" size="200,200" url="ui://5moj1x39sshpdxycw"/>
+    <text id="n0_yd2h" name="talkDes" xy="38,66" size="123,74" fontSize="18" align="center" vAlign="middle" autoSize="shrink" text="哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"/>
+  </displayList>
+</component>

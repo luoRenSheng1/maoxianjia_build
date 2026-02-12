@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="满足"/>
+    <remark page="1" value="不满足"/>
+  </controller>
+  <displayList>
+    <loader id="n3_p9n0" name="icon" xy="0,0" size="218,84" align="center" vAlign="middle" fill="scaleFree">
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_p9n0" name="title" xy="83,8" size="52,34" fontSize="24" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="重置"/>
+    <loader id="n4_p9n0" name="itemIcon" xy="64,42" size="32,32" group="n7_p9n0" url="ui://0anhreylf34jdxy9m" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n6_p9n0" sidePair="left-left"/>
+    </loader>
+    <text id="n6_p9n0" name="num" xy="97,41" size="56,34" group="n7_p9n0" fontSize="24" color="#ffffff" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="1001">
+      <gearColor controller="status" pages="1" values="#ff0000,#25211d" default="#ffffff,#25211d"/>
+    </text>
+    <group id="n7_p9n0" name="n7" xy="64,41" size="89,34" advanced="true" layout="hz" colGap="1">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

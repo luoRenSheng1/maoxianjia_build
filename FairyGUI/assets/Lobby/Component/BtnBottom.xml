@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" pivot="0.5,0.5" extention="Button" designImage="ui://s7x7ku0ndd3xdxxx6" designImageOffsetX="35" designImageOffsetY="-677" designImageAlpha="6">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <controller name="hasRed" exported="true" pages="0,,1," selected="0"/>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n1_dd3x" name="icon" xy="0,0" size="120,103" url="ui://s7x7ku0ndd3xdxxxs" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <gearDisplay controller="button" pages="2,3"/>
+      <gearXY controller="button" pages="2" values="0,0" default="14,14"/>
+      <gearSize controller="button" pages="3" values="92,92,1,1" default="120,103,1,1"/>
+      <gearLook controller="lockCtrl" pages="0,1" values="1,0,0,1|1,0,1,1"/>
+      <gearIcon controller="button" pages="3" values="ui://5moj1x39f34jdxyb0" default="ui://s7x7ku0ndd3xdxxxs"/>
+    </loader>
+    <image id="n6_f34j" name="n2" src="f34jdxyb0" fileName="Res/newItem2/general_btn_close.png" pkg="5moj1x39" xy="14,19" visible="false">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <image id="n7_f34j" name="n4" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="36,30">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </image>
+    <text id="n5_kv23" name="title" xy="11,73" size="98,42" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="角色"/>
+    <component id="n3_jl15" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="88,0" size="32,32" aspect="true">
+      <gearDisplay controller="hasRed" pages="1"/>
+    </component>
+  </displayList>
+  <Button mode="Check"/>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="662,58">
+  <controller name="ctrl" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <image id="n3_eau0" name="n3" src="eau0dxy6w" fileName="Res/rune/sdgsdgsg9.png" xy="6,0" size="650,56">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </image>
+    <text id="n5_eau0" name="n5" xy="299,14" size="64,29" fontSize="20" color="#663e20" text="未装备">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </text>
+    <image id="n0_eau0" name="n0" src="eau0dxy6v" fileName="Res/rune/sdgsdg.png" xy="0,-6" size="662,70" group="n4_eau0"/>
+    <text id="n1_eau0" name="runeName" xy="25,14" size="84,29" group="n4_eau0" fontSize="20" color="#663e20" text="怒涛符石"/>
+    <text id="n2_eau0" name="runeDesc" xy="187,15" size="364,29" group="n4_eau0" fontSize="20" color="#663e20" vars="true" autoSize="shrink" text="【{skillName=怒海狂徒}】伤害次数增加{value=999}次"/>
+    <text id="n6_eau0" name="n6" xy="556,14" size="44,29" group="n4_eau0" visible="false" fontSize="20" color="#bdaba2" autoSize="none" bold="true" strokeColor="#645757" strokeSize="2" text="普通">
+      <gearColor controller="quality" pages="0,1,2,3,4,5,6" values="#bdaba2,#645757|#74d5a4,#114926|#80bee4,#03214e|#c688dc,#3d043e|#cde370,#9f4f00|#fbd968,#a7216d|#ff877a,#981717"/>
+      <gearText controller="quality" pages="0,1,3,4,5,6" values="普通|良好|史诗|传说|神话|不朽" default="稀有"/>
+    </text>
+    <group id="n4_eau0" name="n4" xy="0,-6" size="662,70" advanced="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </group>
+  </displayList>
+</component>

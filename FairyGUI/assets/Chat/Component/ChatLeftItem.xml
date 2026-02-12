@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,89">
+  <displayList>
+    <image id="n0_kvsz" name="n0" src="kvszm" fileName="Res/ICON-touxiang.png" xy="0,0" visible="false"/>
+    <loader id="n4_ecto" name="otherHeadIcon" xy="0,0" size="71,72" url="ui://x1rxl2idkvszm" align="center" vAlign="middle" fill="scale"/>
+    <image id="n5_f34j" name="n5" src="f34jv" fileName="Res/new/chat_bg4.png" xy="83,37" size="387,52">
+      <relation target="n2_kvsz" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_kvsz" name="content" xy="118,46" size="340,34" restrictSize="0,360,0,0" fontSize="24" color="#4c2911" bold="true" text="聊天内容啊聊天内容啊聊天内容"/>
+    <text id="n3_kvsz" name="playerName" xy="85,4" size="267,34" fontSize="24" color="#4c2911" autoSize="none" bold="true" text="名字最长"/>
+  </displayList>
+  <relation target="n5_f34j" sidePair="height-height"/>
+</component>

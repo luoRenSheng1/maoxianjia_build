@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,84" pivot="0.5,0.5" extention="Button">
+  <controller name="openCtrl" exported="true" pages="2,,3," selected="0"/>
+  <displayList>
+    <image id="n0_ng62" name="n0" src="ng62dxy3r" fileName="Res/offline/offline-1.png" xy="6,0" visible="false">
+      <gearDisplay controller="openCtrl" pages="2"/>
+    </image>
+    <image id="n1_ng62" name="n1" src="ng62dxy3q" fileName="Res/offline/offline-2.png" xy="0,12" visible="false">
+      <gearDisplay controller="openCtrl" pages="3"/>
+    </image>
+    <loader id="n3_a2kw" name="icon" xy="0,0" size="80,84" url="ui://s7x7ku0na2kwdxyba"/>
+    <text id="n2_hz54" name="timeLb" xy="0,43" size="80,41" visible="false" fontSize="16" color="#ffffff" align="center" vAlign="bottom" leading="0" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="放置时长&#xA;{value=00:00:00}"/>
+    <text id="n4_a2kw" name="title" xy="-2,55" size="84,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="挂机奖励"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

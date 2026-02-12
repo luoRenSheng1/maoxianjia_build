@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="688,406" pivot="0.5,0.44" designImage="ui://6ftkwp28omyrf" designImageOffsetX="-5" designImageOffsetY="-404" designImageAlpha="46" designImageLayer="1">
+  <controller name="typeOp" exported="true" pages="0,single,1,double" selected="1"/>
+  <displayList>
+    <loader id="n22_ddc1" name="n22" xy="0,0" size="688,406" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <component id="n1_fgvo" name="close" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="629,13" size="47,43" aspect="true" visible="false">
+      <gearDisplay controller="typeOp" pages="0"/>
+      <Button icon="ui://0anhreylfpa2dxy29"/>
+    </component>
+    <text id="n2_fgvo" name="titleLb" xy="133,17" pivot="0.5,0.5" size="421,50" fontSize="32" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="3" text="系统提示"/>
+    <richtext id="n3_fgvo" name="content" xy="93,101" size="502,184" fontSize="28" color="#3c3c3c" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" autoClearText="true" text="ARE YOU SURE ABOUT ADDING NAME FRIENDS"/>
+    <component id="n8_xihe" name="okBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="378,298" size="218,84" group="n10_xihe">
+      <gearXY controller="typeOp" pages="0,1" values="234,298|378,298"/>
+      <Button title="确认" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n9_xihe" name="cancleBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="92,298" size="218,84" group="n10_xihe">
+      <gearDisplay controller="typeOp" pages="1"/>
+      <gearXY controller="typeOp" pages="0,1" values="33,287|92,298"/>
+      <Button title="取消" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n23_jhjz" name="HandTips" src="ddc1dxy4v" fileName="Component/Common/HandTips.xml" xy="487,339" group="n10_xihe" visible="false"/>
+    <group id="n10_xihe" name="n10" xy="92,281" size="504,116"/>
+  </displayList>
+</component>

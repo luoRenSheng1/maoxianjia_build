@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlf34jdxy9l" designImageAlpha="0">
+  <controller name="fightCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="涨"/>
+    <remark page="1" value="降"/>
+    <remark page="2" value="平"/>
+  </controller>
+  <controller name="isNew" pages="0,,1," selected="0">
+    <remark page="0" value="否"/>
+    <remark page="1" value="是"/>
+  </controller>
+  <controller name="isGuide" pages="0,,1," selected="0">
+    <remark page="0" value="不是引导"/>
+    <remark page="1" value="引导"/>
+  </controller>
+  <controller name="btnCtrl" pages="2,,3," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="传承"/>
+  </controller>
+  <controller name="hasEntryOfOld" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+  </controller>
+  <controller name="hasEntryOfNew" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+  </controller>
+  <displayList>
+    <loader id="n243_ucd4" name="n243" xy="16,322" size="314,496" group="n254_ucd4" url="ui://ddc23erlucd4dxy9w" fill="scaleFree">
+      <gearSize controller="btnCtrl" pages="3" values="314,434,1,1" default="314,496,1,1"/>
+      <gearIcon controller="isNew" pages="0" values="ui://ddc23erlucd4dxy9w" default="ui://ddc23erlucd4dxy9s"/>
+      <relation target="n252_ucd4" sidePair="height-height"/>
+    </loader>
+    <image id="n255_ucd4" name="n255" src="ucd4dxy9r" fileName="Res/new2/ordinary_bg51.png" xy="6,271" group="n254_ucd4">
+      <gearDisplay controller="isNew" pages="1"/>
+    </image>
+    <component id="n244_ucd4" name="equip3" src="skp6p" fileName="Component/ComEquipItem.xml" pkg="5moj1x39" xy="43,349" group="n254_ucd4">
+      <relation target="n243_ucd4" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n245_ucd4" name="name3" xy="179,363" size="124,34" group="n254_ucd4" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="装备的名称">
+      <gearColor controller="isNew" pages="1" values="#fcf78e,#000000" default="#ffffff,#000000"/>
+      <relation target="n244_ucd4" sidePair="left-right"/>
+    </text>
+    <text id="n246_ucd4" name="equipLv3" xy="177,407" size="55,34" group="n254_ucd4" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=1}">
+      <relation target="n244_ucd4" sidePair="left-right"/>
+    </text>
+    <loader id="n247_ucd4" name="n247" xy="34,488" size="282,48" group="n254_ucd4" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n243_ucd4" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n248_ucd4" name="n248" xy="111,495" size="52,34" group="n250_ucd4" fontSize="24" color="#4c2911" bold="true" text="战力"/>
+    <text id="n249_ucd4" name="fightLb3" xy="168,495" size="57,34" group="n250_ucd4" fontSize="24" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="2" text="+150">
+      <gearColor controller="fightCtrl" pages="1" values="#f33f3c,#000000" default="#b8df13,#000000"/>
+      <relation target="n248_ucd4" sidePair="left-left"/>
+    </text>
+    <group id="n250_ucd4" name="n250" xy="111,495" size="114,34" group="n254_ucd4" advanced="true" layout="hz" colGap="5" excludeInvisibles="true">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n247_ucd4" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n251_ucd4" name="mainAttrList3" xy="34,548" size="280,34" group="n257_llb1" defaultItem="ui://ddc23erlucd4dxy9u">
+      <gearXY controller="btnCtrl" pages="2,3" values="34,548|34,487"/>
+      <relation target="n243_ucd4" sidePair="center-center"/>
+      <item/>
+    </list>
+    <list id="n252_ucd4" name="attrList3" xy="34,592" size="280,206" group="n257_llb1" lineGap="5" defaultItem="ui://ddc23erlucd4dxy9v">
+      <gearXY controller="btnCtrl" pages="2,3" values="34,592|34,531"/>
+      <relation target="n243_ucd4" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n257_llb1" name="n257" xy="34,548" size="280,250" group="n254_ucd4" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true">
+      <gearXY controller="btnCtrl" pages="2,3" values="34,548|34,487"/>
+      <relation target="n243_ucd4" sidePair="top-top"/>
+    </group>
+    <group id="n254_ucd4" name="n254" xy="6,271" size="324,547" group="n241_ucd4"/>
+    <loader id="n221_ucd4" name="n221" xy="344,322" size="370,686" group="n242_ucd4" url="ui://ddc23erlucd4dxy9s" fill="scaleFree">
+      <gearSize controller="btnCtrl" pages="3" values="370,566,1,1" default="370,686,1,1"/>
+      <gearIcon controller="isNew" pages="1" values="ui://ddc23erlucd4dxy9w" default="ui://ddc23erlucd4dxy9s"/>
+      <relation target="n231_ucd4" sidePair="height-height"/>
+    </loader>
+    <image id="n253_ucd4" name="n253" src="ucd4dxy9r" fileName="Res/new2/ordinary_bg51.png" xy="335,271" group="n242_ucd4">
+      <gearDisplay controller="isNew" pages="0"/>
+    </image>
+    <component id="n225_ucd4" name="equip4" src="skp6p" fileName="Component/ComEquipItem.xml" pkg="5moj1x39" xy="373,349" group="n242_ucd4">
+      <relation target="n221_ucd4" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n226_ucd4" name="name4" xy="509,363" size="148,34" group="n242_ucd4" fontSize="24" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="新装备的名称">
+      <gearColor controller="isNew" pages="1" values="#ffffff,#000000" default="#fcf78e,#000000"/>
+      <relation target="n225_ucd4" sidePair="left-right"/>
+    </text>
+    <text id="n227_ucd4" name="equipLv4" xy="507,407" size="68,34" group="n242_ucd4" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=16}">
+      <relation target="n225_ucd4" sidePair="left-right"/>
+    </text>
+    <loader id="n222_ucd4" name="n222" xy="367,488" size="330,48" group="n242_ucd4" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n221_ucd4" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n223_ucd4" name="n223" xy="470,495" size="52,34" group="n228_ucd4" fontSize="24" color="#4c2911" bold="true" text="战力"/>
+    <text id="n224_ucd4" name="fightLb4" xy="527,493" size="57,34" group="n228_ucd4" fontSize="24" color="#f33f3c" bold="true" strokeColor="#000000" strokeSize="2" text="+150">
+      <gearColor controller="fightCtrl" pages="0" values="#f33f3c,#000000" default="#b8df13,#000000"/>
+    </text>
+    <group id="n228_ucd4" name="n228" xy="470,493" size="114,36" group="n242_ucd4" advanced="true" layout="hz" colGap="5" excludeInvisibles="true">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n222_ucd4" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n230_ucd4" name="mainAttrList4" xy="389,549" size="280,34" group="n258_llb1" defaultItem="ui://ddc23erlucd4dxy9u">
+      <gearXY controller="btnCtrl" pages="2,3" values="389,549|389,487"/>
+      <relation target="n221_ucd4" sidePair="center-center"/>
+      <item/>
+    </list>
+    <list id="n231_ucd4" name="attrList4" xy="390,593" size="280,190" group="n258_llb1" lineGap="5" defaultItem="ui://ddc23erlucd4dxy9v">
+      <gearXY controller="btnCtrl" pages="2,3" values="390,593|390,531"/>
+      <relation target="n221_ucd4" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n258_llb1" name="n258" xy="389,549" size="281,234" group="n242_ucd4" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true">
+      <gearXY controller="btnCtrl" pages="2,3" values="389,549|389,487"/>
+      <relation target="n221_ucd4" sidePair="top-top"/>
+    </group>
+    <loader id="n232_ucd4" name="n232" xy="363,794" size="330,16" group="n242_ucd4" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n221_ucd4" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n256_ucd4" name="n256" xy="363,857" size="330,16" group="n242_ucd4" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <gearDisplay controller="btnCtrl" pages="3"/>
+      <relation target="n221_ucd4" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n234_ucd4" name="autoSell2" src="p4bn1e" fileName="Component/Check.xml" xy="377,834" group="n242_ucd4">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n221_ucd4" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n235_ucd4" name="resolveBtn4" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="364,892" size="158,84" group="n237_ucd4">
+      <Button title="出售" titleFontSize="32" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n236_ucd4" name="repalceBtn4" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="536,892" size="158,84" group="n237_ucd4">
+      <Button title="替换" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n237_ucd4" name="n237" xy="364,892" size="330,84" group="n242_ucd4" advanced="true">
+      <gearDisplay controller="btnCtrl" pages="2"/>
+      <relation target="n221_ucd4" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n238_ucd4" name="recycleBtn4" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="364,893" size="158,84" group="n240_ucd4">
+      <Button title="回收" titleFontSize="32" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n239_ucd4" name="replaceBtn5" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="536,893" size="158,84" group="n240_ucd4">
+      <Button title="替换" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n240_ucd4" name="n240" xy="364,893" size="330,84" group="n242_ucd4" advanced="true">
+      <gearDisplay controller="btnCtrl" pages="3"/>
+      <relation target="n221_ucd4" sidePair="bottom-bottom"/>
+    </group>
+    <group id="n242_ucd4" name="n242" xy="335,271" size="379,737" group="n241_ucd4"/>
+    <group id="n241_ucd4" name="n241" xy="6,271" size="708,737" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

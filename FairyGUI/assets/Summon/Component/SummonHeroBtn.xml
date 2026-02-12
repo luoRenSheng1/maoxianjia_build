@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <controller name="typeCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="1次"/>
+    <remark page="1" value="10次"/>
+  </controller>
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <loader id="n0_surf" name="icon" xy="0,0" pivot="0.5,0.5" size="218,84" url="ui://5moj1x39f34jdxyah" fill="scaleFree">
+      <gearIcon controller="typeCtrl" pages="0,1" values="ui://5moj1x39f34jdxyah|ui://5moj1x39f34jdxy9s"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_surf" name="n1" xy="44,6" size="129,34" fontSize="24" color="#ffffff" align="center" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="召唤{value=1}次">
+      <gearText controller="typeCtrl" pages="0" values="召唤{value=1}次" default="召唤{value=10}次"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n3_surf" name="n3" xy="84,44" size="26,26" group="n4_surf" aspect="true" url="ui://i7ojazuua2kw3f" fill="scale"/>
+    <text id="n2_surf" name="tickNumLb" xy="110,42" size="27,29" group="n4_surf" fontSize="20" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#25211d" strokeSize="2" text="×{value=1}">
+      <gearText controller="typeCtrl" pages="1" values="×{value=10}" default="×{value=1}"/>
+    </text>
+    <group id="n4_surf" name="n4" xy="84,42" size="53,29" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n5_n5nh" name="n5" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="186,0">
+      <gearDisplay controller="redCtrl" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

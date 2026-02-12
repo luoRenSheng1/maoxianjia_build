@@ -1,0 +1,159 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	
+	 
+	
+	 
+	
+	 
+				
+						
+				        
+
+
+
+//客户端请求家园信息
+message GetHometown_CS    //eMsg_Hometown_CS = 1300;
+{  
+}
+
+
+
+//客户端请求家园信息回复
+message GetHometown_SC       //eMsg_Hometown_SC = 1301; 
+{ 	
+	optional eErrCode	result = 1; //处理结果
+	repeated BuildInfo builds = 2;  //建筑信息
+	                                //探险营地 任务  其他特殊功能待设计案子
+}
+
+
+ //具体建筑最新信息 -- 作弊码或管理员修改
+message BuildInfo_PC       //eMsg_BuildInfo_PC = 1302; 
+{ 	
+	optional BuildInfo build = 1;  //建筑信息
+}
+
+
+
+
+//建筑物开始解锁
+message BuildUnlock_CS    //eMsg_BuildUnlock_CS = 1303; 
+{  
+	optional eBuildType build = 1;  //要升级的建筑
+}
+
+
+
+//建筑物开始解锁回复
+message BuildUnlock_SC       //eMsg_BuildUnlock_SC = 1304;   
+{ 	
+	optional eErrCode	result = 1; //处理结果
+	optional BuildInfo build = 2;  //建筑信息
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+}
+
+
+//建筑物解锁结果服务器端推送
+message BuildUnlock_PC      //eMsg_BuildUnlock_PC = 1305; 
+{ 	
+	optional BuildInfo build = 1;  //建筑信息
+}
+
+//家园建筑驻扎插槽信息
+message BuildPetSlot
+{
+    optional uint32 index = 1; //插槽索引 ，从0开始
+    optional uint64 pet_id = 2; //驻扎的宠物id
+}
+
+
+//客户端请求宠物派遣
+message PetDispatched_CS    //eMsg_PetDispatched_CS = 1306;  
+{   
+	optional eBuildType build = 1; //要派遣的建筑
+	repeated BuildPetSlot pet_ids = 2; //要派遣的宠物id
+}
+
+//客户端请求宠物派遣回复	
+message PetDispatched_SC      //eMsg_PetDispatched_SC = 1307;   
+{ 	
+	optional eErrCode	result = 1; //处理结果
+	optional BuildInfo build = 2;  //建筑信息
+	repeated uint64 pet_ids = 3; //替换下来的宠物
+}
+
+//获取产品请求
+message ObtainProduct_CS   //eMsg_ObtainProduct_CS = 1341;
+{  
+	optional eBuildType build = 1; //要获取产品的建筑
+}
+
+//获取产品请求反馈
+message ObtainProduct_SC    //eMsg_ObtainProduct_SC = 1342; 
+{  
+	optional eErrCode	result = 1; //处理结果
+	optional BuildInfo build = 2;  //建筑信息--重新刷新生产时间和产品数量
+	optional Finance finance = 3; //最新账户货币信息,各种货币余额
+	repeated ItemInfo items = 4;  //获取道具
+	repeated RandBoxResult box_rand_result = 5; //随机结果--和老虎机一样普通道具客户端需要自行添加本地管理器，如果是角色，技能，符石，宠物会通过pc包下发完整通知
+                                           	//随机宝箱的结果，size为0，proto不占用内存空间
+}
+
+
+	  
+	
+
+
+//建筑出产通知
+message ProduceEnd_PC    //eMsg_ProduceEnd_PC = 1339;  
+{  
+	optional BuildInfo build = 2;  //建筑信息--包含最新产量信息
+}
+
+//客户端UI玩家离开家园请求
+message LeaveHomeTown_CS   //eMsg_LeaveHomeTown_CS = 1343;
+{  
+}
+
+//客户端UI玩家离开家园反馈--这个回包客户端不用处理
+message LeaveHomeTown_SC    //eMsg_LeaveHomeTown_SC = 1344;  
+{  
+	optional eErrCode	result = 1; //处理结果
+}
+
+
+
+	
+
+//建筑物间驻扎调换请求
+message PetSwitchBetweenBuilds_CS   //eMsg_PetSwitchBetweenBuilds_CS = 1345; 
+{   
+	optional eBuildType src_build = 1; //源驻扎建筑
+	optional BuildPetSlot src_pet_ids = 2; //源驻扎建筑的宠物id
+	optional eBuildType dst_build = 3; //目的驻扎建筑 如果源 == 目的，则表示同建筑内 调换位置
+	optional BuildPetSlot dst_pet_ids = 4; //目的驻扎建筑的插槽信息
+}
+
+//建筑物间驻扎调换反馈	
+message PetSwitchBetweenBuilds_SC      //eMsg_PetSwitchBetweenBuilds_SC = 1346; 
+{ 	
+	optional eErrCode	result = 1; //处理结果
+	optional BuildInfo src_build = 2;  //源建筑信息
+	optional BuildInfo dst_build = 3;  //目的建筑信息
+	optional uint64 pet_id = 4; //目的建筑替换下来的宠物
+}
+
+
+	  
+
+//生产已满通知
+message ProduceIsFull_PC    //eMsg_ProduceIsFull_PC = 1347;
+{  
+	optional BuildInfo build = 2;  //建筑信息
+}

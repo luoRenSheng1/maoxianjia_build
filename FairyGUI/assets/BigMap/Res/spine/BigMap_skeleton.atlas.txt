@@ -1,0 +1,11 @@
+BigMap_skeleton.png
+	size: 184, 72
+	filter: Linear, Linear
+	pma: true
+Background Light
+	bounds: 0, 0, 74, 72
+	offsets: 2, 3, 78, 78
+Sword
+	bounds: 78, 22, 51, 50
+Sword2
+	bounds: 133, 22, 51, 50

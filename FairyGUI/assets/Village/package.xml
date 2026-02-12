@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8glegefc">
+  <resources>
+    <component id="uobv0" name="Panel.xml" path="/Component/" exported="true"/>
+    <component id="uobv1" name="MapPanel.xml" path="/Component/"/>
+    <image id="uobv8" name="主界面.png" path="/Sample/"/>
+    <image id="uobvd" name="1.png" path="/Res/newRes/"/>
+    <component id="uobvf" name="VillageBuildItem.xml" path="/Component/"/>
+    <component id="pchvi" name="BuildItem.xml" path="/Component/"/>
+    <component id="pchvl" name="VillageHome.xml" path="/" exported="true"/>
+    <component id="pchvs" name="MapBg.xml" path="/Component/"/>
+    <component id="vnmw22" name="UserPanel.xml" path="/Component/"/>
+    <component id="ng6228" name="MapItem.xml" path="/Component/"/>
+    <image id="hz542i" name="bg.png" path="/Res/newMap/" scale="tile" duplicatePadding="true"/>
+    <image id="ed9g2n" name="01.jpg" path="/Res/newMap/"/>
+    <image id="ed9g2o" name="02.jpg" path="/Res/newMap/"/>
+    <image id="ed9g2p" name="03.jpg" path="/Res/newMap/"/>
+    <image id="ed9g2q" name="04.jpg" path="/Res/newMap/"/>
+    <image id="surf2r" name="pinjie.png" path="/Res/newMap/" scale="tile"/>
+    <image id="l9552s" name="16.png" path="/Res/"/>
+    <component id="nif6h" name="FrameMask_Build.xml" path="/Component/" exported="true"/>
+    <component id="oppet" name="PetShow.xml" path="/Component/" exported="true"/>
+    <component id="oppew" name="PetCom.xml" path="/Component/" exported="true"/>
+    <image id="nif60" name="bg1.png" path="/Res/"/>
+    <image id="nif61" name="bg6.png" path="/Res/"/>
+    <image id="nif62" name="bg4.png" path="/Res/"/>
+    <image id="nif63" name="n17.png" path="/Res/"/>
+    <image id="nif64" name="yzz.png" path="/Res/"/>
+    <image id="nif65" name="n11.png" path="/Res/"/>
+    <image id="nif66" name="n10.png" path="/Res/"/>
+    <image id="nif67" name="bg3.png" path="/Res/"/>
+    <image id="nif68" name="家园3.jpg" path="/Res/"/>
+    <image id="nif6a" name="xian.png" path="/Res/" scale="9grid" scale9grid="27,1,64,4"/>
+    <image id="nif6b" name="n9.png" path="/Res/"/>
+    <image id="nif6c" name="n6.png" path="/Res/" scale="9grid" scale9grid="26,24,52,48"/>
+    <image id="nif6d" name="n3.png" path="/Res/"/>
+    <image id="nif6e" name="bg5.png" path="/Res/"/>
+    <image id="nif6f" name="家园2.jpg" path="/Res/"/>
+    <image id="nif6g" name="bg2.png" path="/Res/"/>
+    <image id="nif6j" name="n1.png" path="/Res/"/>
+    <image id="nif6k" name="fff.png" path="/Res/"/>
+    <image id="nif6l" name="n5.png" path="/Res/" scale="9grid" scale9grid="70,35,140,70"/>
+    <image id="nif6o" name="n13.png" path="/Res/"/>
+    <image id="nif6p" name="n2.png" path="/Res/"/>
+    <image id="nif6q" name="n14.png" path="/Res/"/>
+    <image id="nif6r" name="n12.png" path="/Res/"/>
+    <image id="nif6s" name="n7.png" path="/Res/"/>
+    <image id="oppeu" name="n4.png" path="/Res/" scale="9grid" scale9grid="50,1,100,2"/>
+    <image id="oppev" name="n16.png" path="/Res/" scale="9grid" scale9grid="22,25,98,75"/>
+    <image id="oppez" name="p4.png" path="/Res/"/>
+    <image id="oppe10" name="p5.png" path="/Res/"/>
+    <image id="oppe11" name="p6.png" path="/Res/"/>
+    <image id="oppe12" name="p7.png" path="/Res/"/>
+    <image id="oppe13" name="p1.png" path="/Res/"/>
+    <image id="oppe14" name="p2.png" path="/Res/"/>
+    <image id="oppe15" name="p3.png" path="/Res/"/>
+    <image id="oppe16" name="n8.png" path="/Res/" scale="9grid" scale9grid="16,8,105,16"/>
+    <image id="fmyf17" name="家园1.jpg" path="/Res/"/>
+    <component id="nif6i" name="BuildInfo.xml" path="/" exported="true"/>
+    <component id="oppex" name="Hint.xml" path="/" exported="true"/>
+    <component id="oppey" name="PetInfo.xml" path="/" exported="true"/>
+    <misc id="f5q430" name="Village_JinBi.atlas" path="/Res/spine/"/>
+    <image id="f5q431" name="Village_JinBi.png" path="/Res/spine/"/>
+    <misc id="f5q432" name="Village_WoPeng.atlas" path="/Res/spine/"/>
+    <image id="f5q433" name="Village_WoPeng.png" path="/Res/spine/"/>
+    <spine id="f5q434" name="Village_JinBi.skel" path="/Res/spine/" width="602" height="252" require="f5q430,f5q431" atlasNames="Village_JinBi" anchor="301,126"/>
+    <spine id="f5q435" name="Village_WoPeng.skel" path="/Res/spine/" width="602" height="252" require="f5q432,f5q433" atlasNames="Village_WoPeng" anchor="301,126"/>
+    <misc id="t89j37" name="Village_JiaGong.atlas" path="/Res/spine/"/>
+    <image id="t89j38" name="Village_JiaGong.png" path="/Res/spine/"/>
+    <spine id="t89j36" name="Village_JiaGong.skel" path="/Res/spine/" width="601" height="252" require="t89j37,t89j38" atlasNames="Village_JiaGong" anchor="301,126"/>
+    <misc id="sylb3g" name="Village_XunLian.atlas" path="/Res/spine/"/>
+    <image id="sylb3h" name="Village_XunLian.png" path="/Res/spine/"/>
+    <spine id="sylb3f" name="Village_XunLian.skel" path="/Res/spine/" width="602" height="252" require="sylb3g,sylb3h" atlasNames="Village_XunLian" anchor="301,126"/>
+    <misc id="sylb3m" name="Village_LiangShi.atlas" path="/Res/spine/"/>
+    <image id="sylb3n" name="Village_LiangShi.png" path="/Res/spine/"/>
+    <spine id="sylb3l" name="Village_LiangShi.skel" path="/Res/spine/" width="602" height="252" require="sylb3m,sylb3n" atlasNames="Village_LiangShi" anchor="301,126"/>
+    <misc id="sylb3p" name="Village_FuShi.atlas" path="/Res/spine/"/>
+    <image id="sylb3q" name="Village_FuShi.png" path="/Res/spine/"/>
+    <spine id="sylb3o" name="Village_FuShi.skel" path="/Res/spine/" width="602" height="252" require="sylb3p,sylb3q" atlasNames="Village_FuShi" anchor="301,126"/>
+    <image id="r2pa3r" name="n15.png" path="/Res/"/>
+    <image id="ajor3s" name="家园-加工厂-家园宠物1.png" path="/Res/new/"/>
+    <image id="ajor3t" name="家园-加工厂-家园宠物2.png" path="/Res/new/"/>
+    <image id="ajor3u" name="家园-粮食工坊.png" path="/Res/new/"/>
+    <image id="ajor3v" name="家园-石头矿区.png" path="/Res/new/"/>
+    <image id="ajor3w" name="家园-探索营地.png" path="/Res/new/"/>
+    <image id="ajor3x" name="家园-窝棚.png" path="/Res/new/"/>
+    <image id="ajor3y" name="家园-训练场.png" path="/Res/new/"/>
+    <image id="ajor3z" name="首页-家园.png" path="/Res/new/"/>
+    <image id="ajor40" name="家园-加工厂.png" path="/Res/new/"/>
+    <image id="ajor41" name="家园-加工厂-家园宠物.png" path="/Res/new/"/>
+    <image id="ajor42" name="pet_btn1 .png" path="/Res/new/"/>
+    <image id="ajor43" name="pet_bg41.png" path="/Res/new/"/>
+    <image id="ajor44" name="pet_name_bg1.png" path="/Res/new/" scale="9grid" scale9grid="37,14,74,17"/>
+    <image id="ajor45" name="Homeworld_top_bg01.png" path="/Res/new/"/>
+  </resources>
+  <publish name="Village" genCode="true"/>
+</packageDescription>

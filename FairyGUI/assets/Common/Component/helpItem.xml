@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,80">
+  <displayList>
+    <loader id="n8_f34j" name="n8" xy="0,0" size="640,80" url="ui://5moj1x39f34jdxyae" fill="scaleFree"/>
+    <richtext id="n7_hz5c" name="content" xy="12,23" size="616,34" fontSize="24" color="#4c2911" ubb="true" autoSize="height" bold="true" text="购买60元礼包后，可每天登录领取每日特惠礼包">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" mask="n0_uq40" reversedMask="true">
+  <controller name="ctrl" pages="0,,1,,6," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+    <remark page="2" value="下"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n10_tcgl" controller="posType" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0,6" objectId="n10_tcgl" controller="posType" targetPage="0"/>
+  </controller>
+  <controller name="rolePos" pages="0,,1,,3," selected="0"/>
+  <displayList>
+    <component id="n11_tcgl" name="n11" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="-1,0" alpha="0.8" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n6_uq40" name="touchEff" src="uq40dxy47" fileName="Res/guideRes/g2.png" xy="135,393" pivot="0.5,0.5" size="278,134" visible="false">
+      <relation target="n0_uq40" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <graph id="n0_uq40" name="window" xy="165,422" size="218,76" touchable="false" type="rect" lineSize="0" corner="25"/>
+    <graph id="n13_trj7" name="window1" xy="268,424" size="100,100" visible="false" touchable="false" type="eclipse" lineSize="0"/>
+    <loader id="n12_trj7" name="window2" xy="191,444" size="50,50" visible="false" touchable="false" url="ui://5moj1x39jvjmdxy7i" align="center" vAlign="middle" fill="scaleFree"/>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n6_uq40" tween="true" startValue="1,1" endValue="1.2,1.2" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

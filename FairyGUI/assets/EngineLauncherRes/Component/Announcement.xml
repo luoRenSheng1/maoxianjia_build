@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,89" extention="Label">
+  <displayList>
+    <text id="n16_doww" name="n16" xy="0,0" size="720,89" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="抵制不良游戏  拒绝盗版游戏  注意自我保护  谨防受骗上当&#xA;适度游戏益脑  沉迷游戏伤身  合理安排时间  享受健康生活"/>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1600" overflow="hidden" designImageLayer="1">
+  <controller name="c1" pages="" selected="-1"/>
+  <displayList>
+    <loader id="n12_u4yd" name="map1" xy="0,0" size="720,800" group="n26_c09a" url="ui://5moj1x39pboadxydi"/>
+    <loader id="n24_pboa" name="map2" xy="0,800" size="720,800" group="n26_c09a" url="ui://5moj1x39pboadxydj"/>
+    <loader id="n13_u4yd" name="n13" xy="171,332" size="355,222" group="n26_c09a" url="ui://5moj1x39nl60dxydd"/>
+    <loader3D id="n27_vxf7" name="boxSpine" xy="260,305" size="200,200" group="n26_c09a" url="ui://5moj1x39vxf7dxydm" animation="CommonEx_bx_1" skin="" loop="true"/>
+    <loader id="n19_womu" name="box" xy="110,285" size="500,300" group="n26_c09a"/>
+    <loader3D id="n20_womu" name="boxTips" xy="300,240" size="120,120" group="n26_c09a" url="ui://pdufy3ketdju63" animation="BigMap_wbqp" skin="" loop="true"/>
+    <loader id="n21_nl60" name="boxBar" xy="308,232" size="80,80" group="n26_c09a" scale="1.3,1.3" url="ui://pdufy3ketdju67"/>
+    <loader3D id="n32_bpu2" name="TenMan" xy="35,190" size="649,396" group="n26_c09a" touchable="false" url="ui://5moj1x39bpu2dxyds" animation="CommonEx_tenman1" skin=""/>
+    <component id="n3_osqg" name="panel0" src="osqg1l" fileName="Component/SokobanMapRoot.xml" xy="46,612" size="630,840" group="n26_c09a" touchable="false"/>
+    <component id="n25_c09a" name="panel1" src="osqg1l" fileName="Component/SokobanMapRoot.xml" xy="46,612" size="630,840" group="n26_c09a"/>
+    <component id="n29_ozcv" name="panel2" src="osqg1l" fileName="Component/SokobanMapRoot.xml" xy="46,612" size="630,840" group="n26_c09a"/>
+    <loader3D id="n6_osqg" name="terminus" xy="792,1093" pivot="1,1" size="100,100" group="n26_c09a" url="ui://pdufy3keef8u4u" align="center" vAlign="middle" animation="BigMap_djlj" skin="" loop="true"/>
+    <graph id="n5_osqg" name="hero" xy="307,957" pivot="0.5,0.5" size="100,100" group="n26_c09a"/>
+    <loader id="n18_u4yd" name="bottom" xy="0,1431" size="720,169" group="n26_c09a" url="ui://5moj1x39nl60dxyd8"/>
+    <loader id="n22_nl60" name="pos1" xy="220,405" size="10,10" group="n26_c09a"/>
+    <loader id="n23_nl60" name="pos2" xy="395,405" size="10,10" group="n26_c09a"/>
+    <text id="n28_pmwj" name="num" xy="335,184" pivot="0.5,0.5" size="50,42" group="n26_c09a" fontSize="30" color="#ffffff" align="center" vAlign="middle" letterSpacing="2" bold="true" strokeColor="#000000" strokeSize="3" text="0/0"/>
+    <group id="n26_c09a" name="mapRoot" xy="0,0" size="892,1600"/>
+  </displayList>
+</component>

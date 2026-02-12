@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1tqiwa7a">
+  <resources>
+    <image id="mg7g0" name="n6.png" path="/Res/" atlas="alone"/>
+    <image id="mg7g1" name="n4.png" path="/Res/"/>
+    <image id="mg7g2" name="n5.png" path="/Res/"/>
+    <image id="mg7g3" name="n1.png" path="/Res/" scale="9grid" scale9grid="67,0,35,205"/>
+    <image id="mg7g4" name="n2.png" path="/Res/"/>
+    <image id="mg7g5" name="n3.png" path="/Res/"/>
+    <component id="mg7g6" name="SevenDay.xml" path="/" exported="true"/>
+    <component id="mg7g7" name="SevenItem.xml" path="/Component/" exported="true"/>
+    <component id="mg7g8" name="SevenBigItem.xml" path="/Component/" exported="true"/>
+    <image id="mg7g9" name="n7.png" path="/Res/" scale="9grid" scale9grid="40,51,80,102"/>
+    <image id="mg7gb" name="n8.png" path="/Res/"/>
+    <image id="tcglc" name="11.PNG" path="/Res/newRes/"/>
+    <image id="tcgld" name="n9.png" path="/Res/"/>
+    <image id="ucd4e" name="7日签到.png" path="/Res/new/"/>
+    <image id="ucd4f" name="sign in_bg12.png" path="/Res/new/" scale="9grid" scale9grid="30,63,143,30"/>
+    <image id="ucd4g" name="sign in_bg13.png" path="/Res/new/" scale="9grid" scale9grid="16,20,167,7"/>
+    <image id="ucd4h" name="sign in_bg01.png" path="/Res/new/" scale="9grid" scale9grid="209,116,269,26"/>
+    <image id="ucd4i" name="sign in_bg11.png" path="/Res/new/" scale="9grid" scale9grid="27,61,150,31"/>
+    <image id="ucd4j" name="sign in_bg14.png" path="/Res/new/"/>
+  </resources>
+  <publish name="SevenDay" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <loader id="n8_llb1" name="n8" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <image id="n0_ftc9" name="n0" src="surfi" fileName="Res/n78.png" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <image id="n1_ftc9" name="n1" src="surfs" fileName="Res/n8.png" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <component id="n2_ftc9" name="summonListShade" src="ftc92m" fileName="Component/GiftList.xml" xy="0,366" size="720,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n3_ftc9" name="bannerBg" xy="0,0" size="720,351" url="ui://i7ojazuuftc92j" fill="scaleFree" clearOnPublish="true"/>
+    <graph id="n7_zthq" name="spine" xy="317,63" pivot="0.5,1" size="100,100"/>
+    <image id="n4_ftc9" name="n4" src="ftc92i" fileName="Res/gift/nn 1044 .png" xy="203,159" size="307,152"/>
+    <image id="n5_ftc9" name="n5" src="ftc929" fileName="Res/gift/hyjtruj.png" xy="104,276"/>
+    <text id="n6_ftc9" name="n6" xy="267,285" size="185,54" fontSize="40" color="#ffe9be" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#743517" strokeSize="2" text="礼包商店">
+      <relation target="n5_ftc9" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

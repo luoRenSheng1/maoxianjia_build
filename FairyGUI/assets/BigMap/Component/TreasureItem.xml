@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,80" pivot="0.5,0.5" anchor="true" opaque="false">
+  <displayList>
+    <loader id="n6_jozz" name="di" xy="-14,-24" pivot="0.5,0.5" size="128,128" scale="0.85,0.85" url="ui://pdufy3kejozzija" align="center" vAlign="middle"/>
+    <loader id="n11_jozz" name="icon" xy="-14,-24" pivot="0.5,0.5" size="128,128" scale="0.85,0.85" url="ui://pdufy3kejozzij9" align="center" vAlign="middle"/>
+    <movieclip id="n7_jozz" name="n7" src="100ni8g" fileName="Component/Dian.jta" xy="0,0" pivot="0.5,0.5" scale="0.85,0.85" blend="add"/>
+    <movieclip id="n8_jozz" name="n8" src="100ni5w" fileName="Component/FaGuang.jta" xy="-25,-10" pivot="0.5,0.5" scale="0.85,0.85" blend="add"/>
+    <movieclip id="n9_jozz" name="n9" src="100ni8f" fileName="Component/Xing.jta" xy="0,5" pivot="0.5,0.5" scale="0.85,0.85" blend="add"/>
+    <component id="n4_tdju" name="bar" src="tdju67" fileName="Component/WorkingBar.xml" xy="8,-80">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader3D id="n2_tdju" name="cutSpine" xy="50,-22" pivot="0.5,0.5" anchor="true" size="100,100" url="ui://pdufy3ketdju63" align="center" vAlign="middle" animation="BigMap_wbqp" skin="" loop="true"/>
+  </displayList>
+  <transition name="wajue" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n11_jozz" tween="true" startValue="1" endValue="0" duration="24" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="24" type="Alpha" target="n11_jozz" tween="true" startValue="0" endValue="1" duration="23" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+  <transition name="xiaoshi">
+    <item time="0" type="Alpha" target="n11_jozz" value="0"/>
+    <item time="0" type="Alpha" target="n6_jozz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n7_jozz" value="0"/>
+    <item time="0" type="Alpha" target="n8_jozz" value="0"/>
+    <item time="0" type="Alpha" target="n9_jozz" value="0"/>
+  </transition>
+  <transition name="daiji">
+    <item time="0" type="Alpha" target="n11_jozz" value="1"/>
+    <item time="0" type="Alpha" target="n6_jozz" value="1"/>
+    <item time="0" type="Alpha" target="n7_jozz" value="1"/>
+    <item time="0" type="Alpha" target="n8_jozz" value="1"/>
+    <item time="0" type="Alpha" target="n9_jozz" value="1"/>
+  </transition>
+</component>

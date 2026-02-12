@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="scroll">
+  <displayList>
+    <component id="n3_ot6f" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n69_ju03" name="n69" xy="2,61" size="702,1193" group="n4_ot6f" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n70_ju03" name="n70" xy="2,25" size="702,97" group="n4_ot6f" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <text id="n2_ot6f" name="n2" xy="328,34" size="49,42" group="n4_ot6f" fontSize="30" text="PM"/>
+    <component id="n85_i8ev" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="633,32" group="n4_ot6f"/>
+    <image id="n6_ot6f" name="n6" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="374,133" size="203,66" group="n7_ot6f"/>
+    <text id="n5_ot6f" name="pmIpt1" xy="387,140" size="182,47" group="n7_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="请输入等级" keyboardType="4"/>
+    <text id="n10_ot6f" name="n10" xy="71,149" size="294,35" group="n7_ot6f" fontSize="25" align="right" autoSize="none" text="增加角色等级(addlevel)"/>
+    <component id="n46_ot6f" name="sendBtn1" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,133" size="70,58" group="n7_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n7_ot6f" name="n7" xy="71,133" size="600,66" group="n4_ot6f"/>
+    <text id="n8_ot6f" name="n8" xy="27,91" size="167,35" group="n4_ot6f" fontSize="25" text="快捷PM命令："/>
+    <image id="n11_ot6f" name="n11" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="372,204" size="204,66" group="n14_ot6f"/>
+    <text id="n12_ot6f" name="pmIpt2" xy="385,211" size="185,47" group="n14_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入金币数额" keyboardType="4"/>
+    <text id="n13_ot6f" name="n13" xy="69,220" size="294,35" group="n14_ot6f" fontSize="25" align="right" autoSize="none" text="增加角色金币(addgold)"/>
+    <component id="n47_ot6f" name="sendBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,204" size="70,58" group="n14_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n14_ot6f" name="n14" xy="69,204" size="602,66" group="n4_ot6f"/>
+    <image id="n15_ot6f" name="n15" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="373,275" size="207,66" group="n18_ot6f"/>
+    <text id="n16_ot6f" name="pmIpt3" xy="386,282" size="161,47" group="n18_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入钻石数额" keyboardType="4"/>
+    <text id="n17_ot6f" name="n17" xy="70,291" size="294,35" group="n18_ot6f" fontSize="25" align="right" autoSize="shrink" text="增加角色钻石(adddiamond)"/>
+    <component id="n48_ot6f" name="sendBtn3" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,274" size="70,58" group="n18_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n18_ot6f" name="n18" xy="70,274" size="601,67" group="n4_ot6f"/>
+    <image id="n19_ot6f" name="n19" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="375,346" size="208,66" group="n22_ot6f"/>
+    <text id="n20_ot6f" name="pmIpt4" xy="388,353" size="183,47" group="n22_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入免费钻石数额" keyboardType="4"/>
+    <text id="n21_ot6f" name="n21" xy="35,362" size="331,35" group="n22_ot6f" fontSize="25" align="right" autoSize="shrink" text="增加角色免费钻石(addfdiamond)"/>
+    <component id="n49_ot6f" name="sendBtn4" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,347" size="70,58" group="n22_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n22_ot6f" name="n22" xy="35,346" size="636,66" group="n4_ot6f"/>
+    <image id="n23_ot6f" name="n23" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="373,417" size="209,66" group="n26_ot6f"/>
+    <text id="n24_ot6f" name="pmIpt5" xy="386,424" size="170,47" group="n26_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入宝箱等级" keyboardType="4"/>
+    <text id="n25_ot6f" name="n25" xy="33,433" size="331,35" group="n26_ot6f" fontSize="25" align="right" autoSize="shrink" text="增加宝箱等级(addboxlevel)"/>
+    <component id="n50_ot6f" name="sendBtn5" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,420" size="70,58" group="n26_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n26_ot6f" name="n26" xy="33,417" size="638,66" group="n4_ot6f"/>
+    <image id="n27_ot6f" name="n27" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="374,488" size="215,66" group="n30_ot6f"/>
+    <text id="n28_ot6f" name="pmIpt6" xy="387,495" size="188,47" group="n30_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入时间(秒)" keyboardType="4"/>
+    <text id="n29_ot6f" name="n29" xy="34,504" size="331,35" group="n30_ot6f" fontSize="25" align="right" autoSize="shrink" text="减少宝箱升级时间(subboxtime)"/>
+    <component id="n51_ot6f" name="sendBtn6" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,490" size="70,58" group="n30_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n30_ot6f" name="n30" xy="34,488" size="637,66" group="n4_ot6f"/>
+    <image id="n31_ot6f" name="n31" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="467,559" size="126,57" group="n34_ot6f"/>
+    <text id="n32_ot6f" name="pmIpt7" xy="476,566" size="108,42" group="n34_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入道具数额" keyboardType="4"/>
+    <text id="n33_ot6f" name="n33" xy="30,575" size="208,35" group="n34_ot6f" fontSize="25" align="right" autoSize="shrink" text="添加道具(additem)"/>
+    <component id="n43_ot6f" name="itemPop" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="242,562" size="219,55" group="n34_ot6f">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+      </ComboBox>
+    </component>
+    <component id="n52_ot6f" name="sendBtn7" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,558" size="70,58" group="n34_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n34_ot6f" name="n34" xy="30,558" size="641,59" group="n4_ot6f"/>
+    <text id="n37_ot6f" name="n37" xy="31,635" size="212,35" group="n38_ot6f" fontSize="25" align="right" autoSize="shrink" text="增加宠物(addpet)"/>
+    <component id="n45_ot6f" name="petPop" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="254,624" size="205,54" group="n38_ot6f">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+      </ComboBox>
+    </component>
+    <component id="n53_ot6f" name="sendBtn8" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,621" size="70,58" group="n38_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <image id="n77_rgwj" name="n77" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="466,623" size="126,57" group="n38_ot6f"/>
+    <text id="n78_rgwj" name="pmIpt8" xy="475,630" size="108,42" group="n38_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入道具数额" keyboardType="4"/>
+    <group id="n38_ot6f" name="n38" xy="31,621" size="640,59" group="n4_ot6f"/>
+    <image id="n55_heen" name="n55" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="500,688" size="93,57" group="n60_heen"/>
+    <text id="n56_heen" name="pmIptQ" xy="508,695" size="76,42" group="n60_heen" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入等级" keyboardType="4"/>
+    <text id="n57_heen" name="n57" xy="21,686" size="168,68" group="n60_heen" fontSize="25" align="center" autoSize="height" text="添加角色装备&#xA;(addequip)"/>
+    <component id="n58_heen" name="itemEquip" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="193,689" size="165,55" group="n60_heen">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+      </ComboBox>
+    </component>
+    <component id="n59_heen" name="sendBtn10" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="601,687" size="70,58" group="n60_heen">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n61_heen" name="itemQuality" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="363,689" size="136,55" group="n60_heen">
+      <ComboBox visibleItemCount="10">
+        <item title="普通"/>
+        <item title="优秀"/>
+        <item title="精良"/>
+        <item title="稀有"/>
+        <item title="卓越"/>
+        <item title="史诗"/>
+        <item title="传奇"/>
+        <item title="不朽"/>
+        <item title="超越"/>
+        <item title="鎏金"/>
+      </ComboBox>
+    </component>
+    <group id="n60_heen" name="n60" xy="21,686" size="650,68" group="n4_ot6f"/>
+    <text id="n62_ofko" name="n62" xy="31,773" size="198,35" group="n65_ofko" fontSize="25" align="right" autoSize="shrink" text="增加技能(addskill)"/>
+    <component id="n63_ofko" name="skillpop" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="248,762" size="205,54" group="n65_ofko">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+        <item title="1001"/>
+      </ComboBox>
+    </component>
+    <component id="n64_ofko" name="sendBtn11" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="600,759" size="70,58" group="n65_ofko">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <image id="n79_eau0" name="n79" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="472,759" size="93,57" group="n65_ofko"/>
+    <text id="n80_eau0" name="pmIpt11" xy="480,766" size="76,42" group="n65_ofko" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入数量" keyboardType="4"/>
+    <group id="n65_ofko" name="n65" xy="31,759" size="639,58" group="n4_ot6f"/>
+    <image id="n39_ot6f" name="n39" src="fpa2dxy2x" fileName="Res/10.PNG" pkg="5moj1x39" xy="133,1002" size="467,174" group="n42_ot6f"/>
+    <text id="n40_ot6f" name="pmIpt" xy="146,1007" size="443,163" group="n42_ot6f" fontSize="30" align="center" vAlign="middle" autoSize="shrink" text="setevent 1001" input="true" prompt="请输入完整的PM命令"/>
+    <text id="n41_ot6f" name="n41" xy="20,1018" size="106,35" group="n42_ot6f" fontSize="25" align="right" autoSize="shrink" text="PM命令"/>
+    <component id="n54_ot6f" name="sendBtn9" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="609,1002" size="70,58" group="n42_ot6f">
+      <Button title="确定" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n42_ot6f" name="n42" xy="20,1002" size="659,174" group="n66_ofko"/>
+    <text id="n44_ot6f" name="n44" xy="22,959" size="167,35" group="n66_ofko" fontSize="25" text="输入PM命令："/>
+    <group id="n66_ofko" name="n66" xy="20,959" size="659,217" group="n4_ot6f"/>
+    <text id="n73_cgun" name="n73" xy="31,827" size="331,35" group="n75_cgun" fontSize="25" align="right" vAlign="middle" autoSize="shrink" text="添加英雄(addhero)"/>
+    <component id="n74_cgun" name="heroPop" src="ot6fdxy2n" fileName="Component/PmMenuitem/PmItem.xml" xy="372,822" size="203,50" group="n75_cgun">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1000"/>
+        <item title="1000"/>
+        <item title="1000"/>
+        <item title="1000"/>
+      </ComboBox>
+    </component>
+    <component id="n76_cgun" name="sendBtn15" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="602,822" size="70,58" group="n75_cgun">
+      <Button title="确定" titleColor="#ffffff" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n75_cgun" name="n75" xy="31,822" size="641,58" group="n4_ot6f"/>
+    <component id="n67_uobv" name="sendBtn12" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="22,895" size="114,58" group="n4_ot6f">
+      <Button title="每日重置" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n68_uobv" name="sendBtn13" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="145,884" size="170,64" group="n4_ot6f">
+      <Button title="一键解锁功能" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n71_yrzg" name="sendBtn14" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="325,895" size="96,58" group="n4_ot6f">
+      <Button title="下线" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n86_i8ev" name="sendBtn16" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="425,895" size="152,58" group="n4_ot6f">
+      <Button title="战斗倍数X2" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n87_x6fp" name="sendBtn17" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="27,33" size="136,50" group="n4_ot6f">
+      <Button title="关闭引导" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <component id="n88_jozz" name="sendBtn18" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="21,1186" size="136,50" group="n4_ot6f">
+      <Button title="跑的快" icon="ui://5moj1x39fpa2dxy2x"/>
+    </component>
+    <group id="n4_ot6f" name="n4" xy="2,25" size="715,1229" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

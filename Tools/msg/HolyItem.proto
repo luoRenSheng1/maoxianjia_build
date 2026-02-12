@@ -1,0 +1,121 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+//插槽更新  ---只下发变动的栏位，可能1个可能多个
+message PlayerHolyItemSlotInfoUpdate_PC {	//[default = eMsg_PlayerHolyItemSlotInfoUpdate_PC = 1800; ]
+	repeated PlayerHolySlotsInfo holy_item_slots = 1;  //圣物栏
+}
+	   					
+//主动获取新圣物
+message NewPlayerHolyItem_PC
+{			//[default =eMsg_NewPlayerHolyItem_PC = 1801; ;];
+	repeated HolyItemInfo  holy_item = 1;
+}	
+
+//已有圣物更新 -- 作弊码或运营用
+message UpdatePlayerHolyItem_PC
+{			//[default =eMsg_UpdatePlayerHolyItem_PC = 1802;  ;];
+	optional HolyItemInfo  holy_item = 1;
+}	
+ 
+
+//删除圣物 -- 作弊码或运营用
+message DelPlayerHolyItem_PC
+{			//[default =eMsg_DelPlayerHolyItem_PC = 1803;  ;];
+	repeated uint32  holy_item_ids = 1;  //上位已删除的道具id -- holy表中的 holy_id
+}
+	
+
+//升级
+message HolyItemLevelUp_CS   //eMsg_HolyItemLevelUp_CS = 1804; 
+{
+	optional uint32  holy_id = 1; //holy表中的 holy_id
+	optional uint32  levelup_times = 2; //要升多少级
+}		   					
+			
+//升级
+message HolyItemLevelUp_SC   //eMsg_HolyItemLevelUp_SC = 1805; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  holy_id = 2; //holy表中的 holy_id
+	optional int32  level  = 3; //最新等级
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+
+}	
+
+
+//上阵 或 替换请求
+message ReplaceHolyItemInSlot_CS   //eMsg_ReplaceHolyItemInSlot_CS = 1806;  
+{
+	optional uint32  holy_id = 1; //holy表中的 holy_id
+	optional uint32  holy_slot_id  = 2;  //栏id
+}		   					
+			
+//上阵 或 替换反馈
+message ReplaceHolyItemInSlot_SC   //eMsg_ReplaceHolyItemInSlot_SC = 1807; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  holy_id = 2; //替换下的圣物ID  holy表中的 holy_id
+	optional PlayerHolySlotsInfo holy_item_slot = 3;  //栏状信息
+}	
+	
+//批量上阵 或 替换请求
+message BatchReplaceHolyItemInSlot_CS   //eMsg_BatchReplaceHolyItemInSlot_CS = 1810; 
+{
+	repeated uint32  holy_id = 1; //holy表中的 holy_id
+}		   					
+			
+//批量上阵 或 替换反馈
+message BatchReplaceHolyItemInSlot_SC   //eMsg_BatchReplaceHolyItemInSlot_SC = 1811; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerHolySlotsInfo holy_item_slot = 2;  //栏状信息
+}
+	
+	
+//下阵请求
+message RemoveHolyItemFromSlot_CS   //eMsg_RemoveHolyItemFromSlot_CS = 1808; 
+{
+	optional uint32  slot_id  = 1;  //栏id
+}		   					
+			
+//下阵反馈
+message RemoveHolyItemFromSlot_SC   //eMsg_RemoveHolyItemFromSlot_SC = 1809; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  holy_id  = 2; //下阵的圣物    holy表中的 holy_id
+	optional PlayerHolySlotsInfo holy_item_slot = 3;  //栏状信息
+}		
+
+	         
+//交换请求
+message SwitchHolyItemInSlot_CS   //eMsg_SwitchHolyItemInSlot_CS = 1812; 
+{
+	optional uint32  slot_id1  = 1;  //要交换的栏1
+	optional uint32  slot_id2  = 2;  //要交换的栏2
+}      
+
+//交换反馈          
+message SwitchHolyItemInSlot_SC   //eMsg_SwitchHolyItemInSlot_SC = 1813; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerHolySlotsInfo holy_item_slot = 2;  //交换后两个栏状信息
+}		
+	
+	
+	
+	 
+
+	 
+	 
+	   					
+			
+
+	 
+	
+	
+	      

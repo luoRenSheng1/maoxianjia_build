@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <loader3D id="n6_u9gn" name="cloudSpine" xy="-500,-345" size="100,100" url="ui://pdufy3kemz053u" animation="animation" skin=""/>
+    <graph id="n5_f1ci" name="weatherPos" xy="301,4" size="100,100"/>
+  </displayList>
+  <transition name="moveFog"/>
+  <transition name="shake" frameRate="30"/>
+</component>

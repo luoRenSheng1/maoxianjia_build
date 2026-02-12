@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,167" opaque="false" extention="Button">
+  <displayList>
+    <loader3D id="n83_netd" name="spineEff" xy="0,-47" size="240,178" aspect="true" scale="0.8,0.8" touchable="false" url="ui://s7x7ku0nhachdxy7y" vAlign="bottom" fill="scale" animation="idle" skin="" loop="true"/>
+    <loader3D id="n84_netd" name="fx" xy="30,10" size="100,89" scale="0.9,1" touchable="false" url="ui://s7x7ku0nnetddxy33" animation="" skin=""/>
+    <loader3D id="n86_vm2r" name="fx1" xy="30,8" size="100,89" scale="0.9,1" touchable="false" url="ui://s7x7ku0nnetddxy33" animation="" skin=""/>
+    <component id="n87_kvsz" name="n87" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="20,38" size="162,74"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

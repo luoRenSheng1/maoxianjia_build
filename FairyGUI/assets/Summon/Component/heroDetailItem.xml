@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,42">
+  <controller name="hasBg" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="没有"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <image id="n0_u1cl" name="n0" src="u1cl1r" fileName="Res/904.png" xy="0,0" size="500,42">
+      <gearDisplay controller="hasBg" pages="1"/>
+    </image>
+    <text id="n1_u1cl" name="heroName" xy="14,6" size="44,29" fontSize="20" color="#663e20" text="雷神"/>
+    <text id="n2_u1cl" name="heroDesc" xy="103,8" size="388,26" fontSize="18" color="#663e20" align="center" autoSize="none" text="这里是介绍"/>
+  </displayList>
+</component>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3kef34j2r">
+  <controller name="isTx" pages="0,,1," selected="0">
+    <remark page="0" value="展示"/>
+    <remark page="1" value="不展示"/>
+  </controller>
+  <controller name="isRandom" pages="0,固定点位,1,随机点位" selected="0"/>
+  <displayList>
+    <component id="n40_l8pn" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n41_f34j" name="n41" xy="16,167" size="688,858" group="n18_jvjm" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <loader id="n11_jvjm" name="n11" xy="40,283" size="640,400" group="n18_jvjm" url="ui://pdufy3kef34j2y">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n42_f34j" name="n42" src="f34jdxya1" fileName="Res/newItem2/general_title_bg2.png" pkg="5moj1x39" xy="109,145" group="n18_jvjm"/>
+    <text id="n1_f7h7" name="txtName" xy="288,160" size="144,44" group="n18_jvjm" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="游荡boss">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n43_f34j" name="n43" xy="40,697" size="640,184" group="n18_jvjm" url="ui://pdufy3kef34j2m" fill="scaleFree"/>
+    <graph id="n7_s4e7" name="monsterIcon" xy="239,393" pivot="0.5,1" size="242,239" group="n18_jvjm">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <text id="n14_jvjm" name="n14" xy="310,707" size="100,34" group="n18_jvjm" fontSize="24" color="#4c2911" bold="true" text="关卡奖励"/>
+    <list id="n27_jvjm" name="rewardList" xy="66,770" size="490,80" group="n18_jvjm" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" colGap="11" defaultItem="ui://5moj1x39ewjfdxy22" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n2_f7h7" name="txtDesc" xy="294,290" size="132,44" group="n33_syvc" fontSize="32" color="#fcf78e" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="独眼巨人">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n33_syvc" name="n33" xy="294,290" size="132,44" group="n18_jvjm"/>
+    <component id="n5_f7h7" name="btnFight" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="250,914" size="218,84" group="n35_syvc">
+      <Button title="挑战" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n35_syvc" name="n35" xy="250,914" size="218,84" group="n18_jvjm" advanced="true"/>
+    <loader id="n44_f34j" name="n44" xy="573,293" size="96,349" group="n38_ipa3" url="ui://pdufy3kef34j2j" fill="scaleFree">
+      <relation target="n39_l8pn" sidePair="height-height"/>
+    </loader>
+    <text id="n45_f34j" name="n45" xy="598,295" size="44,29" group="n38_ipa3" fontSize="20" color="#f2bd45" bold="true" text="特性"/>
+    <list id="n39_l8pn" name="attrList" xy="581,345" size="80,285" group="n38_ipa3" scroll="both" lineGap="20" align="center">
+      <relation target="n44_f34j" sidePair="center-center,top-top"/>
+      <item url="ui://pdufy3keipa310"/>
+      <item url="ui://pdufy3keipa310"/>
+      <item url="ui://pdufy3keipa310"/>
+    </list>
+    <group id="n38_ipa3" name="n38" xy="573,293" size="96,349" group="n18_jvjm" advanced="true">
+      <gearDisplay controller="isTx" pages="0"/>
+    </group>
+    <component id="n25_jvjm" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="318,1051" size="84,84" group="n18_jvjm">
+      <gearDisplay controller="isRandom" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <text id="n46_11bz8" name="txtTitleTime" xy="21,1027" size="676,71" group="n18_jvjm" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="[color=#FCF78E]{value=5}秒[/color]后自动进入战斗">
+      <gearDisplay2 controller="isRandom" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n18_jvjm" name="n18" xy="16,145" size="688,990" group="n29_jvjm"/>
+    <group id="n29_jvjm" name="n29" xy="16,145" size="688,990" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

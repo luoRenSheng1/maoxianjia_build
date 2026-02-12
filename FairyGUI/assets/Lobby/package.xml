@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s7x7ku0n">
+  <resources>
+    <component id="oi4p3" name="Main.xml" path="/" exported="true"/>
+    <component id="rx0xo8b" name="BtnChat.xml" path="/Component/"/>
+    <image id="dd3xdxxx6" name="主界面1.png" path="/Sample/"/>
+    <image id="dd3xdxxxk" name="ICON-jiasu.png" path="/Res/"/>
+    <image id="dd3xdxxxy" name="ICON-tupo.png" path="/Res/"/>
+    <image id="dd3xdxxy9" name="SKILL-AUTO.png" path="/Res/"/>
+    <image id="dd3xdxxyl" name="ICON-tanchuang.png" path="/Res/"/>
+    <component id="dd3xdxxym" name="BtnBottom.xml" path="/Component/"/>
+    <image id="dd3xdxxyn" name="宝箱升级.png" path="/Sample/"/>
+    <component id="lx83dxxyq" name="BtnFucntionIcon.xml" path="/Component/" exported="true"/>
+    <component id="pdpadxxyr" name="BtnRechargeIcon.xml" path="/Component/"/>
+    <component id="pdpadxxys" name="BtnUnfold.xml" path="/Component/"/>
+    <component id="pdpadxxyt" name="BtnShrink.xml" path="/Component/"/>
+    <component id="pdpadxxyu" name="ComMessage.xml" path="/Component/" exported="true"/>
+    <component id="pdpadxxyv" name="ComInfo.xml" path="/Component/" exported="true"/>
+    <component id="pdpadxxyw" name="BtnIcon.xml" path="/Component/"/>
+    <image id="pdpadxxyx" name="升级中.png" path="/Sample/"/>
+    <image id="pdpadxxyy" name="属性.png" path="/Sample/"/>
+    <image id="pdpadxxyz" name="新装备.png" path="/Sample/"/>
+    <image id="pdpadxxz0" name="装备弹窗.png" path="/Sample/"/>
+    <image id="pdpadxxz1" name="自动开箱.png" path="/Sample/"/>
+    <component id="pdpadxxz2" name="BtnBox.xml" path="/Component/"/>
+    <component id="pdpadxxz3" name="BtnSkill.xml" path="/Component/"/>
+    <image id="pdpadxxz5" name="mask1.png" path="/Res/" duplicatePadding="true" disableTrim="true"/>
+    <component id="pdpadxxz6" name="ComSkills.xml" path="/Component/" exported="true"/>
+    <component id="cj33dxxzg" name="battleRoot.xml" path="/Component/" exported="true"/>
+    <component id="i9sldxxzp" name="Panel.xml" path="/UI/"/>
+    <image id="i9sldxy0n" name="主界面-标记.png" path="/Sample/"/>
+    <image id="i9sldxy0o" name="主界面.png" path="/Sample/"/>
+    <component id="i9sldxy0p" name="BtnIcon_big.xml" path="/Component/"/>
+    <component id="t5mtdxy0s" name="BtnBoxLv.xml" path="/Component/"/>
+    <component id="t5mtdxy0t" name="BtnBoxKey.xml" path="/Component/"/>
+    <component id="t5mtdxy0v" name="BtnBoxIcon.xml" path="/Component/"/>
+    <component id="f646dxy0w" name="battleScene.xml" path="/Component/"/>
+    <component id="wrejdxy0x" name="battleBg.xml" path="/Component/"/>
+    <component id="hqycdxy11" name="BtnIconSkillBig.xml" path="/Component/"/>
+    <component id="vs59dxy1a" name="battleMap.xml" path="/Component/"/>
+    <component id="vs59dxy1b" name="battleFly.xml" path="/Component/"/>
+    <component id="vs59dxy1c" name="battleObject.xml" path="/Component/"/>
+    <component id="ktejdxy1g" name="MapLoadItem.xml" path="/Component/" exported="true"/>
+    <image id="icwodxy1h" name="map03.png" path="/Res/map/"/>
+    <image id="icwodxy1i" name="map01.png" path="/Res/map/"/>
+    <image id="icwodxy1j" name="map02.png" path="/Res/map/"/>
+    <image id="icwodxy1k" name="map_middle.png" path="/Res/map/"/>
+    <image id="icwodxy1l" name="map_bg.png" path="/Res/map/"/>
+    <component id="c90sdxy1m" name="EquipSplitEffect.xml" path="/Component/"/>
+    <component id="c90sdxy1n" name="ItemGoldEffect.xml" path="/Component/"/>
+    <component id="nc1udxy1o" name="TempEquipIcon.xml" path="/Component/"/>
+    <image id="mydgdxy1p" name="loopIcon.png" path="/Res/"/>
+    <image id="w02ndxy22" name="ICON-tupo1.PNG" path="/Res/"/>
+    <component id="w02ndxy2s" name="BtnTopped.xml" path="/Component/"/>
+    <misc id="netddxy31" name="Lobby_kaixiang01.atlas" path="/Res/Spine/"/>
+    <image id="netddxy32" name="Lobby_kaixiang01.png" path="/Res/Spine/"/>
+    <spine id="netddxy30" name="Lobby_kaixiang01.skel" path="/Res/Spine/" width="298" height="191" require="netddxy31,netddxy32" atlasNames="Lobby_kaixiang01" anchor="148,101"/>
+    <misc id="netddxy34" name="Lobby_kaixiang_fx2.atlas" path="/Res/Spine/"/>
+    <image id="netddxy35" name="Lobby_kaixiang_fx2.png" path="/Res/Spine/"/>
+    <spine id="netddxy33" name="Lobby_kaixiang_fx2.skel" path="/Res/Spine/" width="100" height="100" require="netddxy34,netddxy35" atlasNames="Lobby_kaixiang_fx2" anchor="100,100"/>
+    <component id="lir3dxy38" name="AllHeroAttrPanel.xml" path="/" exported="true"/>
+    <component id="hargdxy3b" name="skillIcon.xml" path="/Component/"/>
+    <image id="hargdxy3d" name="3100111.png" path="/Res/"/>
+    <image id="v51sdxy3m" name="funcPrev.png" path="/Res/"/>
+    <image id="ng62dxy3q" name="offline-2.png" path="/Res/offline/"/>
+    <image id="ng62dxy3r" name="offline-1.png" path="/Res/offline/"/>
+    <component id="ng62dxy3s" name="OnlineBox.xml" path="/Component/"/>
+    <component id="kv23dxy3v" name="BtnIcon_autopack.xml" path="/Component/"/>
+    <image id="kv23dxy3x" name="n112.png" path="/Res/newRes/"/>
+    <misc id="kv23dxy42" name="Lobby_kaixiang02.atlas" path="/Res/Spine2/"/>
+    <image id="kv23dxy43" name="Lobby_kaixiang02.png" path="/Res/Spine2/"/>
+    <spine id="kv23dxy41" name="Lobby_kaixiang02.skel" path="/Res/Spine2/" width="317" height="236" require="kv23dxy42,kv23dxy43" atlasNames="Lobby_kaixiang02" anchor="152,199"/>
+    <misc id="wg7fdxy49" name="Lobby_exp.atlas" path="/Res/Spine_exp/"/>
+    <image id="wg7fdxy4a" name="Lobby_exp.png" path="/Res/Spine_exp/"/>
+    <spine id="wg7fdxy48" name="Lobby_exp.skel" path="/Res/Spine_exp/" width="72" height="31" require="wg7fdxy49,wg7fdxy4a" atlasNames="Lobby_exp" anchor="57,151"/>
+    <image id="tbnhdxy4c" name="n114.png" path="/Res/newRes/" exported="true"/>
+    <image id="v5rfdxy4f" name="n116.png" path="/Res/newRes/"/>
+    <image id="9jppdxy4j" name="nadd.png" path="/Res/"/>
+    <image id="9jppdxy4k" name="nlock.png" path="/Res/"/>
+    <image id="9jppdxy4l" name="n456.png" path="/Res/"/>
+    <component id="9jppdxy4m" name="PassiveBtnSkill.xml" path="/Component/"/>
+    <component id="9jppdxy4n" name="passiveSkillIcon.xml" path="/Component/"/>
+    <image id="ozj9dxy4x" name="ICON-fuben.png" path="/Res/"/>
+    <image id="ozj9dxy50" name="436.png" path="/Res/newRes2/" exported="true"/>
+    <image id="ozj9dxy52" name="diandi.png" path="/Res/newRes2/" scale="9grid" scale9grid="15,80,30,4"/>
+    <component id="ozj9dxy54" name="LobbyHeroAttrAdd.xml" path="/Component/" exported="true"/>
+    <component id="ozj9dxy55" name="HeroAttrBtn.xml" path="/Component/" exported="true"/>
+    <image id="ozj9dxy56" name="n284.png" path="/Res/newPetsystem2/" scale="9grid" scale9grid="239,145,45,13"/>
+    <image id="ozj9dxy57" name="nn7.png" path="/Res/newPetsystem/"/>
+    <image id="ozj9dxy59" name="n283.png" path="/Res/newPetsystem2/"/>
+    <component id="ozj9dxy5a" name="xialaBtn.xml" path="/Component/" exported="true"/>
+    <image id="ozj9dxy5b" name="xiala.png" path="/Res/newRes2/"/>
+    <component id="dr5adxy5c" name="HeroAttrAniBtn.xml" path="/Component/"/>
+    <image id="ftc9dxy5g" name="ICON-shouchong.png" path="/Res/"/>
+    <image id="ftc9dxy5h" name="ICON-shangcheng.png" path="/Res/"/>
+    <image id="r0abdxy5i" name="ICON-TXZ.png" path="/Res/"/>
+    <component id="khmxdxy5j" name="HeroAttrLabel.xml" path="/Component/"/>
+    <image id="auqcdxy5k" name="ICON-PVP.png" path="/Res/"/>
+    <image id="uql1dxy5l" name="ICON-login.png" path="/Res/"/>
+    <image id="njebdxy5m" name="home_bg1@2.png" path="/Res/"/>
+    <image id="njebdxy5n" name="home_sidebar_icon1@2-2.png" path="/Res/"/>
+    <image id="njebdxy5o" name="home_sidebar_icon1@2-3.png" path="/Res/"/>
+    <image id="njebdxy5p" name="home_sidebar_icon1@2.png" path="/Res/"/>
+    <image id="njebdxy5q" name="home_Skill Bar_auto0@2.png" path="/Res/"/>
+    <image id="njebdxy5r" name="home_Skill Bar_auto1@2.png" path="/Res/"/>
+    <image id="njebdxy5w" name="home_sidebar_icon1@2-1.png" path="/Res/"/>
+    <image id="njebdxy60" name="home_top_bg@2.png" path="/Res/"/>
+    <image id="njebdxy64" name="ICON-fuben2.png" path="/Res/"/>
+    <image id="njebdxy65" name="ICON-jiayuan2.png" path="/Res/"/>
+    <image id="njebdxy66" name="ICON-juese2.png" path="/Res/"/>
+    <image id="njebdxy68" name="ICON-shaohuan2.png" path="/Res/"/>
+    <image id="njebdxy69" name="home_role1@2.png" path="/Res/"/>
+    <image id="njebdxy6a" name="home_icon_boss1@2.png" path="/Res/"/>
+    <image id="njebdxy6j" name="home_enemy1@2.png" path="/Res/"/>
+    <image id="njebdxy6k" name="home_profile@2.png" path="/Res/"/>
+    <image id="njebdxy6l" name="home_enemy2@2.png" path="/Res/"/>
+    <image id="njebdxy6n" name="home_functional area_btn2@2.png" path="/Res/"/>
+    <image id="njebdxy6o" name="home_functional area_btn_icon@2.png" path="/Res/"/>
+    <image id="njebdxy6q" name="home_functional area_icon1@2.png" path="/Res/"/>
+    <image id="njebdxy6r" name="home_functional area_icon2@2.png" path="/Res/"/>
+    <image id="njebdxy6s" name="home_functional area_icon3@2.png" path="/Res/"/>
+    <image id="njebdxy6t" name="home_functional area_icon4@2.png" path="/Res/"/>
+    <image id="njebdxy6u" name="home_functional area_list1@2.png" path="/Res/" scale="9grid" scale9grid="44,18,572,70"/>
+    <image id="njebdxy6w" name="ICON-zhuzao2.png" path="/Res/"/>
+    <image id="njebdxy6z" name="首页1.png" path="/Sample/"/>
+    <image id="njebdxy71" name="home_equipment bar_bg1.png" path="/Res/" exported="true"/>
+    <image id="njebdxy72" name="home_equipment bar_bg2.png" path="/Res/" exported="true"/>
+    <image id="njebdxy7b" name="home_equipment bar_main_bg.png" path="/Res/"/>
+    <image id="njebdxy7c" name="home_equipment bar_main_btn0.png" path="/Res/"/>
+    <image id="njebdxy7l" name="home_functional area_icon2.png" path="/Res/"/>
+    <image id="njebdxy7p" name="home_equipment bar_main_icon1.png" path="/Res/"/>
+    <misc id="hachdxy7w" name="Lobby_kaixiang02.atlas" path="/Res/Spine3/"/>
+    <image id="hachdxy7x" name="Lobby_kaixiang02.png" path="/Res/Spine3/"/>
+    <spine id="hachdxy7y" name="Lobby_kaixiang02.skel" path="/Res/Spine3/" width="353" height="368" require="hachdxy7w,hachdxy7x" atlasNames="Lobby_kaixiang02" anchor="188,347"/>
+    <image id="hachdxy7z" name="home_equipment bar_main_btn11.png" path="/Res/"/>
+    <image id="hachdxy80" name="home_equipment bar_main_btn12(1).png" path="/Res/"/>
+    <image id="hachdxy81" name="home_equipment bar_main_btn2.png" path="/Res/"/>
+    <image id="97b8dxy7z" name="map_bg0.png" path="/Res/map/"/>
+    <image id="u84qdxy82" name="home_functional area_list_line.png" path="/Res/"/>
+    <image id="u84qdxy83" name="home_sidebar_btn1.png" path="/Res/"/>
+    <image id="u84qdxy84" name="home_sidebar_btn2.png" path="/Res/"/>
+    <image id="u84qdxy85" name="home_Skill Bar_skill1.png" path="/Res/"/>
+    <component id="v65gdxy87" name="BtnBoxLvUp.xml" path="/Component/"/>
+    <component id="ax20dxy88" name="GrimoireItem.xml" path="/Component/" exported="true"/>
+    <component id="ax20dxy89" name="AttrItem1.xml" path="/Component/"/>
+    <component id="ax20dxy8c" name="UpBtn.xml" path="/Component/"/>
+    <component id="ax20dxy8o" name="AttrItem2.xml" path="/Component/"/>
+    <image id="ax20dxy8p" name="home_tab_icon4@2.png" path="/Res/"/>
+    <component id="ax20dxy8q" name="AttrItem.xml" path="/Component/"/>
+    <component id="doemdxy8r" name="GrimoireBtn.xml" path="/Component/"/>
+    <image id="kqmidxy9e" name="首页3.png" path="/Sample/"/>
+    <image id="kqmidxy9f" name="battle_btn3.png" path="/Res/Artifact/"/>
+    <component id="kqmidxy9h" name="RecycleBtn.xml" path="/Component/" exported="true"/>
+    <image id="c2gldxy9j" name="home_tab_icon6@2.png" path="/Res/"/>
+    <image id="c2gldxy9k" name="home_tab_icon2@2.png" path="/Res/"/>
+    <image id="rwnpdxy9l" name="chengjiu.png" path="/Res/"/>
+    <image id="f34jdxy9n" name="home_btn23.png" path="/Res/new/" scale="9grid" scale9grid="43,22,86,16"/>
+    <image id="f34jdxya0" name="battle_icon4.png" path="/Res/new/"/>
+    <image id="f34jdxya1" name="home_btn21.png" path="/Res/new/" scale="9grid" scale9grid="27,27,131,12"/>
+    <image id="f34jdxya2" name="battle_btn3.png" path="/Res/new/"/>
+    <image id="f34jdxya3" name="smriti_btn1.png" path="/Res/new/"/>
+    <image id="f34jdxya4" name="smriti_bg1.png" path="/Res/new/" scale="9grid" scale9grid="273,57,412,275"/>
+    <image id="f34jdxya5" name="ordinary_icon3.png" path="/Res/new/"/>
+    <image id="f34jdxya6" name="ordinary_icon2.png" path="/Res/new/"/>
+    <image id="f34jdxya7" name="ordinary_icon1.png" path="/Res/new/"/>
+    <image id="f34jdxya8" name="ordinary_bg22.png" path="/Res/new/"/>
+    <image id="f34jdxya9" name="ordinary_bg21.png" path="/Res/new/"/>
+    <image id="f34jdxyaa" name="ordinary_bg4.png" path="/Res/new/"/>
+    <image id="f34jdxyab" name="ordinary_bg3.png" path="/Res/new/"/>
+    <image id="f34jdxyac" name="home_skill_list1.png" path="/Res/new/"/>
+    <image id="f34jdxyad" name="home_skill_line.png" path="/Res/new/"/>
+    <image id="f34jdxyae" name="home_skil_list1_btn.png" path="/Res/new/"/>
+    <image id="f34jdxyaf" name="home_equipment bar_bg1.png" path="/Res/new/"/>
+    <image id="f34jdxyag" name="battle_bg1.png" path="/Res/new/" scale="9grid" scale9grid="17,54,196,278"/>
+    <image id="f34jdxyah" name="home_btn22.png" path="/Res/new/" scale="9grid" scale9grid="43,23,86,17"/>
+    <image id="f34jdxyal" name="chat_bg2.png" path="/Res/new/" scale="9grid" scale9grid="17,11,398,22"/>
+    <image id="f34jdxyam" name="chat_bg1.png" path="/Res/new/"/>
+    <image id="f34jdxyan" name="task_bg12.png" path="/Res/new/" scale="9grid" scale9grid="20,12,214,115"/>
+    <image id="f34jdxyao" name="task_bg11.png" path="/Res/new/" scale="9grid" scale9grid="229,14,4,112"/>
+    <image id="a2kwdxyap" name="home_ combat capability_bg01.png" path="/Res/new/" scale="9grid" scale9grid="15,0,9,32"/>
+    <image id="a2kwdxyaq" name="home_information_btn02.png" path="/Res/new/"/>
+    <image id="a2kwdxyar" name="home_forge_bg01.png" path="/Res/new/" scale="9grid" scale9grid="23,0,36,40"/>
+    <component id="a2kwdxyas" name="BtnBuff.xml" path="/Component/"/>
+    <image id="a2kwdxyat" name="map_buff_bg.png" path="/Res/new/"/>
+    <component id="a2kwdxyau" name="ComBuff.xml" path="/Component/"/>
+    <component id="a2kwdxyav" name="HeroAttrItem.xml" path="/Component/"/>
+    <image id="a2kwdxyaw" name="home_Attribute details_bg01.png" path="/Res/new/" scale="9grid" scale9grid="6,5,45,46"/>
+    <image id="a2kwdxyax" name="home_Attribute details_bg02.png" path="/Res/new/" scale="9grid" scale9grid="6,6,44,45"/>
+    <image id="a2kwdxyaz" name="首页-属性详情11.png" path="/Res/new/"/>
+    <image id="a2kwdxyb0" name="首页1.png" path="/Res/new/"/>
+    <image id="a2kwdxyb1" name="首页2.png" path="/Res/new/"/>
+    <image id="a2kwdxyb2" name="home_top_bg11.png" path="/Res/new/"/>
+    <image id="a2kwdxyb3" name="home_top_bg12.png" path="/Res/new/"/>
+    <image id="a2kwdxyb4" name="home_sidebar_bg01.png" path="/Res/new/" exported="true" scale="9grid" scale9grid="18,15,66,65"/>
+    <image id="a2kwdxyb5" name="home_sidebar_btn01.png" path="/Res/new/"/>
+    <image id="a2kwdxyb6" name="home_sidebar_btn02.png" path="/Res/new/"/>
+    <image id="a2kwdxyb7" name="home_top_bg01.png" path="/Res/new/" scale="9grid" scale9grid="123,0,246,73"/>
+    <image id="a2kwdxyb8" name="home_sidebar_icon4.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxyb9" name="home_sidebar_icon5.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxyba" name="home_sidebar_icon6.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxybb" name="home_sidebar_icon1.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxybc" name="home_sidebar_icon2.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxybd" name="home_sidebar_icon3.png" path="/Res/newIcon/"/>
+    <image id="a2kwdxybe" name="首页图标收起弹窗.png" path="/Res/new/"/>
+    <image id="a2kwdxybf" name="Sidebar Bottom-2.png" path="/Res/new2/" scale="9grid" scale9grid="10,18,38,36"/>
+    <image id="a2kwdxybg" name="Sidebar Bottom-3.png" path="/Res/new2/" scale="9grid" scale9grid="9,12,42,56"/>
+    <image id="a2kwdxybh" name="Sidebar Buttons.png" path="/Res/new2/" scale="9grid" scale9grid="15,15,30,30"/>
+    <image id="a2kwdxybi" name="Sidebar Content.png" path="/Res/new2/" scale="9grid" scale9grid="10,11,40,51"/>
+    <image id="a2kwdxybj" name="youjian.png" path="/Res/new2/"/>
+    <image id="a2kwdxybk" name="fuben.png" path="/Res/new2/"/>
+    <image id="a2kwdxybl" name="guanbi.png" path="/Res/new2/"/>
+    <image id="a2kwdxybm" name="jiayuan.png" path="/Res/new2/"/>
+    <image id="a2kwdxybn" name="qiandao.png" path="/Res/new2/"/>
+    <image id="a2kwdxybo" name="renwu.png" path="/Res/new2/"/>
+    <image id="a2kwdxybp" name="Sidebar Bottom-1.png" path="/Res/new2/" scale="9grid" scale9grid="0,81,40,51"/>
+    <component id="oceedxybr" name="LanweiBtn.xml" path="/Component/"/>
+    <image id="ucd4dxybs" name="map3.png" path="/Res/map2/" scale9grid="129,0,258,11"/>
+    <image id="ucd4dxybt" name="map1.png" path="/Res/map2/"/>
+    <image id="ucd4dxybu" name="02 中景.png" path="/Res/map2/"/>
+    <component id="ucd4dxybv" name="MapLoadItem3.xml" path="/Component/" exported="true"/>
+    <component id="ucd4dxybw" name="MapLoadItem2.xml" path="/Component/" exported="true"/>
+    <image id="ucd4dxybx" name="home_tab_icon5@2.png" path="/Res/newBotom/"/>
+    <image id="ucd4dxyby" name="home_tab_icon1@2.png" path="/Res/newBotom/"/>
+    <image id="ucd4dxybz" name="home_tab_icon2@2.png" path="/Res/newBotom/"/>
+    <image id="ucd4dxyc0" name="home_tab_icon3@2.png" path="/Res/newBotom/"/>
+    <image id="ucd4dxyc1" name="home_tab_icon4@2.png" path="/Res/newBotom/"/>
+    <component id="qalndxyca" name="RestView.xml" path="/Component/"/>
+    <image id="qalndxycb" name="restBg.png" path="/Res/fireSpine/"/>
+    <misc id="xezfdxycc" name="Lobby_yindi.atlas.txt" path="/Res/fireSpine/"/>
+    <image id="xezfdxycd" name="Lobby_yindi.png" path="/Res/fireSpine/"/>
+    <image id="xezfdxyce" name="Lobby_yindi_2.png" path="/Res/fireSpine/"/>
+    <image id="xezfdxycf" name="Lobby_yindi_3.png" path="/Res/fireSpine/"/>
+    <image id="xezfdxycg" name="Lobby_yindi_4.png" path="/Res/fireSpine/"/>
+    <image id="xezfdxych" name="Lobby_yindi_5.png" path="/Res/fireSpine/"/>
+    <image id="xezfdxyci" name="Lobby_yindi_6.png" path="/Res/fireSpine/"/>
+    <spine id="xezfdxycj" name="Lobby_yindi.skel" path="/Res/fireSpine/" width="100" height="100" require="xezfdxycc,xezfdxycd,xezfdxyce,xezfdxycf,xezfdxycg,xezfdxych,xezfdxyci" atlasNames="Lobby_yindi,Lobby_yindi_2,Lobby_yindi_3,Lobby_yindi_4,Lobby_yindi_5,Lobby_yindi_6" anchor="100,100"/>
+    <image id="mtmsdxyck" name="首页1-秘典详情.png" path="/Res/newUI/"/>
+    <image id="mtmsdxycl" name="首页2.png" path="/Res/newUI/"/>
+    <image id="mtmsdxycm" name="首页1.png" path="/Res/newUI/"/>
+    <component id="mtmsdxycn" name="ClassicInfo.xml" path="/Component/" exported="true"/>
+    <component id="mtmsdxyco" name="ClassicItem.xml" path="/Component/" exported="true"/>
+    <component id="mtmsdxycp" name="ClassicMaxAttrItem.xml" path="/Component/"/>
+    <component id="fr3pdxycq" name="UpAniBtn.xml" path="/Component/"/>
+    <component id="llb1dxycr" name="BtnToppedAni.xml" path="/Component/"/>
+    <image id="pto8dxycs" name="01 前景.png" path="/Res/map2/map2/"/>
+    <image id="pto8dxyct" name="02 中景.png" path="/Res/map2/map2/"/>
+    <image id="pto8dxycu" name="03 远景.png" path="/Res/map2/map2/"/>
+    <image id="llb1dxycv" name="home_tab_icon32.png" path="/Res/newBotom/"/>
+    <image id="llb1dxycw" name="首页10.png" path="/Res/newUI/"/>
+    <image id="llb1dxycx" name="atlas_top_bg01.png" path="/Res/new/"/>
+    <component id="llb1dxycy" name="TaskBarExp.xml" path="/Component/" exported="true"/>
+    <image id="llb1dxycz" name="world_task_bg01.png" path="/Res/" exported="true"/>
+    <component id="llb1dxyd0" name="xialaBtn2.xml" path="/Component/" exported="true"/>
+    <image id="llb1dxyd1" name="world_task_btn01.png" path="/Component/Task/"/>
+    <image id="llb1dxyd2" name="world_task_btn01.png" path="/Res/" exported="true"/>
+    <image id="llb1dxyd3" name="world_task_btn02.png" path="/Res/" exported="true"/>
+    <image id="llb1dxyd4" name="world_task_bg03.png" path="/Res/" exported="true"/>
+    <image id="cuzadxyd5" name="完整图.jpg" path="/UI/"/>
+  </resources>
+  <publish name="Lobby" genCode="true">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

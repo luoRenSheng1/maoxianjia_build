@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_k627" name="n0" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader3D id="n5_r18s" name="gxhdSpine" xy="-382,-123" size="1219,687" group="n4_k627" url="ui://0anhreyli8evdxy72" animation="Chuxian" skin="" playing="false"/>
+    <image id="n6_r18s" name="n6" src="r18sdxy7f" fileName="Res/getSpine/g1.png" pkg="0anhreyl" xy="144,141" group="n4_k627"/>
+    <loader id="n7_xjh0" name="img" xy="285,173" size="149,79" group="n4_k627" url="ui://0anhreylr18sdxy7g"/>
+    <image id="n1_k627" name="n1" src="r18sdxy7g" fileName="Res/getSpine/g3.png" pkg="0anhreyl" xy="285,173" group="n4_k627" visible="false"/>
+    <component id="n2_k627" name="petList" src="ncnadxy76" fileName="Component/PetStrengList.xml" xy="62,408" size="596,563" group="n4_k627"/>
+    <component id="n3_k627" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="277,1027" size="165,68" group="n4_k627">
+      <Button title="确认" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <group id="n4_k627" name="n4" xy="-382,-123" size="1219,1218" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Visible" target="n7_xjh0" value="false"/>
+    <item time="8" type="Visible" target="n7_xjh0" value="true"/>
+  </transition>
+</component>

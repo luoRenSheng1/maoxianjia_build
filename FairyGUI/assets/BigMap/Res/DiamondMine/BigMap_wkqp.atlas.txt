@@ -1,0 +1,7 @@
+BigMap_wkqp.png
+size:512,512
+filter:Linear,Linear
+pma:true
+waokuang
+bounds:2,2,312,352
+offsets:20,0,352,352

@@ -1,0 +1,47 @@
+Common_xsyd.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+L_er
+	bounds: 253, 328, 31, 33
+	offsets: 1, 1, 33, 35
+	rotate: 90
+L_mei
+	bounds: 4, 37, 30, 8
+	offsets: 1, 1, 32, 10
+L_wen
+	bounds: 376, 380, 23, 21
+	offsets: 1, 1, 25, 23
+R_er
+	bounds: 233, 291, 31, 33
+	offsets: 1, 1, 33, 36
+R_mei
+	bounds: 184, 154, 34, 16
+	offsets: 1, 1, 36, 18
+R_yan
+	bounds: 184, 154, 34, 16
+	offsets: 1, 1, 36, 18
+R_wen
+	bounds: 438, 437, 20, 21
+	offsets: 1, 1, 23, 23
+chibang
+	bounds: 4, 49, 45, 40
+	offsets: 1, 1, 48, 42
+fei
+	bounds: 184, 174, 150, 45
+	offsets: 1, 1, 152, 47
+	rotate: 90
+guang
+	bounds: 4, 328, 245, 130
+	offsets: 0, 0, 245, 274
+lian
+	bounds: 253, 363, 119, 95
+	offsets: 1, 1, 120, 97
+shenti
+	bounds: 4, 143, 176, 181
+touding
+	bounds: 376, 405, 58, 53
+	offsets: 0, 1, 58, 55
+yinying
+	bounds: 4, 93, 167, 46
+	offsets: 2, 2, 171, 50

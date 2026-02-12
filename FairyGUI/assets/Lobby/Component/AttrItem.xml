@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,88">
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="开"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <controller name="attrType" pages="0,,1,,2,,3,,4,,5,,6,,7," selected="0"/>
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="特殊"/>
+  </controller>
+  <displayList>
+    <loader id="n0_ax20" name="icon" xy="0,0" size="64,64" url="ui://s7x7ku0nnjebdxy6r" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="attrType" pages="0,1,2,3,4,5,6,7" values="ui://s7x7ku0nnjebdxy6r|ui://s7x7ku0nnjebdxy6s|ui://s7x7ku0nnjebdxy6t|ui://s7x7ku0nnjebdxy7l|ui://5moj1x39ax20dxy7q|ui://5moj1x39ax20dxy7j|ui://5moj1x39ax20dxy7k|ui://5moj1x39ax20dxy7l"/>
+    </loader>
+    <text id="n1_ax20" name="num" xy="-3,53" size="70,34" fontSize="24" color="#f0df65" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=6666}">
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <gearText controller="type" pages="1" values="+{value=11}%" default="+{value=6666}"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_ax20" name="n3" xy="-10,17" size="84,29" fontSize="20" color="#f0df65" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="满级激活">
+      <gearDisplay controller="type" pages="1"/>
+    </text>
+    <component id="n4_ax20" name="attrBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="0,0" size="64,64"/>
+  </displayList>
+</component>

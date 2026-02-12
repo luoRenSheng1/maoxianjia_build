@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImageAlpha="0">
+  <displayList>
+    <component id="n0_syvc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n21_kj5c" name="n21" src="kj5cdxydz" fileName="Res/newItem/general_reward_bg32.png" pkg="5moj1x39" xy="16,255" group="n11_syvc"/>
+    <text id="n4_syvc" name="Title" xy="172,476" size="374,56" group="n11_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="捕捉成功"/>
+    <text id="n19_9k6j" name="Desc" xy="29,558" size="658,40" group="n11_syvc" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="从下方选择一个奖励"/>
+    <list id="n6_syvc" name="rwList" xy="16,642" size="689,253" group="n11_syvc" layout="flow_hz" overflow="hidden" colGap="20" defaultItem="ui://0anhreyl9k6jdxyht" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_syvc" name="getBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="250,898" size="218,85" group="n10_syvc">
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n8_syvc" name="btnTxt" xy="323,914" size="68,44" group="n10_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="3" text="确定">
+      <relation target="n7_syvc" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n10_syvc" name="n10" xy="250,898" size="218,85" group="n11_syvc" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n20_9k6j" name="time" xy="29,983" size="661,48" group="n11_syvc" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="倒计时：[color=#FCF78E]{value=90:9}[/color]"/>
+    <group id="n11_syvc" name="n11" xy="16,255" size="689,776" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

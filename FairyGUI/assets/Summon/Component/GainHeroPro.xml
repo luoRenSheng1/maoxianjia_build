@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="498,26">
+  <controller name="quality" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <controller name="type" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7," selected="7"/>
+  <displayList>
+    <text id="n0_l5cy" name="name" xy="0,0" size="40,26" fontSize="18" color="#f44e68" bold="true" strokeColor="#000000" strokeSize="2" text="钻石">
+      <gearColor controller="quality" pages="0,1,2,3,5,6" values="#fcfffa,#000000|#c4e33e,#000000|#51daf2,#000000|#d576f9,#000000|#ffa7cf,#000000|#f44e68,#000000" default="#ffd964,#000000"/>
+      <gearText controller="type" pages="1,2,3,4,5,6,7" values="史诗英雄|传说英雄碎片|史诗英雄碎片|帝王蟹|奶酪|金币1H|钻石" default="传说英雄"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n1_l5cy" name="value" xy="443,0" size="55,26" fontSize="18" color="#f44e68" align="right" bold="true" strokeColor="#000000" strokeSize="2" text="31.5%">
+      <gearColor controller="quality" pages="0,1,2,3,5,6" values="#fcfffa,#000000|#c4e33e,#000000|#51daf2,#000000|#d576f9,#000000|#ffa7cf,#000000|#f44e68,#000000" default="#ffd964,#000000"/>
+      <gearText controller="type" pages="1,2,3,4,5,6,7" values="1%|2%|5%|15%|20%|25%|31.5%" default="0.5%"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

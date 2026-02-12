@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,88">
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="isCheck" pages="0,,1," selected="1">
+    <remark page="0" value="不选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <loader id="n7_f34j" name="n7" xy="0,0" size="640,88" url="ui://5moj1x39f34jdxyae" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n1_kqmi" name="qualityIcon" xy="24,24" size="40,40" url="ui://5moj1x39kqmidxy8z" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5,6" values="ui://5moj1x39kqmidxy8z|ui://5moj1x39kqmidxy90|ui://5moj1x39kqmidxy91|ui://5moj1x39kqmidxy8t|ui://5moj1x39kqmidxy8u|ui://5moj1x39kqmidxy8v|ui://5moj1x39kqmidxy8w"/>
+    </loader>
+    <text id="n2_kqmi" name="desc" xy="81,27" size="148,34" fontSize="24" color="#4c2911" vAlign="middle" bold="true" text="回收普通品质">
+      <gearText controller="quality" pages="0,2,3,4,5,6" values="回收普通品质|回收稀有品质|回收史诗品质|回收传奇品质|回收神话品质|回收不朽品质" default="回收良好品质"/>
+    </text>
+    <image id="n8_f34j" name="n8" src="f34jdxybc" fileName="Res/newItem2/general_select box_bg.png" pkg="5moj1x39" xy="567,20"/>
+    <text id="n5_kqmi" name="num" xy="473,27" size="80,34" fontSize="24" color="#b8df13" align="right" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=1000}件">
+      <gearColor controller="isCheck" pages="0,1" values="#ffffff,#000000|#b8df13,#000000"/>
+      <relation target="n4_kqmi" sidePair="right-right"/>
+    </text>
+    <loader id="n4_kqmi" name="n4" xy="560,12" size="64,64" url="ui://5moj1x39f34jdxybd" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="isCheck" pages="1"/>
+    </loader>
+    <component id="n6_wgwi" name="btnCheck" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="553,13" size="80,62"/>
+  </displayList>
+</component>

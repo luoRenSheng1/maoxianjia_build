@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="卸下"/>
+    <remark page="1" value="装备"/>
+  </controller>
+  <displayList>
+    <image id="n0_kqmi" name="n0" src="kqmidxy97" fileName="Res/Equip/ordinary_bg1.png" xy="28,368" size="664,544" group="n19_kqmi"/>
+    <image id="n4_kqmi" name="n4" src="kqmidxy99" fileName="Res/Equip/ordinary_bg21.png" xy="249,460" group="n19_kqmi"/>
+    <image id="n5_kqmi" name="n5" src="kqmidxy94" fileName="Res/Equip/ordinary_bg22.png" xy="249,535" group="n19_kqmi"/>
+    <image id="n1_kqmi" name="n1" src="kqmidxy8c" fileName="Res/newItem/general_title_icon1.png" pkg="5moj1x39" xy="239,395" group="n6_kqmi"/>
+    <image id="n2_kqmi" name="n2" src="kqmidxy8c" fileName="Res/newItem/general_title_icon1.png" pkg="5moj1x39" xy="419,395" group="n6_kqmi" flip="hz"/>
+    <text id="n3_kqmi" name="n3" xy="302,389" size="116,39" group="n6_kqmi" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="当前装备"/>
+    <group id="n6_kqmi" name="n6" xy="239,389" size="244,39" group="n19_kqmi"/>
+    <loader id="n7_kqmi" name="n7" xy="77,538" size="40,40" group="n9_kqmi" url="ui://5moj1x39f34jdxyax" fill="scaleFree"/>
+    <text id="n8_kqmi" name="fightLb" xy="120,539" size="83,39" group="n9_kqmi" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="6.24M">
+      <relation target="n7_kqmi" sidePair="left-left"/>
+    </text>
+    <group id="n9_kqmi" name="n9" xy="77,538" size="126,40" group="n19_kqmi" advanced="true">
+      <relation target="n14_kqmi" sidePair="center-center"/>
+    </group>
+    <component id="n14_kqmi" name="equipItem" src="skp6p" fileName="Component/ComEquipItem.xml" pkg="5moj1x39" xy="100,585" group="n19_kqmi" scale="0.8,0.8"/>
+    <text id="n15_kqmi" name="name" xy="66,669" size="148,34" group="n19_kqmi" fontSize="24" color="#f8f2b6" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="这是神器名称">
+      <relation target="n14_kqmi" sidePair="center-center"/>
+    </text>
+    <component id="n16_kqmi" name="mainAttr" src="skp6o" fileName="Component/ComAttributeItem.xml" xy="339,475" group="n19_kqmi"/>
+    <list id="n17_kqmi" name="attrList" xy="338,552" size="250,211" group="n19_kqmi" lineGap="10" defaultItem="ui://ddc23erlx3dk1f">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_kqmi" name="recycleBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="109,806" group="n19_kqmi">
+      <Button title="回收" icon="ui://5moj1x39p9n0dxy83"/>
+    </component>
+    <component id="n12_kqmi" name="downBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="393,806" group="n19_kqmi">
+      <gearDisplay controller="type" pages="0"/>
+      <Button title="卸下" icon="ui://5moj1x39jvjmdxy7i"/>
+    </component>
+    <component id="n18_kqmi" name="upLoadBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="393,806" group="n19_kqmi">
+      <gearDisplay controller="type" pages="1"/>
+      <Button title="装备" icon="ui://5moj1x39jvjmdxy7i"/>
+    </component>
+    <group id="n19_kqmi" name="n19" xy="28,368" size="664,544" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

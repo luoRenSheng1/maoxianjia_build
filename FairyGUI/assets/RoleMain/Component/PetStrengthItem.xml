@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,119">
+  <displayList>
+    <component id="n0_k627" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="10,2" controller="hasCount,1"/>
+    <text id="n1_k627" name="curLb" xy="13,86" size="31,25" fontSize="17" color="#ffffff" bold="true" text="150"/>
+    <text id="n2_k627" name="nextLb" xy="58,86" size="31,25" fontSize="17" color="#6dff1e" align="right" bold="true" text="160"/>
+    <image id="n3_k627" name="n3" src="k62730" fileName="Res/newPetsystem/sanjiao.png" xy="46,92"/>
+  </displayList>
+</component>

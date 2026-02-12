@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_syvc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n13_f34j" name="n13" xy="16,572" size="688,400" group="n11_syvc" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <loader id="n16_f34j" name="n16" xy="40,691" size="640,142" group="n11_syvc" url="ui://5moj1x39f34jdxyad" fill="scaleFree"/>
+    <image id="n15_f34j" name="n15" src="f34jdxy9e" fileName="Res/Reward2/rewards_img1.png" xy="65,308" group="n11_syvc"/>
+    <image id="n14_f34j" name="n14" src="f34jdxy9f" fileName="Res/Reward2/rewards_img12.png" xy="186,422" group="n11_syvc"/>
+    <image id="n17_f34j" name="n17" src="f34jdxybj" fileName="Res/newItem2/general_title_bg11.png" pkg="5moj1x39" xy="109,549" group="n11_syvc"/>
+    <text id="n4_syvc" name="n4" xy="326,566" size="68,44" group="n11_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="奖励"/>
+    <list id="n6_syvc" name="rwList" xy="154,717" size="347,78" group="n11_syvc" scale="1.2,1.2" layout="flow_hz" overflow="scroll" colGap="10" align="center" vAlign="middle">
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+    </list>
+    <component id="n7_syvc" name="getBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="251,859" size="218,84" group="n10_syvc">
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n8_syvc" name="n8" xy="324,877" size="68,44" group="n10_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="3" text="领取">
+      <relation target="n7_syvc" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n10_syvc" name="n10" xy="251,859" size="218,84" group="n11_syvc" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n11_syvc" name="n11" xy="16,308" size="688,664" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n16_f34j" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n13_f34j" name="n13" src="f34jdxya0" fileName="Res/newItem2/general_title_bg12.png" pkg="5moj1x39" xy="57,152" group="n15_f34j"/>
+    <text id="n14_f34j" name="n14" xy="326,167" size="68,44" group="n15_f34j" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="奖励">
+      <relation target="n13_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n15_f34j" name="n15" xy="57,152" size="606,96" group="n7_surf"/>
+    <component id="n0_surf" name="rewardList" src="surff" fileName="Component/ItemList.xml" xy="37,267" group="n7_surf"/>
+    <component id="n2_surf" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="300,975" group="n7_surf" visible="false" touchable="false"/>
+    <component id="n3_surf" name="summon1" src="surfd" fileName="Component/SummonHeroBtn.xml" xy="109,1043" size="218,84" group="n6_surf">
+      <Button title="确定" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n4_surf" name="summon10" src="surfd" fileName="Component/SummonHeroBtn.xml" xy="393,1043" group="n6_surf" controller="typeCtrl,1">
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n6_surf" name="n6" xy="109,1043" size="502,84" group="n7_surf"/>
+    <group id="n7_surf" name="n7" xy="37,152" size="646,975" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader3D id="n8_ncna" name="gxhdSpine" xy="-467,-226" size="1219,687" group="n12_f34j" visible="false" url="ui://0anhreyli8evdxy72" animation="Chuxian" skin=""/>
+    <image id="n9_r18s" name="n9" src="r18sdxy7f" fileName="Res/getSpine/g1.png" pkg="0anhreyl" xy="171,43" group="n12_f34j" visible="false"/>
+    <loader id="n11_xjh0" name="img" xy="250,74" size="274,77" group="n12_f34j" visible="false" url="ui://0anhreylr18sdxy7i"/>
+    <image id="n10_r18s" name="n10" src="r18sdxy7i" fileName="Res/getSpine/g2.png" pkg="0anhreyl" xy="250,74" group="n12_f34j" visible="false"/>
+    <group id="n12_f34j" name="n12" xy="-467,-226" size="1219,687"/>
+  </displayList>
+  <transition name="shake">
+    <item time="0" type="XY" target="n7_surf" tween="true" startValue="-467,-226" endValue="-457,-200" duration="3"/>
+    <item time="3" type="XY" target="n7_surf" tween="true" startValue="-457,-200" endValue="-467,-226" duration="3"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Visible" target="n11_xjh0" value="false"/>
+    <item time="0" type="Visible" target="n9_r18s" value="false"/>
+    <item time="8" type="Visible" target="n11_xjh0" value="true"/>
+    <item time="8" type="Visible" target="n9_r18s" value="true"/>
+  </transition>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,26" pivot="0.5,0.5" anchor="true" extention="Label">
+  <displayList>
+    <image id="n1_yd2h" name="n1" src="fpa2dxy32" fileName="Res/7.PNG" xy="0,0" size="110,26">
+      <relation target="n0_yd2h" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n0_yd2h" name="talkDes" xy="0,0" size="110,26" fontSize="18" align="center" vAlign="middle" autoSize="height" text="哈哈哈哈"/>
+  </displayList>
+</component>

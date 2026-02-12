@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <controller name="colorType" pages="0,,1," selected="0">
+    <remark page="0" value="足"/>
+    <remark page="1" value="不足"/>
+  </controller>
+  <displayList>
+    <image id="n7_f34j" name="n7" src="f34jdxy9s" fileName="Res/newItem2/general_btn11.png" pkg="5moj1x39" xy="0,0" size="218,84"/>
+    <text id="n1_ozj9" name="title" xy="83,7" size="52,34" fontSize="24" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="突破">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n2_ozj9" name="itemIcon" xy="60,41" size="33,29" group="n4_ozj9" url="ui://0anhreylv5rfdxy4n" align="center" vAlign="middle" fill="scale">
+      <relation target="n3_ozj9" sidePair="left-left"/>
+    </loader>
+    <text id="n3_ozj9" name="itemCnt" xy="94,39" size="63,34" group="n4_ozj9" fontSize="24" color="#ffffff" vAlign="middle" vars="true" bold="true" strokeColor="#25211d" strokeSize="2" text="{cur=900}/{need=1}">
+      <gearColor controller="colorType" pages="0,1" values="#ffffff,#25211d|#ff0000,#000000"/>
+    </text>
+    <group id="n4_ozj9" name="n4" xy="60,39" size="97,34" advanced="true" layout="hz" colGap="1">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://lxs2h4ifucd4dxyc3" designImageAlpha="0" designImageLayer="1">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="hasUpload" pages="0,,1," selected="1">
+    <remark page="0" value="无宠物上阵"/>
+    <remark page="1" value="有宠物上阵"/>
+  </controller>
+  <displayList>
+    <loader id="n4_hz5c" name="n4" xy="0,81" size="720,747" url="ui://5moj1x39f34jdxybs" align="center" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n23_klzx" name="n23" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxyce"/>
+    <loader id="n21_f34j" name="n21" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxycd">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <component id="n2_hz5c" name="tipsBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="639,10" size="64,64">
+      <relation target="" sidePair="left-right,top-top"/>
+      <Button icon="ui://5moj1x39f34jdxybu"/>
+    </component>
+    <loader3D id="n20_htiq" name="spine" xy="16,98" size="688,169" url="ui://lxs2h4ifucd4dxya2" align="center" vAlign="middle" fill="scale" animation="Pet_banner" skin="" loop="true">
+      <relation target="n21_f34j" sidePair="top-bottom"/>
+    </loader3D>
+    <loader id="n14_hz5c" name="n14" xy="0,884" size="720,162" group="n15_hz5c" url="ui://5moj1x39f34jdxyay" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <loader id="n22_f34j" name="n22" xy="0,823" size="720,70" group="n15_hz5c" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n11_hz5c" name="n11" xy="316,834" size="88,39" group="n15_hz5c" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="3" text="已上阵">
+      <relation target="n22_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n13_hz5c" name="list" xy="78,896" size="564,134" group="n15_hz5c" layout="row" colGap="27" defaultItem="ui://lxs2h4iff34jdxy9b" align="center" vAlign="middle">
+      <gearDisplay controller="hasUpload" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n19_hz5c" name="n19" xy="268,943" size="184,42" group="n15_hz5c" visible="false" fontSize="30" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="请先上阵宠物">
+      <gearDisplay controller="hasUpload" pages="0"/>
+    </text>
+    <group id="n15_hz5c" name="n15" xy="0,823" size="720,223" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n5_hz5c" name="n5" xy="16,284" size="688,408" group="n25_ucd4" url="ui://5moj1x39f34jdxyae" align="center" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottomext-bottom"/>
+    </loader>
+    <list id="n6_hz5c" name="talentList" xy="16,289" size="688,398" group="n25_ucd4" overflow="scroll" defaultItem="ui://lxs2h4ifhz5cdxy7s" autoClearItems="true">
+      <relation target="n5_hz5c" sidePair="height-height,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_hz5c" name="talentBtn" src="hz5cdxy9b" fileName="Component/BtnCom2.xml" pkg="5moj1x39" xy="253,716" size="218,84" group="n25_ucd4">
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n4_hz5c" sidePair="bottom-bottom"/>
+      <Button title="洗练天赋" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n26_n5nh" name="talentRedPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="444,713" group="n25_ucd4" visible="false">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n7_hz5c" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n25_ucd4" name="n25" xy="16,284" size="688,516" advanced="true">
+      <gearDisplay controller="hasUpload" pages="1"/>
+    </group>
+    <component id="n16_hz5c" name="currency1" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="9,13" group="n18_hz5c">
+      <Button icon="ui://0anhreylv5rfdxy4n"/>
+    </component>
+    <component id="n17_hz5c" name="currency2" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="191,13" group="n18_hz5c">
+      <Button icon="ui://0anhreylv5rfdxy4o"/>
+    </component>
+    <group id="n18_hz5c" name="n18" xy="9,13" size="352,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n24_ucd4" name="n24" xy="172,342" size="375,373" url="ui://lxs2h4ifucd4dxyc1" align="center" vAlign="middle">
+      <gearDisplay controller="hasUpload" pages="0"/>
+      <relation target="n4_hz5c" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

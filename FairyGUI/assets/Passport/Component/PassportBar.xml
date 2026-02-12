@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="24,154" extention="ProgressBar">
+  <displayList>
+    <image id="n2_xezf" name="n2" src="xezf21" fileName="Res/new/gate pass_img21.png" xy="0,0" size="24,154">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n3_xezf" name="bar" src="xezf20" fileName="Res/new/gate pass_img22.png" xy="0,0" size="24,154" fillMethod="vt">
+      <relation target="" sidePair="height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

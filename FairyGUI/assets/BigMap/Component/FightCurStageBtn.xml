@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="228,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="typeCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="当前章节"/>
+    <remark page="1" value="下一章节"/>
+  </controller>
+  <displayList>
+    <loader id="n3_llb1" name="n3" xy="0,0" size="228,84" url="ui://pdufy3kellb1iji"/>
+    <text id="n4_llb1" name="n4" xy="131,15" size="84,54" fontSize="40" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="挑战">
+      <relation target="n3_llb1" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n5_llb1" name="stageInfo" xy="17,49" size="79,29" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="关卡 {chapter=1}-{stage=2}">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="n3_llb1" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n6_llb1" name="n6" xy="15,50" size="84,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="下一章节">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="n3_llb1" sidePair="left-left,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

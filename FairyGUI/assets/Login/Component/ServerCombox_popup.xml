@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="344,200">
+  <displayList>
+    <image id="n0_pchv" name="n0" src="fpa2dxy2y" fileName="Res/11.PNG" pkg="5moj1x39" xy="0,0" size="344,200" color="#999999">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_pchv" name="list" xy="0,0" size="344,200" overflow="scroll" defaultItem="ui://h85hm7vmpchvxxp6">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_pchv" sidePair="height-height"/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tekh4dt9">
+  <resources>
+    <component id="v51s0" name="FuncPreview.xml" path="/" exported="true"/>
+    <image id="v51s1" name="4.png" path="/Res/" scale="9grid" scale9grid="22,51,12,5"/>
+    <image id="v51s2" name="2.png" path="/Res/"/>
+    <image id="v51s3" name="3.png" path="/Res/"/>
+    <image id="v51s4" name="17.PNG" path="/Res/"/>
+    <component id="v51s5" name="FuncOpenItem.xml" path="/Component/"/>
+    <image id="v51s6" name="1.png" path="/Res/"/>
+  </resources>
+  <publish name="FunctionPreview" genCode="true"/>
+</packageDescription>

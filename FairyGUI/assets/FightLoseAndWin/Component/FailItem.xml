@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,104">
+  <controller name="tjCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="推荐"/>
+    <remark page="1" value="NONE"/>
+  </controller>
+  <displayList>
+    <loader id="n6_ucd4" name="n6" xy="0,0" size="560,104" url="ui://h7b921iwucd4dxy2p" fill="scaleFree"/>
+    <loader id="n1_vcwq" name="iconLoader" xy="16,14" size="75,75" fill="scale"/>
+    <text id="n2_vcwq" name="descLb" xy="146,35" size="268,34" fontSize="24" color="#ffbf43" bold="true" text="翻开神书，获取更强大的">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_vcwq" name="gotoBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="477,20" size="64,64">
+      <Button icon="ui://h7b921iwucd4dxy2o"/>
+    </component>
+    <text id="n5_uf4w" name="n5" xy="486,0" size="74,48" visible="false" fontSize="35" color="#ff0000" text="推荐">
+      <gearDisplay controller="tjCtrl" pages="0"/>
+    </text>
+  </displayList>
+</component>

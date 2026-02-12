@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,495" mask="n1_ncna">
+  <displayList>
+    <list id="n0_ncna" name="petList" xy="0,0" size="634,495" layout="flow_hz" overflow="scroll" lineGap="16" colGap="16" defaultItem="ui://lxs2h4ifk6272z" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n1_ncna" name="n1" xy="0,0" size="634,495" type="rect"/>
+  </displayList>
+</component>

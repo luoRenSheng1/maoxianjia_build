@@ -1,0 +1,61 @@
+Common_10301014_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+dun
+	bounds: 367, 666, 107, 131
+	offsets: 7, 4, 120, 140
+quan_001
+	bounds: 2, 793, 204, 201
+	offsets: 9, 8, 220, 220
+quan_002
+	bounds: 2, 592, 202, 199
+	offsets: 10, 9, 220, 220
+quan_003
+	bounds: 208, 799, 197, 195
+	offsets: 12, 11, 220, 220
+quan_004
+	bounds: 793, 805, 190, 189
+	offsets: 16, 14, 220, 220
+quan_005
+	bounds: 188, 206, 186, 183
+	offsets: 18, 17, 220, 220
+	rotate: 90
+quan_006
+	bounds: 188, 25, 184, 179
+	offsets: 16, 18, 220, 220
+quan_007
+	bounds: 2, 194, 184, 198
+	offsets: 16, 20, 220, 220
+quan_008
+	bounds: 2, 2, 181, 190
+	offsets: 19, 22, 220, 220
+quan_009
+	bounds: 603, 801, 188, 193
+	offsets: 17, 24, 220, 220
+quan_010
+	bounds: 2, 394, 195, 196
+	offsets: 16, 17, 220, 220
+quan_011
+	bounds: 407, 801, 194, 193
+	offsets: 16, 17, 220, 220
+quan_012
+	bounds: 199, 414, 176, 174
+	offsets: 29, 30, 220, 220
+	rotate: 90
+quan_013
+	bounds: 208, 643, 154, 157
+	offsets: 40, 34, 220, 220
+	rotate: 90
+quan_014
+	bounds: 476, 689, 114, 110
+	offsets: 55, 54, 220, 220
+quan_015
+	bounds: 592, 698, 102, 101
+	offsets: 60, 59, 220, 220
+quan_016
+	bounds: 696, 708, 91, 91
+	offsets: 66, 64, 220, 220
+quan_017
+	bounds: 476, 607, 81, 80
+	offsets: 70, 70, 220, 220

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,96" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="hasSkill" pages="0,,1,,2," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+    <remark page="2" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n18_9jpp" name="n9" src="9jppdxy4l" fileName="Res/n456.png" xy="0,0" size="96,96" alpha="0.6" fillMethod="radial360" fillClockwise="false"/>
+    <component id="n15_harg" name="skillIcon" src="9jppdxy4n" fileName="Component/passiveSkillIcon.xml" xy="11,11">
+      <gearDisplay controller="hasSkill" pages="0"/>
+    </component>
+    <image id="n10_pdpa" name="mask" src="9jppdxy4l" fileName="Res/n456.png" xy="0,0" size="96,96" alpha="0.6" fillMethod="radial360" fillClockwise="false"/>
+    <image id="n11_harg" name="n11" src="9jppdxy4j" fileName="Res/nadd.png" xy="9,7" size="55,58" aspect="true">
+      <gearDisplay controller="hasSkill" pages="1"/>
+    </image>
+    <image id="n12_harg" name="n12" src="9jppdxy4k" fileName="Res/nlock.png" xy="9,7" size="55,58" aspect="true">
+      <gearDisplay controller="hasSkill" pages="2"/>
+    </image>
+    <component id="n16_ot6f" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="50,-5" touchable="false">
+      <gearDisplay controller="hasSkill" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

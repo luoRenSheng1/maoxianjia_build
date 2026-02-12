@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://s7x7ku0nllb1dxycw" designImageAlpha="60">
+  <controller name="zzcCtrl" pages="1,,0," selected="0">
+    <remark page="0" value="属性加成"/>
+    <remark page="1" value="铸造台"/>
+  </controller>
+  <controller name="xialaCtrl" pages="0,,1," selected="0"/>
+  <controller name="packageCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="关"/>
+    <remark page="1" value="开"/>
+  </controller>
+  <controller name="xialaCtrl2" pages="0,,1," selected="0"/>
+  <controller name="isShowOther" pages="0,,1," selected="0">
+    <remark page="0" value="否"/>
+    <remark page="1" value="是"/>
+  </controller>
+  <controller name="showTask" pages="0,,1," selected="0">
+    <remark page="0" value="展示"/>
+    <remark page="1" value="不展示"/>
+  </controller>
+  <controller name="taskPos" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n136_mg7g" name="sevenDayBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="0,421" group="n235_mqvf">
+      <Button title="七日签到" icon="ui://s7x7ku0nnjebdxy5n"/>
+    </component>
+    <component id="n166_l955" name="dailyBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="0,527" size="100,84" group="n235_mqvf">
+      <Button title="日常任务" icon="ui://s7x7ku0nnjebdxy5w"/>
+    </component>
+    <component id="n165_l955" name="tujianBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="0,605" size="100,84" group="n235_mqvf">
+      <Button title="图鉴" icon="ui://s7x7ku0nnjebdxy5p"/>
+    </component>
+    <component id="n135_uq40" name="mailBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="0,689" size="100,120" group="n235_mqvf">
+      <Button title="邮箱" icon="ui://s7x7ku0nnjebdxy5o"/>
+    </component>
+    <component id="n202_c2gl" name="villageBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="100,607" group="n235_mqvf">
+      <Button title="家园" icon="ui://s7x7ku0nnjebdxy65"/>
+    </component>
+    <component id="n212_a2kw" name="copyBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="101,522" group="n235_mqvf">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="副本" icon="ui://s7x7ku0nnjebdxy64"/>
+    </component>
+    <group id="n235_mqvf" name="n235" xy="0,421" size="201,388" visible="false" advanced="true"/>
+    <component id="n117_cj33" name="battleRoot" src="cj33dxxzg" fileName="Component/battleRoot.xml" xy="0,119" size="720,630">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+    </component>
+    <component id="n240_qaln" name="RestView" src="qalndxyca" fileName="Component/RestView.xml" xy="0,0" size="720,1280" visible="false">
+      <relation target="" sidePair="width-width,top-middle%"/>
+    </component>
+    <loader id="n215_a2kw" name="n215" xy="0,0" size="720,106" visible="false" url="ui://s7x7ku0nllb1dxycx" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left,top-top"/>
+    </loader>
+    <component id="n62_kaug" name="userInfo" src="rx0xo87" fileName="Component/ComUserInfo.xml" pkg="5moj1x39" xy="6,5" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n214_a2kw" name="comBuff" src="a2kwdxyau" fileName="Component/ComBuff.xml" xy="117,84" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n71_pdpa" name="comPandaInfo" src="pdpadxxyv" fileName="Component/ComInfo.xml" xy="9,503" group="n247_llb1">
+      <gearDisplay controller="showTask" pages="0"/>
+      <gearXY controller="taskPos" pages="1" values="9,592" default="9,503"/>
+      <relation target="" sidePair="right-right"/>
+      <relation target="n206_f34j" sidePair="bottom-top"/>
+    </component>
+    <component id="n245_llb1" name="taskXialaBtn" src="llb1dxyd0" fileName="Component/xialaBtn2.xml" xy="9,591" group="n247_llb1">
+      <relation target="" sidePair="left-left"/>
+      <relation target="n71_pdpa" sidePair="top-bottom"/>
+      <Button checked="true" controller="showTask" page="0"/>
+    </component>
+    <group id="n247_llb1" name="n247" xy="9,503" size="298,132"/>
+    <loader id="n216_a2kw" name="rightBg" xy="616,120" size="96,345" group="n219_a2kw" url="ui://s7x7ku0na2kwdxyb4" fill="scaleFree">
+      <gearSize controller="xialaCtrl" pages="0,1" values="96,345,1,1|96,152,1,1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </loader>
+    <component id="n169_h4wb" name="superTXZBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="619,121" size="90,100" group="n219_a2kw" visible="false">
+      <relation target="n216_a2kw" sidePair="center-center,top-top"/>
+      <Button title="通行证" icon="ui://s7x7ku0na2kwdxyb8"/>
+    </component>
+    <component id="n168_h4wb" name="firstChargeBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="619,217" size="90,100" group="n219_a2kw" visible="false">
+      <gearDisplay controller="xialaCtrl" pages="0"/>
+      <relation target="n216_a2kw" sidePair="center-center,top-top"/>
+      <Button title="新人礼包" icon="ui://s7x7ku0na2kwdxyb9"/>
+    </component>
+    <component id="n134_ng62" name="onlineBtn" src="ng62dxy3s" fileName="Component/OnlineBox.xml" xy="625,323" size="80,84" group="n219_a2kw" visible="false">
+      <gearDisplay controller="xialaCtrl" pages="0"/>
+      <relation target="n216_a2kw" sidePair="center-center,top-top"/>
+      <Button title="挂机奖励" icon="ui://s7x7ku0na2kwdxyba"/>
+    </component>
+    <component id="n203_rwnp" name="achieveBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="624,404" size="80,100" group="n219_a2kw" visible="false">
+      <gearDisplay controller="xialaCtrl" pages="0"/>
+      <relation target="n216_a2kw" sidePair="center-center,top-top"/>
+      <Button title="成就" icon="ui://s7x7ku0nrwnpdxy9l"/>
+    </component>
+    <list id="n239_spta" name="rightFunctionList" xy="620,121" size="90,296" group="n219_a2kw" overflow="scroll" defaultItem="ui://s7x7ku0nlx83dxxyq" align="center">
+      <gearSize controller="xialaCtrl" pages="0,1" values="90,296,1,1|90,146,1,1"/>
+      <relation target="n216_a2kw" sidePair="height-height,center-center,top-top"/>
+      <item title="通行证" icon="ui://s7x7ku0na2kwdxyb8"/>
+      <item title="新人礼包" icon="ui://s7x7ku0na2kwdxyb9"/>
+      <item title="挂机奖励" icon="ui://s7x7ku0na2kwdxyba"/>
+      <item title="成就" icon="ui://s7x7ku0nrwnpdxy9l"/>
+    </list>
+    <component id="n157_ozj9" name="rightBtn" src="ozj9dxy5a" fileName="Component/xialaBtn.xml" xy="648,425" group="n219_a2kw">
+      <gearXY controller="xialaCtrl" pages="0,1" values="648,425|648,249"/>
+      <relation target="n216_a2kw" sidePair="center-center,bottom-bottom"/>
+      <Button checked="true" controller="xialaCtrl" page="0"/>
+    </component>
+    <group id="n219_a2kw" name="n219" xy="616,120" size="96,384" advanced="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </group>
+    <loader id="n221_a2kw" name="leftBg" xy="9,120" size="96,345" group="n220_a2kw" url="ui://s7x7ku0na2kwdxyb4" fill="scaleFree">
+      <gearSize controller="xialaCtrl2" pages="0,1" values="96,345,1,1|96,152,1,1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <component id="n174_auqc" name="PVPBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="12,122" size="90,100" group="n220_a2kw" visible="false">
+      <relation target="n221_a2kw" sidePair="center-center,top-top"/>
+      <Button title="竞技" icon="ui://s7x7ku0na2kwdxybb"/>
+    </component>
+    <component id="n173_khmx" name="loginGiftBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="11,219" size="90,100" group="n220_a2kw" visible="false">
+      <gearDisplay controller="xialaCtrl2" pages="0"/>
+      <relation target="n221_a2kw" sidePair="center-center,top-top"/>
+      <Button title="每日礼包" icon="ui://s7x7ku0na2kwdxybc"/>
+    </component>
+    <component id="n170_h4wb" name="shopBtn" src="lx83dxxyq" fileName="Component/BtnFucntionIcon.xml" xy="11,314" size="90,100" group="n220_a2kw" visible="false">
+      <gearDisplay controller="xialaCtrl2" pages="0"/>
+      <relation target="n221_a2kw" sidePair="center-center,top-top"/>
+      <Button title="商城" icon="ui://s7x7ku0na2kwdxybd"/>
+    </component>
+    <list id="n238_spta" name="leftFunctionList" xy="13,121" size="90,296" group="n220_a2kw" overflow="scroll" defaultItem="ui://s7x7ku0nlx83dxxyq" align="center">
+      <gearSize controller="xialaCtrl2" pages="0,1" values="90,296,1,1|90,164,1,1"/>
+      <relation target="n221_a2kw" sidePair="height-height,center-center,top-top"/>
+      <item title="竞技" icon="ui://s7x7ku0na2kwdxybb"/>
+      <item title="每日礼包" icon="ui://s7x7ku0na2kwdxybc"/>
+      <item title="商城" icon="ui://s7x7ku0na2kwdxybd"/>
+      <item title="副本" icon="ui://s7x7ku0na2kwdxybk"/>
+    </list>
+    <component id="n222_a2kw" name="leftBtn" src="ozj9dxy5a" fileName="Component/xialaBtn.xml" xy="40,425" size="32,32" group="n220_a2kw">
+      <gearXY controller="xialaCtrl2" pages="0,1" values="40,425|40,385"/>
+      <relation target="n221_a2kw" sidePair="center-center,bottom-bottom"/>
+      <Button checked="true" controller="xialaCtrl2" page="0"/>
+    </component>
+    <group id="n220_a2kw" name="n220" xy="9,120" size="96,345" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n205_f34j" name="n205" xy="-12,748" size="744,468" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n206_f34j" name="n206" xy="0,733" size="720,70" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <gearXY controller="zzcCtrl" pages="1" values="0,733" default="0,748"/>
+      <relation target="" sidePair="width-width"/>
+      <relation target="n205_f34j" sidePair="top-top"/>
+    </loader>
+    <component id="n92_pdpa" name="btnSpeed" src="pdpadxxyw" fileName="Component/BtnIcon.xml" xy="490,186" size="47,41" aspect="true" visible="false">
+      <Button title="加速" icon="ui://s7x7ku0ndd3xdxxxk"/>
+    </component>
+    <graph id="n118_kxbm" name="n118" xy="134,-7819" size="100,125" visible="false" type="rect" lineSize="2" fillColor="#ff3399ff">
+      <relation target="n117_cj33" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <component id="n75_pdpa" name="btnHelp" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="665,748" size="40,40" aspect="true">
+      <relation target="n206_f34j" sidePair="top-top"/>
+      <Button icon="ui://s7x7ku0na2kwdxyaq"/>
+    </component>
+    <component id="n142_ozj9" name="hpLb" src="ozj9dxy5a" fileName="Component/HeroAttrItem.xml" pkg="5moj1x39" xy="20,811" size="155,46" group="n146_ozj9" controller="attrType,12"/>
+    <component id="n143_ozj9" name="atkLb" src="ozj9dxy5a" fileName="Component/HeroAttrItem.xml" pkg="5moj1x39" xy="195,811" size="155,46" group="n146_ozj9" controller="attrType,11"/>
+    <component id="n144_ozj9" name="criticalStrikeLb" src="ozj9dxy5a" fileName="Component/HeroAttrItem.xml" pkg="5moj1x39" xy="370,811" size="154,46" group="n146_ozj9" controller="attrType,13"/>
+    <component id="n145_ozj9" name="criticalInjuryLb" src="ozj9dxy5a" fileName="Component/HeroAttrItem.xml" pkg="5moj1x39" xy="544,811" size="155,46" group="n146_ozj9" controller="attrType,14"/>
+    <group id="n146_ozj9" name="n146" xy="20,811" size="679,46" advanced="true" layout="hz" colGap="20" excludeInvisibles="true">
+      <gearDisplay controller="zzcCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n208_f34j" name="n208" xy="9,820" size="231,350" group="n184_kqmi" url="ui://s7x7ku0nf34jdxyag">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n201_cow7" name="equipFlyPos" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="112,958" size="26,26" group="n184_kqmi" visible="false" touchable="false"/>
+    <text id="n183_kqmi" name="n183" xy="76,830" size="100,34" group="n184_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="传承装备">
+      <relation target="n208_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n181_kqmi" name="inheritList" xy="38,889" size="176,178" group="n184_kqmi" layout="flow_hz" lineGap="15" colGap="15" defaultItem="ui://5moj1x39pdpadxxz8">
+      <item controllers="ctrbg,10"/>
+      <item controllers="ctrbg,0"/>
+      <item controllers="ctrbg,1"/>
+      <item controllers="ctrbg,2"/>
+    </list>
+    <component id="n185_kqmi" name="packageBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="40,1077" size="174,60" group="n184_kqmi">
+      <relation target="n208_f34j" sidePair="center-center"/>
+      <Button title="包裹" icon="ui://s7x7ku0nf34jdxya1"/>
+    </component>
+    <loader id="n241_j5a9" name="packageLockIcon" xy="56,1088" size="35,35" group="n184_kqmi" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scale">
+      <relation target="n185_kqmi" sidePair="left-left,top-top"/>
+    </loader>
+    <group id="n184_kqmi" name="n184" xy="9,820" size="231,350" group="n153_ozj9" advanced="true">
+      <gearDisplay controller="packageCtrl" pages="0"/>
+    </group>
+    <loader id="n209_f34j" name="n209" xy="245,820" size="231,350" group="n189_kqmi" url="ui://s7x7ku0nf34jdxyag"/>
+    <text id="n187_kqmi" name="n187" xy="333,830" size="52,34" group="n189_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="神器">
+      <relation target="n209_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n121_i9sl" name="listEquip2" xy="271,889" size="175,176" group="n189_kqmi" layout="flow_hz" lineGap="15" colGap="15" defaultItem="ui://5moj1x39pdpadxxz8">
+      <relation target="n209_f34j" sidePair="center-center"/>
+      <item controllers="ctrbg,3"/>
+      <item controllers="ctrbg,4"/>
+      <item controllers="ctrbg,5"/>
+      <item controllers="ctrbg,6"/>
+    </list>
+    <component id="n188_kqmi" name="upLvBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="274,1077" size="174,60" group="n189_kqmi">
+      <Button title="升级" icon="ui://s7x7ku0nf34jdxyah"/>
+    </component>
+    <loader id="n242_j5a9" name="lvUpLockIcon" xy="291,1089" size="35,35" group="n189_kqmi" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scale">
+      <relation target="n188_kqmi" sidePair="left-left,top-top"/>
+    </loader>
+    <component id="n200_kqmi" name="red" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="419,1076" group="n189_kqmi">
+      <relation target="n188_kqmi" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n189_kqmi" name="n189" xy="245,820" size="231,350" group="n153_ozj9" advanced="true">
+      <gearDisplay controller="packageCtrl" pages="0"/>
+    </group>
+    <loader id="n210_f34j" name="n210" xy="480,820" size="231,350" group="n192_kqmi" url="ui://s7x7ku0nf34jdxyag"/>
+    <text id="n191_kqmi" name="n191" xy="546,830" size="100,34" group="n192_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="普通装备">
+      <relation target="n210_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n111_pdpa" name="listEquip1" xy="506,889" size="175,174" group="n192_kqmi" layout="flow_hz" lineGap="15" colGap="15" defaultItem="ui://5moj1x39pdpadxxz8">
+      <relation target="n210_f34j" sidePair="center-center"/>
+      <item controllers="ctrbg,7"/>
+      <item controllers="ctrbg,8"/>
+      <item controllers="ctrbg,11"/>
+      <item controllers="ctrbg,12"/>
+    </list>
+    <component id="n77_pdpa" name="comBox" src="pdpadxxz2" fileName="Component/BtnBox.xml" xy="446,944" size="265,179" group="n192_kqmi"/>
+    <component id="n76_pdpa" name="btnSetupAuto" src="kv23dxy3v" fileName="Component/BtnIcon_autopack.xml" xy="655,1088" size="69,66" group="n192_kqmi" visible="false">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n129_nc1u" name="tempEquipIcon" src="nc1udxy1o" fileName="Component/TempEquipIcon.xml" xy="608,1012" size="80,80" group="n192_kqmi" visible="false">
+      <gearDisplay controller="zzcCtrl" pages="0"/>
+    </component>
+    <component id="n128_c90s" name="equipSplitEff" src="c90sdxy1m" fileName="Component/EquipSplitEffect.xml" xy="495,1001" size="204,153" group="n192_kqmi" visible="false" touchable="false"/>
+    <group id="n192_kqmi" name="n192" xy="446,820" size="278,350" group="n153_ozj9" advanced="true">
+      <gearDisplay controller="packageCtrl" pages="0"/>
+    </group>
+    <loader id="n211_f34j" name="n211" xy="8,820" size="704,350" group="n199_kqmi" url="ui://s7x7ku0nf34jdxya4"/>
+    <text id="n194_kqmi" name="n194" xy="286,830" size="148,34" group="n199_kqmi" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="传承装备包裹"/>
+    <component id="n195_kqmi" name="recycleBtn" src="kqmidxy9h" fileName="Component/RecycleBtn.xml" xy="583,826" group="n199_kqmi">
+      <Button icon="ui://s7x7ku0nf34jdxya1"/>
+    </component>
+    <list id="n196_kqmi" name="inheritBagList" xy="55,890" size="179,175" group="n199_kqmi" layout="flow_hz" lineGap="15" colGap="18" defaultItem="ui://5moj1x39pdpadxxz8">
+      <item controllers="ctrbg,10"/>
+      <item controllers="ctrbg,0"/>
+      <item controllers="ctrbg,1"/>
+      <item controllers="ctrbg,2"/>
+    </list>
+    <component id="n197_kqmi" name="closeBtn" src="kqmidxy94" fileName="Component/BtnCom.xml" pkg="5moj1x39" xy="57,1075" size="174,60" group="n199_kqmi">
+      <Button title="关闭" icon="ui://s7x7ku0nf34jdxy9n"/>
+    </component>
+    <list id="n198_kqmi" name="recycleBagList" xy="301,889" size="374,254" group="n199_kqmi" layout="flow_hz" overflow="scroll" lineGap="18" colGap="18" defaultItem="ui://5moj1x39pdpadxxz8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n199_kqmi" name="n199" xy="8,820" size="704,350" group="n153_ozj9" advanced="true">
+      <gearDisplay controller="packageCtrl" pages="1"/>
+    </group>
+    <group id="n153_ozj9" name="n153" xy="8,820" size="716,350" advanced="true">
+      <gearDisplay controller="zzcCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <list id="n155_ozj9" name="shuxingList" xy="8,867" size="704,275" group="n156_ozj9" visible="false" touchable="false" overflow="scroll" lineGap="10" defaultItem="ui://s7x7ku0nozj9dxy54" align="center" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n180_ax20" name="classicList" xy="8,865" size="704,275" group="n156_ozj9" overflow="scroll" lineGap="10" defaultItem="ui://s7x7ku0nax20dxy88">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n243_ntmn" name="noClassicTips" xy="253,1015" size="214,48" group="n156_ozj9" fontSize="35" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="还未获得秘典">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n171_ryjn" name="clickAttr" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="318,1001" size="137,51" group="n156_ozj9" visible="false"/>
+    <group id="n156_ozj9" name="n156" xy="8,865" size="704,277" advanced="true">
+      <gearDisplay controller="zzcCtrl" pages="1"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n131_ot6f" name="openPmBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="9,737" size="56,60">
+      <relation target="n206_f34j" sidePair="middle-middle,left-left"/>
+      <Button title="PM" titleFontSize="30" icon="ui://5moj1x39t36s1w"/>
+    </component>
+    <loader id="n213_a2kw" name="listBottomBg" xy="0,1150" size="720,130" group="n132_pchv" url="ui://5moj1x39a2kwdxybz" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+    <list id="n58_dd3x" name="listBottom" xy="1,1154" size="720,116" group="n132_pchv" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" scroll="both" colGap="25" defaultItem="ui://s7x7ku0ndd3xdxxym" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <item title="角色" icon="ui://s7x7ku0nucd4dxyby" selectedTitle=" "/>
+      <item title="装备" icon="ui://s7x7ku0nucd4dxybz" selectedTitle=" "/>
+      <item title="大地图" icon="ui://s7x7ku0nucd4dxyc0" selectedIcon="ui://s7x7ku0nllb1dxycv"/>
+      <item title="宠物" icon="ui://s7x7ku0nucd4dxyc1" selectedTitle=" "/>
+      <item title="召唤" icon="ui://s7x7ku0nucd4dxybx" selectedTitle=" "/>
+    </list>
+    <group id="n132_pchv" name="bottomGroup" xy="0,1150" size="721,130" advanced="true"/>
+    <text id="n249_llb1" name="n249" xy="213,741" size="68,44" group="n164_ha87" fontSize="32" color="#f0df65" bold="true" strokeColor="#000000" strokeSize="2" text="战力"/>
+    <loader id="n207_f34j" name="n207" xy="307,748" size="200,32" group="n164_ha87" url="ui://s7x7ku0na2kwdxyap" fill="scaleFree"/>
+    <loader id="n162_ha87" name="n162" xy="286,739" size="48,48" group="n164_ha87" url="ui://5moj1x39f34jdxyax" fill="scale">
+      <relation target="n207_f34j" sidePair="left-left"/>
+    </loader>
+    <text id="n163_ha87" name="fightValLb" xy="328,740" size="153,44" group="n164_ha87" fontSize="32" color="#f0df65" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="2530.60万">
+      <relation target="n207_f34j" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n164_ha87" name="n164" xy="213,739" size="294,48" advanced="true">
+      <relation target="n206_f34j" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n223_a2kw" name="showOtherBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="8,117" size="96,96" visible="false">
+      <Button icon="ui://s7x7ku0na2kwdxyb5"/>
+    </component>
+    <loader id="n236_ucd4" name="n236" xy="-1,285" size="209,695" group="n229_a2kw" url="ui://s7x7ku0na2kwdxybf" fill="scaleFree"/>
+    <loader id="n225_a2kw" name="n225" xy="0,467" size="205,453" group="n229_a2kw" url="ui://s7x7ku0na2kwdxybg" fill="scaleFree">
+      <relation target="n224_a2kw" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n224_a2kw" name="n224" xy="-4,288" size="209,187" group="n229_a2kw" url="ui://s7x7ku0na2kwdxybp" fill="scaleFree"/>
+    <loader id="n226_a2kw" name="n226" xy="0,917" size="205,60" group="n229_a2kw" url="ui://s7x7ku0na2kwdxybh" fill="scaleFree">
+      <relation target="n225_a2kw" sidePair="top-bottom"/>
+    </loader>
+    <component id="n230_a2kw" name="headIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="55,316" group="n229_a2kw">
+      <relation target="n224_a2kw" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n231_a2kw" name="playerName" xy="3,414" size="196,34" group="n229_a2kw" fontSize="24" color="#ffffff" align="center" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="游戏名123456">
+      <relation target="n230_a2kw" sidePair="center-center,top-bottom"/>
+    </text>
+    <list id="n227_a2kw" name="otherList" xy="21,486" size="166,424" group="n229_a2kw" overflow="scroll" lineGap="10" defaultItem="ui://s7x7ku0noceedxybr">
+      <relation target="n225_a2kw" sidePair="center-center"/>
+      <item title="签到" icon="ui://s7x7ku0na2kwdxybn"/>
+      <item title="任务" icon="ui://s7x7ku0na2kwdxybo"/>
+      <item title="家园" icon="ui://s7x7ku0na2kwdxybm"/>
+      <item title="邮件" icon="ui://s7x7ku0na2kwdxybj"/>
+      <item title="图鉴" icon="ui://s7x7ku0nnjebdxy5p"/>
+    </list>
+    <component id="n228_a2kw" name="colseOtherBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="81,925" size="41,43" group="n229_a2kw">
+      <Button icon="ui://s7x7ku0na2kwdxybl"/>
+    </component>
+    <group id="n229_a2kw" name="n229" xy="-4,285" size="212,695" advanced="true">
+      <gearDisplay controller="isShowOther" pages="1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+  </displayList>
+</component>

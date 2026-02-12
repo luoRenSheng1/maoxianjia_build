@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n5_rjj2" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_rjj2" name="dim" src="tdjudxyh8" fileName="Component/Common/NewCurrency.xml" pkg="0anhreyl" xy="50,14">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <loader id="n7_rjj2" name="titIcon" xy="16,59" size="688,562" group="n10_rjj2" url="ui://5moj1x39om2edxyd5"/>
+    <loader id="n15_rjj2" name="n15" xy="16,293" pivot="0.5,0" size="688,820" group="n10_rjj2" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <loader id="n8_rjj2" name="n8" xy="16,273" pivot="0.5,0" size="688,128" group="n10_rjj2" url="ui://pdufy3kef34j32" fillMethod="vt" fillAmount="57"/>
+    <image id="n11_rjj2" name="n11" src="f34jdxya1" fileName="Res/newItem2/general_title_bg2.png" pkg="5moj1x39" xy="109,269" group="n10_rjj2"/>
+    <text id="n12_rjj2" name="title" xy="294,285" pivot="0.5,0.5" size="132,44" group="n10_rjj2" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="奇遇商店">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n13_rjj2" name="close" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="318,1137" group="n10_rjj2" scale="1.1,1.1"/>
+    <list id="n14_rjj2" name="list" xy="26,393" pivot="0.5,0" size="668,709" group="n10_rjj2" layout="flow_hz" overflow="scroll" margin="44,0,14,0" lineGap="22" colGap="16">
+      <item url="ui://pdufy3ketdju5o"/>
+      <item url="ui://pdufy3ketdju5o"/>
+      <item url="ui://pdufy3ketdju5o"/>
+      <item url="ui://pdufy3ketdju5o"/>
+      <item url="ui://pdufy3ketdju5o"/>
+      <item url="ui://pdufy3ketdju5o"/>
+    </list>
+    <group id="n10_rjj2" name="n10" xy="16,59" size="688,1162" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

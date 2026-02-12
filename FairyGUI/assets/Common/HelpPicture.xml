@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n7_ybim" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n2_il6l" name="n2" xy="67,321" size="596,502" group="n6_qofb" url="ui://8glegefcnif6c" fill="scaleFree">
+      <relation target="n5_il6l" sidePair="height-height"/>
+    </loader>
+    <image id="n1_il6l" name="n1" src="nif6d" fileName="Res/n3.png" pkg="8glegefc" xy="67,268" group="n6_qofb"/>
+    <image id="n3_il6l" name="n3" src="nif6a" fileName="Res/xian.png" pkg="8glegefc" xy="67,321" size="596,27" group="n6_qofb"/>
+    <text id="n4_il6l" name="n4" xy="340,281" size="54,35" group="n6_qofb" fontSize="25" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#582600" text="帮助"/>
+    <list id="n5_il6l" name="helpList" xy="112,370" size="511,411" group="n6_qofb" overflow="scroll" defaultItem="ui://0anhreylqofb1f" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_ybim" name="closeBtn2" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,840" group="n6_qofb">
+      <relation target="n2_il6l" sidePair="bottom-bottom"/>
+    </component>
+    <group id="n6_qofb" name="n6" xy="67,268" size="596,666" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

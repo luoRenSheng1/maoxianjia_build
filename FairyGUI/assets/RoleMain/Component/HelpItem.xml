@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,136" extention="Label">
+  <displayList>
+    <image id="n0_ozj9" name="n0" src="ozj92" fileName="Res/bagnzhu-di.png" xy="0,0" size="512,102"/>
+    <image id="n1_ozj9" name="n1" src="ozj93" fileName="Res/bagnzhu-yuan.png" xy="13,8"/>
+    <loader id="n2_ozj9" name="icon" xy="16,11" size="88,84" url="ui://5moj1x39qj2edxy4j" fill="scale"/>
+    <richtext id="n3_ozj9" name="title" xy="124,19" size="345,73" fontSize="20" color="#663e20" autoSize="shrink" text="这里是帮助这里是帮助这里是帮助这里是帮助这里是帮助这里是帮助"/>
+    <image id="n4_ozj9" name="n4" src="ozj91x" fileName="Res/newPetsystem/nn7.png" xy="491,112"/>
+    <image id="n5_ozj9" name="n5" src="ozj91y" fileName="Res/newPetsystem/nn8.png" xy="36,119" size="447,8" pkg="5moj1x39"/>
+    <image id="n6_ozj9" name="n6" src="ozj91x" fileName="Res/newPetsystem/nn7.png" xy="5,112"/>
+  </displayList>
+</component>

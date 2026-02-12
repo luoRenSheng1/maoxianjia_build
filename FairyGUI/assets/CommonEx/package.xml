@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5moj1x39">
+  <resources>
+    <image id="vcwc0" name="xiezi.png" path="/Res/Partcon/"/>
+    <image id="vcwc1" name="yaodai.png" path="/Res/Partcon/"/>
+    <image id="vcwc2" name="yifu.png" path="/Res/Partcon/"/>
+    <image id="vcwc3" name="hushou.png" path="/Res/Partcon/"/>
+    <image id="vcwc4" name="hutui.png" path="/Res/Partcon/"/>
+    <image id="vcwc5" name="jianjia.png" path="/Res/Partcon/"/>
+    <image id="vcwc6" name="mianju.png" path="/Res/Partcon/"/>
+    <image id="vcwc7" name="shoutao.png" path="/Res/Partcon/"/>
+    <image id="vcwc8" name="toushi.png" path="/Res/Partcon/"/>
+    <image id="vcwc9" name="wuqi.png" path="/Res/Partcon/"/>
+    <component id="skp6p" name="ComEquipItem.xml" path="/Component/" exported="true"/>
+    <image id="w02nq" name="pinzhi-0.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02nr" name="pinzhi-1.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02ns" name="pinzhi-2.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02nt" name="pinzhi-3.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02nv" name="pinzhi-4.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02nw" name="pinzhi-6.png" path="/Res/Quality/" exported="true"/>
+    <image id="w02nx" name="pinzhi-5.png" path="/Res/Quality/" exported="true"/>
+    <component id="eb0tdxxzf" name="BarExp.xml" path="/Component/" exported="true"/>
+    <image id="eb0tdxxzc" name="ICON-xueliang.png" path="/Res/" scale="9grid" scale9grid="103,0,206,22"/>
+    <image id="w02ndxy20" name="ICON-xuetiao 01.png" path="/Res/" exported="true" scale="9grid" scale9grid="103,0,206,22"/>
+    <component id="p4bng" name="EmptyBtn.xml" path="/Component/" exported="true"/>
+    <image id="t36s22" name="guanbi.PNG" path="/Res/" exported="true"/>
+    <component id="ewjfdxy22" name="ItemCom.xml" path="/Component/" exported="true"/>
+    <image id="ewjfdxy23" name="5.png" path="/Res/" exported="true" scale="9grid" scale9grid="36,34,8,13"/>
+    <component id="jp5j1" name="PetItem.xml" path="/Component/" exported="true"/>
+    <image id="p4bn1a" name="1.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1b" name="2.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1c" name="3.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1d" name="4.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1e" name="5.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1f" name="6.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1g" name="7.png" path="/Res/petQuality/" exported="true"/>
+    <image id="p4bn1h" name="8.png" path="/Res/petQuality/"/>
+    <image id="p4bn1i" name="9.png" path="/Res/petQuality/" duplicatePadding="true"/>
+    <image id="p4bn1j" name="10.png" path="/Res/petQuality/"/>
+    <image id="p4bn19" name="4.png" path="/Res/" exported="true" scale="9grid" scale9grid="119,109,12,16"/>
+    <component id="p4bn1k" name="PetStarItem.xml" path="/Component/" exported="true"/>
+    <image id="p4bnu" name="3.png" path="/Res/"/>
+    <image id="p4bnt" name="ICON-lock.png" path="/Res/"/>
+    <image id="p4bns" name="UI-02.png" path="/Res/"/>
+    <image id="p4bn13" name="btn-dian.png" path="/Res/"/>
+    <image id="p4bn12" name="btn-dou.png" path="/Res/"/>
+    <image id="p4bn11" name="btn-du.png" path="/Res/"/>
+    <image id="p4bn10" name="btn-fire.png" path="/Res/"/>
+    <image id="p4bnz" name="btn-grass.png" path="/Res/"/>
+    <image id="p4bn18" name="btn-water.png" path="/Res/"/>
+    <image id="p4bni" name="战斗.png" path="/Res/"/>
+    <image id="p4bnj" name="水.png" path="/Res/"/>
+    <image id="p4bnm" name="火.png" path="/Res/"/>
+    <image id="p4bn1l" name="炎尾狐.png" path="/Res/" scale9grid="0,0,-343,-338"/>
+    <image id="p4bnl" name="精神.png" path="/Res/"/>
+    <image id="p4bno" name="草.png" path="/Res/"/>
+    <image id="p4bnk" name="龙.png" path="/Res/"/>
+    <image id="r20ddxy2s" name="btn-tupo 02.png" path="/Res/btn/"/>
+    <image id="r20ddxy2t" name="btn-yijiantupo.png" path="/Res/btn/"/>
+    <component id="hpffdxy2u" name="CloseBtn.xml" path="/Component/" exported="true"/>
+    <image id="hpffdxy2v" name="8.png" path="/Res/" exported="true" scale="9grid" scale9grid="69,60,138,7"/>
+    <component id="p4bnc" name="TabBtn.xml" path="/Component/" exported="true"/>
+    <image id="t36s1w" name="btn.png" path="/Res/" exported="true" scale="9grid" scale9grid="80,22,19,5"/>
+    <image id="ewjf2" name="bg.png" path="/Res/" exported="true" scale="9grid" scale9grid="47,42,7,15"/>
+    <image id="fpa2dxy2w" name="ICON-daoju 03.png" path="/Res/" exported="true"/>
+    <image id="fpa2dxy2x" name="10.PNG" path="/Res/" exported="true" scale="9grid" scale9grid="49,19,9,46"/>
+    <image id="fpa2dxy2y" name="11.PNG" path="/Res/" exported="true" scale="9grid" scale9grid="60,48,8,21"/>
+    <image id="fpa2dxy2z" name="13.PNG" path="/Res/" exported="true" scale="9grid" scale9grid="46,29,10,10"/>
+    <image id="fpa2dxy30" name="9.png" path="/Res/" exported="true" scale="9grid" scale9grid="21,0,42,0"/>
+    <image id="fpa2dxy31" name="12.png" path="/Res/" exported="true"/>
+    <image id="fpa2dxy32" name="7.PNG" path="/Res/" exported="true" scale="9grid" scale9grid="22,22,11,12"/>
+    <image id="fpa2dxy33" name="arrow.png" path="/Res/" exported="true"/>
+    <image id="fpa2dxy34" name="14.png" path="/Res/" exported="true"/>
+    <image id="gx0idxy35" name="UI-03.png" path="/Res/" exported="true" scale="9grid" scale9grid="43,10,206,33"/>
+    <image id="gx0idxy36" name="UI-06.PNG" path="/Res/" exported="true" scale9grid="180,35,360,70"/>
+    <image id="gx0idxy37" name="22.png" path="/Res/" atlas="alone"/>
+    <component id="w61tdxy38" name="CommonItemTips.xml" path="/Component/" exported="true"/>
+    <image id="lir3dxy39" name="ICON-jineng.png" path="/Res/" exported="true" scale="9grid" scale9grid="43,19,86,6"/>
+    <image id="p4bn17" name="19.PNG" path="/Res/" exported="true"/>
+    <image id="cy7nf" name="7.png" path="/Res/btn/"/>
+    <component id="cy7ndxy3a" name="EmptyRMB.xml" path="/Component/" exported="true"/>
+    <image id="fpa2u" name="1.png" path="/Res/btn/" scale="9grid" scale9grid="45,13,10,4"/>
+    <image id="cy7ndxy3b" name="2.png" path="/Res/btn/" exported="true" scale="9grid" scale9grid="26,14,52,6"/>
+    <image id="rhz7dxy3c" name="q6.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3d" name="q7.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3e" name="q8.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3f" name="q9.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3g" name="q10.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3h" name="q1.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3i" name="q3.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3j" name="q4.png" path="/Res/circleQuality/"/>
+    <image id="rhz7dxy3k" name="q5.png" path="/Res/circleQuality/"/>
+    <image id="t36s2h" name="btn-1.png" path="/Res/" exported="true" scale="9grid" scale9grid="25,10,50,20"/>
+    <image id="t36s1y" name="btn-left.png" path="/Res/" exported="true"/>
+    <image id="t36s1z" name="btn-right.png" path="/Res/" exported="true"/>
+    <component id="p4bn9" name="NextBtn.xml" path="/Component/" exported="true"/>
+    <component id="p4bn8" name="PreBtn.xml" path="/Component/" exported="true"/>
+    <image id="rhz7dxy3l" name="q2.png" path="/Res/circleQuality/"/>
+    <component id="gybrdxy3m" name="CommonPetTips.xml" path="/Component/" exported="true"/>
+    <component id="kn0fdxy3p" name="qualityLabel.xml" path="/Component/" exported="true"/>
+    <component id="kn0fdxy3r" name="CommonSkillTips.xml" path="/Component/" exported="true"/>
+    <component id="jl15dxy3s" name="RedDotComponent.xml" path="/Component/" exported="true"/>
+    <image id="grjddxy3t" name="UI-01.png" path="/Res/" scale="9grid" scale9grid="26,29,52,58"/>
+    <image id="x3dk2y" name="line7.png" path="/Res/" exported="true" scale="tile" scale9grid="4,0,8,0" smoothing="false" duplicatePadding="true" disableTrim="true"/>
+    <image id="x3dkdxy3m" name="13.png" path="/Res/allAttr/" exported="true" scale="9grid" scale9grid="138,0,18,62" duplicatePadding="true"/>
+    <image id="x3dkdxy3n" name="14.png" path="/Res/allAttr/" exported="true"/>
+    <image id="x3dkdxy3o" name="16.png" path="/Res/allAttr/" exported="true" scale="9grid" scale9grid="48,50,11,20"/>
+    <image id="ot6fdxy3u" name="petItembg.png" path="/Res/"/>
+    <misc id="ot6fdxy3w" name="CommonEx_weiba.atlas.txt" path="/Res/allAttr/" exported="true"/>
+    <image id="ot6fdxy3x" name="CommonEx_weiba.png" path="/Res/allAttr/" exported="true"/>
+    <spine id="ot6fdxy3v" name="CommonEx_weiba.skel" path="/Res/allAttr/" exported="true" width="190" height="104" require="ot6fdxy3w,ot6fdxy3x" atlasNames="CommonEx_weiba" anchor="37,18"/>
+    <component id="ot6fdxy3y" name="EmptyYellowBtn.xml" path="/Component/" exported="true"/>
+    <image id="ot6fdxy3z" name="6.png" path="/Res/"/>
+    <misc id="s503dxy41" name="CommonEx_GetPet.atlas.txt" path="/Res/getPetSpine/"/>
+    <image id="s503dxy42" name="CommonEx_GetPet.png" path="/Res/getPetSpine/"/>
+    <spine id="s503dxy40" name="CommonEx_GetPet.skel" path="/Res/getPetSpine/" width="129" height="126" require="s503dxy41,s503dxy42" atlasNames="CommonEx_GetPet" anchor="63,66"/>
+    <misc id="s503dxy4b" name="CommonEx_item.atlas" path="/Res/getItemSpine/"/>
+    <image id="s503dxy4c" name="CommonEx_item.png" path="/Res/getItemSpine/"/>
+    <spine id="s503dxy4a" name="CommonEx_item.skel" path="/Res/getItemSpine/" width="88" height="121" require="s503dxy4b,s503dxy4c" atlasNames="CommonEx_item" anchor="44,60"/>
+    <component id="gwxtdxy3m" name="BarHp.xml" path="/Component/" exported="true"/>
+    <component id="hargdxy3l" name="BarHpComponent.xml" path="/Component/" exported="true"/>
+    <component id="ct04dxxzo" name="BarHpTween.xml" path="/Component/"/>
+    <image id="p4bn14" name="btn-all.png" path="/Res/"/>
+    <image id="hargdxy3f" name="bossBg.png" path="/Res/hp/" scale="9grid" scale9grid="51,0,31,32"/>
+    <image id="hargdxy3g" name="boss.png" path="/Res/hp/" scale="9grid" scale9grid="17,0,6,18" duplicatePadding="true"/>
+    <image id="hargdxy3h" name="2.png" path="/Res/hp/" scale="9grid" scale9grid="26,0,11,13"/>
+    <image id="hargdxy3i" name="3.png" path="/Res/hp/" exported="true" scale="9grid" scale9grid="17,0,6,11" duplicatePadding="true"/>
+    <image id="hargdxy3j" name="4.png" path="/Res/hp/" scale="9grid" scale9grid="15,0,14,11" duplicatePadding="true"/>
+    <image id="hargdxy3k" name="5.png" path="/Res/hp/" scale="9grid" scale9grid="18,0,17,11" duplicatePadding="true"/>
+    <image id="ofkodxy3m" name="UI-bg.png" path="/Res/" scale9grid="180,167,360,334" atlas="alone"/>
+    <component id="jpak1n" name="NeedUseItem.xml" path="/Component/" exported="true"/>
+    <component id="pchvdxy4d" name="UpLvBuildConditItem.xml" path="/Component/" exported="true"/>
+    <component id="jp5j3" name="OccupItem.xml" path="/Component/" exported="true"/>
+    <image id="ewjf6" name="tt.png" path="/Res/" exported="true" scale="9grid" scale9grid="24,17,48,4"/>
+    <image id="j2lc5" name="hc1.png" path="/Res/" exported="true" scale="9grid" scale9grid="29,4,58,8"/>
+    <image id="j2lc6" name="hc2.png" path="/Res/" exported="true" scale="9grid" scale9grid="23,6,6,2" duplicatePadding="true"/>
+    <component id="yd2hdxy4e" name="VillagePetTalk.xml" path="/Component/" exported="true"/>
+    <component id="hvyadxy4f" name="VillagePetWorkingBar.xml" path="/Component/" exported="true"/>
+    <component id="hvyadxy4g" name="VillagePetWorkTop.xml" path="/Component/" exported="true"/>
+    <image id="rhz7u" name="bgR.png" path="/Res/" scale="tile" duplicatePadding="true"/>
+    <image id="lir35" name="UI-04.png" path="/Res/" atlas="alone"/>
+    <image id="v51sdxy4h" name="24.png" path="/Res/" exported="true" scale="9grid" scale9grid="46,85,7,6"/>
+    <component id="qj2edxy4i" name="fightCom.xml" path="/Component/" exported="true"/>
+    <image id="qj2edxy4j" name="ICON-zhanli.png" path="/Res/fight/" exported="true"/>
+    <component id="isqldxy4k" name="fightComSmall.xml" path="/Component/" exported="true"/>
+    <component id="rx0xo87" name="ComUserInfo.xml" path="/Component/" exported="true"/>
+    <image id="sc7h2" name="ICON-VIP.png" path="/Res/"/>
+    <component id="vnmwdxy4l" name="VipCom.xml" path="/Component/" exported="true"/>
+    <image id="sc7ht" name="distBg.png" path="/Res/" exported="true"/>
+    <image id="x3dk2r" name="check_1.png" path="/Res/" exported="true"/>
+    <image id="x3dk2q" name="check_bg.png" path="/Res/" exported="true" scale="9grid" scale9grid="13,13,2,4"/>
+    <component id="vm2rdxy4m" name="EmptyBtnNoStroke.xml" path="/Component/" exported="true"/>
+    <image id="ffpwd" name="792.png" path="/Res/" exported="true"/>
+    <image id="algcdxy4n" name="btn-tupo3.png" path="/Res/btn/"/>
+    <image id="algcdxy4o" name="btn-tupo-2.png" path="/Res/btn/"/>
+    <image id="algcdxy4p" name="speedbg.png" path="/Res/village/"/>
+    <image id="algcdxy4q" name="speedBar.png" path="/Res/village/"/>
+    <image id="fpa2dxy37" name="yumao.png" path="/Res/" exported="true" scale9grid="0,0,-104,-106"/>
+    <image id="xfbb2n" name="ICON-next.png" path="/Res/" exported="true"/>
+    <component id="qonndxy4r" name="EmptyDimandBtn.xml" path="/Component/" exported="true"/>
+    <image id="vcwq2j" name="wildPet.png" path="/"/>
+    <image id="i9sl1y" name="ICON-fast.png" path="/"/>
+    <image id="r13rdxy4s" name="reddot.png" path="/Res/" exported="true"/>
+    <image id="kv23dxy4t" name="reddot2.png" path="/Res/" exported="true" scale="tile"/>
+    <image id="ddc1dxy4u" name="n111.png" path="/Res/"/>
+    <image id="ddc13t" name="nn17.png" path="/Res/btn/" exported="true" scale="9grid" scale9grid="66,0,12,57"/>
+    <image id="ddc148" name="n280.png" path="/Res/" exported="true" scale="9grid" scale9grid="42,36,15,17"/>
+    <image id="ddc147" name="n281.png" path="/Res/" exported="true"/>
+    <image id="ddc13h" name="nn3.png" path="/Res/" exported="true" scale="9grid" scale9grid="22,20,44,40"/>
+    <image id="ddc1dxy4w" name="n822.png" path="/Res/" exported="true" scale="9grid" scale9grid="38,23,9,3"/>
+    <image id="ddc1dxy4x" name="nn18.png" path="/Res/btn/" exported="true"/>
+    <image id="ju03dxy4y" name="ICON-xuetiao02.png" path="/Res/" exported="true" scale="9grid" scale9grid="9,0,47,17"/>
+    <component id="ju03dxy4z" name="EmptyAdBtn.xml" path="/Component/" exported="true"/>
+    <image id="ju031h" name="n11.png" path="/Res/" exported="true" scale="9grid" scale9grid="74,144,24,27"/>
+    <image id="ddc14i" name="fff.png" path="/Res/" exported="true"/>
+    <image id="ju03dxy50" name="qk1.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy51" name="qk2.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy52" name="qk3.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy53" name="qk4.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy54" name="qk5.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy55" name="qk6.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy56" name="qk7.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="ju03dxy57" name="dd.png" path="/Res/" exported="true"/>
+    <image id="ddc14c" name="aa.png" path="/Res/" exported="true"/>
+    <image id="ju03dxy58" name="adicon.png" path="/Res/adbtn/" exported="true"/>
+    <component id="ju03dxy59" name="EmptyAdBtn2.xml" path="/Component/" exported="true"/>
+    <component id="ozj9dxy5a" name="HeroAttrItem.xml" path="/Component/" exported="true"/>
+    <image id="ozj9dxy5b" name="mn.png" path="/Component/newPetsystem2/"/>
+    <image id="ozj9dxy5c" name="juxing 4.png" path="/Res/" exported="true" scale="9grid" scale9grid="34,10,68,13"/>
+    <image id="ju031i" name="n12.png" path="/Res/" exported="true" scale="9grid" scale9grid="161,28,13,11"/>
+    <image id="r0wo10" name="nn7.png" path="/Res/" exported="true"/>
+    <image id="ddc13r" name="nn10.png" path="/Res/" exported="true" scale="9grid" scale9grid="38,39,76,30"/>
+    <component id="ozj9dxy5d" name="RoleItem.xml" path="/Component/" exported="true"/>
+    <image id="ozj98" name="q2.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj99" name="q3.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj9a" name="q4.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj9b" name="q5.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj9c" name="q8.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj9d" name="q7.png" path="/Res/rolequality/" exported="true"/>
+    <image id="ozj9e" name="q6.png" path="/Res/rolequality/" exported="true"/>
+    <component id="ozj9dxy5e" name="roleQualityItem.xml" path="/Component/" exported="true"/>
+    <image id="eb0tdxxzb" name="ICON-shuxingheidi.png" path="/Res/" exported="true" scale="9grid" scale9grid="102,8,204,16"/>
+    <image id="ju03m" name="adnn3.png" path="/Res/" exported="true"/>
+    <component id="ozj9dxy5f" name="CommonHeroLevelAttrTips.xml" path="/Component/" exported="true"/>
+    <image id="ozj9dxy5g" name="heroStar0.png" path="/Res/heroStar/"/>
+    <image id="ozj9dxy5h" name="heroStar0_d.png" path="/Res/heroStar/"/>
+    <image id="ozj9dxy5i" name="heroStar1.png" path="/Res/heroStar/"/>
+    <image id="ozj9dxy5j" name="HeroStar1_d.png" path="/Res/heroStar/"/>
+    <image id="ozj9dxy5k" name="HeroStar2.png" path="/Res/heroStar/"/>
+    <image id="ozj9dxy5l" name="HeroStar2_d.png" path="/Res/heroStar/"/>
+    <component id="ozj9dxy5m" name="RoleStarItem.xml" path="/Component/" exported="true"/>
+    <image id="ozj9dxy5n" name="dfhftjjuj.png" path="/Res/" scale="9grid" scale9grid="20,0,6,18"/>
+    <image id="ozj90" name="asfsdgs.png" path="/Res/"/>
+    <image id="ozj9dxy5o" name="attr_19.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5p" name="attr_16.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5q" name="attr_15.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5r" name="attr_14.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5s" name="attr_13.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5t" name="attr_12.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5u" name="attr_11.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5v" name="attr_10.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5w" name="attr_17.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5x" name="attr_9.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5y" name="attr_7.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy5z" name="attr_6.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy60" name="attr_5.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy61" name="attr_4.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy62" name="attr_3.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy63" name="attr_2.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy64" name="attr_1.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy65" name="attr_8.png" path="/Res/attr/" exported="true"/>
+    <image id="ozj9dxy66" name="attr_18.png" path="/Res/attr/" exported="true"/>
+    <component id="iqvadxy67" name="PetItemEx.xml" path="/Component/" exported="true"/>
+    <component id="k627dxy69" name="CloseBtn2.xml" path="/Component/" exported="true"/>
+    <component id="k627dxy6a" name="CommonAttrItem.xml" path="/Component/" exported="true"/>
+    <image id="ozj91y" name="nn8.png" path="/Res/" exported="true" scale="tile"/>
+    <image id="rm2cdxy6b" name="20023.png" path="/Component/newPetsystem2/"/>
+    <image id="rm2cdxy6c" name="20022.png" path="/Component/newPetsystem2/"/>
+    <image id="sfmldxy6d" name="yizhuangbei.png" path="/Res/"/>
+    <component id="k627dxy68" name="petQualityItem.xml" path="/Component/" exported="true"/>
+    <image id="ha87dxy6e" name="873.png" path="/Res/" exported="true" scale="9grid" scale9grid="47,29,115,58"/>
+    <image id="ha87dxy6f" name="33.png" path="/Res/" exported="true"/>
+    <image id="s2xhdxy6n" name="qk0.png" path="/Res/petQuality/qkQuality/"/>
+    <image id="s2xhdxy6o" name="0.png" path="/Res/petQuality/" exported="true"/>
+    <image id="k6272m" name="p1.png" path="/Res/petQuality/"/>
+    <image id="k6272n" name="p2.png" path="/Res/petQuality/"/>
+    <image id="k6272o" name="p3.png" path="/Res/petQuality/"/>
+    <image id="k6272p" name="p4.png" path="/Res/petQuality/"/>
+    <image id="k6272q" name="p5.png" path="/Res/petQuality/"/>
+    <image id="k6272r" name="p6.png" path="/Res/petQuality/"/>
+    <image id="k6272s" name="p7.png" path="/Res/petQuality/"/>
+    <component id="du07dxy6p" name="Marquee.xml" path="/Component/" exported="true"/>
+    <image id="ftc9dxy6q" name="ylq.png" path="/Res/" exported="true"/>
+    <image id="pliodxy6r" name="nn9.png" path="/Res/" exported="true"/>
+    <sound id="r0abdxy6s" name="TY_1.ogg" path="/" exported="true"/>
+    <image id="r0ab1" name="n730.png" path="/Res/" exported="true" scale="9grid" scale9grid="55,41,22,21"/>
+    <image id="ozj911" name="aaa.png" path="/Res/" exported="true"/>
+    <image id="surf2" name="aaaa.png" path="/Res/" exported="true"/>
+    <image id="u5mtdxy6t" name="1.png" path="/Res/" exported="true" scale="9grid" scale9grid="44,8,1,2"/>
+    <component id="pdpadxxz8" name="BtnEquip.xml" path="/Component/" exported="true"/>
+    <component id="pdpadxxz9" name="BtnEquipL.xml" path="/Component/" exported="true"/>
+    <image id="gsscdxy6u" name="shiyongzhong.png" path="/Res/" exported="true"/>
+    <component id="ldokdxy6v" name="DailyRwReissue.xml" path="/Component/"/>
+    <image id="jvjmdxy7h" name="setout_btn_close.png" path="/Res/btn/" exported="true"/>
+    <image id="jvjmdxy7i" name="setout_btn1.png" path="/Res/btn/" exported="true"/>
+    <image id="ax20dxy7j" name="home_skil_list1_icon22.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7k" name="home_skil_list1_icon23.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7l" name="home_skil_list1_icon24.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7m" name="home_skil_list1_icon11.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7n" name="home_skil_list1_icon12.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7o" name="home_skil_list1_icon13.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7p" name="home_skil_list1_icon14.png" path="/Res/attr2/" exported="true"/>
+    <image id="ax20dxy7q" name="home_skil_list1_icon21.png" path="/Res/attr2/" exported="true"/>
+    <component id="l8pndxy7r" name="HitCom.xml" path="/Component/" exported="true"/>
+    <image id="jvjmm" name="tip_bg.png" path="/Res/" exported="true"/>
+    <image id="jvjmn" name="tip_btn2.png" path="/Res/" exported="true"/>
+    <image id="l8pndxy7s" name="tip_btn1.png" path="/Res/" exported="true"/>
+    <component id="i18ndxy7t" name="CommonAttrTips.xml" path="/Component/" exported="true"/>
+    <image id="i18ndxy7u" name="attrTipsBg.png" path="/Res/" scale="9grid" scale9grid="129,67,258,12"/>
+    <component id="p9n0dxy7w" name="BarExp2.xml" path="/Component/" exported="true"/>
+    <image id="p9n0dxy82" name="role_intensify_btn13.png" path="/Res/btn/" exported="true"/>
+    <image id="p9n0dxy83" name="role_intensify_btn11.png" path="/Res/btn/" exported="true"/>
+    <image id="p9n0dxy84" name="role_intensify_btn14.png" path="/Res/btn/" exported="true"/>
+    <image id="p9n0dxy86" name="role_intensify_bg6.png" path="/Res/btn/" exported="true"/>
+    <component id="p9n0dxy87" name="comBtn.xml" path="/Component/" exported="true"/>
+    <image id="p9n0dxy88" name="tip_bg1.png" path="/Res/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="p9n0dxy89" name="tip_bg12.png" path="/Res/" exported="true"/>
+    <component id="p9n0dxy8a" name="Tips.xml" path="/Component/" exported="true"/>
+    <image id="kqmidxy8c" name="general_title_icon1.png" path="/Res/newItem/" exported="true"/>
+    <component id="kqmidxy8g" name="TabCom.xml" path="/Component/" exported="true"/>
+    <component id="kqmidxy94" name="BtnCom.xml" path="/Component/" exported="true"/>
+    <image id="kqmidxy8j" name="small_btn14.png" path="/Res/btn/" exported="true"/>
+    <image id="kqmidxy8n" name="kongbai.png" path="/Res/newItem/" exported="true"/>
+    <image id="p9n0dxy7i" name="role_bg3.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy96" name="general_tag14.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy97" name="general_tag15.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy98" name="general_tag11.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy99" name="general_tag12.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9a" name="general_tag13.png" path="/Res/newItem/" exported="true"/>
+    <component id="hz5cdxy9b" name="BtnCom2.xml" path="/Component/" exported="true"/>
+    <image id="hz5cdxy9d" name="general_quality13.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9e" name="general_quality14.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9f" name="general_quality15.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9g" name="general_quality16.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9h" name="general_quality17.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9i" name="general_quality11.png" path="/Res/newItem/" exported="true"/>
+    <image id="hz5cdxy9j" name="general_quality12.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy8z" name="smriti_icon1.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy90" name="smriti_icon2.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy91" name="smriti_icon3.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy8t" name="smriti_icon4.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy8u" name="smriti_icon5.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy8v" name="smriti_icon6.png" path="/Res/newItem/" exported="true"/>
+    <image id="kqmidxy8w" name="smriti_icon7.png" path="/Res/newItem/" exported="true"/>
+    <image id="f34jdxy9s" name="general_btn11.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="21,21,42,42"/>
+    <image id="f34jdxy9t" name="general_bg35.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxy9u" name="general_bg34.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxy9v" name="general_bg33.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxy9w" name="general_bg32.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxy9x" name="general_bg31.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxy9y" name="general_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="29,103,624,14"/>
+    <image id="f34jdxya0" name="general_title_bg12.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxya1" name="general_title_bg2.png" path="/Res/newItem2/" exported="true" scale9grid="125,15,250,40"/>
+    <image id="f34jdxya2" name="general_title_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="0,11,70,46"/>
+    <image id="f34jdxya3" name="general_text_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="26,0,36,48"/>
+    <image id="f34jdxya4" name="general_tap_btn12.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxya5" name="general_bg36.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxya6" name="general_tap_btn11.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxya7" name="general_quality_bg36.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxya8" name="general_quality_bg35.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxya9" name="general_quality_bg34.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyaa" name="general_quality_bg33.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyab" name="general_quality_bg32.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyac" name="general_quality_bg31.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyad" name="general_module_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="19,19,124,126"/>
+    <image id="f34jdxyae" name="general_module_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="20,19,125,127"/>
+    <image id="f34jdxyaf" name="general_line2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="16,7,25,2"/>
+    <image id="f34jdxyag" name="general_btn14.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="21,21,42,42"/>
+    <image id="f34jdxyah" name="general_btn13.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="21,21,42,42"/>
+    <image id="f34jdxyai" name="general_btn12.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="21,21,42,42"/>
+    <image id="f34jdxyaj" name="general_quality_bg37.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyak" name="general_bg37.png" path="/Res/newItem2/" exported="true" scale9grid="24,24,48,48"/>
+    <image id="f34jdxyal" name="Frame 465.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="f34jdxyam" name="general_tap_bg12.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyan" name="general_top_bg1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyap" name="general_text_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="19,0,38,24"/>
+    <image id="f34jdxyaq" name="general_progress bar_bg3.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="18,0,239,18"/>
+    <image id="f34jdxyar" name="general_progress bar_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="2,0,263,18"/>
+    <image id="f34jdxyas" name="general_progress bar_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="19,0,243,23"/>
+    <image id="f34jdxyat" name="general_pop-up windows_bg1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyau" name="general_module_bg3.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="15,14,85,86"/>
+    <image id="f34jdxyav" name="general_top_bg13.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="11,16,107,32"/>
+    <image id="f34jdxyaw" name="general_Item bottom frame_bg2.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyax" name="general_fighting capacity_icon1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyay" name="general_content_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="9,15,702,13"/>
+    <image id="f34jdxyaz" name="general_clock_icon.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyb0" name="general_btn_close.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyb1" name="general_btn15.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="18,16,50,47"/>
+    <image id="f34jdxyb2" name="general_bottom border_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="10,10,20,20"/>
+    <image id="f34jdxyb3" name="general_bg12.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="18,98,64,28"/>
+    <image id="f34jdxyb4" name="general_add_icon.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyb5" name="Frame 467.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyb6" name="general_Item bottom frame_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="17,17,63,64"/>
+    <image id="f34jdxyb7" name="general_Ununlocked_icon.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxyb8" name="general_bg121.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="11,4,64,8"/>
+    <image id="f34jdxyb9" name="general_line1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="15,7,25,1"/>
+    <image id="f34jdxyba" name="general_progress bar_bg4.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="17,0,240,18"/>
+    <image id="f34jdxybb" name="general_bottom_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="11,14,96,90"/>
+    <image id="f34jdxybc" name="general_select box_bg.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybd" name="general_select_img.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybe" name="general_tap_bg1-1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybf" name="setout_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="14,58,155,80"/>
+    <image id="f34jdxybh" name="general_list_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="14,17,89,85"/>
+    <image id="f34jdxybi" name="general_hint_icon.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybj" name="general_title_bg11.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybk" name="general_module_img1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybl" name="general_tap_bg2.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybm" name="general_arrows_icon.png" path="/Res/newItem2/" exported="true"/>
+    <component id="f34jdxybn" name="addBtn.xml" path="/Component/" exported="true"/>
+    <image id="f34jdxybo" name="general_top_icon1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybp" name="general_award_bg1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="0,25,720,157"/>
+    <image id="f34jdxybq" name="general_text_bg3.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="22,0,44,48"/>
+    <image id="f34jdxybr" name="general_top_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="42,12,84,24"/>
+    <image id="f34jdxybs" name="general_module_bg0.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="0,0,160,160"/>
+    <image id="f34jdxybt" name="general_text_bg12.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="10,0,69,24"/>
+    <image id="f34jdxybu" name="general_information_btn02.png" path="/Res/newItem2/" exported="true"/>
+    <image id="f34jdxybv" name="ordinary_icon3.png" path="/Res/newItem2/" exported="true"/>
+    <image id="jsfxdxybw" name="general_Selected_img.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="a2kwdxybx" name="task_bg12.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="18,17,216,104"/>
+    <image id="a2kwdxyby" name="task_bg11.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="14,16,220,110"/>
+    <image id="a2kwdxybz" name="general_tap_bg1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="a2kwdxyc0" name="home_blood volume_bg22@2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="21,0,52,24"/>
+    <image id="a2kwdxyc1" name="home_blood volume_display 1@2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="6,0,48,8"/>
+    <image id="a2kwdxyc2" name="home_blood volume_display 3@2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="11,0,49,8"/>
+    <image id="a2kwdxyc3" name="home_blood volume_display2@2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="3,0,12,8"/>
+    <image id="a2kwdxyc4" name="home_blood volume_display2@2-1.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="2,0,13,8"/>
+    <image id="a2kwdxyc5" name="home_blood volume_bg1@2.png" path="/Res/newItem2/" exported="true"/>
+    <image id="a2kwdxyc6" name="home_blood volume_bg2@2.png" path="/Res/newItem2/" exported="true"/>
+    <image id="a2kwdxyc7" name="general_Ununlocked_img.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="15,41,54,53"/>
+    <image id="a2kwdxyc8" name="general_clock_bg01.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="6,6,39,22"/>
+    <image id="a2kwdxyc9" name="general_content_bg2.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="41,28,648,26"/>
+    <image id="a2kwdxyca" name="general_module_bg01.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="14,7,127,145"/>
+    <image id="a2kwdxycb" name="general_skil_Selected_img01.png" path="/Res/newItem2/" exported="true"/>
+    <image id="a2kwdxycc" name="general_title_img1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="klzxdxycd" name="general_top_bg11.png" path="/Res/newItem2/" exported="true" scale9grid="9,0,349,68"/>
+    <image id="klzxdxyce" name="general_top_bg12.png" path="/Res/newItem2/" exported="true"/>
+    <image id="ucd4dxycg" name="general_btn_close02.png" path="/Res/newItem2/" exported="true"/>
+    <image id="ucd4dxych" name="general_top_buff_bg1.png" path="/Res/newItem2/" exported="true"/>
+    <image id="ucd4dxyci" name="general_top_bg22@2.png" path="/Res/newItem2/" exported="true"/>
+    <image id="ucd4dxyck" name="general_hint_icon01.png" path="/Res/newItem2/" exported="true"/>
+    <image id="ucd4dxycl" name="general_shade01.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="15,15,86,86"/>
+    <component id="ucd4dxycm" name="PetBar.xml" path="/Component/"/>
+    <image id="ucd4dxycn" name="role_intensify_bg54.png" path="/Res/PetBar/" exported="true" scale="9grid" scale9grid="7,0,16,14"/>
+    <image id="ucd4dxyco" name="role_intensify_bg52.png" path="/Res/PetBar/" exported="true" scale="9grid" scale9grid="10,0,20,20"/>
+    <image id="ucd4dxycp" name="general_tip_bg02.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="45,218,413,31"/>
+    <component id="ogtkdxycq" name="RewardItemCom.xml" path="/Component/" exported="true"/>
+    <image id="xezfdxycr" name="home_information_btn02.png" path="/Res/newItem/" exported="true"/>
+    <image id="mtmsdxycs" name="general_tips01.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="22,79,176,17"/>
+    <image id="mtmsdxyct" name="general_tips02.png" path="/Res/newItem2/" exported="true"/>
+    <component id="ef8udxycu" name="BtnEquip2.xml" path="/Component/" exported="true"/>
+    <component id="sshpdxycv" name="Bubble.xml" path="/Component/" exported="true"/>
+    <image id="sshpdxycw" name="Bubble1.png" path="/Res/bubble/" exported="true"/>
+    <image id="sshpdxycx" name="Bubble2.png" path="/Res/bubble/" exported="true"/>
+    <image id="sshpdxycy" name="Bubble3.png" path="/Res/bubble/" exported="true"/>
+    <component id="rjj2dxycz" name="RewardItemComLarge.xml" path="/Component/" exported="true"/>
+    <component id="fr3pdxyd0" name="AttrTips.xml" path="/Component/" exported="true"/>
+    <component id="fr3pdxyd1" name="AttrItem.xml" path="/Component/"/>
+    <image id="fr3pdxyd2" name="gengeral_not unlocked_bg02.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="fr3pdxyd3" name="gengeral_not unlocked_icon01.png" path="/Res/newItem2/" exported="true"/>
+    <image id="fr3pdxyd4" name="gengeral_not unlocked_bg01.png" path="/Res/newItem2/" exported="true" scale="9grid" scale9grid="8,9,56,55"/>
+    <image id="om2edxyd5" name="general_reward_bg31.png" path="/Res/" exported="true" scale="9grid" scale9grid="172,336,344,8"/>
+    <image id="p2jcdxyd5" name="general_title_bg22.png" path="/Res/newItem2/" exported="true"/>
+    <image id="jiq9dxyd6" name="general_shade012.png" path="/Res/newItem2/" exported="true"/>
+    <component id="nl60dxyd7" name="CloseBtn3.xml" path="/Component/" exported="true"/>
+    <image id="nl60dxyd8" name="bottom.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxyd9" name="box0.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxyda" name="box1.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydb" name="box2.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydc" name="box3.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydd" name="lot.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydf" name="slot.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydg" name="wall1.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="nl60dxydh" name="wall2.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="pboadxydi" name="map1.png" path="/Res/Sokoban/" exported="true"/>
+    <image id="pboadxydj" name="map2.png" path="/Res/Sokoban/" exported="true"/>
+    <misc id="vxf7dxydk" name="CommonEx_bx.atlas.txt" path="/Res/Sokoban/" exported="true"/>
+    <image id="vxf7dxydl" name="CommonEx_bx.png" path="/Res/Sokoban/" exported="true"/>
+    <spine id="vxf7dxydm" name="CommonEx_bx.skel" path="/Res/Sokoban/" exported="true" width="100" height="100" require="vxf7dxydk,vxf7dxydl" atlasNames="CommonEx_bx" anchor="100,100"/>
+    <image id="ka12dxyd7" name="general_reward_bg31.png" path="/Res/newItem/" exported="true" scale="9grid" scale9grid="24,332,642,15"/>
+    <image id="ka12dxyd8" name="battle_fail_img11.png" path="/Res/newItem/" exported="true"/>
+    <misc id="bpu2dxydq" name="CommonEx_tenman.atlas.txt" path="/Res/TenMan/" exported="true"/>
+    <image id="bpu2dxydr" name="CommonEx_tenman.png" path="/Res/TenMan/" exported="true"/>
+    <spine id="bpu2dxyds" name="CommonEx_tenman.skel" path="/Res/TenMan/" exported="true" width="649" height="396" require="bpu2dxydq,bpu2dxydr" atlasNames="CommonEx_tenman" anchor="329,208"/>
+    <misc id="azu0dxydt" name="CommonEx_xiangzi.atlas.txt" path="/Res/MoveBox/" exported="true"/>
+    <image id="azu0dxydu" name="CommonEx_xiangzi.png" path="/Res/MoveBox/" exported="true"/>
+    <spine id="azu0dxydv" name="CommonEx_xiangzi.skel" path="/Res/MoveBox/" exported="true" width="100" height="100" require="azu0dxydt,azu0dxydu" atlasNames="CommonEx_xiangzi" anchor="100,100"/>
+    <image id="ajordxydw" name="general_btn61.png" path="/Res/newItem2/" exported="true"/>
+    <component id="llb1dxydy" name="BossAttrItem.xml" path="/Component/" exported="true"/>
+    <image id="kj5cdxydz" name="general_reward_bg32.png" path="/Res/newItem/" exported="true"/>
+    <image id="llb1dxye0" name="general_img61.png" path="/Res/newItem2/" exported="true"/>
+    <image id="t83qdxye1" name="pet_bg11.png" path="/Res/newItem/" exported="true"/>
+    <image id="t83qdxye2" name="pet_bg12.png" path="/Res/newItem/" exported="true"/>
+    <image id="t83qdxye3" name="pet_bg13.png" path="/Res/newItem/" exported="true"/>
+    <component id="llb1dxye5" name="CommonCopyBossTxTips.xml" path="/Component/" exported="true"/>
+    <misc id="llb1dxyea" name="CommonEx_tyjl.atlas.txt" path="/Res/ItemSpine/"/>
+    <image id="llb1dxyeb" name="CommonEx_tyjl.png" path="/Res/ItemSpine/"/>
+    <image id="llb1dxyec" name="CommonEx_tyjl_2.png" path="/Res/ItemSpine/"/>
+    <spine id="llb1dxyed" name="CommonEx_tyjl.skel" path="/Res/ItemSpine/" width="100" height="100" require="llb1dxyea,llb1dxyeb,llb1dxyec" atlasNames="CommonEx_tyjl,CommonEx_tyjl_2" anchor="100,100"/>
+    <image id="llb1dxyef" name="top_self-adaption_bg01.png" path="/Res/" exported="true" scale="9grid" scale9grid="9,4,702,93"/>
+  </resources>
+  <publish name="CommonEx" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,80" opaque="false">
+  <displayList>
+    <image id="n6_q32e" name="yin" src="q32eiba" fileName="Res/jby/diquan.png" xy="-50,-12" pivot="0.5,0.5" scale="0.3,0.3"/>
+    <image id="n2_q32e" name="TW" src="q32eibi" fileName="Res/jby/tuowei.png" xy="15,-160" pivot="0.5,1" size="70,220" group="n5_q32e"/>
+    <movieclip id="n1_q32e" name="n1" src="q32eice" fileName="Component/JB.jta" xy="15,0" size="101,95" group="n5_q32e" scale="0.7,0.7"/>
+    <group id="n5_q32e" name="gold" xy="15,-160" size="101,255" advanced="true"/>
+    <movieclip id="n7_q32e" name="guang" src="gzcmie0" fileName="Component/ZK.jta" xy="-38,-60" blend="add"/>
+    <movieclip id="n8_q32e" name="fei" src="q32eicg" fileName="Component/SJB.jta" xy="-25,-30"/>
+    <image id="n9_q32e" name="yin2" src="q32eiba" fileName="Res/jby/diquan.png" xy="-50,-11" pivot="0.5,0.5" scale="0.3,0.3" blend="add"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_q32e" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n6_q32e" value="0"/>
+    <item time="0" type="Alpha" target="n7_q32e" value="0"/>
+    <item time="0" type="Alpha" target="n8_q32e" value="0"/>
+    <item time="0" type="Alpha" target="n9_q32e" value="0"/>
+    <item time="0" type="Animation" target="n7_q32e" value="0,s"/>
+    <item time="0" type="Animation" target="n8_q32e" value="0,s"/>
+    <item time="0" type="Scale" target="n6_q32e" value="0,0"/>
+    <item time="0" type="XY" target="n5_q32e" tween="true" startValue="15,-1300" endValue="15,-176" duration="42" ease="Quad.In"/>
+    <item time="41" type="Alpha" target="n7_q32e" value="1"/>
+    <item time="41" type="Animation" target="n7_q32e" value="0,p"/>
+    <item time="42" type="Alpha" target="n6_q32e" tween="true" startValue="1" endValue="0" duration="10"/>
+    <item time="42" type="Scale" target="n6_q32e" tween="true" startValue="0.4,0.4" endValue="0.5,0.5" duration="6"/>
+    <item time="43" type="Alpha" target="n5_q32e" value="0"/>
+    <item time="43" type="Alpha" target="n8_q32e" value="1"/>
+    <item time="43" type="Alpha" target="n9_q32e" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="43" type="Animation" target="n8_q32e" value="0,p"/>
+    <item time="43" type="Scale" target="n9_q32e" tween="true" startValue="0.25,0.25" endValue="0.4,0.4" duration="6"/>
+    <item time="49" type="Alpha" target="n7_q32e" value="0"/>
+    <item time="49" type="Animation" target="n7_q32e" value="0,s"/>
+    <item time="68" type="Alpha" target="n8_q32e" value="0"/>
+    <item time="68" type="Animation" target="n8_q32e" value="0,s"/>
+  </transition>
+</component>

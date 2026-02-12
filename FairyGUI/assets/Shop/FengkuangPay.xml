@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="isPay" pages="0,,1," selected="0">
+    <remark page="0" value="支付"/>
+    <remark page="1" value="领取"/>
+  </controller>
+  <controller name="btnCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="第一章"/>
+    <remark page="1" value="第二章"/>
+    <remark page="2" value="第三章"/>
+  </controller>
+  <displayList>
+    <component id="n0_plio" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_plio" name="bg1" xy="85,139" size="553,413" group="n12_plio" url="ui://nmzfxo89plio17"/>
+    <loader id="n2_plio" name="bg2" xy="112,114" size="500,124" group="n12_plio" url="ui://nmzfxo89plio19"/>
+    <text id="n3_plio" name="title" xy="230,130" size="267,47" group="n12_plio" fontSize="27" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#530076" strokeSize="2" singleLine="true" text="高级疯狂指南第{value=1}章"/>
+    <graph id="n4_plio" name="spine" xy="360,527" size="100,100" group="n12_plio"/>
+    <loader id="n5_plio" name="bg3" xy="60,552" size="602,498" group="n12_plio" url="ui://nmzfxo89plio1a"/>
+    <image id="n6_plio" name="n6" src="plio18" fileName="Res/fk4.png" xy="547,397" group="n12_plio"/>
+    <text id="n7_plio" name="flTitle" xy="584,409" size="68,68" group="n12_plio" rotation="9" fontSize="25" color="#fff0c7" align="center" vars="true" bold="true" strokeColor="#530076" strokeSize="2" text="{value=500}%&#xA;返利"/>
+    <component id="n20_hm2j" name="payBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="292,967" group="n12_plio">
+      <gearDisplay controller="isPay" pages="0"/>
+      <gearDisplay2 controller="btnCtrl" pages="0" condition="0"/>
+    </component>
+    <component id="n23_hm2j" name="payBtn2" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="292,967" group="n12_plio">
+      <gearDisplay controller="isPay" pages="0"/>
+      <gearDisplay2 controller="btnCtrl" pages="1" condition="0"/>
+    </component>
+    <component id="n24_hm2j" name="payBtn3" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="292,967" group="n12_plio">
+      <gearDisplay controller="isPay" pages="0"/>
+      <gearDisplay2 controller="btnCtrl" pages="2" condition="0"/>
+    </component>
+    <list id="n8_plio" name="rwList" xy="114,629" size="449,273" group="n12_plio" scale="1.1,1.1" layout="flow_hz" overflow="scroll" lineGap="12" colGap="12" defaultItem="ui://5moj1x39ewjfdxy22" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_plio" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="280,965" size="160,63" group="n12_plio">
+      <gearDisplay controller="isPay" pages="1"/>
+      <Button icon="ui://nmzfxo89ftc9w"/>
+    </component>
+    <text id="n14_plio" name="getTitle" xy="308,978" size="107,35" group="n12_plio" fontSize="23" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#a0542e" strokeSize="2" text="领取">
+      <gearDisplay controller="isPay" pages="1"/>
+    </text>
+    <component id="n11_plio" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="318,1065" group="n12_plio"/>
+    <group id="n12_plio" name="n12" xy="60,114" size="606,1045" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

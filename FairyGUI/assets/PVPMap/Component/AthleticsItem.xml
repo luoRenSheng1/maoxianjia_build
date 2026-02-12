@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,224">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="进入"/>
+    <remark page="1" value="休息"/>
+  </controller>
+  <displayList>
+    <loader id="n3_u5mt" name="bg" xy="0,0" size="640,224" visible="false" url="ui://zoxecbv2xezf3i"/>
+    <loader3D id="n13_xezf" name="n13" xy="-37,-6" size="640,224" url="ui://zoxecbv2xezf4c" align="center" vAlign="middle" animation="PVPMap_jjc" skin="" loop="true"/>
+    <component id="n4_u5mt" name="goBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="455,148" size="176,68">
+      <gearDisplay controller="status" pages="0"/>
+      <Button title="进入" titleFontSize="24" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n7_u5mt" name="restBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="454,148" size="176,68" grayed="true">
+      <gearDisplay controller="status" pages="1"/>
+      <Button title="休息中" titleFontSize="24" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n6_u5mt" name="txdy" xy="14,14" size="100,44" fontSize="32" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="3" text="竞技场">
+      <relation target="n3_u5mt" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n10_t89j" name="reddot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="596,149"/>
+    <loader id="n11_xezf" name="n11" xy="467,9" size="163,58" url="ui://zoxecbv2xezf3j" fill="scaleFree">
+      <relation target="n9_u5mt" sidePair="width-width"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </loader>
+    <loader id="n12_xezf" name="n12" xy="477,20" size="40,40" url="ui://zoxecbv2xezf3h">
+      <relation target="n11_xezf" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n9_u5mt" name="timeLb" xy="522,23" size="98,34" fontSize="24" color="#fcf78e" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=00:00:00}">
+      <relation target="n11_xezf" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+</component>

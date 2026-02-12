@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Label">
+  <controller name="nameType" alias="名字在哪里" exported="true" pages="0,,1,,3,,4," selected="1">
+    <remark page="0" value="在下面"/>
+    <remark page="1" value="在图片下面的上面一点"/>
+    <remark page="2" value="中心"/>
+    <remark page="3" value="最上面"/>
+  </controller>
+  <displayList>
+    <image id="n3_hbpt" name="bg" src="hbptidj" fileName="Res/stage/selectBg.png" xy="-11,-11" pivot="0.5,0.5" size="122,121">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <graph id="n5_pn8i" name="model" xy="49,99" size="48,1" type="rect">
+      <relation target="n2_hbpt" sidePair="width-width%,right-right,bottom-bottom"/>
+    </graph>
+    <loader id="n2_hbpt" name="icon" xy="0,0" size="100,100" url="ui://pdufy3kep9n01r" autoSize="true" playing="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <image id="n4_hbpt" name="titleBg" src="hbptidu" fileName="Res/stage/titleBg.png" xy="-65,89">
+      <gearDisplay controller="nameType" pages="0"/>
+      <relation target="n2_hbpt" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n0_hbpt" name="title" xy="-41,95" size="175,48" fontSize="35" color="#ebe3b9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" singleLine="true" text="月光神坛">
+      <gearDisplay controller="nameType" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n8_exh6" name="titleBg1" src="hbptidu" fileName="Res/stage/titleBg.png" xy="-62,25">
+      <gearDisplay controller="nameType" pages="1"/>
+      <relation target="n2_hbpt" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n7_exh6" name="title1" xy="-37,31" size="175,48" fontSize="35" color="#ebe3b9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" singleLine="true" text="月光神坛">
+      <gearDisplay controller="nameType" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n9_hwk1" name="titleBg2" src="hbptidu" fileName="Res/stage/titleBg.png" xy="-62,-13">
+      <gearDisplay controller="nameType" pages="3"/>
+      <relation target="n2_hbpt" sidePair="center-center,top-middle"/>
+    </image>
+    <text id="n10_hwk1" name="title2" xy="-37,-7" size="175,48" fontSize="35" color="#ebe3b9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" singleLine="true" text="月光神坛">
+      <gearDisplay controller="nameType" pages="3"/>
+      <relation target="" sidePair="center-center,top-middle"/>
+    </text>
+    <image id="n11_hwk1" name="titleBg3" src="hbptidu" fileName="Res/stage/titleBg.png" xy="-62,-80">
+      <gearDisplay controller="nameType" pages="4"/>
+      <relation target="n2_hbpt" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n12_hwk1" name="title3" xy="-37,-74" size="175,48" fontSize="35" color="#ebe3b9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" singleLine="true" text="月光神坛">
+      <gearDisplay controller="nameType" pages="4"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n6_llb1" name="huntingTaskFlagIcon" xy="10,-85" size="80,80" visible="false" url="ui://pdufy3kellb1ikx" fill="scale">
+      <relation target="n2_hbpt" sidePair="bottom-top"/>
+    </loader>
+  </displayList>
+  <relation target="n2_hbpt" sidePair="width-width,height-height"/>
+  <transition name="bgEffect">
+    <item time="0" type="Scale" target="n3_hbpt" tween="true" startValue="1,1" endValue="1.05,1.05" duration="6" ease="Linear"/>
+    <item time="6" type="Scale" target="n3_hbpt" tween="true" startValue="1.05,1.05" endValue="1,1" duration="6" ease="Linear"/>
+    <item time="12" type="Scale" target="n3_hbpt" tween="true" startValue="1,1" endValue="1.05,1.05" duration="6" ease="Linear"/>
+    <item time="18" type="Scale" target="n3_hbpt" tween="true" startValue="1.05,1.05" endValue="1,1" duration="6" ease="Linear"/>
+  </transition>
+</component>

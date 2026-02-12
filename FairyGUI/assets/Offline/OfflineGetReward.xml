@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n1_ng62" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_ng62" name="n4" src="ng627" fileName="Res/n1.png" xy="65,356" pivot="0.5,0.5" size="589,566" group="n3_ng62" aspect="true"/>
+    <loader id="n0_ng62" name="n0" xy="149,515" size="451,287" group="n3_ng62" url="ui://jbbd3ox4ng624"/>
+    <list id="n2_ng62" name="rwList" xy="230,608" size="240,153" group="n3_ng62" layout="flow_hz" overflow="scroll" defaultItem="ui://5moj1x39ewjfdxy22" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n5_ng62" name="n5" src="ng628" fileName="Res/n2.png" xy="275,553" group="n3_ng62"/>
+    <group id="n3_ng62" name="n3" xy="65,356" size="589,566" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

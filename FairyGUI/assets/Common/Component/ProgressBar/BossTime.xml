@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,48">
+  <displayList>
+    <image id="n8_iv53" name="n8" src="iv53dxyhg" fileName="Res/stage/boss/combat_icon_02.png" xy="24,4" size="140,40"/>
+    <image id="n7_iv53" name="n7" src="iv53dxyhb" fileName="Res/stage/boss/combat_icon_01.png" xy="0,-8"/>
+    <text id="n3_z3j5" name="title" xy="48,2" size="157,66" scale="0.7,0.7" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="60秒">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

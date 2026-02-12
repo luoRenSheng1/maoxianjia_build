@@ -1,0 +1,288 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+//下发新获取的传承装备 支持多件
+message NewLoreEquips_PC    //eMsg_NewLoreEquips_PC = 750; 
+{
+	repeated EquipInfo lore_equips = 1;
+}		
+
+//出售传承装备请求 
+message SellLoreEquip_CS   //eMsg_SellLoreEquip_CS = 751;
+{
+	optional uint64 equip_guid = 1; //要卖的装备
+}		   					
+			
+//出售传承装备回复
+message SellLoreEquip_SC   //eMsg_SellLoreEquip_SC = 752;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //卖的装备-成功的话，客户端可以删除
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+	
+}	
+         
+//穿上传承装备请求
+message LoreEquipOnPlayer_CS   //eMsg_LoreEquipOnPlayer_CS = 753;
+{
+	optional uint64 equip_guid = 1; //装备
+}		   					
+			
+//穿上传承装备回复
+message LoreEquipOnPlayer_SC   //eMsg_LoreEquipOnPlayer_SC = 754; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //装备上的equip guid
+	optional uint64 replaced_equip_guid = 3; //替换下的equip guid，为0表示没有替换，原来栏位是空
+	optional PlayerEquipSlotsInfo equip_slots = 4;  //装备栏状信息
+}	         
+	      
+//脱下传承装备请求
+message TakeOffLoreEquip_CS   //eMsg_TakeOffLoreEquip_CS = 755; 
+{
+	optional uint64 equip_guid = 1; //脱下装备
+}		   					
+			
+//脱下传承装备回复
+message TakeOffLoreEquip_SC  //eMsg_TakeOffLoreEquip_SC = 756;    
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //脱下的equip guid
+	optional PlayerEquipSlotsInfo equip_slots = 3;  //装备栏状信息
+}         
+	        
+ //换下传承装备请求
+message ReplaceLoreEquip_CS    //eMsg_ReplaceLoreEquip_CS = 757;  
+{
+	optional uint64 equip_guid = 1; //替换的装备
+}
+
+ //换下传承装备回复  
+message ReplaceLoreEquip_SC  //eMsg_ReplaceLoreEquip_SC = 758;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //脱下的equip guid
+	optional PlayerEquipSlotsInfo equip_slots = 3;  //装备栏状信息
+}        
+	     
+	      
+//删除传承装备                    
+message DelLoreEquips_PC   //eMsg_DelLoreEquips_PC = 759;    
+{
+	optional uint64 equip_guid = 1; //客户端可以删除装备
+}          
+	      
+	       
+	   
+
+//一键回收传承装备请求
+message BatchSellLoreEquip_CS   //eMsg_BatchSellLoreEquip_CS = 760;  
+{
+	repeated eLoreEquipQuality equip_quality = 1; //要卖的品质
+}		   					
+			
+ //一键回收出售传承装备回复
+message BatchSellLoreEquip_SC   //eMsg_BatchSellLoreEquip_SC = 761;     
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint64 equip_guid = 2; //卖的装备-成功的话，客户端可以删除
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+	
+}
+
+
+
+
+
+
+
+
+
+
+// 装备宝箱里程碑升级请求	
+message EquipBox_LevelupMilestone_CS   //eMsg_EquipBox_LevelupMilestone_CS			= 700;	
+{
+}
+
+// 装备宝箱里程碑升级回复
+message EquipBox_LevelupMilestone_SC   //eMsg_EquipBox_LevelupMilestone_SC = 701;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional EquipBox   box_info  =2; //最新箱子信息
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+}	
+
+// 装备宝箱升级请求		
+message EquipBox_Levelup_CS   //eMsg_EquipBox_Levelup_CS			= 702;	
+{
+}
+
+// 装备宝箱升级回复
+message EquipBox_Levelup_SC   //eMsg_EquipBox_Levelup_SC			= 703;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional EquipBox   box_info  =2; //最新箱子信息
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+}	  
+
+			
+			    
+// 装备宝箱通过广告次数加速升级		
+message EquipBox_AccLevelupByAD_CS   //eMsg_EquipBox_AccLevelupByAD_CS			= 721;
+{
+}
+
+// 装备宝箱通过广告次数加速升级回复   
+message EquipBox_AccLevelupByAD_SC   //eMsg_EquipBox_AccLevelupByAD_SC			= 722;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional EquipBox   box_info  =2; //最新箱子信息
+}
+	       
+
+//主动下发宝箱信息	   
+message EquipBox_Info_PC   //eMsg_EquipBox_Info_PC = 704; 
+{
+	optional EquipBox   box_info  =1; //最新箱子信息
+}	   
+		   
+//下发所有装备信息   
+message Equips_PC   //eMsg_Equips_PC = 705; 
+{
+	repeated EquipInfo equips = 1;
+	optional SplitPkgPC split_pkg = 2;
+}		   					
+			
+//下发新获取的装备 支持多件 
+message NewEquips_PC   //eMsg_NewEquips_PC = 706; 
+{
+	repeated EquipInfo equips = 1;
+}		
+
+		   
+//宝箱生成装备请求   
+message GenEquips_CS   //eMsg_GenEquips_CS = 707;
+{
+	optional int32 gen_times = 1;  //生成次数，目前填1，未来可支持多抽
+	optional uint32 batch_stuff_id = 2; //树id
+	optional uint64 event_guid = 3;  //事件guid
+}		   					
+			
+ //宝箱生成装备回复
+message GenEquips_SC   //eMsg_GenEquips_SC = 708;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated EquipInfo equips = 2;   //生成的装备，暂时只有一件
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+	optional ItemInfo cosumed_keys = 6;  //消耗掉的钥匙
+	optional uint32 batch_stuff_id = 7; //树id
+	optional eRandomEventStatus batch_stuff_event_status = 8; //树状态   
+	optional uint64 event_guid = 9;  //事件guid
+}	
+	             
+//出售装备请求  
+message SellEquip_CS   //eMsg_SellEquip_CS = 709; 
+{
+	optional uint64 equip_guid = 1; //要卖的装备
+}		   					
+			
+//出售装备回复
+message SellEquip_SC   //eMsg_SellEquip_SC = 710;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //卖的装备-成功的话，客户端可以删除
+	optional int32 player_level = 3; //玩家等级
+	optional int64 player_exp = 4;  //玩家经验
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+	
+}	 
+
+  
+//删除装备                     
+message DelEquips_PC   //eMsg_DelEquips_PC = 723;
+{
+	optional uint64 equip_guid = 1; //客户端可以删除装备
+}         
+	          
+//穿上装备请求---- 无用，没实现
+message EquipOnPlayer_CS   //eMsg_EquipOnPlayer_CS = 711; 
+{
+	optional uint64 equip_guid = 1; //装备
+}		   					
+			
+//穿上装备回复---- 无用，没实现
+message EquipOnPlayer_SC   //eMsg_EquipOnPlayer_SC = 712;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //装备上的equip guid
+	optional uint64 replaced_equip_guid = 3; //替换下的equip guid，为0表示没有替换，原来栏位是空
+	optional PlayerEquipSlotsInfo equip_slots = 4;  //装备栏状信息
+}	      
+	        
+//脱下装备请求 ---- 无用，没实现
+message TakeOffEquip_CS   //eMsg_TakeOffEquip_CS = 713; 
+{
+	optional uint64 equip_guid = 1; //脱下装备
+}		   					
+			
+//脱下装备回复---- 无用，没实现
+message TakeOffEquip_SC  //eMsg_TakeOffEquip_SC = 714;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //脱下的equip guid
+	optional PlayerEquipSlotsInfo equip_slots = 3;  //装备栏状信息
+}	        
+	         
+//换下装备请求
+message ReplaceEquip_CS   //eMsg_ReplaceEquip_CS = 715;   
+{
+	optional uint64 equip_guid = 1; //替换的装备
+}
+
+//换下装备回复   
+message ReplaceEquip_SC  //eMsg_ReplaceEquip_SC = 716;   
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 equip_guid = 2; //脱下的equip guid
+	optional PlayerEquipSlotsInfo equip_slots = 3;  //装备栏状信息
+}
+	      
+		
+	         
+	        	
+
+//换下装备并直接出售请求（也支持空栏直接装备上）
+message ReplaceEquipAutoSell_CS   //eMsg_ReplaceEquipAutoSell_CS = 719;  
+{
+	optional uint64 equip_guid = 1; //要穿上的装备
+}
+
+//换下装备并直接出售回复  
+message ReplaceEquipAutoSell_SC  //eMsg_ReplaceEquipAutoSell_SC = 720;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 sold_equip_guid = 2; //脱下的equip guid（为0表示没有替换下的装备，没有guid）
+	optional PlayerEquipSlotsInfo equip_slots = 3;  //装备栏状信息
+	optional int32 player_level = 4; //玩家等级
+	optional int64 player_exp = 5;  //玩家经验
+	optional Finance finance = 6;  //账户所有各种货币其余额
+}
+
+	
+	        
+// 装备宝箱开始升级触发倒计时	
+message EquipBox_StartLevelup_CS   //eMsg_EquipBox_StartLevelup_CS			= 717;	
+{
+
+}
+
+// 装备宝箱开始升级触发倒计时回复
+message EquipBox_StartLevelup_SC   //eMsg_EquipBox_StartLevelup_SC			= 718;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional EquipBox   box_info  =2; //最新箱子信息
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+}		       

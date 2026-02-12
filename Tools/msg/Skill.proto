@@ -1,0 +1,128 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+		
+
+//下发新获取的技能 支持多件
+message NewSkills_PC
+{			//[eMsg_NewSkills_PC = 1200 ;];
+	repeated SkillInfo  skills = 1;
+}
+
+//作弊码或GM管理用某技能更新
+message SkillUpdate_PC   //eMsg_SkillUpdate_PC = 1201;
+{
+	optional  SkillInfo skill = 1;  //技能
+}
+
+//技能放入战斗栏
+message SkillInSlot_CS   //eMsg_SkillInSlot_CS = 1202 ;
+{
+	optional uint32  skill_id = 1; //技能表中Id
+	optional uint32  skill_slot_id  = 2;  //栏id
+}		   					
+			
+//技能放入战斗栏回复
+message SkillInSlot_SC   //eMsg_SkillInSlot_SC = 1203 ;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  skill_id = 2; //卸下的技能Id
+	optional PlayerSkillSlotsInfo skill_slot = 3;  //技能栏状信息
+}
+
+//技能移除战斗栏
+message RemoveSkillFromSlot_CS   //eMsg_RemoveSkillFromSlot_CS = 1204 ; 
+{
+	optional uint32  skill_slot_id  = 1;  //栏id
+}		   					
+			
+//技能移除战斗栏回复
+message RemoveSkillFromSlot_SC   //eMsg_RemoveSkillFromSlot_SC = 1205 ;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32  skill_id = 2; // 移除成功的技能id
+	optional PlayerSkillSlotsInfo skill_slot = 3;  //技能栏状信息
+}
+
+//技能再装备栏里交换位置
+message SkillsSwitchInSlots_CS   //eMsg_SkillsSwitchInSlots_CS = 1206;
+{
+	optional uint32  slot_id1  = 1;  //要交换的栏1
+	optional uint32  slot_id2  = 2;  //要交换的栏2
+}      
+
+//技能再装备栏里交换位置回复      
+message SkillsSwitchInSlots_SC   //eMsg_SkillsSwitchInSlots_SC = 1207;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerSkillSlotsInfo skill_slot = 2;  //技能栏状信息
+}
+        
+	          
+//技能批量放入战斗栏
+message BatchReplaceSkillInSlot_CS   //eMsg_BatchReplaceSkillInSlot_CS = 1208 ;
+{
+	repeated uint32  skill_id = 1; //技能id
+}		   					
+			
+//技能批量放入战斗栏回复
+message BatchReplaceSkillInSlot_SC   //eMsg_BatchReplaceSkillInSlot_SC = 1209 ; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerSkillSlotsInfo skill_slot = 2;  //技能栏状信息
+}	
+
+
+
+
+//技能升级
+message SkillLevelUp_CS  //eMsg_SkillLevelUp_CS = 1210;
+{
+	optional uint32  skill_id = 1; //技能id
+	optional uint32  levelup_times = 2; //要升多少级，填0 直接升到同名卡用光
+}		   					
+			
+//技能升级回复
+message SkillLevelUp_SC   //eMsg_SkillLevelUp_SC = 1211;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional SkillInfo  skill_info = 2; //最新技能信息
+
+}	
+
+
+	
+	 
+
+//一键全部技能升级
+message AllSkillLevelUp_CS   //eMsg_AllSkillLevelUp_CS = 1212;
+{
+}		   					
+			
+//一键全部技能升级回复
+message AllSkillLevelUp_SC   //eMsg_AllSkillLevelUp_SC = 1213;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated SkillInfo  skill_info = 2; //最新技能信息
+	optional SplitPkgPC split_pkg = 3;
+
+}
+	
+
+
+   
+
+
+
+	 
+	
+	   					
+			
+
+	 
+	
+	
+	      

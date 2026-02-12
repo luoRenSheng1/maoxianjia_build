@@ -1,0 +1,182 @@
+Summon_PetEx.png
+	size: 512, 128
+	filter: Linear, Linear
+	scale: 0.18
+1-hezi1
+	bounds: 312, 29, 19, 12
+1-hezi2
+	bounds: 433, 83, 18, 11
+1-lian
+	bounds: 235, 41, 28, 26
+1-liandao
+	bounds: 100, 87, 88, 37
+1-lingzi
+	bounds: 67, 8, 28, 20
+1-shetou
+	bounds: 342, 48, 12, 14
+	rotate: 90
+1-tanhuang1
+	bounds: 455, 79, 15, 15
+1-tanhuang2
+	bounds: 497, 72, 13, 11
+	rotate: 90
+1-tanhuang3
+	bounds: 421, 63, 8, 13
+1-youmuzhi
+	bounds: 422, 53, 6, 8
+	rotate: 90
+1-youshou
+	bounds: 360, 42, 14, 15
+	rotate: 90
+1-youshoubi
+	bounds: 475, 89, 32, 35
+1-youshouzhi
+	bounds: 335, 29, 12, 8
+	rotate: 90
+1-youyan
+	bounds: 179, 4, 3, 5
+	rotate: 90
+1-zuiba
+	bounds: 312, 45, 24, 10
+1-zuoshou
+	bounds: 387, 56, 12, 13
+1-zuoshoubi
+	bounds: 100, 4, 31, 42
+	rotate: 90
+1-zuoshouhzi
+	bounds: 179, 25, 6, 10
+1-zuoyan
+	bounds: 185, 39, 3, 4
+Kxiangzidi
+	bounds: 433, 98, 38, 26
+L_chibang
+	bounds: 4, 4, 24, 28
+	rotate: 90
+L_shou1
+	bounds: 360, 21, 5, 11
+	rotate: 90
+L_shou2
+	bounds: 417, 42, 7, 10
+	rotate: 90
+L_shouzhi
+	bounds: 347, 23, 8, 9
+	rotate: 90
+L_tou
+	bounds: 179, 11, 7, 10
+	offsets: 0, 1, 7, 11
+L_tui1
+	bounds: 434, 55, 8, 11
+	rotate: 90
+L_tui2
+	bounds: 387, 46, 6, 11
+	rotate: 90
+R_chibang
+	bounds: 340, 94, 44, 30
+R_er
+	bounds: 449, 55, 8, 11
+	rotate: 90
+R_shou1
+	bounds: 386, 73, 13, 6
+R_shou2
+	bounds: 451, 67, 8, 13
+	rotate: 90
+R_tui1
+	bounds: 360, 30, 8, 13
+	rotate: 90
+R_tui2
+	bounds: 403, 54, 5, 15
+	offsets: 0, 2, 5, 17
+	rotate: 90
+T_tou
+	bounds: 360, 73, 22, 17
+U_tou
+	bounds: 433, 67, 14, 12
+dangong1
+	bounds: 294, 89, 42, 35
+dangong2
+	bounds: 326, 59, 26, 12
+	rotate: 90
+dingzi
+	bounds: 379, 51, 5, 4
+	rotate: 90
+fashe1
+	bounds: 206, 37, 8, 9
+	rotate: 90
+fashe2
+	bounds: 402, 42, 8, 11
+	rotate: 90
+gaizi
+	bounds: 388, 99, 41, 25
+images/e
+	bounds: 192, 76, 48, 51
+	rotate: 90
+images/light0039
+	bounds: 4, 32, 92, 92
+images/lizia1
+	bounds: 146, 6, 29, 29
+jinbi
+	bounds: 411, 80, 15, 18
+	rotate: 90
+pidai1
+	bounds: 287, 64, 3, 16
+pidai2
+	bounds: 247, 71, 9, 35
+	rotate: 90
+shengzi
+	bounds: 267, 41, 16, 26
+shenti
+	bounds: 287, 39, 21, 16
+shenti1
+	bounds: 247, 84, 43, 40
+shetou
+	bounds: 403, 63, 14, 13
+shitou
+	bounds: 347, 35, 9, 9
+shouzhi1
+	bounds: 379, 43, 4, 4
+shouzhi2
+	bounds: 209, 28, 5, 5
+shouzhi3
+	bounds: 167, 39, 6, 4
+shouzhi4
+	bounds: 177, 39, 4, 4
+tou
+	bounds: 36, 4, 24, 27
+	rotate: 90
+wei
+	bounds: 167, 47, 20, 36
+weiba
+	bounds: 191, 49, 23, 40
+	rotate: 90
+weibajiao1
+	bounds: 189, 27, 6, 6
+weibajiao2
+	bounds: 199, 27, 6, 6
+xiaba
+	bounds: 294, 59, 26, 28
+	rotate: 90
+yanjing
+	bounds: 360, 60, 23, 9
+yaodai
+	bounds: 100, 39, 63, 44
+youjiao
+	bounds: 388, 83, 12, 19
+	rotate: 90
+youmeimao
+	bounds: 188, 4, 5, 3
+youshou
+	bounds: 342, 64, 14, 26
+youyan
+	bounds: 190, 19, 3, 4
+youyanzhu
+	bounds: 192, 37, 10, 8
+zuomeimao
+	bounds: 190, 11, 4, 3
+	rotate: 90
+zuoshou
+	bounds: 474, 75, 10, 19
+	rotate: 90
+zuoyan
+	bounds: 197, 19, 3, 4
+zuoyanzhu
+	bounds: 219, 38, 7, 7

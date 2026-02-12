@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,420">
+  <displayList>
+    <component id="n4_vs59" name="map" src="vs59dxy1a" fileName="Component/battleMap.xml" xy="0,13" size="720,420">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <component id="n6_vs59" name="obj" src="vs59dxy1c" fileName="Component/battleObject.xml" xy="0,0" size="720,420">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <component id="n5_vs59" name="fly" src="vs59dxy1b" fileName="Component/battleFly.xml" xy="0,1" size="720,419">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="sceneT">
+    <item time="0" type="XY" target="n4_vs59" tween="true" startValue="0,0,0,0" endValue="-17,25,-0.024,0.063" duration="2"/>
+    <item time="0" type="XY" target="n5_vs59" tween="true" startValue="0,1,0,0.003" endValue="-22,29,-0.031,0.073" duration="2"/>
+    <item time="0" type="XY" target="n6_vs59" tween="true" startValue="0,0,0,0" endValue="-5,27,-0.007,0.068" duration="2"/>
+    <item time="2" type="XY" target="n4_vs59" tween="true" startValue="-17,25,-0.024,0.063" endValue="0,0,0,0" duration="3"/>
+    <item time="2" type="XY" target="n5_vs59" tween="true" startValue="-22,29,-0.031,0.073" endValue="0,1,0,0.003" duration="3"/>
+    <item time="2" type="XY" target="n6_vs59" tween="true" startValue="-5,27,-0.007,0.068" endValue="0,0,0,0" duration="3"/>
+  </transition>
+</component>

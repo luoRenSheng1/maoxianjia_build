@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,175">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+  </controller>
+  <displayList>
+    <image id="n5_llb1" name="n5" src="llb1dxyf3" fileName="Res/new2/talent_line12.png" xy="0,0" flip="hz">
+      <gearDisplay controller="status" pages="0"/>
+    </image>
+    <image id="n4_llb1" name="n4" src="llb1dxyer" fileName="Res/new2/talent_line02.png" xy="0,0" flip="hz">
+      <gearDisplay controller="status" pages="1"/>
+    </image>
+    <image id="n6_llb1" name="n6" src="llb1dxyf3" fileName="Res/new2/talent_line12.png" xy="144,0">
+      <gearDisplay controller="status" pages="0"/>
+    </image>
+    <image id="n7_llb1" name="n7" src="llb1dxyer" fileName="Res/new2/talent_line02.png" xy="144,0">
+      <gearDisplay controller="status" pages="1"/>
+    </image>
+  </displayList>
+</component>

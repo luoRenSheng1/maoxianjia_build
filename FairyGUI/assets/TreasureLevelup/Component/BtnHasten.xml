@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,65" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_i9sl" name="n0" src="9rjy2e" fileName="Res/UI-btnGreen.png" xy="0,0" size="190,64">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_i9sl" name="icon" xy="0,0" size="190,65" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_9rjy" name="title" xy="27,6" size="147,48" fontSize="30" color="#ffffff" align="center" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="一键加速"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

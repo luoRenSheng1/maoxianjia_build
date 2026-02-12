@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" designImage="ui://pdufy3kerthzif8" designImageOffsetY="-2687" designImageAlpha="100">
+  <displayList>
+    <loader id="n59_ng3w" name="walkMap" xy="0,-2687" size="4320,3840" url="ui://pdufy3keczxp4r" clearOnPublish="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <component id="n105_fpdr" name="mapbg" src="fpdrid3" fileName="Component/MapBg.xml" xy="0,-2687" touchable="false">
+      <relation target="n59_ng3w" sidePair="left-left,top-top"/>
+    </component>
+    <loader3D id="n172_kf54" name="sb1" xy="2950,-388" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_1" skin="" loop="true"/>
+    <loader3D id="n173_kf54" name="sb2" xy="1950,-711" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_2" skin="" loop="true"/>
+    <loader3D id="n175_kf54" name="sb3" xy="2545,-701" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_3" skin="" loop="true"/>
+    <loader3D id="n176_kf54" name="sb4" xy="3658,-212" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_4" skin="" loop="true"/>
+    <loader3D id="n177_kf54" name="sb5" xy="4181,-1225" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_5" skin="" loop="true"/>
+    <loader3D id="n178_kf54" name="sb6" xy="1343,-977" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_6" skin="" loop="true"/>
+    <loader3D id="n179_kf54" name="sb7" xy="1609,-598" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_7" skin="" loop="true"/>
+    <loader3D id="n180_kf54" name="sb8" xy="2123,594" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_8" skin="" loop="true"/>
+    <loader3D id="n181_kf54" name="sb9" xy="1177,-1293" size="100,100" url="ui://pdufy3kekf54ij3" animation="BigMap_shuibo_9" skin="" loop="true"/>
+    <loader3D id="n174_kf54" name="ls1" xy="1471,-887" size="100,100" scale="0.8,0.8" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n182_kf54" name="ls2" xy="1453,-774" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n183_kf54" name="ls3" xy="1403,-709" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n184_kf54" name="ls4" xy="1433,-527" size="100,100" scale="0.7,0.7" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n185_kf54" name="ls5" xy="2691,-655" size="100,100" scale="0.9,0.9" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n186_kf54" name="ls6" xy="2677,-527" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n187_kf54" name="ls7" xy="2893,-368" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n188_kf54" name="ls8" xy="2988,-387" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n189_kf54" name="ls9" xy="1685,347" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n190_kf54" name="ls10" xy="1914,464" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n191_kf54" name="ls11" xy="1730,231" size="100,100" scale="0.6,0.6" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n192_kf54" name="ls12" xy="1583,-167" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n193_kf54" name="ls13" xy="1672,-140" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n194_kf54" name="ls14" xy="987,-1603" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n195_kf54" name="ls15" xy="891,-1526" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n196_kf54" name="ls16" xy="989,-1437" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_lianyi" skin="" playing="false"/>
+    <loader3D id="n197_kf54" name="pubu1" xy="1060,-1900" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_pubu" skin="" loop="true"/>
+    <loader3D id="n198_kf54" name="pubu2" xy="1636,-423" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_shuidou_1" skin="" loop="true"/>
+    <loader3D id="n199_kf54" name="pubu3" xy="2655,-466" size="100,100" url="ui://pdufy3kekf54ij0" animation="BigMap_shuidou_2" skin="" loop="true"/>
+    <loader3D id="n200_kf54" name="n200" xy="1647,182" size="100,100" url="ui://pdufy3kekf54ij7" animation="BigMap_bobo" skin="" loop="true"/>
+    <loader3D id="n203_llb1" name="fishing1" xy="1562,-193" pivot="0.5,0.5" size="250,100" url="ui://pdufy3kejozzijd" animation="BigMap_yv" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n204_llb1" name="fishing2" xy="3939,-208" pivot="0.5,0.5" size="250,100" url="ui://pdufy3kejozzijd" animation="BigMap_yv" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n202_llb1" name="fishing3" xy="2102,754" pivot="0.5,0.5" size="230,100" url="ui://pdufy3kejozzijd" animation="BigMap_yv" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n206_llb1" name="fishing4" xy="996,-1563" pivot="0.5,0.5" size="230,100" scale="-1,1" url="ui://pdufy3kejozzijd" animation="BigMap_yv" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n205_llb1" name="fishing5" xy="1263,-1278" pivot="0.5,0.5" size="230,100" scale="-1,1" url="ui://pdufy3kejozzijd" animation="BigMap_yv" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n201_llb1" name="fishingB1" xy="1695,277" pivot="0.5,0.5" size="100,100" scale="-1,1" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n207_pto8" name="fishingB2" xy="3167,-306" pivot="0.5,0.5" size="100,100" scale="-1,1" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n208_pto8" name="fishingB3" xy="4175,-517" pivot="0.5,0.5" size="100,100" scale="-1,1" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n209_pto8" name="fishingB4" xy="1850,-680" pivot="0.5,0.5" size="100,100" scale="-1,1" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n210_pto8" name="fishingB5" xy="2635,-691" pivot="0.5,0.5" size="100,100" scale="-1,1" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n211_pto8" name="fishingB5" xy="1462,-893" pivot="0.5,0.5" size="100,100" url="ui://pdufy3kejozzijd" vAlign="middle" animation="BigMap_yv2" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <component id="n109_hbpt" name="stage1" src="hbptidt" fileName="Component/stageItem.xml" xy="496,688" size="427,302" alpha="0.996">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidq"/>
+    </component>
+    <component id="n110_hbpt" name="stage2" src="hbptidt" fileName="Component/stageItem.xml" xy="90,223" size="257,288">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidi"/>
+    </component>
+    <component id="n111_hbpt" name="stage3" src="hbptidt" fileName="Component/stageItem.xml" xy="513,-320" size="246,278">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidh"/>
+    </component>
+    <component id="n112_hbpt" name="stage4" src="hbptidt" fileName="Component/stageItem.xml" xy="1197,363" size="253,240">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidg"/>
+    </component>
+    <component id="n113_hbpt" name="stage5" src="hbptidt" fileName="Component/stageItem.xml" xy="1983,-622" size="193,275">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif5"/>
+    </component>
+    <component id="n114_hbpt" name="stage6" src="hbptidt" fileName="Component/stageItem.xml" xy="1564,771" size="242,198">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptide"/>
+    </component>
+    <component id="n115_hbpt" name="stage7" src="hbptidt" fileName="Component/stageItem.xml" xy="2301,317" size="159,205">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidd"/>
+    </component>
+    <component id="n116_hbpt" name="stage8" src="hbptidt" fileName="Component/stageItem.xml" xy="2707,-193" size="291,281">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidc"/>
+    </component>
+    <component id="n117_hbpt" name="stage9" src="hbptidt" fileName="Component/stageItem.xml" xy="3397,212" size="340,281">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidb"/>
+    </component>
+    <component id="n118_hbpt" name="stage10" src="hbptidt" fileName="Component/stageItem.xml" xy="2914,-761" size="287,352">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif2"/>
+    </component>
+    <component id="n119_hbpt" name="stage11" src="hbptidt" fileName="Component/stageItem.xml" xy="3638,-1117" size="258,257">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptido"/>
+    </component>
+    <component id="n120_hbpt" name="stage12" src="hbptidt" fileName="Component/stageItem.xml" xy="2599,-1526" size="356,372">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidn"/>
+    </component>
+    <component id="n121_hbpt" name="stage13" src="hbptidt" fileName="Component/stageItem.xml" xy="3573,-2562" size="405,371">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidm"/>
+    </component>
+    <component id="n122_hbpt" name="stage14" src="hbptidt" fileName="Component/stageItem.xml" xy="1588,-2475" size="551,320">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidl"/>
+    </component>
+    <component id="n123_hbpt" name="stage15" src="hbptidt" fileName="Component/stageItem.xml" xy="2412,-2384" size="269,345">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif3"/>
+    </component>
+    <component id="n124_hbpt" name="stage16" src="hbptidt" fileName="Component/stageItem.xml" xy="1518,-1761" size="266,197">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptida"/>
+    </component>
+    <component id="n125_hbpt" name="stage17" src="hbptidt" fileName="Component/stageItem.xml" xy="769,-1510" size="294,271">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidv"/>
+    </component>
+    <component id="n126_hbpt" name="stage18" src="hbptidt" fileName="Component/stageItem.xml" xy="80,-1470" size="250,244">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kehbptidw"/>
+    </component>
+    <component id="n127_hbpt" name="stage19" src="hbptidt" fileName="Component/stageItem.xml" xy="576,-2603" size="456,410">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3kehbptidx"/>
+    </component>
+    <component id="n128_hbpt" name="stage20" src="hbptidt" fileName="Component/stageItem.xml" xy="12,-2023" size="345,333">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif4"/>
+    </component>
+    <component id="n129_pn8i" name="stageEvent1" src="hbptidt" fileName="Component/stageItem.xml" xy="1297,-528" size="290,211">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3keema9r"/>
+    </component>
+    <component id="n130_pn8i" name="stageEvent2" src="hbptidt" fileName="Component/stageItem.xml" xy="2612,747" size="290,211">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3keema9r"/>
+    </component>
+    <component id="n131_pn8i" name="stageEvent3" src="hbptidt" fileName="Component/stageItem.xml" xy="4072,-1519" size="100,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3kep9n01r"/>
+    </component>
+    <component id="n132_pn8i" name="stageEvent4" src="hbptidt" fileName="Component/stageItem.xml" xy="1304,-2221" pivot="0.5,1" size="100,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3kep9n01r"/>
+    </component>
+    <component id="n133_pn8i" name="stageEvent5" src="hbptidt" fileName="Component/stageItem.xml" xy="525,-2031" size="290,211">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://pdufy3keema9r"/>
+    </component>
+    <component id="n134_pn8i" name="stageEvent6" src="hbptidt" fileName="Component/stageItem.xml" xy="-393,25" size="90,90">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3keema9t"/>
+    </component>
+    <component id="n135_pn8i" name="stageEvent7" src="hbptidt" fileName="Component/stageItem.xml" xy="-413,217" size="90,90">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3keema9t"/>
+    </component>
+    <loader id="n46_ema9" name="stageNextOld" xy="35,-2636" size="215,225" visible="false" touchable="false" url="ui://pdufy3kekt5fif6" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <component id="n156_o1ey" name="stageNext" src="hbptidt" fileName="Component/stageItem.xml" xy="35,-2636" size="215,225">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif6"/>
+    </component>
+    <loader3D id="n154_r1s6" name="spineStageNext" xy="31,-2614" size="120,80" touchable="false" url="ui://pdufy3ker1s6ih0" align="center" vAlign="middle" animation="BigMap_stcsm" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader id="n94_heac" name="posNext" xy="182,-2406" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n5_kh6r" name="pos1" xy="493,848" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n10_kh6r" name="pos2" xy="384,401" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_kh6r" name="pos3" xy="626,18" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n11_kh6r" name="pos4" xy="1294,305" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n12_kh6r" name="pos5" xy="2174,-328" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n7_kh6r" name="pos6" xy="1678,700" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n13_kh6r" name="pos7" xy="2245,491" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_kh6r" name="pos8" xy="2648,5" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n14_kh6r" name="pos9" xy="3655,556" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n23_f7h7" name="pos10" xy="3230,-594" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n25_f7h7" name="pos11" xy="3565,-927" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n26_f7h7" name="pos12" xy="2812,-1071" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n27_f7h7" name="pos13" xy="3625,-2143" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n28_f7h7" name="pos14" xy="1824,-2080" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n31_ema9" name="pos15" xy="2445,-1982" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n42_ema9" name="pos16" xy="1722,-1486" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n44_ema9" name="pos17" xy="1098,-1307" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n43_ema9" name="pos18" xy="372,-1315" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n45_ema9" name="pos19" xy="548,-2244" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n85_heac" name="pos20" xy="386,-1795" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n86_heac" name="posEvent1" xy="1422,-321" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n87_heac" name="posEvent2" xy="2873,798" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n88_heac" name="posEvent3" xy="4020,-1405" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n89_heac" name="posEvent4" xy="1374,-2069" size="30,30" touchable="false" url="ui://pdufy3kep9n01r" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n90_heac" name="posEvent5" xy="646,-1815" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n91_heac" name="posEvent6" xy="-238,105" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n92_heac" name="posEvent7" xy="-250,295" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n156_ka12" name="fishingPos1" xy="1428,-135" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n157_ka12" name="fishingPos2" xy="1953,-80" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n158_ka12" name="fishingPos3" xy="1594,363" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n159_ka12" name="fishingPos4" xy="2378,857" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n161_ka12" name="fishingPos5" xy="1539,-1187" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n162_ka12" name="fishingPos6" xy="1274,-1479" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n93_heac" name="posLast" xy="165,892" size="30,30" touchable="false" url="ui://pdufy3keema9h" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n96_heac" name="btnLastChapterOld" xy="29,676" size="215,225" visible="false" touchable="false" url="ui://pdufy3kekt5fif6" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <component id="n157_o1ey" name="btnLastChapter" src="hbptidt" fileName="Component/stageItem.xml" xy="29,676" size="215,225">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Label icon="ui://pdufy3kekt5fif6"/>
+    </component>
+    <loader3D id="n155_r1s6" name="spineLastChapter" xy="25,699" size="120,80" visible="false" touchable="false" url="ui://pdufy3ker1s6ih0" align="center" vAlign="middle" animation="BigMap_stcsm" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n138_f710" name="yingguang0" xy="150,359" size="120,80" touchable="false" url="ui://pdufy3kef710ie8" align="center" vAlign="middle" animation="BigMap_yingguang" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n136_f710" name="yingguang1" xy="2793,-88" size="120,80" touchable="false" url="ui://pdufy3kef710ie8" align="center" vAlign="middle" animation="BigMap_yingguang" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n139_f710" name="yingguang2" xy="1588,-1721" size="120,80" touchable="false" url="ui://pdufy3kef710ie8" align="center" vAlign="middle" animation="BigMap_yingguang" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n144_f710" name="hudie1" xy="1350,501" size="120,80" touchable="false" url="ui://pdufy3kef710iez" align="center" vAlign="middle" animation="BigMap_hudiefei" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n145_f710" name="hudie2" xy="3703,487" size="120,80" touchable="false" url="ui://pdufy3kef710iez" align="center" vAlign="middle" animation="BigMap_hudiefei" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n146_f710" name="hudie3" xy="3798,-2394" size="120,80" touchable="false" url="ui://pdufy3kef710iez" align="center" vAlign="middle" animation="BigMap_hudiefei" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n152_rthz" name="hudie4" xy="2490,-2306" size="120,80" touchable="false" url="ui://pdufy3kef710iez" align="center" vAlign="middle" animation="BigMap_hudiefei" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n142_f710" name="spineStage3" xy="519,-291" size="120,80" touchable="false" url="ui://pdufy3ker1s6ih1" align="center" vAlign="middle" animation="BigMap_lanshuijing" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n149_rthz" name="spineStage5" xy="2019,-605" size="120,80" touchable="false" url="ui://pdufy3ker1s6ih5" align="center" vAlign="middle" animation="BigMap_ cishuijing" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n141_f710" name="spineStage7" xy="2325,259" size="120,80" touchable="false" url="ui://pdufy3kef710iev" align="center" vAlign="middle" animation="BigMap_guangzhu" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n153_edee" name="spineStage10" xy="2982,-613" size="120,80" touchable="false" url="ui://pdufy3kef710ie8" align="center" vAlign="middle" animation="BigMap_yingguang" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n140_f710" name="spineStage19" xy="673,-2583" size="120,80" touchable="false" url="ui://pdufy3kef710ieg" align="center" vAlign="middle" animation="shuijingqiu" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n143_f710" name="spineStage18" xy="103,-1444" size="120,80" touchable="false" url="ui://pdufy3ker1s6ih1" align="center" vAlign="middle" animation="BigMap_lvshuijing" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n148_rthz" name="spineStage12" xy="2724,-1493" size="120,80" touchable="false" url="ui://pdufy3kerthzifa" align="center" vAlign="middle" animation="BigMap_ ygz" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n151_rthz" name="spineStage11" xy="3711,-1065" size="120,80" touchable="false" url="ui://pdufy3kerthzifu" align="center" vAlign="middle" animation="BigMap_zqc" skin="" loop="true"/>
+    <loader3D id="n150_rthz" name="spineStage20" xy="116,-1868" size="120,80" touchable="false" url="ui://pdufy3ker1s6igp" align="center" vAlign="middle" animation="BigMap_ltsq" skin="" loop="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+    <loader id="n164_ka12" name="fishingDirection1" xy="1497,-135" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n165_ka12" name="fishingDirection2" xy="1825,-80" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n166_ka12" name="fishingDirection3" xy="1671,363" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n167_ka12" name="fishingDirection4" xy="2248,857" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n169_ka12" name="fishingDirection5" xy="1415,-1187" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n170_ka12" name="fishingDirection6" xy="1146,-1479" pivot="0.5,0.5" anchor="true" size="30,30" touchable="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,185" extention="Button">
+  <controller name="quality" pages="9,,8,,0,,1,,2,,3,,4," selected="0"/>
+  <controller name="occupationType" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <controller name="hasLv" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="需要"/>
+    <remark page="1" value="不需要"/>
+  </controller>
+  <displayList>
+    <loader id="n0_jp5j" name="n0" xy="0,0" size="150,185" url="ui://5moj1x39s2xhdxy6n" fill="scale">
+      <gearIcon controller="quality" pages="9,0,1,2,3,4" values="ui://5moj1x39s2xhdxy6n|ui://5moj1x39p4bn1b|ui://5moj1x39p4bn1c|ui://5moj1x39p4bn1d|ui://5moj1x39p4bn1g|ui://5moj1x39p4bn1f" default="ui://5moj1x39p4bn1a"/>
+    </loader>
+    <loader id="n1_jp5j" name="icon" xy="8,3" size="134,177" url="ui://5moj1x39p4bn1l" fill="scale" clearOnPublish="true"/>
+    <loader id="n18_ju03" name="n18" xy="0,0" size="150,185" url="ui://5moj1x39s2xhdxy6n" fill="scale">
+      <gearIcon controller="quality" pages="9,8,0,1,2,3,4" values="ui://5moj1x39s2xhdxy6n|ui://5moj1x39ju03dxy50|ui://5moj1x39ju03dxy51|ui://5moj1x39ju03dxy52|ui://5moj1x39ju03dxy53|ui://5moj1x39ju03dxy56|ui://5moj1x39ju03dxy55"/>
+    </loader>
+    <text id="n3_jp5j" name="lvLb" xy="69,3" size="71,29" fontSize="16" color="#4f444a" align="right" vars="true" autoSize="none" strokeColor="#ffffff" text="{value=5}级">
+      <gearDisplay2 controller="hasLv" pages="0" condition="0"/>
+    </text>
+    <text id="n6_jp5j" name="idLb" xy="5,38" size="119,35" visible="false" fontSize="25" color="#ffffff" vars="true" autoSize="shrink" strokeColor="#000000" text="ID:{value=4}"/>
+    <image id="n9_p4bn" name="n9" src="p4bn19" fileName="Res/4.png" xy="-54,-30" size="258,246" visible="false"/>
+    <list id="n10_p4bn" name="starList" xy="15,124" size="120,22" layout="row" defaultItem="ui://5moj1x39p4bn1k" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_tw1c" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" xy="126,-5" visible="false"/>
+    <component id="n15_oekv" name="dragBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="32,21" size="86,126"/>
+    <text id="n17_ddc1" name="petName" xy="10,149" size="130,29" fontSize="19" color="#999999" align="center" vars="true" autoSize="none" strokeColor="#000000" text="小猪灵">
+      <gearColor controller="quality" pages="9,8,0,1,2,3,4" values="#999999,#000000|#74d5a4,#000000|#80bee4,#000000|#c688dc,#000000|#cde370,#000000|#fbd968,#000000|#ff877a,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+  <transition name="addEff" autoPlay="true" autoPlayRepeat="-1"/>
+  <transition name="dragEff">
+    <item time="0" type="Alpha" target="n9_p4bn" tween="true" startValue="0" endValue="1" duration="12" ease="Linear"/>
+    <item time="0" type="Visible" target="n9_p4bn" value="true"/>
+    <item time="13" type="Visible" target="n9_p4bn" value="false"/>
+  </transition>
+</component>

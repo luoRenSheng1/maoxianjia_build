@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://lxs2h4iff34jdxy8y" designImageAlpha="0">
+  <controller name="ctrl" pages="0,,3,,1,,2," selected="0">
+    <remark page="0" value="卸下"/>
+    <remark page="1" value="装备"/>
+    <remark page="2" value="替换"/>
+    <remark page="3" value="获取"/>
+  </controller>
+  <controller name="tipsCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不是tips"/>
+    <remark page="1" value="是tips"/>
+  </controller>
+  <controller name="upStatus" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="strongStatus" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="hasUpload" pages="0,,1," selected="0">
+    <remark page="0" value="无宠物上阵"/>
+    <remark page="1" value="有宠物上阵"/>
+  </controller>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="isShow" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <controller name="TalentUnlock" alias="天赋解锁" pages="0,未解锁,1,已解锁" selected="0"/>
+  <controller name="SkillBookUnlock" alias="技能书解锁" pages="0,未解锁,1,已解锁" selected="0"/>
+  <displayList>
+    <loader id="n31_hz5c" name="n31" xy="0,0" size="720,828" group="n76_hz5c" url="ui://5moj1x39f34jdxybs" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </loader>
+    <loader3D id="n103_ucd4" name="n103" xy="310,-143" size="100,100" group="n76_hz5c" url="ui://lxs2h4ifucd4dxyby" align="center" vAlign="middle" animation="Pet_cwxq" skin="" loop="true">
+      <gearDisplay controller="isShow" pages="0"/>
+      <relation target="n79_hz5c" sidePair="bottom-top"/>
+    </loader3D>
+    <loader id="n102_klzx" name="n102" xy="0,0" size="720,86" group="n76_hz5c" url="ui://5moj1x39klzxdxyce">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n101_klzx" name="n101" xy="0,0" size="720,86" group="n76_hz5c" url="ui://5moj1x39klzxdxycd">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <component id="n80_hz5c" name="currency1" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="9,13" group="n82_hz5c"/>
+    <component id="n81_hz5c" name="currency2" src="hz5cdxy96" fileName="Component/Extension/Currency1.xml" pkg="0anhreyl" xy="184,13" group="n82_hz5c">
+      <Button icon="ui://0anhreyldd3xdxxxa"/>
+    </component>
+    <group id="n82_hz5c" name="n82" xy="9,13" size="345,50" group="n76_hz5c" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n99_f34j" name="n99" xy="243,100" size="465,173" group="n92_f34j" url="ui://lxs2h4iff34jdxy9a" fill="scaleFree"/>
+    <text id="n37_hz5c" name="n37" xy="257,109" size="52,34" group="n92_f34j" fontSize="24" color="#4c2911" bold="true" text="属性">
+      <relation target="n99_f34j" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n46_hz5c" name="type" src="hz5cdxy77" fileName="Component/Type.xml" xy="318,110" group="n92_f34j">
+      <relation target="n37_hz5c" sidePair="left-right"/>
+      <relation target="n99_f34j" sidePair="top-top"/>
+    </component>
+    <image id="n114_xezf" name="n114" src="xezfdxycr" fileName="Res/newItem/home_information_btn02.png" pkg="5moj1x39" xy="653,103" group="n92_f34j">
+      <relation target="n99_f34j" sidePair="right-right,top-top"/>
+    </image>
+    <component id="n87_g4me" name="btnAttr" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="636,94" size="78,56" group="n92_f34j">
+      <relation target="n114_xezf" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n48_hz5c" name="attrList" xy="262,164" size="430,106" group="n92_f34j" layout="flow_hz" overflow="scroll" lineGap="6" colGap="50" defaultItem="ui://5moj1x39k627dxy6a" align="center">
+      <relation target="n99_f34j" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n92_f34j" name="n92" xy="243,94" size="471,179" group="n79_hz5c"/>
+    <graph id="n110_jn60" name="n110" xy="347,351" size="182,112" group="n93_f34j" alpha="0" type="rect"/>
+    <loader id="n98_f34j" name="n94" xy="243,298" size="465,166" group="n93_f34j" url="ui://lxs2h4iff34jdxy9a" fill="scaleFree"/>
+    <text id="n40_hz5c" name="n40" xy="257,306" size="52,34" group="n93_f34j" fontSize="24" color="#4c2911" bold="true" text="技能">
+      <relation target="n98_f34j" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n49_hz5c" name="petSkillBtn" src="hz5cdxy78" fileName="Component/PetSkillBtn.xml" xy="260,370" group="n93_f34j">
+      <relation target="n98_f34j" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <text id="n50_hz5c" name="skillName" xy="348,384" size="84,29" group="n111_jn60" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="尖锐音波">
+      <relation target="n49_hz5c" sidePair="left-right"/>
+      <relation target="n52_hz5c" sidePair="bottom-top"/>
+    </text>
+    <richtext id="n52_hz5c" name="skillDesc" xy="348,413" size="180,24" group="n111_jn60" fontSize="16" color="#4c2911" ubb="true" vars="true" autoSize="height" bold="true" text="造成[color=#48A542]{value=10000}[/color]点伤害">
+      <relation target="n49_hz5c" sidePair="left-right"/>
+    </richtext>
+    <group id="n111_jn60" name="n111" xy="348,384" size="180,53" group="n93_f34j" advanced="true" layout="vt" excludeInvisibles="true">
+      <relation target="n110_jn60" sidePair="middle-middle"/>
+    </group>
+    <component id="n53_hz5c" name="strongBtn" src="hz5cdxy9b" fileName="Component/BtnCom2.xml" pkg="5moj1x39" xy="548,365" size="144,84" group="n93_f34j">
+      <gearLook controller="strongStatus" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n98_f34j" sidePair="right-right,bottom-bottom"/>
+      <Button title="强化" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <loader id="n113_j5a9" name="lockIcon2" xy="559,391" size="35,35" group="n93_f34j" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scale">
+      <relation target="n53_hz5c" sidePair="middle-middle,left-left"/>
+    </loader>
+    <component id="n122_n5nh" name="strongBtnRed" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="663,363" group="n93_f34j" visible="false">
+      <gearDisplay controller="strongStatus" pages="0"/>
+      <relation target="n53_hz5c" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n93_f34j" name="n93" xy="243,298" size="465,166" group="n79_hz5c"/>
+    <loader id="n89_f34j" name="qualityIcon" xy="11,99" size="223,252" group="n91_f34j" url="ui://lxs2h4iff34jdxy99">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5,6" values="ui://lxs2h4iff34jdxy99|ui://lxs2h4iff34jdxy93|ui://lxs2h4iff34jdxy94|ui://lxs2h4iff34jdxy95|ui://lxs2h4iff34jdxy96|ui://lxs2h4iff34jdxy97|ui://lxs2h4iff34jdxy98"/>
+    </loader>
+    <component id="n75_hz5c" name="petQuality" src="hz5cdxy7d" fileName="Component/PetQualityLb.xml" xy="-5,83" size="80,66" group="n91_f34j" scale="0.8,0.8">
+      <relation target="n89_f34j" sidePair="left-left,top-top"/>
+    </component>
+    <graph id="n30_oo1w" name="petSpine" xy="52,157" pivot="0.5,1" size="139,146" group="n74_hz5c"/>
+    <text id="n72_hz5c" name="petName" xy="83,114" size="76,34" group="n74_hz5c" fontSize="24" color="#fcf78e" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="拳击兔">
+      <relation target="n30_oo1w" sidePair="center-center"/>
+    </text>
+    <text id="n73_hz5c" name="petLv" xy="79,304" size="78,34" group="n74_hz5c" fontSize="24" color="#ffffff" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=290}">
+      <relation target="n30_oo1w" sidePair="center-center"/>
+    </text>
+    <group id="n74_hz5c" name="n74" xy="52,114" size="139,224" group="n91_f34j" advanced="true">
+      <relation target="n89_f34j" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n91_f34j" name="n91" xy="-5,83" size="239,268" group="n79_hz5c"/>
+    <component id="n47_hz5c" name="upLvBtn" src="hz5cdxy9b" fileName="Component/BtnCom2.xml" pkg="5moj1x39" xy="35,366" size="174,86" group="n79_hz5c">
+      <gearLook controller="upStatus" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n91_f34j" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n112_j5a9" name="lockIcon" xy="48,393" size="35,35" group="n79_hz5c" url="ui://5moj1x39f34jdxyb7" align="center" vAlign="middle" fill="scale">
+      <relation target="n47_hz5c" sidePair="middle-middle,left-left"/>
+    </loader>
+    <component id="n121_n5nh" name="upLvBtnRed" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="179,365" group="n79_hz5c" visible="false">
+      <gearDisplay controller="upStatus" pages="0"/>
+      <relation target="n47_hz5c" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n79_hz5c" name="n79" xy="-5,83" size="719,381" group="n107_ucd4" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n56_hz5c" name="n56" xy="12,482" size="696,164" group="n59_hz5c" url="ui://lxs2h4iff34jdxy9a" vAlign="middle" fill="scaleFree"/>
+    <text id="n57_hz5c" name="n57" xy="26,489" size="100,34" group="n59_hz5c" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="宠物天赋">
+      <relation target="n56_hz5c" sidePair="left-left,top-top"/>
+    </text>
+    <list id="n58_hz5c" name="petTalentList" xy="78,549" size="563,80" group="n59_hz5c" layout="row" colGap="40" defaultItem="ui://lxs2h4ifhz5cdxy79" vAlign="middle">
+      <gearDisplay controller="hasUpload" pages="1"/>
+      <gearDisplay2 controller="TalentUnlock" pages="1" condition="0"/>
+      <relation target="n56_hz5c" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n85_hz5c" name="n85" xy="268,567" size="184,42" group="n59_hz5c" fontSize="30" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="请先上阵宠物">
+      <gearDisplay controller="hasUpload" pages="0"/>
+      <gearDisplay2 controller="TalentUnlock" pages="1" condition="0"/>
+    </text>
+    <loader id="n115_5rox" name="n115" xy="27,542" size="666,96" group="n59_hz5c" alpha="0.5" url="ui://5moj1x39f34jdxybh" fill="scaleFree">
+      <gearDisplay controller="TalentUnlock" pages="0"/>
+    </loader>
+    <image id="n116_5rox" name="n116" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="336,545" group="n59_hz5c">
+      <gearDisplay controller="TalentUnlock" pages="0"/>
+    </image>
+    <text id="n119_5rox" name="TalentUnlockText" xy="302,596" pivot="0.5,0.5" size="116,39" group="n59_hz5c" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="解锁描述">
+      <gearDisplay controller="TalentUnlock" pages="0"/>
+    </text>
+    <group id="n59_hz5c" name="n59" xy="12,482" size="696,164" group="n107_ucd4" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n60_hz5c" name="n60" xy="12,655" size="696,164" group="n63_hz5c" url="ui://lxs2h4iff34jdxy9a" vAlign="middle" fill="scaleFree"/>
+    <text id="n61_hz5c" name="n61" xy="26,661" size="124,34" group="n63_hz5c" fontSize="24" color="#4c2911" align="center" bold="true" text="宠物技能书">
+      <relation target="n60_hz5c" sidePair="left-left,top-top"/>
+    </text>
+    <list id="n62_hz5c" name="petBookList" xy="78,721" size="563,80" group="n63_hz5c" layout="row" colGap="35" defaultItem="ui://lxs2h4ifhz5cdxy7a" vAlign="middle">
+      <gearDisplay controller="hasUpload" pages="1"/>
+      <gearDisplay2 controller="SkillBookUnlock" pages="1" condition="0"/>
+      <relation target="n60_hz5c" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n84_hz5c" name="n84" xy="268,746" size="184,42" group="n63_hz5c" fontSize="30" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="请先上阵宠物">
+      <gearDisplay controller="hasUpload" pages="0"/>
+      <gearDisplay2 controller="SkillBookUnlock" pages="1" condition="0"/>
+    </text>
+    <loader id="n117_5rox" name="n117" xy="32,716" size="666,96" group="n63_hz5c" alpha="0.5" url="ui://5moj1x39f34jdxybh" fill="scaleFree">
+      <gearDisplay controller="SkillBookUnlock" pages="0"/>
+    </loader>
+    <image id="n118_5rox" name="n118" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="341,719" group="n63_hz5c">
+      <gearDisplay controller="SkillBookUnlock" pages="0"/>
+    </image>
+    <text id="n120_5rox" name="SkillBookUnlockText" xy="307,770" pivot="0.5,0.5" size="116,39" group="n63_hz5c" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="解锁描述">
+      <gearDisplay controller="SkillBookUnlock" pages="0"/>
+    </text>
+    <group id="n63_hz5c" name="n63" xy="12,655" size="696,164" group="n107_ucd4" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <group id="n107_ucd4" name="n107" xy="-5,83" size="719,736" group="n76_hz5c" advanced="true">
+      <gearDisplay controller="isShow" pages="0"/>
+    </group>
+    <loader id="n109_ucd4" name="n109" xy="172,278" size="375,373" group="n76_hz5c" url="ui://lxs2h4ifucd4dxyc1" align="center" vAlign="middle">
+      <gearDisplay controller="isShow" pages="1"/>
+      <relation target="n31_hz5c" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n97_f34j" name="n97" xy="0,881" size="720,162" group="n77_hz5c" url="ui://5moj1x39f34jdxyay" fill="scaleFree"/>
+    <loader id="n96_f34j" name="n96" xy="0,823" size="720,70" group="n77_hz5c" url="ui://5moj1x39f34jdxya2" fill="scaleFree"/>
+    <text id="n67_hz5c" name="n67" xy="316,834" size="88,39" group="n77_hz5c" fontSize="28" color="#fee7aa" align="center" bold="true" strokeColor="#000000" strokeSize="3" text="已上阵"/>
+    <list id="n71_hz5c" name="petList" xy="78,896" size="564,134" group="n77_hz5c" layout="row" colGap="27" defaultItem="ui://lxs2h4iff34jdxy9b" align="center" vAlign="middle">
+      <gearDisplay controller="hasUpload" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n83_hz5c" name="n83" xy="268,943" size="184,42" group="n77_hz5c" visible="false" fontSize="30" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="请先上阵宠物">
+      <gearDisplay controller="hasUpload" pages="0"/>
+    </text>
+    <group id="n77_hz5c" name="n77" xy="0,823" size="720,220" group="n76_hz5c" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <group id="n76_hz5c" name="n76" xy="-5,-143" size="725,1186" advanced="true"/>
+  </displayList>
+</component>

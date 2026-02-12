@@ -1,0 +1,119 @@
+BigMap_yiji_taijie.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+100
+	bounds: 2, 409, 41, 101
+	offsets: 2, 1, 44, 104
+111
+	bounds: 311, 377, 39, 39
+	offsets: 1, 1, 42, 41
+112
+	bounds: 159, 466, 77, 44
+	offsets: 1, 1, 79, 46
+113
+	bounds: 238, 465, 75, 45
+	offsets: 1, 1, 77, 48
+121
+	bounds: 2, 69, 61, 49
+	offsets: 1, 1, 63, 51
+	rotate: 90
+122
+	bounds: 2, 336, 71, 40
+	offsets: 1, 1, 73, 42
+	rotate: 90
+123
+	bounds: 264, 369, 45, 40
+	offsets: 1, 2, 47, 43
+124
+	bounds: 309, 418, 45, 36
+	offsets: 1, 1, 47, 38
+	rotate: 90
+131
+	bounds: 451, 465, 58, 45
+	offsets: 1, 1, 60, 47
+132
+	bounds: 2, 264, 70, 38
+	offsets: 2, 1, 73, 40
+	rotate: 90
+133
+	bounds: 2, 2, 65, 37
+	offsets: 1, 1, 67, 39
+	rotate: 90
+134
+	bounds: 315, 466, 67, 44
+	offsets: 1, 1, 69, 46
+141
+	bounds: 263, 411, 52, 44
+	offsets: 1, 1, 54, 46
+	rotate: 90
+142
+	bounds: 161, 367, 49, 39
+	offsets: 1, 1, 51, 41
+143
+	bounds: 352, 379, 38, 38
+	offsets: 1, 2, 40, 41
+144
+	bounds: 384, 467, 65, 43
+	offsets: 1, 1, 67, 45
+211
+	bounds: 45, 389, 58, 47
+	offsets: 2, 1, 61, 49
+212
+	bounds: 44, 331, 58, 56
+	offsets: 2, 1, 61, 58
+213
+	bounds: 42, 278, 55, 51
+	offsets: 1, 1, 58, 53
+214
+	bounds: 45, 438, 55, 72
+	offsets: 1, 1, 57, 74
+221
+	bounds: 161, 408, 49, 56
+	offsets: 1, 1, 51, 58
+222
+	bounds: 105, 390, 50, 54
+	offsets: 1, 1, 52, 56
+	rotate: 90
+223
+	bounds: 52, 164, 52, 42
+	offsets: 1, 1, 54, 44
+	rotate: 90
+224
+	bounds: 102, 442, 55, 68
+	offsets: 1, 2, 57, 71
+231
+	bounds: 52, 134, 51, 28
+	offsets: 2, 2, 54, 31
+232
+	bounds: 212, 410, 49, 53
+	offsets: 2, 2, 52, 56
+233
+	bounds: 45, 218, 48, 58
+	offsets: 2, 2, 51, 61
+234
+	bounds: 2, 132, 48, 63
+	offsets: 1, 2, 50, 66
+241
+	bounds: 347, 419, 45, 40
+	offsets: 1, 1, 47, 42
+	rotate: 90
+242
+	bounds: 212, 370, 38, 50
+	offsets: 1, 1, 40, 52
+	rotate: 90
+243
+	bounds: 2, 197, 41, 65
+	offsets: 1, 1, 43, 67
+244
+	bounds: 389, 427, 41, 38
+	offsets: 1, 1, 43, 40
+251
+	bounds: 41, 20, 36, 47
+	offsets: 1, 2, 39, 50
+252
+	bounds: 91, 84, 34, 48
+	offsets: 1, 1, 36, 50
+253
+	bounds: 53, 79, 36, 53
+	offsets: 1, 1, 38, 55

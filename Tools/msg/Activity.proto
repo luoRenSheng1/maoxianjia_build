@@ -1,0 +1,140 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	         
+
+//签到信息
+message SignInDayInfo
+{
+	optional uint32  id = 1; //如果是签到活动DailyCheckReward 中的id；如果是新人首充则表示第几天
+	optional uint32  claim_status = 2; //是否领奖   0--未领奖，1--已领奖， 其他待扩充
+	optional uint64  signin_time = 3; //如果是签到活动  --签到时间，目前就是每日登录时间 
+	                                  //如果是新人首充礼包，表示开放领取时间
+}
+	
+
+
+
+//新手签到玩家活动信息下发
+message NewPlayerSignInInfo_PC    //eMsg_NewPlayerSignInInfo_PC = 1600; 
+{
+	repeated SignInDayInfo sign_info = 1;  //当前签到信息
+}
+
+
+//新手签到玩家活动信息请求
+message NewPlayerSignInClaimAward_CS   //eMsg_NewPlayerSignInClaimAward_CS = 1601;
+{
+	optional uint32  id = 1; //领奖id， DailyCheckReward 中的id
+}
+
+//新手签到玩家活动信息反馈
+message NewPlayerSignInClaimAward_SC    //eMsg_NewPlayerSignInClaimAward_SC = 1602;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional SignInDayInfo sign_info = 2;  //本次领取奖励签到信息
+	repeated ItemInfo award_items = 3; //获得的道具
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+}	
+				
+						
+       
+	      
+	      
+
+//新手充值活动签到信息下发
+message NewPlayerRechargeInfo_PC    //eMsg_NewPlayerRechargeInfo_PC = 1608;
+{
+	repeated SignInDayInfo sign_info = 1;  //当前奖励领取信息  --固定会下发common表里配置的奖励天数信息
+}
+
+
+//新手充值活动领取奖励请求
+message NewPlayerRechargeClaimAward_CS   //eMsg_NewPlayerRechargeClaimAward_CS = 1609; 
+{
+	optional uint32  id = 1; //领奖天数  从第一天开始
+}
+
+//新手充值活动领取奖励反馈
+message NewPlayerRechargeClaimAward_SC    //eMsg_NewPlayerRechargeClaimAward_SC = 1610; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional SignInDayInfo sign_info = 2;  //本次领取奖励签到信息
+	repeated ItemInfo award_items = 3; //获得的道具
+	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+	repeated RandBoxResult box_rand_result = 5; //随机结果--和老虎机一样普通道具客户端需要自行添加本地管理器，如果是角色，技能，符石，宠物会通过pc包下发完整通知
+                                           	//随机宝箱的结果，size为0，proto不占用内存空间
+}	
+	  
+	  
+					
+
+//获取英雄月卡活动玩家信息请求
+message GetHeroMonthActivityInfo_CS   //eMsg_GetHeroMonthActivityInfo_CS = 1603; 
+{
+}
+
+//获取英雄月卡活动玩家信息反馈
+message GetHeroMonthActivityInfo_SC   //eMsg_GetHeroMonthActivityInfo_SC = 1604; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional bool  has_purchase = 2; // 是否购买激活  false -- 未购买，true--已购买
+	optional uint32 award_days = 3; //已领取奖励天数
+	optional uint64 end_time = 4; //结束时间--- 如果是已购买，且时间已到期结束，仍然要允许发起下次购买(如无特殊配置，服务器端会在10分钟后删除已过期活动，十分钟内登录，仍然能看到该过期活动)
+	optional bool  has_today_claimed = 5; // 当日奖励是否已领取  false -- 未领取，true--已领取
+}
+
+
+
+//解锁后每日手动领取请求
+message DailyClaimHeroMonthAward_CS     //eMsg_DailyClaimHeroMonthAward_CS = 1607; 
+{
+	optional uint32 activity_id = 1;   //Monthly.xlsx表里面的id
+}
+//解锁后每日手动领取反馈
+message DailyClaimHeroMonthAward_SC     //eMsg_DailyClaimHeroMonthAward_SC = 1608;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 activity_id = 2;   //Monthly.xlsx表里面的id
+	optional bool  has_today_claimed = 3; // 当日奖励是否已领取  false -- 未领取，true--已领取
+	repeated ItemInfo award_items = 4; //获得的道具
+	repeated BattleAttr purchased_attr = 5; //本次购买所获得的提升属性 -- 只做提示表现，具体会通过属性变更pc包下发
+	optional Finance finance = 6; //最新账户货币信息,各种货币余额
+	optional uint64 end_time = 7; //结束时间
+	//optional OtherAttr other_attr= 8; //其他杂项属性加成
+}
+
+
+
+	  
+//计时卡信息
+message TimeCard   
+{
+	optional uint32 id = 1;   //Monthly.xlsx表里面的id--除英雄令和永久卡之外
+	optional uint32 award_days = 3; //已领取奖励天数
+	optional uint64 end_time = 4; //结束时间--- 如果是已购买，且时间已到期结束，仍然要允许发起下次购买(如无特殊配置，服务器端会在10分钟后删除已过期活动，十分钟内登录，仍然能看到该过期活动)
+	optional bool  has_today_claimed = 5; // 当日奖励是否已领取  false -- 未领取，true--已领取
+}
+
+
+//获取计时卡信息请求
+message GetTimeCardInfo_CS   //eMsg_GetTimeCardInfo_CS = 1611;
+{
+
+}
+
+//获取计时卡信息请求反馈
+message GetTimeCardInfo_SC   //eMsg_GetTimeCardInfo_SC = 1612; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated TimeCard  time_card = 2; 
+}
+               
+  
+	   
+	
+	  

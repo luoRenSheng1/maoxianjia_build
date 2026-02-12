@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlga86dxybj" designImageAlpha="60">
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n4_ef8u" name="n4" xy="0,0" size="720,1149" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </loader>
+    <loader id="n18_ga86" name="n18" xy="0,0" size="720,424" group="n22_ga86" url="ui://ddc23erlga86dxybh">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n21_ga86" name="n21" xy="331,231" size="220,147" group="n22_ga86" url="ui://ddc23erlga86dxybi" fill="scale">
+      <relation target="n18_ga86" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <graph id="n20_ga86" name="myHero" xy="196,224" pivot="0.5,1" size="100,100" group="n22_ga86">
+      <relation target="n18_ga86" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <group id="n22_ga86" name="n22" xy="0,0" size="720,424"/>
+    <loader id="n1_ef8u" name="n1" xy="0,485" size="720,661" url="ui://ddc23erlef8udxyad" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <component id="n14_ef8u" name="goldCur" src="ef8udxyau" fileName="Component/EquipCurrency.xml" xy="48,14" group="n16_ef8u"/>
+    <component id="n15_ef8u" name="hammerCur" src="ef8udxyau" fileName="Component/EquipCurrency.xml" xy="212,14" group="n16_ef8u"/>
+    <group id="n16_ef8u" name="n16" xy="48,14" size="301,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n0_ef8u" name="n0" xy="-5,424" size="730,70" group="n6_ef8u" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n1_ef8u" sidePair="top-top"/>
+    </loader>
+    <text id="n5_ef8u" name="n5" xy="302,435" size="116,39" group="n6_ef8u" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="2" text="装备列表">
+      <relation target="n0_ef8u" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n6_ef8u" name="n6" xy="-5,424" size="730,70"/>
+    <loader id="n2_ef8u" name="n2" xy="16,511" size="688,188" group="n13_ef8u" url="ui://ddc23erlef8udxya0" fill="scaleFree">
+      <relation target="n1_ef8u" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n12_ef8u" name="equipList" xy="45,542" pivot="0.5,0.5" size="628,124" group="n13_ef8u" layout="row" colGap="40" defaultItem="ui://5moj1x39ef8udxycu" align="center" vAlign="middle">
+      <relation target="n2_ef8u" sidePair="center-center,middle-middle"/>
+      <item controllers="ctrbg,7"/>
+      <item controllers="ctrbg,8"/>
+      <item controllers="ctrbg,11"/>
+      <item controllers="ctrbg,12"/>
+    </list>
+    <group id="n13_ef8u" name="n13" xy="16,511" size="688,188"/>
+    <loader id="n17_ef8u" name="n17" xy="16,713" size="688,16" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n2_ef8u" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n3_ef8u" name="n3" xy="16,749" size="688,148" group="n11_ef8u" url="ui://ddc23erlef8udxya0" fill="scaleFree">
+      <relation target="n1_ef8u" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n23_llb1" name="makeBtnAni" src="llb1dxybt" fileName="Component/MakeEquipBtnAni.xml" xy="278,737" group="n11_ef8u" grayed="true">
+      <gearLook controller="lockCtrl" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n3_ef8u" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n11_ef8u" name="n11" xy="16,737" size="688,173"/>
+    <component id="n7_ef8u" name="upLvBtn" src="ef8udxyas" fileName="Component/UpLvBtn.xml" xy="251,933" group="n9_ef8u">
+      <relation target="n1_ef8u" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n8_ef8u" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="448,924" group="n9_ef8u">
+      <relation target="n7_ef8u" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n9_ef8u" name="n9" xy="251,924" size="229,93"/>
+  </displayList>
+</component>

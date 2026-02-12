@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://m37flevdf34jdxyag" designImageAlpha="0" designImageLayer="1">
+  <controller name="typeCtrl" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="角色"/>
+    <remark page="1" value="技能"/>
+    <remark page="2" value="宠物"/>
+    <remark page="3" value="符石"/>
+  </controller>
+  <controller name="showPetHand" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <component id="n3_ozj9" name="roleInfo" src="ozj9f" fileName="RoleMain.xml" xy="0,0">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </component>
+    <image id="n13_f34j" name="n13" src="f34jdxybb" fileName="Res/newItem2/general_bottom_bg1.png" pkg="5moj1x39" xy="0,1041" size="720,115" group="n2_ozj9">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <list id="n1_ozj9" name="tabList" xy="0,1059" size="720,70" group="n2_ozj9" layout="row" colGap="8" defaultItem="ui://5moj1x39p4bnc" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+      <item title="角色" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="技能" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="天赋" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="圣物" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+    </list>
+    <group id="n2_ozj9" name="n2" xy="0,1041" size="720,115" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n4_ozj9" name="btnGold" src="ozj91l" fileName="Component/Currency.xml" xy="14,14" group="n11_p9n0">
+      <Label icon="ui://0anhreylf34jdxy9m"/>
+    </component>
+    <component id="n5_ozj9" name="btnDia" src="ozj91l" fileName="Component/Currency.xml" xy="200,14" group="n11_p9n0">
+      <Label icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+    <group id="n11_p9n0" name="n11" xy="14,14" size="362,50" advanced="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <graph id="n7_k627" name="hideUpload1" xy="-30,540" size="780,740" alpha="0.01" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="showPetHand" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n10_ph24" name="hideUpload2" xy="-30,0" size="780,435" alpha="0.01" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="showPetHand" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n14_ucd4" name="btnGold2" src="ucd4dxyde" fileName="Component/RoleCurrency.xml" xy="16,15" group="n16_ucd4">
+      <Label icon="ui://0anhreylf34jdxy9m"/>
+    </component>
+    <component id="n15_ucd4" name="btnDia2" src="ucd4dxyde" fileName="Component/RoleCurrency.xml" xy="176,15" group="n16_ucd4">
+      <Label icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+    <group id="n16_ucd4" name="n16" xy="16,15" size="297,50" advanced="true">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+    </group>
+  </displayList>
+</component>

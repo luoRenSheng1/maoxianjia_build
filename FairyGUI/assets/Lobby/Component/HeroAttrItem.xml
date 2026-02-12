@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,56">
+  <controller name="status" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="浅"/>
+    <remark page="1" value="深"/>
+  </controller>
+  <displayList>
+    <loader id="n0_a2kw" name="n0" xy="0,0" size="330,56" url="ui://s7x7ku0na2kwdxyaw" fill="scaleFree">
+      <gearIcon controller="status" pages="0,1" values="ui://s7x7ku0na2kwdxyaw|ui://s7x7ku0na2kwdxyax"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_a2kw" name="attrName" xy="30,11" size="100,34" fontSize="24" color="#4c2911" vAlign="middle" bold="true" text="物理伤害">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n2_a2kw" name="attrValue" xy="232,11" size="67,34" fontSize="24" color="#4c2911" align="right" vAlign="middle" bold="true" text="31.1K">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+  </displayList>
+</component>

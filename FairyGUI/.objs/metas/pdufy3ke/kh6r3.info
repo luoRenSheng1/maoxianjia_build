@@ -1,0 +1,20 @@
+{
+  "objectStatus": {
+    "n11_gt48": {
+      "locked": true
+    },
+    "n5_9kp7": {
+      "locked": true
+    },
+    "n3_kh6r": {
+      "locked": true,
+      "hidden": true
+    },
+    "n13_x2p0": {
+      "locked": true
+    },
+    "n2_kh6r": {
+      "locked": true
+    }
+  }
+}

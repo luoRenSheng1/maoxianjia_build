@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="20,20" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader3D id="n0_llb1" name="pathSpine" xy="10,11" pivot="1,1" anchor="true" size="20,20" url="ui://pdufy3kellb1ii2" align="right" vAlign="bottom" animation="BigMap_xinglujing_2" skin="" loop="true"/>
+  </displayList>
+</component>

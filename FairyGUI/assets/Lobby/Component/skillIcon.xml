@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,62" overflow="hidden" mask="n0_harg">
+  <displayList>
+    <graph id="n0_harg" name="n0" xy="0,0" size="62,62" type="rect" lineSize="0"/>
+    <loader id="n1_harg" name="skillIcon" xy="0,0" size="62,62" aspect="true" url="ui://s7x7ku0nhargdxy3d" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+  </displayList>
+</component>

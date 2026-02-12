@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,20" extention="Slider">
+  <displayList>
+    <image id="n0_qj2e" name="n0" src="sc7hdxy3t" fileName="Res/useitem/barbg.png" xy="0,0" size="230,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_qj2e" name="bar" src="sc7hdxy3u" fileName="Res/useitem/pro.png" xy="0,0" size="230,20"/>
+    <component id="n2_qj2e" name="grip" src="sc7hdxy3v" fileName="Component/Slider1_grip.xml" xy="215,-5">
+      <relation target="n1_qj2e" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider wholeNumbers="true"/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,272">
+  <displayList>
+    <image id="n6_f34j" name="n6" src="f34jdxy9g" fileName="Res/Reward2/rewards_bg31.png" xy="0,0"/>
+    <loader id="n1_syvc" name="icon" xy="43,48" size="100,100" align="center" vAlign="middle"/>
+    <text id="n2_syvc" name="desc" xy="9,133" size="169,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="攻击力增"/>
+    <image id="n7_f34j" name="n7" src="f34jdxy9d" fileName="Res/Reward2/rewards_icon1.png" xy="25,40"/>
+    <text id="n4_syvc" name="num" xy="9,168" size="169,34" fontSize="24" color="#f0df65" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=666}%"/>
+    <text id="n5_pc71" name="time" xy="9,216" size="169,34" fontSize="24" color="#4c2911" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" text="{value=20}"/>
+  </displayList>
+</component>

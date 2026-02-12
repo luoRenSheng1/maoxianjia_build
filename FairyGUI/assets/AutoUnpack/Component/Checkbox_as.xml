@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="39,30" extention="Button" designImage="ui://ymrytjj3on115b" designImageOffsetX="-571" designImageOffsetY="-517" designImageAlpha="0" bgColorEnabled="true" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,8,disabled,9,selectedDisabled" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="x3dk2q" fileName="Res/4.PNG" xy="0,0" pkg="5moj1x39">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n8_j7uh" name="n8" src="x3dk2r" fileName="Res/3.PNG" xy="0,0" pkg="5moj1x39">
+      <gearDisplay controller="button" pages="1,3,9"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

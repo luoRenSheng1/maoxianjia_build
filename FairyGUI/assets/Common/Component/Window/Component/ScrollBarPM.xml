@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="17,200" extention="ScrollBar">
+  <displayList>
+    <graph id="n0_cgun" name="n0" xy="0,0" size="17,200" touchable="false" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_cgun" name="bar" xy="0,0" size="17,200">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n4_cgun" name="grip" src="cgundxy6u" fileName="Component/Window/Component/ScrollBarPM_grip.xml" xy="0,0"/>
+  </displayList>
+  <ScrollBar/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="234,61">
+  <displayList>
+    <loader id="n1_w61t" name="n1" xy="0,0" size="234,61" url="ui://5moj1x39ewjfdxy23" fill="scaleFree">
+      <relation target="n3_w61t" sidePair="height-height"/>
+    </loader>
+    <text id="n3_w61t" name="pContent" xy="22,17" size="189,28" fontSize="19" color="#948d84" ubb="true" autoSize="height" text="增加30%连击"/>
+  </displayList>
+  <relation target="n1_w61t" sidePair="width-width,height-height"/>
+</component>

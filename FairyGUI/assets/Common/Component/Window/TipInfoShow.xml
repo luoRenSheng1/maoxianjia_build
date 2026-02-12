@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_kv23" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <loader id="n10_ju03" name="n10" xy="16,409" size="688,362" group="n9_kv23" url="ui://5moj1x39f34jdxy9y" fill="scaleFree">
+      <relation target="n5_kv23" sidePair="height-height"/>
+    </loader>
+    <component id="n3_kv23" name="close" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="632,426" size="47,43" group="n9_kv23" aspect="true" visible="false">
+      <Button icon="ui://0anhreylfpa2dxy29"/>
+    </component>
+    <text id="n4_kv23" name="titleLb" xy="326,428" pivot="0.5,0.5" size="68,44" group="n9_kv23" fontSize="32" color="#ffffff" align="center" vAlign="middle" ubb="true" bold="true" strokeColor="#000000" strokeSize="2" text="提示">
+      <relation target="n10_ju03" sidePair="center-center,top-top"/>
+    </text>
+    <richtext id="n5_kv23" name="content" xy="62,519" size="613,226" restrictSize="0,0,200,0" group="n9_kv23" fontSize="24" color="#4c2911" ubb="true" vars="true" autoSize="height" autoClearText="true" text="ADDING NAME FRIENDSARE YOU SURE ABOUT ADDING NAME FRIENDSARE FRIEDRE YOU SURE ABOUT ADDING NAME FRIENDSARE YOU SURE ABOUT ADDING NAME FRIENDSARE YOU SURE ABOUT ADDING NAME FRIENDSARE YOU SURE ABOUT ADDING NAME FRIENDSARE YOU SURE ABOUT ADDING NAME FRIENDSARE ">
+      <relation target="n10_ju03" sidePair="center-center,top-top"/>
+    </richtext>
+    <component id="n6_kv23" name="okBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="318,787" size="84,84" group="n9_kv23">
+      <relation target="n10_ju03" sidePair="top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n9_kv23" name="n9" xy="16,409" size="688,462" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

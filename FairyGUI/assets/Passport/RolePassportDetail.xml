@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" designImageOffsetY="-218" designImageAlpha="45">
+  <displayList>
+    <component id="n76_r0ab" name="n76" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n0_p4bn" name="spine" xy="158,108" pivot="0.5,1" size="403,434" group="n45_ddc1" alpha="0.5">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <component id="n39_mygl" name="playSpineBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="173,153" size="374,370" group="n45_ddc1"/>
+    <group id="n45_ddc1" name="n45" xy="158,108" size="403,434" group="n79_r0ab" advanced="true"/>
+    <image id="n73_ozj9" name="n73" src="r0ab1a" fileName="Res/heidi.png" xy="194,69" size="332,50" group="n50_ddc1">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n31_t36s" name="qIcon" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" pkg="5moj1x39" xy="273,61" size="64,66" group="n53_ddc1" controller="quality,0"/>
+    <component id="n21_p4bn" name="roleName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="341,71" size="105,44" group="n53_ddc1">
+      <Label titleFontSize="32"/>
+    </component>
+    <group id="n53_ddc1" name="n53" xy="273,61" size="173,66" group="n50_ddc1" advanced="true" layout="hz" colGap="4">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n50_ddc1" name="n50" xy="194,61" size="332,66" group="n79_r0ab" advanced="true"/>
+    <loader id="n62_ozj9" name="n62" xy="-5,580" size="731,353" group="n71_ozj9" url="ui://5moj1x39ddc13r" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n61_ozj9" name="n61" xy="47,604" size="92,32" group="n72_ozj9" fontSize="22" color="#663e20" bold="true" text="升级效果"/>
+    <list id="n63_ozj9" name="levelAttrList" xy="42,647" size="639,87" group="n72_ozj9" layout="row" colGap="22" defaultItem="ui://2pcsnr2kr0ab1b" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n64_ozj9" name="n64" xy="47,748" size="92,32" group="n72_ozj9" fontSize="22" color="#663e20" bold="true" text="角色技能"/>
+    <image id="n65_ozj9" name="n65" src="ju031i" fileName="Res/n12.png" pkg="5moj1x39" xy="25,783" size="669,126" group="n69_ozj9"/>
+    <loader id="n66_ozj9" name="roleSkillIcon" xy="54,798" size="93,93" group="n69_ozj9" url="ui://5moj1x39ozj9dxy64" fill="scale" clearOnPublish="true"/>
+    <text id="n67_ozj9" name="skillNameLb" xy="179,812" size="92,32" group="n69_ozj9" fontSize="22" color="#663e20" bold="true" text="技能名称"/>
+    <richtext id="n68_ozj9" name="skillDesc" xy="180,838" size="495,49" group="n69_ozj9" fontSize="18" color="#663e20" vAlign="middle" ubb="true" vars="true" autoSize="none" text="这里是描述啊啊这里是描述啊啊这里是描述啊啊这里是描述啊"/>
+    <group id="n69_ozj9" name="n69" xy="25,783" size="669,126" group="n72_ozj9"/>
+    <group id="n72_ozj9" name="n72" xy="25,604" size="669,305" group="n71_ozj9" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n71_ozj9" name="n71" xy="-5,580" size="731,353" group="n79_r0ab" advanced="true"/>
+    <component id="n75_r0ab" name="advanceBtn" src="r0ab16" fileName="Component/AdvancePassportBtn.xml" xy="175,969" group="n78_r0ab"/>
+    <component id="n77_r0ab" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,1117" group="n78_r0ab"/>
+    <group id="n78_r0ab" name="n78" xy="175,969" size="370,242" group="n79_r0ab" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+    <group id="n79_r0ab" name="n79" xy="-5,61" size="731,1150" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n2_uq40" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n7_ju03" name="n7" xy="39,74" size="643,1161" group="n5_uq40" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n8_ju03" name="n8" xy="39,16" size="643,89" group="n5_uq40" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <component id="n1_uq40" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="621,26" size="43,39" group="n5_uq40" aspect="true"/>
+    <component id="n3_uq40" name="txtLb" src="uq40xxpf" fileName="Component/ScrollRichTxt.xml" xy="64,101" size="593,1078" group="n5_uq40"/>
+    <text id="n4_uq40" name="n4" xy="269,25" size="184,42" group="n5_uq40" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#1c8887" text="游戏用户协议">
+      <relation target="n8_ju03" sidePair="center-center"/>
+    </text>
+    <group id="n5_uq40" name="n5" xy="39,16" size="643,1219" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

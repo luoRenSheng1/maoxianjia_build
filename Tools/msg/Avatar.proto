@@ -1,0 +1,108 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+//客户端进入界面请求头像列表
+message AvatarList_CS { 			//[default = eMsg_AvatarList_CS = 950;  ];
+}
+
+//服务器端返回头像列表
+message AvatarList_SC { 			//[default = eMsg_AvatarList_SC = 951; ];
+	optional eErrCode	result = 1;// [default = eSucceed];	
+	repeated AvatarInfo avatars = 2;
+}
+
+
+//客户端进入界面请求头像框列表
+message AvatarFrameList_CS { 			//[default = eMsg_AvatarFrameList_CS = 952;    ];
+}
+
+//服务器端返回头像框列表
+message AvatarFrameList_SC { 			//[default = eMsg_AvatarFrameList_SC = 953;  ];
+	optional eErrCode	result = 1;// [default = eSucceed];	
+	repeated AvatarFrameInfo avatar_frames = 2;
+}	
+	
+
+
+//删除头像 
+message DelAvatars_PC   //eMsg_DelAvatars_PC = 956; 
+{
+	repeated AvatarInfo avatars = 1;
+}		   					
+			
+//删除头像框
+message DelAvatarFrames_PC   //eMsg_DelAvatarFrames_PC = 957;  
+{
+	repeated AvatarFrameInfo avatar_frames = 1;
+}
+
+
+
+//获得新头像  
+message NewAvatars_PC   //eMsg_NewAvatars_PC = 954;
+{
+	repeated AvatarInfo avatars = 1;
+}		   					
+			
+//获得新头像框
+message NewAvatarFrames_PC   //eMsg_NewAvatarFrames_PC = 955;  ;
+{
+	repeated AvatarFrameInfo avatar_frames = 1;
+}
+
+
+
+
+
+
+
+	 
+	
+	 
+	
+
+
+
+
+
+//客户端设置头像请求
+message SetAvatar_CS { 			//eMsg_SetAvatar_CS = 958; 
+	optional uint32 id = 1;  //itemtype表的item id
+}
+
+//服务器端反馈设置头像
+message SetAvatar_SC { 			//eMsg_SetAvatar_SC = 959;  
+	optional eErrCode result = 1;
+	optional uint32 id = 2;  //itemtype表的item id 设定成功的id
+}
+
+
+
+//客户端设置头像框请求
+message SetAvatarFrame_CS { 			//eMsg_SetAvatarFrame_CS = 960; 
+	optional uint32 id = 1;  //itemtype表的item id
+}
+
+//服务器端反馈头像框
+message SetAvatarFrame_SC { 			//eMsg_SetAvatarFrame_SC = 961;  
+	optional eErrCode result = 1;
+	optional uint32 id = 2;  //itemtype表的item id 设定成功的id
+}
+
+	         
+	          
+
+
+
+
+
+
+	
+
+
+

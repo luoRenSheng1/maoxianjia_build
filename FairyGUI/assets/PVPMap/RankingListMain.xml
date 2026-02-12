@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://zoxecbv2xezf3q" designImageAlpha="56" designImageLayer="1">
+  <displayList>
+    <loader id="n8_u5mt" name="bg" xy="0,-80" size="720,507" group="n25_u5mt" url="ui://zoxecbv2u5mt1k" vAlign="bottom" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n43_xezf" sidePair="bottom-bottom"/>
+    </loader>
+    <loader id="n22_u5mt" name="bg2" xy="0,433" size="720,774" group="n25_u5mt" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </loader>
+    <loader id="n43_xezf" name="n43" xy="0,424" size="720,18" group="n25_u5mt" url="ui://zoxecbv2xezf45">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n22_u5mt" sidePair="top-top"/>
+    </loader>
+    <component id="n12_u5mt" name="helpBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="667,50" size="29,29" group="n25_u5mt">
+      <Button icon="ui://5moj1x39ddc14i"/>
+    </component>
+    <text id="n13_u5mt" name="num1Lb" xy="292,301" size="136,29" group="n25_u5mt" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="ellipsis" bold="true" strokeColor="#4d2116" strokeSize="2" text="疯狂啪嘟1"/>
+    <text id="n14_u5mt" name="num2Lb" xy="98,291" size="136,26" group="n25_u5mt" fontSize="18" color="#ffffff" align="center" autoSize="ellipsis" bold="true" strokeColor="#4d2116" strokeSize="2" text="疯狂啪嘟2"/>
+    <text id="n15_u5mt" name="num3Lb" xy="487,291" size="136,26" group="n25_u5mt" fontSize="18" color="#ffffff" align="center" autoSize="ellipsis" bold="true" strokeColor="#4d2116" strokeSize="2" text="疯狂啪嘟3"/>
+    <graph id="n17_u5mt" name="spine1" xy="317,102" pivot="0.5,1" size="99,100" group="n25_u5mt"/>
+    <graph id="n16_u5mt" name="spine2" xy="120,112" pivot="0.5,1" size="99,100" group="n25_u5mt"/>
+    <graph id="n18_u5mt" name="spine3" xy="507,111" pivot="0.5,1" size="99,100" group="n25_u5mt"/>
+    <loader id="n44_xezf" name="n44" xy="0,340" size="720,84" group="n51_xezf" url="ui://5moj1x39f34jdxyb2" fill="scaleFree">
+      <relation target="n43_xezf" sidePair="bottom-top"/>
+    </loader>
+    <loader id="n48_xezf" name="n48" xy="75,344" size="248,76" group="n50_xezf" url="ui://zoxecbv2xezf44" fill="scaleFree"/>
+    <loader id="n49_xezf" name="n49" xy="83,346" size="72,72" group="n50_xezf" url="ui://zoxecbv2xezf3h" align="center" vAlign="middle" fill="scale">
+      <relation target="n48_xezf" sidePair="center-center,left-left"/>
+    </loader>
+    <text id="n35_u5mt" name="n35" xy="177,347" size="104,35" group="n50_xezf" fontSize="25" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="奖励发放"/>
+    <text id="n34_u5mt" name="timeLeft" xy="171,381" size="128,34" group="n50_xezf" fontSize="24" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=12小时16分}"/>
+    <group id="n50_xezf" name="n50" xy="75,344" size="248,76" group="n51_xezf" advanced="true">
+      <relation target="" sidePair="left-left"/>
+      <relation target="n43_xezf" sidePair="bottom-top"/>
+    </group>
+    <loader id="n45_xezf" name="n45" xy="397,344" size="248,76" group="n47_xezf" url="ui://zoxecbv2xezf44" fill="scaleFree"/>
+    <loader id="n46_xezf" name="n46" xy="405,346" size="72,72" group="n47_xezf" url="ui://zoxecbv2xezf3a" fill="scale">
+      <relation target="n45_xezf" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n26_u5mt" name="n26" xy="500,347" size="100,34" group="n47_xezf" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="挑战次数"/>
+    <text id="n29_u5mt" name="cntLb" xy="496,381" size="60,34" group="n47_xezf" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{cur=4}/{max=4}"/>
+    <component id="n31_u5mt" name="addNumBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="548,388" size="24,24" group="n47_xezf">
+      <Button icon="ui://zoxecbv2xezf46"/>
+    </component>
+    <group id="n47_xezf" name="n47" xy="397,344" size="248,76" group="n51_xezf" advanced="true">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n43_xezf" sidePair="bottom-top"/>
+    </group>
+    <group id="n51_xezf" name="n51" xy="0,340" size="720,84" group="n25_u5mt"/>
+    <list id="n20_u5mt" name="rankingList" xy="12,454" size="696,570" group="n25_u5mt" overflow="scroll" lineGap="10" defaultItem="ui://zoxecbv2u5mt1d">
+      <relation target="" sidePair="center-center,bottomext-bottom"/>
+      <item controllers="numCtrl,0"/>
+      <item controllers="numCtrl,1"/>
+      <item controllers="numCtrl,2"/>
+      <item controllers="numCtrl,3"/>
+      <item controllers="numCtrl,3"/>
+      <item controllers="numCtrl,3"/>
+      <item controllers="numCtrl,3"/>
+    </list>
+    <component id="n24_u5mt" name="myselfItem" src="u5mt1u" fileName="Component/MyselfItem.xml" xy="1,1036" size="719,114" group="n25_u5mt">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <loader id="n52_xezf" name="n52" xy="0,1150" size="720,132" group="n7_u5mt" url="ui://5moj1x39f34jdxybl">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <component id="n1_u5mt" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="22,1160" size="116,116" group="n7_u5mt">
+      <relation target="n52_xezf" sidePair="left-left,top-top"/>
+      <Button icon="ui://5moj1x39ucd4dxycg"/>
+    </component>
+    <component id="n55_xezf" name="reportBtn" src="xezf47" fileName="Component/ReportBtn.xml" xy="546,1153" group="n7_u5mt">
+      <relation target="n52_xezf" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n7_u5mt" name="n7" xy="0,1150" size="720,132" group="n25_u5mt" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n36_pu20" name="n36" src="pu202y" fileName="Res/dddv44.png" xy="126,0" size="468,82" group="n41_pu20">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n37_pu20" name="n37" src="pu202z" fileName="Res/sdgsdghdf4174.png" xy="198,14" group="n40_pu20"/>
+    <loader id="n42_pm0b" name="img" xy="245,14" size="230,49" group="n40_pu20" url="ui://zoxecbv2u5mt1l"/>
+    <image id="n39_pu20" name="n39" src="pu202z" fileName="Res/sdgsdghdf4174.png" xy="480,14" group="n40_pu20"/>
+    <group id="n40_pu20" name="n40" xy="198,14" size="324,49" group="n41_pu20" advanced="true" layout="hz" colGap="5" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n41_pu20" name="n41" xy="126,0" size="468,82" group="n25_u5mt" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <group id="n25_u5mt" name="n25" xy="0,-80" size="720,1362" advanced="true"/>
+  </displayList>
+</component>

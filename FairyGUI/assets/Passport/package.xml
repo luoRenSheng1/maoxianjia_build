@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2pcsnr2k">
+  <resources>
+    <component id="r0ab0" name="Passport.xml" path="/" exported="true"/>
+    <component id="r0ab2" name="BoxItem.xml" path="/Component/" exported="true"/>
+    <component id="r0ab3" name="PassportItem.xml" path="/Component/" exported="true"/>
+    <component id="r0ab4" name="PassportTaskItem.xml" path="/Component/"/>
+    <image id="r0ab5" name="t0.png" path="/Res/"/>
+    <image id="r0ab6" name="txz11.png" path="/Res/" duplicatePadding="true"/>
+    <image id="r0ab7" name="tri 10.png" path="/Res/" scale="9grid" scale9grid="41,39,10,5"/>
+    <image id="r0ab8" name="shu-jindutiao156.png" path="/Res/" scale="9grid" scale9grid="5,7,10,14" duplicatePadding="true"/>
+    <image id="r0ab9" name="shu-jindutiao155.png" path="/Res/" scale="9grid" scale9grid="16,18,0,5" duplicatePadding="true"/>
+    <image id="r0aba" name="sfff111.png" path="/Res/"/>
+    <image id="r0abb" name="segggg.png" path="/Res/" scale="9grid" scale9grid="48,54,11,6"/>
+    <image id="r0abc" name="sdgsdghdf4174.png" path="/Res/"/>
+    <image id="r0abd" name="sdghg4675.png" path="/Res/" scale="9grid" scale9grid="344,32,7,64" duplicatePadding="true"/>
+    <image id="r0abe" name="sdgdfgsd180.png" path="/Res/"/>
+    <image id="r0abf" name="sdfgdd.png" path="/Res/"/>
+    <image id="r0abg" name="jjfjh85858.png" path="/Res/" scale="9grid" scale9grid="30,7,60,14"/>
+    <image id="r0abh" name="jindutiao di.png" path="/Res/"/>
+    <image id="r0abj" name="fdghhhh42557.png" path="/Res/"/>
+    <image id="r0abk" name="fdghhhh42556.png" path="/Res/"/>
+    <image id="r0abl" name="fangkuagn hui.png" path="/Res/"/>
+    <image id="r0abm" name="fangkuagn huang.png" path="/Res/"/>
+    <image id="r0abn" name="dggg423.png" path="/Res/"/>
+    <image id="r0abo" name="dfhdfjhf445.png" path="/Res/" scale="9grid" scale9grid="6,11,12,8"/>
+    <image id="r0abp" name="dfhdfghdfgh860.png" path="/Res/"/>
+    <image id="r0abr" name="t2.png" path="/Res/"/>
+    <image id="r0abs" name="t1.png" path="/Res/"/>
+    <image id="r0abt" name="txz22.png" path="/Res/" duplicatePadding="true"/>
+    <image id="r0abu" name="txzjinagyan.png" path="/Res/" exported="true"/>
+    <image id="r0abv" name="background.png" path="/Res/" duplicatePadding="true"/>
+    <image id="r0abw" name="banner1665.png" path="/Res/"/>
+    <image id="r0abx" name="baoxiang di.png" path="/Res/" scale="9grid" scale9grid="14,9,4,6"/>
+    <image id="r0aby" name="dddddggg4564.png" path="/Res/"/>
+    <component id="r0abz" name="LeftTabBtn.xml" path="/Component/"/>
+    <component id="r0ab11" name="RightTabBtn.xml" path="/Component/"/>
+    <image id="r0ab12" name="n41.png" path="/Res/" scale="9grid" scale9grid="15,9,5,6"/>
+    <component id="r0ab13" name="PassportBar.xml" path="/Component/"/>
+    <component id="r0ab14" name="PassportRewardItem.xml" path="/Component/"/>
+    <image id="r0ab15" name="line901.png" path="/Res/" scale="9grid" scale9grid="1,17,2,34"/>
+    <component id="r0ab16" name="AdvancePassportBtn.xml" path="/Component/"/>
+    <image id="r0ab17" name="dddv44.png" path="/Res/"/>
+    <component id="r0ab18" name="RolePassportDetail.xml" path="/" exported="true"/>
+    <image id="r0ab19" name="q.png" path="/Res/" scale="9grid" scale9grid="180,21,360,540" atlas="alone"/>
+    <image id="r0ab1a" name="heidi.png" path="/Res/" scale="9grid" scale9grid="122,16,100,11"/>
+    <component id="r0ab1b" name="RoleAttrItem.xml" path="/Component/"/>
+    <image id="r0ab1c" name="n11.png" path="/Res/newPetsystem2/"/>
+    <component id="r0ab1d" name="PassPortPanel.xml" path="/Component/"/>
+    <component id="r0ab1e" name="PassTaskPanel.xml" path="/Component/"/>
+    <image id="r0ab1f" name="i1.png" path="/Res/"/>
+    <image id="r0ab1g" name="i2.png" path="/Res/"/>
+    <component id="auqc1h" name="PassportDetail.xml" path="/" exported="true"/>
+    <image id="auqc1i" name="n911.png" path="/Res/newPetsystem2/"/>
+    <image id="auqc1j" name="n903.png" path="/Res/newPetsystem2/"/>
+    <image id="auqc1k" name="n907.png" path="/Res/newPetsystem2/" scale="9grid" scale9grid="50,0,7,44"/>
+    <image id="auqc1l" name="hyjtruj.png" path="/Res/newPetsystem2/"/>
+    <image id="auqc1m" name="n904.png" path="/Res/newPetsystem2/"/>
+    <image id="auqc1n" name="904.png" path="/Res/newPetsystem2/" scale="9grid" scale9grid="9,10,18,20"/>
+    <image id="auqc1o" name="n505.png" path="/Res/newPetsystem2/" scale="9grid" scale9grid="16,12,32,24"/>
+    <component id="auqc1p" name="AdvanceDescItem.xml" path="/Component/"/>
+    <component id="auqc1q" name="AdvanccBuyBtn.xml" path="/Component/"/>
+    <image id="xezf1r" name="gate pass_btn11.png" path="/Res/new/"/>
+    <image id="xezf1s" name="gate pass_bg11.png" path="/Res/new/" scale="9grid" scale9grid="0,5,36,10"/>
+    <image id="xezf1t" name="gate pass_bg01.png" path="/Res/new/" scale="9grid" scale9grid="15,7,74,69"/>
+    <image id="xezf1u" name="gate pass_popup_img01.png" path="/Res/new/" scale="9grid" scale9grid="52,16,57,32"/>
+    <image id="xezf1v" name="gate pass_popup_bg32.png" path="/Res/new/" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="xezf1w" name="gate pass_popup_bg31.png" path="/Res/new/" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="xezf1x" name="gate pass_popup_bg23.png" path="/Res/new/" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="xezf1y" name="gate pass_popup_bg22.png" path="/Res/new/"/>
+    <image id="xezf1z" name="gate pass_popup_bg21.png" path="/Res/new/"/>
+    <image id="xezf20" name="gate pass_img22.png" path="/Res/new/"/>
+    <image id="xezf21" name="gate pass_img21.png" path="/Res/new/" scale="9grid" scale9grid="0,1,24,23"/>
+    <image id="xezf22" name="gate pass_img12.png" path="/Res/new/"/>
+    <image id="xezf23" name="gate pass_img11.png" path="/Res/new/"/>
+    <image id="xezf24" name="gate pass_img02.png" path="/Res/new/"/>
+    <image id="xezf25" name="gate pass_img01.png" path="/Res/new/"/>
+    <image id="xezf26" name="gate pass_icon31.png" path="/Res/new/"/>
+    <image id="xezf27" name="gate pass_icon22.png" path="/Res/new/"/>
+    <image id="xezf28" name="gate pass_icon21.png" path="/Res/new/"/>
+    <image id="xezf29" name="gate pass_icon11.png" path="/Res/new/"/>
+    <image id="xezf2a" name="gate pass_icon01.png" path="/Res/new/"/>
+    <image id="xezf2b" name="gate pass_btn01.png" path="/Res/new/"/>
+    <image id="xezf2c" name="gate pass_btn02.png" path="/Res/new/"/>
+    <image id="xezf2d" name="通行证2.png" path="/Res/new/"/>
+    <image id="xezf2e" name="通行证-任务.png" path="/Res/new/"/>
+    <image id="xezf2f" name="高级战斗通行证购买.png" path="/Res/new/"/>
+    <image id="xezf2g" name="通行证1.png" path="/Res/new/"/>
+    <image id="xezf2h" name="gate pass_popup1_bg02.png" path="/Res/new/" scale="9grid" scale9grid="50,31,100,147"/>
+    <image id="xezf2i" name="gate pass_popup1_img01.png" path="/Res/new/"/>
+    <image id="xezf2j" name="gate pass_popup1_bg01.png" path="/Res/new/" scale="9grid" scale9grid="0,51,665,200"/>
+    <image id="xezf2k" name="gate pass_bg22.png" path="/Res/new/"/>
+    <image id="xezf2l" name="gate pass_bg23.png" path="/Res/new/"/>
+    <image id="xezf2m" name="gate pass_bg21.png" path="/Res/new/"/>
+    <component id="xezf2n" name="TaskBarExp.xml" path="/Component/"/>
+    <image id="xezf2o" name="role_intensify_bg51.png" path="/Res/new/"/>
+    <component id="xezf2p" name="PassBarExp.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="PassPort" genCode="true"/>
+</packageDescription>

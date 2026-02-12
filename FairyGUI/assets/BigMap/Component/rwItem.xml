@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <image id="n6_f34j" name="n6" src="f34j2z" fileName="Res/new/mysterious event_bg2.png" xy="0,0"/>
+    <loader id="n3_p9n0" name="bg" xy="6,6" size="64,64" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="type" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_p9n0" name="icon" xy="16,16" size="43,43" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_p9n0" name="txtNum" xy="45,47" size="22,24" fontSize="16" color="#ffffff" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="22">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

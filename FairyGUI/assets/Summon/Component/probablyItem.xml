@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,56">
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="ctrl" pages="0,,1," selected="1">
+    <remark page="0" value="浅"/>
+    <remark page="1" value="深"/>
+  </controller>
+  <displayList>
+    <loader id="n3_l5cy" name="n3" xy="0,0" size="660,56" url="ui://i7ojazuul5cy4b" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n0_k4ck" name="n0" xy="26,8" size="40,40" url="ui://5moj1x39kqmidxy8z">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39kqmidxy8z|ui://5moj1x39kqmidxy90|ui://5moj1x39kqmidxy91|ui://5moj1x39kqmidxy8t|ui://5moj1x39kqmidxy8u|ui://5moj1x39kqmidxy8v|ui://5moj1x39kqmidxy8w"/>
+    </loader>
+    <text id="n2_k4ck" name="n2" xy="112,11" size="52,34" fontSize="24" color="#fcfffa" bold="true" strokeColor="#000000" strokeSize="2" text="普通">
+      <gearColor controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="#fcfffa,#000000|#c4e33e,#000000|#51daf2,#000000|#d576f9,#000000|#ffd964,#000000|#ffa7cf,#000000|#f44e68,#000000"/>
+      <gearText controller="qualityCtrl" pages="1,2,3,4,5,6" values="良好|稀有|史诗|传说|神话|不朽" default="普通"/>
+    </text>
+    <text id="n1_k4ck" name="proLb" xy="453,11" size="63,34" fontSize="24" color="#fcfffa" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=45.00}">
+      <gearColor controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="#fcfffa,#000000|#c4e33e,#000000|#51daf2,#000000|#d576f9,#000000|#ffd964,#000000|#ffa7cf,#000000|#f44e68,#000000"/>
+    </text>
+  </displayList>
+</component>

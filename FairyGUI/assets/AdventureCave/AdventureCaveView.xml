@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <component id="n43_koot" name="map" src="koot31" fileName="Component/AdventureCaveMapClip.xml" xy="0,0" size="720,1153">
+      <relation target="" sidePair="width-width,height-height,left-left,bottom-bottom"/>
+    </component>
+    <text id="n44_i5zg" name="ziti" xy="197,358" pivot="0.5,0.5" size="326,76" fontSize="58" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="3" text="奇遇山洞1层"/>
+    <loader id="n46_kf54" name="mask" xy="0,1153" pivot="0.5,0.5" size="720,127" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n45_p74s" name="close" xy="300,1153" pivot="0.5,0.5" size="120,127" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n44_i5zg" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="60" type="Alpha" target="n44_i5zg" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

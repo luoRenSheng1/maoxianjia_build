@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,258">
+  <displayList>
+    <image id="n2_f34j" name="n2" src="f34jdxyad" fileName="Res/newItem2/general_module_bg2.png" pkg="5moj1x39" xy="0,0" size="218,258">
+      <relation target="n1_ogek" sidePair="height-height"/>
+    </image>
+    <list id="n1_ogek" name="list" xy="0,0" size="218,258" overflow="scroll" lineGap="5" defaultItem="ui://zs0w02qtogek11">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_ogek" sidePair="height-height"/>
+</component>

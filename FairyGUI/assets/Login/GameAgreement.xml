@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n2_uq40" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n10_ju03" name="n10" xy="16,385" size="688,406" group="n5_uq40" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <component id="n1_uq40" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="318,819" size="84,76" group="n5_uq40" aspect="true">
+      <relation target="n10_ju03" sidePair="top-bottom"/>
+    </component>
+    <text id="n4_uq40" name="n4" xy="326,403" size="68,44" group="n5_uq40" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="提示"/>
+    <richtext id="n6_uq40" name="linkLb" xy="150,504" size="420,138" group="n5_uq40" fontSize="28" color="#3c3c3c" align="center" ubb="true" vars="true" autoSize="none" bold="true" text="继续游戏前，需要你阅读并同意[color=#deb555]&lt;a href=&apos;event:userTips&apos;&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href=&apos;event:PrivacyTips&apos;&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]&#xA;">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n7_uq40" name="RefusedBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="114,667" size="218,84" group="n9_uq40">
+      <Button title="拒绝" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n8_uq40" name="agreeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="393,667" size="218,84" group="n9_uq40">
+      <Button title="同意" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n9_uq40" name="n9" xy="114,667" size="497,84" group="n5_uq40" advanced="true" layout="hz" colGap="61" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n5_uq40" name="n5" xy="16,385" size="688,510" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

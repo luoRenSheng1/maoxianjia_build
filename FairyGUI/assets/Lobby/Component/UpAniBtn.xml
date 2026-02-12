@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,84">
+  <displayList>
+    <component id="n0_fr3p" name="upBtn" src="ax20dxy8c" fileName="Component/UpBtn.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_fr3p" tween="true" startValue="1,1" endValue="0.85,0.85" duration="3" ease="Linear"/>
+    <item time="3" type="Scale" target="n0_fr3p" tween="true" startValue="0.85,0.85" endValue="1,1" duration="3" ease="Linear"/>
+  </transition>
+</component>

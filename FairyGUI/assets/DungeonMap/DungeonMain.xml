@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://57yc4rb0gwxt2a" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n120_i9sl" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" visible="false" touchable="false" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n119_i9sl" name="panel" src="gwxt1" fileName="UI/Panel.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="showAni"/>
+  <transition name="hideAni"/>
+</component>

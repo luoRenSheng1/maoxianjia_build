@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <controller name="moneyType" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n4_xezf" name="n4" xy="0,0" size="218,84" url="ui://5moj1x39f34jdxy9s" fill="scaleFree"/>
+    <text id="n2_r0ab" name="moneyLb1" xy="77,20" size="63,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#25211d" strokeSize="3" text="{value=9} 元">
+      <gearDisplay controller="moneyType" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_r0ab" name="moneyLb2" xy="84,20" size="49,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#25211d" strokeSize="3" text="$ {value=9}">
+      <gearDisplay controller="moneyType" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.04"/>
+</component>

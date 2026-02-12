@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n13_f34j" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n11_f34j" name="n11" xy="16,388" size="688,404" group="n8_qt85" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <component id="n1_qt85" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="318,815" size="84,77" group="n8_qt85" aspect="true">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <component id="n5_qt85" name="exchangeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="250,675" size="218,84" group="n8_qt85">
+      <Button title="兑换" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n6_qt85" name="n6" xy="310,407" size="100,44" group="n8_qt85" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="礼包码"/>
+    <image id="n12_f34j" name="n12" src="f34jdxyav" fileName="Res/newItem2/general_top_bg13.png" pkg="5moj1x39" xy="88,546" size="544,64" group="n8_qt85"/>
+    <text id="n7_qt85" name="ipt" xy="163,557" size="393,42" group="n8_qt85" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="" input="true" prompt="请输入礼包码">
+      <relation target="n12_f34j" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n8_qt85" name="n8" xy="16,388" size="688,504" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

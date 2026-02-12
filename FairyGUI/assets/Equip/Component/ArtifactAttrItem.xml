@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,36">
+  <displayList>
+    <text id="n0_kqmi" name="curAttr" xy="0,1" size="218,34" group="n6_jsfx" fontSize="24" color="#ffffff" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{name=攻击力} + {value=100}"/>
+    <text id="n1_kqmi" name="nextAttr" xy="324,1" size="176,34" group="n6_jsfx" fontSize="24" color="#b8df13" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="+ {value=1001}">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n7_ef8u" name="n7" src="ef8udxyb3" fileName="Res/new3/ordinary_icon3.png" xy="234,2" group="n6_jsfx"/>
+    <group id="n6_jsfx" name="n6" xy="0,1" size="500,34" advanced="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+  </displayList>
+</component>

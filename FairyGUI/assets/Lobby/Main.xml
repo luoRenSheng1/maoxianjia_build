@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageAlpha="61" designImageLayer="1">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="" controller="" targetPage=""/>
+  </controller>
+  <controller name="showTask" pages="0,,1," selected="0">
+    <remark page="0" value="展示"/>
+    <remark page="1" value="不展示"/>
+  </controller>
+  <displayList>
+    <component id="n120_i9sl" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" visible="false" touchable="false" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n119_i9sl" name="panel" src="i9sldxxzp" fileName="UI/Panel.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,top-top"/>
+    </component>
+    <graph id="n121_r0wo" name="lvPos" xy="310,590" size="100,100" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n123_jn60" name="n123" xy="0,0" size="720,106" url="ui://s7x7ku0nllb1dxycx" fill="scaleFree">
+      <relation target="" sidePair="width-width,left-left,top-top"/>
+    </loader>
+    <component id="n122_jn60" name="userInfo" src="rx0xo87" fileName="Component/ComUserInfo.xml" pkg="5moj1x39" xy="6,7">
+      <relation target="n123_jn60" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n124_jn60" name="comPandaInfo" src="pdpadxxyv" fileName="Component/ComInfo.xml" xy="9,502" visible="false">
+      <gearDisplay controller="showTask" pages="0"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n125_jn60" name="comBuff" src="a2kwdxyau" fileName="Component/ComBuff.xml" xy="117,84">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n129_llb1" name="n129" src="llb1ihz" fileName="Component/xialaBtn.xml" pkg="pdufy3ke" xy="9,592">
+      <Button checked="true" controller="showTask" page="0"/>
+    </component>
+    <loader id="n127_ozcv" name="maskBG" xy="0,0" size="720,1280" url="ui://0anhreyl9piddxy7u" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <transition name="showAni"/>
+  <transition name="hideAni"/>
+</component>

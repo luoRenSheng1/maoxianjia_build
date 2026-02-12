@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,302" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="statuCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="售罄"/>
+  </controller>
+  <displayList>
+    <loader id="n3_tdju" name="n3" xy="0,0" size="203,302" url="ui://pdufy3ketdju5g"/>
+    <text id="n4_tdju" name="name" xy="3,4" size="196,57" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="强击秘典">
+      <relation target="n3_tdju" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n5_tdju" name="itemCom" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="45,93" scale="1.4,1.4"/>
+    <loader id="n6_tdju" name="icon" xy="55,240" size="48,48" group="n8_tdju" url="ui://pdufy3kec2niid3" align="center" vAlign="middle" fill="scale">
+      <relation target="n7_tdju" sidePair="left-left"/>
+    </loader>
+    <text id="n7_tdju" name="num" xy="104,240" size="44,49" group="n8_tdju" fontSize="36" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="50"/>
+    <group id="n8_tdju" name="n8" xy="55,240" size="93,49" advanced="true" layout="hz" colGap="1" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n9_tdju" name="n9" xy="4,2" size="203,302" url="ui://pdufy3ketdju5h">
+      <gearDisplay controller="statuCtrl" pages="1"/>
+    </loader>
+    <text id="n10_tdju" name="n10" xy="67,128" size="68,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="售馨">
+      <gearDisplay controller="statuCtrl" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

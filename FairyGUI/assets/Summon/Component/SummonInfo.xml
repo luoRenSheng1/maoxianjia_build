@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <loader id="n9_llb1" name="n9" xy="0,0" size="720,1108" url="ui://i7ojazuullb14v" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <loader3D id="n6_k4ck" name="n6" xy="310,95" size="100,100" url="ui://i7ojazuujn604i" align="center" vAlign="middle" animation="Summon_zh_banner" skin="" loop="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader3D>
+    <component id="n7_izi8" name="summonListShade" src="izi821" fileName="Component/Shade.xml" xy="0,313">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+  </displayList>
+</component>

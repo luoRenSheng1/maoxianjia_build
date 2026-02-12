@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,34">
+  <displayList>
+    <text id="n0_p2jc" name="attr" xy="0,0" size="240,34" fontSize="24" color="#4c2911" ubb="true" vars="true" autoSize="shrink" bold="true" text="{name=地系伤害加成}[color=#34991C]+{value=999999}[/color]"/>
+  </displayList>
+</component>

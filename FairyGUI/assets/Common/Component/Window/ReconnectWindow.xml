@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <component id="n4_ep7m" name="n4" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n2_tomp" name="bg" src="dd3xdxxx7" fileName="Res/ICON-touxiangkuang.png" xy="213,596" pivot="0.5,0.5" size="294,69" group="n3_ueyx">
+      <relation target="n0_tomp" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n0_tomp" name="txt_title" xy="256,606" pivot="0.5,0.5" size="209,48" group="n3_ueyx" fontSize="35" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" text="断线重连中..."/>
+    <group id="n3_ueyx" name="n3" xy="213,596" size="294,69" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n3_ueyx" tween="true" startValue="1" endValue="0.5" duration="12"/>
+    <item time="12" type="Alpha" target="n3_ueyx" tween="true" startValue="0.5" endValue="1" duration="12"/>
+  </transition>
+</component>

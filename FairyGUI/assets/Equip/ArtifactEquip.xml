@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlef8udxyak" designImageAlpha="60">
+  <controller name="status" pages="0,,1,,2," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="满级"/>
+    <remark page="2" value="材料不够"/>
+  </controller>
+  <controller name="isMax" pages="0,,1," selected="0">
+    <remark page="0" value="没满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <controller name="tabCtrl" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n25_ef8u" name="n25" xy="0,0" size="720,1149" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </loader>
+    <loader id="n35_ef8u" name="n35" xy="0,0" size="720,424" url="ui://ddc23erlef8udxybg">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n27_ef8u" name="n27" xy="0,335" size="720,89" url="ui://ddc23erlef8udxyb9">
+      <gearIcon controller="tabCtrl" pages="0,1,2,3" values="ui://ddc23erlef8udxyb9|ui://ddc23erlef8udxyba|ui://ddc23erlef8udxyb7|ui://ddc23erlef8udxyb8"/>
+      <relation target="n0_ef8u" sidePair="bottom-bottom"/>
+    </loader>
+    <component id="n28_ef8u" name="tab0" src="ef8udxybb" fileName="Component/ArtifactSelectBtn.xml" xy="16,337" size="184,74" group="n32_ef8u">
+      <gearXY controller="tabCtrl" pages="1,2,3" values="16,341|16,341|16,341" default="16,337"/>
+      <gearSize controller="tabCtrl" pages="1,2,3" values="152,68,1,1|152,68,1,1|152,68,1,1" default="184,74,1,1"/>
+      <relation target="n27_ef8u" sidePair="bottom-bottom"/>
+      <Button title="盾牌"/>
+    </component>
+    <component id="n29_ef8u" name="tab1" src="ef8udxybb" fileName="Component/ArtifactSelectBtn.xml" xy="216,341" size="152,68" group="n32_ef8u">
+      <gearXY controller="tabCtrl" pages="0,1,2,3" values="216,341|184,337|185,341|185,341"/>
+      <gearSize controller="tabCtrl" pages="0,1,2,3" values="152,68,1,1|184,74,1,1|152,68,1,1|152,68,1,1"/>
+      <relation target="n27_ef8u" sidePair="bottom-bottom"/>
+      <Button title="勋章"/>
+    </component>
+    <component id="n30_ef8u" name="tab2" src="ef8udxybb" fileName="Component/ArtifactSelectBtn.xml" xy="384,341" size="152,68" group="n32_ef8u">
+      <gearXY controller="tabCtrl" pages="2,3" values="352,337|352,341" default="384,341"/>
+      <gearSize controller="tabCtrl" pages="2" values="184,74,1,1" default="152,68,1,1"/>
+      <relation target="n27_ef8u" sidePair="bottom-bottom"/>
+      <Button title="符石"/>
+    </component>
+    <component id="n31_ef8u" name="tab3" src="ef8udxybb" fileName="Component/ArtifactSelectBtn.xml" xy="552,341" size="152,68" group="n32_ef8u">
+      <gearXY controller="tabCtrl" pages="0,3" values="552,341|520,337" default="553,341"/>
+      <gearSize controller="tabCtrl" pages="3" values="184,74,1,1" default="152,68,1,1"/>
+      <relation target="n27_ef8u" sidePair="bottom-bottom"/>
+      <Button title="职印"/>
+    </component>
+    <group id="n32_ef8u" name="n32" xy="16,337" size="688,74" advanced="true"/>
+    <loader id="n3_ef8u" name="n3" xy="0,485" size="720,661" url="ui://ddc23erlef8udxyad" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n0_ef8u" name="n0" xy="-5,424" size="730,70" group="n4_ef8u" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="n3_ef8u" sidePair="top-top"/>
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n1_ef8u" name="n1" xy="302,435" size="116,39" group="n4_ef8u" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="2" text="神器详情">
+      <relation target="n0_ef8u" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n4_ef8u" name="n4" xy="-5,424" size="730,70"/>
+    <loader id="n2_ef8u" name="n2" xy="16,501" size="688,112" group="n9_ef8u" url="ui://5moj1x39f34jdxyau" fill="scaleFree">
+      <relation target="n3_ef8u" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n33_ef8u" name="artifact" src="ef8udxybc" fileName="Component/ArtifactItem1.xml" xy="33,517" group="n9_ef8u">
+      <relation target="n2_ef8u" sidePair="middle-middle,left-left"/>
+    </component>
+    <text id="n6_ef8u" name="name" xy="122,523" size="100,34" group="n9_ef8u" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="神器名称">
+      <relation target="n33_ef8u" sidePair="left-left"/>
+      <relation target="n2_ef8u" sidePair="top-top"/>
+    </text>
+    <text id="n7_ef8u" name="desc" xy="122,561" size="84,29" group="n9_ef8u" fontSize="20" color="#4c2911" bold="true" text="物品描述">
+      <relation target="n33_ef8u" sidePair="left-left"/>
+      <relation target="n2_ef8u" sidePair="top-top"/>
+    </text>
+    <group id="n9_ef8u" name="n9" xy="16,501" size="688,112"/>
+    <loader id="n10_ef8u" name="n10" xy="16,624" size="688,270" group="n20_ef8u" url="ui://ddc23erlef8udxyb2" fill="scaleFree">
+      <gearDisplay controller="isMax" pages="0"/>
+      <relation target="n3_ef8u" sidePair="center-center,top-top"/>
+      <relation target="n15_ef8u" sidePair="height-height"/>
+    </loader>
+    <loader id="n36_ef8u" name="n36" xy="16,624" size="688,270" group="n20_ef8u" url="ui://ddc23erlef8udxyb2" fill="scaleFree">
+      <gearDisplay controller="isMax" pages="1"/>
+      <relation target="n3_ef8u" sidePair="center-center,top-top"/>
+      <relation target="n18_ef8u" sidePair="height-height"/>
+    </loader>
+    <text id="n11_ef8u" name="n11" xy="310,630" size="100,34" group="n20_ef8u" fontSize="24" color="#4c2911" bold="true" text="升级预览">
+      <relation target="n10_ef8u" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n12_ef8u" name="curLv" xy="162,693" size="54,34" group="n16_ef8u" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{curLv=19}级"/>
+    <text id="n13_ef8u" name="nextLv" xy="498,693" size="54,34" group="n16_ef8u" fontSize="24" color="#b8df13" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{next=20}级"/>
+    <image id="n14_ef8u" name="n14" src="ef8udxyb3" fileName="Res/new3/ordinary_icon3.png" xy="344,695" group="n16_ef8u"/>
+    <list id="n15_ef8u" name="attrList" xy="110,747" size="500,140" group="n16_ef8u" overflow="scroll" lineGap="15" defaultItem="ui://ddc23erlef8udxyb4" align="center">
+      <relation target="n10_ef8u" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n16_ef8u" name="n16" xy="110,693" size="500,194" group="n20_ef8u" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+      <relation target="n10_ef8u" sidePair="top-top"/>
+    </group>
+    <text id="n17_ef8u" name="maxLv" xy="333,693" size="54,34" group="n19_ef8u" fontSize="24" color="#b8df13" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{max=33}级">
+      <relation target="n10_ef8u" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n18_ef8u" name="maxList" xy="260,747" size="200,137" group="n19_ef8u" overflow="scroll" lineGap="15" defaultItem="ui://ddc23erlef8udxyb6">
+      <relation target="n36_ef8u" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n19_ef8u" name="n19" xy="260,693" size="200,191" group="n20_ef8u" advanced="true">
+      <gearDisplay controller="isMax" pages="1"/>
+      <relation target="n36_ef8u" sidePair="top-top"/>
+    </group>
+    <group id="n20_ef8u" name="n20" xy="16,624" size="688,270"/>
+    <component id="n21_ef8u" name="tabCom1" src="kqmidxy8g" fileName="Component/TabCom.xml" pkg="5moj1x39" xy="221,901" group="n23_ef8u"/>
+    <component id="n22_ef8u" name="tabCom2" src="kqmidxy8g" fileName="Component/TabCom.xml" pkg="5moj1x39" xy="367,901" group="n23_ef8u"/>
+    <group id="n23_ef8u" name="n23" xy="221,901" size="278,40" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+      <relation target="n3_ef8u" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n24_ef8u" name="upLvBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,943" size="218,84">
+      <gearLook controller="status" pages="1,2" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="status" pages="1" values="已满级" default="升级"/>
+      <relation target="n3_ef8u" sidePair="center-center,bottom-bottom"/>
+      <Button title="升级" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n37_n5nh" name="n37" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="441,939">
+      <gearDisplay controller="status" pages="0"/>
+    </component>
+  </displayList>
+</component>

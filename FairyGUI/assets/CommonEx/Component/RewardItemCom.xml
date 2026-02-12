@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,110" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="disableCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不灰"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="ctrlQuality" pages="0,,1,,2,,3,,4,,5,,6," selected="4"/>
+  <controller name="hasCount" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <displayList>
+    <loader id="n8_ogtk" name="n8" xy="15,15" size="80,80" url="ui://5moj1x39f34jdxyb6" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_ogtk" name="n4" xy="15,15" size="80,80" url="ui://5moj1x39f34jdxy9t" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="ctrlQuality" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_ogtk" name="icon" xy="28,28" size="54,54" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_ogtk" name="txtLv" xy="30,62" size="57,29" fontSize="20" color="#ffffff" align="right" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="999">
+      <gearDisplay controller="hasCount" pages="0"/>
+      <relation target="n4_ogtk" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader3D id="n3_ogtk" name="itemSpineEff" xy="0,0" size="110,110" visible="false" url="ui://5moj1x39s503dxy4a" align="center" vAlign="middle" fill="scale" animation="idle_Q4" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <graph id="n7_ogtk" name="n7" xy="0,0" size="110,110" alpha="0.6" type="rect" lineSize="0" fillColor="#ff666666">
+      <gearDisplay controller="disableCtrl" pages="1"/>
+    </graph>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pdufy3ke">
+  <resources>
+    <image id="lht00" name="bigMap.png" path="/Res/"/>
+    <component id="lht01" name="BigMap.xml" path="/"/>
+    <component id="lht02" name="StageBigMap.xml" path="/" exported="true"/>
+    <component id="kh6r3" name="ChapterMap.xml" path="/" exported="true"/>
+    <component id="kh6r4" name="ChapterPanel1.xml" path="/Component/" exported="true"/>
+    <component id="kh6r6" name="CloudSpine.xml" path="/Component/"/>
+    <image id="f7h78" name="bigMap1.jpg" path="/Res/"/>
+    <component id="f7h7b" name="ChapterStageDetail.xml" path="/" exported="true"/>
+    <component id="f7h7c" name="RunAwayBtn.xml" path="/Component/"/>
+    <image id="jvjmg" name="setout_boss_img1.png" path="/Res/"/>
+    <image id="jvjmp" name="setout_bg2.png" path="/Res/"/>
+    <image id="jvjmq" name="setout_icon1.png" path="/Res/"/>
+    <image id="ema9e" name="boss.png" path="/Res/"/>
+    <image id="ema9h" name="monsterHead.png" path="/Res/"/>
+    <image id="ema9r" name="event1.png" path="/Res/"/>
+    <image id="ema9s" name="event2.png" path="/Res/"/>
+    <image id="ema9t" name="event6.png" path="/Res/"/>
+    <component id="syvcs" name="Tip.xml" path="/Component/"/>
+    <image id="ipa3t" name="setout_badge_img2.png" path="/Res/Badge/"/>
+    <image id="ipa3u" name="setout_badge_img3.png" path="/Res/Badge/"/>
+    <image id="ipa3v" name="setout_badge_img4.png" path="/Res/Badge/"/>
+    <image id="ipa3w" name="setout_badge_img1.png" path="/Res/Badge/"/>
+    <image id="ipa3x" name="setout_information_bg(1).png" path="/Res/"/>
+    <component id="ipa310" name="attrBtn.xml" path="/Component/"/>
+    <image id="l8pn13" name="setout_information_bg.png" path="/Res/"/>
+    <component id="l8pn14" name="Badge.xml" path="/Component/"/>
+    <component id="p9n015" name="TaskItem.xml" path="/Component/"/>
+    <image id="p9n019" name="task_icon1.png" path="/Res/Task/"/>
+    <component id="p9n01m" name="rwItem.xml" path="/Component/"/>
+    <component id="p9n01n" name="ChapterTaskStageDetail.xml" path="/" exported="true"/>
+    <component id="p9n01o" name="ChapterEventBossStageDetail.xml" path="/" exported="true"/>
+    <component id="p9n01p" name="ChapterEventStageDetail.xml" path="/" exported="true"/>
+    <image id="p9n01r" name="event3.png" path="/Res/"/>
+    <image id="p9n01s" name="event4.png" path="/Res/"/>
+    <image id="p9n01t" name="event5.png" path="/Res/"/>
+    <image id="p9n01u" name="event7.png" path="/Res/"/>
+    <image id="p9n01v" name="event_bg12.png" path="/Res/"/>
+    <image id="p9n01x" name="event_bg1.png" path="/Res/"/>
+    <image id="p9n01y" name="event_img12.png" path="/Res/"/>
+    <image id="i18n25" name="cloud.png" path="/Res/"/>
+    <component id="9kp72c" name="ComInfo.xml" path="/Component/"/>
+    <image id="j1b02d" name="panelBg.png" path="/Res/" scale="9grid" scale9grid="7,7,14,14"/>
+    <component id="x2p02e" name="ComBuff.xml" path="/Component/"/>
+    <component id="x2p02f" name="BtnBuff.xml" path="/Component/"/>
+    <image id="x2p02g" name="map_buff_bg.png" path="/Res/"/>
+    <image id="x2p02h" name="map_top_icon1.png" path="/Res/"/>
+    <image id="f34j2i" name="setout_bg3.png" path="/Res/new/" scale="9grid" scale9grid="54,75,108,87"/>
+    <image id="f34j2j" name="setout_information_bg11.png" path="/Res/new/" scale="9grid" scale9grid="10,46,75,37"/>
+    <image id="f34j2k" name="setout_information_bg21.png" path="/Res/new/"/>
+    <image id="f34j2l" name="combat capability_bg1.png" path="/Res/new/" scale="9grid" scale9grid="12,9,24,18"/>
+    <image id="f34j2m" name="setout_bg2.png" path="/Res/new/" scale="9grid" scale9grid="18,65,149,73"/>
+    <image id="f34j2n" name="随机事件_宝藏.png" path="/UI/"/>
+    <image id="f34j2o" name="随机事件_金币.png" path="/UI/"/>
+    <image id="f34j2p" name="随机事件_逃跑的宠物.png" path="/UI/"/>
+    <image id="f34j2q" name="随机事件_遗迹.png" path="/UI/"/>
+    <image id="f34j2r" name="随机事件_游荡的boss.png" path="/UI/"/>
+    <image id="f34j2s" name="随机事件_钻石矿脉.png" path="/UI/"/>
+    <image id="f34j2t" name="地图.png" path="/UI/"/>
+    <image id="f34j2u" name="神秘事件任务.png" path="/UI/"/>
+    <image id="f34j2v" name="关卡2.png" path="/UI/"/>
+    <image id="f34j2y" name="setout_bg4.png" path="/Res/new/"/>
+    <image id="f34j2z" name="mysterious event_bg2.png" path="/Res/new/" scale="9grid" scale9grid="19,19,38,38"/>
+    <image id="f34j30" name="mysterious event_tap1.png" path="/Res/new/"/>
+    <image id="f34j31" name="mysterious event_tap2.png" path="/Res/new/"/>
+    <image id="f34j32" name="mysterious event_bg.png" path="/Res/new/" scale="9grid" scale9grid="75,127,533,46"/>
+    <image id="f34j33" name="mysterious event_bg1.png" path="/Res/new/" scale="9grid" scale9grid="25,58,50,21"/>
+    <image id="mqvf34" name="1.png" path="/Res/Task/"/>
+    <component id="mqvf35" name="TaskBtn.xml" path="/Component/"/>
+    <misc id="nntn36" name="BigMap_skeleton.atlas.txt" path="/Res/spine/"/>
+    <image id="nntn37" name="BigMap_skeleton.png" path="/Res/spine/"/>
+    <spine id="nntn38" name="BigMap_skeleton.json" path="/Res/spine/" width="78" height="78" require="nntn36,nntn37" atlasNames="BigMap_skeleton" anchor="39,38"/>
+    <component id="wp974a" name="panelClip.xml" path="/Component/"/>
+    <image id="heac4e" name="btnChapter.png" path="/Res/"/>
+    <image id="jiqm4f" name="map1.jpg" path="/Res/"/>
+    <misc id="jiqm4n" name="BigMap_wzzb.atlas.txt" path="/Res/spine/"/>
+    <image id="jiqm4o" name="BigMap_wzzb.png" path="/Res/spine/"/>
+    <spine id="jiqm4p" name="BigMap_wzzb.json" path="/Res/spine/" width="56" height="77" require="jiqm4n,jiqm4o" atlasNames="BigMap_wzzb" anchor="28,36"/>
+    <image id="czxp4q" name="mapBg.jpg" path="/Res/"/>
+    <image id="czxp4r" name="mapPath.png" path="/Res/"/>
+    <misc id="ef8u4s" name="BigMap_djlj.atlas.txt" path="/Res/cursorSpine/" exported="true"/>
+    <image id="ef8u4t" name="BigMap_djlj.png" path="/Res/cursorSpine/" exported="true"/>
+    <spine id="ef8u4u" name="BigMap_djlj.skel" path="/Res/cursorSpine/" exported="true" width="100" height="100" require="ef8u4s,ef8u4t" atlasNames="BigMap_djlj" anchor="100,100"/>
+    <image id="ef8u4v" name="1.png" path="/Res/new/" exported="true"/>
+    <image id="ef8u4w" name="xx.png" path="/Res/new/" exported="true" scale="tile"/>
+    <image id="tdju56" name="狩猎任务-狩猎商店-购买.png" path="/Res/HuntingTask/"/>
+    <image id="tdju57" name="狩猎任务-完成任务.png" path="/Res/HuntingTask/"/>
+    <image id="tdju58" name="狩猎任务-选择任务1.png" path="/Res/HuntingTask/"/>
+    <image id="tdju59" name="狩猎任务-选择任务2.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5a" name="世界-狩猎任务-任务进行.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5b" name="世界-狩猎任务-任务完成.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5c" name="狩猎任务-进行任务.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5d" name="狩猎任务-狩猎商店.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5e" name="hunting_bg11.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5f" name="hunting_bg12.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5g" name="hunting_bg01.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5h" name="hunting_bg02.png" path="/Res/HuntingTask/"/>
+    <component id="tdju5k" name="CostItemCom.xml" path="/Component/"/>
+    <component id="tdju5l" name="HuntingShopBtn.xml" path="/Component/"/>
+    <component id="tdju5m" name="HuntingTaskMain.xml" path="/" exported="true"/>
+    <component id="tdju5n" name="HuntingShopMain.xml" path="/" exported="true"/>
+    <component id="tdju5o" name="HuntingShopItem.xml" path="/Component/"/>
+    <component id="tdju5p" name="HuntingShopBuyTips.xml" path="/" exported="true"/>
+    <component id="tdju5q" name="ShopBuyBtn.xml" path="/Component/"/>
+    <image id="tdju5r" name="arena_popup_bg01.png" path="/Res/HuntingTask/" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="tdju5s" name="arena_popup_btn01.png" path="/Res/HuntingTask/"/>
+    <image id="tdju5t" name="arena_popup_btn02.png" path="/Res/HuntingTask/"/>
+    <component id="sshp5x" name="modelObj.xml" path="/Component/" exported="true"/>
+    <component id="100ni5v" name="DiamondMine.xml" path="/" exported="true"/>
+    <movieclip id="100ni5w" name="FaGuang.jta" path="/Component/" atlas="10"/>
+    <movieclip id="100ni8f" name="Xing.jta" path="/Component/" atlas="10"/>
+    <movieclip id="100ni8g" name="Dian.jta" path="/Component/" atlas="10"/>
+    <component id="100ni8h" name="GoldMine.xml" path="/" exported="true"/>
+    <image id="100ni8j" name="xing_001.png" path="/Res/Xing/"/>
+    <image id="100ni8k" name="xing_028.png" path="/Res/Xing/"/>
+    <image id="100ni8l" name="xing_027.png" path="/Res/Xing/"/>
+    <image id="100ni8m" name="xing_026.png" path="/Res/Xing/"/>
+    <image id="100ni8n" name="xing_025.png" path="/Res/Xing/"/>
+    <image id="100ni8o" name="xing_024.png" path="/Res/Xing/"/>
+    <image id="100ni8p" name="xing_023.png" path="/Res/Xing/"/>
+    <image id="100ni8q" name="xing_022.png" path="/Res/Xing/"/>
+    <image id="100ni8r" name="xing_021.png" path="/Res/Xing/"/>
+    <image id="100ni8s" name="xing_020.png" path="/Res/Xing/"/>
+    <image id="100ni8t" name="xing_019.png" path="/Res/Xing/"/>
+    <image id="100ni8u" name="xing_018.png" path="/Res/Xing/"/>
+    <image id="100ni8v" name="xing_017.png" path="/Res/Xing/"/>
+    <image id="100ni8w" name="xing_016.png" path="/Res/Xing/"/>
+    <image id="100ni8x" name="xing_015.png" path="/Res/Xing/"/>
+    <image id="100ni8y" name="xing_014.png" path="/Res/Xing/"/>
+    <image id="100ni8z" name="xing_013.png" path="/Res/Xing/"/>
+    <image id="100ni90" name="xing_012.png" path="/Res/Xing/"/>
+    <image id="100ni91" name="xing_011.png" path="/Res/Xing/"/>
+    <image id="100ni92" name="xing_010.png" path="/Res/Xing/"/>
+    <image id="100ni93" name="xing_009.png" path="/Res/Xing/"/>
+    <image id="100ni94" name="xing_008.png" path="/Res/Xing/"/>
+    <image id="100ni95" name="xing_007.png" path="/Res/Xing/"/>
+    <image id="100ni96" name="xing_006.png" path="/Res/Xing/"/>
+    <image id="100ni97" name="xing_005.png" path="/Res/Xing/"/>
+    <image id="100ni98" name="xing_004.png" path="/Res/Xing/"/>
+    <image id="100ni99" name="xing_003.png" path="/Res/Xing/"/>
+    <image id="100ni9a" name="xing_002.png" path="/Res/Xing/"/>
+    <image id="100ni9b" name="xing_029.png" path="/Res/Xing/"/>
+    <image id="100ni9c" name="xing_030.png" path="/Res/Xing/"/>
+    <image id="100ni9d" name="dian_001.png" path="/Res/Dian/"/>
+    <image id="100ni9e" name="dian_028.png" path="/Res/Dian/"/>
+    <image id="100ni9f" name="dian_027.png" path="/Res/Dian/"/>
+    <image id="100ni9g" name="dian_026.png" path="/Res/Dian/"/>
+    <image id="100ni9h" name="dian_025.png" path="/Res/Dian/"/>
+    <image id="100ni9i" name="dian_024.png" path="/Res/Dian/"/>
+    <image id="100ni9j" name="dian_023.png" path="/Res/Dian/"/>
+    <image id="100ni9k" name="dian_022.png" path="/Res/Dian/"/>
+    <image id="100ni9l" name="dian_021.png" path="/Res/Dian/"/>
+    <image id="100ni9m" name="dian_020.png" path="/Res/Dian/"/>
+    <image id="100ni9n" name="dian_019.png" path="/Res/Dian/"/>
+    <image id="100ni9o" name="dian_018.png" path="/Res/Dian/"/>
+    <image id="100ni9p" name="dian_017.png" path="/Res/Dian/"/>
+    <image id="100ni9q" name="dian_016.png" path="/Res/Dian/"/>
+    <image id="100ni9r" name="dian_015.png" path="/Res/Dian/"/>
+    <image id="100ni9s" name="dian_014.png" path="/Res/Dian/"/>
+    <image id="100ni9t" name="dian_013.png" path="/Res/Dian/"/>
+    <image id="100ni9u" name="dian_012.png" path="/Res/Dian/"/>
+    <image id="100ni9v" name="dian_011.png" path="/Res/Dian/"/>
+    <image id="100ni9w" name="dian_010.png" path="/Res/Dian/"/>
+    <image id="100ni9x" name="dian_009.png" path="/Res/Dian/"/>
+    <image id="100ni9y" name="dian_008.png" path="/Res/Dian/"/>
+    <image id="100ni9z" name="dian_007.png" path="/Res/Dian/"/>
+    <image id="100nia0" name="dian_006.png" path="/Res/Dian/"/>
+    <image id="100nia1" name="dian_005.png" path="/Res/Dian/"/>
+    <image id="100nia2" name="dian_004.png" path="/Res/Dian/"/>
+    <image id="100nia3" name="dian_003.png" path="/Res/Dian/"/>
+    <image id="100nia4" name="dian_002.png" path="/Res/Dian/"/>
+    <image id="100nia5" name="dian_029.png" path="/Res/Dian/"/>
+    <image id="100nia6" name="dian_030.png" path="/Res/Dian/"/>
+    <image id="100nia7" name="quan_001.png" path="/Res/FaGuang/"/>
+    <image id="100nia8" name="quan_028.png" path="/Res/FaGuang/"/>
+    <image id="100nia9" name="quan_027.png" path="/Res/FaGuang/"/>
+    <image id="100niaa" name="quan_026.png" path="/Res/FaGuang/"/>
+    <image id="100niab" name="quan_025.png" path="/Res/FaGuang/"/>
+    <image id="100niac" name="quan_024.png" path="/Res/FaGuang/"/>
+    <image id="100niad" name="quan_023.png" path="/Res/FaGuang/"/>
+    <image id="100niae" name="quan_022.png" path="/Res/FaGuang/"/>
+    <image id="100niaf" name="quan_021.png" path="/Res/FaGuang/"/>
+    <image id="100niag" name="quan_020.png" path="/Res/FaGuang/"/>
+    <image id="100niah" name="quan_019.png" path="/Res/FaGuang/"/>
+    <image id="100niai" name="quan_018.png" path="/Res/FaGuang/"/>
+    <image id="100niaj" name="quan_017.png" path="/Res/FaGuang/"/>
+    <image id="100niak" name="quan_016.png" path="/Res/FaGuang/"/>
+    <image id="100nial" name="quan_015.png" path="/Res/FaGuang/"/>
+    <image id="100niam" name="quan_014.png" path="/Res/FaGuang/"/>
+    <image id="100nian" name="quan_013.png" path="/Res/FaGuang/"/>
+    <image id="100niao" name="quan_012.png" path="/Res/FaGuang/"/>
+    <image id="100niap" name="quan_011.png" path="/Res/FaGuang/"/>
+    <image id="100niaq" name="quan_010.png" path="/Res/FaGuang/"/>
+    <image id="100niar" name="quan_009.png" path="/Res/FaGuang/"/>
+    <image id="100nias" name="quan_008.png" path="/Res/FaGuang/"/>
+    <image id="100niat" name="quan_007.png" path="/Res/FaGuang/"/>
+    <image id="100niau" name="quan_006.png" path="/Res/FaGuang/"/>
+    <image id="100niav" name="quan_005.png" path="/Res/FaGuang/"/>
+    <image id="100niaw" name="quan_004.png" path="/Res/FaGuang/"/>
+    <image id="100niax" name="quan_003.png" path="/Res/FaGuang/"/>
+    <image id="100niay" name="quan_002.png" path="/Res/FaGuang/"/>
+    <image id="100niaz" name="quan_029.png" path="/Res/FaGuang/"/>
+    <image id="100nib0" name="quan_030.png" path="/Res/FaGuang/"/>
+    <image id="100nib1" name="duixiao.png" path="/Res/"/>
+    <component id="tdju5u" name="TreasureItem.xml" path="/Component/" exported="true"/>
+    <misc id="tdju5v" name="BigMap_jingdutiao.atlas.txt" path="/Res/TreasureSpine/barSpine/"/>
+    <image id="tdju5w" name="BigMap_jingdutiao.png" path="/Res/TreasureSpine/barSpine/"/>
+    <misc id="tdju5x" name="BigMap_bxtx.atlas" path="/Res/TreasureSpine/boxSpine/"/>
+    <image id="tdju5y" name="BigMap_bxtx.png" path="/Res/TreasureSpine/boxSpine/"/>
+    <misc id="tdju5z" name="BigMap_wbqp.atlas.txt" path="/Res/TreasureSpine/qpSpine/"/>
+    <image id="tdju60" name="BigMap_wbqp.png" path="/Res/TreasureSpine/qpSpine/"/>
+    <spine id="tdju61" name="BigMap_jingdutiao.json" path="/Res/TreasureSpine/barSpine/" width="120" height="120" require="tdju5v,tdju5w" atlasNames="BigMap_jingdutiao" anchor="60,60"/>
+    <spine id="tdju62" name="BigMap_bxtx.json" path="/Res/TreasureSpine/boxSpine/" width="128" height="128" require="tdju5x,tdju5y" atlasNames="BigMap_bxtx" anchor="64,64"/>
+    <spine id="tdju63" name="BigMap_wbqp.json" path="/Res/TreasureSpine/qpSpine/" width="121" height="121" require="tdju5z,tdju60" atlasNames="BigMap_wbqp" anchor="60,60"/>
+    <image id="tdju64" name="progress bar02.png" path="/Res/Bar/"/>
+    <image id="tdju65" name="progress bar03.png" path="/Res/Bar/"/>
+    <image id="tdju66" name="progress bar01.png" path="/Res/Bar/"/>
+    <component id="tdju67" name="WorkingBar.xml" path="/Component/" exported="true"/>
+    <component id="tdju68" name="EquipQiPaoItem.xml" path="/Component/" exported="true"/>
+    <component id="q32eib6" name="BtnGather.xml" path="/Component/"/>
+    <image id="q32eiba" name="diquan.png" path="/Res/jby/"/>
+    <image id="q32eibb" name="jingbidui_001.png" path="/Res/jby/"/>
+    <image id="q32eibc" name="zao_006.png" path="/Res/jby/"/>
+    <image id="q32eibd" name="zao_005.png" path="/Res/jby/"/>
+    <image id="q32eibe" name="zao_004.png" path="/Res/jby/"/>
+    <image id="q32eibf" name="zao_003.png" path="/Res/jby/"/>
+    <image id="q32eibg" name="zao_002.png" path="/Res/jby/"/>
+    <image id="q32eibh" name="zao_001.png" path="/Res/jby/"/>
+    <image id="q32eibi" name="tuowei.png" path="/Res/jby/"/>
+    <image id="q32eibj" name="jingbidui_025.png" path="/Res/jby/"/>
+    <image id="q32eibk" name="jingbidui_024.png" path="/Res/jby/"/>
+    <image id="q32eibl" name="jingbidui_023.png" path="/Res/jby/"/>
+    <image id="q32eibm" name="jingbidui_022.png" path="/Res/jby/"/>
+    <image id="q32eibn" name="jingbidui_021.png" path="/Res/jby/"/>
+    <image id="q32eibo" name="jingbidui_020.png" path="/Res/jby/"/>
+    <image id="q32eibp" name="jingbidui_019.png" path="/Res/jby/"/>
+    <image id="q32eibq" name="jingbidui_018.png" path="/Res/jby/"/>
+    <image id="q32eibr" name="jingbidui_017.png" path="/Res/jby/"/>
+    <image id="q32eibs" name="jingbidui_016.png" path="/Res/jby/"/>
+    <image id="q32eibt" name="jingbidui_002.png" path="/Res/jby/"/>
+    <image id="q32eibu" name="jingbidui_003.png" path="/Res/jby/"/>
+    <image id="q32eibv" name="jingbidui_004.png" path="/Res/jby/"/>
+    <image id="q32eibw" name="jingbidui_005.png" path="/Res/jby/"/>
+    <image id="q32eibx" name="jingbidui_006.png" path="/Res/jby/"/>
+    <image id="q32eiby" name="jingbidui_007.png" path="/Res/jby/"/>
+    <image id="q32eibz" name="zao_007.png" path="/Res/jby/"/>
+    <image id="q32eic0" name="jingbidui_008.png" path="/Res/jby/"/>
+    <image id="q32eic1" name="jingbidui_010.png" path="/Res/jby/"/>
+    <image id="q32eic2" name="jingbidui_011.png" path="/Res/jby/"/>
+    <image id="q32eic3" name="jingbidui_012.png" path="/Res/jby/"/>
+    <image id="q32eic4" name="jingbidui_013.png" path="/Res/jby/"/>
+    <image id="q32eic5" name="jingbidui_014.png" path="/Res/jby/"/>
+    <image id="q32eic6" name="jingbidui_015.png" path="/Res/jby/"/>
+    <image id="q32eic7" name="jingbidui_009.png" path="/Res/jby/"/>
+    <image id="q32eic8" name="zao_008.png" path="/Res/jby/"/>
+    <component id="q32eic9" name="GoldRain.xml" path="/" exported="true"/>
+    <image id="q32eica" name="1.png" path="/Res/jby/"/>
+    <image id="q32eicb" name="3.png" path="/Res/jby/"/>
+    <image id="q32eicc" name="2.png" path="/Res/jby/"/>
+    <image id="q32eicd" name="0.png" path="/Res/jby/"/>
+    <movieclip id="q32eice" name="JB.jta" path="/Component/" atlas="10"/>
+    <movieclip id="q32eicg" name="SJB.jta" path="/Component/" atlas="10"/>
+    <image id="w6ivicm" name="jingdutiao_001.png" path="/Res/"/>
+    <image id="w6ivicn" name="jingdutiao_150.png" path="/Res/"/>
+    <misc id="xq5aict" name="BigMap_wkqp.atlas.txt" path="/Res/DiamondMine/"/>
+    <image id="xq5aicu" name="BigMap_wkqp.png" path="/Res/DiamondMine/"/>
+    <image id="xq5aicv" name="kuang.png" path="/Res/DiamondMine/"/>
+    <image id="xq5aicw" name="shuijing1.png" path="/Res/DiamondMine/"/>
+    <image id="xq5aicx" name="shuijing2.png" path="/Res/DiamondMine/"/>
+    <spine id="xq5aicz" name="BigMap_wkqp.skel" path="/Res/DiamondMine/" width="243" height="243" require="xq5aict,xq5aicu" atlasNames="BigMap_wkqp" anchor="121,121"/>
+    <component id="xq5aid0" name="DiamondChip.xml" path="/" exported="true"/>
+    <image id="jbe9id1" name="atlas_top_bg01.png" path="/Res/"/>
+    <image id="fpdrid2" name="popEvent4.png" path="/Res/"/>
+    <component id="fpdrid3" name="MapBg.xml" path="/Component/"/>
+    <image id="hbptida" name="16.png" path="/Res/stage/"/>
+    <image id="hbptidb" name="9.png" path="/Res/stage/"/>
+    <image id="hbptidc" name="8.png" path="/Res/stage/"/>
+    <image id="hbptidd" name="7.png" path="/Res/stage/"/>
+    <image id="hbptide" name="6.png" path="/Res/stage/"/>
+    <image id="hbptidg" name="4.png" path="/Res/stage/"/>
+    <image id="hbptidh" name="3.png" path="/Res/stage/"/>
+    <image id="hbptidi" name="2.png" path="/Res/stage/"/>
+    <image id="hbptidj" name="selectBg.png" path="/Res/stage/" scale="9grid" scale9grid="121,93,67,56"/>
+    <image id="hbptidl" name="14.png" path="/Res/stage/"/>
+    <image id="hbptidm" name="13.png" path="/Res/stage/"/>
+    <image id="hbptidn" name="12.png" path="/Res/stage/"/>
+    <image id="hbptido" name="11.png" path="/Res/stage/"/>
+    <image id="hbptidq" name="1.png" path="/Res/stage/"/>
+    <component id="hbptidt" name="stageItem.xml" path="/Component/"/>
+    <image id="hbptidu" name="titleBg.png" path="/Res/stage/"/>
+    <image id="hbptidv" name="17.png" path="/Res/stage/"/>
+    <image id="hbptidw" name="18.png" path="/Res/stage/"/>
+    <image id="hbptidx" name="19.png" path="/Res/stage/"/>
+    <movieclip id="gzcmie0" name="ZK.jta" path="/Component/" atlas="10"/>
+    <image id="c2niid1" name="hunting_icon11.png" path="/Res/HuntingTask/"/>
+    <image id="c2niid2" name="hunting_icon12.png" path="/Res/HuntingTask/"/>
+    <image id="c2niid3" name="hunting_icon01.png" path="/Res/HuntingTask/"/>
+    <image id="7bd6id4" name="popEvent4.png" path="/Res/"/>
+    <component id="ob1sid5" name="SubmitGoldAndDiaMain.xml" path="/" exported="true"/>
+    <image id="f710ie7" name="BigMap_yingguang.png" path="/Res/spine/"/>
+    <misc id="f710ie9" name="BigMap_yingguang.atlas.txt" path="/Res/spine/"/>
+    <image id="f710iea" name="BigMap_yingguang(1).png" path="/Res/spine/"/>
+    <spine id="f710ie8" name="BigMap_yingguang.skel" path="/Res/spine/" width="286" height="230" require="f710ie9,f710iea" atlasNames="BigMap_yingguang" anchor="143,115"/>
+    <image id="f710ief" name="BigMap_stsuijing.png" path="/Res/spine/"/>
+    <misc id="f710ieh" name="BigMap_stsuijing.atlas(1).txt" path="/Res/spine/"/>
+    <image id="f710iei" name="BigMap_stsuijing(1).png" path="/Res/spine/"/>
+    <spine id="f710ieg" name="BigMap_stsuijing.skel" path="/Res/spine/" width="100" height="100" require="f710ieh,f710iei" atlasNames="BigMap_stsuijing" anchor="100,100"/>
+    <image id="f710ieu" name="BigMap_guangzhu.png" path="/Res/spine/"/>
+    <misc id="f710iew" name="BigMap_guangzhu.atlas.txt" path="/Res/spine/"/>
+    <image id="f710iex" name="BigMap_guangzhu(1).png" path="/Res/spine/"/>
+    <spine id="f710iev" name="BigMap_guangzhu.skel" path="/Res/spine/" width="110" height="127" require="f710iew,f710iex" atlasNames="BigMap_guangzhu" anchor="55,63"/>
+    <image id="f710iey" name="BigMap_hudiefei.png" path="/Res/spine/"/>
+    <misc id="f710if0" name="BigMap_hudiefei.atlas.txt" path="/Res/spine/"/>
+    <image id="f710if1" name="BigMap_hudiefei(1).png" path="/Res/spine/"/>
+    <spine id="f710iez" name="BigMap_hudiefei.skel" path="/Res/spine/" width="80" height="80" require="f710if0,f710if1" atlasNames="BigMap_hudiefei" anchor="40,40"/>
+    <image id="kt5fif2" name="10.png" path="/Res/stage/"/>
+    <image id="kt5fif3" name="15.png" path="/Res/stage/"/>
+    <image id="kt5fif4" name="20.png" path="/Res/stage/"/>
+    <image id="kt5fif5" name="5.png" path="/Res/stage/"/>
+    <image id="kt5fif6" name="chapter.png" path="/Res/stage/"/>
+    <image id="rthzif8" name="大地图第一章 森林 十屏.png" path="/UI/"/>
+    <image id="rthzif9" name="BigMap_ ygz.png" path="/Res/spine/"/>
+    <misc id="rthzifb" name="BigMap_ ygz.atlas.txt" path="/Res/spine/"/>
+    <image id="rthzifc" name="BigMap_ ygz(1).png" path="/Res/spine/"/>
+    <spine id="rthzifa" name="BigMap_ ygz.skel" path="/Res/spine/" width="286" height="505" require="rthzifb,rthzifc" atlasNames="BigMap_ ygz" anchor="143,390"/>
+    <image id="rthzift" name="BigMap_zqc.png" path="/Res/spine/"/>
+    <misc id="rthzifv" name="BigMap_zqc.atlas.txt" path="/Res/spine/"/>
+    <image id="rthzifw" name="BigMap_zqc(1).png" path="/Res/spine/"/>
+    <spine id="rthzifu" name="BigMap_zqc.skel" path="/Res/spine/" width="51" height="40" require="rthzifv,rthzifw" atlasNames="BigMap_zqc" anchor="25,38"/>
+    <image id="rthzig1" name="mapBg1.jpg" path="/Res/MapBg/"/>
+    <image id="rthzig2" name="mapBg2.jpg" path="/Res/MapBg/"/>
+    <image id="rthzig3" name="mapBg3.jpg" path="/Res/MapBg/"/>
+    <image id="rthzig4" name="mapBg4.jpg" path="/Res/MapBg/"/>
+    <image id="rthzig5" name="mapBg5.jpg" path="/Res/MapBg/"/>
+    <image id="rthzig6" name="mapBg6.jpg" path="/Res/MapBg/"/>
+    <component id="utr3id3" name="Sokoban.xml" path="/" exported="true"/>
+    <component id="i5zgid6" name="MapEX.xml" path="/Component/"/>
+    <image id="osqgida" name="event10.png" path="/Res/"/>
+    <image id="edeeiga" name="tiaozhanboss.png" path="/Res/"/>
+    <image id="edeeigb" name="zhuabuchongwu.png" path="/Res/"/>
+    <image id="k5xhigf" name="zaozi.png" path="/Res/spine/zaozi/"/>
+    <misc id="k5xhigh" name="zaozi.atlas.txt" path="/Res/spine/zaozi/"/>
+    <image id="k5xhigi" name="zaozi(1).png" path="/Res/spine/zaozi/"/>
+    <spine id="k5xhigg" name="zaozi.skel" path="/Res/spine/zaozi/" width="100" height="100" require="k5xhigh,k5xhigi" atlasNames="zaozi" anchor="100,100"/>
+    <component id="w224id6" name="RuinSelectMain.xml" path="/" exported="true"/>
+    <component id="w224id7" name="RuinItem.xml" path="/Component/"/>
+    <image id="w224id8" name="世界-遗迹-1.png" path="/Res/Ruin/"/>
+    <image id="w224id9" name="世界-遗迹-已获取增益状态.png" path="/Res/Ruin/"/>
+    <image id="w224ida" name="首页-战斗胜利.png" path="/Res/Ruin/"/>
+    <image id="w224idb" name="首页-战斗胜利-1.png" path="/Res/Ruin/"/>
+    <image id="w224idc" name="首页-战斗失败.png" path="/Res/Ruin/"/>
+    <image id="w224idd" name="随机事件_遗迹.png" path="/Res/Ruin/"/>
+    <image id="w224ide" name="系统提示.png" path="/Res/Ruin/"/>
+    <image id="w224idf" name="战斗-遭遇战.png" path="/Res/Ruin/"/>
+    <image id="w224idg" name="开启遗迹-选择增益.png" path="/Res/Ruin/"/>
+    <image id="w224idh" name="开启遗迹-选择增益-1.png" path="/Res/Ruin/"/>
+    <component id="w224idi" name="RuinBtn.xml" path="/Component/"/>
+    <image id="w224idj" name="rewards_img1.png" path="/Res/Ruin/"/>
+    <image id="w224idk" name="rewards_img12.png" path="/Res/Ruin/"/>
+    <component id="w224idl" name="RuinAttrTips.xml" path="/" exported="true"/>
+    <component id="w224idm" name="RuinPanel.xml" path="/Component/"/>
+    <component id="w224idn" name="RuinMap.xml" path="/" exported="true"/>
+    <image id="p2jcido" name="relic_bg02.png" path="/Res/Ruin/"/>
+    <image id="p2jcidq" name="relic_bg01.png" path="/Res/Ruin/"/>
+    <component id="p2jcidr" name="BuffAttrItem.xml" path="/Component/"/>
+    <component id="p2jcids" name="RuinBuffTips.xml" path="/" exported="true"/>
+    <component id="p2jcidu" name="BuffAttrItem2.xml" path="/Component/"/>
+    <image id="jiq9ig7" name="ruinBg.jpg" path="/Res/Ruin/"/>
+    <image id="jiq9ig8" name="ruinReward.png" path="/Res/Ruin/"/>
+    <image id="r1s6igo" name="BigMap_ltsq.png" path="/Res/spine/ltsq/"/>
+    <misc id="r1s6igq" name="BigMap_ltsq.atlas.txt" path="/Res/spine/ltsq/"/>
+    <image id="r1s6igr" name="BigMap_ltsq(1).png" path="/Res/spine/ltsq/"/>
+    <spine id="r1s6igp" name="BigMap_ltsq.skel" path="/Res/spine/ltsq/" width="140" height="140" require="r1s6igq,r1s6igr" atlasNames="BigMap_ltsq" anchor="70,79"/>
+    <image id="r1s6igt" name="BigMap_shuijing.png" path="/Res/spine/shuijing/"/>
+    <misc id="r1s6igv" name="BigMap_shuijing.atlas.txt" path="/Res/spine/shuijing/"/>
+    <misc id="r1s6igy" name="BigMap_stcsm.atlas.txt" path="/Res/spine/chuansonmen/"/>
+    <image id="r1s6igz" name="BigMap_stcsm.png" path="/Res/spine/chuansonmen/"/>
+    <spine id="r1s6ih0" name="BigMap_stcsm.skel" path="/Res/spine/chuansonmen/" width="100" height="100" require="r1s6igy,r1s6igz" atlasNames="BigMap_stcsm" anchor="100,100"/>
+    <spine id="r1s6ih1" name="BigMap_shuijing.skel" path="/Res/spine/shuijing/" width="100" height="100" require="r1s6igv,r1s6igt" atlasNames="BigMap_shuijing" anchor="100,100"/>
+    <misc id="r1s6ih2" name="BigMap_ cishuijing.atlas.txt" path="/Res/spine/cishuijing/"/>
+    <image id="r1s6ih3" name="BigMap_ cishuijing.png" path="/Res/spine/cishuijing/"/>
+    <spine id="r1s6ih5" name="BigMap_ cishuijing.skel" path="/Res/spine/cishuijing/" width="70" height="80" require="r1s6ih2,r1s6ih3" atlasNames="BigMap_ cishuijing" anchor="35,40"/>
+    <component id="ka12igj" name="FishingMain.xml" path="/" exported="true"/>
+    <component id="ka12igk" name="FishingReward.xml" path="/" exported="true"/>
+    <component id="ka12igl" name="FishingFail.xml" path="/" exported="true"/>
+    <image id="ka12igm" name="fish-bg03.png" path="/Res/Fishing/" scale="9grid" scale9grid="2,0,12,46"/>
+    <image id="ka12ign" name="fish-bg11.png" path="/Res/Fishing/"/>
+    <image id="ka12igo" name="fish-btn01.png" path="/Res/Fishing/"/>
+    <image id="ka12igp" name="fish-img01.png" path="/Res/Fishing/"/>
+    <image id="ka12igq" name="diaoyu.png" path="/Res/Fishing/"/>
+    <image id="ka12igr" name="fish-bg01.png" path="/Res/Fishing/" scale="9grid" scale9grid="24,0,13,46"/>
+    <image id="ka12igs" name="fish-bg02.png" path="/Res/Fishing/" scale="9grid" scale9grid="0,0,24,46"/>
+    <image id="ka12igt" name="世界-垂钓事件-成功.png" path="/Res/Fishing/"/>
+    <image id="ka12igu" name="世界-垂钓事件-失败.png" path="/Res/Fishing/"/>
+    <image id="ka12igv" name="世界-垂钓事件.png" path="/Res/Fishing/"/>
+    <component id="ka12igw" name="FishingBtn.xml" path="/Component/"/>
+    <component id="ka12igx" name="FishingBtnAni.xml" path="/Component/"/>
+    <component id="ka12igy" name="FishingBar.xml" path="/Component/"/>
+    <component id="ka12igz" name="FishingBossStageDetail.xml" path="/" exported="true"/>
+    <misc id="ka12ih0" name="BigMap_qp.atlas.txt" path="/Res/spineQp/"/>
+    <misc id="ka12ih1" name="BigMap_stcsm.atlas.txt" path="/Res/spine/chuansonmen/"/>
+    <image id="ka12ih2" name="BigMap_stcsm.png" path="/Res/spine/chuansonmen/"/>
+    <image id="ka12ih3" name="BigMap_shuijing.png" path="/Res/spine/shuijing/"/>
+    <misc id="ka12ih4" name="BigMap_ cishuijing.atlas.txt" path="/Res/spine/cishuijing/"/>
+    <image id="ka12ih5" name="BigMap_ cishuijing.png" path="/Res/spine/cishuijing/"/>
+    <misc id="ka12ih6" name="BigMap_shuijing.atlas.txt" path="/Res/spine/shuijing/"/>
+    <image id="ka12ih7" name="BigMap_qp.png" path="/Res/spineQp/"/>
+    <image id="ka12ih8" name="BigMap_ltsq(1).png" path="/Res/spine/ltsq/"/>
+    <misc id="ka12ih9" name="BigMap_ltsq.atlas.txt" path="/Res/spine/ltsq/"/>
+    <image id="ka12iha" name="BigMap_ltsq.png" path="/Res/spine/ltsq/"/>
+    <spine id="ka12ihb" name="BigMap_shuijing.skel" path="/Res/spine/shuijing/" width="100" height="100" require="ka12ih6,ka12ih3" atlasNames="BigMap_shuijing" anchor="100,100"/>
+    <spine id="ka12ihc" name="BigMap_ cishuijing.skel" path="/Res/spine/cishuijing/" width="70" height="80" require="ka12ih4,ka12ih5" atlasNames="BigMap_ cishuijing" anchor="35,40"/>
+    <spine id="ka12ihd" name="BigMap_stcsm.skel" path="/Res/spine/chuansonmen/" width="100" height="100" require="ka12ih1,ka12ih2" atlasNames="BigMap_stcsm" anchor="100,100"/>
+    <spine id="ka12ihe" name="BigMap_ltsq.skel" path="/Res/spine/ltsq/" width="140" height="140" require="ka12ih9,ka12iha" atlasNames="BigMap_ltsq" anchor="70,79"/>
+    <spine id="ka12ihf" name="BigMap_qp.skel" path="/Res/spineQp/" width="100" height="100" require="ka12ih0,ka12ih7" atlasNames="BigMap_qp" anchor="100,100"/>
+    <component id="ozcvih6" name="MineSelect.xml" path="/" exported="true"/>
+    <misc id="wwydihg" name="BigMap_yiji_yunwu.atlas.txt" path="/Res/RuinSpine/ruinStep/"/>
+    <misc id="wwydihh" name="BigMap_yiji_shuijing.atlas.txt" path="/Res/RuinSpine/ruinCrystal/"/>
+    <image id="wwydihi" name="BigMap_yiji_shuijing.png" path="/Res/RuinSpine/ruinCrystal/"/>
+    <misc id="wwydihj" name="BigMap_yiji_taijie.atlas.txt" path="/Res/RuinSpine/ruinMist/"/>
+    <image id="wwydihk" name="BigMap_yiji_taijie.png" path="/Res/RuinSpine/ruinMist/"/>
+    <image id="wwydihl" name="BigMap_yiji_yunwu_3.png" path="/Res/RuinSpine/ruinStep/"/>
+    <image id="wwydihm" name="BigMap_yiji_yunwu_2.png" path="/Res/RuinSpine/ruinStep/"/>
+    <image id="wwydihn" name="BigMap_yiji_yunwu.png" path="/Res/RuinSpine/ruinStep/"/>
+    <spine id="wwydiho" name="BigMap_yiji_taijie.skel" path="/Res/RuinSpine/ruinMist/" width="100" height="100" require="wwydihj,wwydihk" atlasNames="BigMap_yiji_taijie" anchor="100,100"/>
+    <spine id="wwydihp" name="BigMap_yiji_shuijing.skel" path="/Res/RuinSpine/ruinCrystal/" width="100" height="100" require="wwydihh,wwydihi" atlasNames="BigMap_yiji_shuijing" anchor="100,100"/>
+    <spine id="wwydihq" name="BigMap_yiji_yunwu.skel" path="/Res/RuinSpine/ruinStep/" width="100" height="100" require="wwydihg,wwydihn,wwydihm,wwydihl" atlasNames="BigMap_yiji_yunwu,BigMap_yiji_yunwu_2,BigMap_yiji_yunwu_3" anchor="100,100"/>
+    <component id="wwydihr" name="RuinRwBuild.xml" path="/Component/"/>
+    <image id="llb1ihs" name="世界-狩猎任务-任务进行-3.png" path="/Res/HuntingTask/"/>
+    <image id="llb1iht" name="world_taskbg01.png" path="/Res/HuntingTask/"/>
+    <image id="llb1ihu" name="world_taskbg02.png" path="/Res/HuntingTask/"/>
+    <image id="llb1ihv" name="world_task_btn01.png" path="/Res/HuntingTask/"/>
+    <image id="llb1ihw" name="world_task_btn02.png" path="/Res/HuntingTask/"/>
+    <image id="llb1ihx" name="world_task_title01.png" path="/Res/HuntingTask/"/>
+    <image id="llb1ihy" name="world_task_title02.png" path="/Res/HuntingTask/"/>
+    <component id="llb1ihz" name="xialaBtn.xml" path="/Component/" exported="true"/>
+    <misc id="llb1ii0" name="BigMap_xinglujing.atlas.txt" path="/Res/WalkFlagSpine/"/>
+    <image id="llb1ii1" name="BigMap_xinglujing.png" path="/Res/WalkFlagSpine/"/>
+    <spine id="llb1ii2" name="BigMap_xinglujing.skel" path="/Res/WalkFlagSpine/" width="100" height="100" require="llb1ii0,llb1ii1" atlasNames="BigMap_xinglujing" anchor="100,100"/>
+    <component id="llb1ii3" name="pathSpineItem.xml" path="/Component/" exported="true"/>
+    <component id="usf5ii4" name="ChapterPanel2.xml" path="/Component/" exported="true"/>
+    <image id="usf5ii5" name="1.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5ii6" name="2.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5ii7" name="3.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5ii8" name="4.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5ii9" name="5.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5iia" name="6.jpg" path="/Res/MapBg2/"/>
+    <image id="usf5iib" name="path.png" path="/Res/MapBg2/"/>
+    <image id="usf5iid" name="1.png" path="/Res/stage2/"/>
+    <image id="usf5iie" name="18.png" path="/Res/stage2/"/>
+    <image id="usf5iif" name="17.png" path="/Res/stage2/"/>
+    <image id="usf5iig" name="16.png" path="/Res/stage2/"/>
+    <image id="usf5iih" name="15.png" path="/Res/stage2/"/>
+    <image id="usf5iii" name="14.png" path="/Res/stage2/"/>
+    <image id="usf5iij" name="13.png" path="/Res/stage2/"/>
+    <image id="usf5iik" name="12.png" path="/Res/stage2/"/>
+    <image id="usf5iil" name="11.png" path="/Res/stage2/"/>
+    <image id="usf5iim" name="10.png" path="/Res/stage2/"/>
+    <image id="usf5iin" name="9.png" path="/Res/stage2/"/>
+    <image id="usf5iio" name="8.png" path="/Res/stage2/"/>
+    <image id="usf5iip" name="7.png" path="/Res/stage2/"/>
+    <image id="usf5iiq" name="6.png" path="/Res/stage2/"/>
+    <image id="usf5iir" name="5.png" path="/Res/stage2/"/>
+    <image id="usf5iis" name="4.png" path="/Res/stage2/"/>
+    <image id="usf5iit" name="3.png" path="/Res/stage2/"/>
+    <image id="usf5iiu" name="2.png" path="/Res/stage2/"/>
+    <image id="usf5iiv" name="19.png" path="/Res/stage2/"/>
+    <image id="usf5iiw" name="20.png" path="/Res/stage2/"/>
+    <component id="usf5iix" name="ChapterPanel.xml" path="/Component/" exported="true"/>
+    <image id="kf54iiz" name="BigMap_pbly.png" path="/Res/map1_shuiliu/"/>
+    <spine id="kf54ij0" name="BigMap_pbly.skel" path="/Res/map1_shuiliu/" width="100" height="100" require="kf54ij4,kf54iiz" atlasNames="BigMap_pbly" anchor="100,100"/>
+    <misc id="kf54ij1" name="BigMap_shuibo.atlas.txt" path="/Res/map1_shuiliu/"/>
+    <image id="kf54ij2" name="BigMap_shuibo.png" path="/Res/map1_shuiliu/"/>
+    <spine id="kf54ij3" name="BigMap_shuibo.skel" path="/Res/map1_shuiliu/" width="100" height="100" require="kf54ij1,kf54ij2" atlasNames="BigMap_shuibo" anchor="100,100"/>
+    <misc id="kf54ij4" name="BigMap_pbly.atlas.txt" path="/Res/map1_shuiliu/"/>
+    <misc id="kf54ij5" name="BigMap_bobo.atlas.txt" path="/Res/map1_shuiliu/"/>
+    <image id="kf54ij6" name="BigMap_bobo.png" path="/Res/map1_shuiliu/"/>
+    <spine id="kf54ij7" name="BigMap_bobo.skel" path="/Res/map1_shuiliu/" width="100" height="100" require="kf54ij5,kf54ij6" atlasNames="BigMap_bobo" anchor="100,100"/>
+    <component id="jozzij8" name="ChapterPanel3.xml" path="/Component/" exported="true"/>
+    <image id="jozzij9" name="1_8.png" path="/Res/"/>
+    <image id="jozzija" name="1_8_b.png" path="/Res/"/>
+    <misc id="jozzijb" name="BigMap_yv.atlas.txt" path="/Res/FishSpine/"/>
+    <image id="jozzijc" name="BigMap_yv.png" path="/Res/FishSpine/"/>
+    <spine id="jozzijd" name="BigMap_yv.skel" path="/Res/FishSpine/" width="100" height="100" require="jozzijb,jozzijc" atlasNames="BigMap_yv" anchor="100,100"/>
+    <image id="llb1ije" name="world_task_bg02.png" path="/Res/Task/"/>
+    <image id="llb1ijf" name="world_task_bg03.png" path="/Res/Task/" exported="true"/>
+    <image id="llb1ijg" name="world_task_btn01.png" path="/Res/Task/" exported="true"/>
+    <image id="llb1ijh" name="world_task_btn02.png" path="/Res/Task/" exported="true"/>
+    <image id="llb1iji" name="world_auto_btn01.png" path="/Res/Task/"/>
+    <image id="llb1ijj" name="world_task_bg01.png" path="/Res/Task/" exported="true"/>
+    <component id="llb1ijk" name="TaskBarExp.xml" path="/Component/" exported="true"/>
+    <component id="llb1ijl" name="FightCurStageBtn.xml" path="/Component/"/>
+    <misc id="pto8ijm" name="BigMap_aixing.atlas.txt" path="/Res/aixing/"/>
+    <image id="pto8ijn" name="BigMap_aixing.png" path="/Res/aixing/"/>
+    <spine id="pto8ijo" name="BigMap_aixing.skel" path="/Res/aixing/" width="100" height="100" require="pto8ijm,pto8ijn" atlasNames="BigMap_aixing" anchor="100,100"/>
+    <misc id="pto8ijp" name="BigMap_zaozi.atlas.txt" path="/Res/ZhaoZi/"/>
+    <image id="pto8ijq" name="BigMap_zaozi.png" path="/Res/ZhaoZi/"/>
+    <spine id="pto8ijr" name="BigMap_zaozi.skel" path="/Res/ZhaoZi/" width="100" height="100" require="pto8ijp,pto8ijq" atlasNames="BigMap_zaozi" anchor="100,100"/>
+    <image id="dl6kijs" name="3.png" path="/Res/mapbg3/"/>
+    <image id="dl6kijt" name="关卡顺序示意图.png" path="/UI/"/>
+    <image id="dl6kiju" name="long xingzou.png" path="/Res/mapbg3/"/>
+    <image id="dl6kijv" name="9.png" path="/Res/mapbg3/"/>
+    <image id="dl6kijw" name="8.png" path="/Res/mapbg3/"/>
+    <image id="dl6kijx" name="7.png" path="/Res/mapbg3/"/>
+    <image id="dl6kijy" name="6.png" path="/Res/mapbg3/"/>
+    <image id="dl6kik0" name="5.png" path="/Res/mapbg3/"/>
+    <image id="dl6kik2" name="4.png" path="/Res/mapbg3/"/>
+    <image id="dl6kik5" name="20.png" path="/Res/mapbg3/"/>
+    <image id="dl6kik7" name="2.png" path="/Res/mapbg3/"/>
+    <image id="dl6kik8" name="19.png" path="/Res/mapbg3/"/>
+    <image id="dl6kika" name="1.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikb" name="10.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikc" name="11.png" path="/Res/mapbg3/"/>
+    <image id="dl6kike" name="13.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikf" name="12.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikg" name="15.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikh" name="16.png" path="/Res/mapbg3/"/>
+    <image id="dl6kiki" name="17.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikj" name="18.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikk" name="14.png" path="/Res/mapbg3/"/>
+    <image id="dl6kikl" name="mapBg6.jpg" path="/Res/mapbg3/"/>
+    <image id="dl6kikm" name="mapBg1.jpg" path="/Res/mapbg3/"/>
+    <image id="dl6kikn" name="mapBg2.jpg" path="/Res/mapbg3/"/>
+    <image id="dl6kiko" name="mapBg3.jpg" path="/Res/mapbg3/"/>
+    <image id="dl6kikp" name="mapBg4.jpg" path="/Res/mapbg3/"/>
+    <image id="dl6kikq" name="mapBg5.jpg" path="/Res/mapbg3/"/>
+    <misc id="dl6kikr" name="BigMap_smcsm.atlas.txt" path="/Res/csm2/"/>
+    <image id="dl6kiks" name="BigMap_smcsm.png" path="/Res/csm2/"/>
+    <spine id="dl6kikt" name="BigMap_smcsm.skel" path="/Res/csm2/" width="100" height="100" require="dl6kikr,dl6kiks" atlasNames="BigMap_smcsm" anchor="100,100"/>
+    <misc id="dl6kiku" name="BigMap_lyvdxc_csm.atlas.txt" path="/Res/csm3/"/>
+    <image id="dl6kikv" name="BigMap_lyvdxc_csm.png" path="/Res/csm3/"/>
+    <spine id="dl6kikw" name="BigMap_lyvdxc_csm.skel" path="/Res/csm3/" width="100" height="100" require="dl6kiku,dl6kikv" atlasNames="BigMap_lyvdxc_csm" anchor="100,100"/>
+    <image id="llb1ikx" name="shoulierenwu.png" path="/Res/HuntingTask/"/>
+    <misc id="trj7ilh" name="BigMap_shamo_huo.atlas.txt" path="/Res/Map2Eff/huo/"/>
+    <image id="trj7ili" name="BigMap_shamo_shuibo.png" path="/Res/Map2Eff/shuibo/"/>
+    <image id="trj7ilk" name="BigMap_sm_feng_2.png" path="/Res/Map2Eff/feng/"/>
+    <image id="trj7ill" name="BigMap_sm_feng.png" path="/Res/Map2Eff/feng/"/>
+    <misc id="trj7ilm" name="BigMap_sm_feng.atlas.txt" path="/Res/Map2Eff/feng/"/>
+    <image id="trj7iln" name="BigMap_shamo_huo.png" path="/Res/Map2Eff/huo/"/>
+    <image id="trj7ilo" name="BigMap_shamo_cj_3.png" path="/Res/Map2Eff/cj/"/>
+    <image id="trj7ilp" name="BigMap_shamo_cj.png" path="/Res/Map2Eff/cj/"/>
+    <misc id="trj7ilq" name="BigMap_shamo_cj.atlas.txt" path="/Res/Map2Eff/cj/"/>
+    <image id="trj7ilr" name="BigMap_shamo_cj_2.png" path="/Res/Map2Eff/cj/"/>
+    <misc id="trj7ils" name="BigMap_shamo_shuibo.atlas.txt" path="/Res/Map2Eff/shuibo/"/>
+    <spine id="trj7ilt" name="BigMap_shamo_shuibo.skel" path="/Res/Map2Eff/shuibo/" width="100" height="100" require="trj7ils,trj7ili" atlasNames="BigMap_shamo_shuibo" anchor="100,100"/>
+    <spine id="trj7ilv" name="BigMap_sm_feng.skel" path="/Res/Map2Eff/feng/" width="100" height="100" require="trj7ilm,trj7ill,trj7ilk" atlasNames="BigMap_sm_feng,BigMap_sm_feng_2" anchor="100,100"/>
+    <spine id="trj7ilw" name="BigMap_shamo_cj.skel" path="/Res/Map2Eff/cj/" width="100" height="100" require="trj7ilq,trj7ilp,trj7ilr,trj7ilo" atlasNames="BigMap_shamo_cj,BigMap_shamo_cj_2,BigMap_shamo_cj_3" anchor="100,100"/>
+    <spine id="trj7ilx" name="BigMap_shamo_huo.skel" path="/Res/Map2Eff/huo/" width="100" height="100" require="trj7ilh,trj7iln" atlasNames="BigMap_shamo_huo" anchor="100,100"/>
+    <image id="fentily" name="BigMap_smfz_1_2.png" path="/Res/Map2Eff/fz/"/>
+    <misc id="fentilz" name="BigMap_smfz_1.atlas.txt" path="/Res/Map2Eff/fz/"/>
+    <image id="fentim0" name="BigMap_smfz_1.png" path="/Res/Map2Eff/fz/"/>
+    <image id="fentim1" name="BigMap_smfz_1_3.png" path="/Res/Map2Eff/fz/"/>
+    <spine id="fentim2" name="BigMap_smfz_1.skel" path="/Res/Map2Eff/fz/" width="100" height="100" require="fentilz,fentim0,fentily,fentim1" atlasNames="BigMap_smfz_1,BigMap_smfz_1_2,BigMap_smfz_1_3" anchor="100,100"/>
+    <image id="pxveim3" name="BigMap_smfw_2.png" path="/Res/Map2Eff/smfw/"/>
+    <image id="pxveim4" name="BigMap_smfw.png" path="/Res/Map2Eff/smfw/"/>
+    <misc id="pxveim5" name="BigMap_smfw.atlas.txt" path="/Res/Map2Eff/smfw/"/>
+    <spine id="pxveim6" name="BigMap_smfw.skel" path="/Res/Map2Eff/smfw/" width="100" height="100" require="pxveim5,pxveim4,pxveim3" atlasNames="BigMap_smfw,BigMap_smfw_2" anchor="100,100"/>
+    <image id="g9p0im7" name="BigMap_dx_yj_11.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0im8" name="BigMap_dx_yj_3.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0im9" name="BigMap_dx_yj_2.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0ima" name="BigMap_dx_yj_12.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0imb" name="BigMap_dx_yj_6.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0imc" name="BigMap_dx_yj_10.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0imd" name="BigMap_dx_yj_7.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0ime" name="BigMap_dx_yj.png" path="/Res/Map3Eff/yj/"/>
+    <misc id="g9p0imf" name="BigMap_dx_yj.atlas.txt" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0img" name="BigMap_dx_2.png" path="/Res/Map3Eff/dx/"/>
+    <image id="g9p0imh" name="BigMap_dx_yj_8.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0imi" name="BigMap_dx.png" path="/Res/Map3Eff/dx/"/>
+    <misc id="g9p0imj" name="BigMap_dx.atlas.txt" path="/Res/Map3Eff/dx/"/>
+    <image id="g9p0imk" name="BigMap_dx_yj_9.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0iml" name="BigMap_dx_yj_4.png" path="/Res/Map3Eff/yj/"/>
+    <image id="g9p0imm" name="BigMap_dx_yj_5.png" path="/Res/Map3Eff/yj/"/>
+    <spine id="g9p0imn" name="BigMap_dx_yj.skel" path="/Res/Map3Eff/yj/" width="100" height="100" require="g9p0imf,g9p0ime,g9p0im9,g9p0im8,g9p0iml,g9p0imm,g9p0imb,g9p0imd,g9p0imh,g9p0imk,g9p0imc,g9p0im7" atlasNames="BigMap_dx_yj,BigMap_dx_yj_2,BigMap_dx_yj_3,BigMap_dx_yj_4,BigMap_dx_yj_5,BigMap_dx_yj_6,BigMap_dx_yj_7,BigMap_dx_yj_8,BigMap_dx_yj_9,BigMap_dx_yj_10,BigMap_dx_yj_11" anchor="100,100"/>
+    <spine id="g9p0imo" name="BigMap_dx.skel" path="/Res/Map3Eff/dx/" width="157" height="149" require="g9p0imj,g9p0imi,g9p0img" atlasNames="BigMap_dx,BigMap_dx_2" anchor="76,157"/>
+    <image id="cuzaimp" name="龙与地下城地图.jpg" path="/UI/"/>
+    <image id="kv73imq" name="BigMap_dx_long.png" path="/Res/Map3Eff/long/"/>
+    <image id="kv73imr" name="BigMap_dx_long_2.png" path="/Res/Map3Eff/long/"/>
+    <misc id="kv73ims" name="BigMap_dx_long.atlas.txt" path="/Res/Map3Eff/long/"/>
+    <spine id="kv73imt" name="BigMap_dx_long.skel" path="/Res/Map3Eff/long/" width="100" height="100" require="kv73ims,kv73imq,kv73imr" atlasNames="BigMap_dx_long,BigMap_dx_long_2" anchor="100,100"/>
+    <misc id="jpqlimu" name="BigMap_qiao.atlas.txt" path="/Res/Map3Eff/qiao/"/>
+    <image id="jpqlimv" name="BigMap_qiao.png" path="/Res/Map3Eff/qiao/"/>
+    <spine id="jpqlimw" name="BigMap_qiao.skel" path="/Res/Map3Eff/qiao/" width="416" height="539" require="jpqlimu,jpqlimv" atlasNames="BigMap_qiao" anchor="210,267"/>
+    <image id="hwk1imx" name="qiao.png" path="/Res/mapbg3/"/>
+  </resources>
+  <publish name="BigMap" genCode="true"/>
+</packageDescription>

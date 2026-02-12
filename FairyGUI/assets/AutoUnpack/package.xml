@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rr0734r5">
+  <resources>
+    <image id="mmjj1z" name="自动开箱.png" path="/Sample/"/>
+    <component id="mmjj20" name="Panel.xml" path="/UI/"/>
+    <image id="mmjj21" name="btn-start.png" path="/Res/"/>
+    <image id="mmjj23" name="ICON-OPEN.png" path="/Res/"/>
+    <image id="mmjj24" name="ICON-tick.png" path="/Res/"/>
+    <image id="mmjj25" name="UI-01.png" path="/Res/"/>
+    <image id="mmjj26" name="UI-02.png" path="/Res/"/>
+    <image id="mmjj27" name="UI-03.png" path="/Res/" scale="9grid" scale9grid="88,12,176,24"/>
+    <image id="mmjj28" name="UI-04.png" path="/Res/" scale="9grid" scale9grid="55,12,110,24"/>
+    <component id="mmjj2a" name="Checkbox_as.xml" path="/Component/"/>
+    <component id="mmjj2b" name="MessageBox.xml" path="/Component/"/>
+    <component id="mmjj2c" name="MessageBox_item.xml" path="/Component/"/>
+    <component id="mmjj2d" name="MessageBox_popup.xml" path="/Component/"/>
+    <component id="skp62e" name="MessageBox_big.xml" path="/Component/"/>
+    <component id="skp62f" name="MessageBox_item_big.xml" path="/Component/"/>
+    <component id="skp62g" name="MessageBox_popup_big.xml" path="/Component/"/>
+    <component id="un3j2h" name="Main.xml" path="/" exported="true"/>
+    <image id="x3dk2l" name="1.PNG" path="/Res/" scale="9grid" scale9grid="27,13,3,4"/>
+    <image id="x3dk2m" name="2.png" path="/Res/"/>
+    <image id="x3dk2s" name="5.png" path="/Res/"/>
+    <component id="x3dk2u" name="openCountBtn.xml" path="/Component/"/>
+    <component id="x3dk2v" name="openCountList.xml" path="/Component/" exported="true"/>
+    <image id="x3dk2x" name="6.png" path="/Res/" scale="9grid" scale9grid="16,17,8,8"/>
+    <component id="x3dk2z" name="openEntryList.xml" path="/Component/" exported="true"/>
+    <component id="x3dk33" name="openEquipQualityList.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="AutoUnpack" genCode="true"/>
+</packageDescription>

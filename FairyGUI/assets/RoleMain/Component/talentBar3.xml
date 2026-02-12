@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="112,324">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+  </controller>
+  <controller name="type" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n11_llb1" name="n11" src="llb1dxyf5" fileName="Res/new2/talent_line14.png" xy="0,0" flip="hz">
+      <gearDisplay controller="status" pages="0"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+    </image>
+    <image id="n10_llb1" name="n10" src="llb1dxyet" fileName="Res/new2/talent_line04.png" xy="0,0" flip="hz">
+      <gearDisplay controller="status" pages="1"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+    </image>
+    <image id="n12_llb1" name="n12" src="llb1dxyf5" fileName="Res/new2/talent_line14.png" xy="0,0">
+      <gearDisplay controller="status" pages="0"/>
+      <gearDisplay2 controller="type" pages="1" condition="0"/>
+    </image>
+    <image id="n13_llb1" name="n13" src="llb1dxyet" fileName="Res/new2/talent_line04.png" xy="0,0">
+      <gearDisplay controller="status" pages="1"/>
+      <gearDisplay2 controller="type" pages="1" condition="0"/>
+    </image>
+  </displayList>
+</component>

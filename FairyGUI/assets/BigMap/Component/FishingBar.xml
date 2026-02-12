@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,78">
+  <displayList>
+    <loader id="n0_ka12" name="bg" xy="0,0" size="608,78" url="ui://pdufy3keka12ign">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_ka12" name="yellowBar" xy="15,14" size="136,50" url="ui://pdufy3keka12igr" fill="scaleFree">
+      <relation target="n0_ka12" sidePair="middle-middle,left-left"/>
+    </loader>
+    <loader id="n2_ka12" name="greenBar" xy="151,14" size="91,50" url="ui://pdufy3keka12igs" fill="scaleFree">
+      <relation target="n0_ka12" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n3_ka12" name="blueBar" xy="243,14" size="349,50" url="ui://pdufy3keka12igm" fill="scaleFree">
+      <relation target="n0_ka12" sidePair="middle-middle,right-right"/>
+    </loader>
+    <loader id="n4_ka12" name="fishFlag" xy="28,-3" pivot="0.5,0.5" anchor="true" size="56,56" url="ui://pdufy3keka12igp"/>
+  </displayList>
+</component>

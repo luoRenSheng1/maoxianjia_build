@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="countCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不足"/>
+    <remark page="1" value="足够"/>
+  </controller>
+  <controller name="adCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不看广告"/>
+    <remark page="1" value="看广告"/>
+  </controller>
+  <displayList>
+    <component id="n28_f34j" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n29_llb1" name="n29" xy="0,663" size="720,128" group="n6_x3dk" url="ui://5moj1x39fr3pdxyd2" fill="scaleFree">
+      <relation target="n25_f34j" sidePair="top-top"/>
+    </loader>
+    <image id="n25_f34j" name="n25" src="f34jdxybp" fileName="Res/newItem2/general_award_bg1.png" pkg="5moj1x39" xy="0,459" group="n6_x3dk"/>
+    <image id="n24_f34j" name="n24" src="f34jdxya0" fileName="Res/newItem2/general_title_bg12.png" pkg="5moj1x39" xy="57,389" group="n6_x3dk"/>
+    <text id="n5_x3dk" name="n5" xy="244,405" size="232,44" group="n6_x3dk" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="恭喜获得">
+      <relation target="n24_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n8_x3dk" name="itemList" xy="149,514" size="359,79" group="n6_x3dk" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" lineGap="10" colGap="15" defaultItem="ui://5moj1x39ewjfdxy22" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n25_f34j" sidePair="left-left,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_tw1c" name="sweepBtn" src="ot6fdxy3y" fileName="Component/EmptyYellowBtn.xml" pkg="5moj1x39" xy="67,878" size="218,84" group="n6_x3dk">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <Button title="扫荡当前关卡" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n15_tw1c" name="nextStageBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="441,878" size="218,84" group="n6_x3dk">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <Button title="下一关" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n30_llb1" name="n30" xy="282,697" size="164,58" group="n16_tw1c" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n11_tw1c" name="itemIcon" xy="283,698" size="72,58" group="n16_tw1c" touchable="false" url="ui://57yc4rb0b0e42n" fill="scale">
+      <relation target="n30_llb1" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n13_tw1c" name="itemCntLb" xy="364,705" size="78,42" group="n16_tw1c" fontSize="30" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" text="[color=#ff0000]{cur=2}[/color]/{total=2}">
+      <gearText controller="countCtrl" pages="1" values="{cur=2}/{total=2}" default="[color=#ff0000]{cur=2}[/color]/{total=2}"/>
+      <relation target="n30_llb1" sidePair="middle-middle"/>
+    </text>
+    <group id="n16_tw1c" name="n16" xy="282,697" size="164,58" group="n6_x3dk" advanced="true">
+      <relation target="n29_llb1" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n23_pu20" name="adBtn" src="ju03dxy59" fileName="Component/EmptyAdBtn2.xml" pkg="5moj1x39" xy="251,878" size="218,84" group="n6_x3dk">
+      <gearDisplay controller="adCtrl" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+      <Button title="挑战券x1" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n6_x3dk" name="n6" xy="0,389" size="720,573" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

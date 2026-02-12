@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,90" extention="Label">
+  <displayList>
+    <image id="n22_kwfm" name="n22" src="kwfmxxnb" fileName="Res/Loading/LoadingShuZiDi01.png" xy="50,45" pivot="0.5,0.5" anchor="true" size="90,90" group="n25_kwfm"/>
+    <image id="n23_kwfm" name="n23" src="kwfmxxnc" fileName="Res/Loading/LoadingShuZiDi02.png" xy="82,7" group="n25_kwfm"/>
+    <image id="n24_kwfm" name="n24" src="kwfmxxnc" fileName="Res/Loading/LoadingShuZiDi02.png" xy="0,6" group="n25_kwfm" flip="hz"/>
+    <group id="n25_kwfm" name="n25" xy="0,0" size="100,90"/>
+    <text id="n26_kwfm" name="title" xy="49,44" pivot="0.5,0.5" anchor="true" size="79,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" autoClearText="true" text="{val = 100}%"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n22_kwfm" tween="true" startValue="0" endValue="360" duration="23" ease="Linear"/>
+  </transition>
+</component>

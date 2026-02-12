@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,96" overflow="hidden" extention="Button">
+  <controller name="ctrlQuality" exported="true" pages="2,普通,11,良好,12,稀有,13,史诗,14,传说,15,神话,16,不朽" selected="0"/>
+  <controller name="disableCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不灰"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="uploadCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="上阵"/>
+    <remark page="1" value="未上阵"/>
+  </controller>
+  <controller name="levelUp" pages="0,,1," selected="0">
+    <remark page="0" value="不能升级"/>
+    <remark page="1" value="可以升级"/>
+  </controller>
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="宠物"/>
+    <remark page="1" value="技能"/>
+  </controller>
+  <displayList>
+    <loader id="n141_skp6" name="n1" xy="0,0" size="96,96" aspect="true" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearIcon controller="ctrlQuality" pages="2,11,12,13,14,15,16" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n144_mpxe" name="icon" xy="12,12" size="71,71" aspect="true" url="ui://5moj1x39vcwc3" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n142_skp6" name="lvLb" xy="8,3" size="30,23" fontSize="15" color="#ffffff" vAlign="middle" letterSpacing="1" ubb="true" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="999">
+      <gearDisplay controller="disableCtrl" pages="0"/>
+    </text>
+    <image id="n154_f34j" name="n154" src="f34jdxyb2" fileName="Res/newItem2/general_bottom border_bg1.png" xy="4,4" size="88,88">
+      <gearDisplay controller="disableCtrl" pages="1"/>
+    </image>
+    <component id="n150_iqva" name="numBar" src="eb0tdxxzf" fileName="Component/BarExp.xml" xy="9,74" size="77,13" visible="false">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n158_ucd4" name="numBar2" src="ucd4dxycm" fileName="Component/PetBar.xml" xy="3,71">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n155_f34j" name="n155" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" xy="48,0">
+      <gearDisplay controller="disableCtrl" pages="1"/>
+    </image>
+    <image id="n156_f34j" name="n156" src="f34jdxyal" fileName="Res/newItem2/Frame 465.png" xy="0,64">
+      <gearDisplay controller="levelUp" pages="1"/>
+    </image>
+    <text id="n157_f34j" name="n157" xy="22,13" size="52,24" fontSize="16" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="2" text="已装备">
+      <gearDisplay controller="uploadCtrl" pages="0"/>
+      <gearDisplay2 controller="disableCtrl" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

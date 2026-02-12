@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,400" designImage="ui://s7x7ku0ncuzadxyd5" designImageOffsetX="-57" designImageOffsetY="-275">
+  <displayList>
+    <loader id="n3_wrej" name="map_bg0" xy="-240,-655" size="2932,1052" visible="false" url="ui://s7x7ku0nucd4dxybs" vAlign="bottom" fill="scaleFree" clearOnPublish="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+    <loader id="n4_ktej" name="map_bg" xy="-270,50" size="3258,314" visible="false" url="ui://s7x7ku0nucd4dxybu" vAlign="bottom" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_msdl" name="map_middle" xy="-270,84" size="3258,280" visible="false" url="ui://s7x7ku0nucd4dxybu" vAlign="bottom" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_uiql" name="cloud0" xy="-60,-271" size="2160,671" url="ui://s7x7ku0nucd4dxybs" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n9_uiql" name="cloud1" xy="2100,-271" size="2160,671" url="ui://s7x7ku0nucd4dxybs" fill="scaleFree" clearOnPublish="true"/>
+    <list id="n7_ucd4" name="mapList2" xy="-60,-20" size="1800,360" layout="row" defaultItem="ui://s7x7ku0nucd4dxybw">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <transition name="sceneT">
+    <item time="0" type="XY" target="n3_wrej" tween="true" startValue="-240,-655" endValue="-264,-625" duration="2"/>
+    <item time="0" type="XY" target="n4_ktej" tween="true" startValue="-270,50" endValue="-296,60" duration="2"/>
+    <item time="0" type="XY" target="n5_msdl" tween="true" startValue="-270,84" endValue="-296,94" duration="2"/>
+    <item time="2" type="XY" target="n3_wrej" tween="true" startValue="-264,-625" endValue="-240,-655" duration="3"/>
+    <item time="2" type="XY" target="n4_ktej" tween="true" startValue="-296,60" endValue="-270,50" duration="3"/>
+    <item time="2" type="XY" target="n5_msdl" tween="true" startValue="-296,94" endValue="-270,84" duration="3"/>
+  </transition>
+</component>

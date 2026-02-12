@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n6_f34j" name="n6" xy="0,0" size="218,84" url="ui://5moj1x39f34jdxyah" fill="scaleFree"/>
+    <text id="n3_ogek" name="title" xy="0,0" size="218,79" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" singleLine="true" text="选择语言">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://zs0w02qtogek12"/>
+</component>

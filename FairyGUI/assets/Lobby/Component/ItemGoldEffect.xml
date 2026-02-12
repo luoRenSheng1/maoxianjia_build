@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,37" extention="Label">
+  <displayList>
+    <loader id="n0_c90s" name="icon" xy="0,0" size="35,37" url="ui://0anhreylf34jdxy9m" fill="scale"/>
+    <text id="n1_c90s" name="n1" xy="37,4" size="48,29" visible="false" fontSize="20" autoSize="none" text="+29"/>
+  </displayList>
+</component>

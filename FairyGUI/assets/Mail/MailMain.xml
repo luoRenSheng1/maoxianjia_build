@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+  </controller>
+  <displayList>
+    <component id="n11_phjf" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n9_ju03" name="n9" xy="16,106" size="688,960" group="n6_vcwq" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <loader id="n14_f34j" name="n14" xy="24,197" size="672,732" group="n6_vcwq" url="ui://5moj1x39f34jdxyb8" fill="scaleFree"/>
+    <text id="n1_vcwq" name="n1" xy="326,124" size="68,44" group="n6_vcwq" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="邮件">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n3_vcwq" name="mailList" xy="40,214" size="640,699" group="n6_vcwq" overflow="scroll" lineGap="5" defaultItem="ui://h1wohbjovcwq8" align="center" autoClearItems="true">
+      <gearDisplay controller="state" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_vcwq" name="n8" xy="217,532" size="286,48" group="n6_vcwq" fontSize="35" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="邮箱里空空如也">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <component id="n4_vcwq" name="oneKeyDel" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="117,955" size="218,84" group="n15_f34j">
+      <gearLook controller="state" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="一键删除" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n5_vcwq" name="oneKeyGet" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="385,953" size="218,84" group="n15_f34j">
+      <gearLook controller="state" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="一键领取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n15_f34j" name="n15" xy="117,953" size="486,86" group="n6_vcwq"/>
+    <component id="n13_f34j" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1089" size="84,84" group="n6_vcwq">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n6_vcwq" name="n6" xy="16,106" size="688,1067" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

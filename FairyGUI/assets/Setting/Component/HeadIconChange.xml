@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,600">
+  <displayList>
+    <image id="n1_baxf" name="n1" src="ddc148" fileName="Res/n280.png" pkg="5moj1x39" xy="0,27" size="596,572"/>
+    <image id="n0_baxf" name="n0" src="ddc147" fileName="Res/n281.png" pkg="5moj1x39" xy="0,0"/>
+    <text id="n2_baxf" name="n2" xy="246,15" size="104,35" fontSize="25" color="#ffffff" bold="true" strokeColor="#582600" text="更换头像"/>
+    <list id="n3_baxf" name="iconList" xy="37,79" size="437,348" scale="1.2,1.2" layout="flow_hz" overflow="scroll" lineGap="5" colGap="5" defaultItem="ui://zs0w02qtbaxf10" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_baxf" name="changeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="226,509" size="143,57">
+      <Button title="使用" icon="ui://5moj1x39ddc13t"/>
+    </component>
+  </displayList>
+</component>

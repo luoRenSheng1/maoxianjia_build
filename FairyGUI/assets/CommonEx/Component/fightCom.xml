@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,64" extention="Label">
+  <displayList>
+    <loader id="n3_v534" name="icon" xy="23,-2" size="307,69" url="ui://0anhreyli9sldxxyf" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n0_qj2e" name="n0" xy="0,0" size="64,64" url="ui://5moj1x39qj2edxy4j" fill="scale">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+    <text id="n2_v534" name="title" xy="65,2" size="235,61" font="ui://0anhreylisqldxy3f" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="234.5京"/>
+  </displayList>
+  <relation target="n2_v534" sidePair="width-width"/>
+</component>

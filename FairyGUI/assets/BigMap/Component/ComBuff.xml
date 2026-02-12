@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,38" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetX="-323" designImageOffsetY="-30" designImageAlpha="3">
+  <displayList>
+    <list id="n60_jiq9" name="buffList" xy="0,0" size="134,38" layout="row" colGap="10" defaultItem="ui://pdufy3kex2p02f">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

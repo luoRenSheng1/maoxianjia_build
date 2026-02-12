@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://1tqiwa7aucd4e" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n11_ucd4" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_mg7g" name="n0" xy="16,165" size="688,834" group="n3_mg7g" url="ui://1tqiwa7aucd4h" fill="scaleFree"/>
+    <text id="n9_ucd4" name="n9" xy="294,199" size="132,44" group="n3_mg7g" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="七日签到"/>
+    <list id="n1_mg7g" name="dayList" xy="40,290" size="640,676" group="n3_mg7g" layout="flow_hz" lineGap="20" colGap="20" defaultItem="ui://1tqiwa7amg7g7" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://1tqiwa7amg7g8"/>
+    </list>
+    <text id="n6_tcgl" name="timeLeft" xy="240,239" size="241,29" group="n3_mg7g" visible="false" fontSize="20" color="#9c692d" align="center" ubb="true" vars="true" autoSize="none" text="下次签到时间：[color=#76a409]{value=12:00:00}[/color]">
+      <relation target="n0_mg7g" sidePair="top-bottom"/>
+    </text>
+    <component id="n10_ucd4" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1030" size="84,84" group="n3_mg7g">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n3_mg7g" name="n3" xy="16,165" size="688,949" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

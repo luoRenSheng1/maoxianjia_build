@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="57yc4rb0">
+  <resources>
+    <component id="gwxt0" name="DungeonMain.xml" path="/" exported="true"/>
+    <component id="gwxt1" name="Panel.xml" path="/UI/"/>
+    <component id="gwxt3" name="battleBg.xml" path="/Component/"/>
+    <image id="gwxt4" name="map_bg.png" path="/Res/map/"/>
+    <image id="gwxt5" name="map_middle.png" path="/Res/map/"/>
+    <component id="gwxt6" name="battleScene.xml" path="/Component/"/>
+    <component id="gwxt7" name="battleMap.xml" path="/Component/"/>
+    <component id="gwxt8" name="MapLoadItem.xml" path="/Component/"/>
+    <image id="gwxt9" name="map01.png" path="/Res/map/"/>
+    <image id="gwxta" name="map02.png" path="/Res/map/"/>
+    <image id="gwxtb" name="map03.png" path="/Res/map/"/>
+    <component id="gwxtc" name="battleObject.xml" path="/Component/"/>
+    <component id="gwxtd" name="battleFly.xml" path="/Component/"/>
+    <image id="gwxtf" name="UI-01-2.PNG" path="/Res/" scale="9grid" scale9grid="0,36,720,1" duplicatePadding="true"/>
+    <component id="gwxtg" name="BtnIconSkillBig.xml" path="/Component/"/>
+    <image id="gwxth" name="SKILL-AUTO.png" path="/Res/"/>
+    <image id="gwxti" name="ef.png" path="/Res/"/>
+    <component id="gwxtj" name="BtnSkill.xml" path="/Component/"/>
+    <component id="gwxtk" name="skillIcon.xml" path="/Component/"/>
+    <image id="gwxtl" name="mask1.png" path="/Res/" duplicatePadding="true"/>
+    <image id="gwxtn" name="skillBg.png" path="/Res/" duplicatePadding="true"/>
+    <image id="gwxto" name="23.png" path="/Res/"/>
+    <image id="gwxtp" name="124.png" path="/Res/" duplicatePadding="true"/>
+    <image id="gwxtq" name="loopIcon.png" path="/Res/"/>
+    <image id="gwxtw" name="ICON-shuxingheidi.png" path="/Res/" scale="9grid" scale9grid="102,8,204,16"/>
+    <image id="gwxtx" name="UI-Level heidi.png" path="/Res/" scale9grid="18,3,36,6"/>
+    <image id="gwxty" name="ICON-zhanli.png" path="/Res/"/>
+    <image id="gwxt10" name="主界面.png" path="/Sample/"/>
+    <component id="gwxt18" name="BtnUnfold.xml" path="/Component/"/>
+    <image id="gwxt1b" name="UI-01.png" path="/Res/" atlas="alone" duplicatePadding="true"/>
+    <image id="gwxt1h" name="ICON-liaotiankuang.png" path="/Res/"/>
+    <image id="gwxt1n" name="主界面-标记.png" path="/Sample/"/>
+    <component id="gwxt1o" name="BtnIcon_big.xml" path="/Component/"/>
+    <image id="gwxt2a" name="主界面1.png" path="/Sample/"/>
+    <image id="b0e42h" name="20.png" path="/Res/newRes/"/>
+    <image id="b0e42i" name="17.PNG" path="/Res/newRes/" scale="9grid" scale9grid="55,46,12,9"/>
+    <image id="b0e42j" name="16.png" path="/Res/newRes/" scale="9grid" scale9grid="42,41,6,8"/>
+    <image id="b0e42k" name="15.png" path="/Res/newRes/"/>
+    <image id="b0e42l" name="14.png" path="/Res/newRes/"/>
+    <image id="b0e42m" name="13.png" path="/Res/newRes/" scale="9grid" scale9grid="73,113,21,222"/>
+    <image id="b0e42n" name="12.png" path="/Res/newRes/"/>
+    <image id="b0e42o" name="11.PNG" path="/Res/newRes/"/>
+    <image id="b0e42p" name="10.png" path="/Res/newRes/" scale="9grid" scale9grid="27,16,19,6"/>
+    <image id="b0e42q" name="9.png" path="/Res/newRes/" scale="9grid" scale9grid="89,14,21,4"/>
+    <image id="b0e42r" name="8.png" path="/Res/newRes/" scale="9grid" scale9grid="63,62,10,8"/>
+    <image id="b0e42s" name="7.PNG" path="/Res/newRes/"/>
+    <image id="b0e42t" name="6.png" path="/Res/newRes/"/>
+    <image id="b0e42u" name="5.PNG" path="/Res/newRes/"/>
+    <image id="b0e42v" name="4.png" path="/Res/newRes/"/>
+    <image id="b0e42w" name="3.PNG" path="/Res/newRes/"/>
+    <image id="b0e42x" name="2.png" path="/Res/newRes/" scale="9grid" scale9grid="65,14,130,28"/>
+    <image id="b0e42y" name="1.png" path="/Res/newRes/"/>
+    <image id="b0e42z" name="18.png" path="/Res/newRes/"/>
+    <component id="b0e431" name="DungeonStage.xml" path="/" exported="true"/>
+    <image id="b0e432" name="UI-04.png" path="/Res/"/>
+    <component id="b0e433" name="BtnChat.xml" path="/Component/"/>
+    <image id="b0e434" name="ICON-chat.png" path="/Res/"/>
+    <component id="b0e435" name="DungeonItem.xml" path="/Component/"/>
+    <component id="tw1c36" name="GetDungeonReward.xml" path="/" exported="true"/>
+    <image id="tw1c38" name="17.PNG" path="/Res/"/>
+    <component id="tw1c39" name="DungeonFailed.xml" path="/" exported="true"/>
+    <image id="nfkb3a" name="21.png" path="/Res/stageItem/"/>
+    <image id="nfkb3b" name="22.png" path="/Res/stageItem/"/>
+    <image id="nfkb3c" name="23.png" path="/Res/stageItem/"/>
+    <component id="pbu03d" name="DungeonStageDetail.xml" path="/" exported="true"/>
+    <image id="pbu03e" name="bg.png" path="/Res/newRes/" scale="tile" duplicatePadding="true"/>
+    <component id="pbu03f" name="RunAwayBtn.xml" path="/Component/"/>
+    <image id="txm43g" name="waring.png" path="/Res/stageItem/"/>
+    <image id="ow473h" name="nnnn1.png" path="/Res/newRes/"/>
+    <image id="ow473i" name="nnn2.png" path="/Res/newRes/" scale="9grid" scale9grid="13,25,26,7"/>
+    <image id="r2pa3j" name="19.PNG" path="/Res/newRes/"/>
+    <image id="njeb3k" name="sb2.PNG" path="/Res/"/>
+    <image id="rgi33o" name="boss_fight_bg11.png" path="/Res/battle/" scale="9grid" scale9grid="0,82,720,28"/>
+    <image id="rgi33p" name="boss_fight_bg12.png" path="/Res/battle/" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="rgi33t" name="combat_icon_02.png" path="/Res/battle/" scale="9grid" scale9grid="8,0,10,51"/>
+    <image id="e3id3u" name="gengeral_fight_bg01.png" path="/Res/battle/" scale="9grid" scale9grid="172,89,344,52"/>
+    <image id="e3id3v" name="世界-挑战传承BOSS_遭遇战.png" path="/Sample/"/>
+    <image id="llb1dxy2r" name="boss_bg51.png" path="/Res/"/>
+    <image id="llb1dxy2q" name="boss_fight_bg31.png" path="/Res/" scale="9grid" scale9grid="36,420,611,35"/>
+    <image id="llb13w" name="battle_fail_img11.png" path="/Res/"/>
+    <image id="llb13y" name="boss_fight_bg32.png" path="/Res/" scale="9grid" scale9grid="9,9,38,38"/>
+  </resources>
+  <publish name="DungeonMap" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,209" pivot="0.5,0.5" extention="Button">
+  <controller name="tag" pages="0,,1,,2," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="可领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <loader id="n8_ucd4" name="n8" xy="0,0" size="640,209" url="ui://1tqiwa7aucd4i" fill="scaleFree">
+      <gearIcon controller="tag" pages="1" values="ui://1tqiwa7aucd4f" default="ui://1tqiwa7aucd4i"/>
+    </loader>
+    <text id="n2_mg7g" name="n1" xy="230,8" size="179,39" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" text="第7天">
+      <gearDisplay controller="tag" pages="0,2"/>
+    </text>
+    <text id="n9_ucd4" name="n9" xy="290,8" size="60,39" fontSize="28" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="3" text="领取">
+      <gearDisplay controller="tag" pages="1"/>
+    </text>
+    <list id="n1_mg7g" name="rwList" xy="119,89" pivot="0.5,0.5" size="402,82" scale="1.3,1.3" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://5moj1x39ewjfdxy22" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_tcgl" name="rewardBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="0,0" size="640,209">
+      <gearDisplay controller="tag" pages="1"/>
+    </component>
+    <loader id="n10_ucd4" name="n10" xy="0,0" size="640,209" url="ui://1tqiwa7aucd4j" fill="scaleFree">
+      <gearDisplay controller="tag" pages="2"/>
+    </loader>
+    <component id="n11_n5nh" name="n11" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="603,5">
+      <gearDisplay controller="tag" pages="1"/>
+      <relation target="n8_ucd4" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

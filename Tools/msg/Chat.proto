@@ -1,0 +1,207 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+message Chat_CS
+{
+    // [default=eMsg_Chat_CS]
+    optional uint32 channel = 1;  		// 聊天消息频道(eChatChannel)
+    optional string content = 3;        // 聊天内容
+    optional uint64 receiver_guid = 5;  // 私聊：接收者guid;  世界频道：0;   公会频道：公会id;   语言频道：玩家所选的语种;
+}
+
+message Chat_SC
+{
+    // [default=eMsg_Chat_SC]
+    optional eErrCode err_code = 1; 	// 错误码
+    optional int64 forbid_end_time = 2;  // 被禁言时此值有含义，表示被禁言到这个时刻。（UTC秒数）
+    
+    optional uint32 channel = 3;  		// 聊天消息频道(eChatChannel)
+    
+    optional string content = 5;        // 聊天内容
+    optional int64  time_stamp = 7;     // 发送时间
+    
+    optional uint64 guid = 8;   		// 聊天消息guid，方便运营后台撤销某条消息
+    
+    optional uint64 receiver_guid = 13; // 私聊：接收者guid;世界频道：0;公会频道：公会id;语言频道：玩家所选的语种;
+}
+
+// 服务器推送给玩家消息
+message Chat_PC
+{
+    // [default=eMsg_Chat_PC]
+    optional uint64 guid = 1;   		// 聊天消息guid，方便运营后台撤销某条消息
+
+    optional uint32 channel = 2;  		// 聊天消息频道(eChatChannel)
+    optional uint64 sender_userid = 3;   // 发送者的user_id
+    optional string sender_name = 4;    // 发送者的名字
+    optional string content = 5;        // 聊天内容
+    optional int64  time_stamp = 7;     // 发送时间
+    optional int32 sender_icon = 8;     // 发送者的头像
+    optional int32 sender_icon_frame = 9;     // 发送者的头像框
+    
+
+    optional int32 sender_level = 13;   //发送者的等级
+    optional uint64 sender_guid = 14;   //发送者的playerguid
+	optional int32 sender_real_vip_lv = 15; 	// vip等级
+    
+    optional uint64 receiver_guid = 20; // 服务端使用,公会频道：公会id;语言频道：玩家所选的语种;
+	
+}
+
+// 请求频道历史消息记录(世界、系统、公会、语言)
+message ChatHistory_CS
+{
+    // [default=eMsg_ChatHistory_CS]
+    optional uint32 channel = 1;  		// 聊天消息频道(eChatChannel)
+    optional int32 count = 2;           // 请求历史消息数量
+    optional uint64 guid_begin = 3;     // 消息的起始标记
+    optional uint64 guild_guid = 4;     // 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+}
+
+// 请求频道历史消息记录回复
+message ChatHistory_SC
+{
+    // [default=eMsg_ChatHistory_SC]
+    optional uint32 channel = 1;  		// 聊天消息频道(eChatChannel)
+
+    optional eErrCode err_code = 2; 	// 错误码
+    repeated ChatInfo infos = 3;  		// 历史聊天消息列表
+    optional bool is_end = 4;			// 是否加载完毕
+    optional uint64 guild_guid = 5;     // 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+}
+
+// 后台撤销某条消息，根据消息guid
+message ChatRevoke_PC
+{
+    // [default=eMsg_ChatRevoke_PC]
+    optional int32 channel = 1;			// 聊天消息频道(eChatChannel)
+	optional uint64 guild_guid = 2;		// 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+	optional uint64 guid = 3;			// 聊天消息guid，方便运营后台撤销某条消息
+}
+
+// 后台撤销多条消息，根据消息guid
+message MultipleChatRevoke_PC
+{
+    // [default=eMsg_MultipleChatRevoke_PC]
+	
+	optional int32 channel = 1;			// 聊天消息频道(eChatChannel)
+	optional uint64 guild_guid = 2;		// 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+	repeated uint64 guid_list = 3;		// 聊天消息guid，方便运营后台撤销某条消息
+
+}
+
+
+
+
+// 黑名单玩家简要信息
+message BlockInfo{
+	optional uint64 player_guid = 1;    // 玩家guid
+    optional uint64 user_id = 2;          // 玩家user id
+	optional int32 icon = 3;            // 头像
+	optional int32 iconbox = 4;         // 头像框
+	optional int32 level = 5;           // 等级
+	optional string name = 6;           // 名字
+	optional int32 real_vip_lv = 7; 	// vip等级	
+}
+
+
+// 请求黑名单列表
+message Chat_BlockList_CS
+{
+    //[default=eMsg_Chat_BlockList_CS]
+}
+
+// 请求黑名单列表反馈
+message Chat_BlockList_SC
+{
+    //[default=eMsg_Chat_BlockList_SC]
+    repeated BlockInfo block_list = 1;
+    optional PktFlag pkt_flag = 2;
+}
+// 拉黑玩家
+message Chat_AddBlock_CS
+{
+    //[default=eMsg_Chat_AddBlock_CS]
+    optional uint64 block_guid = 1; // 被拉黑的玩家guid
+}
+// 拉黑玩家反馈
+message Chat_AddBlock_SC
+{
+    //[default=eMsg_Chat_AddBlock_SC]
+    optional BlockInfo info = 1;
+	optional eErrCode err_code = 2; // 错误码
+}
+// 取消拉黑玩家
+message Chat_CancelBlock_CS
+{
+    //[default=eMsg_Chat_CancelBlock_CS]
+    optional uint64 block_guid = 1; // 被拉黑的玩家guid
+}
+// 取消拉黑玩家反馈
+message Chat_CancelBlock_SC
+{
+    //[default=eMsg_Chat_CancelBlock_SC]
+	optional uint64 block_guid = 1; // 被拉黑的玩家guid
+	optional eErrCode err_code = 2; // 错误码
+}
+
+//点赞聊天消息
+message ChatSetLike_CS
+{
+    //[default=eMsg_ChatSetLike_CS]
+    optional uint64 guid = 1;   		// 聊天消息guid
+    optional uint32 channel = 2;  		// 聊天消息频道(eChatChannel)
+    optional uint64 guild_guid = 3;     // 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+
+}	
+
+//点赞聊天消息反馈
+message ChatSetLike_SC 
+{
+    //[default=eMsg_ChatSetLike_SC]
+    optional uint64 guid = 1;   		//聊天消息guid
+    optional uint32 like_cnt = 2;       //点赞数
+    repeated ItemEx rewards = 3;
+	optional eErrCode err_code = 4;
+    optional uint32 channel = 5;  		// 聊天消息频道(eChatChannel)
+    optional uint64 guild_guid = 6;     // 世界频道：0;系统频道:0;公会频道：公会id;语言频道：语种id;
+
+}
+// 请求玩家私聊离线消息
+message ChatOffline_CS
+{
+    //[default=eMsg_ChatOffline_CS]
+}
+// 请求玩家私聊离线消息反馈
+message ChatOffline_SC
+{
+    //[default=eMsg_ChatOffline_SC]
+    repeated ChatInfo infos = 1;  		// 私聊离线消息列表
+    optional PktFlag pkt_flag = 2;
+}
+
+// 聊天表情解锁列表
+message GetChatEmojiUnlockList_CS {  //eMsg_GetChatEmojiUnlockList_CS
+}
+
+// 聊天表情解锁列表反馈
+message GetChatEmojiUnlockList_SC {	//eMsg_GetChatEmojiUnlockList_SC
+	message ChatEmoji
+	{
+		optional uint32 id = 1;
+	}
+	repeated ChatEmoji list = 1;	// 解锁列表
+}
+
+// 新解锁推送
+message NewChatEmojiUnlock_PC {	//eMsg_NewChatEmojiUnlock_PC
+	message ChatEmoji
+	{
+		optional uint32 id = 1;
+	}
+	repeated ChatEmoji list = 1;	// 解锁列表
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="ctrl" pages="0,,1," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+  </controller>
+  <controller name="rolePos" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <graph id="n7_ddc1" name="window" xy="166,421" size="100,100" touchable="false" lineSize="0"/>
+    <image id="n0_uq40" name="n6" src="uq40dxy47" fileName="Res/guideRes/g2.png" xy="165,422" pivot="0.5,0.5" size="100,100" visible="false">
+      <relation target="n7_ddc1" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n0_uq40" tween="true" startValue="1,1" endValue="2,2" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

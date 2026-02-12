@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,116" pivot="0.5,0.5" anchor="true" opaque="false">
+  <controller name="ctrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+    <remark page="2" value="上"/>
+  </controller>
+  <displayList>
+    <loader3D id="n6_g9p0" name="n6" xy="-40,-42" pivot="0.5,0.5" size="200,200" touchable="false" url="ui://0anhreylg9p0dxyhz" animation="Common_pmdj" skin="" loop="true"/>
+    <component id="n2_ddc1" name="n2" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" xy="29,34" pivot="0.5,0.5" touchable="false">
+      <gearDisplay controller="ctrl" pages="0,1"/>
+    </component>
+    <component id="n5_ddc1" name="n5" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" xy="43,-52" pivot="0.5,0.5" rotation="-109" touchable="false">
+      <gearDisplay controller="ctrl" pages="2"/>
+    </component>
+  </displayList>
+</component>

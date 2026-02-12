@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="298,108" pivot="0.5,0.5" extention="Button" designImage="ui://s7x7ku0ni9sldxy0n" designImageOffsetX="-130" designImageOffsetY="-900" designImageAlpha="0">
+  <controller name="rewardCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="未完成"/>
+    <remark page="1" value="完成"/>
+  </controller>
+  <controller name="showTask" pages="0,,1," selected="0">
+    <remark page="0" value="显示"/>
+    <remark page="1" value="不显示"/>
+  </controller>
+  <controller name="taskType" pages="0,,1," selected="0">
+    <remark page="0" value="正常奖励"/>
+    <remark page="1" value="直接奖励"/>
+  </controller>
+  <controller name="showHandle" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <controller name="type" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="狩猎"/>
+    <remark page="1" value="主线"/>
+  </controller>
+  <displayList>
+    <loader id="n94_a2kw" name="n94" xy="0,0" size="298,108" align="center" vAlign="middle"/>
+    <loader id="n99_llb1" name="n99" xy="0,0" size="298,108" url="ui://pdufy3kellb1ije" vAlign="bottom">
+      <gearIcon controller="type" pages="1" values="ui://pdufy3kellb1ijj" default="ui://pdufy3kellb1ije"/>
+    </loader>
+    <loader id="n104_llb1" name="n104" xy="-2,24" size="84,84" url="ui://pdufy3kellb1ijf" align="center" vAlign="middle">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+    </loader>
+    <component id="n100_llb1" name="rewardItem" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="5,31" scale="0.9,0.9">
+      <relation target="n99_llb1" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <text id="n103_llb1" name="n103" xy="9,52" size="64,29" fontSize="20" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="可领取">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n100_llb1" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n83_nif6" name="taskName" xy="109,13" size="57,29" visible="false" fontSize="20" color="#ffe9c8" align="center" vAlign="middle" letterSpacing="1" vars="true" bold="true" strokeColor="#473323" strokeSize="2" singleLine="true" text="任务{value=1}">
+      <gearColor controller="rewardCtrl" pages="0,1" values="#ffffff,#473323|#ffe9c8,#473323"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n93_f34j" name="n93" xy="63,75" size="40,40" visible="false" url="ui://0anhreylf34jdxy9n" fill="scaleFree">
+      <relation target="n86_nif6" sidePair="left-left"/>
+    </loader>
+    <text id="n86_nif6" name="reward" xy="104,77" size="45,34" visible="false" fontSize="24" color="#ffe9c8" vAlign="middle" letterSpacing="1" vars="true" bold="true" strokeColor="#473323" strokeSize="2" singleLine="true" text="{value=666}">
+      <gearColor controller="rewardCtrl" pages="0,1" values="#ffffff,#473323|#ffe9c8,#473323"/>
+    </text>
+    <text id="n73_pdpa" name="typeName" xy="80,35" size="218,34" group="n80_ju03" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="1" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="挑战关卡86-6">
+      <gearDisplay controller="rewardCtrl" pages="0,1"/>
+      <gearXY controller="taskType" pages="0,1" values="80,35|80,35"/>
+      <gearColor controller="rewardCtrl" pages="0,1" values="#ffffff,#000000|#ffffff,#000000"/>
+      <gearText controller="taskType" pages="1" values="消灭怪物" default="挑战关卡86-6"/>
+      <relation target="n94_a2kw" sidePair="center-center"/>
+    </text>
+    <text id="n95_tdju" name="typeName2" xy="117,30" size="147,34" group="n80_ju03" visible="false" fontSize="24" color="#4c2911" bold="true" text="挑战关卡86-6">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n94_a2kw" sidePair="center-center"/>
+    </text>
+    <text id="n74_pdpa" name="txtProgress" xy="144,65" size="91,34" group="n80_ju03" visible="false" fontSize="24" color="#ffe9c8" align="center" vAlign="middle" letterSpacing="2" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#473323" strokeSize="2" singleLine="true" text="({min=9999}/{max=9999})">
+      <gearDisplay controller="taskType" pages="0"/>
+      <gearColor controller="rewardCtrl" pages="0,1" values="#ffffff,#000000|#ffe9c8,#473323"/>
+      <gearDisplay2 controller="rewardCtrl" pages="0" condition="0"/>
+      <relation target="n94_a2kw" sidePair="center-center"/>
+    </text>
+    <text id="n96_tdju" name="txtProgress2" xy="144,67" size="84,29" group="n80_ju03" visible="false" fontSize="20" color="#fcf78e" bold="true" strokeColor="#4c2911" strokeSize="2" text="领取奖励">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n94_a2kw" sidePair="center-center"/>
+    </text>
+    <group id="n80_ju03" name="n80" xy="80,30" size="218,69" advanced="true">
+      <gearDisplay controller="showTask" pages="0"/>
+    </group>
+    <component id="n102_llb1" name="taskBar" src="llb1ijk" fileName="Component/TaskBarExp.xml" xy="87,73">
+      <gearDisplay controller="showTask" pages="0"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n81_ju03" name="n81" xy="93,51" size="174,34" fontSize="24" color="#fee97d" autoSize="none" bold="true" strokeColor="#473323" strokeSize="2" text="您还未接受任务">
+      <gearDisplay controller="showTask" pages="1"/>
+    </text>
+    <component id="n77_pp3i" name="n77" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="266,25" size="28,27">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n88_ibgi" name="n88" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="125,34" touchable="false">
+      <gearDisplay controller="showHandle" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

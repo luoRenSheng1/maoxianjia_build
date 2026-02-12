@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_baxf" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_baxf" name="headIconChange" src="baxfx" fileName="Component/HeadIconChange.xml" xy="62,186">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_baxf" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,814">
+      <relation target="n1_baxf" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

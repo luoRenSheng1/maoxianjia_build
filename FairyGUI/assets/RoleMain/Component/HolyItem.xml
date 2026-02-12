@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,135" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="status" pages="0,,1,,2," selected="0">
+    <remark page="0" value="解锁未装备"/>
+    <remark page="1" value="解锁已装备"/>
+    <remark page="2" value="未解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n3_a2kw" name="n3" xy="4,21" size="114,114" url="ui://5moj1x39f34jdxyb6" fill="scaleFree">
+      <gearSize controller="button" pages="1" values="122,122,1,1" default="114,114,1,1"/>
+      <gearIcon controller="button" pages="1" values="ui://m37flevdf34jdxya8" default="ui://5moj1x39f34jdxyb6"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n4_a2kw" name="icon" xy="15,32" size="92,92" url="ui://m37flevdrm2cdxy6l" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n8_a2kw" name="level" xy="35,97" size="52,34" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=1}">
+      <gearDisplay controller="status" pages="0,1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n5_a2kw" name="n5" xy="23,96" size="76,34" fontSize="24" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="2" text="已装备">
+      <gearDisplay controller="status" pages="1"/>
+    </text>
+    <loader id="n6_a2kw" name="n6" xy="4,21" size="114,114" url="ui://5moj1x39a2kwdxyc7" fill="scaleFree">
+      <gearDisplay controller="status" pages="2"/>
+      <gearSize controller="button" pages="0" values="114,114,1,1" default="122,122,1,1"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n10_a2kw" name="flag" xy="37,1" pivot="0.5,0.5" size="48,48" rotation="180" url="ui://5moj1x39f34jdxyal" fill="scaleFree">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n11_a2kw" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="90,13" visible="false"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

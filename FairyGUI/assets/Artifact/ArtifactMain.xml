@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://v9y2d69nf34jdxy9y" designImageAlpha="0" designImageLayer="1">
+  <controller name="status" pages="0,,1,,2," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="满级"/>
+    <remark page="2" value="材料不够"/>
+  </controller>
+  <controller name="isMax" pages="0,,1," selected="0">
+    <remark page="0" value="没满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <displayList>
+    <component id="n0_kqmi" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n33_kqmi" name="diaCurBtn" src="btyu3g" fileName="Component/Extension/BtnCurrency.xml" pkg="0anhreyl" xy="42,128" group="n35_kqmi">
+      <Button icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+    <component id="n34_kqmi" name="itemCurBtn" src="btyu3g" fileName="Component/Extension/BtnCurrency.xml" pkg="0anhreyl" xy="229,128" group="n35_kqmi"/>
+    <group id="n35_kqmi" name="n35" xy="42,128" size="363,50" group="n36_kqmi" visible="false" advanced="true"/>
+    <loader id="n42_f34j" name="n42" xy="16,70" size="688,1043" group="n36_kqmi" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n2_kqmi" name="n2" xy="326,86" size="68,44" group="n36_kqmi" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="神器">
+      <relation target="n42_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n5_kqmi" name="tabList" xy="44,183" size="632,76" group="n36_kqmi" layout="row" colGap="13" defaultItem="ui://v9y2d69nkqmidxy9a" align="center" vAlign="middle">
+      <item title="盾牌" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="勋章" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="符石" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+      <item title="职印" icon="ui://5moj1x39f34jdxya4" selectedIcon="ui://5moj1x39f34jdxya6"/>
+    </list>
+    <loader id="n23_kqmi" name="n23" xy="52,268" size="616,198" group="n36_kqmi" url="ui://v9y2d69nc2gldxy9e"/>
+    <loader id="n43_f34j" name="n43" xy="40,477" size="640,112" group="n15_kqmi" url="ui://5moj1x39f34jdxyau" fill="scaleFree"/>
+    <text id="n13_kqmi" name="name" xy="146,498" size="100,34" group="n15_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="神器名称"/>
+    <text id="n14_kqmi" name="desc" xy="146,535" size="502,29" group="n15_kqmi" fontSize="20" color="#4c2911" vAlign="middle" autoSize="shrink" bold="true" text="物品描述"/>
+    <component id="n41_hz5c" name="itemBtn2" src="hz5cdxy9w" fileName="Component/ArtifactItem.xml" xy="56,492" group="n15_kqmi"/>
+    <group id="n15_kqmi" name="n15" xy="40,477" size="640,112" group="n36_kqmi"/>
+    <loader id="n46_ucd4" name="n46" xy="40,603" size="640,16" group="n36_kqmi" url="ui://5moj1x39f34jdxyb9" fill="scaleFree"/>
+    <loader id="n44_f34j" name="n44" xy="40,636" size="640,287" group="n24_kqmi" url="ui://v9y2d69na2kwdxya1" fill="scaleFree"/>
+    <text id="n10_kqmi" name="n10" xy="310,645" size="100,34" group="n24_kqmi" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="升级预览">
+      <relation target="n44_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n19_kqmi" name="curLv" xy="176,704" size="54,34" group="n26_kqmi" fontSize="24" color="#ffffff" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{curLv=19}级"/>
+    <text id="n20_kqmi" name="nextLv" xy="484,704" size="74,34" group="n26_kqmi" fontSize="24" color="#b8df13" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="{next=20}级"/>
+    <list id="n18_kqmi" name="attrList" xy="104,753" size="481,146" group="n26_kqmi" overflow="scroll" lineGap="15" defaultItem="ui://v9y2d69nkqmidxy9b" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n45_f34j" name="n45" src="f34jdxy9z" fileName="Res/ordinary_icon3.png" xy="344,712" group="n26_kqmi"/>
+    <group id="n26_kqmi" name="n26" xy="104,704" size="481,195" group="n24_kqmi" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+    </group>
+    <text id="n27_kqmi" name="maxLv" xy="333,711" size="54,34" group="n29_kqmi" fontSize="24" color="#9bf452" vars="true" bold="true" strokeColor="#000000" text="{max=33}级">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n28_kqmi" name="maxList" xy="235,756" size="250,143" group="n29_kqmi" overflow="scroll" lineGap="15" defaultItem="ui://v9y2d69nkqmidxy9c" align="center">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n29_kqmi" name="n29" xy="235,711" size="250,188" group="n24_kqmi" advanced="true">
+      <gearDisplay controller="isMax" pages="1"/>
+    </group>
+    <group id="n24_kqmi" name="n24" xy="40,636" size="640,287" group="n36_kqmi"/>
+    <component id="n47_ucd4" name="upLvBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,997" size="218,84" group="n36_kqmi">
+      <gearLook controller="status" pages="1,2" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="status" pages="1" values="已满级" default="升级"/>
+      <Button title="升级" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n16_kqmi" name="tabCom1" src="kqmidxy8g" fileName="Component/TabCom.xml" pkg="5moj1x39" xy="225,952" size="132,40" group="n25_kqmi"/>
+    <component id="n17_kqmi" name="tabCom2" src="kqmidxy8g" fileName="Component/TabCom.xml" pkg="5moj1x39" xy="372,952" size="132,40" group="n25_kqmi"/>
+    <group id="n25_kqmi" name="n25" xy="225,952" size="269,24" group="n36_kqmi" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+    </group>
+    <component id="n30_kqmi" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="325,1133" size="76,76" group="n36_kqmi">
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n36_kqmi" name="n36" xy="16,70" size="688,1139" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

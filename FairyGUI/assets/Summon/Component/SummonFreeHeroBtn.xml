@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_surf" name="n0" xy="0,0" size="218,84" url="ui://5moj1x39f34jdxyah" fill="scaleFree"/>
+    <text id="n1_surf" name="n1" xy="62,7" size="93,34" fontSize="24" color="#ffffff" align="center" vars="true" autoSize="none" bold="true" strokeColor="#25211d" strokeSize="2" text="召唤{value=1}次"/>
+    <text id="n5_q9cg" name="n5" xy="82,37" size="54,34" fontSize="24" color="#ffffff" autoSize="none" bold="true" strokeColor="#25211d" strokeSize="2" text="免费"/>
+    <component id="n6_qc4n" name="n6" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="186,0"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

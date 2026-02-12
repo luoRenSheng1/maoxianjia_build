@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="704,178">
+  <controller name="isSelected" pages="0,,1," selected="0">
+    <remark page="0" value="不选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <loader id="n0_w224" name="n0" xy="0,0" size="704,178" url="ui://pdufy3kep2jcidq" align="center" vAlign="middle">
+      <gearIcon controller="isSelected" pages="1" values="ui://pdufy3kep2jcido" default="ui://pdufy3kep2jcidq"/>
+    </loader>
+    <component id="n3_w224" name="ruinBtn" src="w224idi" fileName="Component/RuinBtn.xml" xy="33,32"/>
+    <text id="n1_w224" name="name" xy="170,18" size="218,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="遗迹BUFF名称"/>
+    <loader id="n6_p2jc" name="n6" xy="560,27" size="120,34" group="n7_p2jc" url="ui://5moj1x39a2kwdxyc8" fill="scaleFree"/>
+    <loader id="n4_w224" name="n4" xy="539,24" size="40,40" group="n7_p2jc" url="ui://5moj1x39f34jdxyaz" align="center" vAlign="middle">
+      <relation target="n6_p2jc" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n5_w224" name="ruinTime" xy="595,29" size="48,29" group="n7_p2jc" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=125}s">
+      <relation target="n6_p2jc" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n7_p2jc" name="n7" xy="539,24" size="141,40" advanced="true">
+      <relation target="n0_w224" sidePair="right-right,top-top"/>
+    </group>
+    <list id="n9_p2jc" name="attrList" xy="169,78" size="508,68" layout="flow_hz" overflow="scroll" colGap="20" defaultItem="ui://pdufy3kep2jcidr">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden">
+  <controller name="freeCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="有免费"/>
+    <remark page="1" value="没有免费"/>
+  </controller>
+  <displayList>
+    <graph id="n9_q9cg" name="n9" xy="0,0" size="720,1269" type="rect" lineSize="0" fillColor="#ff070a0e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n19_t89j" name="n191" xy="0,1269" size="720,11" type="rect" lineSize="0" fillColor="#ff091121">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </graph>
+    <loader3D id="n3_q9cg" name="girlSpine" xy="-790,-98" size="2016,1675" url="ui://i7ojazuuldok2t" align="center" vAlign="middle" animation="idle" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n4_q9cg" name="giftBtn" src="q9cgy" fileName="Component/functionBtn.xml" xy="39,180">
+      <Button title="特权礼包"/>
+    </component>
+    <component id="n5_q9cg" name="tipsBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="664,56" size="40,40">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://5moj1x39ddc14i"/>
+    </component>
+    <component id="n7_q9cg" name="ticketLb" src="surf4" fileName="Component/Currency.xml" xy="39,56">
+      <Label titleFontSize="26" icon="ui://i7ojazuuq9cgw"/>
+    </component>
+    <component id="n21_f34j" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1151" size="84,84" group="n8_q9cg">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <component id="n1_q9cg" name="summon1" src="surfd" fileName="Component/SummonHeroBtn.xml" xy="99,1019" group="n8_q9cg">
+      <gearDisplay controller="freeCtrl" pages="1"/>
+      <Button icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n2_q9cg" name="summon10" src="surfd" fileName="Component/SummonHeroBtn.xml" xy="403,1019" group="n8_q9cg" controller="typeCtrl,1"/>
+    <component id="n10_q9cg" name="summonFree" src="q9cg11" fileName="Component/SummonFreeHeroBtn.xml" xy="98,1019" group="n8_q9cg">
+      <gearDisplay controller="freeCtrl" pages="0"/>
+    </component>
+    <text id="n13_ibgi" name="n13" xy="412,1112" size="206,29" group="n8_q9cg" fontSize="20" color="#ffffff" align="center" ubb="true" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="10连必出[color=#ff1515]传说[/color]英雄碎片"/>
+    <image id="n22_f34j" name="n22" src="f34jdxyaz" fileName="Res/newItem2/general_clock_icon.png" pkg="5moj1x39" xy="106,1112" group="n14_h4wb"/>
+    <text id="n11_ibgi" name="freeTimeLb" xy="132,1113" size="179,29" group="n14_h4wb" fontSize="20" color="#ffffff" align="center" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="{value=10:00:00}后免费"/>
+    <group id="n14_h4wb" name="n14" xy="106,1112" size="205,32" group="n8_q9cg" advanced="true">
+      <gearDisplay controller="freeCtrl" pages="1"/>
+    </group>
+    <group id="n8_q9cg" name="group" xy="98,1019" size="523,216" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n17_rmxq" name="n17" src="ftc929" fileName="Res/gift/hyjtruj.png" xy="104,114" group="n18_ac2s"/>
+    <loader id="n20_pm0b" name="yxjj" xy="241,104" size="261,98" group="n18_ac2s" url="ui://i7ojazuurmxq2w" align="center" vAlign="middle"/>
+    <group id="n18_ac2s" name="n18" xy="104,104" size="512,104" advanced="true">
+      <relation target="n3_q9cg" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

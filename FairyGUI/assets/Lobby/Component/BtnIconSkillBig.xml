@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="ctrlAuto" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n1_pdpa" name="icon" xy="0,0" size="84,84" url="ui://s7x7ku0nnjebdxy5r" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearIcon controller="ctrlAuto" pages="0,1" values="ui://s7x7ku0nnjebdxy5q|ui://s7x7ku0nnjebdxy5r"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_u84q" name="n2" xy="22,17" size="40,50" fontSize="18" color="#ffffff" bold="true" strokeColor="#af440d" strokeSize="2" text="自动&#xA;  开">
+      <gearDisplay controller="ctrlAuto" pages="1"/>
+    </text>
+    <text id="n3_u84q" name="n3" xy="22,17" size="40,50" fontSize="18" color="#ffffff" bold="true" strokeColor="#4f5d13" strokeSize="2" text="自动&#xA;  关">
+      <gearDisplay controller="ctrlAuto" pages="0"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+  <transition name="t0" autoPlay="true"/>
+</component>

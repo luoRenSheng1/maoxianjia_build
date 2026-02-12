@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlucd4dxy9q" designImageAlpha="0" designImageLayer="1">
+  <controller name="typeCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="传承"/>
+  </controller>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="装备"/>
+    <remark page="1" value="卸下"/>
+  </controller>
+  <controller name="hasEntry" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="没有"/>
+  </controller>
+  <displayList>
+    <loader id="n176_ucd4" name="n176" xy="109,352" size="512,619" group="n192_ucd4" url="ui://ddc23erlucd4dxy9t" fill="scaleFree">
+      <gearSize controller="typeCtrl" pages="1" values="512,559,1,1" default="512,619,1,1"/>
+      <relation target="n185_ucd4" sidePair="height-height"/>
+    </loader>
+    <component id="n177_ucd4" name="comEquipItem2" src="skp6p" fileName="Component/ComEquipItem.xml" pkg="5moj1x39" xy="138,383" group="n192_ucd4">
+      <relation target="n176_ucd4" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n178_ucd4" name="txtEquipItem" xy="273,401" size="148,34" group="n192_ucd4" fontSize="24" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="新装备的名称">
+      <relation target="n177_ucd4" sidePair="left-right"/>
+    </text>
+    <text id="n179_ucd4" name="equipLv" xy="273,444" size="68,34" group="n192_ucd4" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=16}">
+      <relation target="n177_ucd4" sidePair="left-right"/>
+    </text>
+    <image id="n191_ucd4" name="newIcon" src="ucd4dxy9r" fileName="Res/new2/ordinary_bg51.png" xy="98,309" group="n192_ucd4">
+      <relation target="n176_ucd4" sidePair="left-left,top-top"/>
+    </image>
+    <loader id="n180_ucd4" name="n180" xy="129,521" size="472,48" group="n192_ucd4" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="n176_ucd4" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n181_ucd4" name="n181" xy="302,527" size="52,34" group="n183_ucd4" fontSize="24" color="#4c2911" bold="true" text="战力"/>
+    <text id="n182_ucd4" name="fightLb" xy="361,528" size="57,34" group="n183_ucd4" fontSize="24" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="2" text="+600"/>
+    <group id="n183_ucd4" name="n183" xy="302,527" size="116,35" group="n192_ucd4" advanced="true" layout="hz" colGap="7" excludeInvisibles="true">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="n180_ucd4" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n184_ucd4" name="mainAttrList2" xy="185,584" size="360,35" group="n193_llb1" defaultItem="ui://ddc23erlskp6o">
+      <relation target="n176_ucd4" sidePair="center-center"/>
+      <item/>
+    </list>
+    <list id="n185_ucd4" name="attrsList2" xy="185,629" size="360,182" group="n193_llb1" defaultItem="ui://ddc23erlx3dk1f">
+      <relation target="n176_ucd4" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n193_llb1" name="n193" xy="185,584" size="360,227" group="n192_ucd4" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true">
+      <gearXY controller="typeCtrl" pages="0,1" values="185,584|185,522"/>
+      <relation target="n176_ucd4" sidePair="top-top"/>
+    </group>
+    <loader id="n186_ucd4" name="n186" xy="127,825" size="476,16" group="n192_ucd4" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n176_ucd4" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n187_ucd4" name="btnEquip2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="256,856" size="218,84" group="n192_ucd4">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="n176_ucd4" sidePair="center-center,bottom-bottom"/>
+      <Button title="装备" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n188_ucd4" name="recycleBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="154,856" size="190,84" group="n192_ucd4">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="n176_ucd4" sidePair="bottom-bottom"/>
+      <Button title="回收" titleFontSize="32" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n189_ucd4" name="upLoadBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="387,856" size="190,84" group="n192_ucd4">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <gearDisplay2 controller="status" pages="0" condition="0"/>
+      <relation target="n176_ucd4" sidePair="bottom-bottom"/>
+      <Button title="装备" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n190_ucd4" name="downBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="387,856" size="190,84" group="n192_ucd4">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <gearDisplay2 controller="status" pages="1" condition="0"/>
+      <relation target="n176_ucd4" sidePair="bottom-bottom"/>
+      <Button title="卸下" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n192_ucd4" name="n192" xy="98,309" size="523,662" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="type" pages="0,其它类型,1,宠物类型" selected="0"/>
+  <displayList>
+    <component id="n40_l8pn" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n46_f34j" name="n46" xy="16,379" size="688,545" group="n18_jvjm" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <component id="n51_om2e" name="Btn3" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="560,489" size="120,84" group="n18_jvjm" visible="false">
+      <Button title="预览" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n48_rjj2" name="Btn1" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="391,807" size="218,84" group="n50_rjj2">
+      <Button title="前往挖掘" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n49_rjj2" name="Btn2" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="111,807" size="218,84" group="n50_rjj2">
+      <Button title="我再逛逛" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <group id="n50_rjj2" name="twoBtns" xy="111,807" size="498,84" group="n18_jvjm" visible="false" advanced="true"/>
+    <loader id="n7_s4e7" name="icon" xy="176,500" size="368,200" group="n18_jvjm" url="ui://pdufy3kep9n01y" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n47_jbm2" name="petIcon" xy="40,483" size="640,232" group="n18_jvjm" url="ui://pdufy3kejbm2ib5" align="center" vAlign="middle" fill="scale" autoSize="true" clearOnPublish="true">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n45_f34j" name="n45" src="f34jdxya1" fileName="Res/newItem2/general_title_bg2.png" pkg="5moj1x39" xy="109,354" group="n33_syvc"/>
+    <text id="n2_f7h7" name="name" xy="294,370" size="132,44" group="n33_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="深渊领主">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n33_syvc" name="n33" xy="109,354" size="502,94" group="n18_jvjm" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n14_jvjm" name="desc" xy="41,732" size="639,68" group="n44_p9n0" fontSize="28" color="#3c3c3c" align="center" vAlign="middle" autoSize="none" bold="true" text="埋藏的远古冒险者收集的宝藏">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n44_p9n0" name="n44" xy="41,732" size="639,68" group="n18_jvjm"/>
+    <component id="n5_f7h7" name="btnFight" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="252,807" size="218,84" group="n35_syvc">
+      <Button titleFontSize="24" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n34_syvc" name="txtBtn" xy="261,827" size="200,39" group="n35_syvc" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="开启遗迹或宝箱">
+      <relation target="n5_f7h7" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n35_syvc" name="oneBtns" xy="252,807" size="218,84" group="n18_jvjm" advanced="true"/>
+    <group id="n18_jvjm" name="n18" xy="16,354" size="688,570" group="n29_jvjm"/>
+    <group id="n29_jvjm" name="n29" xy="16,354" size="688,570" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n2_qt85" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n12_ju03" name="n12" xy="33,357" size="654,582" group="n8_qt85" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n13_ju03" name="n13" xy="33,336" size="654,91" group="n8_qt85" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <component id="n1_qt85" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="628,345" size="47,43" group="n8_qt85" aspect="true"/>
+    <text id="n6_qt85" name="n6" xy="283,343" size="154,42" group="n8_qt85" fontSize="30" color="#ffffff" strokeColor="#1c8887" text="选择服务器"/>
+    <list id="n10_q36t" name="serverList" xy="74,428" size="572,395" group="n8_qt85" layout="flow_hz" overflow="scroll" lineGap="20" colGap="20" defaultItem="ui://zs0w02qtq36tq" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_q36t" name="changeSerBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="265,859" size="190,64" group="n8_qt85">
+      <Button title="切换服务器" titleColor="#846248" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <group id="n8_qt85" name="n8" xy="33,336" size="654,603" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

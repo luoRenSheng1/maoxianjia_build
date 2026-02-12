@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="freeType" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_qt85" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n12_ju03" name="n12" xy="16,383" size="688,410" group="n10_qt85" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <image id="n14_f34j" name="n14" src="f34jdxyav" fileName="Res/newItem2/general_top_bg13.png" pkg="5moj1x39" xy="88,530" size="544,66" group="n10_qt85"/>
+    <component id="n1_qt85" name="closeBtn" src="hpffdxy2u" fileName="Component/CloseBtn.xml" pkg="5moj1x39" xy="318,820" size="84,76" group="n10_qt85" aspect="true"/>
+    <text id="n6_qt85" name="n6" xy="326,402" size="68,44" group="n10_qt85" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="修改"/>
+    <text id="n7_qt85" name="ipt" xy="116,541" size="488,42" group="n10_qt85" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="" input="true" prompt="可输入2-8个字，只能输入汉字，英文，数字" maxLength="8" restrict="^[\u4e00-\u9fa5a-zA-Z0-9]+$">
+      <relation target="n14_f34j" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_qt85" name="tips" xy="185,628" size="349,34" group="n10_qt85" visible="false" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="*不符合命名规则，需要修改名称"/>
+    <component id="n5_qt85" name="freeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,679" size="218,84" group="n10_qt85">
+      <gearDisplay controller="freeType" pages="0"/>
+      <Button title="免费" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n11_q36t" name="moneyBtn" src="qonndxy4r" fileName="Component/EmptyDimandBtn.xml" pkg="5moj1x39" xy="251,679" size="218,84" group="n10_qt85" aspect="true">
+      <gearDisplay controller="freeType" pages="1"/>
+      <Button title="购买" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n10_qt85" name="n10" xy="16,383" size="688,513" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

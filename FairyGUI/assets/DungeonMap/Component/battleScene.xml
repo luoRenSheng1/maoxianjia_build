@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,400">
+  <displayList>
+    <component id="n4_vs59" name="map" src="gwxt7" fileName="Component/battleMap.xml" xy="0,0" size="720,400">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <component id="n6_vs59" name="obj" src="gwxtc" fileName="Component/battleObject.xml" xy="0,0" size="720,400">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <component id="n5_vs59" name="fly" src="gwxtd" fileName="Component/battleFly.xml" xy="0,1" size="720,399">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

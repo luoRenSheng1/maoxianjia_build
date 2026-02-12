@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,50" pivot="0.5,0.5" extention="Button" designImage="ui://v1wfpt3li9slj" designImageOffsetX="-378" designImageOffsetY="-338" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="itemType" exported="true" homePageType="specific" homePage="2" pages="24,1,25,2,0,3" selected="2"/>
+  <displayList>
+    <loader id="n9_a4i1" name="clicker" xy="1,10" size="141,39"/>
+    <image id="n11_kaug" name="n11" src="i9sl1r" fileName="Res/UI-04.png" xy="29,7"/>
+    <loader id="n6_h8jp" name="icon" xy="8,8" pivot="0.5,0.5" size="30,30" aspect="true" touchable="false" url="ui://0anhreyldd3xdxxxa" fill="scaleFree" autoSize="true" clearOnPublish="true">
+      <gearIcon controller="itemType" pages="24,25" values="ui://0anhreylf34jdxy9m|ui://0anhreylf34jdxy9n" default="ui://0anhreyldd3xdxxxa"/>
+    </loader>
+    <text id="n3_uzka" name="txtValue" xy="57,11" size="84,28" fontSize="19" color="#e4e4e4" vAlign="middle" letterSpacing="1" autoSize="height" singleLine="true" autoClearText="true" text="11546"/>
+    <image id="n13_i9sl" name="n13" src="i9sl20" fileName="Res/ICON-+.png" xy="29,20"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <transition name="reacts">
+    <item time="0" type="Scale" target="n6_h8jp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3"/>
+    <item time="3" type="Scale" target="n6_h8jp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3"/>
+  </transition>
+</component>

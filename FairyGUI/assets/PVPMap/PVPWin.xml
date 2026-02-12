@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://zoxecbv2xezf3o">
+  <displayList>
+    <component id="n4_auqc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n16_xezf" name="n16" xy="0,185" size="720,500" group="n14_auqc" url="ui://h7b921iwucd4dxy2n">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </loader>
+    <loader id="n18_xezf" name="n18" xy="0,747" size="720,130" group="n14_auqc" url="ui://zoxecbv2xezf3j" fill="scaleFree">
+      <relation target="n16_xezf" sidePair="top-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n6_auqc" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="267,689" size="218,84" group="n14_auqc" visible="false">
+      <Button title="确定" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n17_xezf" name="n17" xy="329,761" size="80,80" group="n14_auqc" url="ui://zoxecbv2xezf3f">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <component id="n7_auqc" name="myHeadIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="169,735" group="n14_auqc">
+      <relation target="n16_xezf" sidePair="top-bottom"/>
+    </component>
+    <component id="n8_auqc" name="enemyHeadIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="478,735" group="n14_auqc">
+      <relation target="n16_xezf" sidePair="top-bottom"/>
+    </component>
+    <text id="n10_auqc" name="myNameLb" xy="166,837" pivot="0.5,0.5" size="100,34" group="n14_auqc" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="疯狂帕度">
+      <relation target="n7_auqc" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n11_auqc" name="enemyNameLb" xy="477,837" pivot="0.5,0.5" size="100,34" group="n14_auqc" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="疯狂帕度">
+      <relation target="n8_auqc" sidePair="center-center,top-bottom"/>
+    </text>
+    <group id="n14_auqc" name="n14" xy="0,185" size="720,692" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

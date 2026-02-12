@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <graph id="n54_sylb" name="n54" xy="0,-75" size="720,438" type="rect" fillColor="#ff0c0c14">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <loader3D id="n20_ddc1" name="spine" xy="260,101" size="280,228" url="ui://m37flevducd4dxydr" animation="RoleMain_shubanner" skin="" loop="true">
+      <relation target="n14_p4bn" sidePair="top-top"/>
+    </loader3D>
+    <loader id="n61_klzx" name="n61" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxyce">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n59_jsfx" name="n59" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxycd" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n14_p4bn" name="rlLoader" xy="0,321" size="720,730" url="ui://5moj1x39f34jdxyay" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <image id="n57_f34j" name="n57" src="f34jdxya2" fileName="Res/newItem2/general_title_bg1.png" pkg="5moj1x39" xy="0,314" size="720,70">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n14_p4bn" sidePair="top-top"/>
+    </image>
+    <text id="n58_f34j" name="n58" xy="302,324" size="116,39" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="2" text="技能列表">
+      <relation target="n57_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n60_a2kw" name="skillItemBg" xy="16,562" size="688,275" url="ui://5moj1x39a2kwdxyc9" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+    </loader>
+    <list id="n0_jp5j" name="SkillAllList" xy="32,578" size="656,245" layout="flow_hz" overflow="scroll" lineGap="16" colGap="16" defaultItem="ui://5moj1x39iqvadxy67" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n33_k627" name="allStrengthBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,920" size="218,84">
+      <relation target="n14_p4bn" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <Button title="批量强化" titleFontSize="28" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n53_shh7" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="431,924" visible="false">
+      <relation target="n33_k627" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n34_k627" name="n34" xy="228,882" size="104,29" group="n38_k627" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="加成效果："/>
+    <text id="n36_k627" name="atkLb" xy="322,882" size="169,29" group="n38_k627" fontSize="20" color="#fce76f" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="技能伤害+{value=15000}%"/>
+    <group id="n38_k627" name="n38" xy="228,882" size="263,29" advanced="true">
+      <relation target="n14_p4bn" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n56_f34j" name="n56" src="f34jdxyaf" fileName="Res/newItem2/general_line2.png" pkg="5moj1x39" xy="16,529" size="688,16" group="n45_rm2c"/>
+    <component id="n46_rm2c" name="skillItem0" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="43,400" group="n52_rm2c"/>
+    <component id="n47_rm2c" name="skillItem1" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="173,400" group="n52_rm2c"/>
+    <component id="n48_rm2c" name="skillItem2" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="303,400" group="n52_rm2c"/>
+    <component id="n49_rm2c" name="skillItem3" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="433,400" group="n52_rm2c"/>
+    <component id="n50_rm2c" name="skillItem4" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="563,400" group="n52_rm2c"/>
+    <component id="n51_rm2c" name="skillItem5" src="rm2cdxy6i" fileName="Component/SkillItem.xml" xy="563,400" group="n52_rm2c" visible="false"/>
+    <group id="n52_rm2c" name="n52" xy="43,400" size="634,114" group="n45_rm2c" advanced="true" layout="hz" colGap="16" excludeInvisibles="true"/>
+    <group id="n45_rm2c" name="upGroup" xy="16,400" size="688,145" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n14_p4bn" sidePair="bottom-top"/>
+    </group>
+  </displayList>
+</component>

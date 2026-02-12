@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="538,103">
+  <controller name="canGet" pages="1,,0,,2," selected="0">
+    <remark page="0" value="能领取"/>
+    <remark page="1" value="不能领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <image id="n0_v51s" name="n0" src="v51s1" fileName="Res/4.png" xy="0,0" size="538,103"/>
+    <loader id="n1_v51s" name="funcIcon" xy="22,5" size="86,87" url="ui://tekh4dt9v51s6" align="center" vAlign="middle" fill="scale"/>
+    <text id="n2_v51s" name="funcName" xy="119,5" size="92,32" fontSize="22" color="#835c25" text="功能名称"/>
+    <image id="n3_v51s" name="n3" src="fpa2dxy30" fileName="Res/9.png" pkg="5moj1x39" xy="118,40" size="306,1"/>
+    <text id="n4_v51s" name="funcDesc" xy="119,45" size="301,48" fontSize="18" color="#835c25" autoSize="none" text=""/>
+    <component id="n5_v51s" name="rwItem" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="445,9"/>
+    <image id="n7_v51s" name="n7" src="v51s1" fileName="Res/4.png" xy="2,0" size="535,103" alpha="0.5" color="#999999">
+      <gearDisplay controller="canGet" pages="2"/>
+    </image>
+    <image id="n6_v51s" name="n6" src="v51s2" fileName="Res/2.png" xy="449,36">
+      <gearDisplay controller="canGet" pages="2"/>
+    </image>
+    <image id="n8_v51s" name="n8" src="v51s3" fileName="Res/3.png" xy="485,47" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="canGet" pages="1"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n8_v51s" tween="true" startValue="1,1" endValue="1.1,1.1" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="12" type="Scale" target="n8_v51s" value="1.1,1.1"/>
+  </transition>
+</component>

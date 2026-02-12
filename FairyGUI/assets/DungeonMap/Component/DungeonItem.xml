@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,224" extention="Label">
+  <controller name="countCtr" pages="0,,1," selected="0">
+    <remark page="0" value="不足"/>
+    <remark page="1" value="足够"/>
+  </controller>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="开了"/>
+    <remark page="1" value="锁了"/>
+  </controller>
+  <controller name="adCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不看广告"/>
+    <remark page="1" value="看广告"/>
+  </controller>
+  <displayList>
+    <list id="n11_tw1c" name="stageItemList" xy="22,144" size="387,78" visible="false" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="130" colGap="5" defaultItem="ui://5moj1x39ewjfdxy22">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n1_b0e4" name="icon" xy="0,0" size="640,224" url="ui://57yc4rb0b0e42t" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n23_llb1" name="n23" xy="469,10" size="164,58" group="n10_tw1c" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n5_tw1c" name="itemIcon" xy="469,10" size="72,58" group="n10_tw1c" url="ui://57yc4rb0b0e42n" fill="scale">
+      <relation target="n23_llb1" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n4_tw1c" name="itemCntLb" xy="545,23" size="84,34" group="n10_tw1c" fontSize="24" color="#ffffff" align="center" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="[color=#ff0000]{cur=200}[/color]/{total=2}">
+      <gearText controller="countCtr" pages="0" values="[color=#ff0000]{cur=200}[/color]/{total=2}" default="{cur=2}/{total=2}"/>
+    </text>
+    <group id="n10_tw1c" name="n10" xy="469,10" size="164,58" advanced="true">
+      <relation target="n1_b0e4" sidePair="right-right,top-top"/>
+    </group>
+    <text id="n6_tw1c" name="title" xy="20,14" size="196,44" fontSize="32" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="穿越深渊之门">
+      <relation target="n1_b0e4" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n7_tw1c" name="tipBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="224,20" size="32,32">
+      <relation target="n6_tw1c" sidePair="left-right"/>
+      <Button icon="ui://5moj1x39ajordxydw"/>
+    </component>
+    <component id="n9_tw1c" name="gotoBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="458,150" size="176,68">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="入场" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n21_pu20" name="adBtn" src="ju03dxy59" fileName="Component/EmptyAdBtn2.xml" pkg="5moj1x39" xy="458,134" size="176,84">
+      <gearDisplay controller="adCtrl" pages="1"/>
+      <Button title="挑战券x1" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <graph id="n12_h4wb" name="n12" xy="0,0" size="640,224" alpha="0.85" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </graph>
+    <loader id="n24_llb1" name="n24" xy="162,89" size="50,50" group="n15_h4wb" url="ui://5moj1x39fr3pdxyd3"/>
+    <text id="n13_h4wb" name="lockDesc" xy="218,93" size="250,42" group="n15_h4wb" fontSize="30" color="#ffffff" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="达到多少解锁"/>
+    <group id="n15_h4wb" name="n15" xy="162,89" size="306,50" advanced="true">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="n1_b0e4" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n25_n5nh" name="gotoBtnRed" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="605,146" visible="false">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <gearDisplay2 controller="lockCtrl" pages="0" condition="0"/>
+      <relation target="n9_tw1c" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n26_n5nh" name="adBtnRed" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="607,130" visible="false">
+      <gearDisplay controller="adCtrl" pages="1"/>
+      <gearDisplay2 controller="lockCtrl" pages="0" condition="0"/>
+    </component>
+  </displayList>
+</component>

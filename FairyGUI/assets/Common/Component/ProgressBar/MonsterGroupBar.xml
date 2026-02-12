@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="196,50">
+  <controller name="ctrlStatus" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="1"/>
+    <remark page="1" value="2"/>
+    <remark page="2" value="3"/>
+    <remark page="3" value="4"/>
+    <remark page="4" value="5"/>
+  </controller>
+  <displayList>
+    <list id="n2_ecee" name="monsterGroupList" xy="0,0" size="176,32" layout="row" colGap="-1" defaultItem="ui://0anhreyleceedxy1v">
+      <item controllers="type,0"/>
+      <item controllers="type,1"/>
+      <item controllers="type,1"/>
+      <item controllers="type,1"/>
+      <item controllers="type,1"/>
+    </list>
+    <image id="n1_ecee" name="n1" src="dwt8dxy1e" fileName="Res/stage/5.png" xy="156,0" size="62,51" aspect="true" scale="0.63,0.63" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n3_hach" name="n3" src="hachdxy82" fileName="Res/stage/home_state1_icon1.png" xy="148,-8">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n4_v65g" name="n4" src="v65gdxy8c" fileName="Res/stage/home_state1_icon2.png" xy="7,27">
+      <gearXY controller="ctrlStatus" pages="1,2,3,4" values="42,27|77,27|112,27|154,27" default="7,27"/>
+    </image>
+  </displayList>
+  <relation target="n2_ecee" sidePair="width-width"/>
+</component>

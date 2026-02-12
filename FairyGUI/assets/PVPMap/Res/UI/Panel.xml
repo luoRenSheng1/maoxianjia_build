@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" designImage="ui://zoxecbv2qc4n5" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <loader id="n142_qc4n" name="n142" xy="0,0" size="720,780" url="ui://zoxecbv2auqc1x" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n117_cj33" name="battleRoot" src="qc4n7" fileName="Component/battleRoot.xml" xy="0,132" size="720,515">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

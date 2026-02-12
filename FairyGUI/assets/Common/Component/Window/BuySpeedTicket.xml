@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_qj2e" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_qj2e" name="n1" xy="125,426" size="467,427" group="n12_qj2e" url="ui://5moj1x39fpa2dxy2y" fill="scaleFree"/>
+    <image id="n2_qj2e" name="n2" src="fpa2dxy32" fileName="Res/7.PNG" pkg="5moj1x39" xy="135,435" size="447,344" group="n12_qj2e"/>
+    <component id="n3_qj2e" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="151,441" group="n12_qj2e" controller="hasCount,0"/>
+    <component id="n4_qj2e" name="itemName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="252,446" size="92,39" group="n12_qj2e"/>
+    <text id="n5_qj2e" name="n5" xy="255,493" size="54,32" group="n12_qj2e" fontSize="22" color="#835c25" text="作用:"/>
+    <richtext id="n6_qj2e" name="desc" xy="151,541" size="416,132" group="n12_qj2e" fontSize="22" color="#948d84" ubb="true" autoSize="none" text="加速5分钟"/>
+    <text id="n7_qj2e" name="purposeLb" xy="323,493" size="104,32" group="n12_qj2e" fontSize="22" color="#e0901f" text="加速5分钟"/>
+    <component id="n11_qj2e" name="useBtn" src="ot6fdxy3y" fileName="Component/EmptyYellowBtn.xml" pkg="5moj1x39" xy="286,790" size="148,48" group="n12_qj2e">
+      <Button title="购买" titleFontSize="18" icon="ui://5moj1x39cy7ndxy3b"/>
+    </component>
+    <component id="n15_qj2e" name="reduceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="148,729" size="40,40" group="n12_qj2e" aspect="true">
+      <Button icon="ui://0anhreylsc7hdxy3q"/>
+    </component>
+    <component id="n16_qj2e" name="addBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="459,728" size="40,40" group="n12_qj2e" aspect="true">
+      <Button icon="ui://0anhreylsc7hdxy3r"/>
+    </component>
+    <component id="n18_qj2e" name="cntSlider" src="sc7hdxy3s" fileName="Component/Window/Component/Slider1.xml" xy="213,738" group="n12_qj2e">
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n19_qj2e" name="n19" src="sc7hdxy3x" fileName="Component/Window/Res/useitem/txtbg.png" xy="501,727" size="71,46" group="n20_qj2e"/>
+    <text id="n17_qj2e" name="cntLb" xy="507,732" size="58,34" group="n20_qj2e" fontSize="20" color="#835c25" align="center" vAlign="middle" autoSize="none" text="1"/>
+    <group id="n20_qj2e" name="n20" xy="501,727" size="71,46" group="n12_qj2e"/>
+    <text id="n8_qj2e" name="n8" xy="254,684" size="64,29" group="n21_vnmw" fontSize="20" color="#835c25" text="花费："/>
+    <loader id="n23_f34j" name="n23" xy="320,679" size="40,40" group="n21_vnmw" url="ui://0anhreylf34jdxy9n" fill="scaleFree"/>
+    <text id="n14_qj2e" name="costLb" xy="362,684" size="70,29" group="n21_vnmw" fontSize="20" color="#e0901f" vars="true" text="{value=100000}"/>
+    <group id="n21_vnmw" name="n21" xy="254,679" size="178,40" group="n12_qj2e" advanced="true" layout="hz" colGap="2" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n12_qj2e" name="n12" xy="125,426" size="467,427" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

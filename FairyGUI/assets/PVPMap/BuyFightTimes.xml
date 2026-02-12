@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://zoxecbv2xezf3m">
+  <displayList>
+    <component id="n15_eh4f" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n16_xezf" name="n16" xy="16,300" size="688,570" group="n14_eh4f" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n13_eh4f" name="n13" xy="262,317" size="196,44" group="n14_eh4f" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="挑战次数购买"/>
+    <loader id="n23_xezf" name="n23" xy="40,714" size="640,16" group="n14_eh4f" url="ui://zoxecbv2xezf3d">
+      <relation target="" sidePair=""/>
+      <relation target="n16_xezf" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n20_xezf" name="n20" xy="298,421" size="124,124" group="n14_eh4f" url="ui://5moj1x39f34jdxy9u" fill="scale">
+      <relation target="n16_xezf" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n21_xezf" name="n21" xy="318,441" size="84,84" group="n14_eh4f" url="ui://zoxecbv2xezf3a">
+      <relation target="n20_xezf" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n18_xezf" name="n18" xy="253,577" size="212,48" group="n7_eh4f" url="ui://zoxecbv2xezf3b" fill="scaleFree"/>
+    <text id="n5_eh4f" name="cntLb" xy="261,579" size="196,44" group="n7_eh4f" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="1" input="true" restrict="[0-9]" keyboardType="4">
+      <relation target="n18_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n7_eh4f" name="n7" xy="253,577" size="212,48" group="n19_xezf"/>
+    <component id="n2_eh4f" name="reduceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="221,568" size="64,64" group="n19_xezf" aspect="true">
+      <Button icon="ui://zoxecbv2xezf38"/>
+    </component>
+    <component id="n3_eh4f" name="addBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="434,568" size="64,64" group="n19_xezf" aspect="true">
+      <Button icon="ui://zoxecbv2xezf39"/>
+    </component>
+    <group id="n19_xezf" name="n19" xy="221,568" size="277,64" group="n14_eh4f" advanced="true">
+      <relation target="n16_xezf" sidePair="center-center"/>
+    </group>
+    <text id="n22_xezf" name="itemNum" xy="295,655" size="130,44" group="n14_eh4f" fontSize="32" color="#4c2911" vars="true" bold="true" text="挑战券*{value=2}"/>
+    <component id="n10_eh4f" name="moneyBtn" src="qonndxy4r" fileName="Component/EmptyDimandBtn.xml" pkg="5moj1x39" xy="251,754" size="218,84" group="n14_eh4f">
+      <relation target="n16_xezf" sidePair="center-center,bottom-bottom"/>
+      <Button title="购买" titleFontSize="24" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n17_xezf" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,895" size="84,84" group="n14_eh4f">
+      <relation target="n16_xezf" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n14_eh4f" name="n14" xy="16,300" size="688,679" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

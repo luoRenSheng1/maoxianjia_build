@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="584,48">
+  <controller name="ctrl" pages="0,,1,,8,,9,,10," selected="3"/>
+  <displayList>
+    <loader id="n0_l5cy" name="n0" xy="0,0" pivot="0.5,0.5" size="584,48" url="ui://i7ojazuul5cy3r" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </loader>
+    <loader id="n2_l5cy" name="n2" xy="0,0" pivot="0.5,0.5" size="584,48" url="ui://i7ojazuul5cy44" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </loader>
+    <loader id="n3_l5cy" name="n3" xy="0,0" pivot="0.5,0.5" size="584,48" url="ui://i7ojazuul5cy4a" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="8"/>
+    </loader>
+    <loader id="n4_l5cy" name="n4" xy="0,0" pivot="0.5,0.5" size="584,48" url="ui://i7ojazuul5cy49" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="9"/>
+    </loader>
+    <loader id="n5_l5cy" name="n5" xy="0,0" pivot="0.5,0.5" size="584,48" rotation="180" url="ui://i7ojazuul5cy3r" fill="scaleFree">
+      <gearDisplay controller="ctrl" pages="10"/>
+    </loader>
+    <text id="n1_l5cy" name="desc" xy="12,8" size="560,32" fontSize="22" color="#4c2911" autoSize="shrink" bold="true" text="雷神  介绍介绍介绍介绍介绍介绍介绍介绍介绍"/>
+  </displayList>
+</component>

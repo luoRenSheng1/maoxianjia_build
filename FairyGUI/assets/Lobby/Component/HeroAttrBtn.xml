@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,84" pivot="0.5,0.5" extention="Button">
+  <controller name="ctrl" pages="0,,1," selected="0">
+    <remark page="0" value="未满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <displayList>
+    <image id="n6_njeb" name="n6" src="njebdxy6n" fileName="Res/home_functional area_btn2@2.png" xy="0,0"/>
+    <text id="n1_ozj9" name="n1" xy="74,6" size="52,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="强化">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </text>
+    <loader id="n3_ozj9" name="n3" xy="34,40" size="32,32" group="n4_ozj9" url="ui://s7x7ku0nnjebdxy6o" autoSize="true"/>
+    <text id="n2_ozj9" name="costLb" xy="66,37" size="100,34" group="n4_ozj9" fontSize="24" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="120.00京"/>
+    <group id="n4_ozj9" name="n4" xy="34,37" size="132,35" advanced="true" layout="hz">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n5_ozj9" name="n5" xy="62,25" size="76,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="已满级">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

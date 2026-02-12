@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,174">
+  <controller name="typeCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="立即获得"/>
+    <remark page="1" value="每日获得"/>
+  </controller>
+  <displayList>
+    <image id="n0_q9cg" name="n0" src="q9cg17" fileName="Res/month/nn5.png" xy="0,0" size="153,174"/>
+    <component id="n1_q9cg" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="37,54" controller="hasCtrl,0,hasCount,1"/>
+    <text id="n2_q9cg" name="nameLb" xy="39,136" size="83,25" fontSize="17" color="#663e20" align="center" vAlign="middle" vars="true" text="{name=英雄令}×{value=15}">
+      <gearText controller="typeCtrl" pages="0,1" values="{name=英雄令}×{value=15}|英雄令×{value=5}"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_q9cg" name="n3" xy="34,5" size="84,29" fontSize="20" color="#663e20" align="center" vAlign="middle" text="立即获得">
+      <gearText controller="typeCtrl" pages="1" values="每日获得" default="立即获得"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

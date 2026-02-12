@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,34">
+  <displayList>
+    <text id="n0_ucd4" name="txtAttrName" xy="0,0" size="127,34" fontSize="24" color="#4c2911" vAlign="middle" autoSize="shrink" bold="true" singleLine="true" text="生命恢复">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n1_ucd4" name="txtAttrValue" xy="180,0" size="100,34" fontSize="24" color="#4c2911" vAlign="middle" letterSpacing="1" autoSize="shrink" bold="true" singleLine="true" text="1200">
+      <relation target="" sidePair="left-left"/>
+    </text>
+  </displayList>
+</component>

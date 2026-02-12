@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_tdju" name="icon" xy="0,0" size="218,84" fill="scaleFree"/>
+    <text id="n5_tdju" name="title" xy="83,9" size="52,34" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="购买">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n4_tdju" name="n4" xy="71,43" size="32,32" group="n7_tdju" url="ui://pdufy3kec2niid3" align="center" vAlign="middle" fill="scale">
+      <relation target="n6_tdju" sidePair="left-left"/>
+    </loader>
+    <text id="n6_tdju" name="num" xy="104,42" size="43,34" group="n7_tdju" fontSize="24" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="100"/>
+    <group id="n7_tdju" name="n7" xy="71,42" size="76,34" advanced="true" layout="hz" colGap="1" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

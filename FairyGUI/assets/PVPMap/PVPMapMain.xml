@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://zoxecbv2qc4n6" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n120_i9sl" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n119_i9sl" name="panel" src="qc4n1" fileName="Res/UI/Panel.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n126_auqc" name="myHpBar" src="auqc23" fileName="Component/LeftBarExp.xml" xy="118,80" size="192,21" group="n130_auqc">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n124_auqc" name="myHeadIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="35,40" group="n130_auqc" scale="1.1,1.1"/>
+    <component id="n127_auqc" name="enemyHpBar" src="auqc27" fileName="Component/RightBarExp.xml" xy="392,80" size="210,21" group="n130_auqc">
+      <ProgressBar value="67" max="100"/>
+    </component>
+    <component id="n125_auqc" name="enemyHeadIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="592,40" group="n130_auqc" scale="1.1,1.1"/>
+    <component id="n128_auqc" name="vsCom" src="auqc22" fileName="Component/Vs.xml" xy="295,33" group="n130_auqc"/>
+    <group id="n130_auqc" name="n130" xy="35,33" size="649,116" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <transition name="showAni"/>
+  <transition name="hideAni"/>
+</component>

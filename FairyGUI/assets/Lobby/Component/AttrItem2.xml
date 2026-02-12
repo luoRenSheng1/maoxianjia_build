@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,84">
+  <controller name="type" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="已满级"/>
+    <remark page="1" value="未满级"/>
+  </controller>
+  <displayList>
+    <loader id="n0_ax20" name="icon" xy="8,0" size="64,64" url="ui://5moj1x39ax20dxy7q">
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="type" pages="1,2,3" values="ui://5moj1x39ax20dxy7j|ui://5moj1x39ax20dxy7k|ui://5moj1x39ax20dxy7l" default="ui://5moj1x39ax20dxy7q"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n1_ax20" name="num" xy="20,55" size="38,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=11}">
+      <gearColor controller="status" pages="0" values="#ffffff,#000000" default="#ffffff,#474643"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n2_ax20" name="n2" xy="-2,19" size="84,29" fontSize="20" color="#fcf78e" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="满级激活">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

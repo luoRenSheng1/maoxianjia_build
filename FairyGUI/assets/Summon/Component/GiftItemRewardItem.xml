@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="233,51">
+  <displayList>
+    <image id="n1_ftc9" name="n1" src="ftc92k" fileName="Res/gift/nn514 .png" xy="0,0" size="233,51"/>
+    <component id="n2_ftc9" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="13,2" scale="0.6,0.6" controller="hasCount,1"/>
+    <text id="n3_ftc9" name="count" xy="70,11" size="36,29" fontSize="20" color="#ffffff" vars="true" text="x{value=10}"/>
+  </displayList>
+</component>

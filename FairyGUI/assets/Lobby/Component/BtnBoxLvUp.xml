@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_v65g" name="icon" xy="10,10" size="40,40" url="ui://s7x7ku0nkqmidxy9f"/>
+    <component id="n4_v65g" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="28,0" size="32,32"/>
+  </displayList>
+  <Button/>
+</component>

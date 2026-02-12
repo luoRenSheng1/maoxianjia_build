@@ -1,0 +1,31 @@
+BigMap_zqc.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+paopao_0001
+	bounds: 460, 464, 23, 19
+	offsets: 14, 1, 51, 40
+paopao_0002
+	bounds: 2, 27, 51, 40
+paopao_0003
+	bounds: 264, 189, 36, 30
+	offsets: 2, 1, 51, 40
+paopao_0004
+	bounds: 55, 58, 11, 9
+	offsets: 19, 2, 51, 40
+paopao_0005
+	bounds: 2, 11, 17, 14
+	offsets: 17, 1, 51, 40
+yan_0001
+	bounds: 319, 224, 139, 259
+	offsets: 5, 1, 180, 280
+yan_0002
+	bounds: 2, 69, 150, 260
+	offsets: 8, 1, 180, 280
+	rotate: 90
+yan_0003
+	bounds: 2, 221, 157, 262
+	offsets: 7, 1, 180, 280
+yan_0004
+	bounds: 161, 221, 156, 262
+	offsets: 6, 1, 180, 280

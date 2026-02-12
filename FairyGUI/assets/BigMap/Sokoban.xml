@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5">
+  <displayList>
+    <image id="n21_utr3" name="icon" src="ema9h" fileName="Res/monsterHead.png" xy="5,-10"/>
+    <movieclip id="n22_utr3" name="n22" src="100ni5w" fileName="Component/FaGuang.jta" xy="-25,0" blend="add"/>
+    <movieclip id="n23_utr3" name="n23" src="100ni8f" fileName="Component/Xing.jta" xy="0,15" blend="add"/>
+    <movieclip id="n24_utr3" name="n24" src="100ni8g" fileName="Component/Dian.jta" xy="0,10" blend="add"/>
+  </displayList>
+</component>

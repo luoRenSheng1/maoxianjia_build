@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="687,406" pivot="0.5,0.5" designImageOffsetX="-18" designImageOffsetY="-383" designImageAlpha="4" designImageLayer="1">
+  <controller name="ctrlOp" pages="0,single,1,double" selected="0"/>
+  <controller name="ctrlClose" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n20_nps0" name="n20" src="nps02a" fileName="Res/general_bg1.png" xy="0,0" size="687,406"/>
+    <text id="n2_fgvo" name="title" xy="132,6" pivot="0.5,0.5" size="421,72" font="Normal" fontSize="45" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="提示">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n3_fgvo" name="content" src="ppckm" fileName="Component/TipContent.xml" xy="23,101" size="636,195"/>
+    <component id="n10_q4dy" name="btnClose" src="porm9" fileName="Component/close.xml" xy="607,10" size="69,62" aspect="true">
+      <gearDisplay controller="ctrlClose" pages="1"/>
+    </component>
+    <component id="n9_xihe" name="btnCancel" src="leae11" fileName="Component/YellowButton.xml" xy="300,267" size="214,82" group="n18_leae">
+      <gearDisplay controller="ctrlOp" pages="1"/>
+      <gearXY controller="ctrlOp" pages="0,1" values="300,267|83,302"/>
+      <Button title="取消" titleFontSize="35" icon="ui://n8v1s7mdnps02c"/>
+    </component>
+    <component id="n13_q4dy" name="btnOk" src="leae11" fileName="Component/YellowButton.xml" xy="217,294" size="214,82" group="n18_leae">
+      <gearDisplay controller="ctrlOp" pages="0,1"/>
+      <gearXY controller="ctrlOp" pages="0,1" values="217,294|365,302"/>
+      <Button title="确认" titleFontSize="35" icon="ui://n8v1s7mdnps02b"/>
+    </component>
+    <group id="n18_leae" name="n18" xy="217,267" size="297,109" advanced="true"/>
+  </displayList>
+</component>

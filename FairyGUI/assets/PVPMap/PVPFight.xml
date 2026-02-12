@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n17_auqc" name="n0" xy="0,0" size="720,1280" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader3D id="n15_auqc" name="spine" xy="225,505" size="269,270" url="ui://zoxecbv2auqc2u" animation="idle" skin=""/>
+    <graph id="n2_auqc" name="monster" xy="416,657" pivot="0.5,1" size="270,300"/>
+    <graph id="n5_auqc" name="hero" xy="39,236" pivot="0.5,1" size="270,300"/>
+    <image id="n6_auqc" name="n6" src="auqc2r" fileName="Res/newRes2/dfgdfgdfg.png" xy="174,1029"/>
+    <image id="n7_auqc" name="n7" src="auqc2s" fileName="Res/newRes2/dhdfhdh4684.png" xy="13,56"/>
+    <component id="n9_auqc" name="myFightLb" src="auqc2t" fileName="Component/fightLb.xml" xy="283,66" size="154,37">
+      <Label title="88888888"/>
+    </component>
+    <text id="n10_auqc" name="myNameLb" xy="58,63" size="204,42" fontSize="30" color="#ffffff" autoSize="shrink" bold="true" strokeColor="#332626" strokeSize="2" text="疯狂的名称"/>
+    <component id="n11_auqc" name="enemyFightLb" src="auqc2t" fileName="Component/fightLb.xml" xy="492,1041" size="168,37">
+      <relation target="" sidePair="right-left"/>
+      <Label title="888888888"/>
+    </component>
+    <text id="n12_auqc" name="otherNameLb" xy="280,1039" size="204,42" fontSize="30" color="#ffffff" align="center" autoSize="shrink" bold="true" strokeColor="#332626" strokeSize="2" text="疯狂的名称">
+      <relation target="n11_auqc" sidePair="right-left"/>
+    </text>
+    <list id="n13_auqc" name="myPetList" xy="51,125" size="397,77" layout="row" defaultItem="ui://5moj1x39ewjfdxy22" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n14_auqc" name="enemyPetList" xy="281,1099" size="394,77" layout="row" defaultItem="ui://5moj1x39ewjfdxy22" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n2_auqc" tween="true" startValue="742,657" endValue="416,657" duration="6"/>
+    <item time="0" type="XY" target="n5_auqc" tween="true" startValue="-287,236" endValue="39,236" duration="6"/>
+  </transition>
+</component>

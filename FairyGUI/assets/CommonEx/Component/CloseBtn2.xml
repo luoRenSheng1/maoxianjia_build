@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,94" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n0_hpff" name="n0" src="p4bn17" fileName="Res/19.PNG" xy="0,0" size="87,86">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_k627" name="n1" xy="16,57" size="54,35" fontSize="25" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" text="关闭">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

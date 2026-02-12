@@ -1,0 +1,552 @@
+BigMap_dx_yj.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01/000
+	bounds: 2, 2872, 2067, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/001
+	bounds: 2, 1648, 2067, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/002
+	bounds: 2, 424, 2066, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/014
+	bounds: 2071, 2027, 2067, 1222
+	offsets: 0, 70, 2104, 1344
+	rotate: 90
+yanjiang/02/000
+	bounds: 2071, 1054, 1741, 971
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/002
+	bounds: 2070, 82, 1742, 970
+	offsets: 74, 62, 1816, 1080
+yanjiang/02bianyuan/002
+	bounds: 2, 9, 1742, 413
+	offsets: 74, 67, 1816, 528
+yanjiang/04/012
+	bounds: 3295, 2560, 1534, 799
+	offsets: 58, 0, 1592, 854
+	rotate: 90
+yanjiang/paopao/000
+	bounds: 1997, 63, 71, 90
+	offsets: 78, 95, 450, 350
+yanjiang/paopao/001
+	bounds: 3607, 2045, 91, 98
+	offsets: 67, 97, 450, 350
+	rotate: 90
+yanjiang/paopao/002
+	bounds: 1746, 45, 249, 108
+	offsets: 93, 151, 450, 350
+yanjiang/paopao/003
+	bounds: 3596, 2437, 260, 121
+	offsets: 92, 148, 450, 350
+yanjiang/paopao/004
+	bounds: 3295, 2182, 267, 127
+	offsets: 91, 148, 450, 350
+yanjiang/paopao/005
+	bounds: 1746, 155, 267, 131
+	offsets: 91, 148, 450, 350
+yanjiang/paopao/006
+	bounds: 1746, 288, 278, 134
+	offsets: 80, 150, 450, 350
+yanjiang/paopao/007
+	bounds: 3607, 2138, 165, 179
+	offsets: 198, 106, 450, 350
+yanjiang/paopao/008
+	bounds: 3858, 2383, 175, 180
+	offsets: 197, 107, 450, 350
+	rotate: 90
+yanjiang/paopao/009
+	bounds: 3596, 2319, 183, 116
+	offsets: 196, 105, 450, 350
+yanjiang/paopao/010
+	bounds: 3295, 2311, 289, 122
+	offsets: 89, 100, 450, 350
+yanjiang/paopao/011
+	bounds: 3295, 2435, 299, 123
+	offsets: 80, 101, 450, 350
+yanjiang/paopao/012
+	bounds: 3295, 2041, 299, 66
+	offsets: 80, 99, 450, 350
+yanjiang/paopao/013
+	bounds: 3295, 2109, 310, 71
+	offsets: 79, 96, 450, 350
+yanjiang/paopao/014
+	bounds: 3781, 2373, 69, 62
+	offsets: 79, 96, 450, 350
+
+BigMap_dx_yj_2.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01/003
+	bounds: 2, 1648, 2064, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/004
+	bounds: 2068, 808, 2062, 1222
+	offsets: 0, 70, 2104, 1344
+	rotate: 90
+yanjiang/01/012
+	bounds: 2, 424, 2064, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/013
+	bounds: 2, 2872, 2065, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/02/013
+	bounds: 2069, 3121, 1741, 973
+	offsets: 75, 62, 1816, 1080
+yanjiang/02bianyuan/001
+	bounds: 2, 10, 1741, 412
+	offsets: 75, 69, 1816, 528
+yanjiang/04/007
+	bounds: 2068, 2, 1534, 804
+	offsets: 58, 0, 1592, 854
+yanjiang/04/011
+	bounds: 3292, 1585, 1534, 802
+	offsets: 58, 0, 1592, 854
+	rotate: 90
+
+BigMap_dx_yj_3.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01/005
+	bounds: 2, 414, 2060, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/010
+	bounds: 2, 1638, 2061, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/011
+	bounds: 2, 2862, 2062, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/02/001
+	bounds: 2066, 2139, 1741, 971
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/003
+	bounds: 2065, 1170, 1742, 967
+	offsets: 74, 62, 1816, 1080
+yanjiang/02/004
+	bounds: 2064, 203, 1741, 965
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/014
+	bounds: 2066, 3112, 1741, 972
+	offsets: 75, 62, 1816, 1080
+yanjiang/02bianyuan/003
+	bounds: 2, 2, 1742, 410
+	offsets: 74, 67, 1816, 528
+
+BigMap_dx_yj_4.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01/006
+	bounds: 2, 2863, 2060, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/007
+	bounds: 2, 1639, 2060, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01/008
+	bounds: 2064, 2025, 2060, 1222
+	offsets: 0, 70, 2104, 1344
+	rotate: 90
+yanjiang/01/009
+	bounds: 2, 415, 2060, 1222
+	offsets: 0, 70, 2104, 1344
+yanjiang/01bianyuan/005
+	bounds: 3288, 2032, 2053, 438
+	offsets: 7, 83, 2104, 664
+	rotate: 90
+yanjiang/02/005
+	bounds: 3037, 282, 1741, 962
+	offsets: 75, 62, 1816, 1080
+	rotate: 90
+yanjiang/02/012
+	bounds: 2064, 282, 1741, 971
+	offsets: 75, 62, 1816, 1080
+	rotate: 90
+yanjiang/02bianyuan/000
+	bounds: 2, 2, 1739, 411
+	offsets: 77, 70, 1816, 528
+
+BigMap_dx_yj_5.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01bianyuan/002
+	bounds: 3054, 2, 2059, 427
+	offsets: 7, 88, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/003
+	bounds: 2621, 4, 2057, 431
+	offsets: 7, 87, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/004
+	bounds: 2184, 6, 2055, 435
+	offsets: 7, 85, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/006
+	bounds: 1745, 10, 2051, 437
+	offsets: 7, 83, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/007
+	bounds: 3488, 1939, 2050, 434
+	offsets: 7, 84, 2104, 664
+	rotate: 90
+yanjiang/02/006
+	bounds: 1745, 2063, 1741, 960
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/007
+	bounds: 2, 127, 1741, 960
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/008
+	bounds: 2, 1089, 1741, 961
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/009
+	bounds: 1745, 3025, 1741, 964
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/010
+	bounds: 2, 2052, 1741, 966
+	offsets: 75, 62, 1816, 1080
+yanjiang/02/011
+	bounds: 2, 3020, 1741, 969
+	offsets: 75, 62, 1816, 1080
+yanjiang/02bianyuan/004
+	bounds: 3483, 197, 1740, 410
+	offsets: 76, 65, 1816, 528
+	rotate: 90
+
+BigMap_dx_yj_6.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/01bianyuan/000
+	bounds: 2, 3671, 2061, 423
+	offsets: 7, 87, 2104, 664
+yanjiang/01bianyuan/001
+	bounds: 2, 1182, 2060, 423
+	offsets: 7, 88, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/008
+	bounds: 1280, 1191, 2051, 429
+	offsets: 7, 87, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/009
+	bounds: 1711, 1190, 2052, 426
+	offsets: 7, 89, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/010
+	bounds: 2139, 1630, 2054, 422
+	offsets: 7, 91, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/011
+	bounds: 1538, 705, 2055, 421
+	offsets: 7, 91, 2104, 664
+yanjiang/01bianyuan/012
+	bounds: 854, 1185, 2057, 424
+	offsets: 7, 89, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/013
+	bounds: 427, 1185, 2057, 425
+	offsets: 8, 87, 2104, 664
+	rotate: 90
+yanjiang/01bianyuan/014
+	bounds: 2, 3244, 2059, 425
+	offsets: 8, 86, 2104, 664
+yanjiang/02bianyuan/005
+	bounds: 2065, 3686, 1739, 408
+	offsets: 77, 64, 1816, 528
+yanjiang/02bianyuan/009
+	bounds: 1538, 296, 1740, 407
+	offsets: 76, 67, 1816, 528
+yanjiang/04/008
+	bounds: 2, 375, 1534, 805
+	offsets: 58, 0, 1592, 854
+yanjiang/04bianyuan/008
+	bounds: 2563, 2406, 1531, 637
+	offsets: 93, 168, 1624, 894
+yanjiang/04bianyuan/009
+	bounds: 2563, 1767, 1529, 637
+	offsets: 95, 168, 1624, 894
+yanjiang/04bianyuan/010
+	bounds: 2563, 1128, 1529, 637
+	offsets: 95, 167, 1624, 894
+yanjiang/04bianyuan/011
+	bounds: 2563, 3045, 1531, 639
+	offsets: 93, 163, 1624, 894
+
+BigMap_dx_yj_7.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/03/000
+	bounds: 2, 3380, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/001
+	bounds: 2, 2708, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/002
+	bounds: 1691, 3380, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/003
+	bounds: 2, 2036, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/004
+	bounds: 1691, 2708, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/005
+	bounds: 2, 1364, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/006
+	bounds: 1691, 2036, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/007
+	bounds: 3380, 2363, 1687, 670
+	offsets: 0, 0, 1736, 734
+	rotate: 90
+yanjiang/03/008
+	bounds: 2, 692, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/009
+	bounds: 1691, 1364, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/010
+	bounds: 2, 20, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/011
+	bounds: 1691, 692, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/012
+	bounds: 1691, 20, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/03/013
+	bounds: 3380, 674, 1687, 670
+	offsets: 0, 0, 1736, 734
+	rotate: 90
+
+BigMap_dx_yj_8.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/03/014
+	bounds: 2, 3371, 1687, 670
+	offsets: 0, 0, 1736, 734
+yanjiang/04/000
+	bounds: 2, 976, 1545, 796
+	offsets: 47, 0, 1592, 854
+yanjiang/04/001
+	bounds: 2, 2572, 1547, 797
+	offsets: 45, 0, 1592, 854
+yanjiang/04/002
+	bounds: 2, 1774, 1547, 796
+	offsets: 45, 0, 1592, 854
+yanjiang/04/003
+	bounds: 2, 179, 1546, 795
+	offsets: 46, 0, 1592, 854
+yanjiang/04/004
+	bounds: 1691, 3246, 1544, 795
+	offsets: 48, 0, 1592, 854
+yanjiang/04/005
+	bounds: 1551, 2446, 1541, 798
+	offsets: 51, 0, 1592, 854
+yanjiang/04/006
+	bounds: 3096, 968, 1537, 801
+	offsets: 55, 0, 1592, 854
+	rotate: 90
+yanjiang/04/009
+	bounds: 1550, 202, 1534, 805
+	offsets: 58, 0, 1592, 854
+yanjiang/04/010
+	bounds: 3237, 2507, 1534, 804
+	offsets: 58, 0, 1592, 854
+	rotate: 90
+yanjiang/04/014
+	bounds: 1551, 1648, 1542, 796
+	offsets: 50, 0, 1592, 854
+yanjiang/04bianyuan/000
+	bounds: 1549, 1009, 1545, 637
+	offsets: 79, 159, 1624, 894
+
+BigMap_dx_yj_9.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/02bianyuan/006
+	bounds: 3189, 1742, 1738, 406
+	offsets: 78, 64, 1816, 528
+	rotate: 90
+yanjiang/02bianyuan/007
+	bounds: 3488, 2, 1738, 406
+	offsets: 78, 64, 1816, 528
+	rotate: 90
+yanjiang/02bianyuan/010
+	bounds: 1913, 78, 1740, 406
+	offsets: 76, 70, 1816, 528
+	rotate: 90
+yanjiang/02bianyuan/014
+	bounds: 3597, 2277, 1737, 410
+	offsets: 79, 72, 1816, 528
+	rotate: 90
+yanjiang/03bianyuan/005
+	bounds: 2131, 1821, 1659, 528
+	offsets: 0, 128, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/006
+	bounds: 1598, 1820, 1660, 531
+	offsets: 0, 128, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/007
+	bounds: 1542, 3482, 1661, 532
+	offsets: 0, 129, 1736, 734
+yanjiang/03bianyuan/008
+	bounds: 2, 1554, 1662, 532
+	offsets: 0, 130, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/009
+	bounds: 536, 1553, 1663, 530
+	offsets: 0, 130, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/010
+	bounds: 1068, 1552, 1664, 528
+	offsets: 0, 130, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/011
+	bounds: 2661, 1816, 1664, 526
+	offsets: 0, 130, 1736, 734
+	rotate: 90
+yanjiang/03bianyuan/012
+	bounds: 2321, 151, 1663, 525
+	offsets: 0, 130, 1736, 734
+	rotate: 90
+yanjiang/04/013
+	bounds: 2, 3218, 1538, 796
+	offsets: 54, 0, 1592, 854
+yanjiang/04bianyuan/001
+	bounds: 2, 4, 1547, 635
+	offsets: 77, 162, 1624, 894
+	rotate: 90
+yanjiang/04bianyuan/002
+	bounds: 1279, 3, 1547, 632
+	offsets: 77, 164, 1624, 894
+	rotate: 90
+yanjiang/04bianyuan/013
+	bounds: 2848, 202, 1538, 638
+	offsets: 86, 158, 1624, 894
+	rotate: 90
+yanjiang/04bianyuan/014
+	bounds: 639, 8, 1542, 638
+	offsets: 82, 158, 1624, 894
+	rotate: 90
+
+BigMap_dx_yj_10.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/02bianyuan/008
+	bounds: 1661, 2079, 1739, 406
+	offsets: 77, 65, 1816, 528
+yanjiang/02bianyuan/011
+	bounds: 1660, 1671, 1738, 406
+	offsets: 78, 73, 1816, 528
+yanjiang/02bianyuan/012
+	bounds: 1550, 1263, 1737, 406
+	offsets: 79, 75, 1816, 528
+yanjiang/03bianyuan/000
+	bounds: 1662, 3013, 1656, 525
+	offsets: 0, 133, 1736, 734
+yanjiang/03bianyuan/001
+	bounds: 1661, 2487, 1655, 524
+	offsets: 0, 133, 1736, 734
+yanjiang/03bianyuan/002
+	bounds: 2, 1960, 1656, 524
+	offsets: 0, 132, 1736, 734
+yanjiang/03bianyuan/003
+	bounds: 1664, 3540, 1657, 525
+	offsets: 0, 130, 1736, 734
+yanjiang/03bianyuan/004
+	bounds: 2, 3013, 1658, 525
+	offsets: 0, 129, 1736, 734
+yanjiang/03bianyuan/013
+	bounds: 2, 3540, 1660, 525
+	offsets: 0, 131, 1736, 734
+yanjiang/03bianyuan/014
+	bounds: 2, 2486, 1657, 525
+	offsets: 0, 132, 1736, 734
+yanjiang/04bianyuan/003
+	bounds: 2, 1329, 1546, 629
+	offsets: 78, 166, 1624, 894
+yanjiang/04bianyuan/004
+	bounds: 1538, 634, 1544, 627
+	offsets: 80, 168, 1624, 894
+yanjiang/04bianyuan/005
+	bounds: 1538, 2, 1541, 630
+	offsets: 83, 168, 1624, 894
+yanjiang/04bianyuan/006
+	bounds: 3323, 2528, 1537, 633
+	offsets: 87, 168, 1624, 894
+	rotate: 90
+yanjiang/04bianyuan/007
+	bounds: 2, 50, 1534, 636
+	offsets: 90, 168, 1624, 894
+yanjiang/04bianyuan/012
+	bounds: 2, 688, 1534, 639
+	offsets: 90, 160, 1624, 894
+yanjiang/zhongxin/000
+	bounds: 3084, 18, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+
+BigMap_dx_yj_11.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+yanjiang/02bianyuan/013
+	bounds: 2, 3651, 1736, 409
+	offsets: 80, 74, 1816, 528
+yanjiang/zhongxin/001
+	bounds: 2, 2866, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/002
+	bounds: 2, 2081, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/003
+	bounds: 2, 1296, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/004
+	bounds: 2, 511, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/005
+	bounds: 1247, 2406, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+yanjiang/zhongxin/006
+	bounds: 1247, 1161, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+yanjiang/zhongxin/007
+	bounds: 2032, 3277, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/008
+	bounds: 2032, 2492, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/009
+	bounds: 3277, 2817, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+yanjiang/zhongxin/010
+	bounds: 2032, 1707, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/011
+	bounds: 3277, 1572, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+yanjiang/zhongxin/012
+	bounds: 2032, 922, 1243, 783
+	offsets: 86, 59, 1412, 912
+yanjiang/zhongxin/013
+	bounds: 3277, 327, 1243, 783
+	offsets: 86, 59, 1412, 912
+	rotate: 90
+yanjiang/zhongxin/014
+	bounds: 1247, 137, 1243, 783
+	offsets: 86, 59, 1412, 912

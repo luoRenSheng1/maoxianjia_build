@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageAlpha="100">
+  <displayList>
+    <loader id="n14_p4bn" name="rlLoader" xy="-8,-27" size="737,1097" url="ui://m37flevdozj928" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <image id="n22_ddc1" name="runeItemBg" src="ozj929" fileName="Res/newPetsystem/nn14.png" xy="20,617" size="680,356">
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n0_jp5j" name="runeAllList" xy="48,627" size="624,336" layout="flow_hz" overflow="scroll" lineGap="25" colGap="20" defaultItem="ui://m37flevdeau0dxy6s" autoClearItems="true">
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n33_k627" name="recycleBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="281,987" size="158,65">
+      <relation target="n14_p4bn" sidePair="bottom-bottom"/>
+      <Button title="回收符石" titleFontSize="20" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <image id="n44_rm2c" name="n44" src="eau0dxy6u" fileName="Res/rune/dfgdfgdrfg.png" xy="-117,468" size="955,123" group="n45_rm2c"/>
+    <image id="n39_rm2c" name="n39" src="ozj91x" fileName="Res/newPetsystem/nn7.png" xy="657,593" group="n42_rm2c"/>
+    <image id="n40_rm2c" name="n40" src="ozj91y" fileName="Res/nn8.png" pkg="5moj1x39" xy="71,600" size="584,8" group="n42_rm2c"/>
+    <image id="n41_rm2c" name="n41" src="ozj91x" fileName="Res/newPetsystem/nn7.png" xy="49,593" group="n42_rm2c"/>
+    <group id="n42_rm2c" name="n42" xy="49,593" size="627,23" group="n45_rm2c"/>
+    <component id="n46_rm2c" name="runeItem0" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="24,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <component id="n47_rm2c" name="runeItem1" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="141,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <component id="n48_rm2c" name="runeItem2" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="258,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <component id="n54_qqv3" name="runeItem3" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="375,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <component id="n55_qqv3" name="runeItem4" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="492,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <component id="n56_qqv3" name="runeItem5" src="eau0dxy6s" fileName="Component/RuneItem.xml" xy="609,487" size="87,87" group="n57_qqv3" controller="bgiCtrl,1"/>
+    <group id="n57_qqv3" name="n57" xy="24,487" size="672,87" group="n45_rm2c"/>
+    <group id="n45_rm2c" name="upGroup" xy="-117,468" size="955,148" advanced="true">
+      <relation target="n14_p4bn" sidePair="bottom-top"/>
+    </group>
+    <list id="n53_eau0" name="runDetailList" xy="29,67" size="662,395" lineGap="8" defaultItem="ui://m37flevdeau0dxy6x" vAlign="bottom" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

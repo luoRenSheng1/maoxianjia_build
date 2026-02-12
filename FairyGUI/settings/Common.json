@@ -1,0 +1,50 @@
+{
+  "font": "MiSans",
+  "fontSize": 20,
+  "textColor": "#000000",
+  "fontAdjustment": false,
+  "colorScheme": [
+    "新品质1 999999",
+    "新品质2 74d5a4",
+    "新品质3 80bee4",
+    "新品质4 c688dc",
+    "新品质5 FBD968",
+    "新品质6 ff8bca",
+    "新品质7 ff877a",
+    "",
+    "战力 fde38f",
+    "装备词条 835c25",
+    "装备属性 e0901f",
+    "词条说明 7b7b7b",
+    "技能词条 63f0e4",
+    "黑色字 948d84",
+    "白色字 ffffff",
+    "增加装备数值 2fac53",
+    "描边 1c8887",
+    "描边2 d5802c",
+    "描边3 873e0d",
+    "描边4 ab6126",
+    "描边5 1C8887"
+  ],
+  "fontSizeScheme": [
+    "字体大小 35",
+    "字体大小 25",
+    "字体大小 20",
+    "字体大小 15",
+    "字体大小 12",
+    "字体大小 10"
+  ],
+  "fontScheme": [
+    "MiSans"
+  ],
+  "scrollBars": {
+    "horizontal": "",
+    "vertical": "",
+    "defaultDisplay": "visible"
+  },
+  "tipsRes": "",
+  "buttonClickSound": "ui://5moj1x39r0abdxy6s",
+  "pivot": "default",
+  "listClearOnPublish": false,
+  "fileName": "Common"
+}

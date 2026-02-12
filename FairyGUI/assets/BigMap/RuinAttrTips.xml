@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3kew224idb" designImageAlpha="0">
+  <displayList>
+    <component id="n0_w224" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_w224" name="n1" xy="16,351" size="688,470" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n2_w224" name="name" xy="262,367" size="196,44" fontSize="32" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="3" text="攻击属性增益">
+      <relation target="n1_w224" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n4_w224" name="ruinBtn" src="w224idi" fileName="Component/RuinBtn.xml" xy="303,478" scale="1.1,1.1">
+      <relation target="n1_w224" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n5_w224" name="desc" xy="214,617" size="292,44" fontSize="32" color="#4c2911" bold="true" text="角色攻击力提升30%">
+      <relation target="n1_w224" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n6_w224" name="n6" xy="40,686" size="640,16" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n1_w224" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n7_w224" name="n7" xy="278,733" size="194,51" group="n10_w224" url="ui://5moj1x39a2kwdxyc8" fill="scaleFree">
+      <relation target="n9_w224" sidePair="width-width"/>
+    </loader>
+    <loader id="n8_w224" name="n8" xy="249,728" size="60,60" group="n10_w224" url="ui://5moj1x39f34jdxyaz" fill="scale">
+      <relation target="n7_w224" sidePair="left-left"/>
+    </loader>
+    <text id="n9_w224" name="time" xy="321,734" size="122,44" group="n10_w224" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="125小时">
+      <relation target="n7_w224" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n10_w224" name="n10" xy="249,728" size="223,60" advanced="true">
+      <relation target="n1_w224" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n3_w224" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,846" size="84,84">
+      <relation target="n1_w224" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+  </displayList>
+</component>

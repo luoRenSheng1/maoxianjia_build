@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,2260" designImage="ui://m37flevdllb1dxyed" designImageOffsetX="-15" designImageAlpha="0">
+  <displayList>
+    <component id="n168_p9n0" name="bar1" src="p9n0dxy99" fileName="Component/talentBar4.xml" xy="190,2024" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n169_p9n0" name="bar2" src="p9n0dxy9a" fileName="Component/talentBar5.xml" xy="86,1823" size="215,175" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n170_p9n0" name="bar3" src="p9n0dxy9a" fileName="Component/talentBar5.xml" xy="418,1823" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n181_llb1" name="barx1" src="llb1dxyfq" fileName="Component/talentBar9.xml" xy="86,508" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n176_llb1" name="bar6" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="86,1231" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n171_p9n0" name="bar4" src="p9n0dxy9b" fileName="Component/talentBar6.xml" xy="86,1414" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n183_llb1" name="bary1" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="293,531" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n178_llb1" name="bar9" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="293,717" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n175_llb1" name="bar5" src="llb1dxyfo" fileName="Component/talentBar7.xml" xy="201,906" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n155_p9n0" name="bar7" src="p9n0dxy98" fileName="Component/talentBar3.xml" xy="86,1228" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n156_p9n0" name="bar8" src="p9n0dxy98" fileName="Component/talentBar3.xml" xy="189,714" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n162_p9n0" name="bar10" src="p9n0dxy97" fileName="Component/talentBar2.xml" xy="86,318" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n163_p9n0" name="bar11" src="p9n0dxy97" fileName="Component/talentBar2.xml" xy="237,318" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n166_p9n0" name="bar12" src="p9n0dxy96" fileName="Component/talentBar1.xml" xy="190,140" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n179_llb1" name="bar15" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="418,715" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n177_llb1" name="bar13" src="llb1dxyfo" fileName="Component/talentBar7.xml" xy="418,906" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n180_llb1" name="bar18" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="626,1229" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n173_p9n0" name="bar14" src="p9n0dxy9b" fileName="Component/talentBar6.xml" xy="522,1414" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n161_p9n0" name="bar16" src="p9n0dxy98" fileName="Component/talentBar3.xml" xy="418,714" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n157_p9n0" name="bar17" src="p9n0dxy98" fileName="Component/talentBar3.xml" xy="522,1228" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n164_p9n0" name="bar19" src="p9n0dxy97" fileName="Component/talentBar2.xml" xy="419,318" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n165_p9n0" name="bar20" src="p9n0dxy97" fileName="Component/talentBar2.xml" xy="568,318" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n167_p9n0" name="bar21" src="p9n0dxy96" fileName="Component/talentBar1.xml" xy="395,140" group="n138_p9n0" controller="type,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n182_llb1" name="barx2" src="llb1dxyfq" fileName="Component/talentBar9.xml" xy="626,508" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n184_llb1" name="bary2" src="llb1dxyfp" fileName="Component/talentBar8.xml" xy="418,531" group="n138_p9n0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <group id="n138_p9n0" name="n138" xy="86,140" size="548,2053" group="n186_llb1"/>
+    <component id="n23_p9n0" name="talentItem1" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="288,2116" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n24_p9n0" name="talentItem2" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="122,1924" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n25_p9n0" name="talentItem3" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="454,1924" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n26_p9n0" name="talentItem4" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="18,1718" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n27_p9n0" name="talentItem5" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="226,1718" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n30_p9n0" name="talentItem6" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="18,1315" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n31_p9n0" name="talentItem7" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="122,1512" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n32_p9n0" name="talentItem8" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="122,998" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n33_p9n0" name="talentItem9" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="225,801" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n38_p9n0" name="talentItem10" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="17,474" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n39_p9n0" name="talentItem11" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="226,474" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n42_p9n0" name="talentItem12" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="123,250" group="n186_llb1" controller="typeCtrl,2">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n28_p9n0" name="talentItem13" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="349,1718" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n29_p9n0" name="talentItem14" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="558,1718" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n35_p9n0" name="talentItem15" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="350,801" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n34_p9n0" name="talentItem16" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="454,998" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n36_p9n0" name="talentItem17" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="454,1512" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n37_p9n0" name="talentItem18" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="558,1315" group="n186_llb1" controller="typeCtrl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n40_p9n0" name="talentItem19" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="350,474" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n41_p9n0" name="talentItem20" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="558,474" group="n186_llb1" controller="typeCtrl,1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n43_p9n0" name="talentItem21" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="454,250" group="n186_llb1" controller="typeCtrl,2">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n44_p9n0" name="talentItem22" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="288,71" group="n186_llb1" controller="typeCtrl,2">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <group id="n186_llb1" name="n186" xy="17,71" size="685,2189"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2nawooiy">
+  <resources>
+    <component id="jnq814" name="SokobanRewardView.xml" path="/" exported="true"/>
+    <component id="osqg1f" name="SokobanMap.xml" path="/Component/" exported="true"/>
+    <component id="osqg1h" name="SokobanMapClipPanel.xml" path="/Component/"/>
+    <component id="osqg1i" name="SokobanBox.xml" path="/" exported="true"/>
+    <component id="osqg1j" name="SokobanWall.xml" path="/" exported="true"/>
+    <component id="osqg1l" name="SokobanMapRoot.xml" path="/Component/"/>
+    <component id="osqg1p" name="SokobanSlot.xml" path="/" exported="true"/>
+    <component id="s3cg1w" name="SokobanMapClip.xml" path="/Component/"/>
+    <component id="pmwj1x" name="SokobanBoxClip.xml" path="/" exported="true"/>
+    <component id="azu01y" name="SokobanBoxMove.xml" path="/" exported="true"/>
+    <component id="jhjz1z" name="SokobanMap.xml" path="/"/>
+  </resources>
+  <publish name="Sokoban" genCode="true"/>
+</packageDescription>

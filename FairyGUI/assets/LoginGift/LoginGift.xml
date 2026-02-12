@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" designImage="ui://z3lv15h6khmxf" designImageAlpha="18" designImageLayer="1">
+  <displayList>
+    <component id="n0_khmx" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n7_khmx" name="rightPane" src="khmxg" fileName="Component/RightPanel.xml" xy="288,449" size="434,313" group="n9_khmx" rotation="1.5"/>
+    <component id="n8_khmx" name="leftPane" src="khmxh" fileName="Component/LeftPanel.xml" xy="-3,465" group="n9_khmx"/>
+    <component id="n10_khmx" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="311,837" group="n9_khmx" visible="false"/>
+    <loader id="n12_pm0b" name="img" xy="15,373" size="336,86" group="n9_khmx" url="ui://z3lv15h6khmxc" align="center" vAlign="middle"/>
+    <group id="n9_khmx" name="n9" xy="-3,373" size="725,558" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

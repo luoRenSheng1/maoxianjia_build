@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nmzfxo89">
+  <resources>
+    <image id="ftc90" name="b2.png" path="/Res/"/>
+    <image id="ftc91" name="b3.png" path="/Res/"/>
+    <image id="ftc92" name="b1.png" path="/Res/"/>
+    <image id="ftc93" name="b4.png" path="/Res/"/>
+    <image id="ftc94" name="n1.png" path="/Res/"/>
+    <component id="ftc95" name="ShopMain.xml" path="/" exported="true"/>
+    <component id="ftc96" name="TabBtn.xml" path="/Component/" exported="true"/>
+    <image id="ftc97" name="b5.png" path="/Res/"/>
+    <image id="ftc98" name="b6.png" path="/Res/"/>
+    <image id="ftc99" name="b7.png" path="/Res/" scale="9grid" scale9grid="179,47,360,2"/>
+    <component id="ftc9a" name="dailyTH.xml" path="/Component/"/>
+    <image id="ftc9b" name="dailyTH.png" path="/Res/bgItem/"/>
+    <component id="ftc9c" name="dailyTHItem.xml" path="/Component/"/>
+    <image id="ftc9d" name="i2.png" path="/Res/"/>
+    <image id="ftc9e" name="i1.png" path="/Res/"/>
+    <image id="ftc9f" name="jx.png" path="/Res/" scale="9grid" scale9grid="22,21,44,42"/>
+    <image id="ftc9g" name="tthl.png" path="/Res/bgItem/"/>
+    <image id="ftc9h" name="fkzn.png" path="/Res/bgItem/"/>
+    <component id="ftc9i" name="tthlTH.xml" path="/Component/"/>
+    <component id="ftc9j" name="tthlTHItem.xml" path="/Component/"/>
+    <component id="ftc9l" name="tqTH.xml" path="/Component/"/>
+    <component id="ftc9m" name="tqTHItem.xml" path="/Component/"/>
+    <image id="ftc9n" name="c1.png" path="/Res/card/"/>
+    <image id="ftc9o" name="c3.png" path="/Res/card/"/>
+    <image id="ftc9p" name="c2.png" path="/Res/card/" scale="9grid" scale9grid="43,258,41,20"/>
+    <image id="ftc9q" name="c4.png" path="/Res/card/" scale="9grid" scale9grid="43,258,36,22"/>
+    <image id="ftc9r" name="c6.png" path="/Res/card/"/>
+    <image id="ftc9s" name="c5.png" path="/Res/card/" scale="9grid" scale9grid="43,258,43,24"/>
+    <image id="ftc9t" name="n2.png" path="/Res/card/"/>
+    <image id="ftc9v" name="n3.png" path="/Res/card/" scale="9grid" scale9grid="50,10,100,4"/>
+    <image id="ftc9w" name="anjian3.png" path="/Res/"/>
+    <component id="ftc9x" name="fengkuangBuyBtn.xml" path="/Component/"/>
+    <component id="ftc9y" name="dailyTHItemAll.xml" path="/Component/"/>
+    <component id="plioz" name="fengkuangItem.xml" path="/Component/"/>
+    <image id="plio10" name="4.png" path="/Res/"/>
+    <component id="plio11" name="fengkuangItemCom.xml" path="/Component/"/>
+    <component id="plio12" name="fkTabBtn.xml" path="/Component/"/>
+    <image id="plio13" name="fk1.png" path="/Res/"/>
+    <image id="plio14" name="fk2.png" path="/Res/" scale="9grid" scale9grid="19,18,149,31"/>
+    <component id="plio15" name="fengkuangTH.xml" path="/Component/"/>
+    <component id="plio16" name="FengkuangPay.xml" path="/" exported="true"/>
+    <image id="plio17" name="fk3.png" path="/Res/"/>
+    <image id="plio18" name="fk4.png" path="/Res/"/>
+    <image id="plio19" name="fk5.png" path="/Res/"/>
+    <image id="plio1a" name="fk6.png" path="/Res/"/>
+    <image id="ftc91d" name="tq.png" path="/Res/bgItem/"/>
+    <image id="r18s1e" name="b9.png" path="/Res/"/>
+  </resources>
+  <publish name="Shop" genCode="true"/>
+</packageDescription>

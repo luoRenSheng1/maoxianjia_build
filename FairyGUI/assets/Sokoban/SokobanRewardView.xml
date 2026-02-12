@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://2nawooiyq30a1y" designImageAlpha="16" designImageLayer="1">
+  <displayList>
+    <component id="n10_rjj2" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_jnq8" name="n0" xy="16,205" size="688,758" group="n11_rjj2" url="ui://5moj1x39om2edxyd5" fill="scaleFree"/>
+    <text id="n2_jnq8" name="title" xy="292,430" pivot="0.5,0.5" size="136,45" group="n11_rjj2" fontSize="33" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" strokeSize="2" text="宝藏奖励"/>
+    <component id="n3_rjj2" name="btn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,847" size="218,84" group="n11_rjj2">
+      <Button title="领取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n9_rjj2" name="n9" xy="40,559" size="639,263" group="n11_rjj2" url="ui://pdufy3kef34j2z" fill="scaleFree"/>
+    <list id="n8_rjj2" name="rewardList" xy="40,559" size="639,263" group="n11_rjj2" layout="flow_hz" overflow="scroll" colGap="5" defaultItem="ui://5moj1x39rjj2dxycz" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n11_rjj2" name="n11" xy="16,205" size="688,758" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

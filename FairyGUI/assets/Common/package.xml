@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="0anhreyl">
+  <resources>
+    <component id="tomp1q" name="ToastWindow.xml" path="/Component/Window/" exported="true"/>
+    <component id="tomp1r" name="ComRedPoint.xml" path="/Component/Common/" exported="true"/>
+    <component id="fgvo1t" name="MessageBox.xml" path="/Component/Common/"/>
+    <component id="ueyx26" name="MessageBoxWindow.xml" path="/Component/Window/" exported="true"/>
+    <component id="b71r32" name="ReconnectWindow.xml" path="/Component/Window/" exported="true"/>
+    <component id="pmd7pq" name="FrameMask_Tips.xml" path="/Component/Common/" exported="true"/>
+    <component id="ugrmtd" name="FrameMask_Normal.xml" path="/Component/Common/" exported="true"/>
+    <component id="qrl6te" name="ToastCom.xml" path="/Component/Window/"/>
+    <component id="iqkovm" name="BtnAddItem.xml" path="/Component/NotExportedCode/" exported="true"/>
+    <component id="btyu3g" name="BtnCurrency.xml" path="/Component/Extension/" exported="true"/>
+    <component id="btyu3f" name="ComCurrency.xml" path="/Component/Common/" exported="true"/>
+    <component id="geqby7" name="LoadingUI.xml" path="/Component/Window/" exported="true"/>
+    <image id="p3dl1j" name="0.png" path="/Res/Font/"/>
+    <image id="p3dl1k" name="1.png" path="/Res/Font/"/>
+    <image id="p3dl1l" name="2.png" path="/Res/Font/"/>
+    <image id="p3dl1m" name="3.png" path="/Res/Font/"/>
+    <image id="p3dl1n" name="4.png" path="/Res/Font/"/>
+    <image id="p3dl1o" name="5.png" path="/Res/Font/"/>
+    <image id="p3dl1p" name="6.png" path="/Res/Font/"/>
+    <image id="p3dl1q" name="7.png" path="/Res/Font/"/>
+    <image id="p3dl1r" name="8.png" path="/Res/Font/"/>
+    <image id="p3dl1s" name="9.png" path="/Res/Font/"/>
+    <font id="p3dl1t" name="LvFont.fnt" path="/Component/Font/" exported="true"/>
+    <component id="kwfmxxn7" name="LoadingProgress.xml" path="/Component/ProgressBar/"/>
+    <image id="kwfmxxn8" name="LoadingHeiDi.png" path="/Res/Loading/" scale="9grid" scale9grid="3,0,6,270"/>
+    <image id="kwfmxxn9" name="LoadingJingDu01.png" path="/Res/Loading/" scale="9grid" scale9grid="13,6,12,5"/>
+    <image id="kwfmxxna" name="LoadingJingDu02.png" path="/Res/Loading/"/>
+    <image id="kwfmxxnb" name="LoadingShuZiDi01.png" path="/Res/Loading/"/>
+    <image id="kwfmxxnc" name="LoadingShuZiDi02.png" path="/Res/Loading/"/>
+    <component id="kwfmxxne" name="LoadingCircleProgress.xml" path="/Component/ProgressBar/" exported="true"/>
+    <image id="pxyexxnw" name="登陆界面1.jpg" path="/Sample/"/>
+    <component id="hjvfxxqc" name="ToastIconCom.xml" path="/Component/Window/"/>
+    <component id="g1nmxxrm" name="ComHeadIcon.xml" path="/Component/Common/" exported="true"/>
+    <font id="kbxrdxxw7" name="BattleFont.fnt" path="/Component/Font/" exported="true"/>
+    <component id="fcoenzh" name="CustomFly.xml" path="/Component/Common/" exported="true"/>
+    <component id="aytsdxxwo" name="BlueBar3.xml" path="/Component/ProgressBar/" exported="true"/>
+    <image id="ceq2dxxwz" name="Loading界面.jpg" path="/Sample/"/>
+    <image id="ceq2dxxx0" name="Loading界面1.jpg" path="/Sample/"/>
+    <component id="s6xgdxxxs" name="ProgressBlueBar.xml" path="/Component/ProgressBar/"/>
+    <image id="kzbmdxxy2" name="-.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy3" name="+.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy4" name="0.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy5" name="1.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy6" name="2.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy7" name="3.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy8" name="4.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxy9" name="5.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxya" name="6.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxyb" name="7.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxyc" name="8.png" path="/Res/Font/BattleFont/"/>
+    <image id="kzbmdxxyd" name="9.png" path="/Res/Font/BattleFont/"/>
+    <image id="dd3xdxxx7" name="ICON-touxiangkuang.png" path="/Res/" exported="true" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="dd3xdxxxa" name="ICON-diamond 02.png" path="/Res/Currency/" exported="true"/>
+    <image id="dd3xdxxxv" name="ICON-shuliangkuang.png" path="/Res/" exported="true"/>
+    <image id="eb0tdxxye" name="UI-01.png" path="/Res/"/>
+    <image id="i9sldxxzz" name="ICON-touxiang.png" path="/Res/"/>
+    <image id="i9sldxxyf" name="UI-Level heidi.png" path="/Res/" exported="true" scale="9grid" scale9grid="20,4,40,8"/>
+    <image id="i9sldxxzr" name="EQUIP-01.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0k" name="EQUIP-02.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0j" name="EQUIP-03.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0i" name="EQUIP-04.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0h" name="EQUIP-05.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0g" name="EQUIP-06.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0f" name="EQUIP-07.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0e" name="EQUIP-08.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0d" name="EQUIP-09.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy0c" name="EQUIP-10.png" path="/Res/Equip/" exported="true"/>
+    <image id="dd3xdxxya" name="EQUIP-101.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyb" name="EQUIP-102.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyc" name="EQUIP-103.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyd" name="EQUIP-104.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxye" name="EQUIP-105.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyf" name="EQUIP-106.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyg" name="EQUIP-107.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyh" name="EQUIP-108.png" path="/Res/Equip/"/>
+    <image id="dd3xdxxyi" name="EQUIP-109.png" path="/Res/Equip/"/>
+    <image id="i9sldxy0b" name="EQUIP-11.png" path="/Res/Equip/" exported="true"/>
+    <image id="dd3xdxxyj" name="EQUIP-110.png" path="/Res/Equip/"/>
+    <image id="i9sldxy0a" name="EQUIP-12.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy09" name="EQUIP-13.png" path="/Res/Equip/"/>
+    <image id="i9sldxy08" name="EQUIP-14.png" path="/Res/Equip/" exported="true"/>
+    <image id="i9sldxy07" name="EQUIP-15.png" path="/Res/Equip/" exported="true"/>
+    <image id="dwt8dxy1d" name="4.png" path="/Res/stage/" scale="9grid" scale9grid="0,0,2,26"/>
+    <image id="dwt8dxy1e" name="5.png" path="/Res/stage/"/>
+    <image id="dwt8dxy1g" name="1.png" path="/Res/stage/"/>
+    <image id="dwt8dxy1h" name="2.png" path="/Res/stage/" scale="9grid" scale9grid="68,0,136,30"/>
+    <font id="dwt8dxy1i" name="stageFnt.fnt" path="/Component/Font/" exported="true"/>
+    <image id="dwt8dxy1j" name="0.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1k" name="1.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1l" name="2.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1m" name="3.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1n" name="4.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1o" name="5.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1p" name="6.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1q" name="7.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1r" name="8.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1s" name="9.png" path="/Res/stage/fnt/"/>
+    <image id="dwt8dxy1t" name="：.png" path="/Res/stage/fnt/"/>
+    <component id="eceedxy1u" name="MonsterGroupBar.xml" path="/Component/ProgressBar/" exported="true"/>
+    <component id="eceedxy1v" name="MonsterGroupItem.xml" path="/Component/ProgressBar/"/>
+    <image id="eceedxy1w" name="6.png" path="/Res/stage/"/>
+    <image id="eceedxy1x" name="6-1.PNG" path="/Res/stage/" scale="9grid" scale9grid="9,0,34,26"/>
+    <image id="eceedxy1y" name="6-2.png" path="/Res/stage/"/>
+    <image id="eceedxy1z" name="6-3.PNG" path="/Res/stage/" scale="9grid" scale9grid="5,0,36,26"/>
+    <component id="mrdwdxy20" name="BossFightWindow.xml" path="/Component/Window/" exported="true"/>
+    <image id="h7zqdxy21" name="10000001.png" path="/Res/Currency/" exported="true"/>
+    <component id="nnymdxy22" name="MonsterWaveBar.xml" path="/Component/ProgressBar/"/>
+    <image id="w02ndxy25" name="EQUIP-16.png" path="/Res/Equip/" exported="true"/>
+    <image id="fpa2dxy26" name="btn-tupo 02.png" path="/Res/" scale="9grid" scale9grid="94,24,15,4"/>
+    <image id="fpa2dxy27" name="btn-yijiantupo.png" path="/Res/"/>
+    <component id="fpa2dxy28" name="EmptyBtn.xml" path="/Component/" exported="true"/>
+    <image id="fpa2dxy29" name="guanbi.PNG" path="/Res/" exported="true"/>
+    <image id="x3dkdxy2c" name="UI-tanchuang.png" path="/Res/" exported="true" scale="9grid" scale9grid="35,34,4,7"/>
+    <component id="x3dkdxy2d" name="GetReward.xml" path="/Component/Window/" exported="true"/>
+    <image id="x3dkdxy2e" name="17.PNG" path="/Res/"/>
+    <component id="ot6fdxy2f" name="PMWindow.xml" path="/Component/Window/" exported="true"/>
+    <image id="ot6fdxy2g" name="5.PNG" path="/Res/bossFight/" atlas="10"/>
+    <image id="ot6fdxy2h" name="1.png" path="/Res/bossFight/" atlas="10"/>
+    <image id="ot6fdxy2i" name="2.PNG" path="/Res/bossFight/" atlas="10"/>
+    <image id="ot6fdxy2j" name="3.png" path="/Res/bossFight/" scale9grid="90,49,180,28" atlas="10"/>
+    <component id="ot6fdxy2l" name="PmItem_item.xml" path="/Component/PmMenuitem/"/>
+    <component id="ot6fdxy2m" name="PmItem_popup.xml" path="/Component/PmMenuitem/"/>
+    <component id="ot6fdxy2n" name="PmItem.xml" path="/Component/PmMenuitem/" exported="true"/>
+    <component id="s503dxy2o" name="GetPetReward.xml" path="/Component/Window/" exported="true"/>
+    <component id="reczdxy2p" name="PetTipShowDetail.xml" path="/Component/Window/" exported="true"/>
+    <image id="j2lc8" name="8.png" path="/Res/" scale="9grid" scale9grid="47,29,5,10"/>
+    <image id="reczdxy2q" name="1.PNG" path="/Res/" exported="true" scale="9grid" scale9grid="43,48,10,15"/>
+    <image id="reczdxy2r" name="3.png" path="/Res/" exported="true" scale="9grid" scale9grid="25,29,8,13"/>
+    <image id="reczdxy2s" name="10091.png" path="/Res/" exported="true"/>
+    <image id="t36s2b" name="nan.png" path="/Res/" exported="true"/>
+    <image id="t36s2c" name="nv.png" path="/Res/" exported="true"/>
+    <image id="ofkodxy2t" name="20.png" path="/Res/" exported="true"/>
+    <image id="ofkodxy2u" name="11.PNG" path="/Res/" exported="true"/>
+    <image id="ofkodxy2v" name="3.PNG" path="/Res/bar/" exported="true" scale="9grid" scale9grid="33,0,7,21"/>
+    <image id="ofkodxy2w" name="4.png" path="/Res/bar/" exported="true" scale="9grid" scale9grid="46,0,14,23"/>
+    <image id="x3dk2t" name="suo.png" path="/Res/" exported="true"/>
+    <component id="nfkbdxy2x" name="SkillShow.xml" path="/Component/Window/" exported="true"/>
+    <component id="nntddxy2y" name="CustomFlyAttack.xml" path="/Component/Common/" exported="true"/>
+    <image id="ykvcdxy32" name="fanjiF.png" path="/Res/Font/"/>
+    <image id="ykvcdxy33" name="lianjiF.png" path="/Res/Font/"/>
+    <image id="isqldxy35" name="0.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy36" name="1.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy37" name="2.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy38" name="3.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy39" name="4.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy3a" name="5.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy3b" name="6.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy3c" name="7.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy3d" name="8.png" path="/Res/Font/fight/"/>
+    <image id="isqldxy3e" name="9.png" path="/Res/Font/fight/"/>
+    <font id="isqldxy3f" name="fightFont.fnt" path="/Component/Font/" exported="true"/>
+    <component id="isqldxy3g" name="PowerUp.xml" path="/Component/Window/" exported="true"/>
+    <image id="isqldxy3h" name="ICON-rise.png" path="/Res/"/>
+    <image id="v534dxy3i" name="powerBg.png" path="/Res/"/>
+    <image id="v534dxy3j" name="+.png" path="/Res/Font/fight/"/>
+    <image id="v534dxy3k" name="-.png" path="/Res/Font/fight/"/>
+    <image id="v534dxy3l" name="G.png" path="/Res/Font/fight/"/>
+    <image id="v534dxy3m" name="K.png" path="/Res/Font/fight/"/>
+    <image id="v534dxy3n" name="M.png" path="/Res/Font/fight/"/>
+    <image id="v534dxy3o" name="..png" path="/Res/Font/fight/"/>
+    <component id="sc7hdxy3p" name="UseSpeedItem.xml" path="/Component/Window/" exported="true"/>
+    <image id="sc7hdxy3q" name="reduceBtn.png" path="/Component/Window/Res/useitem/"/>
+    <image id="sc7hdxy3r" name="addBtn.png" path="/Component/Window/Res/useitem/"/>
+    <component id="sc7hdxy3s" name="Slider1.xml" path="/Component/Window/Component/"/>
+    <image id="sc7hdxy3t" name="barbg.png" path="/Component/Window/Res/useitem/" scale="9grid" scale9grid="20,0,5,15"/>
+    <image id="sc7hdxy3u" name="pro.png" path="/Component/Window/Res/useitem/" scale="9grid" scale9grid="23,0,5,13"/>
+    <component id="sc7hdxy3v" name="Slider1_grip.xml" path="/Component/Window/Component/"/>
+    <image id="sc7hdxy3w" name="bar.png" path="/Component/Window/Res/useitem/"/>
+    <image id="sc7hdxy3x" name="txtbg.png" path="/Component/Window/Res/useitem/" scale="9grid" scale9grid="26,16,7,7"/>
+    <component id="8824dxy3y" name="Notice.xml" path="/Component/Window/" exported="true"/>
+    <component id="8824dxy3z" name="noticeItem.xml" path="/Component/Window/Component/"/>
+    <component id="uq40dxy40" name="BuyGoldItem.xml" path="/Component/Window/" exported="true"/>
+    <component id="uq40dxy41" name="BuySpeedTicket.xml" path="/Component/Window/" exported="true"/>
+    <component id="uq40dxy42" name="GuideLayer.xml" path="/Component/Window/" exported="true"/>
+    <component id="uq40dxy44" name="SoftGuideLayer.xml" path="/Component/Window/" exported="true"/>
+    <component id="uq40dxy45" name="GuideTips.xml" path="/Component/Window/" exported="true"/>
+    <image id="uq40dxy46" name="g1.png" path="/Res/guideRes/" exported="true"/>
+    <image id="uq40dxy47" name="g2.png" path="/Res/guideRes/"/>
+    <image id="uq40dxy48" name="g3.png" path="/Res/guideRes/" exported="true" scale="9grid" scale9grid="59,55,8,10"/>
+    <image id="uq40dxy4a" name="g4.png" path="/Res/guideRes/" scale="9grid" scale9grid="77,45,7,22"/>
+    <image id="uq40dxy4b" name="g5.png" path="/Res/guideRes/"/>
+    <component id="uq40dxy4c" name="GuideTips2.xml" path="/Component/Window/" exported="true"/>
+    <component id="uq40dxy4e" name="HandMc.xml" path="/Component/Window/" exported="true"/>
+    <component id="kv23dxy4f" name="TipInfoShow.xml" path="/Component/Window/" exported="true"/>
+    <image id="bcttdxy4g" name="..png" path="/Res/Font/BattleFont/"/>
+    <image id="bcttdxy4h" name="G.png" path="/Res/Font/BattleFont/"/>
+    <image id="bcttdxy4i" name="K.png" path="/Res/Font/BattleFont/"/>
+    <image id="bcttdxy4j" name="M.png" path="/Res/Font/BattleFont/"/>
+    <image id="dnrxdxy4k" name="10000002.png" path="/Res/Currency/"/>
+    <component id="dnrxdxy4l" name="SCLoading.xml" path="/" exported="true"/>
+    <image id="v5rfdxy4n" name="ICON-draw card .png" path="/Res/Currency/"/>
+    <image id="v5rfdxy4o" name="ICON-speed up  .png" path="/Res/Currency/" exported="true"/>
+    <component id="qz32dxy4p" name="PayLoading.xml" path="/" exported="true"/>
+    <component id="mg7gdxy4q" name="StoryHome.xml" path="/"/>
+    <component id="tcgldxy4r" name="RoleTips.xml" path="/Component/Window/"/>
+    <image id="tcgldxy4s" name="role.png" path="/Res/guideRes/"/>
+    <image id="tcgldxy4t" name="zimudi.png" path="/Res/guideRes/" scale="9grid" scale9grid="33,39,11,78"/>
+    <component id="ddc1dxy4v" name="HandTips.xml" path="/Component/Common/" exported="true"/>
+    <misc id="ozj9dxy51" name="Common_PowerUp.atlas" path="/Res/PowerSpine/"/>
+    <image id="ozj9dxy52" name="Common_PowerUp.png" path="/Res/PowerSpine/"/>
+    <spine id="ozj9dxy50" name="Common_PowerUp.skel" path="/Res/PowerSpine/" width="746" height="175" require="ozj9dxy51,ozj9dxy52" atlasNames="Common_PowerUp" anchor="373,88"/>
+    <misc id="ozj9dxy54" name="Common_SuperPower.atlas" path="/Res/PowerSpine/"/>
+    <image id="ozj9dxy55" name="Common_SuperPower.png" path="/Res/PowerSpine/"/>
+    <spine id="ozj9dxy53" name="Common_SuperPower.skel" path="/Res/PowerSpine/" width="802" height="420" require="ozj9dxy54,ozj9dxy55" atlasNames="Common_SuperPower" anchor="525,288"/>
+    <image id="ozj9dxy56" name="万.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy57" name="那.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy58" name="载.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy59" name="议.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5a" name="穰.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5b" name="秭.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5c" name="祗.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5d" name="由.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5e" name="涧.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5f" name="河.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5g" name="沟.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5h" name="沙.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5i" name="正.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5j" name="量.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5k" name="极.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5l" name="数.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5m" name="恒.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5n" name="思.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5o" name="大.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5p" name="垓.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5q" name="可.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5r" name="兆.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5s" name="僧.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5t" name="他.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5u" name="亿.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5v" name="京.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5w" name="不.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5x" name="无.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5y" name="阿.png" path="/Res/Font/fight/"/>
+    <image id="ozj9dxy5z" name="万.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy60" name="那.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy61" name="载.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy62" name="议.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy63" name="穰.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy64" name="秭.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy65" name="祗.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy66" name="由.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy67" name="涧.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy68" name="河.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy69" name="沟.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6a" name="沙.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6b" name="正.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6c" name="量.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6d" name="极.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6e" name="数.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6f" name="恒.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6g" name="思.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6h" name="大.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6i" name="垓.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6j" name="可.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6k" name="兆.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6l" name="僧.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6m" name="他.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6n" name="亿.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6o" name="京.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6p" name="不.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6q" name="无.png" path="/Res/Font/BattleFont/"/>
+    <image id="ozj9dxy6r" name="阿.png" path="/Res/Font/BattleFont/"/>
+    <component id="cgundxy6u" name="ScrollBarPM_grip.xml" path="/Component/Window/Component/"/>
+    <component id="cgundxy6v" name="ScrollBarPM.xml" path="/Component/Window/Component/" exported="true"/>
+    <misc id="p0sedxy5e" name="Common_SkillEx.atlas" path="/Res/skillspine/" exported="true"/>
+    <image id="p0sedxy5f" name="Common_SkillEx.png" path="/Res/skillspine/" exported="true"/>
+    <spine id="p0sedxy5d" name="Common_SkillEx.skel" path="/Res/skillspine/" exported="true" width="64" height="64" require="p0sedxy5e,p0sedxy5f" atlasNames="Common_SkillEx" anchor="32,32"/>
+    <misc id="i8evdxy6x" name="Common_BaoF.atlas" path="/Res/getSpine/" exported="true"/>
+    <image id="i8evdxy6y" name="Common_BaoF.png" path="/Res/getSpine/" exported="true"/>
+    <spine id="i8evdxy6w" name="Common_BaoF.skel" path="/Res/getSpine/" exported="true" width="100" height="100" require="i8evdxy6x,i8evdxy6y" atlasNames="Common_BaoF" anchor="100,100"/>
+    <misc id="i8evdxy70" name="Common_GuangB.atlas" path="/Res/getSpine/" exported="true"/>
+    <image id="i8evdxy71" name="Common_GuangB.png" path="/Res/getSpine/" exported="true"/>
+    <spine id="i8evdxy6z" name="Common_GuangB.skel" path="/Res/getSpine/" exported="true" width="100" height="100" require="i8evdxy70,i8evdxy71" atlasNames="Common_GuangB" anchor="100,100"/>
+    <misc id="i8evdxy73" name="Common_Huode.atlas" path="/Res/getSpine/" exported="true"/>
+    <image id="i8evdxy74" name="Common_Huode.png" path="/Res/getSpine/" exported="true"/>
+    <spine id="i8evdxy72" name="Common_Huode.skel" path="/Res/getSpine/" exported="true" width="1219" height="687" require="i8evdxy73,i8evdxy74" atlasNames="Common_Huode" anchor="845,346"/>
+    <image id="ha87dxy75" name="tx.png" path="/Res/" exported="true"/>
+    <component id="s2xhdxy7a" name="FrameMask_1.xml" path="/Component/Common/" exported="true"/>
+    <component id="umzkdxy7b" name="ItemList.xml" path="/Component/Window/" exported="true"/>
+    <component id="ktw8dxy7c" name="FuncOpen.xml" path="/Component/Window/" exported="true"/>
+    <component id="ktw8dxy7d" name="FlyIcon.xml" path="/Component/Common/" exported="true"/>
+    <component id="wpkodxy7e" name="FuncOpenItem.xml" path="/Component/Window/Component/"/>
+    <image id="r0ab1h" name="ywc.png" path="/Res/" exported="true"/>
+    <component id="plio1b" name="help.xml" path="/" exported="true"/>
+    <component id="plio1c" name="helpItem.xml" path="/Component/" exported="true"/>
+    <component id="il6l18" name="HelpPicture.xml" path="/" exported="true"/>
+    <component id="qofb1f" name="HelpItemPicture.xml" path="/Component/" exported="true"/>
+    <image id="il6l1a" name="bagnzhu-di.png" path="/Res/" scale="9grid" scale9grid="14,13,33,39"/>
+    <image id="il6l1b" name="bagnzhu-yuan.png" path="/Res/"/>
+    <image id="il6l1c" name="nn7.png" path="/Res/"/>
+    <image id="il6l1d" name="nn8.png" path="/Res/" exported="true" scale="tile"/>
+    <image id="r18sdxy7f" name="g1.png" path="/Res/getSpine/" exported="true"/>
+    <image id="r18sdxy7g" name="g3.png" path="/Res/getSpine/" exported="true"/>
+    <image id="r18sdxy7h" name="g4.png" path="/Res/getSpine/" exported="true"/>
+    <image id="r18sdxy7i" name="g2.png" path="/Res/getSpine/" exported="true"/>
+    <misc id="r18sdxy7r" name="Common_Jiesuo.atlas" path="/Res/getSpine/"/>
+    <image id="r18sdxy7s" name="Common_Jiesuo.png" path="/Res/getSpine/"/>
+    <spine id="r18sdxy7q" name="Common_Jiesuo.skel" path="/Res/getSpine/" width="100" height="100" require="r18sdxy7r,r18sdxy7s" atlasNames="Common_Jiesuo" anchor="100,100"/>
+    <image id="9piddxy7u" name="loading.jpg" path="/Sample/" exported="true"/>
+    <image id="gsscdxy7v" name="ICON-txk.png" path="/Res/" exported="true"/>
+    <image id="gsscdxy7w" name="ICON-txk2.png" path="/Res/" exported="true"/>
+    <image id="gsscdxy7x" name="ICON-txbg.png" path="/Res/" exported="true"/>
+    <image id="hachdxy7y" name="home_state1_bg11.png" path="/Res/stage/"/>
+    <image id="hachdxy7z" name="home_state1_bg12.png" path="/Res/stage/"/>
+    <image id="hachdxy80" name="home_state1_bg21.png" path="/Res/stage/"/>
+    <image id="hachdxy81" name="home_state1_bg22.png" path="/Res/stage/"/>
+    <image id="hachdxy82" name="home_state1_icon1.png" path="/Res/stage/"/>
+    <image id="hachdxy84" name="home_top_bg@2.png" path="/Res/Currency/" exported="true"/>
+    <image id="hachdxy85" name="home_top_btn1.png" path="/Res/Currency/" exported="true"/>
+    <image id="b94mdxy88" name="home_profile1@2.png" path="/Res/" exported="true"/>
+    <image id="b94mdxy89" name="home_profile2.png" path="/Res/" exported="true"/>
+    <image id="b94mdxy8a" name="home_profile_img.png" path="/Res/"/>
+    <image id="b94mdxy8b" name="home_Skill Bar_img3@2.png" path="/Res/" exported="true"/>
+    <image id="v65gdxy8c" name="home_state1_icon2.png" path="/Res/stage/"/>
+    <component id="syvcdxy8j" name="SingleReward.xml" path="/Component/Reward/" exported="true"/>
+    <component id="syvcdxy8m" name="Reward2.xml" path="/Component/Reward/"/>
+    <component id="syvcdxy8n" name="Reward3.xml" path="/Component/Reward/"/>
+    <component id="syvcdxy8o" name="AttrUpItem.xml" path="/Component/"/>
+    <component id="syvcdxy8p" name="GetBuffReward.xml" path="/Component/Reward/" exported="true"/>
+    <component id="syvcdxy8q" name="AttrUpItem2.xml" path="/Component/"/>
+    <component id="9kp7dxy8s" name="MessageTips.xml" path="/Component/Common/" exported="true"/>
+    <image id="kqmidxy8t" name="battle_icon23.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8u" name="battle_icon24.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8v" name="battle_icon31.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8w" name="battle_icon32.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8x" name="battle_icon33.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8y" name="battle_icon34.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy8z" name="battle_icon11.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy90" name="battle_icon12.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy91" name="battle_icon13.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy92" name="battle_icon14.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy93" name="battle_icon21.png" path="/Res/NewEquip/" exported="true"/>
+    <image id="kqmidxy94" name="battle_icon22.png" path="/Res/NewEquip/" exported="true"/>
+    <component id="kqmidxy95" name="Reward4.xml" path="/Component/Reward/"/>
+    <component id="hz5cdxy96" name="Currency1.xml" path="/Component/Extension/" exported="true"/>
+    <image id="hz5cdxy97" name="home_skill_list_line.png" path="/Res/" exported="true"/>
+    <image id="f34jdxy9c" name="rewards_bg33.png" path="/Res/Reward2/" scale="9grid" scale9grid="150,20,300,184"/>
+    <image id="f34jdxy9d" name="rewards_icon1.png" path="/Res/Reward2/"/>
+    <image id="f34jdxy9e" name="rewards_img1.png" path="/Res/Reward2/"/>
+    <image id="f34jdxy9f" name="rewards_img12.png" path="/Res/Reward2/"/>
+    <image id="f34jdxy9g" name="rewards_bg31.png" path="/Res/Reward2/"/>
+    <image id="f34jdxy9h" name="rewards_bg32.png" path="/Res/Reward2/"/>
+    <component id="f34jdxy9l" name="CurrencyAdd.xml" path="/Component/Common/" exported="true"/>
+    <image id="f34jdxy9m" name="2000.png" path="/Res/Currency/" exported="true"/>
+    <image id="f34jdxy9n" name="1000.png" path="/Res/Currency/" exported="true"/>
+    <misc id="ucd4dxyc6" name="Common_11001_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="ucd4dxyc7" name="Common_11001_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="ucd4dxyc8" name="Common_11001_buff.skel" path="/Res/buff/" exported="true" width="280" height="334" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="140,167"/>
+    <misc id="gfc7dxydn" name="Common_10201007_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="gfc7dxydo" name="Common_10201007_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="gfc7dxydp" name="Common_10201008_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="gfc7dxydq" name="Common_10201008_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="gfc7dxydv" name="Common_10201011_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="gfc7dxydw" name="Common_10201011_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="gfc7dxydx" name="Common_10201007_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <spine id="gfc7dxydy" name="Common_10201008_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <spine id="gfc7dxye1" name="Common_10201011_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyed" name="Common_13001_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyee" name="Common_13001_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyef" name="Common_13001_buff.skel" path="/Res/buff/" exported="true" width="150" height="180" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="75,90"/>
+    <misc id="q0k6dxyek" name="Common_1014_fly.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyel" name="Common_1014_fly.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyem" name="Common_1014_fly.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyeq" name="Common_14001_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyer" name="Common_12001_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyes" name="Common_12001_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyet" name="Common_14003_buff.png" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyeu" name="Common_11004_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyev" name="Common_11004_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyew" name="Common_11003_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyex" name="Common_11003_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyey" name="Common_13002_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyez" name="Common_13002_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyf0" name="Common_11002_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyf1" name="Common_14001_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyf2" name="Common_14002_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyf3" name="Common_14002_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="q0k6dxyf4" name="Common_14003_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyf5" name="Common_11002_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyf6" name="Common_13002_buff.skel" path="/Res/buff/" exported="true" width="120" height="140" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="60,70"/>
+    <spine id="q0k6dxyf7" name="Common_14001_buff.skel" path="/Res/buff/" exported="true" width="92" height="48" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="46,24"/>
+    <spine id="q0k6dxyf8" name="Common_14002_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <spine id="q0k6dxyf9" name="Common_11004_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <spine id="q0k6dxyfa" name="Common_12001_buff.skel" path="/Res/buff/" exported="true" width="140" height="80" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="70,40"/>
+    <spine id="q0k6dxyfb" name="Common_11003_buff.skel" path="/Res/buff/" exported="true" width="120" height="120" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="60,60"/>
+    <spine id="q0k6dxyfc" name="Common_11002_buff.skel" path="/Res/buff/" exported="true" width="120" height="150" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="60,75"/>
+    <spine id="q0k6dxyfe" name="Common_14003_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyff" name="Common_10201010_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyfg" name="Common_10201010_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyfh" name="Common_10201010_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyfp" name="Common_10201009_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyfq" name="Common_10201009_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyfr" name="Common_10201009_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyfs" name="Common_10301012_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyft" name="Common_10301012_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyfu" name="Common_10301012_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="q0k6dxyfv" name="Common_10301014_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="q0k6dxyfw" name="Common_10301014_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="q0k6dxyfx" name="Common_10301014_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <image id="kximdxyfy" name="Common_10301013_buff_2.png" path="/Res/buff/" exported="true"/>
+    <misc id="kximdxyfz" name="Common_10301013_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="kximdxyg0" name="Common_10301013_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="kximdxyg1" name="Common_10301013_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <image id="kximdxyg2" name="Common_10401017_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="kximdxyg3" name="Common_10401017_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <spine id="kximdxyg4" name="Common_10401017_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <image id="kximdxyg5" name="Common_10401021_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="kximdxyg6" name="Common_10401021_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <spine id="kximdxyg7" name="Common_10401021_buff.skel" path="/Res/buff/" exported="true" width="180" height="200" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="88,101"/>
+    <misc id="fyt0dxyg8" name="Common_10401020_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="fyt0dxyg9" name="Common_10401020_buff_2.png" path="/Res/buff/" exported="true"/>
+    <spine id="fyt0dxyga" name="Common_10401020_buff.skel" path="/Res/buff/" exported="true" width="160" height="190" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="80,175"/>
+    <image id="fyt0dxygb" name="Common_10401020_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="fyt0dxygc" name="Common_10401018_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="fyt0dxygd" name="Common_10401018_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="fyt0dxyge" name="Common_10401018_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="joqfdxygf" name="Common_10401019_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="joqfdxygg" name="Common_10401019_buff_2.png" path="/Res/buff/" exported="true"/>
+    <image id="joqfdxygh" name="Common_10301016_buff_2.png" path="/Res/buff/" exported="true"/>
+    <image id="joqfdxygi" name="Common_10301016_buff.png" path="/Res/buff/" exported="true"/>
+    <misc id="joqfdxygj" name="Common_10301016_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="joqfdxygk" name="Common_10401019_buff.png" path="/Res/buff/" exported="true"/>
+    <spine id="joqfdxygl" name="Common_10401019_buff.skel" path="/Res/buff/" exported="true" width="270" height="190" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="135,182"/>
+    <spine id="joqfdxygm" name="Common_10301016_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <misc id="qalndxygn" name="Common_10301015_buff.atlas.txt" path="/Res/buff/" exported="true"/>
+    <image id="qalndxygo" name="Common_10301015_buff.png" path="/Res/buff/" exported="true"/>
+    <image id="qalndxygp" name="Common_10301015_buff_2.png" path="/Res/buff/" exported="true"/>
+    <spine id="qalndxygq" name="Common_10301015_buff.skel" path="/Res/buff/" exported="true" width="100" height="100" require="q0k6dxyek,q0k6dxyel" atlasNames="Common_1014_fly" anchor="100,100"/>
+    <component id="f124dxygv" name="Gold.xml" path="/Component/" exported="true"/>
+    <movieclip id="f124dxygw" name="Gold.jta" path="/Component/"/>
+    <image id="f124dxyh0" name="2.png" path="/Res/Gold/"/>
+    <image id="f124dxyh1" name="1.png" path="/Res/Gold/"/>
+    <image id="f124dxyh2" name="0.png" path="/Res/Gold/"/>
+    <image id="f124dxyh3" name="3.png" path="/Res/Gold/"/>
+    <component id="qfmcdxyh4" name="GoldAdd.xml" path="/Component/" exported="true"/>
+    <component id="qfmcdxyh5" name="GoldAddPlay.xml" path="/Component/" exported="true"/>
+    <component id="qfmcdxyh6" name="DiamondAdd.xml" path="/Component/" exported="true"/>
+    <component id="qfmcdxyh7" name="DiamondAddPlay.xml" path="/Component/" exported="true"/>
+    <component id="tdjudxyh8" name="NewCurrency.xml" path="/Component/Common/" exported="true"/>
+    <component id="iv53dxyh9" name="BossBlood.xml" path="/Component/ProgressBar/" exported="true"/>
+    <component id="iv53dxyha" name="BossTime.xml" path="/Component/ProgressBar/" exported="true"/>
+    <image id="iv53dxyhb" name="combat_icon_01.png" path="/Res/stage/boss/" exported="true"/>
+    <image id="iv53dxyhc" name="boss_fight_bg02.png" path="/Res/stage/boss/"/>
+    <image id="iv53dxyhd" name="boss_fight_bg01.png" path="/Res/stage/boss/"/>
+    <image id="iv53dxyhe" name="boss_fight_icon01.png" path="/Res/stage/boss/"/>
+    <component id="iv53dxyhf" name="ProgressBloodBar.xml" path="/Component/ProgressBar/"/>
+    <image id="iv53dxyhg" name="combat_icon_02.png" path="/Res/stage/boss/" scale="9grid" scale9grid="8,2,16,49" gridTile="23"/>
+    <image id="fpdrdxyhh" name="fish.png" path="/Res/stage/boss/"/>
+    <component id="osqgdxyhl" name="ChuanSong1.xml" path="/Component/" exported="true"/>
+    <misc id="osqgdxyhm" name="Common_csmtx.atlas.txt" path="/Res/ChuanSong/"/>
+    <image id="osqgdxyhn" name="Common_csmtx.png" path="/Res/ChuanSong/"/>
+    <spine id="osqgdxyho" name="Common_csmtx.skel" path="/Res/ChuanSong/" width="100" height="100" require="osqgdxyhm,osqgdxyhn" atlasNames="Common_csmtx" anchor="100,100"/>
+    <component id="osqgdxyhp" name="ChuanSong2.xml" path="/Component/" exported="true"/>
+    <component id="osqgdxyhq" name="ChuanSong3.xml" path="/Component/" exported="true"/>
+    <image id="9k6jdxyhr" name="随机事件_搜寻宠物-奖励.png" path="/Sample/"/>
+    <image id="9k6jdxyhs" name="general_reward_bg.png" path="/Res/Reward2/" scale="9grid" scale9grid="172,335,344,5"/>
+    <component id="9k6jdxyht" name="RewardItem.xml" path="/Component/Reward/"/>
+    <component id="k5xhdxyhu" name="Reward1.xml" path="/Component/Reward/"/>
+    <component id="ua62dxyhv" name="NpcTips.xml" path="/Component/Common/" exported="true"/>
+    <image id="ki3vdxyhw" name="guide_bg01.png" path="/Res/guideRes/" scale="9grid" scale9grid="232,48,394,98"/>
+    <misc id="g9p0dxyhx" name="Common_pmdj.atlas.txt" path="/Res/pmdj/"/>
+    <image id="g9p0dxyhy" name="Common_pmdj.png" path="/Res/pmdj/"/>
+    <spine id="g9p0dxyhz" name="Common_pmdj.skel" path="/Res/pmdj/" width="100" height="100" require="g9p0dxyhx,g9p0dxyhy" atlasNames="Common_pmdj" anchor="100,100"/>
+    <component id="kv73dxyi0" name="PushTips.xml" path="/Component/Common/" exported="true"/>
+    <misc id="eup1dxyi1" name="Common_xsyd.atlas.txt" path="/Res/xsyd/"/>
+    <image id="eup1dxyi2" name="Common_xsyd.png" path="/Res/xsyd/"/>
+    <spine id="eup1dxyi3" name="Common_xsyd.skel" path="/Res/xsyd/" width="133" height="141" require="eup1dxyi1,eup1dxyi2" atlasNames="Common_xsyd" anchor="55,168"/>
+  </resources>
+  <publish name="Common" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,144" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="status" pages="0,,1,,2,,3," selected="2">
+    <remark page="0" value="未激活"/>
+    <remark page="1" value="可激活"/>
+    <remark page="2" value="已激活未满级"/>
+    <remark page="3" value="已激活已满级"/>
+  </controller>
+  <displayList>
+    <loader id="n3_llb1" name="n3" xy="0,0" size="144,144" url="ui://m37flevdllb1dxyen" align="center" vAlign="middle">
+      <gearDisplay controller="button" pages="1"/>
+    </loader>
+    <loader id="n4_llb1" name="bg" xy="10,10" size="124,124" url="ui://m37flevdllb1dxyel" align="center" vAlign="middle">
+      <gearIcon controller="status" pages="0,1,2,3" values="ui://m37flevdllb1dxyej|ui://m37flevdllb1dxyej|ui://m37flevdllb1dxyel|ui://m37flevdllb1dxyek"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_llb1" name="icon" xy="39,39" size="66,66" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="status" pages="0,1" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_llb1" name="n5" xy="28,28" size="87,87" url="ui://m37flevdllb1dxyev" align="center" vAlign="middle">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_llb1" name="Lv" xy="39,111" size="65,29" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#25211d" strokeSize="2" text="{cur=11}/{max=100}">
+      <gearDisplay controller="status" pages="2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n7_llb1" name="n7" xy="30,115" size="84,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#462f20" strokeSize="2" text="最高等级">
+      <gearDisplay controller="status" pages="3"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n8_llb1" name="n8" xy="46,60" size="52,24" fontSize="16" color="#f5e353" bold="true" strokeColor="#000000" text="可激活">
+      <gearDisplay controller="status" pages="1"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

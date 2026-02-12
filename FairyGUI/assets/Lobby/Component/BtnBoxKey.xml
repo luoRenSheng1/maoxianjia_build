@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,32" extention="Button">
+  <displayList>
+    <loader id="n85_a2kw" name="n85" xy="0,0" size="176,32" url="ui://s7x7ku0na2kwdxyar" fill="scaleFree"/>
+    <loader id="n84_a2kw" name="n84" xy="41,4" size="24,24" url="ui://s7x7ku0nf34jdxya0" fill="scale">
+      <relation target="n78_pdpa" sidePair="left-left"/>
+    </loader>
+    <text id="n78_pdpa" name="txtKeyValue" xy="65,1" size="37,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" autoClearText="true" text="556">
+      <relation target="" sidePair=""/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,88">
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="isCheck" pages="0,,1," selected="0">
+    <remark page="0" value="不选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <loader id="n7_f34j" name="n7" xy="0,0" size="640,88" url="ui://5moj1x39f34jdxyae" fill="scaleFree"/>
+    <loader id="n1_kqmi" name="qualityIcon" xy="24,24" size="40,40" url="ui://5moj1x39kqmidxy8z" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5,6" values="ui://5moj1x39kqmidxy8z|ui://5moj1x39kqmidxy90|ui://5moj1x39kqmidxy91|ui://5moj1x39kqmidxy8t|ui://5moj1x39kqmidxy8u|ui://5moj1x39kqmidxy8v|ui://5moj1x39kqmidxy8w"/>
+    </loader>
+    <text id="n2_kqmi" name="desc" xy="77,27" size="148,34" fontSize="24" color="#4c2911" vAlign="middle" bold="true" text="回收普通品质">
+      <gearText controller="quality" pages="0,2,3,4,5,6" values="回收普通品质|回收稀有品质|回收史诗品质|回收传奇品质|回收神话品质|回收不朽品质" default="回收良好品质"/>
+    </text>
+    <loader id="n8_a2kw" name="n8" xy="571,20" size="48,48" url="ui://5moj1x39f34jdxybc" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n5_kqmi" name="num" xy="469,27" size="80,34" fontSize="24" color="#ffffff" align="right" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{value=1000}件">
+      <gearColor controller="isCheck" pages="0,1" values="#ffffff,#000000|#b8df13,#000000"/>
+      <relation target="n4_kqmi" sidePair="right-right"/>
+    </text>
+    <loader id="n4_kqmi" name="n4" xy="566,12" size="64,64" url="ui://5moj1x39f34jdxybd" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="isCheck" pages="1"/>
+    </loader>
+    <component id="n6_wgwi" name="btnCheck" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="556,13" size="80,62">
+      <relation target="n8_a2kw" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

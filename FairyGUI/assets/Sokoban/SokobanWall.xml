@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,105">
+  <displayList>
+    <loader id="n0_osqg" name="icon1" xy="0,-37" pivot="0.5,0.5" size="105,142" url="ui://5moj1x39nl60dxydg" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_u4yd" name="icon2" xy="0,-37" pivot="0.5,0.5" size="105,142" url="ui://5moj1x39nl60dxydh" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

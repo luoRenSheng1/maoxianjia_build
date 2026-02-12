@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" overflow="scroll" opaque="false" scroll="horizontal" scrollBarFlags="384">
+  <displayList>
+    <component id="n37_pchv" name="mapBg" src="pchvs" fileName="Component/MapBg.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_uobv" name="villageBuild1" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="874,702">
+      <Label title="粮食工坊"/>
+    </component>
+    <component id="n21_pchv" name="villageBuild4" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="558,580" aspect="true">
+      <Label title="窝棚"/>
+    </component>
+    <component id="n23_pchv" name="villageBuild5" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="353,295">
+      <Label title="训练场"/>
+    </component>
+    <component id="n25_pchv" name="villageBuild6" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="166,734">
+      <Label title="石头矿区"/>
+    </component>
+    <component id="n26_pchv" name="villageBuild3" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="808,257">
+      <Label title="探索营地"/>
+    </component>
+    <component id="n27_pchv" name="villageBuild2" src="uobvf" fileName="Component/VillageBuildItem.xml" xy="710,1036">
+      <Label title="加工厂"/>
+    </component>
+    <graph id="n8_uobv" name="p0" xy="570,944" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n9_uobv" name="p1" xy="683,989" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n13_uobv" name="p2" xy="799,1008" size="13,13" group="n14_uobv" type="rect"/>
+    <graph id="n10_uobv" name="p3" xy="868,1054" size="16,19" group="n14_uobv" type="rect"/>
+    <graph id="n11_uobv" name="p4" xy="816,1152" size="16,17" group="n14_uobv" type="rect"/>
+    <graph id="n12_uobv" name="p5" xy="757,1214" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n16_pchv" name="p6" xy="696,1315" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n17_pchv" name="p7" xy="607,1274" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n18_pchv" name="p8" xy="562,1197" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n19_pchv" name="p9" xy="544,1105" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n20_pchv" name="p10" xy="549,1032" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n38_ncna" name="p11" xy="699,1178" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n39_ncna" name="p12" xy="674,1229" size="16,13" group="n14_uobv" type="rect"/>
+    <graph id="n40_ncna" name="p13" xy="629,1159" size="16,13" group="n14_uobv" type="rect"/>
+    <group id="n14_uobv" name="petRandPatrol" xy="544,944" size="340,384" visible="false" advanced="true"/>
+  </displayList>
+</component>

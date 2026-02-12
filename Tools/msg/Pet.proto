@@ -1,0 +1,362 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	   					
+			
+             
+
+
+
+//下发新获取的宠物 支持多件
+message NewPets_PC
+{			//[default = eMsg_NewPets_PC = 1101 ;];
+	repeated PetInfo  pets = 1;
+	optional SplitPkgPC split_pkg = 2;
+}
+
+
+        
+	          
+//宠物批量放入战斗栏
+message BatchReplacePetInSlot_CS   //eMsg_BatchReplacePetInSlot_CS = 1135 ;   
+{
+	repeated uint64  pet_id = 1; //
+}		   					
+			
+//宠物批量放入战斗栏回复
+message BatchReplacePetInSlot_SC   //eMsg_BatchReplacePetInSlot_SC = 1136 ;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerPetSlotsInfo pet_slot = 2;  //宠物栏状信息
+}	
+
+
+//宠物放入战斗栏
+message PetInSlot_CS   //eMsg_PetInSlot_CS = 1102 ;  
+{
+	optional uint64  pet_id = 1; //
+	optional uint32  pet_slot_id  = 2;  //栏id
+}		   					
+			
+//宠物放入战斗栏回复
+message PetInSlot_SC   //eMsg_PetInSlot_SC = 1103 ;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	optional PlayerPetSlotsInfo pet_slot = 3;  //宠物栏状信息
+}	
+
+
+
+//宠物移除战斗栏
+message RemovePetFromSlot_CS   //eMsg_RemovePetFromSlot_CS = 1104 ; 
+{
+	optional uint32  pet_slot_id  = 1;  //栏id
+}		   					
+			
+//宠物移除战斗栏回复
+message RemovePetFromSlot_SC   //eMsg_RemovePetFromSlot_SC = 1105 ; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	optional PlayerPetSlotsInfo pet_slot = 3;  //宠物栏状信息
+}		             
+	          
+ 
+	 
+	         
+//宠物在装备栏里交换位置
+message PetsSwitchInSlots_CS   //eMsg_PetsSwitchInSlots_CS = 1106; 
+{
+	optional uint32  slot_id1  = 1;  //要交换的栏1
+	optional uint32  slot_id2  = 2;  //要交换的栏2
+}      
+
+//宠物再装备栏里交换位置回复      
+message PetsSwitchInSlots_SC   //eMsg_PetsSwitchInSlots_SC = 1107; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PlayerPetSlotsInfo pet_slot = 2;  //宠物栏状信息
+}		 
+
+
+
+
+
+
+
+
+
+//宠物升级
+message PetLevelUp_CS   //eMsg_PetLevelUp_CS 
+{
+	optional uint64  pet_id = 1; //
+	optional uint32  levelup_times = 2; //要升多少级，填0 直接升到同名卡用光
+}		   					
+			
+//宠物升级回复
+message PetLevelUp_SC   //eMsg_PetLevelUp_SC 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	optional int32  pet_level = 3; //最新宠物等级
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+
+}	
+
+
+	
+	 
+
+//一键全部宠物升级
+//message AllPetLevelUp_CS   //eMsg_AllPetLevelUp_CS = 1126; 
+//{
+//}		   					
+			
+//一键全部宠物升级回复
+//message AllPetLevelUp_SC   //eMsg_AllPetLevelUp_SC = 1128;
+//{
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	repeated PetInfo  pet_info = 2; //最新宠物信息
+//	optional SplitPkgPC split_pkg = 3;
+
+//}
+	
+//作弊码或GM管理用某只宠物更新
+message PetUpdate_PC   //eMsg_PetUpdate_PC 
+{
+	optional  PetInfo pet = 1;  //宠物
+}
+
+   
+
+
+///---------------3.0版本新增宠物数据包
+
+//获取宠物技能书背包信息  -------第一次打开任何一只宠物技能页面时请求，之后本地保存再打开无需请求
+message PetSkillBookInfo_CS   //eMsg_PetSkillBookInfo_CS = 1137;
+{
+}		   					
+			
+//获取宠物技能书背包信息回复
+message PetSkillBookInfo_SC   //eMsg_PetSkillBookInfo_SC = 1138;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated PetSkillBook  pet_book_info = 2; //技能书
+	optional SplitPkgPC split_pkg = 3;
+}
+
+//获取新的宠物技能书 --- 掉落 或 作弊码 ，需与本地背包做下合并（可能本地已拥有直接加上数量）
+message NewPetSkillBook_PC   //eMsg_NewPetSkillBook_PC = 1139;  
+{
+	repeated PetSkillBook  pet_book_info = 1; //技能书
+}
+
+//更新宠物技能书 --- 用数据包中的技能书信息覆盖掉本地的技能书信息， 运营或作弊码下发用 
+message UpdatePetSkillBook_PC   //eMsg_UpdatePetSkillBook_PC = 1140;  
+{
+	repeated PetSkillBook  pet_book_info = 1; //技能书
+}	 
+	   
+	   
+//宠物技能升级
+message PetSkillLevelUp_CS   //eMsg_PetSkillLevelUp_CS = 1141; 
+{
+	optional uint64  pet_id = 1; //
+	optional uint32  levelup_times = 2; //要升多少级，填0 直接升到同名卡用光
+}		   					
+			
+//宠物技能升级回复
+message PetSkillLevelUp_SC    //eMsg_PetSkillLevelUp_SC = 1142; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	optional int32  skill_level = 3; //最新宠物技能等级
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+}	
+	
+//天赋洗练请求
+message PetShuffleTalent_CS   //eMsg_PetShuffleTalent_CS = 1143; 
+{
+	optional uint64  pet_id = 1; //
+	repeated uint32  locked_talent_ids = 2; //锁定的天赋id
+}		   					
+			
+//天赋洗练回复
+message PetShuffleTalent_SC    //eMsg_PetShuffleTalent_SC = 1144;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	repeated PetTalent  talents = 3; //最新的天赋id -- 覆盖掉本地的即可
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+	repeated uint32  locked_talent_ids = 6; //锁定的天赋id
+}
+	
+	
+	
+	
+//解锁技能书空槽请求
+message UnlockPetBookSlot_CS   //eMsg_UnlockPetBookSlot_CS = 1145; 
+{
+	optional uint64  pet_id = 1; //
+	optional uint32  slot_index = 2; //解锁插槽id
+}		   					
+			
+//解锁技能书空槽回复
+message UnlockPetBookSlot_SC    //eMsg_UnlockPetBookSlot_SC = 1146; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional bool  is_success = 2; // 是否成功 
+	optional uint64  pet_id = 3; //
+	optional uint32  slot_index = 4; //解锁插槽id
+	optional Finance account_finance = 5;  //账户所有各种货币其余额
+	repeated ItemInfo items = 6;           //消耗道具 -- 显示外加本地数量扣除
+}	 
+	
+
+	
+//技能书槽打书(随机生成新书)请求--- 废弃，没这需求
+message MakeNewSkillBook4Slot_CS   //eMsg_MakeNewSkillBook4Slot_CS = 1147; 
+{
+	optional uint64  pet_id = 1; //
+}		   					
+			
+//技能书槽打书(随机生成新书)回复--- 废弃，没这需求
+message MakeNewSkillBook4Slot_SC    //eMsg_MakeNewSkillBook4Slot_SC = 1148;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	repeated PetSkillBookSlot book_slots = 3; //技能书插槽信息 -- 覆盖掉本地宠物的插槽
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+}
+	
+	
+//宠物回收请求
+message RecyclePets_CS   //eMsg_RecyclePets_CS = 1149; 
+{
+	optional uint64  pet_id = 1; //
+}		   					
+			
+//宠物回收回复
+message RecyclePets_SC    //eMsg_RecyclePets_SC = 1150; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //  
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+	repeated ItemInfo items = 5;           //返回道具--宠物碎片等
+}	 
+	
+	
+
+//批量宠物回收请求
+message BatchRecyclePets_CS   //eMsg_BatchRecyclePets_CS = 1151; 
+{
+	repeated ePetQuality quality = 1; //要卖的品质
+}		   					
+			
+//批量宠物回收回复
+message BatchRecyclePets_SC   //eMsg_BatchRecyclePets_SC = 1152; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint64 pet_guid = 2; //宠物guid-成功的话，客户端可以删除
+	optional Finance account_finance = 3;  //账户所有各种货币其余额
+	repeated ItemInfo items = 4;           //返回道具--宠物碎片等
+}	
+
+//宠物技能书回收请求
+message RecyclePetBooks_CS   //eMsg_RecyclePetBooks_CS = 1153; 
+{
+	optional uint64  skill_book_guid = 1; //
+}		   					
+			
+//宠物技能书回收回复
+message RecyclePetBooks_SC    //eMsg_RecyclePetBooks_SC = 1154; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  skill_book_guid = 2; // 被删除的书的guid
+	optional Finance account_finance = 4;  //账户所有各种货币其余额
+}
+	
+	
+//批量宠物技能书回收请求
+message BatchRecyclePetBooks_CS   //eMsg_BatchRecyclePetBooks_CS = 1155; 
+{
+	repeated ePetQuality quality = 1; //要卖的品质
+}		   					
+			
+//批量宠物技能书回收回复
+message BatchRecyclePetBooks_SC   //eMsg_BatchRecyclePetBooks_SC = 1156; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated uint64 sold_books = 2; //出售的技能书-成功的话，客户端可以删除
+	optional Finance account_finance = 3;  //账户所有各种货币其余额
+	repeated ItemInfo sold_book_items = 4;  //回收的未打书的道具id 和 数量， 客户端扣除删除道具处理
+}	
+	
+//技能书上阵请求
+message PutOnPetBooks_CS   //eMsg_PutOnPetBooks_CS = 1157;
+{
+	optional uint64  pet_id = 1; //
+	optional uint64  skill_book_guid = 2; //要上阵的书
+	optional uint32  slot_index = 3;  //要安装的插槽
+}		   					
+			
+//技能书上阵回复
+message PutOnPetBooks_SC    //eMsg_PutOnPetBooks_SC = 1158; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	repeated PetSkillBookSlot book_slots = 3; //技能书插槽信息 -- 成功的话覆盖掉本地宠物的插槽
+	optional uint64  skill_book_guid = 4; //已安装的书，删除掉本地背包中该书
+}
+	
+	 
+//删除宠物--- 运营 或 作弊码 
+message DelPet_PC   //eMsg_DelPet_PC = 1159; 
+{
+	repeated uint64  pet_guid = 1; //  删除的宠物guid
+}	
+
+
+//删除宠物技能书--- 运营 或 作弊码 
+message DelPetBooks_PC    //eMsg_DelPetBooks_PC = 1160; 
+{
+	optional uint64  skill_book_guid = 1; //删除的书guid
+	optional uint32  counter = 2; // 删除数量  -- 固定为1
+}
+	 
+	 
+ 					
+
+    
+     
+
+	 
+
+//使用技能书道具(打书)请求		
+message UseBookItem_CS   //eMsg_UseBookItem_CS = 1161;  
+{
+	optional uint64  pet_id = 1; //
+	optional uint32  item_id = 2; //要替换的原始道具---itemtype表中的六个原始item
+	optional uint32  slot_index = 3;  //要安装的插槽
+}
+
+
+//使用技能书道具(打书)回复		
+message UseBookItem_SC   //eMsg_UseBookItem_SC = 1162; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64  pet_id = 2; //
+	optional uint32  cost_item_id = 3; //消耗掉的道具id
+	optional uint32  cost_item_num = 4; //消耗掉的道具数量 ---本地客户端扣除
+	optional PetSkillBookSlot book_slots = 5; //技能书插槽信息 -- 成功的话按里面的插槽id覆盖掉本地宠物的插槽id
+}
+	      

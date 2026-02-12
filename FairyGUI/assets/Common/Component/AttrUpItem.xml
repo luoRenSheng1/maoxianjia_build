@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,224">
+  <displayList>
+    <loader id="n0_syvc" name="icon" xy="42,39" size="64,64" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n1_syvc" name="desc" xy="12,98" size="124,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="攻击力增加">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n2_syvc" name="num" xy="35,139" size="78,34" fontSize="24" color="#f0df65" align="center" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="+{value=666}%"/>
+    <text id="n3_syvc" name="time" xy="35,180" size="78,34" fontSize="24" color="#4c2911" align="center" vars="true" bold="true" text="{value=20}分钟"/>
+    <image id="n5_f34j" name="n5" src="f34jdxy9d" fileName="Res/Reward2/rewards_icon1.png" xy="10,8"/>
+  </displayList>
+</component>

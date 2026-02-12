@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,84" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_dr5a" name="heroBtn" src="ozj9dxy55" fileName="Component/HeroAttrBtn.xml" xy="0,0" size="200,84"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_dr5a" tween="true" startValue="1,1" endValue="0.85,0.85" duration="3" ease="Linear"/>
+    <item time="3" type="Scale" target="n0_dr5a" tween="true" startValue="0.85,0.85" endValue="1,1" duration="3" ease="Linear"/>
+  </transition>
+</component>

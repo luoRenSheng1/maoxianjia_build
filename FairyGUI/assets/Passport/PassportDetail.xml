@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://2pcsnr2kxezf2f">
+  <displayList>
+    <component id="n2_auqc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n24_xezf" name="n24" xy="16,207" size="688,758" group="n23_auqc" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n12_auqc" name="n12" xy="244,224" size="232,42" group="n23_auqc" fontSize="30" color="#fcf78e" align="center" letterSpacing="1" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="高级战斗通行证">
+      <relation target="n24_xezf" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n27_xezf" name="n27" xy="26,299" size="668,301" group="n23_auqc" url="ui://2pcsnr2kxezf2i">
+      <relation target="n24_xezf" sidePair="width-width,center-center,top-top"/>
+    </loader>
+    <loader id="n29_xezf" name="n29" xy="27,596" size="666,18" group="n23_auqc" url="ui://2pcsnr2kxezf1s" fill="scaleFree">
+      <relation target="n27_xezf" sidePair="top-top"/>
+    </loader>
+    <loader id="n26_xezf" name="n26" xy="24,611" size="672,345" group="n23_auqc" url="ui://2pcsnr2kxezf2j" fill="scaleFree">
+      <relation target="n24_xezf" sidePair="width-width,center-center,top-top"/>
+    </loader>
+    <loader id="n28_xezf" name="n28" xy="40,632" size="640,192" group="n23_auqc" url="ui://2pcsnr2kxezf2h" fill="scaleFree">
+      <relation target="n26_xezf" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n19_auqc" name="n19" xy="182,539" size="356,44" group="n23_auqc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="本赛季期间可获得的奖励">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n22_auqc" name="n22" xy="46,638" size="628,181" group="n23_auqc" overflow="scroll" lineGap="2" defaultItem="ui://2pcsnr2kauqc1p">
+      <relation target="n28_xezf" sidePair="center-center,middle-middle"/>
+      <item title="购买后，战斗通行证立即获得+200经验"/>
+      <item title="解锁高级战斗通行证专用奖励" controllers="ctrl,1"/>
+      <item title="解锁高级战斗通行证专用任务"/>
+    </list>
+    <component id="n0_auqc" name="buyBtn" src="auqc1q" fileName="Component/AdvanccBuyBtn.xml" xy="251,849" size="218,84" group="n23_auqc">
+      <Button titleFontSize="26" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n25_xezf" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,989" size="84,84" group="n23_auqc">
+      <relation target="n24_xezf" sidePair="top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n23_auqc" name="n23" xy="16,207" size="688,866" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

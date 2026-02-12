@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://8glegefcajor41">
+  <displayList>
+    <component id="n10_oppe" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n3_oppe" name="n3" xy="16,383" size="688,406" group="n11_oppe" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n4_oppe" name="n4" xy="294,400" size="132,44" group="n11_oppe" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="系统提示">
+      <relation target="n3_oppe" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n5_oppe" name="desc" xy="78,542" size="564,39" group="n11_oppe" fontSize="28" color="#3c3c3c" align="center" vAlign="middle" bold="true" text="当前宠物已在其他建筑驻扎，是否确认替换？">
+      <relation target="n3_oppe" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n7_oppe" name="yesBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="392,673" size="218,84" group="n11_oppe">
+      <relation target="n3_oppe" sidePair="right-right,bottom-bottom"/>
+      <Button title="是" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n8_oppe" name="noBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="112,673" size="218,84" group="n11_oppe">
+      <relation target="n3_oppe" sidePair="left-left,bottom-bottom"/>
+      <Button title="否" titleFontSize="32" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n9_oppe" name="closeBtn2" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,808" group="n11_oppe" visible="false">
+      <relation target="n3_oppe" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n11_oppe" name="n11" xy="16,383" size="688,519" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

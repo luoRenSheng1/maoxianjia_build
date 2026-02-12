@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,116" opaque="false">
+  <displayList>
+    <image id="n0_uq40" name="n0" src="uq40dxy46" fileName="Res/guideRes/g1.png" xy="0,0"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n0_uq40" tween="true" startValue="0,-25" endValue="0,0" duration="9" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

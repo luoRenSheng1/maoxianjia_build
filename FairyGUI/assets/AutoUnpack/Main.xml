@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://rr0734r5mmjj1z" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n2_ds1c" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_un3j" name="panel" src="mmjj20" fileName="UI/Panel.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

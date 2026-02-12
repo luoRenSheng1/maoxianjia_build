@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="363,39">
+  <displayList>
+    <text id="n0_fr3p" name="attrName" xy="0,0" size="116,39" fontSize="28" color="#4c2911" vAlign="middle" bold="true" text="物理伤害">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n1_fr3p" name="attValue" xy="263,0" size="100,39" fontSize="28" align="right" vAlign="middle" bold="true" text="+99999">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

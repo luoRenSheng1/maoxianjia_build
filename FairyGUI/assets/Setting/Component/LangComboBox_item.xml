@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,86" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_f34j" name="n5" src="f34jdxyau" fileName="Res/newItem2/general_module_bg3.png" pkg="5moj1x39" xy="0,0" size="218,86">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_ogek" name="title" xy="0,0" size="218,86" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

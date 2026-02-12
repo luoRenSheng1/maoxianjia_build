@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,68" pivot="0.5,0.5" extention="Button">
+  <controller name="ctrl" exported="true" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="10次"/>
+    <remark page="1" value="30次"/>
+    <remark page="2" value="300次"/>
+    <remark page="3" value="10次免费"/>
+  </controller>
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <loader id="n6_f34j" name="icon" xy="0,0" size="174,68" url="ui://i7ojazuullb14t" fill="scaleFree">
+      <gearIcon controller="ctrl" pages="0,1,2" values="ui://i7ojazuullb14t|ui://i7ojazuullb14u|ui://i7ojazuullb14o" default="ui://5moj1x39f34jdxyai"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_surf" name="n1" xy="44,4" size="86,29" fontSize="20" color="#ffffff" align="center" vars="true" bold="true" strokeColor="#25211d" strokeSize="2" text="召唤{value=10}次">
+      <gearText controller="ctrl" pages="1,2" values="召唤{value=30}次|召唤{value=300}次" default="召唤{value=10}次"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n9_a332" name="Free" xy="63,32" pivot="0.5,0.5" size="48,32" fontSize="22" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="免费">
+      <gearDisplay controller="ctrl" pages="3"/>
+    </text>
+    <loader id="n7_f34j" name="n7" xy="52,29" size="35,35" group="n5_surf" url="ui://0anhreylf34jdxy9n" fill="scaleFree"/>
+    <text id="n3_surf" name="tickNumLb" xy="85,31" size="37,29" group="n5_surf" fontSize="20" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="2" text="500">
+      <gearColor controller="ctrl" pages="0,1,2" values="#ffffff,#25211d|#ffffff,#25211d|#ffffff,#25211d" default="#ffffff,#25211d"/>
+    </text>
+    <group id="n5_surf" name="n5" xy="52,29" size="70,35" advanced="true" layout="hz" colGap="-2" excludeInvisibles="true">
+      <gearDisplay controller="ctrl" pages="0,1,2"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n10_n5nh" name="n10" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="142,0">
+      <gearDisplay controller="redCtrl" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

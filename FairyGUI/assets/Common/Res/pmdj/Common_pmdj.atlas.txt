@@ -1,0 +1,10 @@
+Common_pmdj.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+guangquan
+	bounds: 2, 142, 139, 138
+	offsets: 0, 0, 140, 140
+xianquan
+	bounds: 2, 2, 138, 138
+	offsets: 0, 0, 140, 140

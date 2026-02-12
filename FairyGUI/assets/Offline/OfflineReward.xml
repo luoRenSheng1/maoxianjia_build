@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="ctrl" pages="0,,1," selected="1">
+    <remark page="0" value="离线"/>
+    <remark page="1" value="在线"/>
+  </controller>
+  <displayList>
+    <component id="n0_ctxh" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader3D id="n1_ctxh" name="n1" xy="250,889" size="71,105" group="n8_ctxh" visible="false" url="ui://5moj1x39ot6fdxy3v" animation="idle" skin="" loop="true"/>
+    <loader id="n2_ctxh" name="n2" xy="16,279" size="688,745" group="n8_ctxh" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <image id="n31_f34j" name="n31" src="f34jdxybj" fileName="Res/newItem2/general_title_bg11.png" pkg="5moj1x39" xy="109,256" group="n8_ctxh"/>
+    <text id="n6_ctxh" name="n6" xy="244,274" size="232,44" group="n8_ctxh" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="挂机奖励">
+      <gearText controller="ctrl" pages="1" values="挂机奖励" default="离线奖励"/>
+    </text>
+    <image id="n29_f34j" name="n29" src="f34jdxyaf" fileName="Res/newItem2/general_line2.png" pkg="5moj1x39" xy="48,451" size="624,16" group="n8_ctxh"/>
+    <text id="n12_ng62" name="n12" xy="226,394" size="144,39" group="n14_ng62" fontSize="28" color="#3c3c3c" bold="true" text="在线时间：">
+      <gearText controller="ctrl" pages="1" values="在线时间：" default="离线时间："/>
+    </text>
+    <text id="n13_ng62" name="timeLb" xy="375,394" size="118,39" group="n14_ng62" fontSize="28" color="#e76663" bold="true" text="00:00:00"/>
+    <group id="n14_ng62" name="n14" xy="226,394" size="267,39" group="n8_ctxh" advanced="true" layout="hz" colGap="5" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n17_ng62" name="keyLb" xy="337,522" size="113,35" group="n20_ng62" fontSize="25" color="#ffffff" autoSize="none" bold="true" strokeColor="#b4802f" text="123456789"/>
+    <image id="n18_ng62" name="n18" src="tbnhdxy4c" fileName="Res/newRes/n114.png" pkg="s7x7ku0n" xy="270,512" size="56,56" group="n20_ng62" aspect="true"/>
+    <group id="n20_ng62" name="n20" xy="270,512" size="180,56" group="n8_ctxh" visible="false" advanced="true"/>
+    <loader id="n28_f34j" name="n28" xy="251,505" size="244,48" group="n19_ng62" url="ui://5moj1x39f34jdxya3" fill="scaleFree"/>
+    <loader id="n27_f34j" name="n27" xy="223,484" size="90,90" group="n25_mugw" url="ui://0anhreylf34jdxy9m" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n16_ng62" sidePair="left-left"/>
+    </loader>
+    <text id="n16_ng62" name="goldLb" xy="314,502" size="180,54" group="n25_mugw" fontSize="40" color="#ffffff" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#b4802f" text="12345678911">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n25_mugw" name="n25" xy="223,484" size="271,90" group="n19_ng62" advanced="true" layout="hz" colGap="1" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n19_ng62" name="n19" xy="223,484" size="272,90" group="n8_ctxh" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <loader id="n30_f34j" name="n30" xy="40,583" size="640,264" group="n21_ng62" url="ui://5moj1x39f34jdxyad" fill="scaleFree"/>
+    <list id="n7_ctxh" name="itemList" xy="61,608" size="457,170" group="n21_ng62" scale="1.3,1.3" layout="flow_hz" overflow="scroll" lineGap="10" colGap="15" defaultItem="ui://5moj1x39ewjfdxy22" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n21_ng62" name="n21" xy="40,583" size="640,264" group="n8_ctxh"/>
+    <component id="n22_ng62" name="adGetRw" src="ju03dxy4z" fileName="Component/EmptyAdBtn.xml" pkg="5moj1x39" xy="126,884" size="218,84" group="n24_ng62">
+      <Button title="广告2小时收益" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n23_ng62" name="getRw" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="376,884" size="218,84" group="n24_ng62">
+      <gearText controller="ctrl" pages="0" values="确认" default="领取"/>
+      <Button title="领取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n24_ng62" name="n24" xy="126,884" size="468,84" group="n8_ctxh" advanced="true" layout="hz" colGap="32" excludeInvisibles="true"/>
+    <component id="n32_n5nh" name="redPoint1" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="555,890" group="n8_ctxh" visible="false">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <relation target="n23_ng62" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n33_n5nh" name="redPoint2" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="307,890" group="n8_ctxh" visible="false">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <relation target="n22_ng62" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n8_ctxh" name="n8" xy="16,256" size="688,768" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

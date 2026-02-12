@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,24">
+  <displayList>
+    <image id="n8_iv53" name="n8" src="iv53dxyhd" fileName="Res/stage/boss/boss_fight_bg01.png" xy="34,0" size="484,24"/>
+    <component id="n10_fpdr" name="tweenBar" src="iv53dxyhf" fileName="Component/ProgressBar/ProgressBloodBar.xml" xy="35,4" size="480,16">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n11_fpdr" name="tweenBar2" src="iv53dxyhf" fileName="Component/ProgressBar/ProgressBloodBar.xml" xy="35,4" size="480,16" visible="false">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n9_iv53" name="hpBar" src="iv53dxyhf" fileName="Component/ProgressBar/ProgressBloodBar.xml" xy="35,4" size="480,16">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n7_iv53" name="icon" xy="-11,-25" size="64,64" url="ui://0anhreyliv53dxyhe" fill="scale"/>
+    <text id="n3_z3j5" name="title" xy="121,2" size="10,28" scale="0.7,0.7" font="ui://0anhreyldwt8dxy1i" fontSize="19" align="center" vAlign="middle" strokeColor="#3b3630" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

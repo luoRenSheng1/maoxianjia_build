@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1024,973">
+  <displayList>
+    <loader id="n0_ktej" name="mapLoader" xy="0,0" size="1024,973" url="ui://zoxecbv2qc4ne" vAlign="bottom" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,22" extention="ProgressBar">
+  <displayList>
+    <image id="n3_xezf" name="n3" src="f34jdxyas" fileName="Res/newItem2/general_progress bar_bg1.png" pkg="5moj1x39" xy="0,0" size="415,22">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_eb0t" name="bar" xy="1,1" size="413,20" url="ui://zoxecbv2xezf3g" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,32" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="充足"/>
+    <remark page="1" value="不足"/>
+  </controller>
+  <displayList>
+    <image id="n5_f34j" name="n5" src="f34jdxyap" fileName="Res/newItem2/general_text_bg2.png" pkg="5moj1x39" xy="10,4" size="90,24"/>
+    <loader id="n3_f34j" name="n3" xy="0,0" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_f34j" name="icon" xy="0,0" size="32,32" url="ui://0anhreylf34jdxy9n" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n6_f34j" name="num" xy="32,1" size="48,29" fontSize="20" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="2" text="2000">
+      <gearColor controller="status" pages="1" values="#ff0000,#25211d" default="#ffffff,#25211d"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

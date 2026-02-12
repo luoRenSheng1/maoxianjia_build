@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="284,313">
+  <displayList>
+    <image id="n6_khmx" name="n6" src="khmx9" fileName="Res/dsfgdfg13.png" xy="1,0" pivot="0.5,0.5"/>
+    <image id="n0_khmx" name="n0" src="khmx7" fileName="Res/dsfgdfg11.png" xy="227,0" size="56,313"/>
+    <image id="n1_khmx" name="n1" src="khmx8" fileName="Res/dsfgdfg12.png" xy="17,0" size="210,313"/>
+    <image id="n2_khmx" name="n2" src="khmxd" fileName="Res/xdfhfj4243.png" xy="11,76" size="241,220"/>
+    <list id="n3_khmx" name="rewardList" xy="17,82" size="225,208" lineGap="5" defaultItem="ui://z3lv15h6khmxi" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_khmx" name="n4" src="khmx2" fileName="Res/dchffgh568.png" xy="3,9" size="259,61"/>
+    <text id="n5_khmx" name="titleLb" xy="5,18" size="230,39" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#8f3a15" strokeSize="2" autoClearText="true" text="周一元气大礼包"/>
+  </displayList>
+</component>

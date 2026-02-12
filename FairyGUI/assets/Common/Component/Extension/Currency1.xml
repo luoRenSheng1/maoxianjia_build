@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,50" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_f34j" name="n6" src="f34jdxybr" fileName="Res/newItem2/general_top_bg2.png" pkg="5moj1x39" xy="0,0"/>
+    <loader id="n4_hz5c" name="icon" xy="2,3" size="44,44" url="ui://0anhreylf34jdxy9m" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n5_hz5c" name="txtValue" xy="45,10" size="96,29" fontSize="20" color="#ffffff" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="123456"/>
+    <component id="n7_f34j" name="addBtn" src="iqkovm" fileName="Component/NotExportedCode/BtnAddItem.xml" xy="137,7"/>
+  </displayList>
+  <Button/>
+</component>

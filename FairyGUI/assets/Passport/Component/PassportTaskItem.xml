@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="672,173">
+  <controller name="taskType" pages="0,,1," selected="0">
+    <remark page="0" value="每日"/>
+    <remark page="1" value="每周"/>
+  </controller>
+  <controller name="advanceCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="普通或者购买了"/>
+    <remark page="1" value="高级未购买"/>
+  </controller>
+  <controller name="rewardCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="未完成"/>
+    <remark page="1" value="完成未领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <loader id="n1_r0ab" name="n1" xy="0,0" size="672,173" url="ui://2pcsnr2kxezf2m">
+      <gearIcon controller="taskType" pages="0,1" values="ui://2pcsnr2kxezf2m|ui://2pcsnr2kxezf2k"/>
+    </loader>
+    <text id="n2_r0ab" name="n2" xy="21,12" size="100,34" fontSize="24" color="#fcf78e" bold="true" strokeColor="#4c2911" strokeSize="2" text="每日任务">
+      <gearColor controller="taskType" pages="0" values="#fcf78e,#4c2911" default="#ffffff,#612e94"/>
+      <gearText controller="taskType" pages="0,1" values="每日任务|每周任务"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n4_r0ab" name="timeLb" xy="478,12" size="167,36" fontSize="24" color="#ffffff" align="right" autoSize="none" bold="true" strokeColor="#4c2911" strokeSize="2" text="12小时">
+      <gearColor controller="taskType" pages="0" values="#ffffff,#4c2911" default="#ffffff,#612e94"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <component id="n11_r0ab" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="18,77" controller="ctrlQuality,14">
+      <Button icon="ui://2pcsnr2kr0abu"/>
+    </component>
+    <text id="n15_r0ab" name="taskNameLb" xy="111,81" size="231,34" fontSize="24" color="#4c2911" autoSize="none" bold="true" autoClearText="true" text="领取挂机奖励"/>
+    <component id="n30_xezf" name="expBar" src="xezf2n" fileName="Component/TaskBarExp.xml" xy="111,126" size="278,24">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n19_xezf" name="n19" xy="0,0" size="672,173">
+      <gearDisplay controller="rewardCtrl" pages="2"/>
+      <gearDisplay2 controller="advanceCtrl" pages="1" condition="0"/>
+    </loader>
+    <component id="n17_r0ab" name="getRwBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="438,72" size="218,84">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <gearDisplay2 controller="advanceCtrl" pages="0" condition="0"/>
+      <Button title="领取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n22_xezf" name="n22" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="632,64">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n17_r0ab" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n24_xezf" name="n24" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="438,72" size="218,84" grayed="true">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+      <Button title="未完成" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n25_xezf" name="n25" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="438,72" size="218,84" grayed="true">
+      <gearDisplay controller="rewardCtrl" pages="2"/>
+      <Button title="已领取" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n23_xezf" name="n23" xy="0,0" size="672,173" group="n8_r0ab" url="ui://2pcsnr2kxezf2l"/>
+    <text id="n5_r0ab" name="n5" xy="207,67" size="312,39" group="n8_r0ab" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="购买高级通行证自动解锁"/>
+    <group id="n8_r0ab" name="n8" xy="0,0" size="672,173" advanced="true">
+      <gearDisplay controller="advanceCtrl" pages="1"/>
+    </group>
+    <loader id="n26_xezf" name="n26" xy="0,0" size="672,173" group="n29_xezf" url="ui://2pcsnr2kxezf1w" fill="scaleFree"/>
+    <loader id="n27_xezf" name="n27" xy="262,65" size="50,50" group="n29_xezf" url="ui://2pcsnr2kxezf27" align="center" vAlign="middle"/>
+    <text id="n28_xezf" name="n28" xy="322,71" size="88,39" group="n29_xezf" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="已完成">
+      <relation target="n27_xezf" sidePair="left-left"/>
+    </text>
+    <group id="n29_xezf" name="n29" xy="0,0" size="672,173" advanced="true">
+      <gearDisplay controller="rewardCtrl" pages="2"/>
+    </group>
+  </displayList>
+</component>

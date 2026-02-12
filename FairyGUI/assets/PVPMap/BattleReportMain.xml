@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_u5mt" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_u5mt" name="battleReport" src="u5mt17" fileName="Component/BattleReport.xml" xy="16,343">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_xezf" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,954" size="84,84">
+      <relation target="n1_u5mt" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="328,36" extention="ComboBox" designImage="ui://rr0734r5mmjj1z" designImageOffsetX="-309" designImageOffsetY="-533" designImageAlpha="3" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_xihe" name="n0" src="x3dk2l" fileName="Res/1.PNG" xy="0,0" size="328,36">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_xihe" name="title" xy="18,4" size="261,27" fontSize="18" color="#44afd7" vAlign="middle" ubb="true" autoSize="shrink" strokeColor="#474746" singleLine="true" autoClearText="true" text="11">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+    <image id="n2_xihe" name="n2" src="x3dk2m" fileName="Res/2.png" xy="285,4">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </image>
+  </displayList>
+  <ComboBox dropdown="ui://rr0734r5skp62g"/>
+</component>

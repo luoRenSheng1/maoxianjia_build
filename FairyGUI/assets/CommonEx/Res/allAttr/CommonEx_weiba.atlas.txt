@@ -1,0 +1,7 @@
+CommonEx_weiba.png
+size:142,82
+filter:Linear,Linear
+pma:true
+scale:0.7
+images/wei
+bounds:4,4,134,74

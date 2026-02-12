@@ -1,0 +1,528 @@
+BigMap_shamo_cj.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+14
+	bounds: 2, 1594, 456, 452
+	offsets: 0, 1, 456, 509
+6.2
+	bounds: 2, 61, 109, 198
+	rotate: 90
+jingzitafaguang0
+	bounds: 2, 1120, 472, 434
+	rotate: 90
+jingzitafaguang1
+	bounds: 460, 1612, 472, 434
+jingzitafaguang10
+	bounds: 438, 154, 463, 434
+	offsets: 0, 0, 472, 434
+	rotate: 90
+jingzitafaguang11
+	bounds: 874, 304, 441, 434
+	offsets: 11, 0, 472, 434
+jingzitafaguang12
+	bounds: 745, 740, 453, 434
+	offsets: 11, 0, 472, 434
+jingzitafaguang13
+	bounds: 745, 1176, 467, 434
+	offsets: 3, 0, 472, 434
+jingzitafaguang14
+	bounds: 2, 646, 472, 434
+	rotate: 90
+jingzitafaguang2
+	bounds: 1200, 740, 446, 434
+	offsets: 11, 0, 472, 434
+jingzitafaguang5
+	bounds: 1317, 304, 434, 434
+	offsets: 13, 0, 472, 434
+jingzitafaguang6
+	bounds: 1214, 1176, 466, 434
+	offsets: 0, 0, 472, 434
+jingzitafaguang7
+	bounds: 934, 1612, 472, 434
+jingzitafaguang8
+	bounds: 2, 172, 472, 434
+	rotate: 90
+jingzitafaguang9
+	bounds: 1408, 1612, 472, 434
+shuiliudong1_0
+	bounds: 1882, 1903, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_1
+	bounds: 1882, 1758, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_10
+	bounds: 1882, 1613, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_11
+	bounds: 202, 27, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_12
+	bounds: 368, 9, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_13
+	bounds: 534, 9, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_14
+	bounds: 700, 9, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+yanjingshansuo
+	bounds: 2, 24, 84, 35
+	offsets: 2, 2, 89, 40
+yanwu11
+	bounds: 1682, 1159, 316, 451
+	offsets: 89, 92, 506, 592
+yanwu12
+	bounds: 438, 619, 301, 475
+	offsets: 88, 90, 506, 592
+yanwu13
+	bounds: 438, 1096, 305, 496
+	offsets: 85, 90, 506, 592
+yanwu2
+	bounds: 874, 2, 300, 347
+	offsets: 101, 91, 506, 592
+	rotate: 90
+yanwu3
+	bounds: 1625, 3, 299, 337
+	offsets: 96, 90, 506, 592
+	rotate: 90
+yanwu5
+	bounds: 1753, 396, 293, 342
+	offsets: 97, 92, 506, 592
+yanwu8
+	bounds: 1223, 12, 290, 400
+	offsets: 101, 90, 506, 592
+	rotate: 90
+yanwu9
+	bounds: 1648, 740, 297, 417
+	offsets: 98, 90, 506, 592
+yetiyondong1_0
+	bounds: 1947, 1025, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_1
+	bounds: 1947, 891, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_10
+	bounds: 1947, 757, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_11
+	bounds: 1964, 188, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_12
+	bounds: 1964, 54, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_8
+	bounds: 1753, 322, 132, 72
+	offsets: 4, 2, 139, 76
+yetiyondong2_6
+	bounds: 741, 676, 130, 62
+	offsets: 6, 2, 139, 76
+yetiyondong3_8
+	bounds: 1887, 322, 132, 72
+	offsets: 4, 2, 139, 76
+
+BigMap_shamo_cj_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+huanxingguang0
+	bounds: 1662, 444, 254, 236
+	offsets: 46, 40, 334, 332
+huanxingguang1
+	bounds: 881, 658, 260, 244
+	offsets: 44, 36, 334, 332
+huanxingguang10
+	bounds: 315, 383, 244, 261
+	offsets: 42, 34, 334, 332
+	rotate: 90
+huanxingguang11
+	bounds: 1143, 446, 240, 259
+	offsets: 43, 36, 334, 332
+	rotate: 90
+huanxingguang12
+	bounds: 564, 132, 243, 249
+	offsets: 46, 42, 334, 332
+huanxingguang13
+	bounds: 604, 653, 247, 245
+	offsets: 46, 43, 334, 332
+huanxingguang14
+	bounds: 1404, 447, 256, 238
+	offsets: 44, 42, 334, 332
+huanxingguang2
+	bounds: 1243, 1239, 260, 247
+	offsets: 44, 35, 334, 332
+	rotate: 90
+huanxingguang3
+	bounds: 1228, 1501, 262, 251
+	offsets: 43, 33, 334, 332
+huanxingguang4
+	bounds: 1669, 682, 260, 251
+	offsets: 42, 35, 334, 332
+huanxingguang5
+	bounds: 305, 122, 257, 259
+	offsets: 41, 33, 334, 332
+huanxingguang6
+	bounds: 1143, 688, 250, 261
+	offsets: 40, 32, 334, 332
+	rotate: 90
+huanxingguang7
+	bounds: 1772, 1485, 257, 267
+	offsets: 36, 29, 334, 332
+huanxingguang8
+	bounds: 1406, 687, 251, 261
+	offsets: 39, 32, 334, 332
+	rotate: 90
+huanxingguang9
+	bounds: 975, 1498, 251, 263
+	offsets: 38, 32, 334, 332
+jingzitafaguang3
+	bounds: 2, 1618, 413, 428
+	offsets: 28, 6, 472, 434
+jingzitafaguang4
+	bounds: 2, 1211, 406, 405
+	offsets: 23, 17, 472, 434
+shuiliudong1_2
+	bounds: 578, 463, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_3
+	bounds: 723, 487, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_4
+	bounds: 868, 492, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_5
+	bounds: 868, 326, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_6
+	bounds: 809, 160, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_7
+	bounds: 954, 160, 143, 164
+	offsets: 2, 4, 151, 173
+shuiliudong1_8
+	bounds: 809, 15, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong1_9
+	bounds: 975, 15, 143, 164
+	offsets: 2, 4, 151, 173
+	rotate: 90
+shuiliudong2_0
+	bounds: 1896, 281, 141, 161
+	offsets: 3, 5, 151, 173
+shuiliudong2_1
+	bounds: 1141, 17, 141, 159
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_10
+	bounds: 1404, 304, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_11
+	bounds: 1568, 301, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_12
+	bounds: 1732, 301, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_13
+	bounds: 1141, 303, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_14
+	bounds: 1263, 160, 141, 161
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_2
+	bounds: 1302, 17, 141, 159
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong2_9
+	bounds: 1099, 160, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong3_0
+	bounds: 1560, 158, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong3_1
+	bounds: 1724, 158, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong3_11
+	bounds: 1888, 138, 141, 158
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong3_14
+	bounds: 1463, 15, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+shuiliudong3_2
+	bounds: 1627, 15, 141, 162
+	offsets: 3, 5, 151, 173
+	rotate: 90
+yanwu0
+	bounds: 2, 841, 320, 368
+	offsets: 77, 90, 506, 592
+yanwu1
+	bounds: 2, 105, 301, 357
+	offsets: 101, 92, 506, 592
+yanwu10
+	bounds: 417, 1739, 307, 433
+	offsets: 93, 91, 506, 592
+	rotate: 90
+yanwu14
+	bounds: 2, 464, 311, 375
+	offsets: 81, 90, 506, 592
+yanwu4
+	bounds: 1598, 1754, 292, 326
+	offsets: 96, 91, 506, 592
+	rotate: 90
+yanwu6
+	bounds: 1233, 1754, 292, 363
+	offsets: 98, 90, 506, 592
+	rotate: 90
+yanwu7
+	bounds: 852, 1763, 283, 379
+	offsets: 104, 93, 506, 592
+	rotate: 90
+yetiyondong1_13
+	bounds: 1426, 240, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong1_14
+	bounds: 1426, 176, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong1_2
+	bounds: 1791, 24, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_3
+	bounds: 1013, 326, 132, 65
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_4
+	bounds: 578, 394, 132, 67
+	offsets: 4, 2, 139, 76
+yetiyondong1_5
+	bounds: 1942, 1074, 132, 69
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_6
+	bounds: 2, 32, 132, 71
+	offsets: 4, 2, 139, 76
+yetiyondong1_7
+	bounds: 1926, 1914, 132, 71
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong1_9
+	bounds: 1855, 74, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_0
+	bounds: 1855, 10, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_1
+	bounds: 723, 423, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_10
+	bounds: 305, 58, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_11
+	bounds: 439, 58, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_12
+	bounds: 573, 68, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_13
+	bounds: 1918, 548, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong2_14
+	bounds: 1931, 801, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong2_2
+	bounds: 573, 4, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_3
+	bounds: 1982, 667, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong2_4
+	bounds: 1982, 533, 132, 62
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong2_5
+	bounds: 1013, 594, 128, 62
+	offsets: 8, 2, 139, 76
+yetiyondong3_3
+	bounds: 1305, 312, 132, 65
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong3_4
+	bounds: 1013, 460, 132, 67
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong3_5
+	bounds: 1942, 940, 132, 69
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yetiyondong3_6
+	bounds: 136, 32, 132, 71
+	offsets: 4, 2, 139, 76
+yetiyondong3_7
+	bounds: 1926, 1780, 132, 71
+	offsets: 4, 2, 139, 76
+	rotate: 90
+yuanpan0
+	bounds: 881, 904, 272, 260
+	offsets: 9, 24, 281, 308
+	rotate: 90
+yuanpan1
+	bounds: 1682, 935, 270, 258
+	offsets: 11, 25, 281, 308
+	rotate: 90
+yuanpan10
+	bounds: 706, 1457, 267, 280
+	offsets: 5, 20, 281, 308
+yuanpan11
+	bounds: 975, 1214, 266, 282
+	offsets: 5, 20, 281, 308
+yuanpan12
+	bounds: 1770, 1208, 263, 275
+	offsets: 8, 25, 281, 308
+yuanpan13
+	bounds: 1412, 940, 268, 265
+	offsets: 12, 31, 281, 308
+yuanpan14
+	bounds: 324, 629, 270, 259
+	offsets: 11, 29, 281, 308
+yuanpan2
+	bounds: 1143, 940, 272, 267
+	offsets: 9, 21, 281, 308
+	rotate: 90
+yuanpan3
+	bounds: 604, 900, 275, 275
+	offsets: 6, 17, 281, 308
+yuanpan4
+	bounds: 698, 1178, 275, 277
+	offsets: 6, 17, 281, 308
+yuanpan5
+	bounds: 1492, 1207, 276, 276
+	offsets: 5, 19, 281, 308
+yuanpan6
+	bounds: 324, 890, 278, 285
+	offsets: 1, 16, 281, 308
+yuanpan7
+	bounds: 410, 1177, 279, 286
+	offsets: 0, 16, 281, 308
+	rotate: 90
+yuanpan8
+	bounds: 417, 1458, 279, 287
+	offsets: 0, 16, 281, 308
+	rotate: 90
+yuanpan9
+	bounds: 1492, 1485, 267, 278
+	offsets: 5, 20, 281, 308
+	rotate: 90
+
+BigMap_shamo_cj_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+shuiliudong2_3
+	bounds: 145, 498, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong2_4
+	bounds: 288, 662, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong2_5
+	bounds: 431, 824, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong2_6
+	bounds: 574, 826, 141, 157
+	offsets: 3, 5, 151, 173
+shuiliudong2_7
+	bounds: 145, 659, 141, 160
+	offsets: 3, 5, 151, 173
+shuiliudong2_8
+	bounds: 2, 494, 141, 161
+	offsets: 3, 5, 151, 173
+shuiliudong3_10
+	bounds: 2, 171, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong3_12
+	bounds: 431, 664, 141, 158
+	offsets: 3, 5, 151, 173
+shuiliudong3_13
+	bounds: 2, 12, 141, 157
+	offsets: 3, 5, 151, 173
+shuiliudong3_3
+	bounds: 2, 821, 141, 162
+	offsets: 3, 5, 151, 173
+shuiliudong3_4
+	bounds: 2, 657, 141, 162
+	offsets: 3, 5, 151, 173
+shuiliudong3_5
+	bounds: 145, 821, 141, 162
+	offsets: 3, 5, 151, 173
+shuiliudong3_6
+	bounds: 145, 337, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong3_7
+	bounds: 288, 501, 141, 159
+	offsets: 3, 5, 151, 173
+shuiliudong3_8
+	bounds: 288, 823, 141, 160
+	offsets: 3, 5, 151, 173
+shuiliudong3_9
+	bounds: 2, 332, 141, 160
+	offsets: 3, 5, 151, 173
+yetiyondong2_7
+	bounds: 145, 273, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_8
+	bounds: 288, 437, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong2_9
+	bounds: 431, 600, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_0
+	bounds: 574, 762, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_1
+	bounds: 717, 921, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_10
+	bounds: 145, 209, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_11
+	bounds: 288, 373, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_12
+	bounds: 431, 536, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_13
+	bounds: 574, 698, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_14
+	bounds: 717, 857, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_2
+	bounds: 851, 921, 132, 62
+	offsets: 4, 2, 139, 76
+yetiyondong3_9
+	bounds: 145, 145, 132, 62
+	offsets: 4, 2, 139, 76

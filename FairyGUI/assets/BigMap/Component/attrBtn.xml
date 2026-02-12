@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <displayList>
+    <image id="n5_f34j" name="n5" src="f34j2k" fileName="Res/new/setout_information_bg21.png" xy="0,0"/>
+    <loader id="n6_xezf" name="n6" xy="0,0" size="80,80" url="ui://5moj1x39f34jdxyak" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader id="n3_ipa3" name="icon" xy="16,16" size="48,48" url="ui://pdufy3kejvjmq" align="center" vAlign="middle" fill="scale"/>
+    <text id="n4_ipa3" name="name" xy="8,52" size="64,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="高暴12">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

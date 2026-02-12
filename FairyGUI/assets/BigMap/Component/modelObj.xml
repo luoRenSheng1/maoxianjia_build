@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <loader id="n3_11bz8" name="logo" xy="-45,-257" size="88,88" url="ui://pdufy3keedeeiga" fill="scaleFree" clearOnPublish="true"/>
+    <component id="n0_sshp" name="bubble" src="sshpdxycv" fileName="Component/Bubble.xml" pkg="5moj1x39" xy="0,-214" touchable="false"/>
+    <image id="n7_kgau" name="bg" src="hbptidj" fileName="Res/stage/selectBg.png" xy="-99,-149" pivot="0.5,0.5" size="200,200"/>
+    <graph id="n1_sshp" name="model" xy="0,0" size="100,100"/>
+    <graph id="n4_11bz8" name="btnClick" xy="-50,-220" size="100,200" alpha="0" type="rect"/>
+    <component id="n5_edee" name="bar" src="tdju67" fileName="Component/WorkingBar.xml" xy="-40,-183" visible="false">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader3D id="n6_k5xh" name="petRun" xy="-100,-150" size="100,100" touchable="false" url="ui://pdufy3kek5xhigg" animation="zaozi" skin="" loop="true"/>
+  </displayList>
+  <transition name="objBgEffect" autoPlay="true">
+    <item time="0" type="Scale" target="n7_kgau" tween="true" startValue="1,1" endValue="1.05,1.05" duration="6" ease="Linear"/>
+    <item time="6" type="Scale" target="n7_kgau" tween="true" startValue="1.05,1.05" endValue="1,1" duration="6" ease="Linear"/>
+    <item time="12" type="Scale" target="n7_kgau" tween="true" startValue="1,1" endValue="1.05,1.05" duration="6" ease="Linear"/>
+    <item time="18" type="Scale" target="n7_kgau" tween="true" startValue="1.05,1.05" endValue="1,1" duration="6" ease="Linear"/>
+  </transition>
+</component>

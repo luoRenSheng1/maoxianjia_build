@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n16_ija4" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n14_ju03" name="n14" xy="16,98" size="688,1002" group="n10_sc7h" url="ui://5moj1x39f34jdxyb3" fill="scaleFree"/>
+    <image id="n25_f34j" name="n25" src="f34jdxybk" fileName="Res/newItem2/general_module_img1.png" pkg="5moj1x39" xy="46,70" group="n10_sc7h"/>
+    <image id="n26_f34j" name="n26" src="f34jdxybk" fileName="Res/newItem2/general_module_img1.png" pkg="5moj1x39" xy="629,70" group="n10_sc7h"/>
+    <image id="n23_f34j" name="n23" src="f34jdxyb8" fileName="Res/newItem2/general_bg121.png" pkg="5moj1x39" xy="24,257" size="672,806" group="n10_sc7h"/>
+    <image id="n21_f34j" name="n21" src="f34jdxybj" fileName="Res/newItem2/general_title_bg11.png" pkg="5moj1x39" xy="109,74" group="n10_sc7h"/>
+    <text id="n1_sc7h" name="n1" xy="294,92" size="132,44" group="n10_sc7h" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="日常任务"/>
+    <image id="n22_f34j" name="n22" src="f34jdxyaz" fileName="Res/newItem2/general_clock_icon.png" pkg="5moj1x39" xy="271,210" group="n24_f34j">
+      <relation target="n8_sc7h" sidePair="left-left"/>
+    </image>
+    <text id="n8_sc7h" name="timeLb" xy="304,208" size="144,34" group="n24_f34j" fontSize="24" color="#fcf78e" align="center" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="{value=00:00:00}"/>
+    <group id="n24_f34j" name="n24" xy="271,208" size="177,34" group="n10_sc7h" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <list id="n12_sc7h" name="dailyList" xy="40,275" size="640,771" group="n10_sc7h" overflow="scroll" lineGap="5" defaultItem="ui://fdbg11jxsc7hf">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n27_f34j" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1128" size="84,84" group="n10_sc7h">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n10_sc7h" name="n10" xy="16,70" size="688,1142" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

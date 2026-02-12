@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageOffsetX="-22" designImageAlpha="36">
+  <controller name="hasAcount" exported="true" pages="0,,1,,2," selected="0">
+    <remark page="1" value="taptap"/>
+    <remark page="2" value="quick"/>
+  </controller>
+  <displayList>
+    <graph id="n25_auqc" name="n25" xy="-2,615" size="725,249" type="rect" fillColor="#ff666666">
+      <gearDisplay controller="hasAcount" pages="0"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </graph>
+    <text id="n11_nxr7" name="n11" xy="128,646" pivot="0.5,0.5" size="463,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="shrink" strokeColor="#000000" text="账号">
+      <gearDisplay controller="hasAcount" pages="0"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+    <component id="n13_nxr7" name="btnClose" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="653,640" size="56,51" visible="false">
+      <gearDisplay controller="hasAcount" pages="0"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+      <Button icon="ui://0anhreylfpa2dxy29"/>
+    </component>
+    <component id="n14_qzrg" name="btnLogin" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,1033" size="218,84">
+      <gearDisplay controller="hasAcount" pages="0,2"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+      <Button title="登录" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n18_pchv" name="n18" xy="53,708" size="140,54" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="服务器：">
+      <gearDisplay controller="hasAcount" pages="0"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+    <component id="n19_pchv" name="serverPop" src="pchvxxp8" fileName="Component/ServerCombox.xml" xy="199,707">
+      <gearDisplay controller="hasAcount" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="QA1"/>
+        <item title="QA2"/>
+        <item title="QA3"/>
+      </ComboBox>
+    </component>
+    <image id="n3_nxr7" name="n3" src="dd3xdxxx7" fileName="Res/ICON-touxiangkuang.png" pkg="0anhreyl" xy="199,770" size="344,60" group="n20_jto9">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <text id="n5_nxr7" name="n5" xy="53,772" size="140,54" group="n20_jto9" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="账号：">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+    <text id="n9_nxr7" name="txtAccount" xy="240,771" size="294,60" group="n20_jto9" fontSize="22" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" singleLine="true" text="" input="true" prompt="输入账号" maxLength="32">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </text>
+    <group id="n20_jto9" name="n20" xy="53,770" size="490,61" advanced="true">
+      <gearDisplay controller="hasAcount" pages="0"/>
+    </group>
+    <component id="n21_zncu" name="taptapBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="89,989" size="540,100">
+      <gearDisplay controller="hasAcount" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://h85hm7vmzncuxxp9"/>
+    </component>
+    <component id="n22_uq40" name="userCheck" src="uq40xxpd" fileName="Component/check.xml" xy="57,1143" group="n24_uq40" aspect="true" scale="1.2,1.2"/>
+    <richtext id="n23_uq40" name="linkLb" xy="97,1140" size="564,39" group="n24_uq40" fontSize="28" color="#ffffff" ubb="true" vars="true" bold="true" strokeColor="#000000" singleLine="true" text="我已阅读并同意[color=#deb555]&lt;a href=&apos;event:userTips&apos;&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href=&apos;event:PrivacyTips&apos;&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]&#xA;"/>
+    <group id="n24_uq40" name="n24" xy="57,1140" size="604,39" advanced="true" layout="hz" colGap="8" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

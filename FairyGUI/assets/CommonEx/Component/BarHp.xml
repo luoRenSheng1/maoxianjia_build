@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="171,70" pivot="0.5,0.5" anchor="true">
+  <controller name="bossType" pages="0,,1,,2," selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n0_gwxt" controller="bossType" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n0_gwxt" controller="bossType" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n0_gwxt" controller="bossType" targetPage="2"/>
+  </controller>
+  <displayList>
+    <component id="n0_gwxt" name="hpBar" src="hargdxy3l" fileName="Component/BarHpComponent.xml" xy="85,24"/>
+  </displayList>
+</component>

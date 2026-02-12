@@ -1,0 +1,1427 @@
+syntax = "proto2";
+
+package msg;
+
+// 命名规则，协议后缀标识协议服务器流动方向
+// C --> Client
+// H --> CenterSrv(HeartSrv)
+// L --> LoginSrv
+// G --> GateSrv
+// W --> WorldSrv
+// D --> DBSrv
+// Y --> ChatSrv
+
+//注:1. 与客户端通信协议需成对出现，反馈协议需包含错误反馈码
+//	 2. _PC后缀协议为服务器推送客户端协议
+//	 3. 基础ID尽量使用uint32类型(itemid, equipid等)
+
+
+
+enum eMsgID {
+	eMsg_Begin 					= 0;
+	
+	//========================================= 测试相关 =============================================
+	eTestMsg_Proto2_CS                 = 10;
+	eTestMsg_Proto2_SC                 = 11;
+	
+	//========================================= 系统相关协议 (100 --> 199) =============================================
+	//系统操作
+	eMsg_Register_Server_Apply 	= 101;		// 服务器向对方注册
+	eMsg_Register_Server_Reply 	= 102;		// 服务器向对方注册反馈
+	eMsg_ServerExit_SS 			= 103;		// 要求指定的服务器关机
+	eMsg_VariableReload_SS		= 104;		// 系统运行参数全量加载
+	eMsg_VariableUpdate_SS		= 105;		// 系统运行参数增量修改
+	eMsg_VariableRemove_SS		= 106;		// 系统运行参数删除
+	eMsg_ServerPing_Apply		= 107;		// 服务器之间Ping
+	eMsg_ServerPing_Reply		= 108;		// 服务器之间Ping反馈
+	eMsg_ServerListSync_SS		= 109;		// 服务器列表同步
+	eMsg_ServerTobeExit_SS		= 110;		// 服务器即将退出(其他服务器终止此服务器业务流程)
+	eMsg_ServerCancelExit_SS	= 111;		// 服务器取消安全退出
+	eMsg_ServerDataReload_SS	= 112;		// 服务器配置重载
+	eMsg_ServerExit_Broadcast_SS	= 113;		// 服务器退出广播
+	eMsg_ServerHttpMsg_S1		= 114;		// 服务器内部http消息处理
+	eMsg_ServerAddupLogSync_SS	= 115;		// 服务器log概况汇总协议
+	eMsg_ServerAlarm_SS			= 116;		// WNSAlarm服务器内部转发
+	eMsg_TriggerAlarm_S1		= 117;		// 报警：进程内部触发报警
+	eMsg_ServerMaybeExit_SS		= 118;		// 服务器可能在退出
+	
+	// DB
+	eMsg_MySQLOperation_SD		= 120;    	// 请求mysql操作 
+	eMsg_MySQLOperation_DS		= 121;  	// mysql操作回复
+	eMsg_RedisOperation_SD		= 122;		// 请求redis操作
+	eMsg_RedisOperation_DS		= 123;		// redis操作回复
+	eMsg_MongoTest_SD			= 124;		// 请求mongo操作(测试协议,业务上对mongo操作的具体协议分散在各业务协议块内)
+	eMsg_MongoTest_DS			= 125;		// mongo操作回复(测试协议,业务上对mongo操作的具体协议分散在各业务协议块内)
+	eMsg_Db_Info_DW				= 126;    	// Db信息    dbserver -> worldserver
+	eMsg_MongoOperation_SD		= 127;		// 请求mongo操作
+	eMsg_MongoOperation_DS		= 128;		// mongo操作回复
+
+
+
+	// 服务器相关后台接口
+	eMsg_BG_ServerList_Req				= 160;		// 后台请求服务器列表
+	eMsg_BG_ServerList_Resp				= 161;		// 后台请求服务器列表回复
+	eMsg_BG_StopService_Req				= 162;		// 后台请求服务器停止服务
+	eMsg_BG_StopService_Resp			= 163;		// 后台请求服务器停止服务回复
+	eMsg_BG_StartService_Req			= 164;		// 后台请求服务器开始（撤销停止）服务
+	eMsg_BG_StartService_Resp			= 165;		// 后台请求服务器开始（撤销停止）服务回复
+
+	eMsg_BG_CloseOne_Req				= 166;		// 后台请求关闭单台服务器
+	eMsg_BG_CloseOne_Resp				= 167;		// 后台请求关闭单台服务器回复
+	eMsg_BG_CloseAll_Req				= 168;		// 后台请求关闭所有服务器
+	eMsg_BG_CloseAll_Resp				= 169;		// 后台请求关闭所有服务器回复
+
+	// 其他PM相关接口
+	eMsg_PMReloadCommonIniCfg_SS		= 175;		//PM服务器CommonCfg.ini配置文件热加载
+	eMsg_PMReloadIniCfg_S1_Req			= 176;		//服务器内部消息，请求common线程处理ini配置文件加载
+	eMsg_PMReloadIniCfg_S1_Resp			= 177;		//服务器内部消息，请求common线程处理ini配置文件加载反馈
+
+	//==================================================================================================================	
+	
+	
+	//=========================================== 玩家登陆相关 (200 --> 299) ===========================================
+	eMsg_AccountCheck_CS 		= 200;		// 账号验证 				client -> login
+	eMsg_AccountCheck_SC		= 201;		// 帐号验证信息回复LS		login -> client	
+	eMsg_PlayerLogin_CS 		= 202;		// 请求登入					client -> gate
+	eMsg_PlayerLogin_SC			= 203;		// 请求登入反馈				gate -> client (登陆流程结束,可以接收逻辑消息)
+	eMsg_LoginFinish_CS			= 204;		// 登陆结束协议(client->gate)
+	eMsg_LoginFinish_SC			= 205;		// 登陆结束协议反馈
+	eMsg_ServerExit_SC			= 206;		// 通知客户端服务器即将关闭
+	eMsg_LoginFinish_GW			= 207;		// 登陆结束协议(gate->world)
+	eMsg_KickPlayer_SC			= 208;		// 推送即将踢出客户端协议	
+	eMsg_LoginFinish_MainUI_CS	= 209;		// 登陆结束协议-进入主UI
+	eMsg_LoginFinish_MainUI_SC	= 210;		// 登陆结束协议-进入主UI反馈
+	
+	eMsg_Query_Login_Code_CS	= 211;		// 查询是否有绑过内测验证码
+	eMsg_Query_Login_Code_SC	= 212;		// 查询是否有绑过内测验证码回复
+	eMsg_Bind_Login_Code_CS		= 213;		// 绑定内测验证码
+	eMsg_Bind_Login_Code_SC		= 214;		// 绑定内测验证码回复
+	//eMsg_Login_Session_ID_PC	= 215;		// 会话id，服务器下发，用于客户端上报后台
+
+	eMsg_Dh_Shakehand_SC	 	= 230;  	// Dh握手：服务端发往客户端(网络层处理)
+	eMsg_Dh_Shakehand_CS 		= 231;  	// Dh握手：客户端发往服务端(网络层处理)
+	
+	eMsg_AccountCheck_LH		= 250;		// 验证帐号					login -> center
+	eMsg_AccountCheck_HL		= 251;		// 验证帐号回复 			center -> login	
+	eMsg_PlayerLogin_GHW		= 252;		// 登入请求 				gate -> center -> world
+	eMsg_KickPlayer_SS			= 253;		// 剔除玩家 				center -> gate||world
+	eMsg_PlayerOffline_SS		= 254;		// 玩家离线 				gate -> center||world
+	eMsg_PlayerRelease_SS		= 255;		// 通知释放缓存的玩家数据	 world -> center
+	eMsg_PlayerReadyLogin_SS	= 256;		// 玩家登录完成时广播给所有服务器
+	eMsg_ClientReady_CS			= 257;		// 客户端启动阶段结束协议(client->gate)
+	eMsg_ClientReady_SC			= 258;		// 客户端启动阶段结束协议反馈
+	eMsg_Login_AuthWork_Resp_S1	= 259;		// LS->LS：技术部登录验证结果（LoginServer内部消息）
+	eMsg_Login_KickPlayer_S2	= 260;		// 登录的时候踢出其他worldserver数据 	center -> world
+
+	eMsg_Gen_PuzzleserverID_Apply		= 261;		// 请求分配PuzzleserverID			gate -> center
+	eMsg_Gen_PuzzleserverID_Reply		= 262;		// 请求分配PuzzleserverID回复 		center -> gate、world，world -> gate
+	
+	//==================================================================================================================
+
+	//=============================================== 玩家  (268 --> 399) ==============================================
+	eMsg_PlayerBasicInfo4Login_PC    =265;    //eMsg_LoginFinish_SC 消息后，主动下发玩家基本信息
+	eMsg_PlayerRingInfo4Login_PC    =266;   //eMsg_LoginFinish_SC 消息后，主动下发魔戒属性基本信息
+	eMsg_PlayerEquipsInfo4Login_PC    =267;   //eMsg_LoginFinish_SC 消息后，主动下发玩家装备基本信息
+	eMsg_PlayerRunesInfo4Login_PC    =268;   //eMsg_LoginFinish_SC 消息后，主动下发玩家符石基本信息
+	eMsg_PlayerPetsInfo4Login_PC    =269;     //eMsg_LoginFinish_SC 消息后，主动下发玩家宠物基本信息
+	eMsg_PlayerItemsInfo4Login_PC    =270;    //eMsg_LoginFinish_SC 消息后，主动下发玩家道具基本信息
+	eMsg_PlayerTaskInfo4Login_PC    =271;    //eMsg_LoginFinish_SC 消息后，主动下发玩家主线任务基本信息
+	eMsg_PlayerSkillInfo4Login_PC    =272;     //eMsg_LoginFinish_SC 消息后，主动下发玩家技能基本信息
+	
+	eMsg_PlayerRingUpdate_PC    =273;     //魔戒基本属性更新
+	eMsg_PlayerSkillSlotUpdate_PC    =274;     //技能栏更新  ---只下发变动的栏位，可能1个可能多个
+	eMsg_PlayerEquipSlotUpdate_PC = 275;  //装备栏更新  ---只下发变动的栏位，可能1个可能多个
+	eMsg_PlayerRuneSlotUpdate_PC = 276;  //符石栏更新 ---只下发变动的栏位，可能1个可能多个
+	eMsg_PlayerPetSlotUpdate_PC = 277;  //宠物栏更新 ---只下发变动的栏位，可能1个可能多个
+	
+	eMsg_PlayerUnlockFunction4Login_PC    =278;     //eMsg_LoginFinish_SC 消息后，主动下发玩家已解锁功能
+	eMsg_PlayerGuideID4Login_PC    =279;     //eMsg_LoginFinish_SC 消息后，主动下发已完成的引导id
+	
+	eMsg_PlayerHeroRolesInfo4Login_PC    =280;     //eMsg_LoginFinish_SC 消息后，主动下发玩家英雄角色基本信息
+	eMsg_PlayerHeroRoleUpdate_PC = 281;  //英雄角色更新 ---只下发变动，可能1个可能多个
+	
+	eMsg_PlayerBattleAttrInfo4Login_PC = 282;  //  eMsg_LoginFinish_SC 消息后，主动下发战斗总属性 (所有各项需要的属性)
+	eMsg_PlayerBattleAttrUpdate_PC= 283;  // 战斗各项属性发生变更 下发 (包含多个变更的属性)
+	
+	eMsg_PlayerOccupation2Classics4Login_PC    =284;     //eMsg_LoginFinish_SC 消息后，主动下发玩家英雄角色对应的典籍信息
+	eMsg_PlayerOccupation2ClassicsUpdate_PC = 285;  //典籍更新 ---只下发英雄变动引发职业变动，下发新角色的对应典籍
+	eMsg_PlayerUnlockNewClassics_PC = 286;       //当前角色对应职业解锁新典籍
+	
+	eMsg_PlayerChapterMapInfo4Login_PC = 287;   //登录的章节地图和随机任务信息
+	eMsg_PlayerNPCTask4Login_PC = 288;   //    登录的委托任务信息
+	eMsg_PlayerTalents4Login_PC = 289;   //    登录的天赋
+	eMsg_PlayerLoreEquipSlotUpdate_PC = 290;   // 传承装备栏更新  ---只下发变动的栏位，可能1个可能多个
+	eMsg_PlayerLoreEquipsInfo4Login_PC    =291;   // 传承装备
+	
+	eMsg_PlayerHolyItemsInfo4Login_PC = 292; //登录下发圣物信息
+	
+	eMsg_ClassicsLevelUp_CS    =294;     //升级典籍
+	eMsg_ClassicsLevelUp_SC    =295;     //升级典籍回复
+	
+	eMsg_RingAttrLevelUp_CS    =296;     //升级基本属性
+	eMsg_RingAttrLevelUp_SC    =297;     //升级基本属性回复
+	
+	eMsg_FinishedGuideID_CS    =298;     //提交完成的引导id
+	eMsg_FinishedGuideID_SC    =299;     //回复服务器端保存完成的引导id
+	//Ping
+	eMsg_ClientPing_CS 			= 300;		// ping请求					client -> gate 
+	eMsg_ClientPing_SC 			= 301;		// ping请求反馈 			gate -> client	
+	eMsg_PlayerInfo_CS			= 303;		// 客户端主动获取玩家信息
+	eMsg_PlayerInfo_SC			= 304;		// 获取玩家信息反馈&&推送玩家信息
+	eMsg_PlayerInfoUpdate_PC	= 305;		// 推送玩家属性更新
+	
+	eMsg_PlayerChangeHero_CS    = 306;      // 英雄转职 client-->server
+	eMsg_PlayerChangeHero_SC    = 307;      // 英雄转职 client<--server
+	
+	eMsg_GetRedPoints_CS		= 310;		// 获取当前红点列表
+	eMsg_GetRedPoints_SC		= 311;		// 获取当前红点列表反馈
+	eMsg_SyncRedPoints_PC		= 312;		// 主动推送红点下发
+	
+	eMsg_ReadRedPoints_CS       = 313;      // 已读红点提交
+	eMsg_ReadRedPoints_SC       = 314;      // 已读红点提交反馈
+	
+	
+	eMsg_DailyReset_CS       = 315;      // 在线每日重置请求
+	eMsg_DailyReset_SC       = 316;      // 在线每日重置请求反馈
+	
+	eMsg_HeroAddExp_CS       = 317;      // 角色使用道具提升经验请求
+	eMsg_HeroAddExp_SC       = 318;      // 角色使用道具提升经验反馈
+	eMsg_HeroBreak_CS       = 319;      // 角色使用道具突破请求
+	eMsg_HeroBreak_SC       = 320;      // 角色使用道具突破反馈
+	eMsg_HeroReplaceInBattle_CS       = 321;      // 角色上阵切换请求
+	eMsg_HeroReplaceInBattle_SC       = 322;      // 角色上阵切换反馈
+	eMsg_HeroPiecesMerge_CS       = 323;      // 角色碎片合成请求
+	eMsg_HeroPiecesMerge_SC       = 324;      // 角色碎片合成反馈
+	
+	eMsg_NewHero_PC       = 325;      // 新增角色英雄下发 --运营补偿或作弊码
+	eMsg_HeroExpItemByFreeAD_CS       = 326;      // 看广告获得经验药水
+	eMsg_HeroExpItemByFreeAD_SC       = 327;      // 看广告获得经验药水反馈
+	
+	
+	eMsg_PlayerLvUp_PC			= 337;		// 推送玩家升级
+	eMsg_NewDayReset_PC			= 338;		// 隔日数据重置通知
+	
+	eMsg_PlayerUnlockFunction_PC = 339;     //玩家最新解锁功能
+	eMsg_HeroSkillLevelUp_CS = 340;       //英雄主技能升级请求
+	eMsg_HeroSkillLevelUp_SC = 341;       //英雄主技能升级反馈
+	 
+    
+	// 改名相关
+	eMsg_ChangePlayerName_CS 	= 350;		// 请求改名
+	eMsg_ChangePlayerName_SC 	= 351;		// 请求改名反馈
+	
+	eMsg_PlayerInfoUpdate_WH	= 354;		// 更新玩家简单信息			world -> center(center服务器存储所有玩家简单信息)
+	eMsg_GetPlayerInfo_SH		= 355;		// 向中心服务器请求玩家信息	other -> center
+	eMsg_GetPlayerInfo_HS		= 356;		// 请求玩家信息反馈			center -> other
+	
+	
+	eMsg_Pm_CS					= 398;		// PM命令					client-->server
+	eMsg_Pm_SC					= 399;		// PM命令					client<--server
+	
+
+	// 通用点赞&&评论相关协议
+	eMsg_GetCommonLike_CS		= 357;		// 获取通用点赞数据 -- 进相关界面请求，不实时推送
+	eMsg_GetCommonLike_SC		= 358;		// 获取通用点赞数据反馈
+	eMsg_CommonLike_CS			= 359;		// 通用点赞逻辑
+	eMsg_CommonLike_SC			= 360;		// 通用点赞逻辑反馈
+	eMsg_GetCommonGrade_CS		= 361;		// 获取通用评分相关数据 -- 进相关界面请求，不实时推送
+	eMsg_GetCommonGrade_SC		= 362;		// 获取通用评分相关数据反馈（包含评分 && 问卷数据）
+	eMsg_CommonGrade_CS			= 363;		// 通用评分逻辑
+	eMsg_CommonGrade_SC			= 364;		// 通用评分逻辑反馈
+	eMsg_CommonGradeDetail_CS	= 365;		// 通用评分问卷
+	eMsg_CommonGradeDetail_SC	= 366;		// 通用评分问卷反馈
+
+	eMsg_DiscussAccumulate_SS	= 367;		// 点赞次数or评分累积
+	eMsg_DiscussDetailSync_SS	= 368;		// 点赞or评分累积数据服务器间同步	
+	eMsg_PMAddLikeCnt_Apply		= 369;		// PM增加点赞数
+	eMsg_PMAddLikeCnt_Reply		= 370;		// PM增加点赞数反馈	
+	eMsg_PMAddGrade_Apply		= 376;		// PM增加评分
+	eMsg_PMAddGrade_Reply		= 377;		// PM增加评分反馈
+
+	eMsg_UpdateRedis_WR			= 371;		// world服更新玩家信息到redis缓存	
+	eMsg_Search_CS				= 372;		// 客户端请求搜索指定玩家概要信息
+	eMsg_Search_SC				= 373;		// 服务端应答搜索指定玩家概要信息
+	eMsg_SearchDetail_CS		= 374;		// 客户端请求搜索指定玩家详细(装扮,捏脸,徽章)信息
+	eMsg_SearchDetail_SC		= 375;		// 服务端应答搜索指定玩家详细(装扮,捏脸,徽章)信息
+
+	eMsg_Search_HW				= 386;		// center服转发搜索指定玩家概要信息的请求到world服
+	eMsg_Search_WH				= 387;		// world服转发搜索指定玩家概要信息的请求到center服
+	eMsg_SearchDetail_HW		= 388;		// center服转发搜索指定玩家详细(装扮,捏脸,徽章)信息的请求到world服
+	eMsg_SearchDetail_WH		= 389;		// world服转发搜索指定玩家详细(装扮,捏脸,徽章)信息的请求到center服
+	
+	// 资源下载领取奖励
+	eMsg_PlayerDownloadedSourceID_CS   = 390;		// 请求已领取过下载资源奖励id列表 客户端-->服务器端
+	eMsg_PlayerDownloadedSourceID_SC   = 391;		// 请求已领取过下载资源奖励id列表 客户端<--服务器端
+	eMsg_PlayerGetDownloadReward_CS   = 392;		// 请求单个下载奖励领取 客户端-->服务器端
+	eMsg_PlayerGetDownloadReward_SC   = 393;		// 请求单个下载奖励领取 客户端<--服务器端
+	eMsg_PlayerGetBatchDownloadRewards_CS   = 394;		// 请求多个下载奖励领取 客户端-->服务器端
+	eMsg_PlayerGetBatchDownloadRewards_SC   = 395;		// 请求多个下载奖励领取 客户端<--服务器端
+	
+	
+	eMsg_PMNoticeIggGeneralPost_C2W 	= 396;	//PM通知Igg通用通知 CENTER-->world
+	eMsg_PMNoticeIggGeneralPost_PC 	= 397;	//PM通知Igg通用通知 下发给客户端
+	
+	//============================stage战斗 副本战斗 关卡奖励 --- 400---449======================================================================================
+	eMsg_Stage_Begin_CS = 400;                 //关卡开始  客户端提交
+	eMsg_Stage_Begin_SC = 401;                 //关卡开始服务器端下发相关数值
+	eMsg_Stage_AwardCommit_CS = 402;           //每波怪物奖励提交
+	eMsg_Stage_AwardCommit_SC = 403;			//每波怪物奖励提交服务器端反馈
+	eMsg_Stage_End_CS = 404;					//关卡结束 客户端提交
+	eMsg_Stage_End_SC = 405;			        //关卡结束 服务器提交	
+	
+	eMsg_CopyInfo_CS = 406;            //请求副本信息
+	eMsg_CopyInfo_SC = 407;            //请求副本信息反馈
+	
+	eMsg_Copy_Begin_CS = 408;                 //副本开始  客户端提交
+	eMsg_Copy_Begin_SC = 409;                 //副本开始反馈
+	
+	eMsg_Copy_End_CS = 410;					//副本结束 客户端提交
+	eMsg_Copy_End_SC = 411;			        //副本结束 服务器提交	
+	
+	eMsg_OfflineAward_PC = 412;	          //离线奖励
+	eMsg_ClaimOnlineAward_CS= 413;	     //在线奖励领取
+	eMsg_ClaimOnlineAward_SC= 414;	      //在线奖励领取反馈
+	eMsg_OnlineAwardClick_CS= 415;	     //在线奖励查看
+	eMsg_OnlineAwardClick_SC= 416;	      //在线奖励查看反馈
+	
+	eMsg_ClaimStageAwardByAD_CS = 418;    //通过广告奖励领取关卡奖励
+	eMsg_ClaimStageAwardByAD_SC = 419;    //通过广告奖励领取关卡奖励反馈
+	
+	eMsg_Stage_Failed_CS = 420;					//关卡失败 客户端提交
+	eMsg_Stage_Failed_SC = 421;			        //关卡失败 服务器反馈
+	
+	eMsg_Stage_Exit_CS = 422;					//离开关卡
+	eMsg_Stage_Exit_SC = 423;			        //离开关卡反馈
+	
+	eMsg_GetCopyFreeTimesByAD_CS = 424;    //通过广告获得副本券请求
+	eMsg_GetCopyFreeTimesByAD_SC = 425;    //通过广告获得副本券反馈
+	
+	eMsg_ChooseStage_CS = 426;                 //关卡选择  客户端提交
+	eMsg_ChooseStage_SC = 427;                 //关卡选择  服务器反馈
+	
+	eMsg_EnterChapterMap_CS = 428;       //进入新章节地图
+	eMsg_EnterChapterMap_SC = 429;       //进入新章节地图回包
+	
+	eMsg_ReachNodeInStageChallenge_CS = 430;   //挑战中到达第几个节点上报请求(过完后)
+	eMsg_ReachNodeInStageChallenge_SC = 431;   //挑战中到达第几个节点上报回馈--客户端应该无需处理，如果是作弊提交数据包会提示失败
+	
+	eMsg_PlayerBattleAttrAddBuff_PC = 432; //新增buff
+	eMsg_PlayerBattleAttrDelBuff_PC = 433; //删除buff
+	
+	eMsg_TriggerStageBuff_CS = 434;   //触发关卡内buff请求
+	eMsg_TriggerStageBuff_SC = 435;   //触发关卡内buff反馈
+	
+	
+	
+	eMsg_Camp_Exit_CS = 436;					//离开营地
+	eMsg_Camp_Exit_SC = 437;			        //离开营地反馈
+	eMsg_Camp_Enter_CS = 438;					//进入营地
+	eMsg_Camp_Enter_SC = 439;			        //进入营地反馈
+	
+	//============================随机事件 --- 440---499======================================================================================
+	eMsg_NewRandomEvents_PC = 450;       //新下发的随机事件
+	eMsg_RandomEventsUpdate_PC = 451;    //某个随机事件变更
+	eMsg_DelRandomEvents_PC = 452;       //删除随机事件 ---  pm ，运营用
+	//eMsg_ClaimRandomBox_CS = 453;    //  领取随机宝箱
+    //eMsg_ClaimRandomBox_SC = 454;     // 领取随机宝箱回复
+	eMsg_ClaimBuff_CS = 455;    //  领取buff
+    eMsg_ClaimBuff_SC = 456;     // 领取buff回复
+	eMsg_ClaimRandomFinance_CS = 457;    //  领取随机事件货币奖励
+    eMsg_ClaimRandomFinance_SC = 458;     // 领取随机事件货币奖励回复
+	
+	eMsg_AttackWildBossBegin_CS = 459; //野外boss开始攻击
+	eMsg_AttackWildBossBegin_SC = 460; //野外boss开始攻击回复
+	eMsg_AttackWildBossEnd_CS = 461; //野外boss攻击结束
+	eMsg_AttackWildBossEnd_SC = 462; //野外boss攻击结束回复
+	
+	eMsg_AcceptWildPet_CS = 475;  //接收捕捉宠物开始
+	eMsg_AcceptWildPet_SC = 476;  //接收捕捉宠物回复
+	eMsg_CatchWildPetSuccess_CS = 477;  //捕捉宠物成功请求
+	eMsg_CatchWildPetSuccess_SC = 478;  //捕捉宠物成功回复
+	eMsg_AttackWildPetBegin_CS = 463; //在逃宠物开始攻击
+	eMsg_AttackWildPetBegin_SC = 464; //在逃宠物开始攻击回复
+	eMsg_AttackWildPetEnd_CS = 465; //在逃宠物攻击结束
+	eMsg_AttackWildPetEnd_SC = 466; //在逃宠物攻击结束回复
+	eMsg_ClaimWildPetAward_CS = 444;  //三选一奖励领取  
+	eMsg_ClaimWildPetAward_SC = 445;  //三选一奖励领取反馈
+	
+	eMsg_EnterRuin_CS = 467;   //进入废墟请求
+	eMsg_EnterRuin_SC = 468;   //进入废墟返回
+	eMsg_BeginRuinMosterFight_CS = 469;  //开始打怪请求
+	eMsg_BeginRuinMosterFight_SC = 470;  //开始打怪返回
+	eMsg_EndRuinMosterFight_CS = 471;  //结束打怪请求
+	eMsg_EndRuinMosterFight_SC = 472;  //结束打怪返回
+	eMsg_ExitRuin_CS = 473;   //退出废墟请求
+	eMsg_ExitRuin_SC = 474;   //退出废墟返回
+	
+	eMsg_BeginFishing_CS = 479;   //开始挥杆申请
+	eMsg_BeginFishing_SC = 480;   //开始挥杆返回
+	eMsg_AttackFishingBossBegin_CS = 481; //钓鱼boss开始攻击
+	eMsg_AttackFishingBossBegin_SC = 482; //钓鱼boss开始攻击回复
+	eMsg_AttackFishingBossEnd_CS = 483; //钓鱼boss结束攻击
+	eMsg_AttackFishingBossEnd_SC = 484; //钓鱼boss结束攻击回复
+	eMsg_FishingClaimAward_CS = 493; //钓鱼结果是直接奖励领取
+	eMsg_FishingClaimAward_SC = 494; //钓鱼结果是直接奖励领取回复
+	eMsg_FishingFailed_CS = 495;   //钓鱼失败请求
+	eMsg_FishingFailed_SC = 496;   //钓鱼失败请求返回
+	
+	eMsg_EnterCave_CS = 485;   //进入奇遇商人山洞
+	eMsg_EnterCave_SC = 486;   //进入奇遇商人山洞反馈
+	eMsg_PurchaseInCave_CS = 487;   //找奇遇商人购买
+	eMsg_PurchaseInCave_SC = 488;   //找奇遇商人购买反馈
+	eMsg_ExitCave_CS = 489;   //离开奇遇商人山洞
+	eMsg_ExitCave_SC = 490;   //离开奇遇商人山洞反馈
+	
+	eMsg_EnterBoxMap_CS = 491;  //进入挖宝推箱子地图  
+	eMsg_EnterBoxMap_SC = 492;  //进入挖宝推箱子地图反馈
+	//eMsg_OpenBox_CS = 495;  //打开宝箱
+	//eMsg_OpenBox_SC = 496;  //打开宝箱反馈
+	eMsg_ClaimRandomBox_CS = 453; //宝箱结果是直接奖励领取
+	eMsg_ClaimRandomBox_SC = 454; //宝箱结果是直接奖励领取回复
+	eMsg_AttackBoxBossBegin_CS = 497; //宝箱boss开始攻击
+	eMsg_AttackBoxBossBegin_SC = 498; //宝箱boss开始攻击回复
+	eMsg_AttackBoxBossEnd_CS = 440; //宝箱boss结束攻击
+	eMsg_AttackBoxBossEnd_SC = 441; //宝箱boss结束攻击回复
+	eMsg_ExitBoxMap_CS = 442;  //离开挖宝推箱子地图  
+	eMsg_ExitBoxMap_SC = 443;  //离开挖宝推箱子地图反馈
+	
+	
+	
+	//============================商城 --- 500---599======================================================================================
+	eMsg_Buy_Item_CS = 500;         //道具购买
+	eMsg_Buy_Item_SC = 501;         //道具购买返回
+	eMsg_HeroDailyFreeLottery_CS = 502;         //老虎机英雄角色每日首次免费
+	eMsg_HeroDailyFreeLottery_SC = 503;         //老虎机英雄角色每日首次免费返回
+	eMsg_Buy_Pet_CS = 504;         //宠物购买
+	eMsg_Buy_Pet_SC = 505;         //宠物购买返回
+	eMsg_Buy_Equip_CS = 506;         //装备购买
+	eMsg_Buy_Equip_SC = 507;         //装备购买返回
+	
+	//eMsg_VipInfo_CS = 508; //vip信息请求
+	//eMsg_VipInfo_SC = 509; //vip信息请求反馈
+	eMsg_LimitGiftPackInfo_CS = 510; //限制礼包购买信息请求
+	eMsg_LimitGiftPackInfo_SC = 511; //限制礼包购买信息请求反馈
+	eMsg_RechargeInfo_CS = 512; //充值信息请求----新接入充值之前测试用，非正式充值数据包
+	eMsg_RechargeInfo_SC = 513; //充值信息请求反馈----新接入充值之前测试用，非正式充值数据包
+	//eMsg_VipInfo_PC = 514; //vip信息更新--充值后主动推
+	eMsg_ApplyRechargeGameOrder_CS = 515; //充值游戏订单生成请求
+	eMsg_ApplyRechargeGameOrder_SC = 516; //充值游戏订单生成反馈
+	eMsg_Recharge_PC = 517; //充值到账--充值成功主动推
+	//eMsg_ClaimVipLevelAward_CS = 518; //领取vip等级奖励请求
+	//eMsg_ClaimVipLevelAward_SC = 519; //领取vip等级奖励反馈
+	//eMsg_BuyVipLevelPack_CS = 520; //购买vip等级礼包请求
+	//eMsg_BuyVipLevelPack_SC = 521; //购买vip等级礼包反馈
+	eMsg_BuyGiftPack_CS = 522; //购买礼包请求----仅支持钻石购买
+	eMsg_BuyGiftPack_SC = 523; //购买礼包反馈
+	eMsg_AwardCode_CS = 524; //礼包码兑换请求
+	eMsg_AwardCode_SC = 525; //礼包码兑换反馈
+
+	
+	eMsg_DiamondExchange4Gold_CS = 526; //钻石兑换金币请求
+	eMsg_DiamondExchange4Gold_SC = 527; //钻石兑换金币反馈
+	
+	eMsg_DiamondExchange4AccItem_CS = 528; //钻石兑换卷轴请求
+	eMsg_DiamondExchange4AccItem_SC = 529; //钻石兑换卷轴反馈
+	
+	eMsg_CommitGameOrder_CS = 530; //充值付款成功后告知服务器订单可以入库
+	eMsg_CommitGameOrder_SC = 531; //充值付款成功后告知服务器订单可以入库反馈
+	
+	eMsg_LimitGiftPackInfo_PC = 532; //充值付款成功后告知服务器  ,如果是 礼包次数的话，要下发pc包通知客户端更新次数限制
+	
+	
+	eMsg_HeroLottery_CS = 533;         //角色老虎机
+	eMsg_HeroLottery_SC = 534;         //角色老虎机返回
+	eMsg_PetLottery_CS = 535;         //宠物老虎机
+	eMsg_PetLottery_SC = 536;         //宠物老虎机返回
+	eMsg_SkillLottery_CS = 537;         //技能老虎机
+	eMsg_SkillLottery_SC = 538;         //技能老虎机返回
+	
+	eMsg_Recharge4GiftPack_PC = 539; //充值到账--充值成功主动推--gift.xlsx专用
+	eMsg_ClaimGiftAward_CS = 540; //领取礼包奖励请求
+	eMsg_ClaimGiftAward_SC = 541; //领取礼包奖励反馈
+	
+	eMsg_DailyAwardOfRechargeInfo_CS = 542; //天天好礼信息请求
+	eMsg_DailyAwardOfRechargeInfo_SC = 543; //天天好礼信息反馈
+	eMsg_ClaimDailyAwardOfRechargeAward_CS = 544; //领取天天好礼奖励请求
+	eMsg_ClaimDailyAwardOfRechargeAward_SC = 545; //领取天天好礼奖励反馈
+	eMsg_DailyAwardOfRechargeInfo_PC = 546; //天天好礼信息变更下发
+	
+	
+	eMsg_StageGuideAwardInfo_CS = 547; //疯狂指南信息请求
+	eMsg_StageGuideAwardInfo_SC = 548; //疯狂指南信息反馈
+	eMsg_StageGuideAwardInfo_PC = 549; //疯狂指南信息变更下发
+	eMsg_RechargeStageGuideAward_PC = 550; //疯狂充值到账下发
+	eMsg_ClaimStageGuideAward_CS = 551; //领取疯狂指南奖励请求
+	eMsg_ClaimStageGuideAward_SC = 552; //领取疯狂指南奖励反馈
+	eMsg_ClaimMallFreeAward_CS = 553; //领取商城免费请求
+	eMsg_ClaimMallFreeAward_SC = 554; //领取商城免费反馈
+	
+	
+	eMsg_FreePetLottery4Guide_CS = 555;         //引导免费宠物老虎机
+	eMsg_FreePetLottery4Guide_SC = 556;         //引导免费宠物老虎机返回
+	eMsg_FreeSkillLottery4Guide_CS = 557;         //引导免费技能老虎机
+	eMsg_FreeSkillLottery4Guide_SC = 558;         //引导免费技能老虎机返回
+	//=============================================== 邮件  (600 --> 650) ==============================================	
+	eMsg_MailSend_CS 			= 600;		// 客户端请求发送邮件
+	eMsg_MailSend_SC 			= 601;		// 服务端反馈发送邮件结果
+	eMsg_MailList_CS 			= 602;		// 客户端请求邮件列表
+	eMsg_MailList_SC 			= 603;		// 服务端反馈邮件列表
+	eMsg_MailExtract_CS 		= 604;		// 客户端请求提取附件
+	eMsg_MailExtract_SC 		= 605;		// 服务端反馈提取附件结果
+	eMsg_MailRemove_CS 			= 606;		// 客户端请求删除邮件
+	eMsg_MailRemove_SC 			= 607;		// 服务端反馈删除邮件结果
+	eMsg_MailRemove_PC 			= 616;		// 服务端主动通知删除邮件
+	eMsg_MailMark_CS 			= 608;		// 客户端请求标记邮件(已读/未读)
+	eMsg_MailMark_SC 			= 609;		// 服务端反馈标记邮件(已读/未读)结果
+	eMsg_SysMailSend_Apply 		= 610;		// 平台发送系统邮件请求
+	eMsg_SysMailSend_Reply 		= 611;		// 服务端反馈平台发送系统邮件结果
+	eMsg_SysMailSend_HW 		= 612;		// 服务端内部转发平台系统邮件请求
+	eMsg_SysMailSend_SS 		= 613;		// WorldSrv广播给特定玩家的系统邮件
+	eMsg_MailNew_PC				= 614;		// 服务端主动通知客户端有新邮件产生
+	eMsg_SysMailSync_HW			= 615;		// GlobalSrv同步系统邮件到WorldSrv
+	
+	eMsg_CancelMail_Apply		= 650;		// 取消邮件
+	eMsg_CancelMail_Reply		= 651;		// 取消邮件反馈
+	//=============================任务 --- 652---699========================================================================		
+	eMsg_MainTaskFinish_PC 			= 652;		// 服务器端主动下发主线任务完成通知
+	eMsg_PlayerMainTaskInfoUpdate_PC    =653 ;   //任务进度变更
+	eMsg_ClaimTaskAward_CS = 654;       //任务完成领取奖励
+	eMsg_ClaimTaskAward_SC = 655;       //任务完成领取奖励反馈
+	
+	eMsg_DailyTaskInfo_CS = 656;  //每日任务信息请求
+	eMsg_DailyTaskInfo_SC = 657;  //每日任务信息请求反馈
+	eMsg_ClaimDailyTaskAward_CS = 658;  //领取每日任务奖励请求
+	eMsg_ClaimDailyTaskAward_SC = 659;  //领取每日任务奖励反馈
+	//eMsg_ClaimDailyTaskActiveAward_CS = 660;  //领取每日任务活跃值奖励请求
+	//eMsg_ClaimDailyTaskActiveAward_SC = 661;  //领取每日任务活跃值奖励反馈
+	eMsg_DailyTaskProcess_PC = 662;   //每日任务进度更新
+	
+	eMsg_PassTaskInfo_CS = 663;  //通行证信息请求
+	eMsg_PassTaskInfo_SC = 664;  //通行证信息请求反馈
+	eMsg_PassTaskInfo_PC = 665;  //通行证信息变更
+	eMsg_PassTaskProcess_PC = 666;  //通行证相关任务进度变更
+	eMsg_PassTaskFinish_PC = 667;  //通行证相关任务完成
+	eMsg_NewPassTaskInfo_PC = 668;  //新通行证开始
+	eMsg_ClaimPassTaskAward_CS = 669;  //领取通行证奖励请求
+	eMsg_ClaimPassTaskAward_SC = 670;  //领取通行证奖励反馈
+	eMsg_PayUnlockAdvance_PC = 671;  //付费解锁高级奖励
+	eMsg_PassTaskEnd_PC = 672;  //当前新通行证结束
+	eMsg_ClaimPassSubTaskExp_CS = 673;  //领取通行证子任务经验值
+	eMsg_ClaimPassSubTaskExp_SC = 674;  //领取通行证子任务经验值反馈
+	
+    eMsg_AcceptNPCTask_CS = 675; //接受委托任务
+    eMsg_AcceptNPCTask_SC = 676; //接受委托任务反馈
+    eMsg_UpdateNPCTask_PC = 677; //任务进度与状态更新
+    eMsg_ClaimNPCTaskAward_CS = 678; //领取委托任务奖励
+    eMsg_ClaimNPCTaskAward_SC = 679; //领取委托任务奖励反馈
+    eMsg_DropNPCTask_CS = 680; //放弃进行中的委托任务
+    eMsg_DropNPCTask_SC = 681; //放弃进行中的委托任务反馈
+	
+	eMsg_ShuffleNpcTasks_CS = 682; //刷新npc任务
+	eMsg_ShuffleNpcTasks_SC = 683; //刷新npc反馈
+	eMsg_ExchangeItemByNPCPoints_CS = 684; //兑换npc积分道具
+	eMsg_ExchangeItemByNPCPoints_SC = 685; //兑换npc积分道具反馈
+	
+	eMsg_OfferItem4Task_CS = 686;   //上供完成任务
+	eMsg_OfferItem4Task_SC = 687;   //上供完成任务反馈
+	
+	//=============================装备  传承装备 --- 700---799========================================================================		
+	eMsg_EquipBox_LevelupMilestone_CS			= 700;		// 装备宝箱里程碑升级请求	
+	eMsg_EquipBox_LevelupMilestone_SC			= 701;		// 装备宝箱里程碑升级回复	
+	eMsg_EquipBox_Levelup_CS			= 702;		// 装备宝箱升级请求	
+	eMsg_EquipBox_Levelup_SC			= 703;		// 装备宝箱升级回复
+	eMsg_EquipBox_Info_PC = 704;              //主动下发宝箱信息
+	eMsg_Equips_PC = 705;              //下发所有装备信息
+	eMsg_NewEquips_PC = 706;          //下发新获取的装备 支持多件
+	eMsg_GenEquips_CS = 707;          //宝箱生成装备请求
+	eMsg_GenEquips_SC = 708;          //宝箱生成装备回复
+	eMsg_SellEquip_CS = 709;         //出售装备请求
+	eMsg_SellEquip_SC = 710;         //出售装备回复
+	eMsg_EquipOnPlayer_CS = 711;         //穿上装备请求---- 无用，没实现
+	eMsg_EquipOnPlayer_SC = 712;         //穿上装备回复---- 无用，没实现
+	eMsg_TakeOffEquip_CS = 713;         //脱下装备请求---- 无用，没实现
+	eMsg_TakeOffEquip_SC = 714;         //脱下装备回复---- 无用，没实现
+	eMsg_ReplaceEquip_CS = 715;         //换下装备请求
+	eMsg_ReplaceEquip_SC = 716;         //换下装备回复
+		
+	eMsg_EquipBox_StartLevelup_CS			= 717;		// 装备宝箱开始升级触发倒计时
+	eMsg_EquipBox_StartLevelup_SC			= 718;		// 装备宝箱开始升级触发倒计时回复
+	
+	eMsg_ReplaceEquipAutoSell_CS = 719;         //换下装备并直接出售请求
+	eMsg_ReplaceEquipAutoSell_SC = 720;         //换下装备并直接出售回复
+	
+	
+	eMsg_EquipBox_AccLevelupByAD_CS			= 721;		// 装备宝箱通过广告次数加速升级
+	eMsg_EquipBox_AccLevelupByAD_SC			= 722;		// 装备宝箱通过广告次数加速升级回复
+	
+	eMsg_DelEquips_PC = 723;          //删除装备
+	
+	
+	
+	eMsg_NewLoreEquips_PC = 750;          //下发新获取的传承装备 支持多件
+	eMsg_SellLoreEquip_CS = 751;         //出售传承装备请求
+	eMsg_SellLoreEquip_SC = 752;         //出售传承装备回复
+	eMsg_LoreEquipOnPlayer_CS = 753;         //穿上传承装备请求
+	eMsg_LoreEquipOnPlayer_SC = 754;         //穿上传承装备回复
+	eMsg_TakeOffLoreEquip_CS = 755;         //脱下传承装备请求
+	eMsg_TakeOffLoreEquip_SC = 756;         //脱下传承装备回复
+	eMsg_ReplaceLoreEquip_CS = 757;         //换下传承装备请求
+	eMsg_ReplaceLoreEquip_SC = 758;         //换下传承装备回复
+	eMsg_DelLoreEquips_PC = 759;          //删除传承装备
+	eMsg_BatchSellLoreEquip_CS = 760;         //一键回收传承装备请求
+	eMsg_BatchSellLoreEquip_SC = 761;         //一键回收出售传承装备回复
+	
+	//=============================道具 --- 800---849========================================================================
+	
+	eMsg_Items_PC = 800;              //下发所有道具信息
+	eMsg_NewItems_PC = 801 ;          //下发新获取的道具 支持多件
+	eMsg_ItemUse_CS = 802 ;          //道具使用
+	eMsg_ItemUse_SC = 803 ;          //道具使用回复
+	eMsg_ItemUse4Acceleration_CS = 804 ;          //缩短时间道具使用
+	eMsg_ItemUse4Acceleration_SC = 805 ;          //缩短时间道具使用回复
+	//=============================符石 --- 850---899========================================================================
+	eMsg_NewRune_PC = 850 ;          //下发新获取的符石 --作弊码或运营添加
+	eMsg_RuneAutoSell_PC = 851 ;          //符石自动出售--超过上限获得即出售
+	eMsg_RuneInSlot_CS = 852 ;          //符石放入战斗栏
+	eMsg_RuneInSlot_SC = 853 ;          //符石放入战斗栏回复
+	eMsg_RemoveRuneFromSlot_CS = 854 ;          //符石移除战斗栏
+	eMsg_RemoveRuneFromSlot_SC = 855 ;          //符石移除战斗栏回复
+	eMsg_RunesSwitchInSlots_CS = 856;  //符石再装备栏里交换位置
+	eMsg_RunesSwitchInSlots_SC = 857;  //符石再装备栏里交换位置回复
+	eMsg_BatchReplaceRuneInSlot_CS = 858 ;          //符石批量放入战斗栏
+	eMsg_BatchReplaceRuneInSlot_SC = 859 ;          //符石批量放入战斗栏回复
+	
+	eMsg_RunesSell_CS = 860; //符石出售
+	eMsg_RunesSell_SC = 861; //符石出售回复
+	
+	
+	//=============================================== 充值相关  (900 --> 949) ==========================================	
+	eMsg_Order_Apply			= 900;		// 平台充值订单请求
+	eMsg_Order_Reply			= 901;		// 反馈充值订单处理结果
+	eMsg_Order_SS				= 902;		// 服务端内部通知玩家领取充值订单
+	eMsg_Order_PC				= 903;		// 服务端通知客户端领取充值订单结果
+	eMsg_CancelOrder_Apply		= 904;		// 取消订单
+	eMsg_CancelOrder_Reply		= 905;		// 取消订单反馈
+	eMsg_PmRewardItemOrder_PC   = 906;		// 服务端通知客户端领取Pm道具(CD-KEY或补偿等)
+	eMsg_QueryOrder_Apply		= 907;		// 查询订单
+	eMsg_QueryOrder_Reply		= 908;		// 查询订单反馈
+	
+	eMsg_SetAdRewardType_CS		= 920;		// 客户端：设置广告类型
+	eMsg_SetAdRewardType_SC		= 921;		// 服务端：设置广告类型回复
+	
+	//==================================================================================================================
+	
+	//=============================================== 头像头像框  (950 --> 999) ==========================================
+	eMsg_AvatarList_CS = 950;  //客户端进入界面请求头像列表
+	eMsg_AvatarList_SC = 951;  //服务器端返回头像列表
+	eMsg_AvatarFrameList_CS = 952;  //客户端进入界面请求头像框列表
+	eMsg_AvatarFrameList_SC = 953;  //服务器端返回头像框列表
+	eMsg_NewAvatars_PC = 954;  //获得新头像
+	eMsg_NewAvatarFrames_PC = 955;  //获得新头像框
+	eMsg_DelAvatars_PC = 956;  //删除头像
+	eMsg_DelAvatarFrames_PC = 957;  //删除头像框
+	
+	eMsg_SetAvatar_CS = 958;  //客户端设置头像请求
+	eMsg_SetAvatar_SC = 959;  //服务器端反馈设置头像
+	eMsg_SetAvatarFrame_CS = 960;  //客户端设置头像框请求
+	eMsg_SetAvatarFrame_SC = 961;  //服务器端反馈头像框
+	
+	//==================================================================================================================
+	
+	//=============================================== 后台PM操作相关  (1000 --> 1099) ==========================================	
+	eMsg_PMGetPlayerInfo_Apply	= 1001;		// PM获取玩家详细信息	
+	eMsg_PMGetPlayerInfo_Reply	= 1002;		// PM获取玩家详细信息反馈
+	eMsg_PMKickPlayer_Apply		= 1003;		// PM踢人
+	eMsg_PMKickPlayer_Reply		= 1004;		// PM踢人反馈
+	eMsg_PMLoginBan_Apply		= 1005;		// PM封号
+	eMsg_PMLoginBan_Reply		= 1006;		// PM封号反馈
+	eMsg_PMGetOnline_Apply		= 1007;		// PM获取服务器在线数据
+	eMsg_PMGetOnline_Reply		= 1008;		// PM获取服务器在线数据反馈
+	eMsg_PMDelRedisCache_Apply	= 1009;		// PM删除Redis缓存
+	eMsg_PMDelRedisCache_Reply	= 1010;		// PM删除Redis缓存反馈
+	eMsg_SyncOnlineInfo_SS		= 1011;		// WorldServer定期同步(按gameid和按语种计算的)在线人数信息给OperationServer
+	eMsg_PMDelAccount_Apply		= 1012;		// PM删号
+	eMsg_PMDelAccount_Reply		= 1013;		// PM删号反馈
+	eMsg_PMDelAccount_SS		= 1014;		// PM删号消息同步其他服务器
+	
+	eMsg_PMSetNotice_Apply		= 1030;		//PM发系统公告(添加、修改)
+	eMsg_PMSetNotice_Replay		= 1031;		//PM发系统公告反馈
+	eMsg_PMDelNotice_Apply		= 1032;		//PM删除系统公告
+	eMsg_PMDelNotice_Replay		= 1033;		//PM删除系统公告反馈
+	
+	eMsg_PMItemOrder_Apply		= 1040;		// PM发奖(金币、代币、装备、道具等)
+	eMsg_PMItemOrder_Reply		= 1041;		// PM发奖(金币、代币、装备、道具等)反馈
+	eMsg_DelItemOrder_Apply		= 1042;		// PM取消添加物品订单
+	eMsg_DelItemOrder_Reply		= 1043;		// PM取消添加物品订单反馈
+	eMsg_PMItemOrder_HW			= 1045;		// 玩家在线PM物品订单推送
+	
+	eMsg_PMSetActivity_Apply	= 1050;		// PM设置活动(添加、修改)
+	eMsg_PMSetActivity_Replay	= 1051;		// PM设置活动反馈
+	eMsg_PMDelActivity_Apply	= 1052;		// PM删除活动
+	eMsg_PMDelActivity_Replay	= 1053;		// PM删除活动反馈
+	eMsg_PMGBGrowthRatio_Apply	= 1054;		// PM设置团购活动增长率
+	eMsg_PMGBGrowthRatio_Reply	= 1055;		// PM设置团购活动增长率反馈
+	eMsg_PMGBAddGBCnt_Apply		= 1056;		// PM增加团购活动数量
+	eMsg_PMGBAddGBCnt_Reply		= 1057;		// PM增加团购活动数量反馈
+	eMsg_PMGBReset_Apply		= 1058;		// PM团购活动重置
+	eMsg_PMGBReset_Reply		= 1059;		// PM团购活动重置反馈
+
+	eMsg_PMChangeName_Apply		= 1060;		// PM修改玩家名字
+	eMsg_PMChangeName_Replay	= 1061;		// PM修改玩家名字反馈
+	eMsg_PMChangeName_SS		= 1062;		// PM修改玩家名字服务器内部转发    
+    eMsg_PMLoginBan_HW		    = 1063;		// PM封号, CenterSrv发往WorldSrv
+	eMsg_PMInfoCollected_Apply	= 1064;		// PM设置玩家信息已收集
+	eMsg_PMInfoCollected_Reply	= 1065;		// PM设置玩家信息已收集反馈
+    
+    eMsg_PMSendChat_Apply		= 1070;		// PM发送聊天
+    eMsg_PMSendChat_Replay		= 1071;		// PM发送聊天反馈
+    eMsg_PMChatList_Apply		= 1072;		// PM获取聊天信息列表
+    eMsg_PMChatList_Replay		= 1073;		// PM获取聊天信息列表反馈
+    eMsg_PMRevokeChat_Apply		= 1074;		// PM撤销聊天信息
+    eMsg_PMRevokeChat_Replay	= 1075;		// PM撤销聊天信息反馈
+
+	eMsg_PMSetPopup_Apply		= 1080;		//PM发弹窗(添加、修改)
+	eMsg_PMSetPopup_Replay		= 1081;		//PM发弹窗反馈
+	eMsg_PMDelPopup_Apply		= 1082;		//PM删除弹窗
+	eMsg_PMDelPopup_Replay		= 1083;		//PM删除弹窗反馈
+
+	eMsg_PMSetForbiddenWord_Apply		= 1090;		//PM发屏蔽词(添加、修改)
+	eMsg_PMSetForbiddenWord_Replay		= 1091;		//PM发屏蔽词反馈
+	eMsg_PMDelForbiddenWord_Apply		= 1092;		//PM删除屏蔽词
+	eMsg_PMDelForbiddenWord_Replay		= 1093;		//PM删除屏蔽词反馈
+	
+	
+	eMsg_CheckPlayerName_CS 	= 1094;		// 检查是否重名请求
+	eMsg_CheckPlayerName_SC 	= 1095;		// 检查是否重名回复
+
+	eMsg_GetForbiddenWord_CS	= 1096;		// 获取屏蔽词库列表
+	eMsg_GetForbiddenWord_SC	= 1097;		// 获取屏蔽词库列表反馈
+	//==================================================================================================================
+	//=============================宠物 --- 1100---1199========================================================================
+	
+	//eMsg_Pet_PC = 1100;              //下发所有宠物信息
+	eMsg_NewPets_PC = 1101 ;          //下发新获取的宠物 支持多件
+	eMsg_PetInSlot_CS = 1102 ;          //宠物放入战斗栏
+	eMsg_PetInSlot_SC = 1103 ;          //宠物放入战斗栏回复
+	eMsg_RemovePetFromSlot_CS = 1104 ;          //宠物移除战斗栏
+	eMsg_RemovePetFromSlot_SC = 1105 ;          //宠物移除战斗栏回复
+
+	eMsg_PetsSwitchInSlots_CS = 1106;  //宠物再装备栏里交换位置
+	eMsg_PetsSwitchInSlots_SC = 1107;  //宠物再装备栏里交换位置
+
+	eMsg_PetUpdate_PC = 1122;   //作弊码或GM管理用某只宠物更新
+	eMsg_PetLevelUp_CS = 1124; //宠物升级
+	eMsg_PetLevelUp_SC = 1125; //宠物升级回复
+	//eMsg_AllPetLevelUp_CS = 1126; //一键全部宠物升级
+	//eMsg_AllPetLevelUp_SC = 1127; //一键全部宠物升级回复
+	
+	eMsg_BatchReplacePetInSlot_CS = 1135 ;          //宠物批量放入战斗栏
+	eMsg_BatchReplacePetInSlot_SC = 1136 ;          //宠物批量放入战斗栏回复
+	
+	///---------------3.0版本新增宠物数据包
+	eMsg_PetSkillBookInfo_CS = 1137;   //获取宠物技能书背包信息
+	eMsg_PetSkillBookInfo_SC = 1138;   //获取宠物技能书背包信息回复
+	eMsg_NewPetSkillBook_PC = 1139;  //获取新的宠物技能书 --- 掉落 或 作弊码 ，需与本地背包做下合并（可能本地已拥有直接加上数量）
+	eMsg_UpdatePetSkillBook_PC = 1140;  //更新宠物技能书 --- 用数据包中的技能书信息覆盖掉本地的技能书信息， 运营或作弊码下发用 
+	
+	
+	eMsg_PetSkillLevelUp_CS = 1141; //宠物技能升级
+	eMsg_PetSkillLevelUp_SC = 1142; //宠物技能升级回复
+	eMsg_PetShuffleTalent_CS = 1143; //天赋洗练请求
+	eMsg_PetShuffleTalent_SC = 1144; //天赋洗练回复
+	eMsg_UnlockPetBookSlot_CS = 1145; //解锁技能书空槽请求
+	eMsg_UnlockPetBookSlot_SC = 1146; //解锁技能书空槽回复
+	eMsg_MakeNewSkillBook4Slot_CS = 1147;  //技能书槽打书(随机生成新书)请求 --- 废弃，没这需求
+	eMsg_MakeNewSkillBook4Slot_SC = 1148;  //技能书槽打书(随机生成新书)回复--- 废弃，没这需求
+	eMsg_RecyclePets_CS = 1149; //宠物回收请求
+	eMsg_RecyclePets_SC = 1150; //宠物回收回复
+	eMsg_BatchRecyclePets_CS = 1151; //批量宠物回收请求
+	eMsg_BatchRecyclePets_SC = 1152; //批量宠物回收回复
+	eMsg_RecyclePetBooks_CS = 1153; //宠物技能书回收请求
+	eMsg_RecyclePetBooks_SC = 1154; //宠物技能书回收回复
+	eMsg_BatchRecyclePetBooks_CS = 1155; //批量宠物技能书回收请求
+	eMsg_BatchRecyclePetBooks_SC = 1156; //批量宠物技能书回收回复
+	eMsg_PutOnPetBooks_CS = 1157; //技能书上阵请求
+	eMsg_PutOnPetBooks_SC = 1158; //技能书上阵回复
+	
+	eMsg_DelPet_PC = 1159;  //删除宠物--- 运营 或 作弊码 
+	eMsg_DelPetBooks_PC = 1160;  //删除宠物技能书--- 运营 或 作弊码
+
+    eMsg_UseBookItem_CS = 1161;  //使用技能书道具(打书)请求	
+    eMsg_UseBookItem_SC = 1162;  //使用技能书道具(打书)回复
+	
+	//=============================技能 --- 1200---1299========================================================================
+	eMsg_NewSkills_PC = 1200 ;          //下发新获取的技能 支持多件
+	eMsg_SkillUpdate_PC = 1201;   //作弊码或GM管理用某技能更新
+	eMsg_SkillInSlot_CS = 1202 ;          //技能放入战斗栏
+	eMsg_SkillInSlot_SC = 1203 ;          //技能放入战斗栏回复
+	eMsg_RemoveSkillFromSlot_CS = 1204 ;          //技能移除战斗栏
+	eMsg_RemoveSkillFromSlot_SC = 1205 ;          //技能移除战斗栏回复
+	eMsg_SkillsSwitchInSlots_CS = 1206;  //技能再装备栏里交换位置
+	eMsg_SkillsSwitchInSlots_SC = 1207;  //技能再装备栏里交换位置回复
+	eMsg_BatchReplaceSkillInSlot_CS = 1208 ;          //技能批量放入战斗栏
+	eMsg_BatchReplaceSkillInSlot_SC = 1209 ;          //技能批量放入战斗栏回复
+	
+	eMsg_SkillLevelUp_CS = 1210; //技能升级
+	eMsg_SkillLevelUp_SC = 1211; //技能升级回复
+	eMsg_AllSkillLevelUp_CS = 1212; //一键全部技能升级
+	eMsg_AllSkillLevelUp_SC = 1213; //一键全部技能升级回复
+	
+
+
+
+	//=============================家园 --- 1300---1399========================================================================
+	eMsg_Hometown_CS = 1300;  //客户端请求家园(登录或进入家园)信息
+	eMsg_Hometown_SC = 1301;  //客户端请求家园(登录或进入家园)信息回复
+	eMsg_BuildInfo_PC = 1302;  //具体建筑最新信息 -- 作弊码或管理员修改
+	eMsg_BuildUnlock_CS = 1303;  //建筑物开始解锁
+	eMsg_BuildUnlock_SC = 1304;  //建筑物开始解锁回复
+	eMsg_BuildUnlock_PC = 1305;    //建筑物解锁结果服务器端推送
+	eMsg_PetDispatched_CS = 1306;  //客户端请求宠物派遣
+	eMsg_PetDispatched_SC = 1307;  //客户端请求宠物派遣回复
+	
+	eMsg_ProduceEnd_PC = 1339;  //生产结束通知
+	eMsg_ObtainProduct_CS = 1341;  //获取产品请求
+	eMsg_ObtainProduct_SC = 1342;  //获取产品请求反馈
+	
+	eMsg_LeaveHomeTown_CS = 1343;  //客户端UI玩家离开家园请求
+	eMsg_LeaveHomeTown_SC = 1344;  //客户端UI玩家离开家园反馈--这个回包客户端不用处理
+	
+	eMsg_PetSwitchBetweenBuilds_CS = 1345; //建筑物间驻扎调换请求
+	eMsg_PetSwitchBetweenBuilds_SC = 1346;//建筑物间驻扎调换反馈
+	
+	eMsg_ProduceIsFull_PC = 1347;  //生产已满通知
+	//=============================神器与天赋 --- 1400---1449========================================================================
+	eMsg_NewTalents_PC = 1400 ;          //下发新获取的天赋 支持多件
+	eMsg_TalentUpdate_PC = 1401;   //作弊码或GM管理用已有的天赋更新  支持多件
+	eMsg_DelTalents_PC = 1402;   //删除天赋  支持多件 -- 重置用
+	
+	eMsg_ArtifactLevelUp_CS = 1403;   //神器升级请求
+	eMsg_ArtifactLevelUp_SC = 1404;   //神器升级回复
+	eMsg_BatchTalentsLevelUp_CS = 1405;   //多个天赋升级请求 单个发送一个天赋即可
+	eMsg_BatchTalentsLevelUp_SC = 1406;   //多个天赋升级回复
+	eMsg_UnlockTalent_CS = 1407;   //解锁天赋请求
+	eMsg_UnlockTalent_SC = 1408;   //解锁天赋回复
+	eMsg_ResetTalents_CS = 1409;   //重置天赋请求
+	eMsg_ResetTalents_SC = 1410;   //重置天赋回复
+	//=============================成就 --- 1450---1499========================================================================
+	eMsg_AchievementList_CS = 1450;   //成就列表请求
+	eMsg_AchievementList_SC = 1451;   //成就列表请求回复
+	eMsg_NewAchievement_PC = 1452;   //新的成就服务器端开始累计
+	eMsg_AchievementUpdate_PC = 1453;   //已存在成就最新信息
+	eMsg_ClaimAchievementAward_CS = 1454;   //领取进度奖励请求
+	eMsg_ClaimAchievementAward_SC = 1455;   //领取进度奖励回复
+	
+	//=============================================== 好友  (1500 --> 1599) ============================================	
+	eMsg_FriendList_CS				= 1500;		// 客户端请求好友列表
+	eMsg_FriendList_SC				= 1501;		// 服务端应答好友列表
+	eMsg_FriendList_PC				= 1502;		// 服务端主动推送好友列表(更新好友信息)
+	
+	eMsg_FriendInviteList_CS		= 1503;		// 客户端请求(玩家收到的)好友申请列表
+	eMsg_FriendInviteList_SC		= 1504;		// 服务端应答(玩家收到的)好友申请列表
+	
+	eMsg_FriendEventList_CS			= 1505;		// 客户端请求好友动态列表
+	eMsg_FriendEventList_SC			= 1506;		// 服务端应答好友动态列表
+	eMsg_FriendEvent_PC				= 1507;		// 服务端主动推送好友动态
+	
+	eMsg_FriendInvite_CS			= 1508;		// 客户端请求申请添加好友
+	eMsg_FriendInvite_SC			= 1509;		// 服务端应答申请添加好友
+	eMsg_FriendInvite_PC			= 1510;		// 服务端主动推送好友申请
+	
+	eMsg_FriendAccept_CS			= 1511;		// 客户端请求接受好友申请
+	eMsg_FriendAccept_SC			= 1512;		// 服务端应答接受好友申请
+	eMsg_FriendAccept_PC			= 1513;		// 服务端主动推送加好友
+	eMsg_FriendReject_CS			= 1514;		// 客户端请求拒绝好友申请
+	eMsg_FriendReject_SC			= 1515;		// 服务端应答拒绝好友申请
+	eMsg_FriendReject_PC			= 1542;		// 服务端主动通知好友申请被拒绝
+	
+	eMsg_FriendRemove_CS			= 1516;		// 客户端请求删除好友
+	eMsg_FriendRemove_SC			= 1517;		// 服务端应答删除好友
+	eMsg_FriendRemove_PC			= 1518;		// 服务端主动推送删除好友
+	
+	eMsg_FriendEnergy_CS			= 1519;		// 客户端请求赠送好友体力
+	eMsg_FriendEnergy_SC			= 1520;		// 服务端应答赠送好友体力
+	
+	eMsg_FriendLoad_WD				= 1521;		// world服通知mongo服加载玩家的好友信息
+	eMsg_FriendLoadList_DW			= 1522;		// mongo服推送给world服玩家的好友列表
+	eMsg_FriendLoadInviteList_DW	= 1523;		// mongo服推送给world服玩家的好友申请列表
+	eMsg_FriendLoadEventList_DW		= 1524;		// mongo服推送给world服玩家的好友动态列表
+	eMsg_FriendAdd_WD				= 1525;		// world服通知mongo服新增好友
+	eMsg_FriendRemove_WD			= 1526;		// world服通知mongo服删除好友
+	eMsg_FriendAddInvite_WD			= 1527;		// world服通知mongo服新增申请信息
+	eMsg_FriendRemoveInvite_WD		= 1528;		// world服通知mongo服删除申请信息
+	eMsg_FriendAddEvent_WD			= 1529;		// world服通知mongo服新增动态信息
+	eMsg_FriendRemoveEvent_WD		= 1530;		// world服通知mongo服删除动态信息
+	eMsg_FriendEnergy_WD			= 1531;		// world服通知mongo服赠送好友体力
+	eMsg_FriendEnergy_DW			= 1532;		// mongo服反馈world服赠送好友体力结果
+	eMsg_FriendInvite_WH			= 1533;		// 内部服务器之间转发好友申请
+	eMsg_FriendAccept_WH			= 1534;		// 内部服务器之间转发接受好友申请
+	eMsg_FriendRemove_WH			= 1535;		// 内部服务器之间转发删除好友
+	eMsg_FriendEvent_WH				= 1536;		// 内部服务器之间转发好友动态
+	eMsg_FriendStatus_SS			= 1537;		// 内部服务器之间同步好友(如上下线,等级等)状态信息
+	eMsg_FriendSize_WD				= 1538;		// world服向mongo服查询离线玩家好友数量
+	eMsg_FriendSize_DW				= 1539;		// mongo服向world服应答查询离线玩家好友数量
+	eMsg_FriendReject_SS			= 1540;		// 内部服务器之间转发拒绝好友申请
+	eMsg_FriendRecommend_WD			= 1541;		// world服向redis服转发推荐好友请求
+	eMsg_FriendRecommend_CS			= 1550;		// 客户端请求推荐好友
+	eMsg_FriendRecommend_SC			= 1551;		// 服务端应答推荐好友
+	eMsg_FriendAllEnergy_CS			= 1552;		// 客户端请求一键赠送体力
+	eMsg_FriendAllEnergy_SC			= 1553;		// 服务端应答一键赠送体力
+	eMsg_FriendExtractEnergy_CS		= 1554;		// 客户端请求提取好友赠送的体力
+	eMsg_FriendExtractEnergy_SC		= 1555;		// 服务端应答提取好友赠送的体力
+	eMsg_FriendExtractEnergy_SS		= 1556;		// 内部服务器之间转发提取好友赠送的体力请求
+	eMsg_FriendFriendlyNum_CS		= 1557;		// 客户端请求赠送好友友情点
+	eMsg_FriendFriendlyNum_SC		= 1558;		// 客户端请求赠送好友友情点
+	eMsg_FriendFriendlyNum_WD		= 1559;		// world服通知mongo服赠送好友友情点
+	eMsg_FriendFriendlyNum_DW		= 1560;		// mongo服反馈world服赠送好友友情点结果
+	eMsg_FriendAllFriendlyNum_CS	= 1561;		// 客户端请求一键赠送友情点
+	eMsg_FriendAllFriendlyNum_SC	= 1562;		// 服务端应答一键赠送友情点
+	eMsg_FriendExtractFriendlyNum_CS= 1563;		// 客户端请求提取好友赠送的友情点
+	eMsg_FriendExtractFriendlyNum_SC= 1564;		// 服务端应答提取好友赠送的友情点
+	eMsg_FriendExtractFriendlyNum_SS= 1565;		// 内部服务器之间转发提取好友赠送的友情点请求
+	eMsg_FriendAlias_CS				= 1566;		// 客户端请求添加好友备注
+	eMsg_FriendAlias_SC				= 1567;		// 服务端应答添加好友备注
+	eMsg_FriendAlias_SS				= 1568;		// 服务端之间转发添加好友备注
+	eMsg_FriendStick_CS				= 1569;		// 客户端请求置顶/取消置顶
+	eMsg_FriendStick_SC				= 1570;		// 服务端应答置顶/取消置顶
+	eMsg_FriendStick_SS				= 1571;		// 服务端之间转发置顶/取消置顶
+	
+	
+	eMsg_PMDelAccount4Friend_MC			= 1572;		//PM删号消息好友处理 mongo读取好友列表发送到center等待转发给world
+	eMsg_PMDelAccount4FriendInvitation_MC				= 1573;		//PM删号消息好友处理 mongo读取好友请求列表发送到center等待转发给world
+	eMsg_PMDelAccount4Friend_CW				= 1574;		//PM删号消息好友处理 center转发要互删好友的账户给world服
+	eMsg_PMDelAccount4FriendInvitation_CW				= 1575;		//PM删号消息好友处理 mongo读取好友请求列表发送到center等待转发给world
+	eMsg_PMDelAccount4Friend_WM				= 1576;		//PM删号消息好友处理 WORLD服发送mongo删除好友
+	eMsg_PMDelAccount4FriendInvitation_WM				= 1577;		//PM删号消息好友处理 WORLD服发送mongo删除好友邀请
+	eMsg_PMDelAccount4DelTmpInvitation_CW				= 1578;		//PM删号消息好友处理 转发所有服删除临时保存的已被删除的邀请者iggid
+	eMsg_PMDelAccount4FriendSide_MC			= 1579;		//PM删号消息好友处理 mongo读取所有好友侧的被删账户 发送到center等待转发给world
+	eMsg_PMDelAccount4FriendSide_CW			= 1580;		//PM删号消息好友处理 mongo读取所有好友侧的被删账户 center到world服进行删除处理
+	
+	eMsg_PMDelAccount4FriendInvitation_PC   = 1581;     //pm删除账户，通知该好友删除其在申请好友列表中的数据
+	eMsg_PMDelAccount4FriendEvent_PC   = 1582;     //pm删除账户，通知该好友删除其在好友动态
+	
+	eMsg_SendFriendGift_CS			= 1583;		//请求赠送礼物
+	eMsg_SendFriendGift_SC			= 1584;		//请求赠送礼物回复
+	eMsg_FriendGiftInfo_CS			= 1585;		//请求礼物基本信息
+	eMsg_FriendGiftInfo_SC			= 1586;		//请求礼物基本信息回复
+	eMsg_FriendGiftLog_CS			= 1587;		//请求赠礼或者收礼记录
+	eMsg_FriendGiftLog_SC			= 1588;		//请求赠礼或者收礼记录回复
+	eMsg_OpenFriendGift_CS			= 1589;		//请求打开礼物
+	eMsg_OpenFriendGift_SC			= 1590;		//请求打开礼物回复
+	
+	eMsg_SendFriendGift_WC			= 1591;		//world<->center: 赠送礼物
+	eMsg_SendFriendGiftResult_CW	= 1592;		//center<->world: 赠送礼物操作反馈
+	
+	//=============================================== 活动相关  (1600 --> 1699) ============================================	
+	
+
+	eMsg_NewPlayerSignInInfo_PC = 1600;       //新手签到玩家活动信息下发
+	eMsg_NewPlayerSignInClaimAward_CS = 1601;       //新手签到玩家活动信息请求
+	eMsg_NewPlayerSignInClaimAward_SC = 1602;       //新手签到玩家活动信息反馈
+	
+	eMsg_GetHeroMonthActivityInfo_CS = 1603;   //获取英雄月卡活动玩家信息请求
+	eMsg_GetHeroMonthActivityInfo_SC = 1604;   //获取英雄月卡活动玩家信息反馈
+	eMsg_DailyClaimHeroMonthAward_CS = 1605;   //解锁后每日手动领取请求
+	eMsg_DailyClaimHeroMonthAward_SC = 1606;   //解锁后每日手动领取反馈
+	eMsg_PurchaseMonthActivity_PC = 1607;   //充值第三方返回结果--通过购买解锁活动
+	
+	eMsg_NewPlayerRechargeInfo_PC = 1608;       //新手充值活动签到信息下发
+	eMsg_NewPlayerRechargeClaimAward_CS = 1609;       //新手充值活动领取奖励请求
+	eMsg_NewPlayerRechargeClaimAward_SC = 1610;       //新手充值活动领取奖励反馈
+	
+	eMsg_GetTimeCardInfo_CS = 1611;   //获取计时卡信息请求
+	eMsg_GetTimeCardInfo_SC = 1612;   //获取计时卡信息请求反馈
+	//eMsg_DailyClaimHeroMonthAward_CS = 1605;   //解锁后每日手动领取请求
+	//eMsg_DailyClaimHeroMonthAward_SC = 1606;   //解锁后每日手动领取反馈
+	//=============================================== pvp相关  (1699 --> 1799) ============================================	
+	
+	eMsg_GlobalFirstRankLeaderboard_GR = 1699;     //启动后Redis读取排行榜数据发送给global服
+	eMsg_GlobalFirstRankLeaderboard_RG = 1700;     //启动后Redis读取排行榜数据发送给global服
+    eMsg_GlobalFirstRankPlayerBattleData_GR = 1701; //启动后世界服向Redis服读取当前排名玩家信息请求
+    eMsg_GlobalFirstRankPlayerBattleData_RG = 1702; //启动后世界服向Redis服读取当前排名玩家信息反馈
+    
+    eMsg_GlobalFirstRank_CS = 1703;    //客户端请求排行榜数据
+    eMsg_GlobalFirstRank_WG = 1705;  //世界服转全局服处理客户端请求排行榜数据 
+	//eMsg_GlobalFirstRank_GW = 1735;  //通知世界服发送战报
+    eMsg_GlobalFirstRank_SC = 1704;   //客户端请求排行榜数据反馈
+    
+    eMsg_GlobalFirstRank_PC = 1706; //排行榜最新数据
+    eMsg_GlobalFirstPlayerInfo_PC = 1707;  //最新玩家天下第一相关数据
+    eMsg_GlobalFirstRankNewWarReport_PC = 1708;  //排行榜战报新数据下发--一条或多条新战报
+    
+    eMsg_GlobalFirstTakeOverRank_CS = 1709;   //发现空位占坑请求
+    eMsg_GlobalFirstTakeOverRank_WG = 1711;   //发现空位占坑 世界服-->全局服
+    eMsg_GlobalFirstTakeOverRank_GW = 1712;   //发现空位占坑 全局服-->世界服
+    eMsg_GlobalFirstTakeOverRank_SC = 1710;   //发现空位占坑请求反馈
+    
+    eMsg_GlobalFirstChallengeReq_CS = 1713; //开始挑战   请求
+    eMsg_GlobalFirstChallengeReq_WG = 1715;   //开始挑战   世界服-->全局服
+    eMsg_GlobalFirstChallengeReq_SC = 1714;  //开始挑战  反馈 
+    
+    eMsg_GlobalFirstPvPStart_PC = 1716;     //下发被挑战者数据，客户端pvp开始
+    
+    eMsg_GlobalFirstPvPBattleFinish_CS = 1717;      //战斗结束提交 
+    eMsg_GlobalFirstPvPBattleFinish_WG = 1719;     //到世界服先校验下
+    eMsg_GlobalFirstPvPBattleFinish_GW = 1720;    //回复世界服做下 战斗次数恢复或扣除
+    eMsg_GlobalFirstPvPBattleFinish_SC = 1718;    //战斗结束提交反馈
+    
+    eMsg_GlobalFirstDefeatedInfo_PC = 1721;  //给被挑战者发送失败信息
+    
+    eMsg_GlobalFirstClaimAward_CS = 1722;     // 领取昨日排行奖励请求
+    eMsg_GlobalFirstClaimAward_SC = 1723;     // 领取昨日排行奖励反馈
+    
+    eMsg_GlobalBuyChallengeCounter_CS = 1724;  //购买挑战次数请求
+    eMsg_GlobalBuyChallengeCounter_SC = 1725;  //购买挑战次数反馈
+	
+	
+
+	//各种GF PVP属性变更 发送给世界服更新
+	eMsg_BattleInfoChange_WG = 1726;   
+	eMsg_InSlotSkillChange_WG = 1727;
+	eMsg_InSlotPetChange_WG = 1728;
+	eMsg_InSlotRuneChange_WG = 1729;
+	eMsg_HeroChange_WG = 1730;
+
+	eMsg_UpdateGlobalFirstRankBattleData_GR = 1731; //pvp各种属性变更编码后发送给redis保存
+
+	eMsg_GlobalFirstWarReports_PC = 1732; //战报请求后独立下发
+	
+	eMsg_BattlePowerChange_CS = 1733; //战斗力变更上报CS
+	eMsg_BattlePowerChange_SC = 1734; //战斗力变更上报SC--客户端可以不处理
+	
+	eMsg_GlobalFirstRank_GW = 1735;  //通知世界服发送战报
+	eMsg_UpdateGlobalFirstRankBattleData_WG = 1736; //pvp各种属性变更编码后发送给Global
+	eMsg_GlobalFirstNoticeOpponentResult_GW = 1737; //通知对手结果，生成战报
+	
+	
+    eMsg_LoginSyncRankWithLeaderboard_WG = 1738;  //登录与服务器同步下排行版
+    eMsg_LoginSyncRankWithLeaderboard_GW = 1739;  //登录与服务器同步下排行版反馈
+	
+	
+	//=============================================== 内购  (1800 --> 1850) ============================================	
+	eMsg_PlayerHolyItemSlotInfoUpdate_PC = 1800; //插槽更新
+	eMsg_NewPlayerHolyItem_PC = 1801; //主动获取新圣物
+	eMsg_UpdatePlayerHolyItem_PC = 1802; //已有圣物更新 -- 作弊码或运营用
+	eMsg_DelPlayerHolyItem_PC = 1803; //删除圣物 -- 作弊码或运营用
+
+	eMsg_HolyItemLevelUp_CS = 1804; //战斗力变更上报CS
+	eMsg_HolyItemLevelUp_SC = 1805; //战斗力变更上报SC--客户端可以不处理
+	
+	eMsg_ReplaceHolyItemInSlot_CS = 1806; //上阵 或 替换请求
+	eMsg_ReplaceHolyItemInSlot_SC = 1807; //上阵 或 替换反馈
+	eMsg_RemoveHolyItemFromSlot_CS = 1808; //下阵请求
+	eMsg_RemoveHolyItemFromSlot_SC = 1809; //下阵反馈
+	eMsg_BatchReplaceHolyItemInSlot_CS = 1810; //批量上阵 或 替换请求
+	eMsg_BatchReplaceHolyItemInSlot_SC = 1811; //批量上阵 或 替换反馈
+	eMsg_SwitchHolyItemInSlot_CS = 1812; //交换请求
+	eMsg_SwitchHolyItemInSlot_SC = 1813; //交换反馈
+	
+	//=============================================== 内购  (3000 --> 3099) ============================================	
+	eMsg_PurchaseList_CS		= 3000;		// 客户端请求内购列表
+	eMsg_PurchaseList_SC		= 3001;		// 服务端应答内购列表
+	eMsg_PurchaseAdd_PC			= 3003;		// 服务端主动通知新增内购商品
+	eMsg_PurchaseRemove_PC		= 3004;		// 服务端主动通知删除内购商品
+	eMsg_PurchaseFirstInfo_CS	= 3005;		// 客户端请求首充礼包信息
+	eMsg_PurchaseFirstInfo_SC	= 3006;		// 服务端应答首充礼包信息
+	eMsg_PurchaseFirstInfo_PC	= 3007;		// 服务端主动通知首充礼包信息
+	eMsg_PurchaseFirstExtract_CS= 3008;		// 客户端请求领取首充礼包
+	eMsg_PurchaseFirstExtract_SC= 3009;		// 服务端应答领取首充礼包
+	eMsg_PurchaseFreeExtract_CS	= 3010;		// 客户端请求领取每日免费礼包
+	eMsg_PurchaseFreeExtract_SC	= 3011;		// 服务端应答领取每日免费礼包
+	eMsg_PurchaseDiamond_CS		= 3012;		// 客户端请求内购钻石列表
+	eMsg_PurchaseDiamond_SC		= 3013;		// 服务端应答内购钻石列表
+	eMsg_PurchaseChoice_CS		= 3014;		// 客户端自选礼包
+	eMsg_PurchaseChoice_SC		= 3015;		// 服务端应答自选礼包
+	eMsg_PurchaseCancelChoice_CS= 3016;		// 客户端取消礼包选择
+	eMsg_PurchaseCancelChoice_SC= 3017;		// 服务端应答取消礼包选择
+	eMsg_PurchaseFinishChoice_CS= 3018;		// 客户端完成自选礼包支付
+	eMsg_PurchaseFinishChoice_SC= 3019;		// 服务端应答自选礼包支付
+	eMsg_PurchaseChoice_PC		= 3020;     // 服务器推送自选礼包状态
+	
+	//==================================================================================================================
+	
+	//=============================================== 服务器内部消息扩展id段  (3100 --> 3199) ============================================	
+	
+	eMsg_NewNotice_SS				= 3100;		// 新公告推送(服务器内部转发)	
+	eMsg_NewNotification_SS			= 3101;		// 新推送消息发往技术部(***server->operationserver)	
+	eMsg_ReloadData_S1_Req			= 3102;		// 服务器内部消息：重新加载dataset请求
+	eMsg_ReloadData_S1_Resp			= 3103;		// 服务器内部消息：重新加载dataset回复
+
+	eMsg_GroupBuyAccumulate_SS		= 3104;		// 团购购买成功累积次数
+	eMsg_GroupBuyInfoSync_SS		= 3105;		// global团购最新数据同步world
+	
+	eMsg_Del_Account_Apply			= 3106;		// 服务器内部消息：请求删除帐号数据
+	eMsg_Del_Account_Replay			= 3107;		// 服务器内部消息：请求删除帐号数据回复
+	eMsg_Set_Time_Apply				= 3108;		// PM命令：设置服务器时间
+	eMsg_Set_Time_Replay			= 3109;		// PM命令：设置服务器时间回复
+	
+	eMsg_PMSetPopupInGame_Apply		= 3110;		//PM发原生弹窗(添加、修改)
+	eMsg_PMSetPopupInGame_Replay	= 3111;		//PM发原生弹窗反馈
+	eMsg_PMDelPopupInGame_Apply		= 3112;		//PM删除原生弹窗
+	eMsg_PMDelPopupInGame_Replay	= 3113;		//PM删除原生弹窗反馈
+	eMsg_PMGetPopupInGame_Apply		= 3114;		//PM获取原生弹窗列表
+	eMsg_PMGetPopupInGame_Replay	= 3115;		//PM获取原生弹窗列表反馈
+	
+	eMsg_ForbiddenWords_Check_Req_S1 	= 3130;		// 非法字符串检查请求：（异步线程），角色改名、猫咪改名等通用（uType区分）
+	eMsg_ForbiddenWords_Check_Resp_S1 	= 3131;		// 非法字符串检查回复：（异步线程），角色改名、猫咪改名等通用（uType区分）
+	eMsg_PMSetGuildName_Apply			= 3132;		//PM设置公会名字
+	eMsg_PMSetGuildName_Replay			= 3133;		//PM设置公会名字反馈
+	eMsg_PMSetGuildDeclaration_Apply	= 3134;		//PM设置公会宣言
+	eMsg_PMSetGuildDeclaration_Replay	= 3135;		//PM设置公会宣言反馈
+	eMsg_PMDisbandGuild_Apply			= 3136;		//PM解散公会
+	eMsg_PMDisbandGuild_Replay			= 3137;		//PM解散公会反馈
+
+	eMsg_AttrOperation_Apply			= 3140;		//服务器间资源(属性eAttrID)增删操作
+	eMsg_AttrOperation_Replay			= 3141;		//服务器间资源(属性eAttrID)增删操作反馈
+
+	eMsg_PMGetLuckyWheelParam_Apply 	= 3142;	//PM查询幸运转盘的奖励配置[deprecated]
+	eMsg_PMGetLuckyWheelParam_Replay 	= 3143;	//PM查询幸运转盘的奖励配置反馈[deprecated]
+	eMsg_PMSetLuckyAward_Apply			= 3144;	//PM设置转盘特殊奖励的全服奖励数量上限[deprecated]
+	eMsg_PMSetLuckyAward_Replay			= 3145;	//PM设置转盘特殊奖励的全服奖励数量上限反馈[deprecated]
+	
+	eMsg_PMSetActivityEntrance_Apply		= 3150;		//PM设置原生活动中心-活动入口(添加、修改)
+	eMsg_PMSetActivityEntrance_Replay		= 3151;		//PM设置原生活动中心-活动入口反馈
+	eMsg_PMDelActivityEntrance_Apply		= 3152;		//PM删除原生活动中心-活动入口
+	eMsg_PMDelActivityEntrance_Replay		= 3153;		//PM删除原生活动中心-活动入口反馈
+	
+	eMsg_PMLockGuildDeclaration_Apply     	= 3154;		//PM是否批量冻结公会宣言
+	eMsg_PMLockGuildDeclaration_Replay     	= 3155;		//PM是否批量冻结公会宣言反馈
+	eMsg_PMSinkGuild_Apply    				= 3156;		//PM是否批量下沉公会
+	eMsg_PMSinkGuild_Replay     			= 3157;		//PM是否批量下沉公会反馈
+	eMsg_PMDecGuildResearchExp_Apply    	= 3158;		//PM扣除公会研究经验
+	eMsg_PMDecGuildResearchExp_Replay     	= 3159;		//PM扣除公会研究经验反馈
+	
+	eMsg_Get_Tocken_Apply				= 3160;		// gateserver->redisserver：取客户端登录的tocken
+	eMsg_Get_Tocken_Replay				= 3161;		// redisserver->gateserver：取客户端登录的tocken反馈
+	eMsg_Set_Tocken_Apply				= 3162;		// gateserver->redisserver：设置客户端登录的tocken
+	eMsg_Set_Tocken_Replay				= 3163;		// redisserver->gateserver：设置客户端登录的tocken反馈
+	eMsg_PMDel_Tocken_Apply				= 3164;		// PM删除redis缓存的客户端登录tocken
+	eMsg_PMDel_Tocken_Replay			= 3165;		// PM删除redis缓存的客户端登录tocken反馈
+	eMsg_AccessTocken_Refresh_Apply		= 3166;		// 定时更新AccessTocken公钥
+	eMsg_AccessTocken_Refresh_Replay	= 3167;		// 定时更新AccessTocken公钥反馈
+
+	eMsg_Query_Login_Code_Apply			= 3170;		// loginserver->mongoserver：查询是否有绑过内测验证码
+	eMsg_Query_Login_Code_Replay		= 3171;		// mongoserver->loginserver：查询是否有绑过内测验证码回复
+	eMsg_Bind_Login_Code_Apply			= 3172;		// loginserver->mongoserver：绑定内测验证码
+	eMsg_Bind_Login_Code_Replay			= 3173;		// mongoserver->loginserver：绑定内测验证码回复
+
+	
+	eMsg_PMNoticeIggGeneralPost_Apply 	= 3174;	//PM通知公司通用事件通知
+	eMsg_PMNoticeIggGeneralPost_Replay 	= 3175;	//PM通知公司通用事件通知
+	
+	eMsg_WebQueryInvitationCode_Apply  = 3176;//web运营查询邀请码
+	eMsg_WebQueryInvitationCode_Replay  = 3177;//web运营查询邀请码反馈
+	
+	eMsg_ReloadData_Version				= 3178;		// 服务器内部消息：重新加载dataset后,同步版本信息给centerserver
+	
+	//==================================================================================================================
+	
+    
+    //=============================================== 聊天  (3200 --> 3299) ============================================
+    eMsg_Chat_CS                    = 3200;     // 聊天
+    eMsg_Chat_SC                    = 3201;     // 聊天回复
+    eMsg_Chat_PC                    = 3202;     // 聊天回复，服务器主动推送
+    eMsg_ChatHistory_CS        		= 3203;     // 请求频道历史消息记录(世界、系统、公会)
+    eMsg_ChatHistory_SC        		= 3204;     // 请求频道历史消息记录回复
+
+    eMsg_ChatRevoke_PC              = 3205;     // 后台撤销某条消息，根据消息guid
+    
+    eMsg_ChangeStoryChannel_CS      = 3206;     // 请求更换故事书频道
+    eMsg_ChangeStoryChannel_SC      = 3207;     // 请求更换故事书频道反馈
+        
+    eMsg_ChatSetLike_CS             = 3209;     // 点赞聊天消息
+    eMsg_ChatSetLike_SC             = 3210;     // 点赞聊天消息反馈
+    
+    eMsg_ChatOffline_CS             = 3211;     // 请求玩家私聊离线消息
+    eMsg_ChatOffline_SC             = 3212;     // 请求玩家私聊离线消息反馈
+	
+	eMsg_MultipleChatRevoke_PC      = 3213;		// 后台撤销多条消息，根据消息guid
+    
+    eMsg_Chat_BlockList_CS               = 3215;     // 请求黑名单列表
+    eMsg_Chat_BlockList_SC               = 3216;     // 请求黑名单列表反馈
+    eMsg_Chat_AddBlock_CS                = 3217;     // 拉黑玩家
+    eMsg_Chat_AddBlock_SC                = 3218;     // 拉黑玩家反馈
+    eMsg_Chat_CancelBlock_CS             = 3219;     // 取消拉黑玩家
+    eMsg_Chat_CancelBlock_SC             = 3220;     // 取消拉黑玩家反馈
+	
+	eMsg_GetChatEmojiUnlockList_CS		= 3231;	// 聊天表情解锁列表
+	eMsg_GetChatEmojiUnlockList_SC		= 3232;	// 聊天表情解锁列表反馈
+	eMsg_NewChatEmojiUnlock_PC			= 3233;	// 新解锁推送
+    
+    // 以下是聊天相关的S2S消息
+    eMsg_ChatAddLikeMsg_WY          = 3262;     // 服务端内部协议：发送点赞消息世界频道、系统频道 WorldServer->ChatServer
+    eMsg_ChatLikeSuccess_YW         = 3263;     // 服务端内部协议：点赞成功,发放奖励 ChatServer->WorldServer
+    eMsg_ChatLikeCountReach_YW      = 3264;     // 服务端内部协议：消息点赞数量达到指定数,发放奖励给发消息的玩家 ChatServer->WorldServer
+    eMsg_Chat_BlockList_WY          = 3565;     // 服务端内部协议：同步黑名单列表
+    eMsg_Chat_AddBlock_WY           = 3567;     // 服务端内部协议：同步黑名单列表
+    eMsg_Chat_CancelBlock_WY        = 3268;     // 服务端内部协议：同步黑名单列表
+    eMsg_ChatAddOfflineMsg_YW       = 3269;     // 服务端内部协议：增加一条离线私聊缓存
+    eMsg_PlayerBaseInfo_WR          = 3271;     // 从redis请求指定玩家概要信息
+    eMsg_PlayerBaseInfo_RW          = 3272;     // redis应答指定玩家概要信息
+	eMsg_Chat_PC_SS					= 3273;		// 服务端内部协议: 聊天回复（私聊目标，或者广播时其他成员）Chat=>Gate, Guild=>Gate
+	eMsg_Chat_Req_SS  				= 3274;		// 服务端内部协议: 发送消息
+	eMsg_GuildChatRevoke_PC_SS 		= 3275;		// 服务端内部协议: 公会聊天撤回
+	eMsg_GuildMultipleChatRevoke_PC_SS 		= 3276;		// 服务端内部协议: 公会聊天撤回
+	eMsg_Chat_PC_Chat2Guild_SS      = 3277;		// 服务端内部协议：公会频道发言
+	eMsg_DeleteChatCache_SS 		= 3278;		// 服务端内部协议：PM删号删除聊天缓存，公会服通知删除公会聊天缓存
+    
+    //==================================================================================================================
+	
+	//=============================================== 公会消息id段  (3300 --> 3599) ============================================	
+	
+	eMsg_Guild_Search_Guild_CS				= 3301;	// 客户端：请求搜索公会
+	eMsg_Guild_Search_Guild_SC              = 3302;	// 服务端：请求搜索公会回复
+	eMsg_Guild_Recommend_List_CS            = 3303;	// 客户端：请求推荐公会列表
+	eMsg_Guild_Recommend_List_SC            = 3304;	// 服务端：请求推荐公会列表回复
+	
+	eMsg_Guild_Apply_Guild_CS               = 3321;	// 客户端：请求加入公会或取消加入公会
+	eMsg_Guild_Apply_Guild_SC               = 3322;	// 服务端：请求加入公会或取消加入公会回复
+	eMsg_Guild_My_ApplyList_CS            	= 3323;	// 客户端：请求被我申请的公会列表(申请人请求)
+	eMsg_Guild_My_ApplyList_SC            	= 3324;	// 服务端：请求被我申请的公会列表回复
+	eMsg_Guild_Query_Applylist_CS           = 3325;	// 客户端：请求加入公会申请人列表(管理员请求)
+	eMsg_Guild_Query_Applylist_SC           = 3326;	// 服务端：请求加入公会申请人列表回复
+	eMsg_Guild_Examine_Applicant_CS         = 3327;	// 客户端: 审核加入公会的申请(管理员请求)
+	eMsg_Guild_Examine_Applicant_SC         = 3328;	// 服务端：审核加入公会的申请回复
+	eMsg_Guild_Sync_Examine_Applicant_PC    = 3329;	// 服务端：同步至客户端,加入公会申请的审核结果
+	
+	eMsg_Guild_Create_New_CS                = 3350;	// 客户端：请求创建公会
+	eMsg_Guild_Create_New_SC                = 3351;	// 服务端：请求创建公会回复
+	eMsg_Guild_Query_Base_Info_CS           = 3352;	// 客户端：请求公会基本信息
+	eMsg_Guild_Query_Base_Info_SC           = 3353;	// 服务器：请求公会基本信息回复
+	eMsg_Guild_Query_Detailed_Info_CS       = 3354;	// 客户端：请求公会详细(剩余)信息
+	eMsg_Guild_Query_Detailed_Info_SC       = 3355;	// 服务器：请求公会详细(剩余)信息回复
+	
+	eMsg_Guild_Change_Icon_CS               = 3381;	// 客户端：请求更改公会图标
+	eMsg_Guild_Change_Icon_SC               = 3382;	// 服务端：请求更改公会图标回复
+	eMsg_Guild_Change_Name_CS 				= 3383;	// 客户端：请求更改公会名字
+	eMsg_Guild_Change_Name_SC 				= 3384;	// 服务端：请求更改公会名字回复
+	eMsg_Guild_Change_Joinset_CS          	= 3385;	// 客户端：请求设置公会招人策略
+	eMsg_Guild_Change_Joinset_SC          	= 3386;	// 服务端：请求设置公会招人策略回复
+	eMsg_Guild_Change_Position_CS           = 3387;	// 客户端：请求委任职位(管理员请求)
+	eMsg_Guild_Change_Position_SC           = 3388;	// 服务端：请求委任职位回复
+	eMsg_Guild_Change_Declaration_CS 		= 3389; // 客户端：请求更改公会宣言
+	eMsg_Guild_Change_Declaration_SC 		= 3390;	// 服务端：请求更改公会宣言回复
+	eMsg_Guild_Change_Condition_CS			= 3391;	// 客户端：请求设置公会条件
+	eMsg_Guild_Change_Condition_SC			= 3392;	// 服务端：请求设置公会条件回复
+	eMsg_Guild_Change_IconBox_CS			= 3393;	// 客户端：请求更改公会图标外框
+	eMsg_Guild_Change_IconBox_SC			= 3394;	// 服务端：请求更改公会图标外框回复
+	eMsg_Guild_Get_FaceUnlockList_CS		= 3395;	// 客户端: 获取解锁列表（头像、头像框）
+	eMsg_Guild_Get_FaceUnlockList_SC		= 3396;	// 服务端: 获取解锁列表（头像、头像框）反馈
+	eMsg_Guild_Change_Language_CS			= 3397;	// 客户端：请求更改公会语种
+	eMsg_Guild_Change_Language_SC			= 3398;	// 服务端：请求更改公会语种回复
+
+	eMsg_Guild_Kick_Member_CS     			= 3420;	// 客户端：请求驱逐会员(管理员请求)
+	eMsg_Guild_Kick_Member_SC               = 3421; // 服务端：请求驱逐会员回复
+	eMsg_Guild_Appoint_Leader_CS       		= 3422; // 客户端：请求转让盟主职位(盟主请求)
+	eMsg_Guild_Appoint_Leader_SC       		= 3423; // 服务端：请求转让盟主职位回复
+	eMsg_Guild_Disband_Guild_CS             = 3424; // 客户端: 请求解散公会
+	eMsg_Guild_Disband_Guild_SC             = 3425; // 服务端：请求解散公会回复	
+	eMsg_Guild_Leave_Guild_CS             	= 3426; // 客户端: 请求退出公会
+	eMsg_Guild_Leave_Guild_SC              	= 3427; // 服务端：请求退出公会回复	
+	eMsg_Guild_Attribute_Update_PC			= 3428; // 服务端：通知客户端公会属性改变
+	eMsg_Guild_Sync_Member_Leave_PC			= 3429;	// 服务端：通知公会成员离开
+	eMsg_Guild_Sync_Member_Join_PC			= 3430;	// 服务端：通知公会新成员加入
+	eMsg_Guild_Member_Attribute_Update_PC	= 3431;	// 服务端：通知客户端公会成员属性改变
+	eMsg_Guild_Events_CS					= 3432;	// 客户端: 请求公会事件记录
+	eMsg_Guild_Events_SC					= 3433;	// 服务端: 应答公会事件记录
+	eMsg_Guild_Like_CS					 	= 3434;	// 客户端: 请求点赞公会事件记录
+	eMsg_Guild_Like_SC						= 3435;	// 服务端: 应答点赞公会事件记录
+	eMsg_Guild_Unlike_CS					= 3436;	// 客户端: 请求取消点赞公会事件记录
+	eMsg_Guild_Unlike_SC					= 3437;	// 服务端: 应答取消点赞公会事件记录
+	eMsg_Guild_Gifts_CS						= 3438;	// 客户端: 请求公会商店商品列表
+	eMsg_Guild_Gifts_SC						= 3439;	// 服务端: 应答公会商店商品列表
+	eMsg_Guild_BuyGift_CS					= 3440;	// 客户端: 请求(游戏内)购买公会商店商品(即发红包)
+	eMsg_Guild_BuyGift_SC					= 3441;	// 服务端: 应答(游戏内)购买公会商店商品(即发红包)
+	eMsg_Guild_BuyGift_PC					= 3442;	// 服务端: 主动推送(现金)购买公会商店商品(即发红包)
+	eMsg_Guild_RedPackets_CS				= 3443;	// 客户端: 请求红包列表
+	eMsg_Guild_RedPackets_SC				= 3444;	// 服务端: 应答红包列表
+	eMsg_Guild_GetRedPacket_CS				= 3445;	// 客户端: 请求抢红包
+	eMsg_Guild_GetRedPacket_SC				= 3446;	// 服务端: 应答抢红包
+	eMsg_Guild_QueryBargain_CS				= 3447;	// 客户端: 请求议价礼包信息
+	eMsg_Guild_QueryBargain_SC				= 3448;	// 服务端: 应答议价礼包信息
+	eMsg_Guild_Bargain_CS				 	= 3449;	// 客户端: 请求进行议价(即砍一刀)
+	eMsg_Guild_Bargain_SC				 	= 3450;	// 服务端: 应答进行议价(即砍一刀)
+	eMsg_Guild_BuyBargain_CS				= 3451;	// 客户端: 请求购买议价礼包
+	eMsg_Guild_BuyBargain_SC				= 3452;	// 服务端: 应答购买议价礼包
+	eMsg_Guild_BuyBargain_SS				= 3453;	// 服务端内部转发购买议价礼包
+	eMsg_Guild_RemoveGift_PC				= 3454;	// 服务端主动推送删除(售罄的)商品
+	eMsg_Guild_ReadBargain_CS				= 3455;	// 客户端: 请求查看议价礼包
+	eMsg_Guild_ReadBargain_SC				= 3456;	// 服务端: 应答查看议价礼包
+	eMsg_Guild_Exp_Overflow_PC				= 3457; // 服务端: 经验溢出推送
+
+	
+
+	// 以下是公会相关的S2S消息
+	eMsg_Guild_Create_Req_SS				= 3500;	// guildserver->worldserver：请求创建公会(扣钱等操作)
+	eMsg_Guild_Create_Resp_SS				= 3501;	// worldserver->guildserver：请求创建公会回复
+	eMsg_Guild_Event_Add_SS					= 3502;	// world->guild: 新增公会事件记录
+	eMsg_Update_Guild_Prestige_SS			= 3503;	// guildserver-worldserver: 更新个人声望
+	eMsg_Update_Leave_Guild_Time_SS			= 3504;	// guildserver-worldserver: 更新个人离开公会时间
+	eMsg_GuildId_Sync_Req_SS				= 3505;	// worldserver->guildserver：请求同步公会id
+	eMsg_GuildId_Sync_Resp_SS				= 3506;	// guildserver->worldserver：请求同步公会id回复
+	eMsg_Guild_Research_Donate_Req_SS		= 3507;	// guildserver->worldserver：公会研究捐献
+	eMsg_Guild_Research_Donate_Resp_SS		= 3508; // worldserver->guildserver：公会研究捐献回复
+	eMsg_Guild_AddTasklog_SS				= 3509;	// worldserver->guildserver: 增加公会任务积分记录
+	eMsg_Guild_AddTasklog_SD				= 3510;	// guildserver->mongoserver: 增加公会任务积分记录
+	eMsg_Guild_LoadTaskLog_SD				= 3511; // guildserver->mongoserver: 查询公会任务积分记录
+	eMsg_Guild_LoadTaskLog_DS				= 3512; // mongoserver->guildserver: 查询公会任务积分记录 回复
+	eMsg_CheckTask_GuildAddAttr_SS  		= 3513;	// guildserver->worldserver: 增加公会属性, 通知WorldServer作任务检查 
+	eMsg_StageAwardList4GuildTask_SS		= 3514;	// guildserver->worldserver: 公会任务阶段奖励列表
+	eMsg_GetStageAward4GuildTask_Apply_SS			= 3515;	// guildserver->worldserver: 领取公会任务阶段奖励
+	eMsg_GetRedPoints4Guild_SS				= 3516; // worldserver->guildserver: 请求公会相关功能的红点
+	eMsg_GetStageAward4GuildTask_Reply_SS	= 3517;	// worldserver->guildserver: 领取公会任务阶段奖励 反馈
+	eMsg_Guild_Buy_Face_Req_SS              = 3518; // guildserver->worldserver：购买公会头像、头像框
+	eMsg_Guild_Buy_Face_Resp_SS             = 3519; // worldserver->guildserver：购买公会头像、头像框回复
+	eMsg_Guild_Disband_Sync_SS				= 3520;	// guildserver->chatserver: 公会解散，通知聊天服清除公会频道缓存
+	eMsg_Guild_Modify_Name_SS               = 3521; // guildserver->worldserver：修改公会名
+	eMsg_Guild_Modify_Name_Resp_SS			= 3522;	// worldserver->guildserver：修改公会名回复
+	eMsg_Guild_DeleteTasklog_SD				= 3523;	// guildserver->mongoserver: 删除公会任务积分记录
+	eMsg_GuildId_Sync_Resp_GG				= 3524;	// guildserver->globalserver：同步公会信息到global服务(公会排行榜用)
+	
+	//==================================================================================================================
+	
+
+
+	//=============================================== 服务器之间的消息id段 (3700 --> 3899) ==============================================
+	eMsg_ChangeName_Check_WH 			= 3701;			// world -> center：检查是否重名请求
+	eMsg_ChangeName_Check_HW 			= 3702;			// center -> world：检查是否重名回复	
+	eMsg_CommonRank_Update_Apply 		= 3703;			// world -> global：更新排行榜数值请求
+	eMsg_CommonRank_Update_Reply 		= 3704;			// global -> world：更新排行榜数值回复
+	eMsg_CommonRank_Get_Apply 			= 3705;			// world -> global：取排行榜请求
+	eMsg_CommonRank_Get_Reply 			= 3706;			// global -> world：取排行榜回复
+	eMsg_PlayerDataPartUpdate_SS		= 3707;			// world -> global：玩家数据部分更新
+	eMsg_CommonRank_Update_Guild_Info	= 3708;			// guild -> global：更新排行榜公会基础信息
+	
+	eMsg_S2S_SetForbiddenWord_Reply		= 3711;			// 服务器间新增动态屏蔽词(添加、修改)
+	eMsg_S2S_DelForbiddenWord_Reply		= 3712;			// 服务器间删除动态屏蔽词
+	
+	eMsg_CommonActivityRank_Load_GR		= 3713;			// global -> redis：加载通用活动排行榜数据请求
+	eMsg_CommonActivityRank_Load_RG		= 3714;			// redis -> global：加载通用活动排行榜数据回复
+	eMsg_CommonActivityRank_Update_WG	= 3715;			// world -> global：更新通用活动排行榜数据请求
+	eMsg_CommonActivityRank_Update_GR	= 3716;			// global -> redis：更新通用活动排行榜数据请求
+	eMsg_CommonActivityRank_Update_RG	= 3717;			// redis -> global：更新通用活动排行榜数据回复
+	eMsg_CommonActivityRank_Reward_GR	= 3718;			// global -> redis：指定活动排行榜奖励待发放信息请求
+	eMsg_CommonActivityRank_Reward_RG	= 3719;			// redis -> global：指定活动排行榜奖励待发放信息回复
+	eMsg_CommonActivityRank_SetReward_GR= 3720;			// global -> redis：指定活动排行榜奖励发放进度更新
+	eMsg_CommonActivityRank_Query_CS	= 3721;			// 客户端请求指定活动排行榜数据
+	eMsg_CommonActivityRank_Query_SC	= 3722;			// 服务端回复指定活动排行榜数据
+	eMsg_CommonActivityRank_Query_WG	= 3723;			// world -> global：查询指定活动排行榜数据请求
+	eMsg_CommonActivityRank_Friend_CS	= 3724;			// 客户端请求好友指定活动排行榜数据
+	eMsg_CommonActivityRank_Friend_SC	= 3725;			// 服务端回复好友指定活动排行榜数据
+	eMsg_CommonActivityRank_Friend_WR	= 3726;			// world -> redis：查询好友指定活动排行榜数据请求
+	eMsg_CommonActivityRank_Reward_RR	= 3727;			// redis内部线程之间：指定活动排行榜奖励待发放信息回复
+	eMsg_CommonActivityRank_Group_GW	= 3728;			// global -> world: 更新玩家排行榜分组ID
+	eMsg_CommonActivityRank_Count_GR	= 3729;			// 客户端请求指定活动排行榜已参与人数
+	eMsg_CommonActivityRank_Count_RG	= 3730;			// 服务端回复指定活动排行榜已参与人数
+	eMsg_CommonActivityRank_Fame_CS		= 3731;			// 客户端请求指定活动排行榜名人堂数据
+	eMsg_CommonActivityRank_Fame_SC		= 3732;			// 服务端回复指定活动排行榜名人堂数据
+	eMsg_CommonActivityRank_Stage_CS	= 3733;			// 客户端请求指定活动排行榜阶段奖励领取信息
+	eMsg_CommonActivityRank_Stage_SC	= 3734;			// 服务端回复指定活动排行榜阶段奖励领取信息
+	eMsg_CommonActivityRank_GetStage_CS	= 3735;			// 客户端请求领取指定活动排行榜阶段奖励
+	eMsg_CommonActivityRank_GetStage_SC	= 3736;			// 服务端回复领取指定活动排行榜阶段奖励
+	eMsg_CommonActivityRank_Group_WG	= 3737;			// world -> global: 检查玩家今日分组是否需要重新分配
+	eMsg_CommonActivityRank_Score_PC	= 3738;			// 服务端主动推送通用活动排行榜积分
+	eMsg_CommonActivityRank_SubType_CS	= 3739;			// 客户端请求指定活动排行子榜信息
+	eMsg_CommonActivityRank_SubType_SC	= 3740;			// 服务端回复指定活动排行子榜信息
+	eMsg_CommonActivityRank_Score_SS	= 3741;			// 服务器之间转发修改玩家通用活动排行榜积分的请求
+	eMsg_CommonActivityRank_Fame_SS		= 3742;			// 服务器内部转发请求指定活动排行榜名人堂数据
+	eMsg_CommonActivityRank_Update_GG	= 3744;			// guild -> global：更新通用活动排行榜数据请求
+	eMsg_CommonActivityRank_Reward_GG	= 3745;			// global -> guild：指定活动排行榜奖励待发放信息请求
+	eMsg_CommonActivityRank_Remove_SS	= 3746;			// 服务器之间转发删除排行榜信息
+	eMsg_CommonActivityRank_Stage_SS	= 3747;			// 服务器之间转发阶段积分
+	
+	eMsg_ActivityLimitRankLike_WG		= 3750;			// world->global:限时排行榜点赞请求
+	eMsg_ActivityLimitRankLike_GW		= 3751;			// global->world:限时排行榜点赞返回
+	eMsg_ActivityLimitRankLike_GR		= 3752;			// global->redis:限时排行榜点赞更新
+	eMsg_ActivityLimitRankLike_RG		= 3753;			// redis->global:限时排行榜点赞更新结果
+	eMsg_GetActivityLimitRankLikeCount_GR= 3754;		// global->redis:限时排行榜点赞查询
+	eMsg_GetActivityLimitRankLikeCount_RG= 3755;		// redis->global:限时排行榜点赞查询返回
+	eMsg_ActivityLimitRankLikeClear_GR	= 3756;			// global->redis:点赞记录清空删除
+	
+	eMsg_CommonActivityRank_Dress_Update_GR = 3760;		// global->redis:剧情关卡最高分排行榜，更新玩家的最高分装扮
+	eMsg_CommonActivityRank_Dress_Update_RG = 3761;		// redis->global:剧情关卡最高分排行榜，更新玩家的最高分装扮回复
+	eMsg_CommonActivityRank_Dress_Query_GR  = 3762;		// global->redis:剧情关卡最高分排行榜，请求玩家的最高分装扮
+	eMsg_CommonActivityRank_Dress_Query_RG  = 3763;		// redis->global:剧情关卡最高分排行榜，请求玩家的最高分装扮回复
+	eMsg_CommonActivityRank_Dress_Delete_GR = 3764;		// global->redis:剧情关卡最高分排行榜，删除玩家的最高分装扮
+	//==================================================================================================================
+	
+	//=============================================== 排行榜消息id段 (3900 --> 3999) ==============================================
+	eMsg_CommonRank_Get_CS 					= 3901;			// 客户端: 请求排行榜数据
+	eMsg_CommonRank_Get_SC	 				= 3902;			// 服务端：请求排行榜数据回复
+	eMsg_ActivityLimitRankLike_CS			= 3903;			// 客户端: 限时排行榜点赞
+	eMsg_ActivityLimitRankLike_SC			= 3904;			// 服务器: 限时排行榜点赞回复
+	eMsg_GetActivityLimitRankLikeCount_CS	= 3905;			// 客户端: 拉取限时排行榜榜单玩家获赞数量
+	eMsg_GetActivityLimitRankLikeCount_SC	= 3906;			// 服务器回复: 拉取限时排行榜榜单玩家获赞数量
+	eMsg_GetActivityLimitRankBuffer_CS		= 3907;			// 客户端: 拉取限时排行榜福利buffer
+	eMsg_GetActivityLimitRankBuffer_SC		= 3908;			// 服务器回复: 拉取限时排行榜榜单玩家获赞数量
+	eMsg_GetActivityLimitRankBuffer_SS		= 3909;			// 服务器内部转发拉取限时排行榜福利buffer
+	//==================================================================================================================
+
+
+
+	//=============================================== mongodb业务  (51000 --> 51099) ============================================	
+	eMsg_Mongo_Test1_CS						= 51000;  // mongo测试1（查询副本信息）请求
+	eMsg_Mongo_Test1_SC						= 51001;  // mongo测试1（查询副本信息）回复
+	eMsg_Mongo_Test2_CS						= 51002;  // mongo测试2（副本评论）请求
+	eMsg_Mongo_Test2_SC						= 51003;  // mongo测试2（副本评论）回复
+	
+	eMsg_MySQL_Test_CS						= 51004;  // mysql测试请求
+	eMsg_MySQL_Test_SC						= 51005;  // mysql测试回复
+	//==================================================================================================================
+	
+	//=============================================== 报文压测业务  (51100 --> 51199) ============================================	
+	eMsg_AsioListen_TestData_Req			= 51101;			// 报文压测：请求报文测试
+	eMsg_AsioListen_TestData_Resp			= 51102;			// 报文压测：请求报文测试回复
+	eMsg_AsioListen_TestData2_Req			= 51103;			// 报文压测：请求报文测试2
+	eMsg_AsioListen_TestData2_Resp			= 51104;			// 报文压测：请求报文测试2回复
+
+	eMsg_AsioListen_TestData3_Req			= 51110;			// 报文压测：请求报文测试3
+	eMsg_AsioListen_TestData3_Resp			= 51111;			// 报文压测：请求报文测试3回复
+	eMsg_AsioListen_TestData4_Req			= 51112;			// 报文压测：请求报文测试4
+	eMsg_AsioListen_TestData4_Resp			= 51113;			// 报文压测：请求报文测试4回复
+	//==================================================================================================================
+	
+	//==================================================================================================================
+	//服务器内部消息：Asio模块消息
+	// 消息号从60000 ～ 60999
+	eMsg_Asio_Private_Begin					= 60000;
+
+	eMsg_AsioListen_CloseSession_Req		= 60001;			// Listen模块：请求关闭连接
+	eMsg_AsioListen_CloseSession_Resp		= 60002;			// Listen模块：请求关闭连接回复
+	eMsg_AsioListen_RegisterSession_Req		= 60003;			// Listen模块：请求连接注册
+	eMsg_AsioListen_RegisterSession_Resp	= 60004;			// Listen模块：请求连接注册回复
+	eMsg_AsioListen_Accept_Resp				= 60005;			// Listen模块：accept通知
+	eMsg_AsioListen_UnRegisterSession_Req	= 60006;			// Listen模块：连接注销
+
+	eMsg_AsioConnect_Online_Resp			= 60021;			// Connect模块：在线（连接成功）
+	eMsg_AsioConnect_Offline_Resp			= 60022;			// Connect模块：离线（连接断开）
+	eMsg_AsioConnect_RegisterSession_Req	= 60023;			// Connect模块：请求连接注册
+	eMsg_AsioConnect_RegisterSession_Resp	= 60024;			// Connect模块：请求连接注册回复
+	eMsg_AsioConnect_Delete_Req				= 60025;			// Connect模块：请求永久关闭连接
+	eMsg_AsioConnect_Delete_Resp			= 60026;			// Connect模块：请求永久关闭连接回复
+	eMsg_AsioConnect_Disconnect_Req			= 60027;			// Connect模块：请求断开连接
+	eMsg_AsioConnect_Disconnect_Resp		= 60028;			// Connect模块：请求断开连接回复
+	eMsg_AsioConnect_Update_Req				= 60029;			// Connect模块：请求更新连接ip、端口
+	eMsg_AsioConnect_Update_Resp			= 60030;			// Connect模块：请求更新连接ip、端口回复
+
+	eMsg_Set_Asio_Param_Req					= 60150;			// 设置asio的socket链接参数，仅测试用
+	eMsg_Asio_AddupData_Resp				= 60151;			// Asio底层接收/发送的消息个数
+
+	eMsg_Asio_Private_End					= 60999;
+	//==================================================================================================================
+
+	//==================================================================================================================
+	//服务器内部消息：TestServer与ControlServer交互消息
+	// 消息号从61000 ～ 61999
+	eMsg_Test_Control_Begin					= 61000;
+	
+	eMsg_Test_Control_Query_CT				= 61001;			// Control->Test查询当前测试状态
+	eMsg_Test_Control_Query_TC				= 61002;			// Test->Control反馈当前测试状态
+	eMsg_Test_Control_Start_CT				= 61003;			// Control->Test开始测试
+	eMsg_Test_Control_Start_TC				= 61004;			// Test->Control反馈开始测试结果
+	eMsg_Test_Control_Stop_CT				= 61005;			// Control->Test停止测试
+	eMsg_Test_Control_Stop_TC				= 61006;			// Test->Control反馈停止测试结果
+	
+	eMsg_Test_Control_End					= 61999;
+	//==================================================================================================================
+}

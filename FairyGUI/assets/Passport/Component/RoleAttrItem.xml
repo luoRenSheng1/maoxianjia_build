@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,87" extention="Button">
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="开"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <controller name="typeCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="特殊"/>
+  </controller>
+  <controller name="starCount" pages="3,,0,,1,,2," selected="0">
+    <remark page="0" value="一个没有星级的"/>
+    <remark page="1" value="一个"/>
+    <remark page="2" value="二个"/>
+    <remark page="3" value="三个"/>
+  </controller>
+  <controller name="attrCtrl" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18,,19,,20,,21,,22,,23,,24,,25,,26,,27,,28,,29,,30,,31,,32,,33,,34,,35,,36,,37,,38,,39,,40,,41,,42,,43,,44,,45,,46,,47,,48," selected="0">
+    <remark page="0" value="物理伤害"/>
+    <remark page="1" value="魔法伤害"/>
+    <remark page="2" value="道术伤害"/>
+    <remark page="3" value="生命值"/>
+    <remark page="4" value="物理防御"/>
+    <remark page="5" value="魔法防御"/>
+    <remark page="6" value="道术防御"/>
+    <remark page="7" value="生命恢复"/>
+    <remark page="8" value="宠物伤害"/>
+    <remark page="9" value="物伤加成"/>
+    <remark page="10" value="魔伤加成"/>
+    <remark page="11" value="道伤加成"/>
+    <remark page="12" value="生命加成"/>
+    <remark page="13" value="物防加成"/>
+    <remark page="14" value="魔防加成"/>
+    <remark page="15" value="道防加成"/>
+    <remark page="16" value="地系伤害加成"/>
+    <remark page="17" value="水系伤害加成"/>
+    <remark page="18" value="火系伤害加成"/>
+    <remark page="19" value="风系伤害加成"/>
+    <remark page="20" value="宠物伤害加成"/>
+    <remark page="21" value="生命倍率"/>
+    <remark page="22" value="伤害倍率"/>
+    <remark page="23" value="闪避率"/>
+    <remark page="24" value="命中率"/>
+    <remark page="25" value="格挡率"/>
+    <remark page="26" value="格挡值"/>
+    <remark page="27" value="无视防御"/>
+    <remark page="28" value="暴击"/>
+    <remark page="29" value="爆伤"/>
+    <remark page="30" value="Boss伤害加成"/>
+    <remark page="31" value="小怪伤害加成"/>
+    <remark page="32" value="减伤"/>
+    <remark page="33" value="吸血"/>
+    <remark page="34" value="攻击回复"/>
+    <remark page="35" value="技能伤害"/>
+    <remark page="36" value="技能次数加成"/>
+    <remark page="37" value="技能次数"/>
+    <remark page="38" value="金币加成"/>
+    <remark page="39" value="技能冷却"/>
+    <remark page="40" value="攻速"/>
+    <remark page="41" value="连击"/>
+    <remark page="42" value="反击"/>
+    <remark page="43" value="稀有传承概率"/>
+    <remark page="44" value="传承掉落概率"/>
+    <remark page="45" value="关卡挂机奖励次数"/>
+    <remark page="46" value="家园挂机时间上限"/>
+    <remark page="47" value="最终伤害"/>
+    <remark page="48" value="击杀回复"/>
+  </controller>
+  <displayList>
+    <image id="n0_ddc1" name="n0" src="r0ab1c" fileName="Res/newPetsystem2/n11.png" xy="0,0"/>
+    <loader id="n2_ddc1" name="pIcon" xy="7,5" size="74,74" aspect="true" url="ui://5moj1x39ozj9dxy64" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="attrCtrl" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" values="ui://5moj1x39ozj9dxy64|ui://5moj1x39ozj9dxy63|ui://5moj1x39ozj9dxy62|ui://5moj1x39ozj9dxy61|ui://5moj1x39ozj9dxy60|ui://5moj1x39ozj9dxy5z|ui://5moj1x39ozj9dxy5y|ui://5moj1x39ozj9dxy65|ui://5moj1x39ozj9dxy5x|ui://5moj1x39ozj9dxy5v|ui://5moj1x39ozj9dxy5u|ui://5moj1x39ozj9dxy5t|ui://5moj1x39ozj9dxy5s|ui://5moj1x39ozj9dxy5r|ui://5moj1x39ozj9dxy5q|ui://5moj1x39ozj9dxy5p|ui://5moj1x39ozj9dxy5w|ui://5moj1x39ozj9dxy66|ui://5moj1x39ozj9dxy5o" default="ui://5moj1x39ozj9dxy64"/>
+    </loader>
+    <text id="n4_ozj9" name="lvLb" xy="9,60" size="68,26" fontSize="18" color="#ffffff" align="center" vars="true" autoSize="none" bold="true" strokeColor="#5c5246" text="Lv.{value=5}">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <gearDisplay2 controller="typeCtrl" pages="0" condition="0"/>
+    </text>
+    <component id="n9_ozj9" name="star2" src="ozj9dxy5m" fileName="Component/RoleStarItem.xml" pkg="5moj1x39" xy="51,56" size="30,30" group="n10_ozj9" scale="0.9,0.9">
+      <gearDisplay controller="starCount" pages="2"/>
+    </component>
+    <component id="n7_ozj9" name="star1" src="ozj9dxy5m" fileName="Component/RoleStarItem.xml" pkg="5moj1x39" xy="4,49" size="30,30" group="n10_ozj9" scale="0.9,0.9">
+      <gearDisplay controller="starCount" pages="1,2"/>
+      <gearXY controller="starCount" pages="1,2" values="16,56|7,56" default="4,49"/>
+    </component>
+    <component id="n8_ozj9" name="star0" src="ozj9dxy5m" fileName="Component/RoleStarItem.xml" pkg="5moj1x39" xy="29,56" size="30,30" group="n10_ozj9" scale="0.9,0.9">
+      <gearXY controller="starCount" pages="3,0,1,2" values="29,56|28,53|43,56|29,46"/>
+    </component>
+    <group id="n10_ozj9" name="n10" xy="4,49" size="77,37" advanced="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+    </group>
+    <text id="n6_ozj9" name="starLb" xy="54,58" size="26,26" fontSize="18" color="#ffffff" align="right" vars="true" autoSize="none" bold="true" strokeColor="#5c5246" text="5">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <gearDisplay2 controller="lockCtrl" pages="1" condition="0"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

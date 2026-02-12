@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" designImage="ui://m37flevdf34jdxyag" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <loader id="n29_t36s" name="n29" xy="0,-144" size="720,810" visible="false" url="ui://m37flevdf34jdxya3" fill="scale">
+      <relation target="" sidePair="width-width,top-top%,bottom-middle%"/>
+    </loader>
+    <loader3D id="n119_jn60" name="n119" xy="23,-134" size="720,810" url="ui://m37flevdxezfdxyeb" align="center" vAlign="middle" animation="RoleMain_jstybj" skin="" loop="true">
+      <relation target="" sidePair="top-top%,bottom-middle%"/>
+    </loader3D>
+    <graph id="n0_p4bn" name="spine" xy="209,62" pivot="0.5,1" size="300,300" group="n45_ddc1" alpha="0.5">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <component id="n39_mygl" name="playSpineBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="173,47" size="374,331" group="n45_ddc1"/>
+    <group id="n45_ddc1" name="n45" xy="173,47" size="374,331" advanced="true">
+      <relation target="n119_jn60" sidePair="bottom-bottom"/>
+    </group>
+    <loader id="n120_llb1" name="n120" xy="528,291" size="192,101" group="n104_p9n0" url="ui://m37flevdllb1dxyfz"/>
+    <list id="n30_t36s" name="starList" xy="528,250" size="191,33" group="n104_p9n0" layout="row" colGap="3" defaultItem="ui://5moj1x39ozj9dxy5m" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n120_llb1" sidePair="center-center,bottom-top"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_p4bn" name="roleName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="584,299" size="79,34" group="n104_p9n0">
+      <relation target="n120_llb1" sidePair="center-center,top-top"/>
+    </component>
+    <loader id="n121_llb1" name="occupationLb" xy="546,340" size="70,38" group="n104_p9n0" url="ui://m37flevdllb1dxyfw" clearOnPublish="true">
+      <relation target="n120_llb1" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="n122_llb1" name="attrLb" xy="632,340" size="70,38" group="n104_p9n0" url="ui://m37flevdllb1dxyfv" clearOnPublish="true">
+      <relation target="n120_llb1" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <group id="n104_p9n0" name="n104" xy="528,250" size="192,142" advanced="true">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n62_ozj9" sidePair="bottom-top"/>
+    </group>
+    <loader id="n62_ozj9" name="n62" xy="0,431" size="720,614" group="n71_ozj9" url="ui://5moj1x39f34jdxyay" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+    <loader id="n112_f34j" name="n112" xy="-4,392" size="728,70" group="n71_ozj9" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n62_ozj9" sidePair="top-top"/>
+    </loader>
+    <component id="n31_t36s" name="qIcon" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" pkg="5moj1x39" xy="52,393" size="64,64" group="n100_p9n0" aspect="true" controller="quality,0">
+      <relation target="n98_p9n0" sidePair="left-left"/>
+    </component>
+    <component id="n118_ucd4" name="expBar" src="ucd4dxydd" fileName="Component/HeroBarExp.xml" xy="215,409" group="n100_p9n0">
+      <relation target="n98_p9n0" sidePair="left-right"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n98_p9n0" name="n98" src="p9n0dxy82" fileName="Res/Role/role_intensify_bg21.png" xy="116,404" group="n100_p9n0"/>
+    <text id="n48_ddc1" name="roleLv" xy="129,407" size="91,34" group="n100_p9n0" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="等级{value=100}">
+      <relation target="n98_p9n0" sidePair="center-center"/>
+    </text>
+    <group id="n100_p9n0" name="n100" xy="52,393" size="542,64" group="n71_ozj9" advanced="true">
+      <relation target="n112_f34j" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n102_p9n0" name="helpBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="658,406" size="40,40" group="n71_ozj9">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n112_f34j" sidePair="top-top"/>
+      <Button icon="ui://m37flevda2kwdxyb3"/>
+    </component>
+    <image id="n114_f34j" name="n114" src="f34jdxya9" fileName="Res/new/role_bg1.png" xy="16,477" size="688,173" group="n72_ozj9"/>
+    <text id="n61_ozj9" name="n61" xy="310,490" size="100,34" group="n72_ozj9" fontSize="24" color="#4c2911" vAlign="middle" bold="true" text="升级效果"/>
+    <list id="n63_ozj9" name="levelAttrList" xy="59,548" size="601,80" group="n72_ozj9" layout="row" colGap="24" defaultItem="ui://m37flevdozj91b" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n72_ozj9" name="n72" xy="16,477" size="688,173" group="n71_ozj9" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n62_ozj9" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n115_f34j" name="n115" src="f34jdxyb2" fileName="Res/newItem2/general_bottom border_bg1.png" pkg="5moj1x39" xy="16,658" size="688,253" group="n88_p9n0"/>
+    <image id="n108_f34j" name="n108" src="f34jdxya9" fileName="Res/new/role_bg1.png" xy="32,674" size="144,173" group="n91_p9n0"/>
+    <component id="n105_p9n0" name="skillItem" src="p9n0dxy8h" fileName="Component/SkillItemCom.xml" xy="60,741" group="n91_p9n0">
+      <relation target="n108_f34j" sidePair="center-center"/>
+    </component>
+    <text id="n84_p9n0" name="n84" xy="79,687" size="52,34" group="n91_p9n0" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="技能">
+      <relation target="n108_f34j" sidePair="center-center"/>
+    </text>
+    <group id="n91_p9n0" name="n91" xy="32,674" size="144,173" group="n88_p9n0"/>
+    <image id="n109_f34j" name="n109" src="f34jdxya9" fileName="Res/new/role_bg1.png" xy="191,674" size="144,173" group="n93_p9n0"/>
+    <text id="n85_p9n0" name="n85" xy="238,687" size="52,34" group="n93_p9n0" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="普攻">
+      <relation target="n109_f34j" sidePair="center-center"/>
+    </text>
+    <component id="n106_p9n0" name="skillItem2" src="p9n0dxy8h" fileName="Component/SkillItemCom.xml" xy="220,742" group="n93_p9n0"/>
+    <group id="n93_p9n0" name="n93" xy="191,674" size="144,173" group="n88_p9n0"/>
+    <image id="n110_f34j" name="n110" src="f34jdxya9" fileName="Res/new/role_bg1.png" xy="352,674" size="336,173" group="n95_p9n0"/>
+    <text id="n86_p9n0" name="n86" xy="494,687" size="52,34" group="n95_p9n0" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="被动">
+      <relation target="n110_f34j" sidePair="center-center"/>
+    </text>
+    <list id="n94_p9n0" name="list" xy="373,742" size="296,87" group="n95_p9n0" layout="row" colGap="9" defaultItem="ui://m37flevdp9n0dxy8h" align="center" vAlign="middle">
+      <relation target="n110_f34j" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n95_p9n0" name="n95" xy="352,674" size="336,173" group="n88_p9n0"/>
+    <text id="n96_p9n0" name="desc" xy="193,862" size="357,34" group="n88_p9n0" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="发出音波攻击，造成[color=#FCE76F]{value=10000}[/color]点伤害">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n88_p9n0" name="n88" xy="16,658" size="688,253" group="n71_ozj9" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n62_ozj9" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n70_ozj9" name="upLevelBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,933" size="218,84" group="n78_p9n0">
+      <Button title="强化" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n74_qc4n" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="440,929" size="24,26" group="n78_p9n0" visible="false"/>
+    <group id="n78_p9n0" name="n78" xy="251,929" size="218,88" group="n71_ozj9" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n62_ozj9" sidePair="bottom-bottom"/>
+    </group>
+    <group id="n71_ozj9" name="n71" xy="-4,392" size="728,653" advanced="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+  </displayList>
+</component>

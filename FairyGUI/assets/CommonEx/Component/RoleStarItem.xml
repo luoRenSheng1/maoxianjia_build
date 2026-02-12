@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,33">
+  <controller name="type" pages="0,星星,1,月亮,2,太阳" selected="0"/>
+  <controller name="lockCtrl" pages="0,开,1,锁" selected="0"/>
+  <displayList>
+    <loader id="n0_p4bn" name="n0" xy="0,0" size="32,33" aspect="true" url="ui://m37flevdf34jdxy9t" align="center" vAlign="middle" fill="scale" useResize="true">
+      <gearDisplay controller="lockCtrl" pages="0"/>
+      <gearIcon controller="type" pages="0,1,2" values="ui://m37flevdf34jdxy9t|ui://m37flevdf34jdxy9r|ui://m37flevdf34jdxy9p"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_ozj9" name="n1" xy="0,0" size="32,33" aspect="true" url="ui://m37flevdf34jdxy9u" align="center" vAlign="middle" fill="scale" useResize="true">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <gearIcon controller="type" pages="0,1,2" values="ui://m37flevdf34jdxy9u|ui://m37flevdf34jdxy9s|ui://m37flevdf34jdxy9q"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

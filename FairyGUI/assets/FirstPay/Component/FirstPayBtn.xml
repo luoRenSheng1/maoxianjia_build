@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="moneyType" pages="0,,1," selected="1">
+    <remark page="0" value="人民币"/>
+    <remark page="1" value="美金"/>
+  </controller>
+  <displayList>
+    <loader id="n3_ez2l" name="icon" xy="0,0" size="218,84" url="ui://5moj1x39f34jdxy9s" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_ez2l" name="money" xy="82,20" size="54,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#25211d" strokeSize="3" singleLine="true" text="{value=6}元">
+      <gearDisplay controller="moneyType" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n6_8822" name="money2" xy="84,20" size="49,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#25211d" strokeSize="3" singleLine="true" text="$ {value=6}">
+      <gearDisplay controller="moneyType" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_syvc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n10_f34j" name="n10" src="f34jdxya0" fileName="Res/newItem2/general_title_bg12.png" pkg="5moj1x39" xy="57,125" group="n4_syvc"/>
+    <text id="n3_syvc" name="n3" xy="326,139" size="68,44" group="n4_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="奖励">
+      <relation target="n10_f34j" sidePair="center-center"/>
+    </text>
+    <group id="n4_syvc" name="n4" xy="57,125" size="606,96" group="n9_syvc" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <list id="n5_syvc" name="rwList" xy="31,242" size="440,536" group="n9_syvc" scale="1.5,1.5" layout="flow_hz" overflow="scroll" lineGap="8" colGap="8" align="center">
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+      <item url="ui://5moj1x39ewjfdxy22"/>
+    </list>
+    <component id="n6_syvc" name="getBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="251,1108" size="218,84" group="n8_syvc">
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n7_syvc" name="n7" xy="326,1127" size="68,44" group="n8_syvc" fontSize="32" color="#ffffff" align="center" bold="true" strokeColor="#25211d" strokeSize="3" text="确认"/>
+    <group id="n8_syvc" name="n8" xy="251,1108" size="218,84" group="n9_syvc"/>
+    <group id="n9_syvc" name="n9" xy="31,125" size="632,1067" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

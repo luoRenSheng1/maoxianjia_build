@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="gender" pages="0,,1," selected="0">
+    <remark page="0" value="男"/>
+    <remark page="1" value="女"/>
+  </controller>
+  <controller name="occupationType" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <component id="n21_recz" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_recz" name="n0" xy="49,257" size="621,766" group="n20_recz" url="ui://5moj1x39fpa2dxy2y" fill="scaleFree"/>
+    <image id="n1_recz" name="n1" src="reczdxy2q" fileName="Res/1.PNG" xy="69,271" size="583,250" group="n20_recz"/>
+    <image id="n8_recz" name="n8" src="reczdxy2r" fileName="Res/3.png" xy="241,278" size="404,233" group="n14_recz"/>
+    <text id="n9_recz" name="n9" xy="254,303" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="性别："/>
+    <loader id="n10_recz" name="n10" xy="366,303" size="27,29" group="n14_recz" url="ui://0anhreylt36s2b" autoSize="true">
+      <gearIcon controller="gender" pages="1" values="ui://0anhreylt36s2c" default="ui://0anhreylt36s2b"/>
+    </loader>
+    <text id="n11_recz" name="n20" xy="443,381" size="104,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="攻击系数："/>
+    <text id="n12_recz" name="n12" xy="443,303" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="属性："/>
+    <loader id="n13_recz" name="n13" xy="558,303" size="27,29" group="n14_recz" url="ui://5moj1x39p4bn18" fill="scale">
+      <gearIcon controller="occupationType" pages="0,1,2,3,4,5" values="ui://5moj1x39p4bn18|ui://5moj1x39p4bn10|ui://5moj1x39p4bnz|ui://5moj1x39p4bn12|ui://5moj1x39p4bn13|ui://5moj1x39p4bn11"/>
+    </loader>
+    <text id="n22_recz" name="n21" xy="443,342" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="攻速："/>
+    <text id="n23_recz" name="n22" xy="254,420" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="连击："/>
+    <text id="n24_recz" name="n23" xy="443,420" size="104,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="连击系数："/>
+    <text id="n25_recz" name="n24" xy="254,381" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="暴击："/>
+    <text id="n27_recz" name="n26" xy="254,459" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="爆伤："/>
+    <text id="n28_recz" name="n27" xy="443,459" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="穿透："/>
+    <text id="n29_recz" name="gjxsLb" xy="558,381" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n30_recz" name="ljLb" xy="366,420" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n31_recz" name="bjLb" xy="366,381" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n32_recz" name="bsLb" xy="366,459" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n33_recz" name="gsLb" xy="558,342" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n34_recz" name="ljxsLb" xy="558,420" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n36_recz" name="ctLb" xy="558,459" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <text id="n37_recz" name="n29" xy="254,342" size="64,29" group="n14_recz" fontSize="20" color="#835c25" align="center" vars="true" text="攻击："/>
+    <text id="n39_recz" name="atkLb" xy="366,342" size="48,29" group="n14_recz" fontSize="20" color="#835c25" align="center" text="1000"/>
+    <group id="n14_recz" name="n14" xy="241,278" size="404,233" group="n20_recz"/>
+    <image id="n2_recz" name="n2" src="j2lc8" fileName="Res/8.png" xy="72,541" size="580,168" group="n20_recz"/>
+    <loader id="n15_recz" name="skillIcon" xy="102,561" size="122,122" group="n20_recz" fill="scale"/>
+    <text id="n16_recz" name="skillName" xy="252,556" size="104,35" group="n20_recz" fontSize="25" color="#835c25" text="技能名称"/>
+    <text id="n17_recz" name="skillDesc" xy="252,595" size="387,104" group="n20_recz" fontSize="20" color="#7b7b7b" autoSize="none" text="技能名称"/>
+    <image id="n18_recz" name="n18" src="fpa2dxy32" fileName="Res/7.PNG" pkg="5moj1x39" xy="73,726" size="575,270" group="n20_recz"/>
+    <text id="n19_recz" name="petDesc" xy="89,743" size="543,239" group="n20_recz" fontSize="25" color="#835c25" autoSize="none" text=""/>
+    <image id="n4_recz" name="n4" src="reczdxy2r" fileName="Res/3.png" xy="79,278" size="152,187" group="n7_recz"/>
+    <graph id="n5_recz" name="petIcon" xy="81,296" pivot="0.5,1" size="148,157" group="n7_recz"/>
+    <text id="n6_recz" name="petName" xy="83,471" size="144,40" group="n7_recz" fontSize="20" color="#835c25" align="center" vAlign="middle" autoSize="none" text="胡雁归"/>
+    <group id="n7_recz" name="n7" xy="79,278" size="152,233" group="n20_recz"/>
+    <group id="n20_recz" name="n30" xy="49,257" size="621,766" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

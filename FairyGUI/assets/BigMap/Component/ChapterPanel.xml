@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" designImage="ui://pdufy3kerthzif8" designImageOffsetY="-2687" designImageAlpha="0">
+  <displayList>
+    <loader3D id="n48_i18n" name="battleSpine" xy="-347,1086" size="78,78" touchable="false" url="ui://pdufy3kenntn38" animation="animation" skin="" loop="true"/>
+    <loader3D id="n97_jiqm" name="tipSpine" xy="-135,769" size="54,63" touchable="false" url="ui://pdufy3kejiqm4p" animation="BigMap_wzzb" skin="" loop="true"/>
+    <loader3D id="n103_ef8u" name="cursorSpine" xy="-228,861" size="120,80" url="ui://pdufy3keef8u4u" align="center" vAlign="middle" animation="BigMap_djlj" skin="" loop="true"/>
+    <loader3D id="n163_ka12" name="qpSpine" xy="-303,687" pivot="0.5,0.5" anchor="true" size="192,162" url="ui://pdufy3keka12ihf" animation="BigMap_diaoyvqp" skin="" loop="true"/>
+    <component id="n172_llb1" name="fishingWorkBar" src="tdju67" fileName="Component/WorkingBar.xml" xy="-267,404">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <graph id="n17_kh6r" name="hero" xy="230,999" size="100,100"/>
+    <graph id="n101_s8sb" name="fogMask" xy="0,-2687" size="4320,3840" touchable="false" blend="multiply" type="rect" lineSize="0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <component id="n104_tdju" name="equipQiPao" src="tdju68" fileName="Component/EquipQiPaoItem.xml" xy="-285,988"/>
+    <graph id="n147_f710" name="moveMapMask" xy="-3,-2687" size="4320,3840" visible="false" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height,left-left,bottom-bottom"/>
+    </graph>
+    <loader id="n156_ozcv" name="FixedPos1" xy="465,836" size="10,10" touchable="false"/>
+    <loader id="n157_ozcv" name="FixedPos2" xy="408,665" size="10,10" touchable="false"/>
+    <loader id="n171_bpu2" name="FixedPos3" xy="221,915" size="10,10" touchable="false"/>
+    <component id="n158_ozcv" name="MineSelect" src="ozcvih6" fileName="MineSelect.xml" xy="-158,1035"/>
+    <loader3D id="n173_pto8" name="AiXin" xy="-228,517" size="180,100" url="ui://pdufy3kepto8ijo" animation="BigMap_aixing" skin="" loop="true"/>
+    <loader3D id="n175_pto8" name="PetLost" xy="-560,695" size="200,200" url="ui://pdufy3kepto8ijr" animation="BigMap_zaozi" skin="" loop="true"/>
+  </displayList>
+</component>

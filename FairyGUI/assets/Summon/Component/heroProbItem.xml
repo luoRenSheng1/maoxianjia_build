@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,42">
+  <controller name="heroCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="神话"/>
+    <remark page="1" value="传说"/>
+  </controller>
+  <displayList>
+    <text id="n1_u1cl" name="heroName" xy="14,6" size="84,29" fontSize="20" color="#663e20" text="神话英雄">
+      <gearText controller="heroCtrl" pages="1" values="传说英雄" default="神话英雄"/>
+    </text>
+    <text id="n2_u1cl" name="heroDesc" xy="274,8" size="191,26" fontSize="18" color="#663e20" align="right" autoSize="none" text="0.5%">
+      <gearText controller="heroCtrl" pages="0" values="0.5%" default="1%"/>
+    </text>
+  </displayList>
+</component>

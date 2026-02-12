@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_syvc" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n11_f34j" name="n11" xy="16,517" size="688,532" group="n10_pc71" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <image id="n14_f34j" name="n14" src="f34jdxy9e" fileName="Res/Reward2/rewards_img1.png" xy="65,240" group="n10_pc71"/>
+    <image id="n13_f34j" name="n13" src="f34jdxy9f" fileName="Res/Reward2/rewards_img12.png" xy="185,368" group="n10_pc71"/>
+    <image id="n15_f34j" name="n15" src="f34jdxybj" fileName="Res/newItem2/general_title_bg11.png" pkg="5moj1x39" xy="109,493" group="n10_pc71"/>
+    <text id="n4_syvc" name="n4" xy="326,509" size="68,44" group="n10_pc71" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="增益"/>
+    <component id="n5_syvc" name="getBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" xy="251,935" size="218,84" group="n8_syvc">
+      <Button icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n6_syvc" name="n6" xy="326,950" size="68,44" group="n8_syvc" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="3" text="确认"/>
+    <group id="n8_syvc" name="n8" xy="251,935" size="218,84" group="n10_pc71"/>
+    <list id="n9_pc71" name="list" xy="41,636" size="637,272" group="n10_pc71" layout="row" overflow="scroll" colGap="20" defaultItem="ui://0anhreylsyvcdxy8q" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n10_pc71" name="n10" xy="16,240" size="688,809" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

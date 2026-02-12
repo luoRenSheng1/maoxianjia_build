@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,88" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="锁"/>
+    <remark page="1" value="正常"/>
+  </controller>
+  <displayList>
+    <loader id="n3_p9n0" name="bg" xy="0,0" size="88,88" url="ui://5moj1x39f34jdxyb6" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_p9n0" name="icon" xy="9,9" size="70,70" url="ui://m37flevdrm2cdxy6l" align="center" vAlign="middle" fill="scale"/>
+    <image id="n10_f34j" name="n10" src="f34jdxyb2" fileName="Res/newItem2/general_bottom border_bg1.png" pkg="5moj1x39" xy="3,3" size="82,82">
+      <gearDisplay controller="status" pages="0"/>
+    </image>
+    <image id="n9_f34j" name="n9" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="24,24" size="40,40" aspect="true">
+      <gearDisplay controller="status" pages="0"/>
+    </image>
+    <loader id="n11_a2kw" name="n11" xy="-2,-2" size="92,92" url="ui://5moj1x39a2kwdxycb" fill="scale">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

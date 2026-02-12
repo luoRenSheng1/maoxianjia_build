@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,108" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_tdju" name="n3" xy="0,24" size="152,84" url="ui://pdufy3kec2niid1" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n4_tdju" name="n4" xy="20,0" size="112,108" url="ui://pdufy3kec2niid2" align="center" vAlign="middle"/>
+    <text id="n5_tdju" name="n5" xy="18,69" size="116,39" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="狩猎商店"/>
+  </displayList>
+  <Button/>
+</component>

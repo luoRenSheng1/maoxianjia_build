@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="showCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <component id="n0_s503" name="n1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n9_r18s" name="n9" src="r18sdxy7f" fileName="Res/getSpine/g1.png" xy="144,132" group="n7_i8ev"/>
+    <loader id="n11_xjh0" name="img" xy="223,163" size="274,77" group="n7_i8ev" url="ui://0anhreylr18sdxy7i" align="center" vAlign="middle"/>
+    <image id="n10_r18s" name="n10" src="r18sdxy7i" fileName="Res/getSpine/g2.png" xy="223,163" group="n7_i8ev" visible="false"/>
+    <loader3D id="n6_i8ev" name="gxhdSpine" xy="-479,-151" size="1219,687" group="n7_i8ev" url="ui://0anhreyli8evdxy72" fill="scale" animation="Chuxian" skin="JSCG"/>
+    <loader3D id="n1_s503" name="bgSpine" xy="211,533" pivot="0.5,0.5" size="214,160" group="n7_i8ev" touchable="false" url="ui://0anhreyli8evdxy6z" fill="scale" animation="Loop" skin="" loop="true">
+      <gearDisplay controller="showCtrl" pages="1"/>
+    </loader3D>
+    <graph id="n3_s503" name="petSpine" xy="310,698" pivot="0.5,0.5" size="100,100" group="n7_i8ev" touchable="false"/>
+    <loader3D id="n5_uobv" name="baozhaSpine" xy="264,556" pivot="0.5,0.5" size="100,100" group="n7_i8ev" touchable="false" url="ui://0anhreyli8evdxy6w" animation="Chuxian" skin=""/>
+    <component id="n2_s503" name="petName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="303,896" size="113,48" group="n7_i8ev" touchable="false">
+      <gearDisplay controller="showCtrl" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+      <Label titleFontSize="35"/>
+    </component>
+    <component id="n8_i8ev" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="250,996" size="218,84" group="n7_i8ev">
+      <gearDisplay controller="showCtrl" pages="1"/>
+      <Button title="确定" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n7_i8ev" name="n7" xy="-479,-151" size="1219,1232" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Visible" target="n11_xjh0" value="false"/>
+    <item time="0" type="Visible" target="n9_r18s" value="false"/>
+    <item time="7" type="Visible" target="n11_xjh0" value="true"/>
+    <item time="7" type="Visible" target="n9_r18s" value="true"/>
+  </transition>
+</component>

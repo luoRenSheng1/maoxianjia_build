@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h1wohbjo">
+  <resources>
+    <image id="vcwq1" name="n2.png" path="/Res/"/>
+    <image id="vcwq2" name="n4.png" path="/Res/"/>
+    <component id="vcwq7" name="MailMain.xml" path="/" exported="true"/>
+    <component id="vcwq8" name="MailItem.xml" path="/Component/"/>
+    <component id="jmb99" name="MailInfo.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Mail" genCode="true"/>
+</packageDescription>

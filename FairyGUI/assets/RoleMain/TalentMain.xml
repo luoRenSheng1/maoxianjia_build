@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" mask="n59_ucd4" reversedMask="true" designImage="ui://m37flevdf34jdxyal" designImageAlpha="0">
+  <controller name="type" pages="0,,1,,2," selected="0">
+    <remark page="0" value="伤害"/>
+    <remark page="1" value="防御"/>
+    <remark page="2" value="辅助"/>
+  </controller>
+  <controller name="upCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="升级"/>
+    <remark page="1" value="激活"/>
+    <remark page="2" value="已满级"/>
+  </controller>
+  <displayList>
+    <graph id="n58_ucd4" name="n58" xy="0,0" size="720,1029" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </graph>
+    <loader id="n50_kqmi" name="n50" xy="0,-160" size="720,1600" url="ui://m37flevducd4dxydl" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,center-center,middle-middle"/>
+    </loader>
+    <loader3D id="n57_ucd4" name="n57" xy="253,535" size="100,100" url="ui://m37flevducd4dxye0" align="center" vAlign="middle" animation="RoleMain_tfbj" skin="" loop="true">
+      <relation target="" sidePair="middle-middle"/>
+    </loader3D>
+    <loader id="n56_klzx" name="n56" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxyce">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n55_klzx" name="n55" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxycd">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <component id="n41_p9n0" name="talentPoint" src="ozj91l" fileName="Component/Currency.xml" xy="14,14" size="168,50" group="n43_p9n0"/>
+    <component id="n42_p9n0" name="talentToken" src="ozj91l" fileName="Component/Currency.xml" xy="196,14" size="168,50" group="n43_p9n0"/>
+    <group id="n43_p9n0" name="n43" xy="14,14" size="350,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n61_llb1" name="phyTalent" src="llb1dxyfr" fileName="Component/TalentUI.xml" xy="0,90" size="720,667" group="n36_p9n0">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="height-height,center-center,top-top"/>
+    </component>
+    <component id="n62_llb1" name="spellTalent" src="llb1dxyfr" fileName="Component/TalentUI.xml" xy="0,90" size="720,667" group="n36_p9n0">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="" sidePair="height-height,center-center,top-top"/>
+    </component>
+    <component id="n63_llb1" name="defTalent" src="llb1dxyfr" fileName="Component/TalentUI.xml" xy="0,90" size="720,667" group="n36_p9n0">
+      <gearDisplay controller="type" pages="2"/>
+      <relation target="" sidePair="height-height,center-center,top-top"/>
+    </component>
+    <component id="n37_p9n0" name="talentSelect" src="p9n0dxy94" fileName="Component/TalentSelect.xml" xy="130,112" group="n36_p9n0">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <loader id="n54_a2kw" name="n54" xy="24,771" size="672,248" group="n4_p9n0" url="ui://m37flevdllb1dxyeo" fill="scaleFree"/>
+    <loader id="n60_llb1" name="n60" xy="40,790" size="640,112" group="n4_p9n0" url="ui://m37flevdllb1dxyep" fill="scaleFree">
+      <relation target="n54_a2kw" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n40_p9n0" name="talent" src="p9n0dxy7g" fileName="Component/TalentItem.xml" xy="31,771" group="n4_p9n0" touchable="false">
+      <relation target="n60_llb1" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n64_llb1" name="name" xy="167,805" size="100,34" group="n4_p9n0" fontSize="24" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="天赋名称"/>
+    <text id="n1_p9n0" name="desc" xy="167,850" size="505,34" group="n4_p9n0" fontSize="24" color="#4c2911" vAlign="middle" autoSize="shrink" bold="true" text="天赋描述123456789">
+      <relation target="n60_llb1" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n4_p9n0" name="n4" xy="24,771" size="672,248" group="n36_p9n0" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n34_p9n0" name="resetBtn" src="p9n0dxy7e" fileName="Component/ResetBtn.xml" xy="109,918" size="218,84" group="n36_p9n0">
+      <relation target="n54_a2kw" sidePair="left-left,bottom-bottom"/>
+      <Button title="重置" icon="ui://5moj1x39f34jdxyai"/>
+    </component>
+    <component id="n39_p9n0" name="upLvBtn" src="p9n0dxy7e" fileName="Component/ResetBtn.xml" xy="392,918" group="n36_p9n0">
+      <gearDisplay controller="upCtrl" pages="0"/>
+      <relation target="n54_a2kw" sidePair="left-left,bottom-bottom"/>
+      <Button title="升级" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n48_p9n0" name="activateBtn" src="p9n0dxy9c" fileName="Component/ActivateBtn.xml" xy="392,918" size="218,84" group="n36_p9n0">
+      <gearDisplay controller="upCtrl" pages="1"/>
+      <relation target="n54_a2kw" sidePair="left-left,bottom-bottom"/>
+      <Button title="激活" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n49_p9n0" name="maxBtn" src="p9n0dxy9c" fileName="Component/ActivateBtn.xml" xy="392,918" size="218,84" group="n36_p9n0">
+      <gearDisplay controller="upCtrl" pages="2"/>
+      <relation target="n54_a2kw" sidePair="left-left,bottom-bottom"/>
+      <Button title="已满级" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n36_p9n0" name="n36" xy="0,90" size="720,929" advanced="true"/>
+    <graph id="n59_ucd4" name="n59" xy="0,1041" size="720,239" type="rect">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+  </displayList>
+</component>

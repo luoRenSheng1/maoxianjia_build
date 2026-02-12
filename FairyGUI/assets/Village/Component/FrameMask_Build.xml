@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="alphaType" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="深"/>
+    <remark page="1" value="浅"/>
+  </controller>
+  <displayList>
+    <graph id="n1_nif6" name="frame" xy="0,0" size="720,1280" alpha="0.8" type="rect" fillColor="#ff000000">
+      <gearColor controller="alphaType" pages="1" values="#333333" default="#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n4_oppe" name="closeBtn2" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,1127">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

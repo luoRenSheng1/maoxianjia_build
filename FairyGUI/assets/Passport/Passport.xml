@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://2pcsnr2kxezf2g" designImageAlpha="60">
+  <controller name="tabCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_r0ab" name="n2" xy="-20,0" size="760,1280" url="ui://2pcsnr2kxezf21" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n12_r0ab" name="n12" src="r0abw" fileName="Res/banner1665.png" xy="0,0" size="720,428"/>
+    <graph id="n15_r0ab" name="spine" xy="309,299" pivot="0.5,1" size="100,100">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <text id="n42_r0ab" name="titleLb" xy="278,22" size="164,44" group="n53_xezf" fontSize="32" color="#ffbf43" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="通行证名称">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n52_xezf" name="n52" xy="291,70" size="32,32" group="n53_xezf" url="ui://5moj1x39f34jdxyaz" fill="scale"/>
+    <text id="n40_r0ab" name="timeLb" xy="326,69" size="115,34" group="n53_xezf" fontSize="24" color="#fcf78e" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="5天12小时">
+      <relation target="n52_xezf" sidePair="left-left"/>
+    </text>
+    <group id="n53_xezf" name="n53" xy="278,22" size="164,81" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n49_xezf" name="n49" xy="0,349" size="720,89" group="n14_r0ab" url="ui://2pcsnr2kxezf2b">
+      <gearIcon controller="tabCtrl" pages="1" values="ui://2pcsnr2kxezf2c" default="ui://2pcsnr2kxezf2b"/>
+    </loader>
+    <component id="n6_r0ab" name="leftBtn" src="r0abz" fileName="Component/LeftTabBtn.xml" xy="19,359" group="n7_r0ab">
+      <Button checked="true" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n5_r0ab" name="rightBtn" src="r0ab11" fileName="Component/RightTabBtn.xml" xy="373,359" group="n7_r0ab">
+      <Button controller="tabCtrl" page="1"/>
+    </component>
+    <group id="n7_r0ab" name="n7" xy="19,359" size="682,70" group="n14_r0ab" advanced="true"/>
+    <group id="n14_r0ab" name="n14" xy="0,349" size="720,89" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n47_r0ab" name="Passport" src="r0ab1d" fileName="Component/PassPortPanel.xml" xy="0,510" size="720,635">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n48_r0ab" name="PassTask" src="r0ab1e" fileName="Component/PassTaskPanel.xml" xy="0,540" size="720,605">
+      <gearDisplay controller="tabCtrl" pages="1"/>
+      <relation target="" sidePair="height-height,center-center"/>
+    </component>
+    <loader id="n51_xezf" name="n51" xy="-5,442" size="730,80" group="n54_xezf" url="ui://2pcsnr2kxezf1t" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <component id="n56_xezf" name="expBar" src="xezf2p" fileName="Component/PassBarExp.xml" xy="90,467" size="451,23" group="n54_xezf" scale="1.2,1.2">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n16_r0ab" name="txzIcon" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="48,446" size="72,72" group="n54_xezf" touchable="false">
+      <relation target="n56_xezf" sidePair="left-left"/>
+      <Button icon="ui://2pcsnr2kxezf2a"/>
+    </component>
+    <loader id="n50_xezf" name="n50" xy="601,445" size="70,70" group="n54_xezf" url="ui://2pcsnr2kxezf29" fill="scaleFree">
+      <relation target="n56_xezf" sidePair="right-right"/>
+    </loader>
+    <text id="n24_r0ab" name="passLvLb" xy="609,459" size="54,44" group="n54_xezf" fontSize="32" color="#fcf78e" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="20">
+      <relation target="n50_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n54_xezf" name="n54" xy="-5,442" size="730,80" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n55_xezf" name="n55" xy="-5,1148" size="730,132" group="n13_r0ab" url="ui://5moj1x39f34jdxybl" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+    <component id="n1_r0ab" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="22,1161" size="116,116" group="n13_r0ab">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n55_xezf" sidePair="left-left"/>
+      <Button icon="ui://5moj1x39ucd4dxycg"/>
+    </component>
+    <component id="n38_r0ab" name="advanceBtn" src="r0ab16" fileName="Component/AdvancePassportBtn.xml" xy="327,1156" group="n13_r0ab">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n13_r0ab" name="n13" xy="-5,1148" size="730,132"/>
+  </displayList>
+</component>

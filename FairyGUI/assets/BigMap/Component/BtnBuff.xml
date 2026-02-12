@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="38,38" pivot="0.5,0.5" extention="Button" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetX="-405" designImageAlpha="3" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="itemType" exported="true" homePageType="specific" homePage="2" pages="24,1,25,2,0,3" selected="0"/>
+  <displayList>
+    <loader id="n14_ucd4" name="n14" xy="0,0" size="38,38" url="ui://5moj1x39ucd4dxych"/>
+    <loader id="n9_a4i1" name="clicker" xy="0,0" size="38,38"/>
+    <loader id="n6_h8jp" name="icon" xy="5,5" pivot="0.5,0.5" size="28,28" url="ui://0anhreylf34jdxy9m" vAlign="middle" fill="scale">
+      <gearIcon controller="itemType" pages="24,25,0" values="ui://0anhreylf34jdxy9m|ui://0anhreylf34jdxy9n|ui://0anhreylv5rfdxy4n"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+  <transition name="reacts">
+    <item time="0" type="Scale" target="n6_h8jp" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3"/>
+    <item time="3" type="Scale" target="n6_h8jp" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3"/>
+  </transition>
+</component>

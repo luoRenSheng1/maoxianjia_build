@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://m37flevda2kwdxyaw" designImageAlpha="0" designImageLayer="1">
+  <controller name="isMax" pages="0,,1," selected="0">
+    <remark page="0" value="未满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <controller name="ctrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="卸下"/>
+    <remark page="1" value="穿戴"/>
+    <remark page="2" value="替换"/>
+  </controller>
+  <controller name="upBtnCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="hasCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <controller name="strongBtnCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="hasMask" pages="0,,1," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <controller name="downBtnCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <displayList>
+    <loader id="n0_a2kw" name="n0" xy="0,85" size="720,228" url="ui://m37flevda2kwdxyar" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n48_klzx" name="n48" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxyce">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n1_a2kw" name="n1" xy="0,0" size="720,86" url="ui://5moj1x39klzxdxycd" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader id="n4_a2kw" name="n4" xy="0,368" size="720,683" url="ui://5moj1x39f34jdxyay" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <loader id="n5_a2kw" name="n5" xy="16,399" size="688,331" url="ui://5moj1x39f34jdxyb2" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n4_a2kw" sidePair="bottomext-bottom"/>
+    </loader>
+    <loader id="n35_a2kw" name="n35" xy="218,151" size="44,164" group="n37_a2kw" url="ui://m37flevda2kwdxyas"/>
+    <loader id="n36_a2kw" name="n36" xy="457,151" size="44,164" group="n37_a2kw" url="ui://m37flevda2kwdxyas"/>
+    <group id="n37_a2kw" name="n37" xy="218,151" size="283,164" advanced="true">
+      <relation target="n0_a2kw" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <graph id="n44_a2kw" name="blank1" xy="0,0" size="720,1060" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </graph>
+    <component id="n31_a2kw" name="holyUploadItem0" src="a2kwdxyb2" fileName="Component/HolyUploadItem.xml" xy="48,169" group="n34_a2kw"/>
+    <component id="n39_a2kw" name="replaceBtn0" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="27,142" size="190,170" group="n34_a2kw" visible="false"/>
+    <component id="n32_a2kw" name="holyUploadItem1" src="a2kwdxyb2" fileName="Component/HolyUploadItem.xml" xy="286,169" group="n34_a2kw"/>
+    <component id="n40_a2kw" name="replaceBtn1" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="265,142" size="190,170" group="n34_a2kw" visible="false"/>
+    <component id="n33_a2kw" name="holyUploadItem2" src="a2kwdxyb2" fileName="Component/HolyUploadItem.xml" xy="524,169" group="n34_a2kw"/>
+    <component id="n41_a2kw" name="replaceBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="503,142" size="190,170" group="n34_a2kw" visible="false"/>
+    <loader id="n50_jn60" name="selectBg" xy="0,85" size="720,228" group="n34_a2kw" url="ui://m37flevdjn60dxye5" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <group id="n34_a2kw" name="upGroup" xy="0,85" size="720,232" advanced="true">
+      <relation target="n0_a2kw" sidePair="bottom-bottom"/>
+    </group>
+    <loader id="n2_a2kw" name="n2" xy="-4,310" size="728,70" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n0_a2kw" sidePair="top-top"/>
+    </loader>
+    <graph id="n45_a2kw" name="blank2" xy="-4,310" size="728,70" alpha="0" type="rect">
+      <relation target="n2_a2kw" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <text id="n3_a2kw" name="n3" xy="302,321" size="116,39" fontSize="28" color="#fee7aa" bold="true" strokeColor="#000000" strokeSize="2" text="圣物列表">
+      <relation target="n2_a2kw" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n6_a2kw" name="holyList" xy="33,406" size="653,317" group="n8_a2kw" layout="flow_hz" overflow="scroll" lineGap="-3" colGap="10" defaultItem="ui://m37flevda2kwdxyb1">
+      <relation target="n5_a2kw" sidePair="height-height,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n8_a2kw" name="n8" xy="33,406" size="653,317"/>
+    <loader id="n7_a2kw" name="n7" xy="16,750" size="688,273" group="n23_a2kw" url="ui://5moj1x39f34jdxyb2" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <graph id="n46_a2kw" name="blank3" xy="16,750" size="688,273" group="n23_a2kw" alpha="0" type="rect">
+      <relation target="n7_a2kw" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <text id="n47_mqvf" name="holyName" xy="294,765" size="132,44" group="n23_a2kw" fontSize="32" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="神圣药剂">
+      <relation target="n7_a2kw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n9_a2kw" name="curLv" xy="191,815" size="46,29" group="n22_a2kw" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=1}">
+      <relation target="n10_a2kw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n10_a2kw" name="curDesc" xy="120,845" size="193,29" group="n22_a2kw" fontSize="20" color="#ffffff" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="减少怪物的暴击率{value=1}%">
+      <relation target="n21_a2kw" sidePair="right-left"/>
+    </text>
+    <image id="n21_a2kw" name="n21" src="a2kwdxyaz" fileName="Res/Holy/halidom_icon2.png" xy="344,845" group="n22_a2kw">
+      <relation target="n7_a2kw" sidePair="center-center"/>
+    </image>
+    <text id="n11_a2kw" name="nextLv" xy="479,815" size="46,29" group="n22_a2kw" fontSize="20" color="#9bf452" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=2}">
+      <relation target="n12_a2kw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n12_a2kw" name="nextDesc" xy="414,845" size="193,29" group="n22_a2kw" fontSize="20" color="#9bf452" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="减少怪物的暴击率{value=5}%">
+      <relation target="n21_a2kw" sidePair="left-right"/>
+    </text>
+    <group id="n22_a2kw" name="n22" xy="120,815" size="487,62" group="n23_a2kw" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+      <relation target="n7_a2kw" sidePair="center-center,top-top"/>
+    </group>
+    <text id="n25_a2kw" name="maxLv" xy="233,838" size="57,29" group="n27_a2kw" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=10}">
+      <relation target="n26_a2kw" sidePair="right-left"/>
+    </text>
+    <text id="n26_a2kw" name="maxDesc" xy="293,837" size="193,29" group="n27_a2kw" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="减少怪物的暴击率{value=5}%"/>
+    <group id="n27_a2kw" name="n27" xy="233,837" size="253,30" group="n23_a2kw" advanced="true" layout="hz" colGap="3">
+      <gearDisplay controller="isMax" pages="1"/>
+      <relation target="n7_a2kw" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n19_a2kw" name="cost1" src="a2kwdxyb0" fileName="Component/HolyCost.xml" xy="113,881" group="n24_a2kw"/>
+    <component id="n20_a2kw" name="cost2" src="a2kwdxyb0" fileName="Component/HolyCost.xml" xy="221,881" group="n24_a2kw"/>
+    <group id="n24_a2kw" name="n24" xy="113,881" size="212,32" group="n23_a2kw" advanced="true">
+      <gearDisplay controller="isMax" pages="0"/>
+      <gearDisplay2 controller="hasCtrl" pages="0" condition="0"/>
+      <relation target="n13_a2kw" sidePair="bottom-top"/>
+    </group>
+    <component id="n13_a2kw" name="strongBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="110,913" size="218,84" group="n23_a2kw">
+      <gearDisplay controller="isMax" pages="0"/>
+      <gearLook controller="strongBtnCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearDisplay2 controller="hasCtrl" pages="0" condition="0"/>
+      <Button title="强化" titleFontSize="32" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n14_a2kw" name="downBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="393,913" size="218,84" group="n23_a2kw">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <gearLook controller="downBtnCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="卸下" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n15_a2kw" name="maxBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="110,913" size="218,84" group="n23_a2kw">
+      <gearDisplay controller="isMax" pages="1"/>
+      <gearDisplay2 controller="hasCtrl" pages="0" condition="0"/>
+      <Button title="已满级" titleFontSize="32" icon="ui://5moj1x39f34jdxyb1"/>
+    </component>
+    <component id="n16_a2kw" name="upBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="393,913" size="218,84" group="n23_a2kw">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <gearLook controller="upBtnCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="装备" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n17_a2kw" name="replaceBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="393,913" size="218,84" group="n23_a2kw">
+      <gearDisplay controller="ctrl" pages="2"/>
+      <Button title="替换" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n18_a2kw" name="noBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="110,913" size="218,84" group="n23_a2kw" grayed="true">
+      <gearDisplay controller="hasCtrl" pages="1"/>
+      <Button title="未获取" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <loader id="n38_a2kw" name="n38" xy="16,799" size="688,224" group="n23_a2kw" url="ui://5moj1x39f34jdxyb2" fill="scaleFree">
+      <gearDisplay controller="hasMask" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <group id="n23_a2kw" name="n23" xy="16,750" size="688,273" advanced="true">
+      <relation target="n4_a2kw" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n28_a2kw" name="currency1" src="ozj91l" fileName="Component/Currency.xml" xy="14,14" group="n30_a2kw"/>
+    <component id="n29_a2kw" name="currency2" src="ozj91l" fileName="Component/Currency.xml" xy="196,14" group="n30_a2kw"/>
+    <group id="n30_a2kw" name="n30" xy="14,14" size="352,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n42_a2kw" name="helpBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="643,8" size="64,64">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://5moj1x39f34jdxybu"/>
+    </component>
+  </displayList>
+</component>

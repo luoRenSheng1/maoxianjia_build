@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,32" pivot="0.5,0.5">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="充足"/>
+    <remark page="1" value="不足"/>
+  </controller>
+  <displayList>
+    <loader id="n0_a2kw" name="n0" xy="8,4" size="96,24" url="ui://5moj1x39f34jdxybt" fill="scaleFree"/>
+    <loader id="n1_a2kw" name="icon" xy="0,0" size="32,32" url="ui://0anhreylf34jdxy9n" fill="scaleFree"/>
+    <text id="n2_a2kw" name="num" xy="32,-1" size="71,34" fontSize="24" color="#ffffff" autoSize="shrink" bold="true" strokeColor="#25211d" strokeSize="2" text="2000">
+      <gearColor controller="status" pages="0" values="#ffffff,#25211d" default="#f05769,#25211d"/>
+    </text>
+  </displayList>
+</component>

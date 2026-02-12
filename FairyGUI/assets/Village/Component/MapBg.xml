@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1440,1280">
+  <displayList>
+    <image id="n6_hz54" name="n6" src="hz542i" fileName="Res/newMap/bg.png" xy="0,0" size="1440,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n5_ng62" name="mapList" xy="0,0" size="1440,1280" layout="flow_hz" defaultItem="ui://8glegefcng6228" autoItemSize="true" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item icon="ui://8glegefced9g2n"/>
+      <item icon="ui://8glegefced9g2o"/>
+      <item icon="ui://8glegefced9g2p"/>
+      <item icon="ui://8glegefced9g2q"/>
+    </list>
+    <image id="n7_surf" name="n7" src="surf2r" fileName="Res/newMap/pinjie.png" xy="0,1808" size="1440,310"/>
+  </displayList>
+</component>

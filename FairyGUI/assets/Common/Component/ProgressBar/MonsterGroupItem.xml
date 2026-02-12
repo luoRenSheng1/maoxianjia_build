@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,32" overflow="hidden">
+  <controller name="type" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="头"/>
+    <remark page="1" value="中"/>
+  </controller>
+  <controller name="full" pages="0,,1," selected="1">
+    <remark page="0" value="空"/>
+    <remark page="1" value="满"/>
+  </controller>
+  <displayList>
+    <image id="n0_ecee" name="n0" src="eceedxy1w" fileName="Res/stage/6.png" xy="30,0" scale="0.7,0.7" visible="false">
+      <gearDisplay controller="type" pages="0"/>
+    </image>
+    <image id="n4_hach" name="n4" src="hachdxy7y" fileName="Res/stage/home_state1_bg11.png" xy="4,0">
+      <gearDisplay controller="type" pages="0"/>
+    </image>
+    <image id="n2_mrdw" name="n2" src="eceedxy1y" fileName="Res/stage/6-2.png" xy="30,0" scale="0.7,0.7" visible="false">
+      <gearDisplay controller="type" pages="0"/>
+      <gearDisplay2 controller="full" pages="1" condition="0"/>
+    </image>
+    <image id="n5_hach" name="n5" src="hachdxy80" fileName="Res/stage/home_state1_bg21.png" xy="4,0">
+      <gearDisplay controller="type" pages="0"/>
+      <gearDisplay2 controller="full" pages="1" condition="0"/>
+    </image>
+    <image id="n1_ecee" name="n1" src="eceedxy1x" fileName="Res/stage/6-1.PNG" xy="0,0" size="68,26" scale="0.7,0.7" visible="false">
+      <gearDisplay controller="type" pages="1"/>
+    </image>
+    <image id="n6_hach" name="n6" src="hachdxy7z" fileName="Res/stage/home_state1_bg12.png" xy="0,0">
+      <gearDisplay controller="type" pages="1"/>
+    </image>
+    <component id="n3_mrdw" name="fullBar" src="nnymdxy22" fileName="Component/ProgressBar/MonsterWaveBar.xml" xy="0,0" size="36,32">
+      <gearDisplay controller="type" pages="1"/>
+      <gearDisplay2 controller="full" pages="1" condition="0"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

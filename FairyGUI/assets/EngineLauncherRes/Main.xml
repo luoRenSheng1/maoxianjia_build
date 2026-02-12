@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImageAlpha="100">
+  <controller name="ctrlLoading" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n11_jg6b" name="bg" xy="0,0" size="720,1280" touchable="false" url="ui://n8v1s7mdeizk25" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n22_8bcl" name="titlebg" xy="134,78" size="500,500" touchable="false" url="ui://n8v1s7md8bcl26" fill="scale" clearOnPublish="true"/>
+    <component id="n16_h9ag" name="n16" src="kgyu16" fileName="Component/12+.xml" xy="630,121" group="n17_o49e"/>
+    <component id="n15_h9ag" name="n15" src="kgyu18" fileName="Component/Announcement.xml" xy="0,1140" group="n17_o49e">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </component>
+    <text id="n8_q0wq" name="txtAppVersion" xy="466,30" size="244,39" group="n17_o49e" visible="false" font="Normal" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#361200" strokeSize="2" singleLine="true" autoClearText="true" text="AppVersion:1.0.0"/>
+    <component id="n13_jjkt" name="proLoading" src="leaeu" fileName="Component/LoadingProgress.xml" xy="20,1120" size="680,22" group="n17_o49e" visible="false" touchable="false">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n15_h9ag" sidePair="top-top"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n1_8g86" name="txtTip" xy="360,1100" pivot="0.5,0.5" anchor="true" size="680,39" group="n17_o49e" font="Normal" fontSize="28" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="shrink" singleLine="true" autoClearText="true" text="Loading....">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </text>
+    <group id="n17_o49e" name="n165" xy="0,30" size="720,1199" advanced="true"/>
+    <component id="n19_o49e" name="loadingSpine" src="o49e1u" fileName="Component/loading.xml" xy="281,561">
+      <gearDisplay controller="ctrlLoading" pages="1"/>
+    </component>
+    <component id="n4_porm" name="maintainWindow" src="rqy84" fileName="Component/MaintainWindow.xml" xy="16,386" pivot="0.5,0.5" size="687,406" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_ostt" name="tipWindow" src="ostte" fileName="Component/TipWindow.xml" xy="16,386" size="687,406" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_n896" name="TapSDKPanel" src="n89629" fileName="Component/TapSDKPanel.xml" xy="0,0" size="720,1280" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

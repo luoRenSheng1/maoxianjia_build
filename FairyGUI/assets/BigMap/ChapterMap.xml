@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="showTask" pages="0,,1," selected="0">
+    <remark page="0" value="展示"/>
+    <remark page="1" value="不展示"/>
+  </controller>
+  <controller name="showFucn" pages="0,,1," selected="0">
+    <remark page="0" value="展示"/>
+    <remark page="1" value="不展示"/>
+  </controller>
+  <displayList>
+    <component id="n0_kh6r" name="n0" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" size="720,1153">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n21_osq2" name="n21" xy="0,0" size="720,1153" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n14_wp97" name="panelClip" src="wp974a" fileName="Component/panelClip.xml" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height,left-left,bottom-bottom"/>
+    </component>
+    <component id="n19_i5zg" name="mapEX" src="i5zgid6" fileName="Component/MapEX.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width,height-height,left-left,bottom-bottom"/>
+    </component>
+    <loader id="n15_jbe9" name="n15" xy="0,0" size="720,106" url="ui://pdufy3kejbe9id1" fill="scale">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <component id="n2_kh6r" name="userInfo" src="rx0xo87" fileName="Component/ComUserInfo.xml" pkg="5moj1x39" xy="6,5">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n16_jbe9" name="zhuZaoChuiCur" src="btyu3g" fileName="Component/Extension/BtnCurrency.xml" pkg="0anhreyl" xy="487,15">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n27_llb1" name="n27" src="llb1ihz" fileName="Component/xialaBtn.xml" xy="15,1102">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button checked="true" controller="showTask" page="0"/>
+    </component>
+    <loader id="n30_llb1" name="n30" xy="11,121" size="96,255" group="n36_llb1" url="ui://s7x7ku0na2kwdxyb4" fill="scaleFree">
+      <gearSize controller="showFucn" pages="1" values="96,156,1,1" default="96,255,1,1"/>
+    </loader>
+    <list id="n35_llb1" name="functionList" xy="14,124" size="90,200" group="n36_llb1" overflow="scroll" defaultItem="ui://s7x7ku0nlx83dxxyq">
+      <gearSize controller="showFucn" pages="1" values="90,103,1,1" default="90,200,1,1"/>
+      <relation target="n30_llb1" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n34_llb1" name="funcXialaBtn" src="ozj9dxy5a" fileName="Component/xialaBtn.xml" pkg="s7x7ku0n" xy="42,334" group="n36_llb1">
+      <relation target="n30_llb1" sidePair="center-center,bottom-bottom"/>
+      <Button checked="true" controller="showFucn" page="0"/>
+    </component>
+    <group id="n36_llb1" name="n36" xy="11,121" size="96,255" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n5_9kp7" name="comPandaInfo" src="9kp72c" fileName="Component/ComInfo.xml" xy="11,880" size="298,108" controller="type,0">
+      <gearDisplay controller="showTask" pages="0"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n25_llb1" name="mainComPandaInfo" src="9kp72c" fileName="Component/ComInfo.xml" xy="11,987" controller="type,1">
+      <gearDisplay controller="showTask" pages="0"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n11_gt48" name="comMessage" src="pdpadxxyu" fileName="Component/ComMessage.xml" pkg="s7x7ku0n" xy="122,1102" size="576,44">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n13_x2p0" name="comBuff" src="x2p02e" fileName="Component/ComBuff.xml" xy="126,104">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n29_llb1" name="fightCurStageBtn" src="llb1ijl" fileName="Component/FightCurStageBtn.xml" xy="470,1011">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n3_kh6r" name="cloudPanel" src="kh6r6" fileName="Component/CloudSpine.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_jiq9" name="exitBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="310,1168" size="100,100" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <loader id="n22_ozcv" name="maskBG" xy="0,0" size="720,1280" group="n24_ozcv" touchable="false" url="ui://0anhreyl9piddxy7u" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n23_ozcv" name="LoadTitle" src="kwfmxxne" fileName="Component/ProgressBar/LoadingCircleProgress.xml" pkg="0anhreyl" xy="612,1135" group="n24_ozcv">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n24_ozcv" name="Loading" xy="0,0" size="720,1280" visible="false" advanced="true"/>
+    <loader id="n37_b424" name="video" xy="0,0" size="720,1280" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

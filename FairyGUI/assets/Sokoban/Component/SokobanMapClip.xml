@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden">
+  <displayList>
+    <loader id="n2_llb1" name="n2" xy="-394,-688" size="1509,2656" url="ui://5moj1x39llb1dxyef" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n1_c09a" name="clip" src="osqg1h" fileName="Component/SokobanMapClipPanel.xml" xy="0,-320">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

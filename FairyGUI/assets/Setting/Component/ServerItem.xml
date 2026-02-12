@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="274,51" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="1"/>
+  <displayList>
+    <image id="n1_q36t" name="n1" src="reczdxy2r" fileName="Res/3.png" pkg="0anhreyl" xy="0,0" size="274,51" color="#cccccc">
+      <gearColor controller="button" pages="3" values="#cccccc" default="#ffffff"/>
+    </image>
+    <text id="n0_q36t" name="serverName" xy="6,11" size="259,29" fontSize="20" color="#835c25" align="center" autoSize="none" text="服务器列表项"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

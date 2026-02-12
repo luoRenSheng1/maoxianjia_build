@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,114" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="锁"/>
+    <remark page="1" value="无锁"/>
+  </controller>
+  <controller name="isUse" pages="0,,1," selected="0">
+    <remark page="0" value="未使用"/>
+    <remark page="1" value="使用中"/>
+  </controller>
+  <displayList>
+    <loader id="n13_f34j" name="n13" xy="0,0" size="114,114" url="ui://5moj1x39f34jdxyb6" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n3_baxf" name="icon" xy="11,11" pivot="0.5,0.5" size="92,92" align="center" vAlign="middle" fill="scale"/>
+    <graph id="n10_gssc" name="n10" xy="0,0" size="114,114" alpha="0.85" type="rect" fillColor="#ff333333" corner="10">
+      <gearDisplay controller="status" pages="0"/>
+    </graph>
+    <image id="n14_f34j" name="n14" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="66,0">
+      <gearDisplay controller="status" pages="0"/>
+    </image>
+    <image id="n7_gssc" name="n7" src="p4bn19" fileName="Res/4.png" pkg="5moj1x39" xy="-47,-24" size="208,162">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n15_f34j" name="n15" xy="19,69" size="76,34" fontSize="24" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="3" text="使用中">
+      <gearDisplay controller="isUse" pages="1"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

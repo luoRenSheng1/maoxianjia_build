@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="b8bvql0i">
+  <resources>
+    <image id="r1ah3" name="achievement_icon2.png" path="/Res/"/>
+    <image id="r1ah5" name="achievement_icon11.png" path="/Res/"/>
+    <image id="r1ah6" name="achievement_img11.png" path="/Res/" scale="9grid" scale9grid="17,0,243,18"/>
+    <image id="r1ah7" name="achievement_img12.png" path="/Res/"/>
+    <image id="r1ahb" name="achievement_bg21.png" path="/Res/" scale="9grid" scale9grid="29,29,58,58"/>
+    <image id="r1ahc" name="achievement_bg31.png" path="/Res/"/>
+    <image id="r1ahd" name="achievement_bg221.png" path="/Res/"/>
+    <component id="r1ahh" name="AchievementMain.xml" path="/" exported="true"/>
+    <component id="r1ahi" name="AchievementItem.xml" path="/Component/"/>
+    <component id="rwnpj" name="ItemBtn.xml" path="/Component/"/>
+    <component id="rwnpk" name="GetBtn.xml" path="/Component/"/>
+    <component id="rwnpl" name="Bar.xml" path="/Component/"/>
+    <component id="rwnpm" name="AchievementSelectBtn.xml" path="/Component/"/>
+    <image id="f34jn" name="achievement_bg22.png" path="/Res/" scale="9grid" scale9grid="11,12,28,24"/>
+    <image id="f34jo" name="成就-宠物.png" path="/Res/"/>
+  </resources>
+  <publish name="Achievement" genCode="true"/>
+</packageDescription>

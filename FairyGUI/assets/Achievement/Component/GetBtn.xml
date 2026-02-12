@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="status" pages="0,,1,,4," selected="0">
+    <remark page="0" value="可领取"/>
+    <remark page="1" value="已完成"/>
+    <remark page="2" value="进行中"/>
+  </controller>
+  <displayList>
+    <loader id="n3_rwnp" name="n3" xy="0,0" size="130,84" url="ui://5moj1x39f34jdxy9s" fill="scaleFree">
+      <gearIcon controller="status" pages="0,1,4" values="ui://5moj1x39f34jdxy9s|ui://5moj1x39f34jdxyai|ui://5moj1x39f34jdxy9s"/>
+    </loader>
+    <text id="n4_rwnp" name="n4" xy="23,27" size="84,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#25211d" strokeSize="2" text="领取奖励">
+      <gearText controller="status" pages="1" values="已完成" default="领取奖励"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n5_rwnp" name="n5" xy="105,-9" size="32,32" url="ui://b8bvql0ir1ah3">
+      <gearDisplay controller="status" pages="0"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

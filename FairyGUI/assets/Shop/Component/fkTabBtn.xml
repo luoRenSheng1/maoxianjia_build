@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,72" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="ctrlTitle" exported="true" pages="0,,1,,2," selected="0">
+    <remark page="0" value="第一章"/>
+    <remark page="1" value="第二章"/>
+    <remark page="2" value="第三章"/>
+  </controller>
+  <displayList>
+    <image id="n3_plio" name="bg" src="plio13" fileName="Res/fk1.png" xy="0,0"/>
+    <image id="n5_plio" name="n5" src="plio14" fileName="Res/fk2.png" xy="0,0" size="192,72">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_plio" name="title1" xy="21,6" size="149,44" fontSize="27" color="#643a24" align="center" vAlign="middle" autoSize="none" bold="true" text="第一章">
+      <gearDisplay controller="button" pages="0"/>
+      <gearText controller="ctrlTitle" pages="0,1" values="第一章|第二章" default="第三章"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n6_plio" name="title2" xy="21,7" size="149,44" fontSize="27" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#b6790e" strokeSize="2" text="第一章">
+      <gearDisplay controller="button" pages="1"/>
+      <gearText controller="ctrlTitle" pages="1,2" values="第二章|第三章" default="第一章"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_89ax" name="reddot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="162,-3"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

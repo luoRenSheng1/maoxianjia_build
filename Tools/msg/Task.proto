@@ -1,0 +1,386 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	         
+	       
+	
+
+
+
+// 服务器端主动下发主线任务完成通知
+message MainTaskFinish_PC   //eMsg_MainTaskFinish_PC 			= 652;	
+{
+	optional uint32 finished_task_id = 1;  //完成的任务id
+	optional int64  finished_task_process = 2 ;  //完成的任务id对应的进度
+	//optional uint64 finished_timestamp = 3;  //完成时间戳
+}
+
+
+
+//主线任务进度刷新
+message PlayerMainTaskInfoUpdate_PC {			//[default = eMsg_PlayerMainTaskInfoUpdate_PC    =653]
+	optional uint32  main_task_id = 1 ;  //当前承接的主线任务id， 为0表示没有或都做完了
+	optional int64  main_task_process = 2 ;  //当前承接的主线任务id对应的进度
+}
+
+
+
+//任务完成领取奖励
+message ClaimTaskAward_CS  { //eMsg_ClaimTaskAward_CS = 654;      
+	//optional bool is_watched_ad = 1; //是否看广告   false--没看广告， true--看广告
+}
+
+
+
+//任务完成领取奖励反馈
+message ClaimTaskAward_SC { //eMsg_ClaimTaskAward_SC = 655;     
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 finished_task_id = 2;  //完成的任务id
+	repeated ItemInfo   awards = 5;  //任务奖励
+	optional Finance finance = 6;  //最新账户余额
+
+	optional uint32  next_task_id = 7 ;  //当前承接的主线任务id， 为0表示没有或都做完了
+	optional int64  main_task_process = 8 ;  //当前承接的主线任务id对应的进度
+}
+  
+	
+
+message TaskInfo 
+{			
+	optional uint32  task_id = 1 ;  //任务ID
+	optional int64  task_process = 2 ;  //任务进度，当进度已等于或超过表中配置值后，不会再下发
+	optional bool is_claim_award = 3;  //是否已领取奖励
+}
+
+	
+
+//每日任务信息请求
+message DailyTaskInfo_CS  { //eMsg_DailyTaskInfo_CS = 656;     
+
+}
+
+
+//每日任务信息请求反馈
+message DailyTaskInfo_SC { //eMsg_DailyTaskInfo_SC = 657; 
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated TaskInfo daily_tasks = 2; //每日任务信息
+	optional int64  active_value = 3;  //每日任务活跃值
+	repeated uint32 claimed_active_award_id = 4; //已领取活跃值奖励的id--ActiveGift表的主键
+}
+
+  
+//每日任务进度更新
+message DailyTaskProcess_PC { //eMsg_DailyTaskProcess_PC = 662;  
+	optional TaskInfo daily_task = 1; //当前变更进度任务信息
+	optional int64  active_value = 2;  //每日任务活跃值--在任务完成时会有变动
+}
+
+
+
+	 
+	
+
+
+
+//领取每日任务奖励请求
+message ClaimDailyTaskAward_CS  { //eMsg_ClaimDailyTaskAward_CS = 658;   
+	optional uint32  task_id = 1 ;  //任务ID
+}
+
+
+
+//领取每日任务奖励反馈
+message ClaimDailyTaskAward_SC { //eMsg_ClaimDailyTaskAward_SC = 659;    
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint32 task_id = 2;  //完成的任务id
+	optional ItemInfoWithRandBox   awards = 3;  //任务奖励
+	optional Finance finance = 4;  //最新账户余额
+	optional int64  active_value = 5;  //每日任务活跃值
+}
+                
+	
+	
+	 
+	
+
+//领取每日任务活跃值奖励请求
+//message ClaimDailyTaskActiveAward_CS  { //eMsg_ClaimDailyTaskActiveAward_CS = 660; 
+//	optional uint32  active_award_id = 1 ;  //ActiveGift表的主键
+//}
+
+
+
+//领取每日任务活跃值奖励反馈	
+//message ClaimDailyTaskActiveAward_SC { //eMsg_ClaimDailyTaskActiveAward_SC = 661;  	
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional uint32 active_award_id = 2;  //本次领取的奖励id
+//	optional ItemInfoWithRandBox   awards = 3;  //任务奖励
+//	optional Finance finance = 4;  //最新账户余额
+//}	
+						
+				        
+// 通行证任务相关任务类型
+enum eSubTaskType 
+{
+	eSubTaskType_Normal	= 1;	// 1=正常，
+	eSubTaskType_PayUnlock	= 2;	// 2=付费解锁，
+}
+
+				        
+// 通行证解锁层级
+enum ePassTier
+{
+	ePassTier_Normal	= 0;	// 1=正常，
+	ePassTier_PayUnlock	= 1;	// 2=付费解锁，
+}
+
+
+
+	
+// 通行证任务
+message PassSubTask
+{
+	optional uint32 task_id = 1;  //任务id
+	optional int64  process = 2 ;  //任务id对应的进度
+	optional bool has_claimed = 3; //是否领取
+}
+
+// 通行证
+message PassTask
+{
+	optional uint32 cfg_id = 1;  //本次分配到的配置组id
+	optional int32  unlock_tier = 2 ;  //解锁层级 --默认0只有普通奖励; 1表示已付费解锁
+	optional uint64 start_time = 3;  //开始时间
+	optional uint64 end_time = 4;  //结束时间
+	repeated PassSubTask daily_tasks = 5;  //每日重置任务
+	repeated PassSubTask weekly_tasks = 6;  //每周重置任务
+	optional int32  level = 7;      //通行证等级
+	optional int64  exp = 8;      //通行证经验
+	repeated int32  claimed_plain_awards = 11; //已领取普通奖励的  等级
+	repeated int32  claimed_advanced_awards = 12; //已领取高级奖励的 等级
+	optional int32  counter_after_toplevel = 13;      //满级后未领奖次数
+	optional int32  claimed_counter_after_toplevel = 14;      //满级后已领奖的次数
+}
+
+	
+	
+
+//通行证信息请求
+message PassTaskInfo_CS  { //eMsg_PassTaskInfo_CS = 663;    
+}
+
+
+
+//通行证信息请求反馈
+message PassTaskInfo_SC { //eMsg_PassTaskInfo_SC = 664;  
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional PassTask pass_task = 2;  //通行证信息
+}              
+//通行证信息变更
+message PassTaskInfo_PC { //eMsg_PassTaskInfo_PC = 665; 
+	optional PassTask pass_task = 1;  //通行证信息
+} 
+//通行证相关任务进度变更
+message PassTaskProcess_PC { //eMsg_PassTaskProcess_PC = 666; 
+	optional PassSubTask sub_task = 1;  //任务信息
+} 
+//通行证相关任务完成
+message PassTaskFinish_PC  { //eMsg_PassTaskFinish_PC = 667;  
+	optional PassSubTask sub_task = 1;  //任务信息
+	optional int32  level = 7;      //通行证等级
+	optional int64  exp = 8;      //通行证经验
+	optional int32  counter_after_toplevel = 13;      //满级后未领奖次数
+	optional int32  claimed_counter_after_toplevel = 14;      //满级后已领奖的次数
+}
+            
+//新通行证开始 
+message NewPassTaskInfo_PC { //eMsg_NewPassTaskInfo_PC = 668;  
+	optional PassTask pass_task = 1;  //通行证信息
+} 
+
+
+//当前新通行证结束--目前没这个状态，暂时先定义数据包，未启用
+message PassTaskEnd_PC { //	eMsg_PassTaskEnd_PC = 672;  
+}
+
+//领取通行证奖励请求
+message ClaimPassTaskAward_CS  { //eMsg_ClaimPassTaskAward_CS = 669;  
+	optional bool is_all = 1;  //是否一键领取，如果是true，后续参数无需填写,false的话后续参数要填写
+	optional bool is_over_toplevel = 2; //是否领取超过满级的未领取奖励， 是true---后面的等级 和 区分参数无需填写， false的话，则后续参数要填写
+	optional int32 level = 3; //领取奖励的对应等级
+	optional int32  unlock_tier = 4;  //领取的奖励层级--0是普通层级，1是付费解锁高级
+}
+//领取通行证奖励反馈 
+message ClaimPassTaskAward_SC { //eMsg_ClaimPassTaskAward_SC = 670; 
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果 
+	repeated int32  claimed_plain_awards = 2; //已领取普通奖励的  等级
+	repeated int32  claimed_advanced_awards = 3; //已领取高级奖励的 等级
+	optional int32  counter_after_toplevel = 4;      //满级后未领奖次数
+	optional int32  claimed_counter_after_toplevel = 5;      //满级后已领奖的次数
+	optional ItemInfoWithRandBox   awards = 6;  //任务奖励
+	optional Finance finance = 7;  //最新账户余额
+
+} 
+
+
+	
+//付费解锁高级奖励
+message PayUnlockAdvance_PC  { //eMsg_PayUnlockAdvance_PC = 671;  
+	optional int32  level = 1;      //通行证等级
+	optional int64  exp = 2;      //通行证经验
+	optional int32  counter_after_toplevel = 3;      //满级后未领奖次数
+	optional int32  claimed_counter_after_toplevel = 4;      //满级后已领奖的次数
+	optional int32  unlock_tier = 5 ;  //解锁层级 --默认0只有普通奖励; 1表示已付费解锁
+}
+
+
+
+
+//领取通行证子任务经验值
+message ClaimPassSubTaskExp_CS  { //eMsg_ClaimPassSubTaskExp_CS = 673;  
+    optional int32 sub_task_id = 1;  //要领取经验值的任务 id
+}
+
+//领取通行证子任务经验值反馈
+message ClaimPassSubTaskExp_SC { //	eMsg_ClaimPassSubTaskExp_SC = 674; 
+
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果 
+    optional PassSubTask sub_task = 2;  //本次领取经验值的任务
+	optional int64  claimed_exp = 3;   //本次领取的经验
+	optional int32  level = 7;      //最新通行证等级
+	optional int64  exp = 8;      //最新通行证经验
+	optional int32  counter_after_toplevel = 13;      //最新满级后未领奖次数
+	optional int32  claimed_counter_after_toplevel = 14;      //最新满级后已领奖的次数
+}
+
+	
+	
+//接受委托任务
+message AcceptNPCTask_CS   //eMsg_AcceptNPCTask_CS = 675; 
+{
+    optional  uint32 task_id = 1;				//配置表中任务id
+	optional  uint64 event_guid = 2; //event guid
+} 
+
+//接受委托任务反馈
+message AcceptNPCTask_SC   //eMsg_AcceptNPCTask_SC = 676; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional  NpcTask npc_task = 2;				//任务信息
+	
+	optional  uint64 event_guid = 3; //event guid
+	optional BatchStuff batch_stuff = 4; //随机事件内部道具或事件数据   //刷新下事件内的任务状态
+} 
+	
+//任务进度与状态更新
+message UpdateNPCTask_PC   //eMsg_UpdateNPCTask_PC = 677; 
+{
+    optional  NpcTask npc_task = 1;				//任务信息
+}
+    
+    
+    
+    
+    
+    
+	
+	
+//领取委托任务奖励
+message ClaimNPCTaskAward_CS   //eMsg_ClaimNPCTaskAward_CS = 678; 
+{
+    optional  uint32 task_id = 1;				//配置表中任务id
+} 
+
+ //领取委托任务奖励反馈
+message ClaimNPCTaskAward_SC   //eMsg_ClaimNPCTaskAward_SC = 679;
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional  NpcTask npc_task = 2;				//任务信息
+	optional ItemInfoWithRandBox reward_items = 3;  //奖励
+	optional Finance finance = 4;  //最新账户余额
+	optional uint64 npc_task_points = 5;  //最新账户npc积分
+	optional FinishEvent finish_event_info = 6; //完成随机事件信息更新
+	optional  uint64 event_guid = 7; //event guid    ---- 如果过期了找不到，客户端就不处理
+	optional BatchStuff batch_stuff = 8; //随机事件内部道具或事件数据   //刷新下事件内的任务状态  ---- 如果过期了找不到，客户端就不处理
+} 
+
+//放弃进行中的委托任务
+message DropNPCTask_CS  //eMsg_DropNPCTask_CS = 680; 
+{
+    optional  uint32 task_id = 1;				//配置表中任务id
+} 
+
+//放弃进行中的委托任务反馈
+message DropNPCTask_SC   //eMsg_DropNPCTask_SC = 681; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional  uint32 task_id = 2;				//配置表中任务id
+	optional  uint64 event_guid = 3; //event guid ---- 如果过期了找不到，客户端就不处理
+	optional BatchStuff batch_stuff = 4; //随机事件内部道具或事件数据   //刷新下事件内的任务状态  ---- 如果过期了找不到，客户端就不处理
+} 
+
+
+//上供完成任务
+message OfferItem4Task_CS   //eMsg_OfferItem4Task_CS = 686;  
+{
+    optional  uint32 task_id = 1;				//配置表中任务id
+	optional  eTaskType task_type = 2;  //任务类型
+}
+
+
+ //上供完成任务反馈
+message OfferItem4Task_SC   //eMsg_OfferItem4Task_SC = 687;  
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+    optional  uint32 task_id = 2;				//配置表中任务id
+	optional  eTaskType task_type = 3;  //任务类型
+	optional Finance finance = 4;  //最新账户余额
+	repeated ItemInfo cost_items = 5;  //上供消耗的道具
+}
+
+	
+	
+	
+//刷新npc任务
+message ShuffleNpcTasks_CS   //eMsg_ShuffleNpcTasks_CS = 682; 
+{
+	optional  uint64 event_guid = 2; //event guid
+} 
+
+//刷新npc反馈
+message ShuffleNpcTasks_SC   //eMsg_ShuffleNpcTasks_SC = 683; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional  uint64 event_guid = 2; //event guid
+	optional RandomEvent random_event = 3; //最新随机事件信息
+	optional Finance finance = 4;  //最新账户余额
+} 
+
+	
+	
+
+//兑换npc积分道具
+message ExchangeItemByNPCPoints_CS   //eMsg_ExchangeItemByNPCPoints_CS = 684; 
+{
+	optional  uint32 store_id = 2; //event store表中的主id
+	optional  uint32 amount = 1; //兑换道具数量
+} 
+
+//兑换npc积分道具反馈
+message ExchangeItemByNPCPoints_SC   //eMsg_ExchangeItemByNPCPoints_SC = 685; 
+{
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	optional uint64 npc_points = 2; //最新账户积分
+	optional ItemInfoWithRandBox reward_items = 3;  //兑换道具
+	optional NpcTaskExchangeItemsInfo exchange_item_info = 4; //最新随机事件信息
+	optional Finance finance = 5;  //最新账户余额
+	optional  uint32 store_id = 6; //event store表中的主id
+	optional  uint32 amount = 7; //兑换道具数量
+} 
+
+
+

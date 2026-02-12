@@ -1,0 +1,111 @@
+syntax = "proto2";
+import "Enum.proto";
+import "ErrCode.proto";
+package msg;
+
+//账号验证
+message AccountCheck_CS {		//[default = eMsg_AccountCheck_CS]
+	optional uint64 user_id = 1;			//userid ---废弃，无用
+	optional string user_name = 2;      //用户名--内部测试， 外部发行--平台玩家唯一字符串
+	optional string user_psw = 3;            //用户密码，//暂时无用
+	optional string	game_id = 4;  		//游戏ID---暂时没用
+	optional string	version = 5;  //客户端版本号---暂时没用
+	optional int32  publisher_id = 6; //渠道id  ,详见枚举  ePublisher
+	optional int32  platform = 7; //平台  ios 或 android 目前没用 ,详见枚举  ePlatorm
+}
+
+//帐号验证回复
+message AccountCheck_SC {		//[default = eMsg_AccountCheck_SC]
+	optional int32  port = 1;			//端口
+	optional string ip = 2;				//IP
+	optional string check_code = 3; 	//校验码
+	optional eErrCode result = 4;
+	optional string ip_url = 5;			//IP：url格式（苹果需要，先用此url解析，如果url为空再用ip）
+	optional uint64 server_version = 6;	//服务器下发 暂时没用：服务器版本号，下次断线重连时填入AccountCheck_CS.server_version
+	optional uint64 user_id = 7;			//userid 服务器端验证返回的userid
+}
+
+//请求登入
+message PlayerLogin_CS {		//[default = eMsg_PlayerLogin_CS];
+	optional uint64			user_id = 1;			//服务器端验证返回的userid
+	optional string			check_out_code = 2;	//校验码
+	optional string			version = 3;  		//版本号 ---暂时没用
+	optional string			game_id = 5;  		//游戏ID ---暂时没用
+
+	optional int32			auth_status = 6;	// 实名认证状态(0无需认证;1认证通过;2需认证的游客用户;3认证中)(有接入实名认证系统时必传,客户端通过SDK获取。未接入的话传0)
+	optional string			udid = 7;			// 设备标识(客户端通过SDK获取)
+	optional string			pi = 8;				// 实名认证用户标识(有接入实名认证系统,认证通过时返回的pi值,客户端通过SDK获取。未接入或者非认证通过的话传空字符串)
+}
+
+//请求登入反馈
+message PlayerLogin_SC {		//[default = eMsg_PlayerLogin_SC];
+	optional eErrCode result = 1;
+}
+
+
+//登陆结束协议
+message LoginFinish_CS {		//[default = eMsg_LoginFinish_CS];
+}
+
+//登陆结束协议反馈
+message LoginFinish_SC {		//[default = eMsg_LoginFinish_SC];
+}
+
+//登陆结束协议-进入主UI
+message LoginFinish_MainUI_CS {		//[default = eMsg_LoginFinish_MainUI_CS];
+}
+
+//登陆结束协议-进入主UI反馈
+message LoginFinish_MainUI_SC {		//[default = eMsg_LoginFinish_MainUI_SC];
+}
+
+
+// 客户端启动阶段结束协议(client->gate)
+message ClientReady_CS {
+}
+
+// 客户端启动阶段结束协议反馈
+message ClientReady_SC {
+}
+
+//Dh握手：服务端发往客户端(网络层处理)
+message Dh_Shakehand_SC {		//[default = eMsg_Dh_Shakehand_SC];
+	optional bytes			data = 1;  		//握手数据
+}
+
+//Dh握手：客户端发往服务端(网络层处理)
+message Dh_Shakehand_CS {		//[default = eMsg_Dh_Shakehand_CS];
+	optional bytes			data = 1;  		//握手数据
+}
+
+// 查询是否有绑过内测验证码
+message Query_Login_Code_CS {		//[default = eMsg_Query_Login_Code_CS];
+	optional uint64			user_id = 1;			//user_id
+}
+
+// 查询是否有绑过内测验证码回复
+message Query_Login_Code_SC {		//[default = eMsg_Query_Login_Code_SC];
+	optional uint64			user_id = 1;			//user_id
+	optional string			login_code = 2;		//已绑定的内测验证码
+	optional eErrCode		err_code = 3;		//eErrCode_Success:已绑过内测验证码，其他：未绑过内测验证码
+	
+	optional uint32			code_flag = 4;		//是否需要验证码登录：0-不需要验证码，1-需要绑定验证码才能登录
+}
+
+// 绑定内测验证码
+message Bind_Login_Code_CS {		//[default = eMsg_Bind_Login_Code_CS];
+	optional uint64			user_id = 1;			//user_id
+	optional string			login_code = 2;		//内测验证码
+}
+
+// 绑定内测验证码回复
+message Bind_Login_Code_SC {		//[default = eMsg_Bind_Login_Code_SC];
+	optional uint64			user_id = 1;			//user_id
+	optional string			login_code = 2;		//内测验证码
+	optional eErrCode		err_code = 3;
+}
+
+// 会话id，服务器下发，用于客户端上报后台
+message Login_Session_ID_PC {		//[default = eMsg_Login_Session_ID_PC];
+	optional string			session_id = 1;			// 会话id
+}

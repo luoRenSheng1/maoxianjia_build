@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,200" pivot="0.5,0.5" anchor="true" opaque="false">
+  <controller name="ctrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+    <remark page="2" value="上"/>
+  </controller>
+  <displayList>
+    <image id="n10_ki3v" name="n10" src="ki3vdxyhw" fileName="Res/guideRes/guide_bg01.png" xy="14,1"/>
+    <text id="n9_ua62" name="txt" xy="222,67" size="384,79" fontSize="20" color="#4c2911" vAlign="middle" leading="1" letterSpacing="2" vars="true" autoSize="none" bold="true" text="重点是放假啦快速减肥重点是放假啦快速减肥重点是放假啦快速减肥重点是放假啦快速减肥">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <graph id="n12_b424" name="npc" xy="119,146" size="46,40"/>
+    <component id="n14_hwk1" name="skip" src="p9n0dxy87" fileName="Component/comBtn.xml" pkg="5moj1x39" xy="605,78" size="80,56">
+      <Button title="跳过" titleFontSize="20" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+  </displayList>
+</component>

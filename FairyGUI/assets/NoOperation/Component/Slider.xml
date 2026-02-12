@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,108" extention="Slider">
+  <displayList>
+    <image id="n0_uobv" name="n0" src="yd2h6" fileName="Res/1.png" xy="0,-17" size="720,145">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n1_uobv" name="bar" xy="33,0" size="653,104" fillColor="#ff999999"/>
+    <loader id="n3_v51s" name="A1" xy="453,-17" size="89,143" group="n7_v51s" touchable="false" url="ui://88ncwg57yd2h5" fill="scaleFree"/>
+    <loader id="n4_v51s" name="A2" xy="602,-17" size="89,143" group="n7_v51s" touchable="false" url="ui://88ncwg57yd2h5" fill="scaleFree"/>
+    <loader id="n5_v51s" name="A3" xy="155,-17" size="89,143" group="n7_v51s" touchable="false" url="ui://88ncwg57yd2h5" fill="scaleFree"/>
+    <loader id="n6_v51s" name="A4" xy="304,-17" size="89,143" group="n7_v51s" touchable="false" url="ui://88ncwg57yd2h5" fill="scaleFree"/>
+    <group id="n7_v51s" name="groupArrow" xy="155,-17" size="536,143" advanced="true"/>
+    <loader id="n2_uobv" name="grip" xy="686,-23" size="193,156" url="ui://88ncwg57yd2h5" fill="scale">
+      <relation target="n1_uobv" sidePair="right-right"/>
+    </loader>
+  </displayList>
+  <Slider changeOnClick="false"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n2_uobv" tween="true" startValue="1" endValue="0.5" duration="24" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="0" type="Alpha" target="n3_v51s" tween="true" startValue="1" endValue="0.5" duration="24"/>
+    <item time="0" type="Alpha" target="n4_v51s" tween="true" startValue="1" endValue="0.5" duration="24"/>
+    <item time="0" type="Alpha" target="n5_v51s" tween="true" startValue="1" endValue="0.5" duration="24"/>
+    <item time="0" type="Alpha" target="n6_v51s" tween="true" startValue="1" endValue="0.5" duration="24"/>
+  </transition>
+</component>

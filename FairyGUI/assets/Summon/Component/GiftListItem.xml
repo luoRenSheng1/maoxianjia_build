@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="697,337">
+  <controller name="bgCtrl" pages="0,英雄相关,1,物品类,2,宠物类,3,技能类" selected="0"/>
+  <controller name="limitCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不限购"/>
+    <remark page="1" value="限购"/>
+  </controller>
+  <displayList>
+    <loader id="n0_ftc9" name="n0" xy="7,8" size="680,328" url="ui://i7ojazuuftc92d" fill="scaleFree">
+      <gearIcon controller="bgCtrl" pages="0,1,3" values="ui://i7ojazuuftc92d|ui://i7ojazuuftc92f|ui://i7ojazuuftc92a" default="ui://i7ojazuuftc92g"/>
+    </loader>
+    <image id="n1_ftc9" name="n1" src="ftc92c" fileName="Res/gift/nn 722.png" xy="0,8"/>
+    <text id="n4_ftc9" name="nameLb" xy="18,18" size="249,44" fontSize="32" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#4a3c35" strokeSize="2" text="史诗英雄礼包"/>
+    <text id="n5_ftc9" name="limitLb" xy="82,69" size="128,33" fontSize="23" color="#ffffff" align="center" vars="true" strokeColor="#4a3c35" text="限购（{cur=1}/{total=1}）">
+      <gearDisplay controller="limitCtrl" pages="1"/>
+    </text>
+    <image id="n13_ftc9" name="n13" src="ftc92h" fileName="Res/gift/nn 1031.png" xy="338,95">
+      <gearDisplay controller="bgCtrl" pages="3"/>
+    </image>
+    <image id="n6_ftc9" name="n6" src="ftc92b" fileName="Res/gift/nn 515.png" xy="423,25" size="161,32" group="n9_ftc9"/>
+    <image id="n7_ftc9" name="n7" src="ofkodxy2u" fileName="Res/11.PNG" pkg="0anhreyl" xy="433,19" group="n9_ftc9"/>
+    <text id="n8_ftc9" name="timeLb" xy="475,25" size="98,33" group="n9_ftc9" fontSize="23" color="#ffffff" align="center" autoSize="none" strokeColor="#4a3c35" text="22:59:00"/>
+    <group id="n9_ftc9" name="n9" xy="423,19" size="161,43" advanced="true">
+      <gearDisplay controller="limitCtrl" pages="1"/>
+    </group>
+    <image id="n16_ftc9" name="n16" src="ftc92e" fileName="Res/gift/nn 1012.png" xy="371,68">
+      <gearDisplay controller="bgCtrl" pages="1"/>
+    </image>
+    <loader id="n15_ftc9" name="itemIcon" xy="412,113" pivot="0.5,0.5" size="102,95" fill="scale">
+      <gearDisplay controller="bgCtrl" pages="1,3"/>
+    </loader>
+    <graph id="n11_ftc9" name="spine" xy="410,179" pivot="0.5,1" size="100,100">
+      <gearDisplay controller="bgCtrl" pages="0,2"/>
+    </graph>
+    <component id="n10_ftc9" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="508,240" size="153,63"/>
+    <list id="n12_ftc9" name="rewardList" xy="39,110" size="241,195" overflow="scroll" scrollBarFlags="128" lineGap="9" defaultItem="ui://i7ojazuuftc92o" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2_ftc9" name="n2" src="ftc928" fileName="Res/gift/ddgggh.png" xy="603,0" group="n14_ftc9"/>
+    <text id="n3_ftc9" name="rebate" xy="627,11" pivot="0.5,0.5" size="55,56" group="n14_ftc9" rotation="15" fontSize="20" color="#ffeda4" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#bb5800" strokeSize="2" text="{value=600}%&#xA;返利"/>
+    <group id="n14_ftc9" name="n14" xy="603,0" size="95,88"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n15_ftc9" tween="true" startValue="412,113" endValue="403,100" duration="24" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="24" type="XY" target="n15_ftc9" tween="true" startValue="403,100" endValue="412,113" duration="24" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="stateType" pages="0,,1,,2," selected="2">
+    <remark page="0" value="没有领取奖励"/>
+    <remark page="1" value="有奖励未领取"/>
+    <remark page="2" value="有奖励已领取"/>
+  </controller>
+  <displayList>
+    <component id="n18_f34j" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n13_ju03" name="n13" xy="16,334" size="688,612" group="n9_jmb9" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <image id="n16_f34j" name="n16" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="40,447" size="640,160" group="n9_jmb9">
+      <gearSize controller="stateType" pages="0" values="640,349,1,1" default="640,160,1,1"/>
+    </image>
+    <text id="n2_jmb9" name="titleLb" xy="148,353" size="423,44" group="n9_jmb9" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="每日任务奖励补发">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_jmb9" name="n3" xy="60,460" size="148,34" group="n9_jmb9" fontSize="24" color="#4c2911" align="center" bold="true" text="各位冒险家："/>
+    <text id="n4_jmb9" name="contentLb" xy="62,504" size="595,97" group="n9_jmb9" fontSize="24" color="#4c2911" autoSize="none" bold="true" text="        您上次的日常任务奖励忘记领取了。现已通关邮件发送，请查收">
+      <gearSize controller="stateType" pages="0" values="595,277,1,1" default="595,97,1,1"/>
+    </text>
+    <component id="n7_jmb9" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,826" size="218,84" group="n9_jmb9">
+      <gearDisplay controller="stateType" pages="1"/>
+      <Button title="领取" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <text id="n10_jmb9" name="endTimeLb" xy="537,809" size="143,34" group="n9_jmb9" fontSize="24" color="#4c2911" align="center" vars="true" autoSize="none" bold="true" text="{value=7}天后到期"/>
+    <component id="n11_oekv" name="delBtn1" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="423,846" size="218,84" group="n9_jmb9">
+      <gearDisplay controller="stateType" pages="0"/>
+      <gearXY controller="stateType" pages="0,1" values="251,826|423,846" default="423,846"/>
+      <Button title="删除" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <image id="n17_f34j" name="n17" src="f34jdxybf" fileName="Res/newItem2/setout_bg2.png" pkg="5moj1x39" xy="40,624" size="640,184" group="n12_oekv"/>
+    <text id="n5_jmb9" name="n5" xy="310,636" size="100,34" group="n12_oekv" fontSize="24" color="#4c2911" bold="true" text="获得奖励">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n6_jmb9" name="rewardList" xy="141,702" size="437,81" group="n12_oekv" layout="row" overflow="scroll" colGap="10" defaultItem="ui://5moj1x39ewjfdxy22" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n12_oekv" name="n12" xy="40,624" size="640,184" group="n9_jmb9" advanced="true">
+      <gearDisplay controller="stateType" pages="1,2"/>
+    </group>
+    <component id="n15_sylb" name="delBtn2" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,826" size="218,84" group="n9_jmb9">
+      <gearDisplay controller="stateType" pages="2"/>
+      <Button title="删除" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <group id="n9_jmb9" name="n9" xy="16,334" size="688,612" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

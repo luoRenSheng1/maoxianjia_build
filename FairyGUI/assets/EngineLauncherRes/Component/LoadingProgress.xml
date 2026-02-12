@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="39,22" extention="ProgressBar">
+  <displayList>
+    <image id="n0_j8q2" name="n0" src="leaev" fileName="Res/LoadingJingDu01.png" xy="0,0" size="39,22">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_j8q2" name="bar" src="leaew" fileName="Res/LoadingJingDu02.png" xy="5,5" size="29,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

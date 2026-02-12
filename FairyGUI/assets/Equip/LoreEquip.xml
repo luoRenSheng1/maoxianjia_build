@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlef8udxyao" designImageAlpha="0">
+  <displayList>
+    <loader id="n3_ef8u" name="n3" xy="0,0" size="720,1149" url="ui://5moj1x39f34jdxyb8" fill="scaleFree">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </loader>
+    <loader id="n20_ga86" name="n20" xy="0,0" size="720,424" url="ui://ddc23erlga86dxybs">
+      <relation target="" sidePair="width-width,top-top"/>
+    </loader>
+    <loader3D id="n19_ga86" name="n19" xy="253,136" size="100,100" url="ui://ddc23erlga86dxybr" animation="Equip_sqcc" skin="" loop="true">
+      <relation target="n20_ga86" sidePair="left-left,top-top"/>
+    </loader3D>
+    <component id="n4_ef8u" name="goldCur" src="ef8udxyau" fileName="Component/EquipCurrency.xml" xy="48,14" group="n6_ef8u"/>
+    <component id="n5_ef8u" name="diaCur" src="ef8udxyau" fileName="Component/EquipCurrency.xml" xy="212,14" group="n6_ef8u"/>
+    <group id="n6_ef8u" name="n6" xy="48,14" size="301,50" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <list id="n17_ef8u" name="upLoreList" xy="95,92" size="530,278" visible="false" layout="flow_hz" lineGap="50" colGap="300" defaultItem="ui://ddc23erlef8udxyaw">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_ef8u" name="loreEquip0" src="ef8udxyaw" fileName="Component/LoreEquipItem.xml" xy="305,79" group="n16_ef8u"/>
+    <component id="n13_ef8u" name="loreEquip1" src="ef8udxyaw" fileName="Component/LoreEquipItem.xml" xy="141,181" group="n16_ef8u"/>
+    <component id="n14_ef8u" name="loreEquip2" src="ef8udxyaw" fileName="Component/LoreEquipItem.xml" xy="467,181" group="n16_ef8u"/>
+    <component id="n15_ef8u" name="loreEquip3" src="ef8udxyaw" fileName="Component/LoreEquipItem.xml" xy="305,276" group="n16_ef8u"/>
+    <group id="n16_ef8u" name="n16" xy="141,79" size="440,311" advanced="true">
+      <relation target="n20_ga86" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n7_ef8u" name="n7" xy="0,485" size="720,661" url="ui://ddc23erlef8udxyad" fill="scaleFree">
+      <relation target="" sidePair="width-width,top-top,bottomext-bottom"/>
+    </loader>
+    <loader id="n0_ef8u" name="n0" xy="-5,424" size="730,70" group="n2_ef8u" url="ui://5moj1x39f34jdxya2" fill="scaleFree">
+      <relation target="n7_ef8u" sidePair="top-top"/>
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n1_ef8u" name="n1" xy="274,435" size="172,39" group="n2_ef8u" fontSize="28" color="#fee7aa" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="传承装备列表">
+      <relation target="n0_ef8u" sidePair="center-center,top-top"/>
+    </text>
+    <group id="n2_ef8u" name="n2" xy="-5,424" size="730,70"/>
+    <loader id="n8_ef8u" name="n8" xy="16,511" size="688,397" group="n10_ef8u" url="ui://ddc23erlef8udxya1" fill="scaleFree">
+      <relation target="n7_ef8u" sidePair="height-height,bottom-bottom"/>
+    </loader>
+    <loader id="n18_ga86" name="vacancyBg" xy="168,523" size="375,373" group="n10_ef8u" url="ui://ddc23erlga86dxybk" align="center" vAlign="middle">
+      <relation target="n8_ef8u" sidePair="center-center,middle-middle"/>
+    </loader>
+    <list id="n9_ef8u" name="loreEquipList" xy="35,529" size="650,361" group="n10_ef8u" layout="flow_hz" overflow="scroll" lineGap="20" colGap="20" defaultItem="ui://ddc23erlef8udxyaw">
+      <relation target="n8_ef8u" sidePair="height-height,center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n10_ef8u" name="n10" xy="16,511" size="688,397"/>
+    <component id="n11_ef8u" name="recycleBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,930" size="218,84">
+      <relation target="n7_ef8u" sidePair="center-center,bottom-bottom"/>
+      <Button title="一键回收" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+  </displayList>
+</component>

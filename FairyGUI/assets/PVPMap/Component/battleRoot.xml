@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,400" opaque="false">
+  <displayList>
+    <component id="n4_wrej" name="bg" src="qc4n8" fileName="Component/battleBg.xml" xy="0,0" size="720,210" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_f646" name="scene" src="qc4nb" fileName="Component/battleScene.xml" xy="0,29" size="720,415">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+    <image id="n19_ozj9" name="n19" src="auqc1z" fileName="Res/cgfj2fg6j256fg.png" xy="-15,573" size="744,615">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n13_w02n" name="comSkills" src="pdpadxxz6" fileName="Component/ComSkills.xml" pkg="s7x7ku0n" xy="41,535">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <image id="n20_auqc" name="n20" src="auqc1y" fileName="Res/dfsghdf4hg56.png" xy="354,711" size="11,350"/>
+    <component id="n21_auqc" name="myFightLb" src="isqldxy4k" fileName="Component/fightComSmall.xml" pkg="5moj1x39" xy="70,882"/>
+    <component id="n22_auqc" name="otherFightLb" src="isqldxy4k" fileName="Component/fightComSmall.xml" pkg="5moj1x39" xy="455,882"/>
+    <image id="n23_auqc" name="n23" src="qc4nv" fileName="Res/nlock.png" xy="67,541"/>
+  </displayList>
+  <transition name="loopEff" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

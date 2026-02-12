@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="disableCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不灰"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="ctrlQuality" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="hasCount" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <displayList>
+    <component id="n10_q30a" name="itemCom" src="ewjfdxy22" fileName="Component/ItemCom.xml" xy="21,21" pivot="0.5,0.5" scale="1.36,1.36">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

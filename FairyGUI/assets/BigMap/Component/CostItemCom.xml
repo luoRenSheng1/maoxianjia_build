@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,40">
+  <controller name="stautsCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="充足"/>
+    <remark page="1" value="不足"/>
+  </controller>
+  <displayList>
+    <loader id="n1_tdju" name="n1" xy="12,8" size="120,24" url="ui://5moj1x39f34jdxyap" fill="scaleFree">
+      <relation target="" sidePair="middle-middle,left-left"/>
+      <relation target="n2_tdju" sidePair="width-width"/>
+    </loader>
+    <loader id="n0_tdju" name="icon" xy="0,0" size="40,40" url="ui://0anhreylf34jdxy9n" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n2_tdju" name="num" xy="40,3" size="76,34" fontSize="24" color="#f05769" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="{total=5566}/{cost=1}">
+      <gearColor controller="stautsCtrl" pages="1" values="#f05769,#000000" default="#ffffff,#000000"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+  <relation target="n1_tdju" sidePair="width-width"/>
+</component>

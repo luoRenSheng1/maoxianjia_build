@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,44">
+  <displayList>
+    <text id="n0_p2jc" name="attrValue" xy="144,0" size="311,44" fontSize="32" color="#4c2911" align="center" vAlign="middle" vars="true" bold="true" text="{name=角色攻击力提升}+{value=30%}">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

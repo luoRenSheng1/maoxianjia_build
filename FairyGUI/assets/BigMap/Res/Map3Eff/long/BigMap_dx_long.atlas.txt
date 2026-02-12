@@ -1,0 +1,30 @@
+BigMap_dx_long.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+biyan
+	bounds: 2, 120, 119, 58
+	offsets: 1, 1, 121, 60
+shenti
+	bounds: 2, 591, 641, 410
+tou
+	bounds: 591, 22, 283, 200
+yanjin
+	bounds: 889, 771, 114, 55
+	offsets: 2, 1, 117, 57
+	rotate: 90
+yinying
+	bounds: 645, 224, 777, 242
+	offsets: 2, 8, 782, 258
+	rotate: 90
+youshou
+	bounds: 889, 887, 112, 114
+zuochi
+	bounds: 2, 180, 587, 409
+
+BigMap_dx_long_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+youchibang
+	bounds: 2, 426, 666, 242

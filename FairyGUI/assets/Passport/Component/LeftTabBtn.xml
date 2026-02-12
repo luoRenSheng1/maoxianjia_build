@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="328,70" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <text id="n1_r0ab" name="n1" xy="60,11" size="208,47" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="通行证奖励">
+      <gearColor controller="button" pages="2" values="#ffffff,#000000" default="#ffffff,#9c4819"/>
+    </text>
+    <component id="n3_89ax" name="reddot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="308,-13"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

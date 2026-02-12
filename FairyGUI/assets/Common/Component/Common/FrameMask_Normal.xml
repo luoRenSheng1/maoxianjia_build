@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="alphaType" exported="true" pages="1,,0," selected="0">
+    <remark page="0" value="潜"/>
+    <remark page="1" value="深"/>
+  </controller>
+  <displayList>
+    <graph id="n153_vbgf" name="frame" xy="0,0" size="720,1280" alpha="0.8" type="rect" fillColor="#ff333333">
+      <gearColor controller="alphaType" pages="0" values="#000000" default="#333333"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

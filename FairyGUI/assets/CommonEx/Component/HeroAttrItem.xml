@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="156,48" extention="Label" bgColor="#000000">
+  <controller name="attrType" exported="true" pages="11,攻击,12,生命,13,爆击,14,爆伤" selected="0"/>
+  <displayList>
+    <loader id="n3_mtms" name="n3" xy="16,8" size="140,32" url="ui://5moj1x39f34jdxyap" fill="scaleFree"/>
+    <loader id="n1_ddc1" name="icon" xy="0,0" size="48,48" url="ui://s7x7ku0nnjebdxy7l" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="attrType" pages="11,12,13,14" values="ui://s7x7ku0nnjebdxy7l|ui://s7x7ku0nnjebdxy6s|ui://s7x7ku0nnjebdxy6q|ui://s7x7ku0nnjebdxy6r"/>
+      <relation target="n3_mtms" sidePair="left-left"/>
+    </loader>
+    <text id="n2_ddc1" name="title" xy="49,7" size="97,34" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="999">
+      <relation target="n3_mtms" sidePair="left-left"/>
+    </text>
+  </displayList>
+</component>

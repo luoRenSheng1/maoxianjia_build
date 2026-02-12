@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <image id="n0_du07" name="bg" src="gx0idxy35" fileName="Res/UI-03.png" xy="216,92" visible="false"/>
+    <text id="n1_du07" name="content" xy="285,101" size="154,35" fontSize="25" color="#ff0000" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="这是一条公告">
+      <relation target="n0_du07" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

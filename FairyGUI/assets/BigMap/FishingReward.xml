@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://pdufy3keka12igt">
+  <controller name="status" pages="0,,1," selected="1">
+    <remark page="0" value="领取"/>
+    <remark page="1" value="再次垂钓"/>
+  </controller>
+  <displayList>
+    <component id="n5_ka12" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_ka12" name="n0" xy="16,206" size="688,754" group="n6_ga86" url="ui://5moj1x39ka12dxyd7" fill="scaleFree"/>
+    <text id="n1_ka12" name="n1" xy="294,431" size="132,44" group="n6_ga86" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="垂钓获得">
+      <relation target="n0_ka12" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n2_ka12" name="n2" xy="40,557" size="640,264" group="n6_ga86" url="ui://5moj1x39f34jdxyae" fill="scaleFree">
+      <relation target="n0_ka12" sidePair="center-center,top-top"/>
+    </loader>
+    <list id="n3_ka12" name="rewardList" xy="58,578" size="466,182" group="n6_ga86" scale="1.3,1.3" layout="flow_hz" overflow="scroll" lineGap="17" colGap="17" defaultItem="ui://5moj1x39ewjfdxy22" align="center">
+      <relation target="n2_ka12" sidePair="left-left,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_ka12" name="getRewardBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,847" size="218,84" group="n6_ga86">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n0_ka12" sidePair="center-center,bottom-bottom"/>
+      <Button title="领取" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n7_ga86" name="againFishingBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,848" size="218,84" group="n6_ga86">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="n0_ka12" sidePair="center-center,bottom-bottom"/>
+      <Button title="再次垂钓" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n6_ga86" name="n6" xy="16,206" size="688,754" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

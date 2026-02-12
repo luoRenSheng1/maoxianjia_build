@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://lxs2h4iff34jdxy8y">
+  <controller name="typeCtrl" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="详情"/>
+    <remark page="1" value="上阵"/>
+    <remark page="2" value="天赋"/>
+    <remark page="3" value="宠物书"/>
+  </controller>
+  <displayList>
+    <component id="n16_oo1w" name="petDetail" src="s444c" fileName="PetSystemDetail.xml" xy="0,0">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </component>
+    <loader id="n21_f34j" name="n21" xy="0,1041" size="720,115" group="n2_ozj9" url="ui://5moj1x39f34jdxybb" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <list id="n1_ozj9" name="tabList" xy="0,1059" size="720,70" group="n2_ozj9" layout="row" colGap="8" defaultItem="ui://5moj1x39p4bnc" autoItemSize="false" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+      <item title="详情" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="上阵" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="天赋" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="宠物书" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+    </list>
+    <group id="n2_ozj9" name="n2" xy="0,1041" size="720,115" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

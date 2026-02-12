@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="417,348">
+  <displayList>
+    <loader id="n1_w61t" name="n1" xy="0,0" size="417,347" url="ui://5moj1x39mtmsdxycs" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n7_llb1" name="n7" xy="18,204" size="380,16" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n1_w61t" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n4_i18n" name="pContentName" xy="179,20" size="58,44" fontSize="32" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="234">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n6_llb1" name="bossAttr" src="llb1dxydy" fileName="Component/BossAttrItem.xml" xy="155,86">
+      <relation target="n1_w61t" sidePair="left-left,top-top"/>
+    </component>
+    <richtext id="n3_w61t" name="pContentDesc" xy="31,229" size="362,98" fontSize="24" color="#ffffff" ubb="true" vars="true" autoSize="height" bold="true" strokeColor="#000000" strokeSize="2" text="增加30%连击a增加30%连击a增加30%连击a增加30%连击000000000">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,82" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n0_ph24" name="n0" src="ddc13t" fileName="Res/btn/nn17.png" pkg="5moj1x39" xy="0,0" size="168,82"/>
+    <text id="n1_ph24" name="n1" xy="60,6" size="48,32" fontSize="22" color="#846248" bold="true" text="回收"/>
+    <text id="n2_ph24" name="recyleMoney" xy="55,34" size="40,32" group="n4_ph24" fontSize="22" color="#846248" vars="true" bold="true" text="500"/>
+    <loader id="n3_ph24" name="n3" xy="89,30" size="40,40" group="n4_ph24" url="ui://0anhreylf34jdxy9m" fill="scale"/>
+    <group id="n4_ph24" name="n4" xy="55,30" size="74,40" advanced="true" layout="hz" colGap="-6" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

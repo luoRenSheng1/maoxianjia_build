@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://zoxecbv2xezf3s" designImageLayer="1">
+  <displayList>
+    <component id="n0_u5mt" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n8_xezf" name="n8" xy="16,386" size="688,400" group="n6_auqc" url="ui://5moj1x39f34jdxy9y" fill="scaleFree">
+      <relation target="n13_xezf" sidePair="height-height"/>
+    </loader>
+    <text id="n5_auqc" name="title" xy="328,401" size="68,44" group="n6_auqc" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="竞技">
+      <relation target="n8_xezf" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n13_xezf" name="PvpItem" src="xezf4d" fileName="Component/PvpItem.xml" xy="40,498" group="n6_auqc">
+      <relation target="n8_xezf" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n9_xezf" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,809" size="84,84" group="n6_auqc">
+      <relation target="n8_xezf" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n6_auqc" name="n6" xy="16,386" size="688,507" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zjhq3sc3">
+  <resources>
+    <component id="khmx0" name="BuryGiftPack.xml" path="/" exported="true"/>
+    <image id="khmx1" name="yunying1.png" path="/Res/"/>
+    <image id="khmx2" name="coin1h.png" path="/Res/"/>
+    <image id="khmx3" name="dsgdf5445.png" path="/Res/" scale="9grid" scale9grid="25,25,3,4"/>
+    <image id="khmx4" name="fgjfgj1515.png" path="/Res/"/>
+    <image id="khmx5" name="jiantou.png" path="/Res/"/>
+    <image id="khmx6" name="juxing 1.png" path="/Res/"/>
+    <image id="khmx7" name="sdfg5214.png" path="/Res/"/>
+    <image id="khmx8" name="sdg55.png" path="/Res/"/>
+    <image id="khmx9" name="sgdsgh52.png" path="/Res/"/>
+    <image id="r18sa" name="埋点礼包.jpg" path="/Res/"/>
+    <image id="r18sb" name="jiaobiao.png" path="/Res/"/>
+  </resources>
+  <publish name="BuryGiftPack" genCode="true"/>
+</packageDescription>

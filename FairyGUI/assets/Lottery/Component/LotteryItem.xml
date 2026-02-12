@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="175,209" pivot="0.5,1" anchor="true">
+  <controller name="ctrl" pages="0,,1," selected="0"/>
+  <controller name="rewardType" pages="0,,1,,2," selected="0">
+    <remark page="0" value="任务"/>
+    <remark page="1" value="直接奖励"/>
+    <remark page="2" value="任务配置奖励"/>
+  </controller>
+  <displayList>
+    <loader id="n3_ju03" name="n3" xy="0,-9" size="175,254" url="ui://6izp804wju03j" fill="scale">
+      <gearIcon controller="ctrl" pages="1" values="ui://6izp804wju03k" default="ui://6izp804wju03j"/>
+    </loader>
+    <image id="n4_ju03" name="n4" src="ju03y" fileName="Res/n888.png" xy="45,10"/>
+    <image id="n1_ju03" name="n1" src="ju03g" fileName="Res/n8.png" xy="52,16">
+      <gearDisplay controller="rewardType" pages="0,2"/>
+    </image>
+    <loader id="n0_tcgl" name="itemIcon" xy="40,19" pivot="0.5,0" size="53,55" url="ui://6izp804wju03x" fill="scale">
+      <gearXY controller="rewardType" pages="0,2" values="40,19|40,19" default="48,11"/>
+      <gearSize controller="rewardType" pages="0,1,2" values="53,55,1,1|79,79,1,1|53,55,1,1"/>
+    </loader>
+    <text id="n2_ju03" name="idLb" xy="60,94" size="54,39" visible="false" fontSize="20" color="#63f0e4" autoSize="none" strokeColor="#ff7200" text=""/>
+  </displayList>
+</component>

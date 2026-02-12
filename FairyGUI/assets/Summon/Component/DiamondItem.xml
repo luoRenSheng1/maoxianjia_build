@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,350">
+  <controller name="doubleCtrl" pages="0,,1," selected="0"/>
+  <controller name="itemCtrl" pages="0,,1,,2,,3,,4,,5,,6,,7," selected="0"/>
+  <displayList>
+    <loader id="n9_f34j" name="n9" xy="20,24" size="210,302" url="ui://i7ojazuuf34j3a"/>
+    <loader id="n1_p3wt" name="iconUrl" xy="52,65" size="145,138" url="ui://i7ojazuuf34j3b" align="center" vAlign="middle" clearOnPublish="true">
+      <gearIcon controller="itemCtrl" pages="0,1,2,3,4,5,6,7" values="ui://i7ojazuuf34j3b|ui://i7ojazuuf34j3c|ui://i7ojazuuf34j32|ui://i7ojazuuf34j33|ui://i7ojazuuf34j34|ui://i7ojazuuf34j35|ui://i7ojazuuf34j35|ui://i7ojazuuf34j35"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n8_xjh0" name="img" xy="14,15" size="68,72" url="ui://i7ojazuuf34j36" align="center" vAlign="middle">
+      <gearDisplay controller="doubleCtrl" pages="0"/>
+    </loader>
+    <component id="n3_p3wt" name="chargeBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="57,261" visible="false"/>
+    <text id="n5_p3wt" name="curLb" xy="89,210" size="72,34" group="n7_p3wt" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="3" text="X{value=6000}"/>
+    <group id="n7_p3wt" name="n7" xy="89,210" size="72,34" advanced="true" layout="hz" colGap="3">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n10_f34j" name="chargeBtn2" src="f34j3e" fileName="Component/ChargeBtn.xml" xy="21,251" size="208,74">
+      <relation target="n9_f34j" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

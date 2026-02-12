@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,314">
+  <controller name="rewardCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="宠物或者角色"/>
+    <remark page="1" value="其他"/>
+  </controller>
+  <displayList>
+    <image id="n0_khmx" name="n0" src="khmx9" fileName="Res/dsfgdfg13.png" xy="418,1" pivot="0.5,0.5" size="16,313" group="n3_khmx" scale="-1,1"/>
+    <image id="n1_khmx" name="n1" src="khmx8" fileName="Res/dsfgdfg12.png" xy="56,0" size="362,313" group="n3_khmx"/>
+    <image id="n2_khmx" name="n2" src="khmx7" fileName="Res/dsfgdfg11.png" xy="0,0" pivot="0.5,0.5" size="56,313" group="n3_khmx" scale="-1,1"/>
+    <image id="n4_khmx" name="n4" src="khmx6" fileName="Res/dg6846.png" xy="24,21" size="399,209" group="n3_khmx"/>
+    <image id="n5_khmx" name="n5" src="khmxa" fileName="Res/jiaobiao.png" xy="318,-4" group="n7_khmx"/>
+    <text id="n6_khmx" name="n6" xy="364,21" size="60,62" group="n7_khmx" rotation="18" fontSize="22" color="#ffffff" align="center" bold="true" strokeColor="#5c1b0d" strokeSize="2" text="600%&#xA;返利"/>
+    <group id="n7_khmx" name="n7" xy="318,-4" size="122,124" group="n3_khmx"/>
+    <image id="n9_khmx" name="n9" src="khmx3" fileName="Res/dfgdfg56.png" xy="50,110" group="n3_khmx"/>
+    <image id="n10_khmx" name="n10" src="khmx4" fileName="Res/dfgdfg57.png" xy="297,137" group="n3_khmx"/>
+    <image id="n15_khmx" name="n15" src="khmx5" fileName="Res/dfgdfg58.png" xy="137,52" group="n3_khmx">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+    </image>
+    <loader id="n8_khmx" name="firstItemIcon" xy="171,79" size="88,88" group="n3_khmx" aspect="true" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+    </loader>
+    <image id="n11_khmx" name="n11" src="khmxb" fileName="Res/sdgdfg5247.png" xy="30,245" size="248,36" group="n3_khmx" rotation="1"/>
+    <text id="n12_khmx" name="n12" xy="51,247" size="186,32" group="n3_khmx" rotation="1" fontSize="22" color="#e18d89" align="center" strokeColor="#5c1b0d" text="购买获得超值豪礼!"/>
+    <component id="n13_khmx" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="265,238" group="n3_khmx"/>
+    <graph id="n14_khmx" name="spine" xy="179,112" pivot="0.5,1" size="100,100" group="n3_khmx">
+      <gearDisplay controller="rewardCtrl" pages="0"/>
+    </graph>
+    <group id="n3_khmx" name="n3" xy="0,-4" size="440,318" advanced="true"/>
+  </displayList>
+</component>

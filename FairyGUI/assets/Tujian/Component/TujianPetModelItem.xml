@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,335">
+  <controller name="bgCtrl" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n0_r0wo" name="n0" xy="0,0" size="720,335" url="ui://yjhb9afbr0wom" fill="scaleFree">
+      <gearIcon controller="bgCtrl" pages="1,2,3" values="ui://yjhb9afbr0won|ui://yjhb9afbr0woo|ui://yjhb9afbr0wop" default="ui://yjhb9afbr0wom"/>
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <list id="n5_r0wo" name="petList" xy="79,23" size="596,246" layout="row" scroll="horizontal" colGap="120" defaultItem="ui://yjhb9afbj2lcf" vAlign="bottom">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

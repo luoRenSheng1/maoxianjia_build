@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n15_f34j" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader3D id="n8_ncna" name="gxhdSpine" xy="-479,-185" size="1219,687" group="n12_f34j" visible="false" url="ui://0anhreyli8evdxy72" animation="Chuxian" skin="" playing="false"/>
+    <loader id="n11_xjh0" name="img" xy="223,145" size="274,77" group="n12_f34j" visible="false"/>
+    <image id="n10_r18s" name="n10" src="r18sdxy7i" fileName="Res/getSpine/g2.png" pkg="0anhreyl" xy="223,145" group="n12_f34j" visible="false"/>
+    <group id="n12_f34j" name="n12" xy="-479,-185" size="1219,687"/>
+    <image id="n13_f34j" name="n13" src="f34jdxya0" fileName="Res/newItem2/general_title_bg12.png" pkg="5moj1x39" xy="57,151" group="n7_surf"/>
+    <text id="n14_f34j" name="n14" xy="326,167" size="68,44" group="n7_surf" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="奖励">
+      <relation target="n13_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n0_surf" name="rewardList" src="surff" fileName="Component/ItemList.xml" xy="37,268" group="n7_surf"/>
+    <component id="n2_surf" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="316,936" group="n7_surf" visible="false" touchable="false"/>
+    <component id="n3_surf" name="summon10" src="surf8" fileName="Component/SummonBtn.xml" xy="18,1044" group="n6_surf" controller="ctrl,0"/>
+    <component id="n4_surf" name="summon30" src="surf8" fileName="Component/SummonBtn.xml" xy="251,1044" group="n6_surf" controller="ctrl,1"/>
+    <component id="n5_surf" name="summon300" src="surf8" fileName="Component/SummonBtn.xml" xy="484,1044" group="n6_surf" controller="ctrl,2"/>
+    <group id="n6_surf" name="n6" xy="18,1044" size="684,84" group="n7_surf" advanced="true" layout="hz" colGap="15" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n7_surf" name="n7" xy="18,151" size="684,977" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n17_a332" name="close" xy="0,1128" size="720,150">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+  </displayList>
+  <transition name="shake">
+    <item time="0" type="XY" target="n7_surf" tween="true" startValue="0,70" endValue="32,156" duration="3"/>
+    <item time="3" type="XY" target="n7_surf" tween="true" startValue="32,156" endValue="18,151" duration="3"/>
+  </transition>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Visible" target="n11_xjh0" value="false"/>
+    <item time="8" type="Visible" target="n11_xjh0" value="true"/>
+  </transition>
+</component>

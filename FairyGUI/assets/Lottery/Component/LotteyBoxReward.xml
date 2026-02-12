@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,33">
+  <displayList>
+    <component id="n2_ju03" name="expBar1" src="ju03u" fileName="Component/boxExpBar.xml" xy="0,0">
+      <ProgressBar value="20" max="100"/>
+    </component>
+    <component id="n7_jxfv" name="expBar2" src="ju03u" fileName="Component/boxExpBar.xml" xy="94,0" size="446,33" controller="c1,1">
+      <ProgressBar value="20" max="100"/>
+    </component>
+    <component id="n3_ju03" name="box1" src="ju03v" fileName="Component/boxItem.xml" xy="130,-18"/>
+    <component id="n4_ju03" name="box2" src="ju03v" fileName="Component/boxItem.xml" xy="259,-18"/>
+    <text id="n5_ju03" name="lvLb" xy="14,-40" size="64,42" fontSize="30" color="#ffffff" vars="true" bold="true" text="Lv.{value=5}"/>
+    <text id="n6_ju03" name="maxExp" xy="438,34" size="98,26" fontSize="18" color="#ffffff" align="right" autoSize="none" text="30"/>
+  </displayList>
+</component>

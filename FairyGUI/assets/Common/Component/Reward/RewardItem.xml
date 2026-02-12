@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,212">
+  <controller name="state" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <image id="n6_t83q" name="selectBg" src="t83qdxye2" fileName="Res/newItem/pet_bg12.png" pkg="5moj1x39" xy="-29,-26">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <image id="n5_t83q" name="n5" src="t83qdxye1" fileName="Res/newItem/pet_bg11.png" pkg="5moj1x39" xy="0,0">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <component id="n0_9k6j" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="46,29" size="80,81" aspect="true" scale="1.4,1.4"/>
+    <text id="n3_9k6j" name="name" xy="16,142" size="174,39" fontSize="28" color="#ffffff" align="center" vAlign="bottom" autoSize="none" bold="true" strokeColor="#000000" text="道具名称"/>
+    <image id="n7_t83q" name="maskBg" src="t83qdxye3" fileName="Res/newItem/pet_bg13.png" pkg="5moj1x39" xy="0,0">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+  </displayList>
+</component>

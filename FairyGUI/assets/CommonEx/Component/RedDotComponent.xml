@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,32">
+  <controller name="countType" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="不需要数字"/>
+    <remark page="1" value="需要数字"/>
+  </controller>
+  <displayList>
+    <image id="n4_ucd4" name="redDotObj" src="ucd4dxyck" fileName="Res/newItem2/general_hint_icon01.png" xy="0,0">
+      <gearDisplay controller="countType" pages="1"/>
+    </image>
+    <text id="n1_jl15" name="countText" xy="4,3" size="24,26" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" text="66">
+      <gearDisplay controller="countType" pages="1"/>
+    </text>
+    <image id="n3_f34j" name="n2" src="f34jdxybi" fileName="Res/newItem2/general_hint_icon.png" xy="0,0">
+      <gearDisplay controller="countType" pages="0"/>
+    </image>
+  </displayList>
+</component>

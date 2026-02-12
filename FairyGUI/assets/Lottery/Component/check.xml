@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,30" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <image id="n0_ju03" name="n0" src="x3dk2q" fileName="Res/check_bg.png" pkg="5moj1x39" xy="0,0"/>
+    <image id="n1_ju03" name="n1" src="x3dk2r" fileName="Res/check_1.png" pkg="5moj1x39" xy="-4,0">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

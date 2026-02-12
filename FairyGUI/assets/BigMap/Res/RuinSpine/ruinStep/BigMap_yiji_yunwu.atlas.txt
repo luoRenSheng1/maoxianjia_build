@@ -1,0 +1,56 @@
+BigMap_yiji_yunwu.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+yunwu_001
+	bounds: 2, 1223, 898, 617
+	offsets: 2, 9, 900, 650
+yunwu_003
+	bounds: 902, 19, 898, 600
+	offsets: 2, 18, 900, 650
+yunwu_005
+	bounds: 2, 605, 898, 616
+	offsets: 2, 9, 900, 650
+yunwu_010
+	bounds: 902, 1224, 898, 616
+	offsets: 2, 11, 900, 650
+yunwu_013
+	bounds: 2, 2, 898, 601
+	offsets: 2, 18, 900, 650
+yunwu_014
+	bounds: 902, 621, 898, 601
+	offsets: 2, 18, 900, 650
+
+BigMap_yiji_yunwu_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+yunwu_004
+	bounds: 2, 602, 898, 599
+	offsets: 2, 19, 900, 650
+yunwu_006
+	bounds: 902, 7, 898, 596
+	offsets: 2, 19, 900, 650
+yunwu_008
+	bounds: 2, 1203, 898, 600
+	offsets: 2, 18, 900, 650
+yunwu_009
+	bounds: 902, 1205, 898, 598
+	offsets: 2, 18, 900, 650
+yunwu_011
+	bounds: 2, 2, 898, 598
+	offsets: 2, 18, 900, 650
+yunwu_012
+	bounds: 902, 605, 898, 598
+	offsets: 2, 18, 900, 650
+
+BigMap_yiji_yunwu_3.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+yunwu_002
+	bounds: 2, 598, 898, 595
+	offsets: 2, 21, 900, 650
+yunwu_007
+	bounds: 2, 2, 898, 594
+	offsets: 2, 21, 900, 650

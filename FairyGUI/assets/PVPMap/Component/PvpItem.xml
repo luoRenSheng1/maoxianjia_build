@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,224" mask="n0_xezf">
+  <displayList>
+    <graph id="n0_xezf" name="n0" xy="0,0" size="640,224" type="rect">
+      <relation target="n1_xezf" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_xezf" name="pvpList" xy="0,0" size="640,224" overflow="scroll" defaultItem="ui://zoxecbv2u5mt14">
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_xezf" sidePair="height-height"/>
+</component>

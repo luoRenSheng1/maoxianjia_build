@@ -1,0 +1,103 @@
+Common_11002_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+quan
+	bounds: 2, 388, 184, 96
+	offsets: 5, 7, 190, 110
+xue_001
+	bounds: 387, 162, 75, 69
+	offsets: 18, 64, 120, 150
+	rotate: 90
+xue_002
+	bounds: 310, 71, 75, 81
+	offsets: 18, 62, 120, 150
+xue_003
+	bounds: 233, 152, 75, 82
+	offsets: 18, 59, 120, 150
+xue_004
+	bounds: 296, 238, 75, 83
+	offsets: 18, 56, 120, 150
+xue_005
+	bounds: 233, 68, 75, 82
+	offsets: 18, 54, 120, 150
+xue_006
+	bounds: 310, 154, 75, 82
+	offsets: 18, 51, 120, 150
+xue_007
+	bounds: 373, 324, 75, 83
+	offsets: 18, 48, 120, 150
+xue_008
+	bounds: 373, 239, 75, 83
+	offsets: 18, 45, 120, 150
+xue_009
+	bounds: 219, 236, 75, 84
+	offsets: 18, 42, 120, 150
+xue_010
+	bounds: 296, 323, 75, 84
+	offsets: 18, 39, 120, 150
+xue_011
+	bounds: 79, 29, 75, 85
+	offsets: 18, 36, 120, 150
+xue_012
+	bounds: 156, 118, 75, 85
+	offsets: 18, 33, 120, 150
+xue_013
+	bounds: 79, 204, 75, 86
+	offsets: 18, 30, 120, 150
+xue_014
+	bounds: 156, 31, 75, 85
+	offsets: 18, 28, 120, 150
+xue_015
+	bounds: 219, 322, 75, 85
+	offsets: 18, 25, 120, 150
+xue_016
+	bounds: 390, 409, 75, 86
+	offsets: 18, 22, 120, 150
+	rotate: 90
+xue_017
+	bounds: 2, 2, 75, 86
+	offsets: 18, 19, 120, 150
+xue_018
+	bounds: 79, 116, 75, 86
+	offsets: 18, 16, 120, 150
+xue_019
+	bounds: 233, 11, 55, 80
+	offsets: 38, 19, 120, 150
+	rotate: 90
+xue_020
+	bounds: 392, 3, 55, 80
+	offsets: 38, 16, 120, 150
+xue_021
+	bounds: 2, 282, 75, 104
+	offsets: 18, 13, 120, 150
+xue_022
+	bounds: 188, 409, 75, 104
+	offsets: 18, 11, 120, 150
+	rotate: 90
+xue_023
+	bounds: 156, 205, 61, 89
+	offsets: 18, 23, 120, 150
+xue_024
+	bounds: 156, 296, 61, 90
+	offsets: 18, 20, 120, 150
+xue_025
+	bounds: 2, 90, 75, 93
+	offsets: 18, 18, 120, 150
+xue_026
+	bounds: 79, 292, 75, 94
+	offsets: 18, 15, 120, 150
+xue_027
+	bounds: 315, 11, 75, 58
+	offsets: 18, 48, 120, 150
+xue_028
+	bounds: 294, 409, 75, 94
+	offsets: 18, 46, 120, 150
+	rotate: 90
+xue_029
+	bounds: 2, 185, 75, 95
+	offsets: 18, 43, 120, 150
+xue_030
+	bounds: 387, 85, 75, 68
+	offsets: 18, 67, 120, 150
+	rotate: 90

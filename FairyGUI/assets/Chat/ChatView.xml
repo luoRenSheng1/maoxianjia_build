@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://x1rxl2idf34j10" designImageAlpha="0" designImageLayer="1">
+  <controller name="typeCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="短"/>
+    <remark page="1" value="长"/>
+  </controller>
+  <controller name="tabCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="世界"/>
+    <remark page="1" value="系统"/>
+  </controller>
+  <displayList>
+    <component id="n25_kv23" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" alpha="0.01" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_r13r" name="n0" xy="0,584" pivot="0,1" size="720,574" group="n24_kv23" url="ui://x1rxl2idf34js" fill="scaleFree">
+      <gearSize controller="typeCtrl" pages="0,1" values="720,574,1,1|720,1083,1,1"/>
+    </loader>
+    <loader id="n26_f34j" name="n26" xy="12,614" size="706,534" group="n24_kv23" url="ui://x1rxl2idl5cy1p" fill="scaleFree">
+      <gearIcon controller="tabCtrl" pages="1" values="ui://x1rxl2idl5cy1o" default="ui://x1rxl2idl5cy1p"/>
+      <relation target="n0_r13r" sidePair="topext-top"/>
+    </loader>
+    <list id="n3_r13r" name="chatBtnList" xy="13,666" size="116,300" group="n24_kv23" lineGap="15" defaultItem="ui://x1rxl2idr13re" selectionController="tabCtrl">
+      <gearXY controller="typeCtrl" pages="0,1" values="13,666|13,157"/>
+      <item title="世界"/>
+      <item title="系统"/>
+    </list>
+    <list id="n12_kvsz" name="chatList" xy="148,623" size="543,421" group="n24_kv23" overflow="scroll" lineGap="15" defaultItem="ui://x1rxl2idkvszl" autoClearItems="true">
+      <relation target="n0_r13r" sidePair="topext-top"/>
+      <item/>
+      <item url="ui://x1rxl2idkvszk"/>
+      <item url="ui://x1rxl2idkvszk"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_kvsz" name="n5" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="374,58" size="60,54" group="n24_kv23" scale="1,-1">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://x1rxl2idr13r8" controller="typeCtrl" page="0"/>
+    </component>
+    <component id="n7_kvsz" name="n6" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="374,623" size="60,54" group="n24_kv23" scale="1,-1" visible="false">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Button icon="ui://x1rxl2idf34jp" controller="typeCtrl" page="1"/>
+    </component>
+    <component id="n13_kvsz" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="16,1080" size="91,58" group="n24_kv23" aspect="true">
+      <Button icon="ui://x1rxl2idf34jp"/>
+    </component>
+    <component id="n14_kvsz" name="settingBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="30,999" size="64,64" group="n24_kv23" visible="false">
+      <Button icon="ui://x1rxl2idf34jx"/>
+    </component>
+    <loader id="n27_f34j" name="n27" xy="139,1067" size="418,61" group="n21_kvsz" url="ui://x1rxl2idf34ju" fill="scaleFree"/>
+    <text id="n18_kvsz" name="ipt" xy="152,1080" size="394,34" group="n21_kvsz" fontSize="24" color="#ffffff" autoSize="none" bold="true" text="" input="true" prompt="请输入聊天内容" maxLength="40"/>
+    <component id="n19_kvsz" name="sendChatBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="570,1064" size="128,68" group="n21_kvsz">
+      <Button title="发送" titleFontSize="25" icon="ui://s7x7ku0nf34jdxyah"/>
+    </component>
+    <group id="n21_kvsz" name="n21" xy="139,1064" size="559,68" group="n24_kv23" advanced="true">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+    </group>
+    <text id="n22_kvsz" name="n22" xy="198,1081" size="436,34" group="n23_kvsz" fontSize="24" color="#4c2911" bold="true" text="系统频道不能发言，请切换至其他频道。"/>
+    <group id="n23_kvsz" name="n23" xy="198,1081" size="436,34" group="n24_kv23" advanced="true">
+      <gearDisplay controller="tabCtrl" pages="1"/>
+    </group>
+    <group id="n24_kv23" name="n24" xy="0,58" size="720,1100" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

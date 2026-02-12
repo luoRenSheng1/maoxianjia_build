@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ju03" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_ju03" name="n1" xy="93,538" size="534,259" group="n6_ju03" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n2_ju03" name="n2" xy="93,482" size="534,76" group="n6_ju03" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <text id="n4_ju03" name="n4" xy="285,489" size="135,42" group="n6_ju03" fontSize="25" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#582600" text="领取奖励"/>
+    <component id="n5_ju03" name="adGetBtn" src="ju03dxy4z" fileName="Component/EmptyAdBtn.xml" pkg="5moj1x39" xy="405,718" size="145,58" group="n6_ju03">
+      <Button title="双倍领取" titleColor="#846248" titleFontSize="21" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <component id="n7_jxfv" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="313,574" group="n6_ju03" controller="hasCount,1"/>
+    <text id="n8_jxfv" name="itemNameLb" xy="245,656" size="216,29" group="n6_ju03" fontSize="20" color="#663e20" align="center" vars="true" autoSize="none" text="{itemName=升星石}x{value=3}"/>
+    <component id="n9_jxfv" name="normalGet" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="176,718" size="145,58" group="n6_ju03">
+      <Button title="领取" titleFontSize="21" icon="ui://5moj1x39ddc1dxy4x"/>
+    </component>
+    <group id="n6_ju03" name="n6" xy="93,482" size="534,315" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

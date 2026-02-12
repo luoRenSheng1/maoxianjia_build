@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yjhb9afb">
+  <resources>
+    <image id="j2lc0" name="12.PNG" path="/Res/" duplicatePadding="true"/>
+    <image id="j2lc1" name="1.PNG" path="/Res/" scale="9grid" scale9grid="43,48,10,15"/>
+    <image id="j2lc2" name="2.png" path="/Res/"/>
+    <image id="j2lc3" name="3.png" path="/Res/" scale="9grid" scale9grid="25,29,8,13"/>
+    <image id="j2lc4" name="4.png" path="/Res/"/>
+    <image id="j2lc7" name="7.png" path="/Res/" scale="9grid" scale9grid="202,153,28,25"/>
+    <image id="j2lc9" name="9.PNG" path="/Res/" scale="9grid" scale9grid="16,10,32,10"/>
+    <image id="j2lca" name="10.png" path="/Res/"/>
+    <image id="j2lcb" name="11.png" path="/Res/"/>
+    <component id="j2lcd" name="TabBtn.xml" path="/Component/"/>
+    <component id="j2lcf" name="TujianPetItem.xml" path="/Component/"/>
+    <image id="j2lcg" name="10100.png" path="/Res/"/>
+    <image id="j2lch" name="10091.png" path="/Res/"/>
+    <component id="j2lci" name="hcBar.xml" path="/Component/"/>
+    <image id="reczl" name="14.PNG" path="/Res/"/>
+    <image id="r0wom" name="nn3.png" path="/NewRes/" duplicatePadding="true"/>
+    <image id="r0won" name="nn4.png" path="/NewRes/" duplicatePadding="true"/>
+    <image id="r0woo" name="nn5.png" path="/NewRes/" duplicatePadding="true"/>
+    <image id="r0wop" name="nn6.png" path="/NewRes/" duplicatePadding="true"/>
+    <image id="r0wos" name="nn1.png" path="/NewRes/"/>
+    <component id="r0wot" name="TujianMain.xml" path="/" exported="true"/>
+    <component id="r0wou" name="TujianPetModelItem.xml" path="/Component/"/>
+    <image id="r0wov" name="nn8.png" path="/NewRes/"/>
+    <image id="r0woy" name="n22.png" path="/NewRes/"/>
+    <image id="r0woz" name="n77.png" path="/NewRes/"/>
+  </resources>
+  <publish name="TuJian" genCode="true"/>
+</packageDescription>

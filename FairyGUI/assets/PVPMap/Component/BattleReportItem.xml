@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,64">
+  <displayList>
+    <loader id="n8_xezf" name="n8" xy="0,0" size="640,64" url="ui://zoxecbv2xezf3k" fill="scaleFree"/>
+    <text id="n7_u5mt" name="timeLb" xy="11,15" size="192,34" fontSize="24" color="#f7934f" align="center" vAlign="middle" vars="true" bold="true" text="{value=1月10日 22:22:22}">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n6_u5mt" name="content" xy="213,15" size="421,34" fontSize="24" color="#4c2911" ubb="true" vars="true" autoSize="shrink" bold="true" text="{value=[color=#cb7802]小黑[/color]}对你挑战，您获得了胜利。">
+      <relation target="" sidePair="middle-middle"/>
+      <relation target="n7_u5mt" sidePair="left-right"/>
+    </text>
+  </displayList>
+</component>

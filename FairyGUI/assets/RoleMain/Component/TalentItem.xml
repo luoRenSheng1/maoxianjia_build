@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,144" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="typeCtrl" exported="true" pages="0,,1,,2," selected="0">
+    <remark page="0" value="小"/>
+    <remark page="1" value="中"/>
+    <remark page="2" value="大"/>
+  </controller>
+  <displayList>
+    <component id="n12_llb1" name="talentSmallItem" src="llb1dxyfl" fileName="Component/TalentSmallItem.xml" xy="15,15">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_llb1" name="talentMiddleItem" src="llb1dxyfm" fileName="Component/TalentMiddleItem.xml" xy="10,10">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_llb1" name="talentBigItem" src="llb1dxyfn" fileName="Component/TalentBigItem.xml" xy="0,0">
+      <gearDisplay controller="typeCtrl" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

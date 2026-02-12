@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="33,33" pivot="0.5,0.5" anchor="true">
+  <controller name="status" exported="true" pages="2,,0,,3,,1," selected="2">
+    <remark page="0" value="无"/>
+    <remark page="1" value="红点无数字"/>
+    <remark page="2" value="红点感叹号"/>
+    <remark page="3" value="红点带数字"/>
+  </controller>
+  <displayList>
+    <loader id="n6_i7zh" name="n3" xy="16,16" pivot="0.5,0.5" anchor="true" size="33,33" url="ui://0anhreyli7zhxxuy" fill="scale" autoSize="true">
+      <gearDisplay controller="status" pages="0,3,1"/>
+      <gearIcon controller="status" pages="0,3,1" values="ui://0anhreylogyho0w|ui://0anhreyli7zhxxuy|ui://0anhreyli7zhxxux" default="ui://0anhreylkjl0b"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_tomp" name="txt_num" xy="16,16" pivot="0.5,0.5" anchor="true" size="33,33" fontSize="19" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="0">
+      <gearDisplay controller="status" pages="1"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n6_i7zh" tween="true" startValue="1,1" endValue="0.8,0.8" duration="12"/>
+    <item time="12" type="Scale" target="n6_i7zh" tween="true" startValue="0.8,0.8" endValue="0.8,0.8" duration="13"/>
+    <item time="25" type="Scale" target="n6_i7zh" tween="true" startValue="0.8,0.8" endValue="1,1" duration="17"/>
+    <item time="48" type="Scale" target="n6_i7zh" value="1,1"/>
+  </transition>
+</component>

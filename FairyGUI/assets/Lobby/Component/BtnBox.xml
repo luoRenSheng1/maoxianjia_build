@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="255,202" pivot="0.5,0.5" opaque="false" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetX="-244" designImageOffsetY="-777" designImageAlpha="0">
+  <displayList>
+    <component id="n78_pdpa" name="btnBoxKey" src="t5mtdxy0t" fileName="Component/BtnBoxKey.xml" xy="46,153" touchable="false"/>
+    <component id="n77_pdpa" name="btnBoxIcon" src="t5mtdxy0v" fileName="Component/BtnBoxIcon.xml" xy="135,98" size="117,101"/>
+    <component id="n81_pdpa" name="btnBoxLv" src="t5mtdxy0s" fileName="Component/BtnBoxLv.xml" xy="182,140" size="62,45" touchable="false"/>
+    <component id="n82_vnmw" name="finger" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="184,85" visible="false" touchable="false"/>
+    <graph id="n83_uq40" name="guidePos" xy="79,19" size="100,91" touchable="false"/>
+    <component id="n86_v65g" name="btnBoxLvUp" src="v65gdxy87" fileName="Component/BtnBoxLvUp.xml" xy="34,138"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n82_vnmw" tween="true" startValue="156,111" endValue="144,73" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+  </transition>
+</component>

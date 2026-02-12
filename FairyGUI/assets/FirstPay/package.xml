@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ksm9s29p">
+  <resources>
+    <component id="ez2lg" name="FirstPayMain.xml" path="/" exported="true"/>
+    <component id="ez2lh" name="FirstPayBtn.xml" path="/Component/"/>
+    <component id="ez2li" name="GetFPRewardBtn.xml" path="/Component/"/>
+    <component id="l9l9j" name="FirstItem.xml" path="/Component/"/>
+    <image id="xezfl" name="newcomer package_bg12.png" path="/Res/new/"/>
+    <image id="xezfm" name="newcomer package_img01.png" path="/Res/new/"/>
+    <image id="xezfn" name="newcomer package_img02.png" path="/Res/new/"/>
+    <image id="xezfo" name="newcomer package_bg01.png" path="/Res/new/"/>
+    <image id="xezfp" name="newcomer package_bg02.png" path="/Res/new/" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="xezfq" name="newcomer package_bg11.png" path="/Res/new/"/>
+    <image id="xezfr" name="新手礼包.png" path="/Res/new/"/>
+  </resources>
+  <publish name="FirstPay" genCode="true"/>
+</packageDescription>

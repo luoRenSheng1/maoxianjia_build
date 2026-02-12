@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1153" designImageOffsetY="-180" designImageAlpha="0" designImageLayer="1">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n21_i5zg" name="map" xy="0,-180" pivot="0.5,0.5" size="720,1600" group="n4_rjj2" align="center" vAlign="middle"/>
+    <image id="n0_rjj2" name="map0" src="rjj22" fileName="Res/Map1003_0.png" xy="0,-180" size="720,800" group="n12_koot"/>
+    <image id="n1_rjj2" name="map1" src="rjj23" fileName="Res/Map1003_1.png" xy="0,620" group="n12_koot"/>
+    <group id="n12_koot" name="g" xy="0,-180" size="720,1600" group="n4_rjj2"/>
+    <loader id="n5_rjj2" name="p1" xy="214,-54" pivot="0.5,0.5" size="283,426" group="n4_rjj2" url="ui://z350mxkhkoot32">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader id="n9_rjj2" name="p2" xy="534,345" pivot="0.5,0.5" size="186,559" group="n4_rjj2" url="ui://z350mxkhkoot34">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader id="n7_rjj2" name="p3" xy="106,838" pivot="0.5,0.5" size="520,432" group="n4_rjj2" url="ui://z350mxkhkoot33">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader id="n8_rjj2" name="p4" xy="0,339" pivot="0.5,0.5" size="187,584" group="n4_rjj2" url="ui://z350mxkhkoot35">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <loader3D id="n25_om2e" name="n25" xy="59,70" size="10,10" group="n4_rjj2" scale="0.99,0.99" touchable="false" url="ui://z350mxkhom2e3a" animation="AdventureCave_csm" skin="" loop="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader3D>
+    <loader id="n14_koot" name="walk1" xy="190,251" size="340,688" group="n4_rjj2" fill="scaleFree"/>
+    <loader id="n22_i5zg" name="walk2" xy="130,536" size="459,400" group="n4_rjj2" fill="scaleFree"/>
+    <loader3D id="n15_koot" name="terminus" xy="-212,468" pivot="1,1" size="100,100" group="n4_rjj2" url="ui://pdufy3keef8u4u" align="center" vAlign="middle" animation="BigMap_djlj" skin="" loop="true"/>
+    <loader id="n10_koot" name="rolePos" xy="332,564" pivot="0.5,0.5" size="50,50" group="n4_rjj2"/>
+    <loader id="n24_om2e" name="car" xy="190,41" size="270,304" group="n4_rjj2" url="ui://z350mxkhkoot36">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+    <graph id="n27_pxve" name="npc" xy="437,358" size="30,30" group="n4_rjj2">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <loader3D id="n26_osqg" name="homeGate" xy="260,850" pivot="0.5,0.5" size="200,200" group="n4_rjj2" scale="1.1,1.1" url="ui://z350mxkhosqg3d" animation="AdventureCave_csmc" skin="" loop="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader3D>
+    <component id="n19_i5zg" name="qipao" src="sshpdxycv" fileName="Component/Bubble.xml" pkg="5moj1x39" xy="440,180" group="n4_rjj2">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <graph id="n11_koot" name="hero" xy="307,540" pivot="0.5,0.5" size="100,100" group="n4_rjj2"/>
+    <loader id="n28_pxve" name="npcTouch" xy="387,249" size="100,100" group="n4_rjj2"/>
+    <group id="n4_rjj2" name="n4" xy="-212,-180" size="932,1600"/>
+  </displayList>
+</component>

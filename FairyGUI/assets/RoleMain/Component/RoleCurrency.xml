@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="137,50" extention="Label">
+  <displayList>
+    <loader id="n1_ucd4" name="n1" xy="0,0" size="137,50" url="ui://5moj1x39ucd4dxyci"/>
+    <loader id="n2_ucd4" name="icon" xy="6,7" size="36,36" url="ui://0anhreylf34jdxy9n" fill="scaleFree"/>
+    <text id="n0_ucd4" name="txtValue" xy="43,10" size="89,29" fontSize="20" color="#ffffff" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="99.99K">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n3_ucd4" name="n3" xy="27,28" size="15,15" url="ui://5moj1x39f34jdxybo" fill="scale"/>
+  </displayList>
+</component>

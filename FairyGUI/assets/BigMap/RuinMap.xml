@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" mask="n3_jiq9" reversedMask="true">
+  <displayList>
+    <component id="n0_w224" name="ruinPanel" src="w224idm" fileName="Component/RuinPanel.xml" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n3_jiq9" name="mask" xy="0,1153" size="720,127" type="rect">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+  </displayList>
+</component>

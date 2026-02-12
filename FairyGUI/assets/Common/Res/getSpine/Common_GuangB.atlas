@@ -1,0 +1,13 @@
+Common_GuangB.png
+	size: 256, 256
+	filter: Linear, Linear
+images/f
+	bounds: 188, 69, 35, 87
+	offsets: 13, 1, 61, 123
+images/gy3
+	bounds: 188, 158, 64, 64
+images/liziaasnn15
+	bounds: 188, 35, 32, 32
+images/xinnn13
+	bounds: 2, 2, 184, 220
+	offsets: 35, 19, 256, 256

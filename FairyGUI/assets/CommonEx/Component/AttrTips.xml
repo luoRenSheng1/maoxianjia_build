@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,188" pivot="0.5,0" anchor="true">
+  <displayList>
+    <loader id="n0_fr3p" name="n0" xy="0,0" size="415,170" url="ui://5moj1x39mtmsdxycs" fill="scaleFree">
+      <relation target="n5_fr3p" sidePair="height-height"/>
+    </loader>
+    <text id="n1_fr3p" name="n1" xy="141,17" size="132,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="属性详情">
+      <relation target="n0_fr3p" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n5_fr3p" name="attrList" xy="26,98" size="363,39" overflow="scroll" defaultItem="ui://5moj1x39fr3pdxyd1">
+      <relation target="n0_fr3p" sidePair="center-center,top-top"/>
+      <item/>
+    </list>
+    <loader id="n3_fr3p" name="dirIcon" xy="190,157" size="35,35" url="ui://5moj1x39mtmsdxyct">
+      <relation target="n0_fr3p" sidePair="top-bottom"/>
+    </loader>
+  </displayList>
+</component>

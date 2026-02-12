@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://i7ojazuul5cy3n" designImageAlpha="0">
+  <displayList>
+    <component id="n3_surf" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_surf" name="n0" xy="16,89" size="688,1020" group="n5_surf" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n8_k4ck" name="n8" xy="326,104" size="68,44" group="n5_surf" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="帮助">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n47_l5cy" name="n47" xy="68,250" size="584,122" group="n35_l5cy" url="ui://i7ojazuul5cy3q" fill="scaleFree"/>
+    <image id="n39_l5cy" name="n39" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="244,205" group="n35_l5cy"/>
+    <image id="n40_l5cy" name="n40" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="452,205" group="n35_l5cy"/>
+    <image id="n41_l5cy" name="n41" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="48,216" size="188,4" group="n35_l5cy"/>
+    <image id="n42_l5cy" name="n42" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="483,216" size="188,4" group="n35_l5cy"/>
+    <text id="n17_k4ck" name="n17" xy="310,200" size="100,34" group="n35_l5cy" fontSize="24" color="#4c2911" bold="true" text="活动介绍">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n34_u1cl" name="n34" xy="83,262" size="553,92" group="n35_l5cy" fontSize="20" color="#4c2911" autoSize="shrink" bold="true" text="        使用英雄令可以抽取卡池中的角色和角色碎片，每累计10次抽卡必得传说英雄碎片，抽取到已有的英雄会自动转化成该英雄碎片，可以用于该英雄的突破">
+      <relation target="n47_l5cy" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n35_l5cy" name="n35" xy="48,200" size="623,171" group="n5_surf"/>
+    <image id="n43_l5cy" name="n43" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="244,393" group="n36_l5cy"/>
+    <image id="n44_l5cy" name="n44" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="452,393" group="n36_l5cy"/>
+    <image id="n45_l5cy" name="n45" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="47,402" size="188,4" group="n36_l5cy"/>
+    <image id="n46_l5cy" name="n46" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="481,402" size="188,4" group="n36_l5cy"/>
+    <text id="n24_u1cl" name="n24" xy="310,386" size="100,34" group="n36_l5cy" fontSize="24" color="#4c2911" bold="true" text="英雄介绍">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n48_l5cy" name="heroIntroList" xy="68,437" size="584,480" group="n36_l5cy" overflow="scroll" defaultItem="ui://i7ojazuul5cy3p">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n36_l5cy" name="n36" xy="47,386" size="622,530" group="n5_surf"/>
+    <loader id="n53_l5cy" name="n53" xy="68,983" size="584,87" group="n37_l5cy" url="ui://i7ojazuul5cy3q" fill="scaleFree"/>
+    <text id="n29_u1cl" name="n29" xy="310,930" size="100,34" group="n37_l5cy" fontSize="24" color="#4c2911" bold="true" text="获得概率">
+      <relation target="n0_surf" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n49_l5cy" name="n49" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="244,937" group="n37_l5cy"/>
+    <image id="n50_l5cy" name="n50" src="l5cy3i" fileName="Res/summonPro/Star.png" xy="452,937" group="n37_l5cy"/>
+    <image id="n51_l5cy" name="n51" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="49,947" size="188,4" group="n37_l5cy"/>
+    <image id="n52_l5cy" name="n52" src="l5cy3j" fileName="Res/summonPro/dian.png" xy="481,947" size="188,4" group="n37_l5cy"/>
+    <list id="n54_l5cy" name="n54" xy="111,988" size="498,75" group="n37_l5cy" overflow="scroll" defaultItem="ui://i7ojazuul5cy3o">
+      <item controllers="quality,4,type,0"/>
+      <item controllers="quality,3,type,1"/>
+      <item controllers="quality,4,type,2"/>
+      <item controllers="quality,3,type,3"/>
+      <item controllers="quality,6,type,4"/>
+      <item controllers="quality,2,type,5"/>
+      <item controllers="quality,1,type,6"/>
+      <item controllers="quality,4,type,7"/>
+    </list>
+    <group id="n37_l5cy" name="n37" xy="49,930" size="620,140" group="n5_surf"/>
+    <component id="n38_l5cy" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1135" size="84,84" group="n5_surf">
+      <relation target="n0_surf" sidePair="top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n5_surf" name="n5" xy="16,89" size="688,1130" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

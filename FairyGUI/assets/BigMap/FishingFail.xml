@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n2_ka12" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_ka12" name="n0" xy="0,169" size="720,500" group="n3_ka12" url="ui://5moj1x39ka12dxyd8" align="center" vAlign="middle"/>
+    <component id="n1_ka12" name="againFishingBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="251,1026" size="218,84" group="n3_ka12">
+      <Button title="再次垂钓" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n3_ka12" name="n3" xy="0,169" size="720,941" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

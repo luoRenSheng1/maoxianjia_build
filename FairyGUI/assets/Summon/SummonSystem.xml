@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="tabCtrl" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="召唤"/>
+    <remark page="1" value="钻石"/>
+    <remark page="2" value="礼包"/>
+    <remark page="3" value="特殊"/>
+  </controller>
+  <displayList>
+    <component id="n5_surf" name="summonInfo" src="surf6" fileName="Component/SummonInfo.xml" xy="0,0">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_surf" name="specialInfo" src="surfa" fileName="Component/SpecialInfo.xml" xy="0,0">
+      <gearDisplay controller="tabCtrl" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n8_p3wt" name="diamondInfo" src="p3wt2p" fileName="DimaondInfo.xml" xy="0,0" size="720,1240">
+      <gearDisplay controller="tabCtrl" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n7_ftc9" name="giftInfo" src="ftc92l" fileName="GiftInfo.xml" xy="0,0" size="720,1246">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n9_f34j" name="n9" xy="0,1041" size="720,115" group="n2_surf" url="ui://5moj1x39f34jdxybb" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <list id="n1_surf" name="tabList" xy="1,1059" size="717,70" group="n2_surf" layout="row" colGap="8" defaultItem="ui://5moj1x39p4bnc" align="center">
+      <relation target="" sidePair="center-center"/>
+      <item title="召唤" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="钻石" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="礼包" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+      <item title="特殊" icon="ui://5moj1x39f34jdxyav" selectedIcon="ui://5moj1x39f34jdxyam"/>
+    </list>
+    <group id="n2_surf" name="n2" xy="0,1041" size="720,115" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n3_surf" name="btnGold" src="surf4" fileName="Component/Currency.xml" xy="20,23">
+      <Label icon="ui://0anhreylf34jdxy9m"/>
+    </component>
+    <component id="n4_surf" name="btnDia" src="surf4" fileName="Component/Currency.xml" xy="211,23">
+      <Label icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+  </displayList>
+</component>

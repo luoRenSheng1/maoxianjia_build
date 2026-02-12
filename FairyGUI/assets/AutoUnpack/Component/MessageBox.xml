@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,50" extention="ComboBox" designImage="ui://rr0734r5mmjj1z" designImageOffsetX="-309" designImageOffsetY="-533" designImageAlpha="3" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_xihe" name="n0" src="x3dk2l" fileName="Res/1.PNG" xy="0,0" size="219,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_xihe" name="title" xy="18,7" size="153,35" fontSize="18" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#474746" singleLine="true" autoClearText="true" text="111">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+    <image id="n2_xihe" name="n2" src="x3dk2m" fileName="Res/2.png" xy="177,11">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </image>
+    <image id="n3_x3dk" name="n3" src="x3dk2s" fileName="Res/5.png" xy="177,11">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </image>
+  </displayList>
+  <ComboBox dropdown="ui://rr0734r5mmjj2d"/>
+</component>

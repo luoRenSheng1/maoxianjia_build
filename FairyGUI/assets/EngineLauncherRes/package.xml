@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="n8v1s7md">
+  <resources>
+    <component id="8g860" name="Main.xml" path="/" exported="true"/>
+    <component id="rqy84" name="MaintainWindow.xml" path="/Component/"/>
+    <image id="porm7" name="Tag.png" path="/Res/"/>
+    <component id="porm9" name="close.xml" path="/Component/"/>
+    <component id="ostte" name="TipWindow.xml" path="/Component/"/>
+    <component id="ppckm" name="TipContent.xml" path="/Component/"/>
+    <component id="leaeu" name="LoadingProgress.xml" path="/Component/"/>
+    <image id="leaev" name="LoadingJingDu01.png" path="/Res/" scale="9grid" scale9grid="13,0,12,16"/>
+    <image id="leaew" name="LoadingJingDu02.png" path="/Res/"/>
+    <image id="leaey" name="HongAnNiu_022.png" path="/Res/" scale="9grid" scale9grid="20,0,40,41"/>
+    <image id="leaez" name="TuiChu01.png" path="/Res/"/>
+    <image id="leae10" name="TangChuKuangXian.png" path="/Res/"/>
+    <component id="leae11" name="YellowButton.xml" path="/Component/"/>
+    <image id="l1xe13" name="img_maskDive.png" path="/Res/" scale="9grid" scale9grid="4,4,8,8"/>
+    <image id="doww14" name="12+.png" path="/Res/"/>
+    <component id="kgyu16" name="12+.xml" path="/Component/"/>
+    <component id="kgyu18" name="Announcement.xml" path="/Component/"/>
+    <component id="o49e1u" name="loading.xml" path="/Component/"/>
+    <misc id="o49e1v" name="EngineLauncherRes_ModalWaiting.atlas.txt" path="/Component/Spine/"/>
+    <image id="o49e1w" name="EngineLauncherRes_ModalWaiting.png" path="/Component/Spine/"/>
+    <spine id="o49e1x" name="EngineLauncherRes_ModalWaiting.json" path="/Component/Spine/" width="158" height="158" require="o49e1v,o49e1w" atlasNames="EngineLauncherRes_ModalWaiting" anchor="79,79"/>
+    <image id="vnmw1y" name="8.png" path="/Res/" scale="9grid" scale9grid="200,62,7,10"/>
+    <image id="vnmw1z" name="btn-tupo 02.png" path="/Res/"/>
+    <image id="vnmw20" name="btn-yijiantupo.png" path="/Res/"/>
+    <image id="vnmw21" name="guanbi.PNG" path="/Res/"/>
+    <image id="eizk25" name="dl_bg.jpg" path="/Res/"/>
+    <image id="8bcl26" name="logo_zh.png" path="/Res/"/>
+    <component id="n89627" name="TapSDKContent.xml" path="/Component/"/>
+    <image id="n89628" name="general_text_bg2.png" path="/Res/"/>
+    <component id="n89629" name="TapSDKPanel.xml" path="/Component/"/>
+    <image id="nps02a" name="general_bg1.png" path="/Res/" scale="9grid" scale9grid="172,107,344,9"/>
+    <image id="nps02b" name="home_btn21.png" path="/Res/"/>
+    <image id="nps02c" name="home_btn23.png" path="/Res/"/>
+    <image id="nps02d" name="tap 登录更新效果图.png" path="/Res/"/>
+  </resources>
+  <publish name="EngineLauncherRes" path="{inapppanel}" packageCount="2"/>
+</packageDescription>

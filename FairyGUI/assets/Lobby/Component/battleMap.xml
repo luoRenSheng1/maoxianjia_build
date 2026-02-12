@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,420">
+  <displayList>
+    <list id="n4_ktej" name="mapList" xy="0,-655" size="2888,1075" layout="row" colGap="-1" defaultItem="ui://s7x7ku0nktejdxy1g" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <relation target="" sidePair="height-height%,bottom-bottom"/>
+      <item icon="ui://s7x7ku0nucd4dxybt"/>
+      <item icon="ui://s7x7ku0nucd4dxybt"/>
+    </list>
+  </displayList>
+</component>

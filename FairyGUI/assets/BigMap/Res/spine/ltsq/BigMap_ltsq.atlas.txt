@@ -1,0 +1,10 @@
+BigMap_ltsq.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+shuijing_qiu
+	bounds: 2, 2, 112, 113
+	offsets: 15, 13, 140, 140
+shuijing_sanhu
+	bounds: 2, 117, 280, 169
+	offsets: 32, 21, 350, 200

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="379,30" extention="ProgressBar">
+  <controller name="maxCtrl" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="不是最大"/>
+    <remark page="1" value="最大"/>
+  </controller>
+  <controller name="barType" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n9_xezf" name="n9" src="xezf2o" fileName="Res/new/role_intensify_bg51.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_eb0t" name="bar" xy="2,3" size="375,24" url="ui://5moj1x39f34jdxyar" fill="scaleFree" fillMethod="hz">
+      <gearIcon controller="barType" pages="0,1" values="ui://5moj1x39f34jdxyar|ui://5moj1x39f34jdxyaq"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n8_f34j" name="n8" src="f34jdxyar" fileName="Res/newItem2/general_progress bar_bg2.png" pkg="5moj1x39" xy="2,3" size="375,24">
+      <gearDisplay controller="maxCtrl" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_eb0t" name="title" xy="150,1" size="76,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="200/200">
+      <gearDisplay controller="maxCtrl" pages="0"/>
+      <gearColor controller="maxCtrl" pages="0,1" values="#ffffff,#000000|#ffffff,#501b18"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_rm2c" name="maxLevel" xy="157,0" size="64,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" bold="true" strokeColor="#501b18" strokeSize="3" singleLine="true" text="已满级">
+      <gearDisplay controller="maxCtrl" pages="1"/>
+      <gearColor controller="maxCtrl" pages="0,1" values="#ffffff,#501b18|#ffffff,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

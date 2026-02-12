@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,800">
+  <controller name="titleCtrl" pages="0,第一章,1,第二章,2,第三章" selected="0"/>
+  <displayList>
+    <loader id="n2_plio" name="bgUrl" xy="5,2" size="710,176" url="ui://nmzfxo89ftc9h" clearOnPublish="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n5_plio" name="n5" xy="13,242" size="693,558" url="ui://nmzfxo89ftc9f" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n3_plio" name="titleList" xy="34,186" size="655,72" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="23" defaultItem="ui://nmzfxo89plio12" align="center" vAlign="middle" selectionController="titleCtrl">
+      <item title="第一章" controllers="ctrlTitle,0"/>
+      <item title="第二章" controllers="ctrlTitle,1"/>
+      <item title="第三章" controllers="ctrlTitle,2"/>
+    </list>
+    <list id="n7_plio" name="itemList" xy="34,255" size="655,537" overflow="scroll" lineGap="2" defaultItem="ui://nmzfxo89plioz" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_r18s" name="tipsBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="663,11" size="30,30">
+      <Button icon="ui://5moj1x39ddc14i"/>
+    </component>
+  </displayList>
+</component>

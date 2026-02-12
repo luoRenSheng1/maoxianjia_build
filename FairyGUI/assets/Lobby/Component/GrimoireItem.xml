@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="704,124" designImageOffsetX="-9" designImageOffsetY="-820" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <loader id="n3_ax20" name="bg" xy="0,0" size="704,124" url="ui://s7x7ku0nf34jdxyac">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_ax20" name="icon" xy="39,30" size="64,64" visible="false" url="ui://5moj1x39ax20dxy7m" fill="scale"/>
+    <component id="n13_doem" name="grimoireBtn" src="doemdxy8r" fileName="Component/GrimoireBtn.xml" xy="29,23"/>
+    <text id="n0_ax20" name="name" xy="37,9" size="64,29" visible="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="黑魔法">
+      <relation target="n13_doem" sidePair="center-center"/>
+    </text>
+    <text id="n4_ax20" name="Lv" xy="35,78" size="68,34" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="LV.{cur=10}">
+      <relation target="n13_doem" sidePair="center-center"/>
+    </text>
+    <list id="n2_ax20" name="attrList" xy="159,20" size="303,84" layout="row" overflow="scroll" scroll="horizontal" colGap="35" defaultItem="ui://s7x7ku0nax20dxy89" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_fr3p" name="upAniBtn" src="fr3pdxycq" fileName="Component/UpAniBtn.xml" xy="488,20">
+      <relation target="n3_ax20" sidePair="middle-middle,right-right"/>
+    </component>
+  </displayList>
+</component>

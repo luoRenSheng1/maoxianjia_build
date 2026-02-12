@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,320">
+  <controller name="rewardCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="不能领取"/>
+    <remark page="1" value="能领取"/>
+    <remark page="2" value="已全部领取"/>
+  </controller>
+  <displayList>
+    <loader id="n26_xezf" name="n26" xy="0,0" size="720,12" group="n25_xezf" url="ui://2pcsnr2kxezf1s" fill="scaleFree">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <component id="n16_zthq" name="tempExp" src="r0ab13" fileName="Component/PassportBar.xml" xy="348,-50" size="24,63" group="n25_xezf">
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n18_xezf" name="n18" xy="0,12" size="720,308" group="n25_xezf" url="ui://2pcsnr2kxezf1z"/>
+    <loader id="n17_xezf" name="n17" xy="21,59" size="678,225" group="n25_xezf" url="ui://2pcsnr2kxezf1y">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n19_xezf" name="n19" xy="221,29" size="278,66" group="n25_xezf" url="ui://2pcsnr2kxezf1u" fill="scaleFree">
+      <relation target="n17_xezf" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n8_r0ab" name="n8" xy="310,46" size="100,34" group="n25_xezf" fontSize="24" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="2" text="额外奖励">
+      <relation target="n19_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n27_xezf" name="expBar" src="xezf2p" fileName="Component/PassBarExp.xml" xy="84,127" size="552,24" group="n25_xezf">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n22_xezf" name="n22" xy="59,103" size="72,72" group="n25_xezf" url="ui://2pcsnr2kxezf2a"/>
+    <loader id="n6_r0ab" name="boxDetail" xy="587,98" size="80,80" group="n24_xezf" url="ui://2pcsnr2kxezf26"/>
+    <component id="n12_r0ab" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="635,98" group="n24_xezf" touchable="false">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n6_r0ab" sidePair="left-left,top-top"/>
+    </component>
+    <loader id="n23_xezf" name="n23" xy="604,113" size="50,50" group="n24_xezf" url="ui://2pcsnr2kxezf27" align="center" vAlign="middle">
+      <gearDisplay controller="rewardCtrl" pages="2"/>
+      <relation target="n6_r0ab" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n11_r0ab" name="boxGetBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="588,98" size="80,80" group="n24_xezf">
+      <gearDisplay controller="rewardCtrl" pages="1"/>
+      <relation target="n6_r0ab" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n9_r0ab" name="boxGetLb" xy="593,163" size="70,29" group="n24_xezf" fontSize="20" color="#fcf78e" align="center" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="{cur=50}/{total=50}"/>
+    <group id="n24_xezf" name="n24" xy="587,98" size="81,94" group="n25_xezf" advanced="true"/>
+    <loader id="n20_xezf" name="n20" xy="39,198" size="642,72" group="n21_xezf" url="ui://2pcsnr2kxezf1x" fill="scaleFree">
+      <relation target="n17_xezf" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n10_r0ab" name="boxDesc" xy="63,223" size="594,26" group="n21_xezf" fontSize="18" color="#ffffff" vars="true" bold="true" text="到达{lv=9}级后，每获得{exp=10}点通行证经验，可以领取一次奖励宝箱，最多{total=50}次。">
+      <relation target="n20_xezf" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n21_xezf" name="n21" xy="39,198" size="642,72" group="n25_xezf"/>
+    <group id="n25_xezf" name="n25" xy="0,-50" size="720,370"/>
+  </displayList>
+</component>

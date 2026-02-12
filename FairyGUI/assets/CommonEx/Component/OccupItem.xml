@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="49,50" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <loader id="n2_p4bn" name="icon" xy="0,0" pivot="0.5,0.5" size="49,50" aspect="true" url="ui://5moj1x39p4bn14" fill="scale" autoSize="true"/>
+    <image id="n3_ddc1" name="n3" src="ddc1dxy4u" fileName="Res/n111.png" xy="-9,-10">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

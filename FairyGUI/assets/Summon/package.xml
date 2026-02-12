@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i7ojazuu">
+  <resources>
+    <folder id="/Res/dimaond/" name="dimaond" path="/Res/" atlas="2"/>
+    <folder id="/Res/gift/" name="gift" path="/Res/" atlas="4"/>
+    <folder id="/Res/girlSpine/" name="girlSpine" path="/Res/" atlas="3"/>
+    <component id="surf0" name="SummonSystem.xml" path="/" exported="true"/>
+    <image id="surf1" name="sdgsdfhgdfh.png" path="/Res/"/>
+    <image id="surf3" name="ss.png" path="/Res/newPetsystem2/"/>
+    <component id="surf4" name="Currency.xml" path="/Component/"/>
+    <image id="surf5" name="n842.png" path="/Res/newPetsystem2/" scale="9grid" scale9grid="47,0,94,35"/>
+    <component id="surf6" name="SummonInfo.xml" path="/Component/"/>
+    <component id="surf7" name="SummonItem.xml" path="/Component/"/>
+    <component id="surf8" name="SummonBtn.xml" path="/Component/"/>
+    <component id="surf9" name="SummonAdBtn.xml" path="/Component/"/>
+    <component id="surfa" name="SpecialInfo.xml" path="/Component/"/>
+    <component id="surfb" name="SpecialItem.xml" path="/Component/"/>
+    <component id="surfc" name="SummonHero.xml" path="/" exported="true"/>
+    <component id="surfd" name="SummonHeroBtn.xml" path="/Component/"/>
+    <component id="surfe" name="SummonGetReward.xml" path="/" exported="true"/>
+    <component id="surff" name="ItemList.xml" path="/Component/"/>
+    <component id="surfg" name="SummonProbability.xml" path="/" exported="true"/>
+    <image id="surfh" name="n10.png" path="/Res/"/>
+    <image id="surfi" name="n78.png" path="/Res/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="surfj" name="n9.png" path="/Res/" scale="9grid" scale9grid="12,7,3,1"/>
+    <image id="surfk" name="n2.png" path="/Res/banner/"/>
+    <image id="surfl" name="n3.png" path="/Res/banner/"/>
+    <image id="surfm" name="n1.png" path="/Res/banner/"/>
+    <image id="surfn" name="n4.png" path="/Res/banner/"/>
+    <image id="surfo" name="chongwu.png" path="/Res/"/>
+    <image id="surfp" name="jineng.png" path="/Res/"/>
+    <image id="surfq" name="n5.png" path="/Res/"/>
+    <image id="surfr" name="n6.png" path="/Res/"/>
+    <image id="surfs" name="n8.png" path="/Res/"/>
+    <image id="surfu" name="n12.png" path="/Res/" scale="9grid" scale9grid="41,52,7,46"/>
+    <image id="surfv" name="n13.png" path="/Res/"/>
+    <image id="q9cgw" name="yingxiongling.png" path="/Res/"/>
+    <image id="q9cgx" name="bg1.png" path="/Res/"/>
+    <component id="q9cgy" name="functionBtn.xml" path="/Component/"/>
+    <image id="q9cg10" name="n14.png" path="/Res/"/>
+    <component id="q9cg11" name="SummonFreeHeroBtn.xml" path="/Component/"/>
+    <image id="q9cg12" name="nn1.png" path="/Res/month/" scale="9grid" scale9grid="0,363,446,14"/>
+    <component id="q9cg13" name="SpecialCard.xml" path="/" exported="true"/>
+    <image id="q9cg14" name="nn2.png" path="/Res/month/"/>
+    <image id="q9cg15" name="nn4.png" path="/Res/month/" scale="9grid" scale9grid="93,7,57,7"/>
+    <image id="q9cg16" name="nn3.png" path="/Res/month/"/>
+    <image id="q9cg17" name="nn5.png" path="/Res/month/" scale="9grid" scale9grid="24,51,3,6"/>
+    <image id="q9cg18" name="nn6.png" path="/Res/month/"/>
+    <component id="q9cg19" name="CardItem.xml" path="/Component/"/>
+    <component id="q9cg1a" name="SummonHeroReward.xml" path="/" exported="true"/>
+    <misc id="k4ck1c" name="Summon_Banner.atlas" path="/Res/spine/"/>
+    <image id="k4ck1d" name="Summon_Banner.png" path="/Res/spine/" scale9grid="128,128,256,256"/>
+    <spine id="k4ck1b" name="Summon_Banner.skel" path="/Res/spine/" width="376" height="314" require="k4ck1c,k4ck1d" atlasNames="Summon_Banner" anchor="167,124"/>
+    <image id="k4ck1e" name="nn16.png" path="/Res/"/>
+    <image id="k4ck1f" name="nn17.png" path="/Res/"/>
+    <image id="k4ck1g" name="nn7.png" path="/Res/newPetsystem/"/>
+    <component id="k4ck1h" name="probablyItem.xml" path="/Component/"/>
+    <image id="k4ck1i" name="01 grey.png" path="/Res/pinzi/"/>
+    <image id="k4ck1j" name="02 green.png" path="/Res/pinzi/"/>
+    <image id="k4ck1k" name="03 blue.png" path="/Res/pinzi/"/>
+    <image id="k4ck1l" name="04 purple.png" path="/Res/pinzi/"/>
+    <image id="k4ck1m" name="05 yellow.png" path="/Res/pinzi/"/>
+    <image id="k4ck1n" name="06 pink.png" path="/Res/pinzi/"/>
+    <image id="k4ck1o" name="07 red.png" path="/Res/pinzi/"/>
+    <component id="u1cl1p" name="SummonHeroHelp.xml" path="/" exported="true"/>
+    <component id="u1cl1q" name="heroDetailItem.xml" path="/Component/"/>
+    <image id="u1cl1r" name="904.png" path="/Res/"/>
+    <component id="u1cl1s" name="heroProbItem.xml" path="/Component/"/>
+    <image id="ncna1t" name="nn115.png" path="/Res/" scale9grid="33,9,66,18"/>
+    <image id="ncna1u" name="n41.png" path="/Res/" scale="9grid" scale9grid="15,9,5,6"/>
+    <misc id="lzt11w" name="Summon_PetEx.atlas" path="/Res/spine2/"/>
+    <image id="lzt11x" name="Summon_PetEx.png" path="/Res/spine2/"/>
+    <spine id="lzt11v" name="Summon_PetEx.skel" path="/Res/spine2/" width="193" height="207" require="lzt11w,lzt11x" atlasNames="Summon_PetEx" anchor="90,181"/>
+    <misc id="lzt11z" name="Summon_SkillEx.atlas" path="/Res/spine3/"/>
+    <image id="lzt120" name="Summon_SkillEx.png" path="/Res/spine3/"/>
+    <spine id="lzt11y" name="Summon_SkillEx.skel" path="/Res/spine3/" width="165" height="137" require="lzt11z,lzt120" atlasNames="Summon_SkillEx" anchor="82,67"/>
+    <component id="izi821" name="Shade.xml" path="/Component/"/>
+    <misc id="l95523" name="Summon_HeroBanner.atlas" path="/Res/spine4/"/>
+    <image id="l95524" name="Summon_HeroBanner.png" path="/Res/spine4/"/>
+    <spine id="l95522" name="Summon_HeroBanner.skel" path="/Res/spine4/" width="720" height="351" require="l95523,l95524" atlasNames="Summon_HeroBanner" anchor="360,175"/>
+    <misc id="qc4n26" name="Summon_HeroEx.atlas" path="/Res/spine5/"/>
+    <image id="qc4n27" name="Summon_HeroEx.png" path="/Res/spine5/"/>
+    <spine id="qc4n25" name="Summon_HeroEx.skel" path="/Res/spine5/" width="470" height="228" require="qc4n26,qc4n27" atlasNames="Summon_HeroEx" anchor="183,114"/>
+    <image id="ftc928" name="ddgggh.png" path="/Res/gift/"/>
+    <image id="ftc929" name="hyjtruj.png" path="/Res/gift/"/>
+    <image id="ftc92a" name="nn 512  3.png" path="/Res/gift/" scale="9grid" scale9grid="15,0,30,324"/>
+    <image id="ftc92b" name="nn 515.png" path="/Res/gift/" scale="9grid" scale9grid="25,11,2,8"/>
+    <image id="ftc92c" name="nn 722.png" path="/Res/gift/"/>
+    <image id="ftc92d" name="nn 1003.png" path="/Res/gift/" scale="9grid" scale9grid="21,0,14,324"/>
+    <image id="ftc92e" name="nn 1012.png" path="/Res/gift/"/>
+    <image id="ftc92f" name="nn 1013.png" path="/Res/gift/" scale="9grid" scale9grid="29,0,16,324"/>
+    <image id="ftc92g" name="nn 1018.png" path="/Res/gift/" scale="9grid" scale9grid="20,31,14,16"/>
+    <image id="ftc92h" name="nn 1031.png" path="/Res/gift/"/>
+    <image id="ftc92i" name="nn 1044 .png" path="/Res/gift/"/>
+    <image id="ftc92j" name="nn 1069.png" path="/Res/gift/"/>
+    <image id="ftc92k" name="nn514 .png" path="/Res/gift/" scale="9grid" scale9grid="18,26,3,12"/>
+    <component id="ftc92l" name="GiftInfo.xml" path="/"/>
+    <component id="ftc92m" name="GiftList.xml" path="/Component/"/>
+    <component id="ftc92n" name="GiftListItem.xml" path="/Component/"/>
+    <component id="ftc92o" name="GiftItemRewardItem.xml" path="/Component/"/>
+    <component id="p3wt2p" name="DimaondInfo.xml" path="/"/>
+    <component id="p3wt2q" name="DiamondItem.xml" path="/Component/"/>
+    <image id="p3wt1e" name="01.png" path="/Res/dimaond/"/>
+    <image id="p3wt1f" name="02.png" path="/Res/dimaond/"/>
+    <image id="p3wt1g" name="03.png" path="/Res/dimaond/"/>
+    <image id="p3wt1h" name="04.png" path="/Res/dimaond/"/>
+    <image id="p3wt1i" name="05.png" path="/Res/dimaond/"/>
+    <image id="p3wt1j" name="06.png" path="/Res/dimaond/"/>
+    <image id="p3wt2r" name="0.PNG" path="/Res/dimaond/" scale="9grid" scale9grid="33,31,9,9"/>
+    <misc id="ldok2u" name="Summon_Chouka.atlas" path="/Res/girlSpine/" exported="true"/>
+    <image id="ldok2v" name="Summon_Chouka.png" path="/Res/girlSpine/" exported="true" duplicatePadding="true"/>
+    <spine id="ldok2t" name="Summon_Chouka.skel" path="/Res/girlSpine/" exported="true" width="2016" height="1675" require="ldok2u,ldok2v" atlasNames="Summon_Chouka" anchor="1151,1386"/>
+    <image id="rmxq2w" name="yxjj.png" path="/Res/"/>
+    <image id="zd1s2x" name="00.png" path="/Res/dimaond/"/>
+    <image id="njeb30" name="scsb.png" path="/Res/dimaond/"/>
+    <image id="njeb31" name="yxjjbg.png" path="/Res/"/>
+    <image id="f34j32" name="diamond3.png" path="/Res/new/"/>
+    <image id="f34j33" name="diamond4.png" path="/Res/new/"/>
+    <image id="f34j34" name="diamond5.png" path="/Res/new/"/>
+    <image id="f34j35" name="diamond6.png" path="/Res/new/"/>
+    <image id="f34j36" name="tags.png" path="/Res/new/"/>
+    <image id="f34j37" name="title.png" path="/Res/new/"/>
+    <image id="f34j38" name="button_1.png" path="/Res/new/"/>
+    <image id="f34j39" name="button_2.png" path="/Res/new/"/>
+    <image id="f34j3a" name="card.png" path="/Res/new/"/>
+    <image id="f34j3b" name="diamond1.png" path="/Res/new/"/>
+    <image id="f34j3c" name="diamond2.png" path="/Res/new/"/>
+    <image id="f34j3d" name="商业化--钻石商店.png" path="/Res/new/"/>
+    <component id="f34j3e" name="ChargeBtn.xml" path="/Component/"/>
+    <image id="a2kw3f" name="1010003.png" path="/Res/new/"/>
+    <image id="l5cy3g" name="召唤概率效果图.png" path="/Res/summonPro/"/>
+    <image id="l5cy3h" name="shangdiandnegji.png" path="/Res/summonPro/"/>
+    <image id="l5cy3i" name="Star.png" path="/Res/summonPro/"/>
+    <image id="l5cy3j" name="dian.png" path="/Res/summonPro/" scale="tile"/>
+    <image id="l5cy3k" name="role_btn21.png" path="/Res/summonPro/" exported="true"/>
+    <image id="l5cy3l" name="role_btn11.png" path="/Res/summonPro/" exported="true"/>
+    <image id="l5cy3m" name="biaoti.png" path="/Res/summonPro/" scale="9grid" scale9grid="74,25,148,35"/>
+    <image id="l5cy3n" name="英雄集结活动帮助.png" path="/Res/summonPro/"/>
+    <component id="l5cy3o" name="GainHeroPro.xml" path="/Component/"/>
+    <component id="l5cy3p" name="HeroIntroItem.xml" path="/Component/"/>
+    <image id="l5cy3q" name="bg_2.png" path="/Res/summonPro/" scale="9grid" scale9grid="16,16,32,32"/>
+    <image id="l5cy3r" name="bg_1.png" path="/Res/summonPro/" scale="9grid" scale9grid="14,15,28,32"/>
+    <image id="l5cy44" name="bg_3.png" path="/Res/summonPro/" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="l5cy49" name="bg_5.png" path="/Res/summonPro/" scale="9grid" scale9grid="14,0,28,36"/>
+    <image id="l5cy4a" name="bg_4.png" path="/Res/summonPro/" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="l5cy4b" name="home_Attribute details_bg02.png" path="/Res/summonPro/" scale="9grid" scale9grid="8,8,42,40"/>
+    <misc id="jn604c" name="Summon_zh_banner.atlas.txt" path="/Res/spine6/"/>
+    <image id="jn604d" name="Summon_zh_banner.png" path="/Res/spine6/"/>
+    <image id="jn604e" name="Summon_zh_banner_2.png" path="/Res/spine6/"/>
+    <image id="jn604f" name="Summon_zh_banner_3.png" path="/Res/spine6/"/>
+    <image id="jn604g" name="Summon_zh_banner_4.png" path="/Res/spine6/"/>
+    <image id="jn604h" name="Summon_zh_banner_5.png" path="/Res/spine6/"/>
+    <spine id="jn604i" name="Summon_zh_banner.skel" path="/Res/spine6/" width="750" height="538" require="jn604c,jn604d,jn604e,jn604f,jn604g,jn604h" atlasNames="Summon_zh_banner,Summon_zh_banner_2,Summon_zh_banner_3,Summon_zh_banner_4,Summon_zh_banner_5" anchor="375,275"/>
+    <misc id="jn604j" name="Summon_huo.atlas.txt" path="/Res/spine7/"/>
+    <image id="jn604k" name="Summon_huo.png" path="/Res/spine7/"/>
+    <spine id="jn604l" name="Summon_huo.skel" path="/Res/spine7/" width="100" height="100" require="jn604j,jn604k" atlasNames="Summon_huo" anchor="100,100"/>
+    <image id="jn604n" name="bg14.png" path="/Res/"/>
+    <image id="llb14o" name="summon_btn03.png" path="/Res/new/"/>
+    <image id="llb14p" name="summon_img01.png" path="/Res/new/"/>
+    <image id="llb14q" name="summon_img02.png" path="/Res/new/"/>
+    <image id="llb14r" name="summon_bg11.png" path="/Res/new/"/>
+    <image id="llb14s" name="summon_bg12.png" path="/Res/new/"/>
+    <image id="llb14t" name="summon_btn01.png" path="/Res/new/"/>
+    <image id="llb14u" name="summon_btn02.png" path="/Res/new/"/>
+    <image id="llb14v" name="summon_bg21.png" path="/Res/new/" scale="9grid" scale9grid="1,0,17,18"/>
+    <misc id="llb14w" name="Summon_cwzh.atlas.txt" path="/Res/spine8/"/>
+    <image id="llb14x" name="Summon_cwzh.png" path="/Res/spine8/"/>
+    <misc id="llb14y" name="Summon_jnzh.atlas.txt" path="/Res/spine9/"/>
+    <image id="llb14z" name="Summon_jnzh.png" path="/Res/spine9/"/>
+    <spine id="llb150" name="Summon_cwzh.skel" path="/Res/spine8/" width="756" height="636" require="llb14w,llb14x" atlasNames="Summon_cwzh" anchor="593,522"/>
+    <spine id="llb151" name="Summon_jnzh.skel" path="/Res/spine9/" width="130" height="130" require="llb14y,llb14z" atlasNames="Summon_jnzh" anchor="65,65"/>
+    <component id="llb152" name="SummonBarExp.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="Summon" genCode="true"/>
+</packageDescription>

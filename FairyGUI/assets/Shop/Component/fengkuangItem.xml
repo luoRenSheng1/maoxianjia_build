@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="659,149">
+  <controller name="reachCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="达到"/>
+    <remark page="1" value="没达到"/>
+  </controller>
+  <displayList>
+    <image id="n0_plio" name="bg" src="plio10" fileName="Res/4.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_plio" name="fkItemCom" src="plio11" fileName="Component/fengkuangItemCom.xml" xy="531,32" scale="1.2,1.2"/>
+    <text id="n2_plio" name="num" xy="9,47" size="67,60" fontSize="45" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#8b5017" strokeSize="2" singleLine="true" text="11"/>
+    <text id="n3_plio" name="title" xy="105,59" size="382,35" fontSize="25" color="#643a24" vAlign="middle" vars="true" autoSize="none" bold="true" singleLine="true" text="解锁{value=星光湖1-1}"/>
+    <graph id="n4_89ax" name="n4" xy="0,4" size="658,144" alpha="0.8" touchable="false" type="rect" lineSize="0" fillColor="#ff333333" corner="15">
+      <gearDisplay controller="reachCtrl" pages="1"/>
+    </graph>
+  </displayList>
+</component>

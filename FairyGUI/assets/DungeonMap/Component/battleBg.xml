@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,400">
+  <displayList>
+    <loader id="n3_wrej" name="map_bg" xy="-240,-904" size="2932,1100" url="ui://57yc4rb0gwxt4" vAlign="bottom" fill="scaleFree" clearOnPublish="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </loader>
+    <loader id="n4_ktej" name="map_middle" xy="-270,-239" size="2412,434" url="ui://57yc4rb0gwxt5" vAlign="bottom" fill="scaleMatchWidth" clearOnPublish="true"/>
+  </displayList>
+</component>

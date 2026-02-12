@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="369,233">
+  <displayList>
+    <loader id="n1_w61t" name="n1" xy="0,0" size="369,233" url="ui://5moj1x39ewjfdxy23" fill="scaleFree">
+      <relation target="n3_w61t" sidePair="height-height"/>
+    </loader>
+    <text id="n3_w61t" name="pContent" xy="179,14" size="175,158" fontSize="20" color="#948d84" ubb="true" autoSize="shrink" text="打开宠物预览界面，不关闭当前界面，推出预览后需返回显示打开预览前的样子"/>
+    <component id="n4_gybr" name="petItem" src="jp5j1" fileName="Component/PetItem.xml" xy="14,20" controller="state,1,hasLv,1"/>
+    <component id="n5_gybr" name="detailBtn" src="p4bng" fileName="Component/EmptyBtn.xml" xy="207,176" size="125,46">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="详情" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+  </displayList>
+  <relation target="n1_w61t" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,135 @@
+
+syntax = "proto2";
+package msg;
+
+import "MsgID.proto";
+import "Enum.proto";
+import "Common.proto";
+
+// 邮件附件
+message MailAttach
+{
+	optional uint32	attach_type = 1;	// 附件类型ID---目前就只有一种itemID
+	optional uint32	attach_num = 2;		// 附件数量 ---  目前只有 item ID对应的数量
+}
+
+// 邮件详细信息
+message MailDetail {
+    optional uint64	guid = 1;    		//;邮件Guid
+	optional uint64	sender_guid = 2;	// 发件人Guid
+	optional string	sender_name = 3;	// 发件人名字
+	optional int32	type = 4;			// 类型(参考eMailType)
+	optional int32	status = 5;			// 状态(参考eMailStatus)
+	optional string	title = 6;			// 标题  //原文或文本id //如果在文本表里找不到就是原文)
+	optional string	content = 7;		// 内容   //同上
+	repeated MailAttach attachs = 8;	// 附件列表
+	optional int64	send_time = 9;		// 发送时间(单位:秒)
+	optional uint64	expire_cd = 10;		// 过期倒计时(单位:秒)
+	repeated string title_params = 11;  // 标题的替换参数,如果标题中存在{0}, {1}之类的（约定从{0}开始，用本字段中的数组元素替换）
+	repeated string content_params = 12;  // 内容的替换参数, 如果内容中存在{0}, {1}之类的（约定从{0}开始，用本字段中的数组元素替换）
+	
+}
+
+// 客户端请求发送邮件
+message MailSend_CS {  //eMsg_MailSend_CS
+	optional uint64	receiver_guid = 1;	// 收件人Guid
+	optional string	title = 2;			// 标题--无需特殊编码，敏感字过滤后发  ---1024个字节
+	optional string	content = 3;		// 内容-无需特殊编码，敏感字过滤后发  ---4096个字节
+	//repeated MailAttach attachs = 4;	// 附件列表--玩家主动发送邮件不允许带道具附件，避免利益输送
+	optional string receiver_name = 5;	// 收件人名字(落日志用)
+}
+
+// 服务端反馈发送邮件结果
+message MailSend_SC {  //eMsg_MailSend_SC
+	optional int32 err_code = 1;	// 结果(参考eErrCoder)
+}
+
+// 客户端请求邮件列表
+message MailList_CS {   //eMsg_MailList_CS
+	optional eMailType	mail_type = 1;	// 邮件类型(参考eMailType)  //请求全部填0即可--eMailType_Unknow
+	optional int32		count = 2;		// 请求加载的邮件数量     //为0表示请求全部
+}
+
+// 服务端反馈邮件列表
+message MailList_SC {   //eMsg_MailList_SC
+	optional eMailType	mail_type = 1;	// 邮件类型(参考eMailType)
+	repeated MailDetail mails = 2;		// 邮件列表
+	optional uint32		total = 3;		// 玩家当前类型的邮件总数
+	//optional uint32		unread = 4;		// 玩家当前类型的邮件未读总数 -- 废弃，客户端自己算
+	optional bool		is_end = 5;		// 当前类型邮件列表是否加载完毕 true:完毕 false:还有邮件待加载
+	optional int32 err_code = 6;	// 结果(参考eErrCoder)
+}
+
+// 客户端请求提取附件
+message MailExtract_CS {  //eMsg_MailExtract_CS
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType) //填0表示服务器端不用判断类型,下面不再注释
+	optional int32		action_type = 2;	// 提取类型(参考eActionType)
+	repeated uint64 	mail_guid = 3;		// 邮件Guid
+}
+
+// 提取结果
+message ExtractResult {  
+	optional eMailType	mail_type = 1;	// 邮件类型(参考eMailType)
+	optional uint64	mail_guid = 2;		// 邮件Guid
+	repeated MailAttach attachs = 3;	// 提取的附件列表--目前就是道具
+	optional uint32	status = 4;			// 状态(参考eMailStatus)
+	optional int32	err_code = 5;		// 结果(参考eErrCoder)
+}
+
+// 服务端反馈提取附件结果
+message MailExtract_SC {  //eMsg_MailExtract_SC
+	optional eMailType		mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32			action_type = 2;	// 提取类型(参考eActionType)
+	repeated ExtractResult	extract_results = 3;		// 提取结果
+	optional int32 err_code = 4;	// 结果(参考eErrCoder)
+	optional Finance finance = 5; //最新账户金额
+}
+
+// 客户端请求删除邮件
+message MailRemove_CS {  //eMsg_MailRemove_CS
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32		action_type = 2;	// 删除类型(参考eActionType)
+	repeated uint64 	mail_guid = 3;		// 邮件Guid
+}
+
+// 服务端反馈删除邮件结果
+message MailRemove_SC {  //eMsg_MailRemove_SC
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32		action_type = 2;	// 删除类型(参考eActionType)
+	repeated uint64 	mail_guid = 3;		// 删除成功的邮件Guid
+	optional bool		is_end = 4;			// 当前类型邮件列表是否加载完毕 true:完毕 false:还有邮件待加载
+	optional int32 err_code = 5;	// 结果(参考eErrCoder)
+}
+
+// 服务端主动通知删除邮件
+message MailRemove_PC {  //eMsg_MailRemove_PC
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32		action_type = 2;	// 删除类型(参考eActionType)
+	repeated uint64 	mail_guid = 3;		// 删除的邮件Guid
+	optional bool		is_end = 4;			// 当前类型邮件列表是否加载完毕 true:完毕 false:还有邮件待加载
+}
+
+// 客户端请求标记邮件(已读/未读)
+message MailMark_CS {  //eMsg_MailMark_CS
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32		action_type = 2;	// 删除类型(参考eActionType)
+	optional int32		status = 3;			// 已读：eMailStatus_Read 未读：eMailStatus_Unknow
+	repeated uint64 	mail_guid = 4;		// 邮件Guid
+}
+
+// 服务端反馈标记邮件(已读/未读)结果
+message MailMark_SC {   //eMsg_MailMark_SC
+	optional eMailType	mail_type = 1;		// 邮件类型(参考eMailType)
+	optional int32		action_type = 2;	// 删除类型(参考eActionType)
+	optional int32		status = 3;			// 已读：eMailStatus_Read 未读：eMailStatus_Unknow
+	repeated uint64		mail_guid = 4;		// 邮件Guid
+	optional int32 err_code = 5;	// 结果(参考eErrCoder)
+}
+
+// 服务端主动通知客户端有新邮件产生
+message MailNew_PC {   //eMsg_MailNew_PC
+	optional eMailType	mail_type = 1;	// 邮件类型(参考eMailType)
+	optional int32		total = 2;		// 最新邮件总数
+	//optional uint32		unread = 3;		// 玩家当前类型的邮件未读总数
+	optional MailDetail mail = 4;		// 新增邮件内容
+}

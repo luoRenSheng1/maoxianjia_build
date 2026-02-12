@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://lxs2h4iff34jdxy8z" designImageAlpha="60">
+  <controller name="typeCtrl" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="天赋"/>
+    <remark page="1" value="技能书"/>
+  </controller>
+  <displayList>
+    <component id="n0_hz5c" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_hz5c" name="n1" xy="16,408" size="688,352" group="n13_hz5c" url="ui://5moj1x39f34jdxy9y" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n14_f34j" name="n14" xy="40,617" size="640,112" group="n13_hz5c" url="ui://5moj1x39f34jdxyae" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n4_hz5c" name="n4" xy="290,425" size="132,44" group="n13_hz5c" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="天赋详情">
+      <gearText controller="status" pages="1" values="技能书详情" default="天赋详情"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n6_hz5c" name="skillItem" src="hz5cdxy78" fileName="Component/PetSkillBtn.xml" xy="40,522" group="n13_hz5c"/>
+    <text id="n7_hz5c" name="skillName" xy="130,529" size="100,34" group="n13_hz5c" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="尖锐音波"/>
+    <text id="n8_hz5c" name="skillType" xy="130,567" size="64,29" group="n13_hz5c" fontSize="20" color="#4c2911" align="center" vAlign="middle" bold="true" text="伤害型">
+      <gearText controller="typeCtrl" pages="0,1,2,3,4" values="伤害型|防御型|回复型|辅助型|恢复型"/>
+    </text>
+    <component id="n9_hz5c" name="petQuality" src="hz5cdxy7d" fileName="Component/PetQualityLb.xml" xy="600,530" group="n13_hz5c"/>
+    <richtext id="n11_hz5c" name="skillDesc" xy="65,641" size="589,73" group="n13_hz5c" fontSize="24" color="#4c2911" autoSize="none" bold="true" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述"/>
+    <component id="n12_hz5c" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="318,788" size="84,84" group="n13_hz5c">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n13_hz5c" name="n13" xy="16,408" size="688,464" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

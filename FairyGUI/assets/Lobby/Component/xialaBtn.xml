@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,32" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <loader id="n4_a2kw" name="n4" xy="0,0" size="32,32" url="ui://s7x7ku0na2kwdxyb6">
+      <gearDisplay controller="button" pages="3"/>
+    </loader>
+    <loader id="n5_a2kw" name="n5" xy="0,0" pivot="0.5,0.5" size="32,32" rotation="180" url="ui://s7x7ku0na2kwdxyb6">
+      <gearDisplay controller="button" pages="2"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,10" extention="ProgressBar">
+  <controller name="camp" exported="true" pages="0,,1,,2,,3,,4," selected="0">
+    <remark page="0" value="自己"/>
+    <remark page="1" value="敌人"/>
+    <remark page="2" value="tween"/>
+    <remark page="3" value="Boss"/>
+    <remark page="4" value="tween2"/>
+  </controller>
+  <displayList>
+    <loader id="n0_qfmj" name="bar" xy="0,0" size="72,10" url="ui://5moj1x39a2kwdxyc1" fill="scaleFree" fillMethod="hz">
+      <gearIcon controller="camp" pages="0,1,2,3,4" values="ui://5moj1x39a2kwdxyc1|ui://5moj1x39a2kwdxyc2|ui://5moj1x39a2kwdxyc3|ui://5moj1x39a2kwdxyc2|ui://5moj1x39a2kwdxyc4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <ProgressBar/>
+</component>

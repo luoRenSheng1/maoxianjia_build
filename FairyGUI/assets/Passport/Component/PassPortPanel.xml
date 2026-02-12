@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,810">
+  <displayList>
+    <list id="n11_r0ab" name="passportList" xy="0,0" size="720,810" overflow="scroll" scrollBarFlags="128" defaultItem="ui://2pcsnr2kr0ab3" renderOrder="descent" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://2pcsnr2kr0ab2"/>
+    </list>
+    <loader id="n13_xezf" name="n13" xy="0,0" size="357,182" url="ui://2pcsnr2kxezf25"/>
+    <loader id="n14_xezf" name="n14" xy="363,0" size="357,182" url="ui://2pcsnr2kxezf24"/>
+    <image id="n21_xezf" name="suo" src="xezf28" fileName="Res/new/gate pass_icon21.png" xy="665,21"/>
+  </displayList>
+</component>

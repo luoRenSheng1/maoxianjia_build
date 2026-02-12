@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,76" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_kqmi" name="icon" xy="0,0" pivot="0.5,0.5" size="218,76" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_kqmi" name="title" xy="104,21" size="10,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

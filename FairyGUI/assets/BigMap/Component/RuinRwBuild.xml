@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,200">
+  <displayList>
+    <loader id="n0_wwyd" name="n0" xy="0,65" size="120,135" url="ui://pdufy3kejiq9ig8">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader3D id="n1_wwyd" name="n1" xy="-40,-37" size="100,100" url="ui://pdufy3kewwydihp" align="center" vAlign="middle" animation="animation" skin="" loop="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader3D>
+  </displayList>
+</component>

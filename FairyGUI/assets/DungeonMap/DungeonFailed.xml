@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_tw1c" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n12_llb1" name="n12" xy="0,667" size="720,203" group="n9_tw1c" url="ui://5moj1x39f34jdxybp"/>
+    <loader id="n11_llb1" name="n11" xy="0,283" size="720,500" group="n9_tw1c" url="ui://57yc4rb0llb13w"/>
+    <loader id="n13_llb1" name="n13" xy="270,747" size="179,72" group="n6_tw1c" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n4_tw1c" name="itemIcon" xy="270,755" size="72,58" group="n6_tw1c" url="ui://57yc4rb0b0e42n" fill="scale">
+      <relation target="n13_llb1" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n5_tw1c" name="itemCntLb" xy="349,764" size="97,42" group="n6_tw1c" fontSize="30" color="#ffffff" align="center" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{cur=2}/{total=2}"/>
+    <group id="n6_tw1c" name="n6" xy="270,747" size="179,72" group="n9_tw1c" advanced="true">
+      <relation target="n12_llb1" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n7_tw1c" name="againBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="251,924" size="218,84" group="n9_tw1c">
+      <relation target="n12_llb1" sidePair="center-center,top-bottom"/>
+      <Button title="再次挑战" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n9_tw1c" name="n9" xy="0,283" size="720,725" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

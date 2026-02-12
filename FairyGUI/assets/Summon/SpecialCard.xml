@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="ctrl" pages="0,,1," selected="1">
+    <remark page="0" value="未购买"/>
+    <remark page="1" value="已购买"/>
+  </controller>
+  <controller name="getCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未领取"/>
+    <remark page="1" value="已领取"/>
+  </controller>
+  <displayList>
+    <component id="n19_q9cg" name="n19" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_q9cg" name="n0" src="q9cg12" fileName="Res/month/nn1.png" xy="128,201" size="446,752" group="n18_q9cg"/>
+    <component id="n1_q9cg" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="307,984" group="n18_q9cg"/>
+    <text id="n2_q9cg" name="n2" xy="226,497" size="268,29" group="n18_q9cg" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#4d4272" strokeSize="2" text="连续登录领取超值奖励">
+      <relation target="n0_q9cg" sidePair="center-center"/>
+    </text>
+    <image id="n3_q9cg" name="n3" src="q9cg14" fileName="Res/month/nn2.png" xy="485,317" group="n18_q9cg"/>
+    <text id="n4_q9cg" name="n4" xy="513,337" pivot="0.5,0.5" size="68,68" group="n18_q9cg" rotation="11" fontSize="25" color="#ffeda4" align="center" vAlign="middle" bold="true" strokeColor="#bb5800" strokeSize="2" text="500%&#xA;返利"/>
+    <image id="n7_q9cg" name="n7" src="q9cg18" fileName="Res/month/nn6.png" xy="386,562" group="n18_q9cg"/>
+    <image id="n8_q9cg" name="n8" src="q9cg18" fileName="Res/month/nn6.png" xy="165,562" pivot="0.5,0.5" group="n18_q9cg" scale="-1,1"/>
+    <text id="n9_q9cg" name="n9" xy="329,555" size="44,29" group="n18_q9cg" fontSize="20" color="#663e20" align="center" vAlign="middle" bold="true" text="特权">
+      <relation target="n0_q9cg" sidePair="center-center"/>
+    </text>
+    <component id="n10_q9cg" name="buyBtn" src="cy7ndxy3a" fileName="Component/EmptyRMB.xml" pkg="5moj1x39" xy="292,843" size="135,58" group="n18_q9cg">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <Button titleFontSize="30" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n11_q9cg" name="item0" src="q9cg19" fileName="Component/CardItem.xml" xy="274,610" group="n13_q9cg">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </component>
+    <component id="n12_q9cg" name="item1" src="q9cg19" fileName="Component/CardItem.xml" xy="274,607" group="n13_q9cg" controller="typeCtrl,1"/>
+    <group id="n13_q9cg" name="n13" xy="274,607" size="153,174" group="n18_q9cg" advanced="true" layout="hz" colGap="35" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n14_q9cg" name="timeLb" xy="226,798" size="268,25" group="n18_q9cg" fontSize="17" color="#663e20" align="center" vAlign="middle" vars="true" autoSize="none" text="还剩{value=9}">
+      <gearText controller="ctrl" pages="1" values="还剩{value=9}" default="立得{value=15}连抽,3天30抽"/>
+    </text>
+    <text id="n15_q9cg" name="n15" xy="261,225" size="179,35" group="n18_q9cg" fontSize="25" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#4d4272" strokeSize="2" text="英雄集结特权卡">
+      <relation target="n0_q9cg" sidePair="center-center"/>
+    </text>
+    <image id="n16_q9cg" name="n16" src="q9cg16" fileName="Res/month/nn3.png" xy="222,236" group="n18_q9cg"/>
+    <image id="n17_q9cg" name="n17" src="q9cg16" fileName="Res/month/nn3.png" xy="449,236" group="n18_q9cg"/>
+    <component id="n20_i9n7" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="292,843" size="135,58" group="n18_q9cg">
+      <gearDisplay controller="ctrl" pages="1"/>
+      <gearDisplay2 controller="getCtrl" pages="0" condition="0"/>
+      <Button title="领取" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <text id="n21_i9n7" name="n21" xy="269,832" size="182,70" group="n18_q9cg" fontSize="30" color="#663e20" align="center" vAlign="middle" autoSize="none" bold="true" text="今日已领取">
+      <gearDisplay controller="getCtrl" pages="1"/>
+      <gearDisplay2 controller="ctrl" pages="1" condition="0"/>
+    </text>
+    <group id="n18_q9cg" name="n18" xy="128,201" size="476,877" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

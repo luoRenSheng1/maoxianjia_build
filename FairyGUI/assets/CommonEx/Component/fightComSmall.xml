@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,36" extention="Label">
+  <displayList>
+    <loader id="n2_v534" name="icon" xy="-10,0" size="196,36" url="ui://0anhreyli9sldxxyf" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <loader id="n0_qj2e" name="n0" xy="5,0" size="37,35" url="ui://5moj1x39qj2edxy4j" fill="scale">
+      <relation target="n1_qj2e" sidePair="left-left"/>
+    </loader>
+    <text id="n1_qj2e" name="title" xy="42,-1" size="124,37" font="ui://0anhreylisqldxy3f" fontSize="8" color="#ffffff" align="right" text="+2345">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <relation target="n1_qj2e" sidePair="width-width"/>
+</component>

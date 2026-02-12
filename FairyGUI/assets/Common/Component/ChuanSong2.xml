@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,100">
+  <displayList>
+    <loader3D id="n0_osqg" name="effect" xy="0,0" size="200,100" url="ui://0anhreylosqgdxyho" animation="Common_csmtx_buff1_1" skin=""/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,36" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_f34j" name="n4" src="f34jdxyam" fileName="Res/new/chat_bg1.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_f34j" name="n2" xy="0,0" size="72,36">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_f34j" name="n3" xy="14,3" size="44,29" fontSize="20" color="#ffffff" bold="true" strokeColor="#4c2911" strokeSize="2" text="世界">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

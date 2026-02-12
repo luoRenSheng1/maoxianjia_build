@@ -1,0 +1,7 @@
+{
+  "inapppanel": "..\\Assets\\EngineLauncher\\Resources\\",
+  "panel": "..\\Assets\\Editor Default Resources\\UIPanel\\",
+  "genUICode": "..\\Assets\\Scripts\\UICode\\",
+  "printLog": "false",
+  "clearFiles": "true"
+}

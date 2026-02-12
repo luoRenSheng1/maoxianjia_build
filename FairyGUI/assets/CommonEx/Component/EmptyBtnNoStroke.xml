@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,100" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_p4bn" name="icon" xy="0,0" size="190,100" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_p4bn" name="title" xy="5,9" size="179,79" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

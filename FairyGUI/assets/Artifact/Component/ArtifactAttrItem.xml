@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,36">
+  <displayList>
+    <text id="n0_kqmi" name="curAttrName" xy="0,1" size="129,34" group="n5_jsfx" fontSize="24" color="#ffffff" align="right" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="{name=攻击力} + ">
+      <relation target="n3_kqmi" sidePair="right-left"/>
+    </text>
+    <text id="n3_kqmi" name="curAttr" xy="129,1" size="43,34" group="n5_jsfx" fontSize="24" color="#ffffff" align="right" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="100">
+      <relation target="n0_kqmi" sidePair="left-right"/>
+    </text>
+    <group id="n5_jsfx" name="n5" xy="0,1" size="172,34" group="n6_jsfx" advanced="true"/>
+    <text id="n1_kqmi" name="nextAttr" xy="340,1" size="110,34" group="n6_jsfx" fontSize="24" color="#b8df13" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="+ {value=1001}">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n4_f34j" name="n4" src="f34jdxy9z" fileName="Res/ordinary_icon3.png" xy="209,2" group="n6_jsfx">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n6_jsfx" name="n6" xy="0,1" size="450,34" advanced="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+  </displayList>
+</component>

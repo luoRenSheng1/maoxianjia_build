@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="318,337" pivot="0.5,0.5" extention="Button">
+  <controller name="lockCtrl" exported="true" pages="0,,2," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="正常"/>
+  </controller>
+  <displayList>
+    <loader id="n0_pchv" name="icon" xy="8,11" size="299,320" grayed="true" url="ui://8glegefcuobvd" align="center" vAlign="bottom" fill="scale" clearOnPublish="true">
+      <gearLook controller="lockCtrl" pages="0" values="1,0,1,1" default="1,0,0,0"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+  <relation target="n0_pchv" sidePair="width-width,height-height"/>
+</component>

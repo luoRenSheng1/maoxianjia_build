@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n0_uobv" name="n0" xy="0,0" size="720,1280" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </graph>
+    <component id="n1_uobv" name="slider" src="uobv2" fileName="Component/Slider.xml" xy="0,609" size="720,118">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n13_v51s" name="petRoot" src="v51s7" fileName="Component/PetRunRoot.xml" xy="0,594" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n7_uobv" name="n7" xy="271,731" size="224,43" group="n9_uobv" fontSize="25" color="#1c8887" autoSize="none" text="滑动解除省电模式"/>
+    <image id="n8_uobv" name="n8" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="224,726" group="n9_uobv"/>
+    <group id="n9_uobv" name="n9" xy="224,726" size="271,53" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n10_yd2h" name="n10" src="yd2h4" fileName="Res/2.png" xy="102,139" size="517,241"/>
+    <text id="n4_uobv" name="stageName" xy="272,397" size="124,42" group="n5_uobv" fontSize="30" color="#ffffff" align="center" text="关卡名称"/>
+    <image id="n3_uobv" name="n3" src="uobv3" fileName="Res/loopIcon.png" xy="421,418" pivot="0.5,0.5" anchor="true" group="n5_uobv" scale="-1,1"/>
+    <group id="n5_uobv" name="n5" xy="272,393" size="174,50" group="n11_yd2h" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n6_uobv" name="n6" xy="288,457" size="144,48" group="n11_yd2h" fontSize="35" color="#e0901f" text="正在战斗">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n11_yd2h" name="n11" xy="272,393" size="174,112"/>
+    <text id="n12_yd2h" name="dateLb" xy="132,159" size="444,192" fontSize="150" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="12:12"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n3_uobv" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Text" target="n6_uobv" value="正在战斗"/>
+    <item time="12" type="Text" target="n6_uobv" value="正在战斗."/>
+    <item time="24" type="Text" target="n6_uobv" value="正在战斗.."/>
+    <item time="36" type="Text" target="n6_uobv" value="正在战斗..."/>
+    <item time="42" type="Text" target="n6_uobv" value="正在战斗"/>
+  </transition>
+</component>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImageAlpha="34" designImageLayer="1">
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="设置"/>
+    <remark page="1" value="头像"/>
+  </controller>
+  <controller name="lang" pages="0,,1," selected="0">
+    <remark page="0" value="多语言"/>
+    <remark page="1" value="服务器"/>
+  </controller>
+  <displayList>
+    <component id="n49_phjf" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n39_ju03" name="n39" xy="16,161" size="688,850" group="n29_ffpw" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n1_ffpw" name="n1" xy="294,180" size="132,44" group="n29_ffpw" fontSize="32" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="个人信息"/>
+    <component id="n61_f34j" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="318,1034" size="84,84" group="n29_ffpw">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <image id="n71_f34j" name="n71" src="f34j17" fileName="Res/new/profile_bg2.png" xy="40,273" group="n18_ffpw"/>
+    <component id="n2_ffpw" name="headIcon" src="g1nmxxrm" fileName="Component/Common/ComHeadIcon.xml" pkg="0anhreyl" xy="59,292" size="92,92" group="n18_ffpw" scale="1.2,1.2">
+      <relation target="n71_f34j" sidePair="center-center"/>
+    </component>
+    <component id="n51_baxf" name="changeIconBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="58,290" size="116,116" group="n18_ffpw"/>
+    <image id="n75_f34j" name="n75" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="54,462" size="612,16" group="n18_ffpw"/>
+    <loader id="n70_f34j" name="n70" xy="57,414" size="123,32" group="n65_f34j" url="ui://5moj1x39f34jdxybt" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n68_f34j" name="n68" xy="44,409" size="40,40" group="n65_f34j" url="ui://5moj1x39f34jdxyax" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n16_ffpw" sidePair="left-left"/>
+    </loader>
+    <text id="n16_ffpw" name="fightLb" xy="81,411" size="99,36" group="n65_f34j" fontSize="24" color="#ffbf43" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="488456400"/>
+    <group id="n65_f34j" name="n65" xy="44,409" size="136,40" group="n18_ffpw" advanced="true">
+      <relation target="n71_f34j" sidePair="center-center"/>
+    </group>
+    <image id="n62_f34j" name="n62" src="f34j18" fileName="Res/new/personal information_bg1.png" xy="204,273" group="n64_f34j"/>
+    <text id="n63_f34j" name="n63" xy="227,281" size="28,34" group="n64_f34j" fontSize="24" color="#4c2911" bold="true" text="ID"/>
+    <text id="n8_ffpw" name="playerNameLb" xy="374,281" size="100,34" group="n64_f34j" fontSize="24" color="#ffffff" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="游戏名字"/>
+    <component id="n13_ffpw" name="editBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="624,279" size="40,40" group="n64_f34j">
+      <Button icon="ui://zs0w02qtf34j19"/>
+    </component>
+    <group id="n64_f34j" name="n64" xy="204,273" size="468,52" group="n18_ffpw"/>
+    <image id="n66_f34j" name="n66" src="f34j18" fileName="Res/new/personal information_bg1.png" xy="204,332" group="n35_qt85"/>
+    <text id="n33_qt85" name="n33" xy="227,343" size="45,34" group="n35_qt85" fontSize="24" color="#4c2911" align="center" vars="true" bold="true" text="UID"/>
+    <text id="n34_qt85" name="uidLb" xy="374,343" size="121,34" group="n35_qt85" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="123456789"/>
+    <group id="n35_qt85" name="n35" xy="204,332" size="468,52" group="n18_ffpw"/>
+    <image id="n67_f34j" name="n67" src="f34j18" fileName="Res/new/personal information_bg1.png" xy="204,391" group="n38_qt85"/>
+    <text id="n36_qt85" name="n36" xy="227,401" size="76,34" group="n38_qt85" fontSize="24" color="#663e20" align="center" vars="true" bold="true" text="服务器"/>
+    <text id="n37_qt85" name="serverName" xy="374,401" size="56,34" group="n38_qt85" fontSize="24" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="2222"/>
+    <group id="n38_qt85" name="n38" xy="204,391" size="468,52" group="n18_ffpw"/>
+    <group id="n18_ffpw" name="n18" xy="40,273" size="632,205" group="n29_ffpw"/>
+    <image id="n76_f34j" name="n76" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="40,485" size="640,168" group="n48_ha87"/>
+    <text id="n24_ffpw" name="n24" xy="61,514" size="52,34" group="n48_ha87" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="音乐"/>
+    <text id="n25_ffpw" name="n25" xy="61,598" size="52,34" group="n48_ha87" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="音效"/>
+    <component id="n46_ha87" name="musicBar" src="ha87v" fileName="Component/Slider1.xml" xy="150,520" size="400,24" group="n48_ha87">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n47_ha87" name="soundBar" src="ha87v" fileName="Component/Slider1.xml" xy="150,605" size="400,24" group="n48_ha87" controller="ctrl,1">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n31_qt85" name="musicCheck" src="qt85i" fileName="Component/check.xml" xy="596,498" size="64,64" group="n48_ha87"/>
+    <component id="n32_qt85" name="soundCheck" src="qt85i" fileName="Component/check.xml" xy="596,586" size="64,64" group="n48_ha87"/>
+    <group id="n48_ha87" name="n48" xy="40,485" size="640,168" group="n74_f34j"/>
+    <component id="n19_ffpw" name="problemBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="110,691" size="218,84" group="n23_ffpw" grayed="true">
+      <Button title="问题反馈" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n20_ffpw" name="selectServerBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="392,689" size="218,84" group="n23_ffpw" touchable="false">
+      <gearDisplay controller="lang" pages="1"/>
+      <Button title="选择服务器" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n60_ogek" name="LangChangePop" src="ogek13" fileName="Component/LangComboBox.xml" xy="392,692" pivot="0.5,0.5" size="218,84" group="n23_ffpw" touchable="false" grayed="true">
+      <gearDisplay controller="lang" pages="0"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n21_ffpw" name="exchangeCodeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="110,799" size="218,84" group="n23_ffpw">
+      <Button title="兑换码" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n22_ffpw" name="gameAnnounceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="392,799" size="218,84" group="n23_ffpw">
+      <Button title="游戏公告" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <group id="n23_ffpw" name="n23" xy="110,689" size="500,194" group="n74_f34j"/>
+    <image id="n72_f34j" name="n72" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="54,665" size="612,16" group="n74_f34j"/>
+    <text id="n26_ffpw" name="appVersionLb" xy="31,917" size="225,29" group="n74_f34j" fontSize="20" color="#4c2911" vars="true" autoSize="none" bold="true" text="版本号:{value=1.0.0}"/>
+    <image id="n73_f34j" name="n73" src="f34jdxyb9" fileName="Res/newItem2/general_line1.png" pkg="5moj1x39" xy="54,894" size="612,16" group="n74_f34j"/>
+    <text id="n78_ibdz" name="txtRecord" xy="31,959" size="317,29" group="n74_f34j" fontSize="20" color="#4c2911" vars="true" autoSize="none" bold="true" text="备案号  闽ICP备2025092450号-3A"/>
+    <component id="n81_ibdz" name="btnRecord" src="vm2rdxy4m" fileName="Component/EmptyBtnNoStroke.xml" pkg="5moj1x39" xy="334,952" size="80,46" group="n74_f34j">
+      <Button title="查看" titleColor="#ffbf43" titleFontSize="21"/>
+    </component>
+    <richtext id="n82_ibdz" name="linkLb" xy="429,958" size="265,39" group="n74_f34j" fontSize="20" color="#4c2911" ubb="true" vars="true" autoSize="none" bold="true" text="[color=#FFBF43]&lt;a href=&apos;event:userTips&apos;&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href=&apos;event:PrivacyTips&apos;&gt;[color=#FFBF43]《隐私政策》&lt;/a&gt;[/color]&#xA;"/>
+    <group id="n74_f34j" name="n74" xy="31,485" size="663,513" group="n29_ffpw" advanced="true">
+      <gearDisplay controller="type" pages="0"/>
+    </group>
+    <image id="n77_f34j" name="n77" src="f34jdxyae" fileName="Res/newItem2/general_module_bg1.png" pkg="5moj1x39" xy="40,500" size="640,315" group="n58_gssc"/>
+    <list id="n55_gssc" name="headIconList" xy="53,511" size="613,295" group="n58_gssc" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://zs0w02qtbaxf10" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n56_gssc" name="n56" xy="214,837" size="292,34" group="n58_gssc" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="拥有英雄即可解锁对应头像">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n57_gssc" name="useBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="250,892" size="218,84" group="n58_gssc">
+      <Button title="使用" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n58_gssc" name="n58" xy="40,500" size="640,476" group="n29_ffpw" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n29_ffpw" name="n29" xy="16,161" size="688,957" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

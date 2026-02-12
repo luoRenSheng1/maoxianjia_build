@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,105" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示红点"/>
+    <remark page="1" value="显示红点"/>
+  </controller>
+  <displayList>
+    <loader id="n0_p4bn" name="icon" xy="37,0" size="78,82" url="ui://nmzfxo89ftc92"/>
+    <image id="n6_ftc9" name="n6" src="ftc98" fileName="Res/b6.png" xy="0,48">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <loader id="n4_ftc9" name="n4" xy="20,75" size="111,30" group="n5_ftc9" url="ui://nmzfxo89r18s1e">
+      <gearIcon controller="button" pages="2" values="ui://nmzfxo89r18s1e" default="ui://nmzfxo89ftc97"/>
+    </loader>
+    <text id="n1_p4bn" name="title" xy="28,75" size="94,29" group="n5_ftc9" grayed="true" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#541605" text="属性"/>
+    <group id="n5_ftc9" name="n5" xy="20,75" size="111,30"/>
+    <component id="n2_nfkb" name="n2" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="94,0">
+      <gearDisplay controller="redCtrl" pages="1"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

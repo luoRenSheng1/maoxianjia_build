@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://v9y2d69nucd4dxya6" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n0_kqmi" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n13_f34j" name="n13" xy="108,416" size="504,448" group="n12_kqmi" url="ui://5moj1x39ucd4dxycp" fill="scaleFree">
+      <relation target="n10_kqmi" sidePair="height-height"/>
+    </loader>
+    <component id="n4_kqmi" name="equipBtn" src="pdpadxxz8" fileName="Component/BtnEquip.xml" pkg="5moj1x39" xy="145,453" group="n12_kqmi" scale="1.4,1.4">
+      <relation target="n13_f34j" sidePair="left-left"/>
+    </component>
+    <text id="n6_kqmi" name="name" xy="263,451" size="100,34" group="n12_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="神器名称">
+      <relation target="n4_kqmi" sidePair="left-right"/>
+    </text>
+    <text id="n16_ucd4" name="equipLv" xy="371,451" size="68,34" group="n12_kqmi" fontSize="24" color="#4c2911" vars="true" bold="true" text="LV.{value=15}">
+      <relation target="n6_kqmi" sidePair="left-right"/>
+    </text>
+    <loader id="n14_ucd4" name="n14" xy="282,505" size="135,36" group="n9_kqmi" url="ui://5moj1x39f34jdxya3" fill="scaleFree"/>
+    <loader id="n7_kqmi" name="zlIcon" xy="263,497" size="48,48" group="n9_kqmi" url="ui://5moj1x39f34jdxyax" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n14_ucd4" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n8_kqmi" name="value" xy="313,504" size="87,39" group="n9_kqmi" fontSize="28" color="#ffbf43" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="6">
+      <relation target="n7_kqmi" sidePair="left-left"/>
+      <relation target="n14_ucd4" sidePair="middle-middle"/>
+    </text>
+    <group id="n9_kqmi" name="n9" xy="263,497" size="154,48" group="n12_kqmi" advanced="true">
+      <relation target="n4_kqmi" sidePair="left-right"/>
+    </group>
+    <text id="n15_ucd4" name="n15" xy="310,578" size="100,34" group="n12_kqmi" fontSize="24" color="#4c2911" bold="true" text="当前装备">
+      <relation target="n13_f34j" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n10_kqmi" name="attrList" xy="180,639" size="360,209" group="n12_kqmi" lineGap="8" defaultItem="ui://v9y2d69nkqmi1" align="center">
+      <relation target="n13_f34j" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n12_kqmi" name="n12" xy="108,416" size="504,448" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

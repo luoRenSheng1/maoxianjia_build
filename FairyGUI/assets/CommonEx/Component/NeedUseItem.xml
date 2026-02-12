@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,86" extention="Button">
+  <controller name="colorType" pages="0,,1," selected="1"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <loader id="n0_jpak" name="n0" xy="0,0" size="87,86" url="ui://5moj1x39w02nq" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39w02nq|ui://5moj1x39w02nr|ui://5moj1x39w02ns|ui://5moj1x39w02nt|ui://5moj1x39w02nv|ui://5moj1x39w02nx|ui://5moj1x39w02nw"/>
+    </loader>
+    <loader id="n1_jpak" name="icon" xy="7,6" size="74,73" url="ui://5moj1x39vcwc3" fill="scale"/>
+    <text id="n2_jpak" name="hasNumLb" xy="8,58" size="26,28" group="n5_jpak" fontSize="19" color="#ff0000" vAlign="bottom" strokeColor="#000000" text="13">
+      <gearColor controller="colorType" pages="0,1" values="#7ed2a6,#000000|#ff0000,#000000"/>
+    </text>
+    <text id="n3_jpak" name="n3" xy="34,58" size="9,28" group="n5_jpak" fontSize="19" color="#ffffff" strokeColor="#000000" text="/"/>
+    <text id="n4_jpak" name="totalLb" xy="43,58" size="37,28" group="n5_jpak" fontSize="19" color="#ffffff" align="center" strokeColor="#000000" text="100"/>
+    <group id="n5_jpak" name="n5" xy="8,58" size="72,28" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

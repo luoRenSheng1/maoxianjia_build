@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="countCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不足"/>
+    <remark page="1" value="足够"/>
+  </controller>
+  <controller name="weakCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="战力足"/>
+    <remark page="1" value="战力不足"/>
+  </controller>
+  <controller name="sweepCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="扫荡"/>
+    <remark page="1" value="不满足"/>
+  </controller>
+  <controller name="sweepBtnCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="当前"/>
+    <remark page="1" value="上一个"/>
+  </controller>
+  <controller name="adCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不是广告"/>
+    <remark page="1" value="看广告"/>
+  </controller>
+  <displayList>
+    <component id="n0_pbu0" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_pbu0" name="n1" xy="16,156" size="688,817" group="n29_pbu0" url="ui://57yc4rb0llb1dxy2q" fill="scaleFree"/>
+    <text id="n5_pbu0" name="stageName" xy="204,176" size="311,42" group="n29_pbu0" fontSize="30" color="#fcf78e" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="突袭的神灯小偷">
+      <relation target="n1_pbu0" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n8_pbu0" name="stageIcon" xy="27,244" size="666,302" group="n29_pbu0" url="ui://57yc4rb0llb1dxy2r" fill="scaleFree"/>
+    <graph id="n39_llb1" name="spine" xy="310,405" pivot="0.5,1" size="100,100" group="n29_pbu0">
+      <relation target="n1_pbu0" sidePair="center-center,top-top"/>
+    </graph>
+    <loader id="n38_llb1" name="n38" xy="27,490" size="666,57" group="n29_pbu0" url="ui://5moj1x39fr3pdxyd2" fill="scaleFree"/>
+    <text id="n19_pbu0" name="n19" xy="256,499" size="125,39" group="n37_llb1" fontSize="28" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="最高记录:"/>
+    <text id="n18_pbu0" name="stageIdLb" xy="384,500" size="80,39" group="n37_llb1" fontSize="28" color="#fcf78e" align="center" vAlign="bottom" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=10}"/>
+    <group id="n37_llb1" name="n37" xy="256,499" size="208,40" group="n29_pbu0" advanced="true">
+      <relation target="n38_llb1" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n36_llb1" name="n36" xy="40,590" size="640,173" group="n29_pbu0" url="ui://57yc4rb0llb13y" fill="scaleFree">
+      <relation target="n1_pbu0" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n40_llb1" name="n40" xy="302,572" size="116,39" group="n29_pbu0" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="通关奖励">
+      <relation target="n36_llb1" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n11_pbu0" name="itemList" xy="133,634" size="377,79" group="n29_pbu0" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://5moj1x39ewjfdxy22" align="center" autoClearItems="true">
+      <relation target="n36_llb1" sidePair="middle-middle,left-left"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_pbu0" name="preBtn" src="p4bn8" fileName="Component/PreBtn.xml" pkg="5moj1x39" xy="223,651" group="n29_pbu0" visible="false"/>
+    <component id="n17_pbu0" name="nextBtn" src="p4bn9" fileName="Component/NextBtn.xml" pkg="5moj1x39" xy="456,651" group="n29_pbu0" visible="false"/>
+    <loader id="n34_llb1" name="n34" xy="278,773" size="164,58" group="n25_pbu0" url="ui://5moj1x39fr3pdxyd4" fill="scaleFree"/>
+    <loader id="n24_pbu0" name="itemIcon" xy="279,773" size="72,58" group="n25_pbu0" url="ui://57yc4rb0b0e42n" fill="scale">
+      <relation target="n34_llb1" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n23_pbu0" name="itemCntLb" xy="358,786" size="78,34" group="n25_pbu0" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="[color=#ff0000]{cur=2}[/color]/{total=2}">
+      <gearText controller="countCtrl" pages="0" values="[color=#ff0000]{cur=2}[/color]/{total=2}" default="{cur=2}/{total=2}"/>
+      <relation target="n34_llb1" sidePair="middle-middle"/>
+    </text>
+    <group id="n25_pbu0" name="n25" xy="278,773" size="164,58" group="n29_pbu0" advanced="true">
+      <relation target="n1_pbu0" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n26_pbu0" name="gotoBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="401,850" size="218,84" group="n29_pbu0" grayed="true">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <gearLook controller="countCtrl" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="入场" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n27_pbu0" name="sweepBtn" src="ot6fdxy3y" fileName="Component/EmptyYellowBtn.xml" pkg="5moj1x39" xy="104,850" size="218,84" group="n29_pbu0">
+      <gearDisplay controller="adCtrl" pages="0"/>
+      <gearLook controller="sweepCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="sweepBtnCtrl" pages="1" values="扫荡上一关卡" default="扫荡"/>
+      <Button title="扫荡" titleFontSize="32" icon="ui://5moj1x39f34jdxyah"/>
+    </component>
+    <component id="n32_ju03" name="adBtn" src="ju03dxy59" fileName="Component/EmptyAdBtn2.xml" pkg="5moj1x39" xy="251,850" size="218,84" group="n29_pbu0">
+      <gearDisplay controller="adCtrl" pages="1"/>
+      <Button title="挑战券x1" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n28_pbu0" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="318,995" size="84,84" group="n29_pbu0">
+      <relation target="n1_pbu0" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n29_pbu0" name="n29" xy="16,156" size="688,923" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

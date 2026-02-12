@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://s7x7ku0na2kwdxyaz" designImageAlpha="58">
+  <controller name="typeCtrl" pages="0,角色基础属性,1,宠物基础属性" selected="0"/>
+  <displayList>
+    <component id="n218_a2kw" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n209_a2kw" name="n209" xy="16,114" size="688,943" group="n219_a2kw" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n210_a2kw" name="n210" xy="294,130" size="132,44" group="n219_a2kw" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="属性详情">
+      <relation target="n209_a2kw" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n220_a2kw" name="n220" xy="40,239" size="32,32" group="n219_a2kw" url="ui://5moj1x39a2kwdxycc">
+      <relation target="n209_a2kw" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n211_a2kw" name="n211" xy="74,232" size="132,44" group="n219_a2kw" fontSize="32" bold="true" text="基础属性">
+      <relation target="n209_a2kw" sidePair="left-left,top-top"/>
+    </text>
+    <loader id="n212_a2kw" name="n212" xy="40,291" size="640,16" group="n219_a2kw" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n209_a2kw" sidePair="center-center"/>
+      <relation target="n211_a2kw" sidePair="top-bottom"/>
+    </loader>
+    <list id="n213_a2kw" name="basicAttrList" xy="30,321" size="660,230" group="n219_a2kw" layout="flow_hz" colGap="-2" defaultItem="ui://s7x7ku0na2kwdxyav">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n221_a2kw" name="n221" xy="40,577" size="32,32" group="n219_a2kw" url="ui://5moj1x39a2kwdxycc">
+      <relation target="n209_a2kw" sidePair="left-left"/>
+    </loader>
+    <text id="n214_a2kw" name="n214" xy="74,570" size="132,44" group="n219_a2kw" fontSize="32" bold="true" text="高级属性">
+      <relation target="n209_a2kw" sidePair="left-left"/>
+    </text>
+    <loader id="n215_a2kw" name="n215" xy="40,630" size="640,16" group="n219_a2kw" url="ui://5moj1x39f34jdxyb9" fill="scaleFree">
+      <relation target="n209_a2kw" sidePair="center-center"/>
+    </loader>
+    <list id="n216_a2kw" name="advancedAttrList" xy="30,661" size="660,366" group="n219_a2kw" layout="flow_hz" overflow="scroll" defaultItem="ui://s7x7ku0na2kwdxyav">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n217_a2kw" name="closeBtn2" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,1081" size="84,84" group="n219_a2kw">
+      <relation target="n209_a2kw" sidePair="top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n219_a2kw" name="n219" xy="16,114" size="688,1051" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

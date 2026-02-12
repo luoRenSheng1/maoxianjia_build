@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="694,86">
+  <displayList>
+    <component id="n95_9jpp" name="xpskill" src="9jppdxy4m" fileName="Component/PassiveBtnSkill.xml" xy="544,-5" visible="false" touchable="false"/>
+    <component id="n92_pdpa" name="btnSkillAuto" src="hqycdxy11" fileName="Component/BtnIconSkillBig.xml" xy="6,1" group="n96_ozj9">
+      <Button titleColor="#ffffff"/>
+    </component>
+    <component id="n97_p9n0" name="activeSkill" src="pdpadxxz3" fileName="Component/BtnSkill.xml" xy="106,1" group="n96_ozj9"/>
+    <list id="n93_ka0z" name="listSkills" xy="206,1" size="482,84" group="n96_ozj9" layout="row" colGap="15" defaultItem="ui://s7x7ku0npdpadxxz3" align="center" vAlign="middle">
+      <item icon="ui://s7x7ku0ndd3xdxxy2" name="1"/>
+      <item icon="ui://s7x7ku0ndd3xdxxy3" name="2"/>
+      <item icon="ui://s7x7ku0ndd3xdxxy4" name="3"/>
+      <item icon="ui://s7x7ku0ndd3xdxxy5" name="4"/>
+      <item icon="ui://s7x7ku0ndd3xdxxy6" name="5"/>
+    </list>
+    <group id="n96_ozj9" name="n96" xy="6,1" size="682,84" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

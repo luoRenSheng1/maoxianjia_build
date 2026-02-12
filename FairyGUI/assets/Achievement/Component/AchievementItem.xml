@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,116" designImage="ui://b8bvql0ir1ah0" designImageOffsetX="-41" designImageOffsetY="-358" designImageAlpha="0">
+  <controller name="getBtnStatus" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <controller name="isOk" pages="0,,1," selected="0">
+    <remark page="0" value="未完成"/>
+    <remark page="1" value="已完成"/>
+  </controller>
+  <displayList>
+    <loader id="n0_rwnp" name="n0" xy="0,0" size="640,116" url="ui://b8bvql0ir1ahb" fill="scaleFree"/>
+    <loader id="n1_rwnp" name="icon" xy="11,12" size="92,92" url="ui://b8bvql0ir1ah5" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <text id="n2_rwnp" name="desc" xy="110,23" size="257,34" fontSize="24" color="#4c2911" vAlign="middle" ubb="true" bold="true" text="获得9种不朽品质的装备"/>
+    <component id="n3_rwnp" name="itemBtn" src="rwnpj" fileName="Component/ItemBtn.xml" xy="409,16"/>
+    <component id="n5_rwnp" name="getBtn" src="rwnpk" fileName="Component/GetBtn.xml" xy="502,16">
+      <gearLook controller="getBtnStatus" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+    </component>
+    <component id="n6_rwnp" name="bar" src="rwnpl" fileName="Component/Bar.xml" xy="111,69">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n7_f34j" name="n7" xy="0,0" size="640,116" url="ui://b8bvql0if34jn" fill="scaleFree">
+      <gearDisplay controller="isOk" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n9_f34j" name="n9" xy="300,40" size="79,35" group="n11_f34j" fontSize="25" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="已完成">
+      <relation target="n10_f34j" sidePair="left-left"/>
+    </text>
+    <loader id="n10_f34j" name="n10" xy="261,40" size="35,35" group="n11_f34j" url="ui://5moj1x39f34jdxybd" align="center" vAlign="middle" fill="scaleFree"/>
+    <group id="n11_f34j" name="n11" xy="261,40" size="118,35" advanced="true">
+      <gearDisplay controller="isOk" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

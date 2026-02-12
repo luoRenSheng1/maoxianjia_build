@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="m37flevd">
+  <resources>
+    <image id="ozj92" name="bagnzhu-di.png" path="/Res/" scale="9grid" scale9grid="28,30,7,7"/>
+    <image id="ozj93" name="bagnzhu-yuan.png" path="/Res/"/>
+    <component id="ozj9f" name="RoleMain.xml" path="/"/>
+    <component id="ozj91b" name="RoleAttrItem.xml" path="/Component/"/>
+    <component id="ozj91l" name="Currency.xml" path="/Component/"/>
+    <component id="ozj91o" name="RoleBreak.xml" path="/" exported="true"/>
+    <component id="ozj91p" name="RoleSelect.xml" path="/" exported="true"/>
+    <component id="ozj91t" name="RoleOptBtn.xml" path="/Component/"/>
+    <component id="ozj91v" name="RoleHelp.xml" path="/" exported="true"/>
+    <component id="ozj91w" name="HelpItem.xml" path="/Component/"/>
+    <image id="ozj91x" name="nn7.png" path="/Res/newPetsystem/"/>
+    <component id="ozj91z" name="RoleSystem.xml" path="/" exported="true"/>
+    <component id="ozj920" name="RoleAdBtn.xml" path="/Component/"/>
+    <misc id="ozj922" name="RoleMain_StarUp.atlas" path="/Res/breakspine/"/>
+    <image id="ozj923" name="RoleMain_StarUp.png" path="/Res/breakspine/"/>
+    <spine id="ozj921" name="RoleMain_StarUp.skel" path="/Res/breakspine/" width="366" height="374" require="ozj922,ozj923" atlasNames="RoleMain_StarUp" anchor="181,186"/>
+    <image id="ozj927" name="nn15.png" path="/Res/newPetsystem/" atlas="alone"/>
+    <image id="ozj928" name="nn10.png" path="/Res/newPetsystem/" scale="9grid" scale9grid="38,39,76,30"/>
+    <image id="ozj929" name="nn14.png" path="/Res/newPetsystem/" scale="9grid" scale9grid="35,29,70,58"/>
+    <image id="ozj92c" name="nn6.png" path="/Res/newPetsystem/"/>
+    <image id="ozj92d" name="nn12.png" path="/Res/newPetsystem/"/>
+    <image id="ozj92e" name="+.png" path="/Res/newPetsystem/"/>
+    <image id="ozj92f" name="1.png" path="/Res/newPetsystem/"/>
+    <image id="k6272l" name="jichengshuxing.png" path="/Res/newPetsystem/"/>
+    <image id="k6272u" name="xingming.png" path="/Res/newPetsystem/"/>
+    <image id="k6272v" name="qh.png" path="/Res/newPetsystem/"/>
+    <image id="k6272x" name="n283.png" path="/Res/newPetsystem/"/>
+    <image id="k62730" name="sanjiao.png" path="/Res/newPetsystem/"/>
+    <component id="dr5adxy6a" name="RoleOptAniBtn.xml" path="/Component/"/>
+    <component id="cjbedxy6b" name="SkillMain.xml" path="/" exported="true"/>
+    <component id="rm2cdxy6c" name="RoleSelectBottom.xml" path="/Component/"/>
+    <component id="rm2cdxy6h" name="SkillDetail.xml" path="/" exported="true"/>
+    <component id="rm2cdxy6i" name="SkillItem.xml" path="/Component/" exported="true"/>
+    <component id="rm2cdxy6k" name="RoleGet.xml" path="/" exported="true"/>
+    <image id="rm2cdxy6l" name="hushou.png" path="/Res/Partcon/"/>
+    <component id="rm2cdxy6o" name="RoleLevelUpGet.xml" path="/" exported="true"/>
+    <image id="rm2cdxy6p" name="n782.png" path="/Res/"/>
+    <component id="rm2cdxy6q" name="RoleToBreak.xml" path="/" exported="true"/>
+    <component id="eau0dxy6r" name="RuneMain.xml" path="/" exported="true"/>
+    <component id="eau0dxy6s" name="RuneItem.xml" path="/Component/" exported="true"/>
+    <image id="eau0dxy6t" name="869.png" path="/Res/rune/"/>
+    <image id="eau0dxy6u" name="dfgdfgdrfg.png" path="/Res/rune/" scale="9grid" scale9grid="143,66,9,13"/>
+    <image id="eau0dxy6v" name="sdgsdg.png" path="/Res/rune/" scale="9grid" scale9grid="44,19,15,17"/>
+    <image id="eau0dxy6w" name="sdgsdgsg9.png" path="/Res/rune/" scale="9grid" scale9grid="34,17,5,5"/>
+    <component id="eau0dxy6x" name="RuneDetailItem.xml" path="/Component/"/>
+    <component id="ph24dxy6y" name="RuneDetail.xml" path="/" exported="true"/>
+    <component id="ph24dxy6z" name="RecycleBtn.xml" path="/Component/"/>
+    <component id="ph24dxy70" name="RuneRecyle.xml" path="/" exported="true"/>
+    <image id="ph24dxy71" name="reduceBtn.png" path="/Component/Window/Res/useitem/"/>
+    <image id="ph24dxy72" name="addBtn.png" path="/Component/Window/Res/useitem/"/>
+    <image id="sfmldxy73" name="yizhuangbei.png" path="/Res/"/>
+    <misc id="sylbdxy78" name="RoleMain_Skill.atlas" path="/Res/spine/"/>
+    <image id="sylbdxy79" name="RoleMain_Skill.png" path="/Res/spine/"/>
+    <spine id="sylbdxy77" name="RoleMain_Skill.skel" path="/Res/spine/" width="720" height="333" require="sylbdxy78,sylbdxy79" atlasNames="RoleMain_Skill" anchor="360,166"/>
+    <component id="p9n0dxy7b" name="TalentMain.xml" path="/" exported="true"/>
+    <component id="p9n0dxy7d" name="TalentTypeBtn.xml" path="/Component/"/>
+    <component id="p9n0dxy7e" name="ResetBtn.xml" path="/Component/"/>
+    <component id="p9n0dxy7f" name="Talent.xml" path="/Component/"/>
+    <component id="p9n0dxy7g" name="TalentItem.xml" path="/Component/"/>
+    <image id="p9n0dxy82" name="role_intensify_bg21.png" path="/Res/Role/"/>
+    <component id="p9n0dxy8h" name="SkillItemCom.xml" path="/Component/" exported="true"/>
+    <image id="p9n0dxy8j" name="talent_bg24.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8k" name="talent_bg25.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8l" name="talent_line11.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8m" name="talent_line12.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8n" name="talent_line13.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8o" name="talent_line21.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8p" name="talent_line22.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8q" name="talent_line23.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8s" name="talent_tab_bg12.png" path="/Res/Talent/" scale="9grid" scale9grid="24,0,38,66"/>
+    <image id="p9n0dxy8t" name="talent_token.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8u" name="talent_bg21.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8v" name="talent_bg22.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8w" name="talent_bg23.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8y" name="talent_line41.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy8z" name="talent_line42.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy90" name="talent_line43.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy91" name="talent_line31.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy92" name="talent_line32.png" path="/Res/Talent/"/>
+    <image id="p9n0dxy93" name="talent_line33.png" path="/Res/Talent/"/>
+    <component id="p9n0dxy94" name="TalentSelect.xml" path="/Component/"/>
+    <component id="p9n0dxy96" name="talentBar1.xml" path="/Component/"/>
+    <component id="p9n0dxy97" name="talentBar2.xml" path="/Component/"/>
+    <component id="p9n0dxy98" name="talentBar3.xml" path="/Component/"/>
+    <component id="p9n0dxy99" name="talentBar4.xml" path="/Component/"/>
+    <component id="p9n0dxy9a" name="talentBar5.xml" path="/Component/"/>
+    <component id="p9n0dxy9b" name="talentBar6.xml" path="/Component/"/>
+    <component id="p9n0dxy9c" name="ActivateBtn.xml" path="/Component/"/>
+    <component id="ozj926" name="PetMain.xml" path="/" exported="true"/>
+    <component id="hz5cdxy9e" name="PetDetail.xml" path="/"/>
+    <component id="hz5cdxy9f" name="PetStrength.xml" path="/"/>
+    <component id="hz5cdxy9g" name="PetStrengList.xml" path="/Component/"/>
+    <component id="hz5cdxy9h" name="PetStrengthItem.xml" path="/Component/"/>
+    <component id="hz5cdxy9i" name="PetUpLoadItem.xml" path="/Component/"/>
+    <image id="f34jdxy9o" name="Rectangle 34625270.png" path="/Res/new/"/>
+    <image id="f34jdxy9p" name="role_level_icon32.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9q" name="role_level_icon31.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9r" name="role_level_icon22.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9s" name="role_level_icon21.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9t" name="role_level_icon12.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9u" name="role_level_icon11.png" path="/Res/new/" exported="true"/>
+    <image id="f34jdxy9v" name="role_intensify_name_bg.png" path="/Res/new/"/>
+    <image id="f34jdxy9w" name="role_intensify_card_bg3.png" path="/Res/new/" exported="true" scale="9grid" scale9grid="13,13,177,66"/>
+    <image id="f34jdxy9x" name="role_intensify_card_bg2.png" path="/Res/new/" exported="true" scale="9grid" scale9grid="19,18,182,55"/>
+    <image id="f34jdxy9y" name="role_intensify_card_bg1.png" path="/Res/new/" exported="true" scale="9grid" scale9grid="15,14,178,63"/>
+    <image id="f34jdxy9z" name="role_intensify_bg53.png" path="/Res/new/"/>
+    <image id="f34jdxya0" name="role_intensify_bg51.png" path="/Res/new/"/>
+    <image id="f34jdxya1" name="role_intensify_bg21.png" path="/Res/new/"/>
+    <image id="f34jdxya2" name="role_intensify_bg6.png" path="/Res/new/"/>
+    <image id="f34jdxya3" name="role_intensify_bg1.png" path="/Res/new/"/>
+    <image id="f34jdxya4" name="role_btn21.png" path="/Res/new/"/>
+    <image id="f34jdxya5" name="role_btn11.png" path="/Res/new/"/>
+    <image id="f34jdxya6" name="role_btn2.png" path="/Res/new/"/>
+    <image id="f34jdxya7" name="role_btn1.png" path="/Res/new/"/>
+    <image id="f34jdxya8" name="role_bg2.png" path="/Res/new/" scale="9grid" scale9grid="22,22,44,44"/>
+    <image id="f34jdxya9" name="role_bg1.png" path="/Res/new/" scale="9grid" scale9grid="24,58,100,30"/>
+    <image id="f34jdxyaa" name="Frame 450.png" path="/Res/new/" scale="9grid" scale9grid="14,14,179,190"/>
+    <image id="f34jdxyab" name="Frame 451.png" path="/Res/new/" scale="9grid" scale9grid="14,16,181,189"/>
+    <image id="f34jdxyac" name="角色-技能-批量强化.png" path="/Res/UI/"/>
+    <image id="f34jdxyad" name="角色-强化.png" path="/Res/UI/"/>
+    <image id="f34jdxyae" name="角色-天赋.png" path="/Res/UI/"/>
+    <image id="f34jdxyaf" name="角色-天赋-提示.png" path="/Res/UI/"/>
+    <image id="f34jdxyag" name="角色1.png" path="/Res/UI/"/>
+    <image id="f34jdxyah" name="角色2.png" path="/Res/UI/"/>
+    <image id="f34jdxyai" name="角色-技能.png" path="/Res/UI/"/>
+    <image id="f34jdxyaj" name="角色-技能-技能详情.png" path="/Res/UI/"/>
+    <component id="f34jdxyak" name="SkillCostBtn.xml" path="/Component/" exported="true"/>
+    <image id="f34jdxyal" name="角色-天赋.png" path="/Res/Talent/"/>
+    <image id="f34jdxyam" name="talent_tab_bg11.png" path="/Res/Talent/" scale="9grid" scale9grid="21,0,39,62"/>
+    <component id="a2kwdxyan" name="skillAttrLb.xml" path="/Component/"/>
+    <component id="a2kwdxyao" name="HolyMain.xml" path="/" exported="true"/>
+    <image id="a2kwdxyap" name="halidom_banner_img12.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyaq" name="halidom_icon1.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyar" name="halidom_banner_img.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyas" name="halidom_banner_img2.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyat" name="halidom_banner_img11.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyau" name="角色-圣物-未获取.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyav" name="角色-圣物-已满级.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyaw" name="角色-圣物.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyax" name="角色-圣物-道具不足.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyay" name="角色-圣物-替换装备.png" path="/Res/Holy/"/>
+    <image id="a2kwdxyaz" name="halidom_icon2.png" path="/Res/Holy/"/>
+    <component id="a2kwdxyb0" name="HolyCost.xml" path="/Component/"/>
+    <component id="a2kwdxyb1" name="HolyItem.xml" path="/Component/"/>
+    <component id="a2kwdxyb2" name="HolyUploadItem.xml" path="/Component/"/>
+    <image id="a2kwdxyb3" name="home_information_btn02.png" path="/Res/new/"/>
+    <component id="ucd4dxydd" name="HeroBarExp.xml" path="/Component/"/>
+    <component id="ucd4dxyde" name="RoleCurrency.xml" path="/Component/"/>
+    <image id="ucd4dxydl" name="talent_bg01.png" path="/Res/Talent/"/>
+    <image id="ucd4dxydm" name="RoleMain_shubanner_2.png" path="/Res/spine2/"/>
+    <image id="ucd4dxydn" name="RoleMain_shubanner_3.png" path="/Res/spine2/"/>
+    <image id="ucd4dxydo" name="RoleMain_shubanner_4.png" path="/Res/spine2/"/>
+    <image id="ucd4dxydp" name="RoleMain_shubanner_5.png" path="/Res/spine2/"/>
+    <image id="ucd4dxydq" name="RoleMain_shubanner.png" path="/Res/spine2/"/>
+    <misc id="ucd4dxyds" name="RoleMain_shubanner.atlas.txt" path="/Res/spine2/"/>
+    <image id="ucd4dxydt" name="RoleMain_shubanner(1).png" path="/Res/spine2/"/>
+    <image id="ucd4dxydu" name="RoleMain_shubanner_2(1).png" path="/Res/spine2/"/>
+    <image id="ucd4dxydv" name="RoleMain_shubanner_3(1).png" path="/Res/spine2/"/>
+    <image id="ucd4dxydw" name="RoleMain_shubanner_4(1).png" path="/Res/spine2/"/>
+    <image id="ucd4dxydx" name="RoleMain_shubanner_5(1).png" path="/Res/spine2/"/>
+    <spine id="ucd4dxydr" name="RoleMain_shubanner.skel" path="/Res/spine2/" width="100" height="100" require="ucd4dxyds,ucd4dxydt,ucd4dxydu,ucd4dxydv,ucd4dxydw,ucd4dxydx" atlasNames="RoleMain_shubanner,RoleMain_shubanner_2,RoleMain_shubanner_3,RoleMain_shubanner_4,RoleMain_shubanner_5" anchor="100,100"/>
+    <image id="ucd4dxydy" name="RoleMain_tfbj.png" path="/Res/spine3/"/>
+    <image id="ucd4dxydz" name="RoleMain_tfbj_2.png" path="/Res/spine3/"/>
+    <misc id="ucd4dxye1" name="RoleMain_tfbj.atlas.txt" path="/Res/spine3/"/>
+    <image id="ucd4dxye2" name="RoleMain_tfbj(1).png" path="/Res/spine3/"/>
+    <image id="ucd4dxye3" name="RoleMain_tfbj_2(1).png" path="/Res/spine3/"/>
+    <spine id="ucd4dxye0" name="RoleMain_tfbj.skel" path="/Res/spine3/" width="1134" height="1443" require="ucd4dxye1,ucd4dxye2,ucd4dxye3" atlasNames="RoleMain_tfbj,RoleMain_tfbj_2" anchor="620,682"/>
+    <image id="ucd4dxye4" name="talent_bg51.png" path="/Res/Talent/" scale="9grid" scale9grid="14,13,56,55"/>
+    <image id="jn60dxye5" name="halidom_banner_bg01.png" path="/Res/Holy/"/>
+    <misc id="xezfdxye9" name="RoleMain_jstybj.atlas.txt" path="/Res/spine4/"/>
+    <image id="xezfdxyea" name="RoleMain_jstybj.png" path="/Res/spine4/"/>
+    <spine id="xezfdxyeb" name="RoleMain_jstybj.skel" path="/Res/spine4/" width="933" height="905" require="xezfdxye9,xezfdxyea" atlasNames="RoleMain_jstybj" anchor="448,906"/>
+    <image id="llb1dxyec" name="role_break through_bg01.png" path="/Res/new/"/>
+    <image id="llb1dxyed" name="角色-天赋_树形图.png" path="/Res/new2/"/>
+    <image id="llb1dxyee" name="talent_line08.png" path="/Res/new2/"/>
+    <image id="llb1dxyef" name="talent_bg32.png" path="/Res/new2/"/>
+    <image id="llb1dxyeg" name="talent_bg33.png" path="/Res/new2/"/>
+    <image id="llb1dxyeh" name="talent_bg34.png" path="/Res/new2/"/>
+    <image id="llb1dxyei" name="talent_bg35.png" path="/Res/new2/"/>
+    <image id="llb1dxyej" name="talent_bg41.png" path="/Res/new2/"/>
+    <image id="llb1dxyek" name="talent_bg42.png" path="/Res/new2/"/>
+    <image id="llb1dxyel" name="talent_bg43.png" path="/Res/new2/"/>
+    <image id="llb1dxyem" name="talent_bg31·.png" path="/Res/new2/"/>
+    <image id="llb1dxyen" name="talent_bg44.png" path="/Res/new2/"/>
+    <image id="llb1dxyeo" name="talent_bg51.png" path="/Res/new2/" scale="9grid" scale9grid="11,12,55,55"/>
+    <image id="llb1dxyep" name="talent_bg52.png" path="/Res/new2/" scale="9grid" scale9grid="10,10,61,61"/>
+    <image id="llb1dxyeq" name="talent_line01.png" path="/Res/new2/"/>
+    <image id="llb1dxyer" name="talent_line02.png" path="/Res/new2/"/>
+    <image id="llb1dxyes" name="talent_line03.png" path="/Res/new2/"/>
+    <image id="llb1dxyet" name="talent_line04.png" path="/Res/new2/"/>
+    <image id="llb1dxyeu" name="talent_line05.png" path="/Res/new2/"/>
+    <image id="llb1dxyev" name="talent_bg45.png" path="/Res/new2/"/>
+    <image id="llb1dxyew" name="talent_bg25.png" path="/Res/new2/"/>
+    <image id="llb1dxyex" name="talent_bg24.png" path="/Res/new2/"/>
+    <image id="llb1dxyey" name="talent_bg23.png" path="/Res/new2/"/>
+    <image id="llb1dxyez" name="talent_line09.png" path="/Res/new2/"/>
+    <image id="llb1dxyf0" name="talent_line010.png" path="/Res/new2/"/>
+    <image id="llb1dxyf1" name="talent_line011.png" path="/Res/new2/"/>
+    <image id="llb1dxyf2" name="talent_line11.png" path="/Res/new2/"/>
+    <image id="llb1dxyf3" name="talent_line12.png" path="/Res/new2/"/>
+    <image id="llb1dxyf4" name="talent_line13.png" path="/Res/new2/"/>
+    <image id="llb1dxyf5" name="talent_line14.png" path="/Res/new2/"/>
+    <image id="llb1dxyf6" name="talent_line15.png" path="/Res/new2/"/>
+    <image id="llb1dxyf7" name="talent_line16.png" path="/Res/new2/"/>
+    <image id="llb1dxyf8" name="talent_line17.png" path="/Res/new2/"/>
+    <image id="llb1dxyf9" name="talent_line18.png" path="/Res/new2/"/>
+    <image id="llb1dxyfa" name="talent_line19.png" path="/Res/new2/"/>
+    <image id="llb1dxyfb" name="talent_line110.png" path="/Res/new2/"/>
+    <image id="llb1dxyfc" name="talent_line111.png" path="/Res/new2/"/>
+    <image id="llb1dxyfd" name="talent_bg01.png" path="/Res/new2/"/>
+    <image id="llb1dxyfe" name="talent_bg21.png" path="/Res/new2/"/>
+    <image id="llb1dxyff" name="talent_bg22.png" path="/Res/new2/"/>
+    <image id="llb1dxyfg" name="talent_line06.png" path="/Res/new2/"/>
+    <image id="llb1dxyfh" name="talent_line07.png" path="/Res/new2/"/>
+    <component id="llb1dxyfl" name="TalentSmallItem.xml" path="/Component/"/>
+    <component id="llb1dxyfm" name="TalentMiddleItem.xml" path="/Component/"/>
+    <component id="llb1dxyfn" name="TalentBigItem.xml" path="/Component/"/>
+    <component id="llb1dxyfo" name="talentBar7.xml" path="/Component/"/>
+    <component id="llb1dxyfp" name="talentBar8.xml" path="/Component/"/>
+    <component id="llb1dxyfq" name="talentBar9.xml" path="/Component/"/>
+    <component id="llb1dxyfr" name="TalentUI.xml" path="/Component/"/>
+    <image id="llb1dxyfs" name="role_img11.png" path="/Res/Role/"/>
+    <image id="llb1dxyft" name="role_img12.png" path="/Res/Role/"/>
+    <image id="llb1dxyfu" name="role_img13.png" path="/Res/Role/"/>
+    <image id="llb1dxyfv" name="role_img14.png" path="/Res/Role/"/>
+    <image id="llb1dxyfw" name="role_img01.png" path="/Res/Role/"/>
+    <image id="llb1dxyfx" name="role_img02.png" path="/Res/Role/"/>
+    <image id="llb1dxyfy" name="role_img03.png" path="/Res/Role/"/>
+    <image id="llb1dxyfz" name="role_bg31.png" path="/Res/Role/"/>
+  </resources>
+  <publish name="RoleMain" genCode="true"/>
+</packageDescription>

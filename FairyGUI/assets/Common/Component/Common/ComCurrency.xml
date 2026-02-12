@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="362,50" designImage="ui://s7x7ku0ni9sldxy0o" designImageOffsetX="-323" designImageOffsetY="-30" designImageAlpha="3">
+  <displayList>
+    <component id="n53_g126" name="btnGold" src="btyu3g" fileName="Component/Extension/BtnCurrency.xml" xy="0,0" group="n55_i9sl" controller="itemType,24">
+      <Button titleColor="#ffffff" icon="ui://0anhreylf34jdxy9m"/>
+    </component>
+    <component id="n44_gyyz" name="btnDia" src="btyu3g" fileName="Component/Extension/BtnCurrency.xml" xy="186,0" group="n55_i9sl" controller="itemType,25">
+      <Button titleColor="#ffffff" icon="ui://0anhreylf34jdxy9n"/>
+    </component>
+    <group id="n55_i9sl" name="n55" xy="0,0" size="362,50" advanced="true" layout="hz" colGap="10"/>
+  </displayList>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n7_tcgl" name="framePanel" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_mg7g" name="n0" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" xy="0,0" controller="alphaType,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <richtext id="n1_mg7g" name="storyLb" xy="25,119" size="670,462" group="n3_mg7g" fontSize="35" color="#ffffff" autoSize="height" text="        在天与地之间，光与影之外，存在着一个神秘的宫殿。它悬浮于云端，藏匿于时空的缝隙之中，被称为——云端书殿；传说，只有那些心怀求知欲和勇气的人才能找到它。书殿中，隐藏着无数古老文明的秘密和未来科技的奇迹。但这并不是简单的知识库，书殿还守护着改变世界的力量&#xA;        你偶然发现了一本古老的书，书的封面发出微弱的光芒。好奇心驱使下，你翻开了它"/>
+    <graph id="n2_mg7g" name="book" xy="360,789" pivot="0.5,0.5" anchor="true" size="350,346" group="n3_mg7g"/>
+    <component id="n8_9jpp" name="openBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="187,590" size="346,396" group="n3_mg7g"/>
+    <component id="n9_jxfv" name="n9" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" xy="352,749" group="n3_mg7g" visible="false"/>
+    <group id="n3_mg7g" name="n3" xy="25,119" size="670,867" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n4_tcgl" name="roleTips" src="tcgldxy4r" fileName="Component/Window/RoleTips.xml" xy="1,607" group="n5_tcgl" touchable="false">
+      <Label title="欢迎来到啪嘟世界，在这里，每一个啪嘟都有着独特的力量和性格，它们正等待着你的指引。你必须与它们结伴，穿越各地，揭开隐藏在啪嘟世界背后的真相"/>
+    </component>
+    <group id="n5_tcgl" name="n5" xy="1,607" size="720,433" group="n6_tcgl"/>
+    <group id="n6_tcgl" name="n6" xy="1,607" size="720,433" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n2_mg7g" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Visible" target="n2_mg7g" value="true"/>
+    <item time="0" type="Visible" target="n9_jxfv" value="false"/>
+    <item time="6" type="Visible" target="n9_jxfv" value="true"/>
+  </transition>
+</component>

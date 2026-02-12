@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="scroll" scroll="both" scrollBarFlags="160" scrollBar="hidden">
+  <displayList>
+    <component id="n0_lht0" name="bgiMap" src="lht01" fileName="BigMap.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="n2_j610" name="txtTime" xy="0,0" size="720,100" fontSize="41" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" singleLine="true" text="倒计时：{time=0}"/>
+  </displayList>
+</component>

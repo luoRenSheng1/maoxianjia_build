@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <controller name="quality" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <loader id="n0_ozj9" name="n0" xy="0,0" pivot="0.5,0.5" size="64,64" url="ui://5moj1x39f34jdxyac" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="quality" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxyac|ui://5moj1x39f34jdxyab|ui://5moj1x39f34jdxyaa|ui://5moj1x39f34jdxya9|ui://5moj1x39f34jdxya8|ui://5moj1x39f34jdxya7|ui://5moj1x39f34jdxyaj"/>
+    </loader>
+    <text id="n1_ozj9" name="n1" xy="14,21" size="36,24" fontSize="16" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="普通">
+      <gearText controller="quality" pages="0,1,2,3,4,5" values="普通|良好|稀有|史诗|传说|神话" default="不朽"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

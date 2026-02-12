@@ -1,0 +1,59 @@
+BigMap_zaozi.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+quan_001
+	bounds: 910, 906, 107, 111
+	offsets: 21, 4, 180, 180
+quan_002
+	bounds: 147, 529, 148, 123
+	offsets: 26, 4, 180, 180
+	rotate: 90
+quan_003
+	bounds: 147, 379, 148, 132
+	offsets: 26, 4, 180, 180
+	rotate: 90
+quan_004
+	bounds: 2, 509, 143, 168
+	offsets: 37, 4, 180, 180
+quan_005
+	bounds: 160, 849, 148, 168
+	offsets: 32, 4, 180, 180
+quan_006
+	bounds: 2, 679, 153, 168
+	offsets: 27, 4, 180, 180
+quan_007
+	bounds: 2, 849, 156, 168
+	offsets: 24, 4, 180, 180
+quan_008
+	bounds: 2, 351, 143, 156
+	offsets: 21, 17, 180, 180
+quan_009
+	bounds: 310, 859, 144, 158
+	offsets: 20, 15, 180, 180
+quan_010
+	bounds: 157, 688, 146, 159
+	offsets: 19, 14, 180, 180
+quan_011
+	bounds: 456, 867, 151, 150
+	offsets: 13, 14, 180, 180
+quan_012
+	bounds: 2, 200, 149, 144
+	offsets: 13, 15, 180, 180
+	rotate: 90
+quan_013
+	bounds: 148, 230, 147, 138
+	offsets: 13, 18, 180, 180
+	rotate: 90
+quan_014
+	bounds: 760, 871, 148, 146
+	offsets: 13, 11, 180, 180
+quan_015
+	bounds: 609, 871, 149, 146
+	offsets: 13, 12, 180, 180
+quan_016
+	bounds: 2, 50, 141, 148
+	offsets: 21, 10, 180, 180
+quan_017
+	bounds: 272, 542, 143, 144
+	offsets: 20, 15, 180, 180

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,146" opaque="false">
+  <controller name="c1" pages="" selected="-1"/>
+  <displayList>
+    <component id="n11_azu0" name="Clip" src="pmwj1x" fileName="SokobanBoxClip.xml" xy="0,-41" touchable="false"/>
+    <loader3D id="n2_azu0" name="right" xy="-20,2" size="150,100" visible="false" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <loader3D id="n3_azu0" name="left" xy="123,2" size="150,100" scale="-1,1" visible="false" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <loader3D id="n4_azu0" name="up1" xy="206,82" size="150,100" group="n12_azu0" scale="-1,1" rotation="90" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <loader3D id="n5_azu0" name="up2" xy="-102,82" size="150,100" group="n12_azu0" rotation="-90" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <group id="n12_azu0" name="up" xy="-102,82" size="458,100" visible="false" advanced="true"/>
+    <loader3D id="n7_azu0" name="down1" xy="206,-18" size="150,100" group="n13_azu0" rotation="90" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <loader3D id="n8_azu0" name="down2" xy="-102,-18" size="150,100" group="n13_azu0" scale="-1,1" rotation="-90" touchable="false" url="ui://5moj1x39azu0dxydv" animation="CommonEx_xiangzi_1" skin="" loop="true"/>
+    <group id="n13_azu0" name="down" xy="-102,-18" size="458,100" visible="false" advanced="true"/>
+    <image id="n15_azu0" name="jiantou" src="ffpwd" fileName="Res/792.png" pkg="5moj1x39" xy="24,-5" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="0">
+    <item time="0" type="Alpha" target="n15_azu0" tween="true" startValue="1" endValue="0" duration="12" ease="Linear" repeat="-1" yoyo="true"/>
+    <item time="12" type="Alpha" target="n15_azu0" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

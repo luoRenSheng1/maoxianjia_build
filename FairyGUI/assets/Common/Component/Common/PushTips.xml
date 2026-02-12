@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="499,150" pivot="0.5,0.5" anchor="true" opaque="false" designImageOffsetX="-221" designImageOffsetY="-450" designImageLayer="1">
+  <controller name="ctrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="左"/>
+    <remark page="1" value="右"/>
+    <remark page="2" value="上"/>
+  </controller>
+  <displayList>
+    <image id="n10_ki3v" name="n10" src="ki3vdxyhw" fileName="Res/guideRes/guide_bg01.png" xy="0,0" size="705,197" group="n17_kv73" scale="0.7,0.7"/>
+    <text id="n9_ua62" name="txt" xy="139,36" size="232,79" group="n17_kv73" fontSize="16" color="#4c2911" vAlign="middle" leading="0" vars="true" autoSize="none" bold="true" text="猎魔大人，任务猎人刷新了，任务积分可以在狩猎商店兑换稀有道具。">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <graph id="n12_b424" name="npc" xy="64,103" size="30,30" group="n17_kv73"/>
+    <component id="n15_kv73" name="GoTo" src="p9n0dxy87" fileName="Component/comBtn.xml" pkg="5moj1x39" xy="370,46" size="106,56" group="n17_kv73">
+      <Button title="前往" titleFontSize="20" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <group id="n17_kv73" name="root" xy="0,0" size="705,197" advanced="true"/>
+  </displayList>
+  <transition name="In">
+    <item time="0" type="Alpha" target="n17_kv73" tween="true" startValue="0" endValue="1" duration="18" ease="Linear" yoyo="true"/>
+    <item time="0" type="XY" target="n17_kv73" tween="true" startValue="499,0" endValue="0,0" duration="18" ease="Back.Out" yoyo="true"/>
+  </transition>
+  <transition name="Out">
+    <item time="0" type="Alpha" target="n17_kv73" tween="true" startValue="1" endValue="0" duration="18" ease="Linear" yoyo="true"/>
+    <item time="0" type="XY" target="n17_kv73" tween="true" startValue="0,0" endValue="500,0" duration="18" ease="Back.In" yoyo="true"/>
+  </transition>
+</component>

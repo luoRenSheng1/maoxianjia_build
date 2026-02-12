@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,140">
+  <displayList>
+    <component id="n0_k627" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="5,1" scale="1.3,1.3" controller="hasCount,1"/>
+    <text id="n1_k627" name="curLb" xy="7,107" size="37,29" group="n4_f34j" fontSize="20" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="150">
+      <relation target="n5_f34j" sidePair="right-left"/>
+    </text>
+    <text id="n2_k627" name="nextLb" xy="70,107" size="37,29" group="n4_f34j" fontSize="20" color="#9bf452" align="right" bold="true" strokeColor="#000000" strokeSize="2" text="160">
+      <relation target="n5_f34j" sidePair="left-right"/>
+    </text>
+    <image id="n5_f34j" name="n5" src="f34jdxybm" fileName="Res/newItem2/general_arrows_icon.png" pkg="5moj1x39" xy="49,112" group="n4_f34j">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <group id="n4_f34j" name="n4" xy="7,107" size="100,29"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="687,406" designImageOffsetX="-198" designImageOffsetY="-110" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n18_nps0" name="n18" src="nps02a" fileName="Res/general_bg1.png" xy="0,0" size="687,406"/>
+    <text id="n1_rqy8" name="title" xy="132,7" pivot="0.5,0.5" size="421,70" font="Normal" fontSize="32" color="#ffffff" align="center" vAlign="middle" letterSpacing="2" autoSize="shrink" bold="true" strokeColor="#000000" autoClearText="true" text="维护公告">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n2_rqy8" name="content" src="ppckm" fileName="Component/TipContent.xml" xy="13,98" size="660,195"/>
+    <component id="n9_porm" name="btnClose" src="porm9" fileName="Component/close.xml" xy="617,16" size="56,51" aspect="true">
+      <Button icon="ui://n8v1s7mdvnmw21"/>
+    </component>
+    <component id="n10_porm" name="btnOk" src="leae11" fileName="Component/YellowButton.xml" xy="217,305" size="224,72" group="n16_leae">
+      <Button title="确定" titleColor="#ffffff" titleFontSize="35" icon="ui://n8v1s7mdnps02b"/>
+    </component>
+    <group id="n16_leae" name="n16" xy="217,305" size="224,72"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImageAlpha="100">
+  <displayList>
+    <loader id="n20_ddc1" name="petBg" xy="0,-201" size="720,881" url="ui://m37flevdozj927" fill="scaleFree" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n14_p4bn" name="rlLoader" xy="-10,613" size="739,460" url="ui://m37flevdozj928" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
+    </loader>
+    <image id="n22_ddc1" name="n22" src="ozj929" fileName="Res/newPetsystem/nn14.png" xy="20,626" size="680,313">
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n0_jp5j" name="petAllList" xy="48,640" size="624,291" layout="flow_hz" overflow="scroll" lineGap="25" colGap="20" defaultItem="ui://5moj1x39iqvadxy67" autoClearItems="true">
+      <relation target="n14_p4bn" sidePair="height-height,bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_ddc1" name="petUpItem2" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="13,21" group="n31_ju03" pkg="lxs2h4if"/>
+    <component id="n24_ddc1" name="petUpItem3" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="251,21" group="n31_ju03" pkg="lxs2h4if"/>
+    <component id="n25_ddc1" name="petUpItem4" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="489,21" group="n31_ju03" pkg="lxs2h4if"/>
+    <component id="n26_ddc1" name="petUpItem0" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="87,253" group="n31_ju03" scale="1.1,1.1" pkg="lxs2h4if"/>
+    <component id="n27_ddc1" name="petUpItem1" src="oo1wp" fileName="Component/PetUpLoadItem.xml" xy="397,252" group="n31_ju03" scale="1.1,1.1" pkg="lxs2h4if"/>
+    <group id="n31_ju03" name="upGroup" xy="13,21" size="694,514" advanced="true">
+      <relation target="" sidePair="center-center,top-middle"/>
+    </group>
+    <component id="n33_k627" name="allStrengthBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="281,990" size="158,65">
+      <relation target="n14_p4bn" sidePair="bottom-bottom"/>
+      <Button title="批量强化" titleFontSize="20" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <text id="n34_k627" name="n34" xy="163,950" size="94,26" group="n38_k627" fontSize="18" color="#663e20" text="加成效果："/>
+    <text id="n36_k627" name="atkLb" xy="273,950" size="117,26" group="n38_k627" fontSize="18" color="#25972d" vars="true" text="攻击+{value=15000}%"/>
+    <text id="n37_k627" name="hpLb" xy="406,950" size="127,26" group="n38_k627" fontSize="18" color="#25972d" vars="true" text="生命+{value=150000}%"/>
+    <group id="n38_k627" name="n38" xy="163,950" size="370,26" advanced="true" layout="hz" colGap="16">
+      <relation target="n14_p4bn" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n39_shh7" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="412,984" visible="false">
+      <relation target="n33_k627" sidePair="middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="v9y2d69n">
+  <resources>
+    <component id="kqmidxy95" name="ArtifactMain.xml" path="/" exported="true"/>
+    <component id="kqmidxy9b" name="ArtifactAttrItem.xml" path="/Component/"/>
+    <component id="kqmidxy9c" name="ArtifactAttrItem2.xml" path="/Component/"/>
+    <component id="kqmidxy9a" name="ArtifactSelectBtn.xml" path="/Component/"/>
+    <component id="kqmi0" name="ArtifactAttrTip.xml" path="/Component/" exported="true"/>
+    <component id="kqmi1" name="ArtifactAttrItem3.xml" path="/Component/"/>
+    <image id="c2gldxy9e" name="sqBanner.png" path="/Res/"/>
+    <component id="hz5cdxy9w" name="ArtifactItem.xml" path="/Component/" exported="true"/>
+    <image id="f34jdxy9x" name="神器-详情.png" path="/Res/"/>
+    <image id="f34jdxy9y" name="神器.png" path="/Res/"/>
+    <image id="f34jdxy9z" name="ordinary_icon3.png" path="/Res/"/>
+    <image id="f34jdxya0" name="ordinary_bg4.png" path="/Res/"/>
+    <image id="a2kwdxya1" name="home_artifact_bg01.png" path="/Res/" scale="9grid" scale9grid="15,54,52,43"/>
+    <image id="ucd4dxya2" name="Artifact_sqtx.png" path="/Res/spine/"/>
+    <misc id="ucd4dxya4" name="Artifact_sqtx.atlas.txt" path="/Res/spine/"/>
+    <image id="ucd4dxya5" name="Artifact_sqtx(1).png" path="/Res/spine/"/>
+    <spine id="ucd4dxya3" name="Artifact_sqtx.skel" path="/Res/spine/" width="200" height="200" require="ucd4dxya4,ucd4dxya5" atlasNames="Artifact_sqtx" anchor="96,105"/>
+    <image id="ucd4dxya6" name="首页4.png" path="/Res/"/>
+  </resources>
+  <publish name="Artifact" genCode="true"/>
+</packageDescription>

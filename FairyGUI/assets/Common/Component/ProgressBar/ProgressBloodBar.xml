@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,16" overflow="hidden" extention="ProgressBar">
+  <displayList>
+    <loader id="n2_iv53" name="bar" xy="0,0" size="134,16" url="ui://0anhreyliv53dxyhc" fill="scaleFree"/>
+  </displayList>
+  <ProgressBar/>
+</component>

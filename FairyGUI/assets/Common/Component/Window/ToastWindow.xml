@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://0anhreyljx20xxn3">
+  <controller name="ctrlMode" pages="0,,1," selected="0">
+    <remark page="0" value="纯文本"/>
+    <remark page="1" value="道具图标加文本"/>
+  </controller>
+  <displayList>
+    <component id="n5_qrl6" name="tips" src="qrl6te" fileName="Component/Window/ToastCom.xml" xy="360,640" pivot="0.5,0.5" anchor="true" size="720,58" touchable="false">
+      <gearDisplay controller="ctrlMode" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_hjvf" name="iconTips" src="hjvfxxqc" fileName="Component/Window/ToastIconCom.xml" xy="0,614" touchable="false">
+      <gearDisplay controller="ctrlMode" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_qrl6" tween="true" startValue="1" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n5_qrl6" tween="true" startValue="360,640,0.5,0.5" endValue="360,466,0.5,0.364" duration="18"/>
+    <item time="18" type="Alpha" target="n5_qrl6" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="18" type="XY" target="n5_qrl6" tween="true" startValue="360,466,0.5,0.364" endValue="360,363,0.5,0.284" duration="18"/>
+  </transition>
+  <transition name="iconAni">
+    <item time="0" type="Alpha" target="n6_hjvf" tween="true" startValue="1" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n6_hjvf" tween="true" startValue="0,614" endValue="0,404" duration="18"/>
+    <item time="18" type="Alpha" target="n6_hjvf" tween="true" startValue="1" endValue="0" duration="10"/>
+    <item time="18" type="XY" target="n6_hjvf" tween="true" startValue="0,404" endValue="0,374" duration="10"/>
+  </transition>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="234,169">
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n1_w61t" name="n1" xy="0,0" size="234,169" url="ui://5moj1x39mtmsdxycs" fill="scaleFree">
+      <gearSize controller="lockCtrl" pages="0,1" values="234,169,1,1|234,200,1,1"/>
+    </loader>
+    <text id="n6_llb1" name="n6" xy="83,17" size="68,44" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="详情">
+      <relation target="n1_w61t" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n3_w61t" name="pContent" xy="22,85" size="189,29" fontSize="20" color="#ffffff" align="center" ubb="true" vars="true" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="{name=物理伤害}+{value=20}">
+      <gearColor controller="lockCtrl" pages="1" values="#ffffff,#000000" default="#ffffff,#000000"/>
+    </text>
+    <text id="n4_ozj9" name="n2" xy="22,122" size="189,29" fontSize="20" color="#fde38f" align="center" ubb="true" autoSize="height" strokeColor="#000000" strokeSize="2" text="适用于所有角色">
+      <gearXY controller="lockCtrl" pages="0,1" values="22,122|22,159"/>
+      <gearColor controller="lockCtrl" pages="1" values="#ffffff,#000000" default="#fde38f,#000000"/>
+    </text>
+    <text id="n5_ozj9" name="lockLb" xy="22,113" size="189,29" fontSize="20" color="#fde38f" align="center" ubb="true" vars="true" autoSize="height" strokeColor="#000000" strokeSize="2" text="解锁条件:[color=#fde38f]达到{lv=100}级[/color]">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <gearXY controller="lockCtrl" pages="0,1" values="22,113|22,121"/>
+      <gearColor controller="lockCtrl" pages="1" values="#ffffff,#000000" default="#fde38f,#000000"/>
+    </text>
+    <loader id="n7_llb1" name="flagImg" xy="25,156" size="35,35" url="ui://5moj1x39mtmsdxyct">
+      <relation target="n1_w61t" sidePair="top-bottom"/>
+    </loader>
+  </displayList>
+  <relation target="n1_w61t" sidePair="width-width,height-height"/>
+</component>

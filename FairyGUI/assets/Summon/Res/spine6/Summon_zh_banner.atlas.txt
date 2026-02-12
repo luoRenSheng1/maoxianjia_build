@@ -1,0 +1,147 @@
+Summon_zh_banner.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+bj
+	bounds: 2, 170, 750, 312
+fuwen1_1
+	bounds: 754, 153, 212, 211
+	offsets: 1, 1, 213, 213
+fuwen1_2
+	bounds: 754, 366, 229, 227
+	offsets: 0, 0, 230, 230
+	rotate: 90
+guangqiu
+	bounds: 603, 44, 124, 124
+huo_014
+	bounds: 581, 652, 367, 370
+	offsets: 6, 3, 380, 380
+quan1
+	bounds: 2, 484, 577, 538
+tiao_001
+	bounds: 581, 568, 105, 27
+	offsets: 4, 0, 360, 30
+tiao_002
+	bounds: 2, 60, 174, 27
+	offsets: 6, 0, 360, 30
+tiao_003
+	bounds: 2, 141, 321, 27
+	offsets: 16, 0, 360, 30
+tiao_004
+	bounds: 581, 623, 313, 27
+	offsets: 42, 0, 360, 30
+tiao_005
+	bounds: 950, 715, 307, 26
+	offsets: 48, 0, 360, 30
+	rotate: 90
+tiao_006
+	bounds: 2, 114, 300, 25
+	offsets: 55, 1, 360, 30
+tiao_007
+	bounds: 325, 144, 276, 24
+	offsets: 78, 1, 360, 30
+tiao_008
+	bounds: 581, 597, 266, 24
+	offsets: 88, 1, 360, 30
+tiao_009
+	bounds: 2, 89, 253, 23
+	offsets: 100, 1, 360, 30
+tiao_010
+	bounds: 978, 767, 255, 22
+	offsets: 98, 2, 360, 30
+	rotate: 90
+tiao_011
+	bounds: 1002, 866, 156, 20
+	offsets: 195, 3, 360, 30
+	rotate: 90
+tiao_012
+	bounds: 1002, 772, 92, 19
+	offsets: 258, 3, 360, 30
+	rotate: 90
+tiao_013
+	bounds: 896, 631, 46, 19
+	offsets: 304, 3, 360, 30
+
+Summon_zh_banner_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+bai
+	bounds: 2, 2, 179, 180
+	offsets: 3, 6, 188, 188
+huo_012
+	bounds: 369, 187, 362, 365
+	offsets: 8, 6, 380, 380
+huo_013
+	bounds: 2, 553, 365, 367
+	offsets: 7, 5, 380, 380
+huo_015
+	bounds: 2, 184, 365, 367
+	offsets: 7, 5, 380, 380
+huo_016
+	bounds: 369, 554, 364, 366
+	offsets: 7, 5, 380, 380
+
+Summon_zh_banner_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+huo_010
+	bounds: 364, 10, 356, 358
+	offsets: 11, 10, 380, 380
+	rotate: 90
+huo_011
+	bounds: 364, 368, 359, 361
+	offsets: 10, 8, 380, 380
+huo_017
+	bounds: 2, 366, 360, 363
+	offsets: 9, 7, 380, 380
+huo_018
+	bounds: 2, 2, 359, 362
+	offsets: 10, 8, 380, 380
+
+Summon_zh_banner_4.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+huo_002
+	bounds: 706, 707, 308, 314
+	offsets: 35, 31, 380, 380
+huo_003
+	bounds: 2, 2, 306, 306
+	offsets: 37, 36, 380, 380
+huo_007
+	bounds: 356, 324, 343, 345
+	offsets: 17, 16, 380, 380
+huo_009
+	bounds: 2, 310, 352, 354
+	offsets: 13, 12, 380, 380
+huo_019
+	bounds: 2, 666, 352, 355
+	offsets: 13, 11, 380, 380
+huo_020
+	bounds: 356, 671, 348, 350
+	offsets: 15, 14, 380, 380
+
+Summon_zh_banner_5.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+huo_001
+	bounds: 2, 2, 334, 334
+	offsets: 22, 21, 380, 380
+huo_004
+	bounds: 343, 357, 324, 326
+	offsets: 27, 26, 380, 380
+	rotate: 90
+huo_005
+	bounds: 681, 686, 331, 333
+	offsets: 23, 22, 380, 380
+huo_006
+	bounds: 343, 683, 336, 336
+	offsets: 20, 20, 380, 380
+huo_008
+	bounds: 2, 338, 336, 337
+	offsets: 22, 20, 380, 380
+quan2
+	bounds: 2, 677, 339, 342

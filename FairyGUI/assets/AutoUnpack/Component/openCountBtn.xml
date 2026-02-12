@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="219,36" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <image id="n0_x3dk" name="n0" src="x3dk2l" fileName="Res/1.PNG" xy="0,0" size="219,37">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n1_x3dk" name="title" xy="18,4" size="153,26" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="shrink" strokeColor="#474746" singleLine="true" autoClearText="true" text="111">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <image id="n2_x3dk" name="n2" src="x3dk2m" fileName="Res/2.png" xy="177,4">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n3_x3dk" name="n3" src="x3dk2s" fileName="Res/5.png" xy="177,4">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

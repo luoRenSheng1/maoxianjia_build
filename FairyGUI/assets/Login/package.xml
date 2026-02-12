@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h85hm7vm">
+  <resources>
+    <component id="nxr7p" name="LoginPage.xml" path="/Component/"/>
+    <component id="ab5sv" name="ComponentLobby.xml" path="/Component/"/>
+    <component id="sgozzc" name="BtnStart.xml" path="/Component/"/>
+    <image id="sgozz8" name="KaiShi.png" path="/Res/"/>
+    <image id="sgozz9" name="KaiShiDi.png" path="/Res/"/>
+    <image id="sgozza" name="Logo.png" path="/Res/"/>
+    <component id="vggn0" name="Main.xml" path="/" exported="true"/>
+    <image id="dowwxxo6" name="12+.png" path="/Res/"/>
+    <component id="kgyuxxoe" name="Plus_12.xml" path="/Component/"/>
+    <component id="kgyuxxoh" name="Announcement.xml" path="/Component/"/>
+    <image id="l06bxxon" name="登陆界面2.jpg" path="/Sample/"/>
+    <image id="l06bxxos" name="FangXing01.png" path="/Res/"/>
+    <image id="l06bxxot" name="HeiDiKuang01.png" path="/Res/"/>
+    <component id="l06bxxou" name="BtnSwitchAccount.xml" path="/Component/"/>
+    <image id="mjyexxow" name="登录界面（示意图.png" path="/Sample/"/>
+    <image id="mjyexxox" name="btn-start.png" path="/Res/"/>
+    <image id="mjyexxoz" name="UI-zhanghao.png" path="/Res/"/>
+    <component id="mjyexxp0" name="BtnSwitchServer.xml" path="/Component/"/>
+    <image id="mjyexxp1" name="UI-qufu.png" path="/Res/"/>
+    <component id="mjyexxp2" name="BtnKeFu.xml" path="/Component/"/>
+    <image id="mjyexxp3" name="UI-gonggao.png" path="/Res/"/>
+    <image id="mjyexxp4" name="UI-kefu.png" path="/Res/"/>
+    <component id="mjyexxp5" name="BtnGongGao.xml" path="/Component/"/>
+    <component id="pchvxxp6" name="ServerCombox_item.xml" path="/Component/"/>
+    <component id="pchvxxp7" name="ServerCombox_popup.xml" path="/Component/"/>
+    <component id="pchvxxp8" name="ServerCombox.xml" path="/Component/" exported="true"/>
+    <image id="zncuxxp9" name="taptapBtn.png" path="/Res/"/>
+    <component id="uq40xxpa" name="AgeTips.xml" path="/Component/"/>
+    <image id="uq40xxpb" name="4.png" path="/Res/newRes/"/>
+    <image id="uq40xxpc" name="3.PNG" path="/Res/newRes/"/>
+    <component id="uq40xxpd" name="check.xml" path="/Component/"/>
+    <component id="uq40xxpe" name="GameUserAgreement.xml" path="/" exported="true"/>
+    <component id="uq40xxpf" name="ScrollRichTxt.xml" path="/Component/"/>
+    <component id="uq40xxpg" name="PrivateAgreement.xml" path="/" exported="true"/>
+    <component id="uq40xxph" name="GameAgreement.xml" path="/" exported="true"/>
+    <component id="uq40xxpi" name="Plus12.xml" path="/" exported="true"/>
+    <image id="9pidxxpk" name="dl_bg.jpg" path="/Res/" exported="true" atlas="alone"/>
+    <image id="eizkxxpl" name="logo_zh.png" path="/Res/"/>
+    <image id="eizkxxpm" name="dl_bg1.jpg" path="/Res/" exported="true"/>
+  </resources>
+  <publish name="Login" genCode="true"/>
+</packageDescription>

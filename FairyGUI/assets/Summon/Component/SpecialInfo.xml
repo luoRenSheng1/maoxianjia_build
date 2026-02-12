@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <loader id="n6_llb1" name="n6" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </loader>
+    <image id="n3_u1cl" name="n3" src="surfi" fileName="Res/n78.png" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <image id="n4_u1cl" name="n4" src="surfs" fileName="Res/n8.png" xy="0,0" size="720,1108">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </image>
+    <list id="n1_surf" name="specialList" xy="1,366" size="720,737" overflow="scroll" scrollBarFlags="128" lineGap="20" defaultItem="ui://i7ojazuusurfb" autoClearItems="true">
+      <relation target="" sidePair="height-height,bottom-bottom"/>
+      <item/>
+    </list>
+    <loader id="n2_surf" name="bannerBg" xy="0,0" size="720,354" url="ui://i7ojazuusurfv" clearOnPublish="true"/>
+    <loader3D id="n5_l955" name="n5" xy="262,130" size="100,100" url="ui://i7ojazuujn604l" align="center" vAlign="middle" animation="huo" skin="" loop="true">
+      <relation target="n2_surf" sidePair="left-left,bottom-bottom"/>
+    </loader3D>
+  </displayList>
+</component>

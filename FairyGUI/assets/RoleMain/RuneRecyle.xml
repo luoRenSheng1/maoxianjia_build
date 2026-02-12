@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n12_ph24" name="n12" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n0_ph24" name="n0" xy="86,436" size="547,325" group="n11_ph24" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n1_ph24" name="n1" xy="86,383" size="547,77" group="n11_ph24" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <image id="n2_ph24" name="n2" src="ozj92" fileName="Res/bagnzhu-di.png" xy="119,495" size="470,129" group="n11_ph24"/>
+    <text id="n3_ph24" name="n3" xy="258,513" size="204,35" group="n11_ph24" fontSize="25" color="#663e20" align="center" vAlign="middle" text="符石伤害次数低于">
+      <relation target="n2_ph24" sidePair="center-center"/>
+    </text>
+    <component id="n4_ph24" name="reduceBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="226,569" size="40,40" group="n9_ph24" aspect="true">
+      <Button icon="ui://m37flevdph24dxy71"/>
+    </component>
+    <image id="n6_ph24" name="n6" src="ewjf2" fileName="Res/bg.png" pkg="5moj1x39" xy="271,568" size="165,41" group="n8_ph24"/>
+    <text id="n7_ph24" name="cntLb" xy="283,571" size="142,35" group="n8_ph24" fontSize="25" color="#663e20" align="center" vAlign="middle" autoSize="none" text="1000000000" input="true" maxLength="8" restrict="[0-9]" keyboardType="4"/>
+    <group id="n8_ph24" name="n8" xy="271,568" size="165,41" group="n9_ph24"/>
+    <component id="n5_ph24" name="addBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="441,569" size="40,40" group="n9_ph24" aspect="true">
+      <Button icon="ui://m37flevdph24dxy72"/>
+    </component>
+    <group id="n9_ph24" name="n9" xy="226,568" size="255,41" group="n11_ph24" advanced="true"/>
+    <component id="n10_ph24" name="recyleBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="259,639" size="190,78" group="n11_ph24">
+      <Button title="回收" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <component id="n13_ph24" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" pkg="5moj1x39" xy="310,802" group="n11_ph24"/>
+    <group id="n11_ph24" name="n11" xy="86,383" size="547,513" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

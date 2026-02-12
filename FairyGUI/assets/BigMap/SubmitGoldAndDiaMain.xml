@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="typeCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="上供金币"/>
+    <remark page="1" value="上供砖石"/>
+  </controller>
+  <displayList>
+    <component id="n0_ob1s" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_ob1s" name="n1" xy="16,379" size="688,406" group="n7_ob1s" url="ui://5moj1x39f34jdxy9y" fill="scaleFree"/>
+    <text id="n2_ob1s" name="n2" xy="326,397" size="68,44" group="n7_ob1s" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="2" text="提示">
+      <relation target="n1_ob1s" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n3_ob1s" name="desc" xy="79,545" size="568,44" group="n7_ob1s" fontSize="28" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="上供{value=100}金币可完成此任务">
+      <gearText controller="typeCtrl" pages="1" values="上供{value=100}砖石可完成此任务" default="上供{value=100}金币可完成此任务"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n4_ob1s" name="giveUpBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="96,672" size="218,84" group="n7_ob1s">
+      <relation target="n1_ob1s" sidePair="left-left,bottom-bottom"/>
+      <Button title="放弃任务" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n5_ob1s" name="submitBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="408,672" size="218,84" group="n7_ob1s">
+      <relation target="n1_ob1s" sidePair="right-right,bottom-bottom"/>
+      <Button title="上供" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n6_ob1s" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,817" size="84,84" group="n7_ob1s">
+      <relation target="n1_ob1s" sidePair="center-center,top-bottom"/>
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n7_ob1s" name="n7" xy="16,379" size="688,522" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" opaque="false">
+  <controller name="ctrlType" pages="0,,1," selected="1">
+    <remark page="0" value="反击"/>
+    <remark page="1" value="连击"/>
+  </controller>
+  <displayList>
+    <loader id="n6_nntd" name="tip" xy="0,0" pivot="0.5,0.5" anchor="true" size="51,24" url="ui://0anhreylykvcdxy33" fill="scale">
+      <gearDisplay controller="ctrlType" pages="0,1"/>
+      <gearIcon controller="ctrlType" pages="0,1" values="ui://0anhreylykvcdxy32|ui://0anhreylykvcdxy33"/>
+    </loader>
+  </displayList>
+  <transition name="nomral">
+    <item time="0" type="Alpha" target="n6_nntd" tween="true" startValue="1" endValue="1" duration="9"/>
+    <item time="0" type="Scale" target="n6_nntd" tween="true" startValue="1,1" endValue="1.5,1.5" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3525,0.655,0.95,1,0,1,1"/>
+    <item time="0" type="XY" target="n6_nntd" label="begin" tween="true" startValue="0,0" endValue="0,0" duration="6" ease="Custom" customEase="2,0,0,0.05,0.3525,0.6475,0.945,1,0,1,1"/>
+    <item time="2" type="Scale" target="n6_nntd" tween="true" startValue="1.5,1.5" endValue="1,1" duration="2" ease="Custom" customEase="2,0,0,0.05,0.3475,0.655,0.9475,1,0,1,1"/>
+    <item time="6" type="XY" target="n6_nntd" tween="true" startValue="0,0" endValue="0,-60" duration="6" label2="end"/>
+    <item time="9" type="Alpha" target="n6_nntd" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,88" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_q9cg" name="icon" xy="0,0" size="77,77" url="ui://i7ojazuuq9cg10" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair=""/>
+    </loader>
+    <text id="n1_q9cg" name="title" xy="6,63" size="65,25" fontSize="17" color="#ffffff" align="center" autoSize="shrink" bold="true" strokeColor="#652e21" text="功能预告">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n2_q9cg" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="45,0" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

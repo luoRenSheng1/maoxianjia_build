@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,84" pivot="0.5,0.5" extention="Button">
+  <controller name="status" pages="0,,1," selected="0">
+    <remark page="0" value="未满级"/>
+    <remark page="1" value="已满级"/>
+  </controller>
+  <controller name="enough" pages="0,,1," selected="0">
+    <remark page="0" value="不足"/>
+    <remark page="1" value="充足"/>
+  </controller>
+  <displayList>
+    <loader id="n3_ax20" name="bg" xy="0,0" size="200,84" url="ui://5moj1x39f34jdxy9s" fill="scaleFree">
+      <gearLook controller="status" pages="0" values="1,0,0,1" default="1,0,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_ax20" name="title" xy="74,7" size="52,34" fontSize="24" color="#ff0000" bold="true" strokeColor="#25211d" strokeSize="2" text="升级">
+      <gearDisplay controller="status" pages="0"/>
+      <gearColor controller="enough" pages="0,1" values="#ff0000,#25211d|#ffffff,#25211d"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n5_ax20" name="icon" xy="56,40" size="32,30" group="n7_ax20" url="ui://s7x7ku0nnjebdxy6o">
+      <relation target="n6_ax20" sidePair="left-left"/>
+    </loader>
+    <text id="n6_ax20" name="goldNum" xy="88,38" size="56,34" group="n7_ax20" fontSize="24" color="#ff0000" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="6666">
+      <gearColor controller="enough" pages="0,1" values="#ff0000,#000000|#ffffff,#25211d"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n7_ax20" name="n7" xy="56,38" size="88,34" advanced="true">
+      <gearDisplay controller="status" pages="0"/>
+    </group>
+    <text id="n8_ax20" name="n8" xy="62,25" size="76,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#25211d" strokeSize="2" text="已满级">
+      <gearDisplay controller="status" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

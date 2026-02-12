@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,114" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="qualityCtrl" exported="true" pages="0,,1,,2,,3,,4,,5,,17," selected="0"/>
+  <controller name="isStation" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="已驻扎"/>
+    <remark page="1" value="未驻扎"/>
+  </controller>
+  <controller name="hasValue" pages="0,,1," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+  </controller>
+  <controller name="buildType" pages="0,,1,,2,,3,,4,,5," selected="0">
+    <remark page="0" value="粮食工坊"/>
+    <remark page="1" value="加工厂"/>
+    <remark page="2" value="探索营地"/>
+    <remark page="3" value="窝棚"/>
+    <remark page="4" value="训练场"/>
+    <remark page="5" value="石头矿区"/>
+  </controller>
+  <displayList>
+    <loader id="n3_oppe" name="qualityIcon" xy="0,0" size="114,114" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,17" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_oppe" name="petIcon" xy="12,12" size="90,90" url="ui://5moj1x39p4bn1l" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_oppe" name="lvLb" xy="5,4" size="37,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="140">
+      <gearDisplay controller="hasValue" pages="0"/>
+      <relation target="n3_oppe" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n7_h8lo" name="stationBuild" xy="15,73" size="84,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="粮食工坊">
+      <gearDisplay controller="isStation" pages="0"/>
+      <gearText controller="buildType" pages="1,2,3,4,5" values="加工厂|探索营地|窝棚|训练场|石头矿区" default="粮食工坊"/>
+      <relation target="n3_oppe" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n8_ajor" name="n8" xy="19,37" size="76,34" fontSize="24" color="#b8df13" bold="true" strokeColor="#000000" strokeSize="2" text="已驻扎">
+      <gearDisplay controller="isStation" pages="0"/>
+      <relation target="n3_oppe" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n9_n5nh" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="82,0" visible="false">
+      <gearDisplay controller="isStation" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

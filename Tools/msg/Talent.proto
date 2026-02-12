@@ -1,0 +1,81 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+
+
+	 
+	
+	
+	
+	
+	
+ //下发新获取的天赋 支持多件
+message NewTalents_PC  { //eMsg_NewTalents_PC = 1400 ;    
+	repeated TalentInfo talents = 1;
+}
+
+//作弊码或GM管理用 已有的天赋更新  支持多件
+message TalentUpdate_PC { //eMsg_TalentUpdate_PC = 1401;  
+	repeated TalentInfo talents = 1;
+}
+//删除天赋  支持多件 -- GM管理用
+message DelTalents_PC { //eMsg_DelTalents_PC = 1402;   
+	repeated TalentInfo talents = 1;
+}
+
+//重置天赋请求
+message ResetTalents_CS  { //eMsg_ResetTalents_CS = 1409;     
+}	
+	 
+//重置天赋回复
+message ResetTalents_SC{ //eMsg_ResetTalents_SC = 1410;     
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated TalentInfo talents = 2; //初始化天赋信息
+	optional uint32  talent_points = 3; //剩余天赋点数
+	optional Finance finance = 4;  //最新账户余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+}	
+	
+	
+//多个天赋升级
+message BatchTalentsLevelUp_CS  { //eMsg_BatchTalentsLevelUp_CS = 1405;      
+    repeated TalentLevelUp talent_level_up = 1; 
+}
+
+//多个天赋升级回复
+message BatchTalentsLevelUp_SC{ //eMsg_BatchTalentsLevelUp_SC = 1406;     
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated TalentInfo talents = 2; //升级成功天赋信息
+	optional uint32  talent_points = 3; //剩余天赋点数
+	optional Finance finance = 4;  //最新账户余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+	
+	//以下成员暂未用到，客户端可以不用处理
+	optional eErrCode	first_err_code = 6;// [default = eSucceed];	 //第一个错误处理返回的错误码，暂停后续处理
+	repeated TalentInfo failed_talents = 7; //处理失败的天赋信息
+}
+
+//解锁天赋请求
+message UnlockTalent_CS  { //eMsg_UnlockTalent_CS = 1407;   
+    repeated uint32 talent_ids = 1; //要解锁的天赋 
+}
+
+//解锁天赋回复
+message UnlockTalent_SC{ //eMsg_UnlockTalent_SC = 1408;        
+	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+	repeated TalentInfo talents = 2; //新获得的天赋信息
+	optional uint32  talent_points = 3; //剩余天赋点数
+	optional Finance finance = 4;  //最新账户余额
+	repeated ItemInfo items = 5;           //消耗道具 -- 显示外加本地数量扣除
+	
+	//以下成员暂未用到，客户端可以不用处理
+	optional eErrCode	first_err_code = 6;// [default = eSucceed];	 //第一个错误处理返回的错误码，暂停后续处理
+	repeated TalentInfo failed_talents = 7; //处理失败的天赋信息
+}
+
+
+

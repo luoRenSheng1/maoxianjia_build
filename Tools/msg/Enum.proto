@@ -1,0 +1,1274 @@
+syntax = "proto2";
+package msg;
+
+
+
+
+// ============系统运行参数相关枚举============
+// 参数类型
+enum eVarType
+{
+	eVarType_Auth					= 1;	// igg帐号认证开关，data1：997-关闭验证，1-白名单验证（strJson7），2-内测验证码登录（需校验tocken），3-内测验证码登录（不校验tocken）；data2：curl重试次数（0-默认1次）；data3：curl链接失败是否放入，0-默认不让登录，1-让玩家登录；data4：0-默认启用redis缓存，1-不启用redis缓存；data5：0-默认启用S2S技术部tocken校验，1-不启用S2S技术部tocken校验
+	eVarType_Purchase_Limit			= 2;	// 礼包限制超卖,默认允许: data1: 0-允许超卖 1-不允许 data2:订单超时上限(单位:秒)
+	eVarType_WorldChat				= 3;	// 聊天频道开关，没有配置则默认全开，有配置时，--data1:开关 （0--聊天频道全关，1--开启指定由json7指定的聊天频道, >1--聊天频道全开),data2:世界聊天频道每秒数量上线（默认0就是100条）,data3:语言频道每秒数量上线（默认0就是100条),data4:故事书频道每秒数量上线（默认0就是100条）
+	eVarType_SubDBOverload			= 4;	// 子库最大负载（玩家数量） 
+	eVarType_Online_Limit			= 5;	// 单服人数上限，data1:在线人数上限（100~3000之间），默认1000人，88888888-表示测试专用；data2:上浮系数百分比（100~200），默认120
+	eVarType_TavernServer_LoadTime	= 6;	// Taver服内存保留最近多久登录过的玩家数据(单位：秒)
+	eVarType_Id_Limit				= 7;	// 内部帐号认证开关
+	eVarType_Arena					= 8;	// 竞技场系统参数 -- label | label_reset_time | season | season_reset_time
+	eVarType_Vip					= 9;	// 订阅系统 -- 订阅开关 | 订阅期数 | 订阅赛季重置时间
+	eVarType_Newbie_Award			= 10;	// 新手帐号福利 -- data1:开关 | json7:福利内容(GM命令)
+	eVarType_Maintain_Test			= 11;	// 开服维护测试 -- data1:开关（0-此参数无效） | data2:是否已开放登录（0-只能白名单用户登录） | json7:测试帐号白名单（iggid列表）
+	eVarType_ShiningRoad			= 12;	// 闪耀之路系统参数 -- season | season_reset_time
+	eVarType_AccessTocken_PublicKey	= 13;	// 新AccessTocken需要的rsa公钥(JWK)，data1：时间戳，json7:公钥列表
+	eVarType_AccessTocken_AESKey	= 14;	// 新AccessTocken需要的aes密钥，data1：时间戳，json7:密钥列表
+	eVarType_PM						= 15;	// PM开关：0-关闭，1-只能白名单用户操作（json7:（iggid列表）），998-所有帐号均可操作
+	eVarType_Review_Alarm			= 16;	// 审核服开关：data1：0-关闭，1-只能白名单用户操作（json7:（iggid列表））；data2：充值报警临界值；data3：新用户注册报警临界值；data4：同时在线人数报警临界值；data5：苹果客户端版本号（1.0.19=0001 0000 0019）；data6：安卓客户端版本号（1.0.19=0001 0000 0019）；json7:白名单用户（iggid列表）
+	eVarType_PlayerInfoCollect		= 17;	// 玩家信息收集配置: data1:开关 | data2:所需玩家等级
+	eVarType_Account				= 18;	// 账号信息: data1:账号总数量
+	eVarType_Monitor                = 19;   // 进程监控 data1: 0-不监控 1-监控但IC不报警 2-监控并IC报警 默认不开启(一般只有正式服才开启) data2:断开连接多久没重连上判定为异常(单位:秒) data3:每个服务器报警次数上限 data4:所有服务器报警次数上限 data5:上报的gameid
+	eVarType_Wardrobe				= 20;   // wardrobe控制参数 data1:缓存有效时长(单位:秒) data2:缓存容量上限 data7:Server-ID列表
+	eVarType_DelAccount				= 21;   // 删除死号的开关：data1:0-关闭，1-开启 | json7:一些控制参数，不能删除的帐号白名单（iggid列表）
+	eVarType_OrderSum				= 22;   // 订单汇总的开关：data1:0-关闭，1-开启 
+	eVarType_GiftRecommend			= 23;   // 运营C位礼包已分配的最大ID:data1:Purchase/Topup data2:Mall/Topup_ingame data3:Unlock
+	eVarType_LoginHost				= 24;   // (第一个连接上Global服的)Login服相关主机信息,方便报警时落IP端口信息用以区分是外网服务器还是内部研发机器 data7: IP和Port字段
+	eVarType_PopupInGame			= 25;	// 原生大弹窗数据来源开关：没有配置则默认读取策划表big_pop_ups.xlsx, 有配置时，--data1:开关(0--运营后台, 1--策划表格)
+	eVarType_Mongo					= 26;	// mongo相关控制: data1:1-跨天创建未来friend_energy和friend_friendlynum分表 0-不创建(默认0) data2:未来天数(默认0) data3:1-跨天删除n天前的分表 0-不删(默认0) data4:过去天数(默认1)
+	eVarType_LogFiterCfg			= 27;	// 日志过滤配置：json7:{"filtertypes":[1,3,5], "filter3": [0]},"filtertypes"：所有服通用配置，"filter3"：3-表示指定类型服务器 -- 数组内为需要过滤掉的日志类型  1--E_LL_DEBUG,// 调试 2--E_LL_INFO,//信息 3--E_LL_WARNING,//警告 4--E_LL_ERROR,//错误 5--E_LL_STATE,// 程序的运行状态 6--E_LL_CRASH,//很严重的错误，比如崩溃、死循环等 7--E_LL_GAME,//游戏数据日志
+	eVarType_LoadBalance			= 28;	// 登录负载均衡: data1: 小于平均在线人数Delta认为差距较大,开启流量负载机制Delta=data1*world服数量(默认20) data2: 在线人数差距较大时,人数少的服务器允许达到的最大流量速度是当前所有服最低速度的多少倍(默认2倍) data3: 周期长度(单位:秒,默认60秒) data4: 997-打印测试日志(默认不打印)
+	eVarType_Common					= 29;	// 通用参数(数值)；data1:0-登录日志旧格式，6-登录日志v6格式；data2:0-国际服，1-国服；json7:参数列表，具体定义看代码
+	eVarType_CommonAlarm			= 30;	// 通用报警逻辑开关：data1:0-关闭，1-开启  json7:{"typecfg":{"type1":{"freq":100}, "type2":{"freq":200}}, "ignoretypes":["type1","type2"]} -- 过滤掉不报警的类型
+	eVarType_DispatchType			= 31;	// 服务器消息发送分配方式：data1: 0-按负载分配 1-随机分配
+	eVarType_PurchaseDiscount		= 32;	// 每日特惠礼包ID: data1:上次随机时间戳 data2:上次随机出来的ID
+	eVarType_BargainAskHelp			= 33;	// 砍价礼包活动-好友助力一键操作相关控制: data1:2-方案2，过滤最近几天没有上线同时也限制一键数量 1-方案1，过滤最近几天没有上线的好友 3-方案3，读取配置的限制(不配置则默认方案1) data2:天数(默认30天,data1=1时读取) data3:活动过期后几天才删除数据（默认30） data4: 一键操作是否禁用，配0不禁用，配1禁用一键邀请，配2禁用一键帮助，配4禁用一键忽略，配7全部禁用 data5:一键同意的单次操作等待mongoserver回包的超时wait_time_out（默认3s）
+	eVarType_CommonActivityRankInfo = 36;	// 运营指定通用活动排行榜日榜分组数量 data1:从什么时候开始生效(单位:秒) date2:运营设置的分组数量
+	eVarType_CommonActivityRankBuff = 37;	// 限时活动排行榜buff信息 data2: buff开始时间戳(单位:秒) data3:buff结束时间戳(单位:秒) data4:活动ID json7:按照分组存储冠军玩家Guid
+	eVarType_ThreadTaskLimit		= 38;	// 线程池线程业务限流 data7:限流类型(参考枚举eThreadTaskType)及数量信息
+	eVarType_TrendLimitShopHotValue = 39;   // 潮流限定商店热度值:data1:商品Id,data2:当前热度值,data3:热度值修正时间
+	eVarType_MixMatchShopGroup 	    = 40;   // 时装商店经典混搭商店刷新组:data1:商品组,data2:商品组下架时间 2022-7-18版本废弃
+	eVarType_SuperSwitch 	    = 41;   // 超级开关，用于非常时期禁止一些玩家操作:data1>0生效，data2>0表示返回给客户端的错误码(默认11)
+}
+
+// 关卡解锁条件
+enum eStageUnlockType
+{
+	eStageUnlockType_None	= 0;	// 无条件
+	eStageUnlockType_PassStages	= 1;	// 通过前机关
+	eStageUnlockType_CollectEmblems	= 2;	// 收集徽章
+	eStageUnlockType_CollectPets	= 3;	// 收集宠物
+	eStageUnlockType_Max	= 4;	// 最大
+}
+
+
+// 魔戒基本属性
+enum eRingAttr
+{
+	eRingAttr_Attack	= 1;	// 攻击
+	eRingAttr_Hp	= 2;	    // HP
+	eRingAttr_CriticalStrike	= 3;	// 暴击
+	eRingAttr_CriticalInjury	= 4;	// 爆伤
+	eRingAttr_Recovery	= 5;	// 生命恢复
+	eRingAttr_Max	= 6 ;	// 最属性个数
+}
+
+// 天赋类型
+enum eTalentType
+{
+	eTalentType_PhysicalAattack =1; //物理线路
+	eTalentType_MagicalAattack =2; //法术线路
+	eTalentType_DefenceAattack =3; //防御线路
+	eTalentType_AssistantAattack =4; //辅助线路
+	
+	eTalentType_Max = 5;  //类型个数-1
+}
+
+
+//QuickSDK支付状态状态
+enum eQuickSDK_PayStatus
+{
+	eQuickSDK_PayStatus_Success = 0;  //支付成功
+	eQuickSDK_PayStatus_Failed = 1;  //支付失败
+	eQuickSDK_PayStatus_Pending = 2;  //已付款，等待Quick通知结果
+}
+//支付渠道商
+enum ePayChannel
+{
+	ePayChannel_InnerOperation = 0;  //公司内部接口
+	ePayChannel_QuickSdk = 1;  //Quick SDK
+}
+
+
+
+
+
+// 家园道具作用枚举
+enum eHomeItemFunc
+{
+	eHomeItemFunc_None	= 0;	// 无
+	eHomeItemFunc_Toy	= 1;	// 玩具增加欢乐值
+	eHomeItemFunc_Food	= 2;	// 粮食恢复饥饿值
+	eHomeItemFunc_Medicine	= 3;	// 医护 恢复体力
+	eHomeItemFunc_FactoryProduct	= 4;	// 加工厂道具
+}
+
+// 家园道具子类型枚举
+enum eHomeItemFuncSub
+{
+	eHomeItemFuncSub_None	= 0;	// 无
+	eHomeItemFuncSub_CatchTools	= 1;	// 捕具
+}
+//主城建筑种类
+enum eBuildType 
+{
+	eBuildType_None	= 0;	// 无
+	eBuildType_FoodFactory	= 1;	// 粮食工坊
+	eBuildType_FinishedFactory	= 2;	// 加工厂
+	eBuildType_ExploredCamp	= 3;	// 探险营地
+	eBuildType_ReproduceCenter	= 4;	// 窝棚繁殖中心
+	eBuildType_TrainingGround	= 5;	// 训练场
+	eBuildType_Mine 	= 6;	// 矿区
+
+}
+
+
+//深埋宝藏 与 钓鱼 结果
+enum eRandEventInnerResult
+{
+    eRandEventInnerResult_None = 0; //没有
+    eRandEventInnerResult_Gold = 1; //金币
+    eRandEventInnerResult_Diamond = 2; //钻石
+    eRandEventInnerResult_Item = 3; //奖励道具类
+    eRandEventInnerResult_StageBoss = 4; //打关卡boss
+    eRandEventInnerResult_LoreBoss = 5; //打传承boss
+    eRandEventInnerResult_Counter = 6; //个数
+}
+
+// 副本种类
+enum eCopyType 
+{
+	eCopyType_None	= 0;	// 开始  0
+	eCopyType_Gold	= 1;	// 装备副本  10000006
+	eCopyType_Equip	= 2;	// 钻石副本  10000004
+	eCopyType_Diamond	= 3;	// 金矿副本    10000005
+	eCopyType_HeroExp	= 4;	// 英雄经验药水副本  10000007
+	eCopyType_PetPieces	= 5;	// 宠物材料副本   10000008
+	eCopyType_PetBook	= 6;	// 宠物技能书副本   10000009
+	eCopyType_Artifact	= 7;	// 神器副本   10000010
+	eCopyType_HolyItem	= 8;	// 圣物副本   10000011
+	eCopyType_Max	= 9;	// -1种类数
+}
+
+
+// ============货币种类枚举============
+// 货币种类
+enum eCurrencyType 
+{
+	eCurrencyType_None	= 0;	// 无
+	eCurrencyType_Gold	= 1;	// 金币
+	eCurrencyType_Diamond	= 2;	// 钻石
+	eCurrencyType_FreeDiamond	= 3;	// 免费钻石
+	eCurrencyType_Max	= 4;	// -1种类数
+}
+
+// ============货币 vip经验等属性常量item id
+enum eCurrencyItemID 
+{
+	eCurrencyItemID_Diamond	= 1000;	// 钻石
+	eCurrencyItemID_Gold	= 2000;	// 金币
+	eCurrencyItemID_Vip	= 4000;	// vip经验
+}
+
+
+// ============Vip加成
+enum eVipBonus
+{
+	eVipBonus_LotteryTicket	= 1;	// 允许每日签到获得老虎机抽奖券
+	eVipBonus_EquipBoxKey	= 2;	// 允许每日签到获得装备箱子钥匙
+	eVipBonus_ExtraEquipBoxKey	= 3;	// 额外获得装备箱子钥匙
+	eVipBonus_ExtraDiamondCopyTicket	= 4;	// 额外钻石副本入场券
+	eVipBonus_ExtraRuneCopyTicket	= 5;	// 额外符文副本入场券
+	eVipBonus_ExtraPetEquipCopyTicket	= 6;	// 额外宠物装备副本入场券
+	eVipBonus_ExtraTurnTableCopyTicket	= 7;	// 主线任务转盘副本入场券
+}
+
+// ============礼包类型
+enum eGiftPackType
+{
+	eGiftPackType_Normal	= 0;	// 普通礼包
+	eGiftPackType_DailyLimit	= 1;	// 每日限定礼包
+	eGiftPackType_WeeklyLimit	= 2;	// 每周限定礼包
+	eGiftPackType_2WeeklyLimit	= 3;	// 每2周限定礼包
+	eGiftPackType_MonthlyLimit	= 4;	// 每月限定礼包
+	eGiftPackType_FuncLimit	= 5;	//埋点礼包
+}
+
+// ============商店商品分类
+enum eShopItemType
+{
+	eShopItemType_ItemShop	= 1;	// 道具商店
+	eShopItemType_PetShop	= 2;	// 宠物商店
+	eShopItemType_VipShop	= 3;	// vip商店
+}
+
+
+
+
+// -----老虎机分类
+enum eLottoType
+{
+	eLottoType_Pet = 1;
+	eLottoType_Skill = 2;
+	eLottoType_HeroNormal = 3;
+	eLottoType_HeroMinGuarantee = 4;
+}
+
+// -----活动解锁类型
+enum eActivityUnlockType
+{
+	eActivityUnlockType_Time = 0;  //时间到解锁
+	eActivityUnlockType_Purchase = 1; //付费解锁
+}
+
+// -----月活动类型
+enum eMonthActivityType
+{
+	eMonthActivityType_Permanent = 1;  //永久卡
+	eMonthActivityType_MonthCard = 2;  //月卡
+	eMonthActivityType_WeekCard = 3;  //周卡
+	eMonthActivityType_HeroToken = 4; //英雄令
+}
+
+// -----卡id
+enum eCardID
+{
+	eCardID_Permanent = 1001;  //永久卡
+	eCardID_MonthCard = 1002;  //月卡
+	eCardID_WeekCard = 1003;  //周卡
+	eCardID_HeroToken = 1004; //英雄令
+}
+
+//职业枚举
+enum eOccupationType
+{
+	eOccupationType_None	= 0;	// 0=无，
+	eOccupationType_Warrior	= 1;	// 1=战士，
+}
+
+//------------------------------buff相关 SkillAchieve.xlsx表相关 开始
+//buff功能模块枚举
+enum eBuff4Module
+{
+	eBuff4Module_None	= 0;	// 0=无，
+	eBuff4Module_RoleMainSkill	= 1;	// 1=角色技能，
+	eBuff4Module_ComboSkill	= 2;	// 2=组合技能，
+	eBuff4Module_RoleTalent	= 3;	// 3=角色天赋，
+	eBuff4Module_PetTalent	= 4;	// 4=宠物天赋，
+	eBuff4Module_PetSkillBook	= 5;	//5=宠物技能书，
+	eBuff4Module_Holy	= 7;	// 7=圣物技能，
+	eBuff4Module_MonsterEntry	= 8;	// 8=怪物词条
+	eBuff4Module_PetInitSkill	= 10;	// 10=宠物初始技能
+}
+
+//开发区分
+enum eBuff4Dev
+{
+	eBuff4Dev_Client	= 0;	// 0=客户端实现，
+	eBuff4Dev_Server	= 1;	// 1=服务器实现，
+	eBuff4Dev_Both	= 2;	// 2=共同，
+}
+
+//buff类型
+enum eBuffAddType
+{
+	eBuffAddType_Comment	= -1;	// -1=策划备注用
+	eBuffAddType_PermanentChangeAttr	= 0;	// 0=无条件加属性
+	eBuffAddType_TempChangeAttr	= 1;	//1--属性变动 临时时间限制
+	eBuffAddType_SpecialBuff	= 2;	// 2=状态动作和特殊处理，
+}
+
+//触发类型
+enum eBuffTriggerType
+{
+	//概率触发：
+	eBuffTriggerType_PetAtk = 101;       //101=宠物普攻概率触发
+    eBuffTriggerType_PetCastSkill = 102; //102=宠物释放技能概率触发
+    eBuffTriggerType_RoleHurt = 103;     //103=角色受击概率触发
+    eBuffTriggerType_PetAtkKillEnemy = 105; //105=宠物击杀概率触发
+    eBuffTriggerType_RoleAtk = 201;       //201=角色普攻概率触发
+    eBuffTriggerType_RoleCastSkill = 202;//202=角色释放技能概率触发
+    eBuffTriggerType_RoleAtkKillEnemy = 203;  //203=角色击杀概率触发
+    eBuffTriggerType_RoleSkillKillEnemy = 208;//208=释放技能击杀目标，概率触发
+
+    //非概率触发：
+    eBuffTriggerType_RoleHPLess = 104; //104=角色血量低于d%触发
+    eBuffTriggerType_RoleHPLessAndCastSkill  = 107;//107=角色血量低于d%且释放技能
+    eBuffTriggerType_RoleDead = 108;      //108=角色死亡触发
+    eBuffTriggerType_RoleLoseHP = 109; //109=损失d%生命
+    eBuffTriggerType_RoleAfterCastingSkill  = 206;//206=角色释放技能后
+    eBuffTriggerType_RolePerLoseHP = 207; //207=生命值相对于HP MAX每降低d%
+    eBuffTriggerType_RoleBeAtacked = 210; //210=角色受到伤害
+    eBuffTriggerType_FirstAtkAfterRoleCastedSkill = 211; //211=技能释放后，第一次普攻
+    eBuffTriggerType_AtkObjectHPLess = 400; //400=攻击目标HP低于Max的d%
+
+    //计算或累计触发：
+    eBuffTriggerType_RoleAtkCounterReachNumber = 204; //204=角色普攻每攻击d次触发
+    eBuffTriggerType_RoleCastSkillReachNumber = 205;  //205=角色技能每释放d次触发
+    eBuffTriggerType_RoleHurtReachNumber = 209;  //209=每受到d次伤害(减血和额外血[护盾])
+
+    //无条件触发：
+    eBuffTriggerType_PermanentChangeAttr	= 0;  //0=无条件加属性
+    eBuffTriggerType_HolyItem = 401;   //401=圣物穿戴
+
+    //定时触发：
+    eBuffTriggerType_TimerTrigger = 106;   //106=定时触发
+
+}
+
+
+//buff作用对象区分
+enum eBuffHandleObject
+{
+    eBuffHandleObject_DefineBegin = 0;     //0  定义开始
+    eBuffHandleObject_SelfHeroAttr = 1;     //1=已方英雄的基础属性
+    eBuffHandleObject_SelfPetAttr = 2;        //2=己方宠物的基础属性
+    eBuffHandleObject_EnemyAttr = 3;          //3=敌方的基础属性
+    eBuffHandleObject_SelfAllAttr = 4;          //4=已方所有的基础属性
+    eBuffHandleObject_BattleAllAttr = 5;          //5=战场所有的基础属性
+	
+    eBuffHandleObject_SelfHeroStatusAction = 21;   //21=已方英雄的状态动作
+    eBuffHandleObject_SelfPetStatusAction = 22;    //22=己方宠物的状态动作
+    eBuffHandleObject_EnemyStatusAction = 23;       //23=敌方的状态动作
+    eBuffHandleObject_SelfAllStatusAction = 24;     //24=已方所有的状态动作
+    eBuffHandleObject_BattleAllStatusAction = 25;    //25=战场所有的状态动作
+	
+    eBuffHandleObject_SelfHeroSkill = 36;         //36=已方英雄的技能
+    eBuffHandleObject_SelfPetSkill = 37;           //37=己方宠物的技能
+    eBuffHandleObject_DefineEnd = 38;     //38  定义结束
+}
+
+//buff失效条件
+enum eBuffLoseCondition
+{
+    eBuffLoseCondition_TimeExpired = 1;  //时间到了
+    eBuffLoseCondition_ConditionNotMatched = 2;  //条件不匹配
+    eBuffLoseCondition_AtkOrFirstOperation = 3;  //buff生效后第一次攻击或操作
+    eBuffLoseCondition_StageReset = 4;  //关卡重置
+}
+
+//buff数值变动类型
+enum eBuffAttrChangeType
+{
+	eBuffAttrChangeType_ValChange = 1;  //原始单位变更
+	eBuffAttrChangeType_MaxOffset = 2;  //相对于上限的比值
+	
+}
+
+
+//------------------------------buff相关 SkillAchieve.xlsx表相关 结束
+
+
+// ============道具种类枚举============
+// 道具种类
+enum eItemType 
+{
+	eItemType_PlainItem	= 1;	// 1=物品，
+	eItemType_Equip	= 2;	// 2=装备，
+	eItemType_HeroRole	= 3;	// 3=英雄角色，
+	eItemType_Pet	= 4;	// 4=宠物，
+	eItemType_Skill	= 5;	// 5=技能
+	eItemType_Rune	= 6;	// 6=符石，
+	eItemType_HeroRolePiece	= 7;	// 7=角色碎片
+	eItemType_RandomBox	= 8;	// 8=随机宝箱
+	eItemType_Avatar	= 9;	// 9=头像
+	eItemType_AvatarFrame	= 10;	// 10=头像框
+	eItemType_Classic	= 11;	// 11=典籍
+	eItemType_Bossbadge	= 12;	// 12=boss徽章
+	eItemType_Artifact	= 13;	// 13=神器装备
+	eItemType_LoreEquip	= 14;	// 14=传承装备  
+	eItemType_PetSkillBook	= 15;	// 15=宠物技能书
+	eItemType_HolyItem	= 16;	// 16=圣物
+	
+	eItemType_Accelation	= 99;	// 99=加速道具
+	eItemType_Finance	= 100;	// 100=货币
+	eItemType_HometownItem	= 101;	// 101=家园道具
+}
+
+//游戏中任务类型
+enum eTaskType
+{
+	eTaskType_None	= 0;	// 0---开始，
+	eTaskType_Main	= 1;	// 主线，
+	eTaskType_Daily	= 2;	// 每日，
+	eTaskType_Pass	= 3;	// 通行证，
+	eTaskType_NPC	= 4;	// NPC，
+	eTaskType_Achieve = 5;   // 成就
+	eTaskType_Max	= 6;	// 数量，
+}
+
+//主线任务类型
+enum eMainTaskType
+{
+    eMainTaskType_KillMonster= 2; 	//击杀怪物
+    eMainTaskType_PassStage =1;	//挑战关卡
+    eMainTaskType_GenEquipTimes =3;	//铸造装备
+    eMainTaskType_SoldEquipTimes =7;	//出售装备
+    eMainTaskType_GenQualityEquip =25;	//获得*品质装备
+    eMainTaskType_PlayPetLotto =5;	//召唤宠物
+    eMainTaskType_PlaySkillLotto =26;	//召唤技能
+    eMainTaskType_PlayHeroLotto =27;	//召唤英雄
+    eMainTaskType_EquipBoxLevelUp =8;	//箱子升级
+    eMainTaskType_ClassicAtkLevelUp =28;	//升级强击秘典
+    eMainTaskType_ClassicHPLevelUp =29;	//升级生命秘典
+    eMainTaskType_ClassicDefLevelUp =30;	//升级防御秘典
+    eMainTaskType_ClassicPetLevelUp =31;	//升级宠物秘典
+    eMainTaskType_RingHPRecoveryLevelUp =46;	//强化恢复
+    eMainTaskType_DailyTask =32;	//日常任务数
+    eMainTaskType_WatchADTimes =33;	//看广告
+    eMainTaskType_OnlineTime =34;	//在线时长
+    eMainTaskType_ClaimHomeTownProduct =35;	//家园奖励收取
+    eMainTaskType_LoginDays =36;	//登录
+    eMainTaskType_ArenaPlay =37;	//竞技场挑战
+    eMainTaskType_ClainOnlineAward =38;	//领取在线奖励
+    eMainTaskType_GoldCopyTimes =40;	//指定金币副本
+    eMainTaskType_EquipCopyTimes =41;	//指定装备副本
+    eMainTaskType_DiamondCopyTimes =42;	//指定钻石副本
+    eMainTaskType_HeroExpCopyTimes =43;	//指定英雄经验副本
+    eMainTaskType_RuneCopyTimes =44;	//指定符石副本
+    eMainTaskType_AnyCopyTimes =45;	//任意副本
+	
+	
+    eMainTaskType_KillAnyBossInChapter =101;	//击杀当前章节随机关卡BOSS（除开隐藏关卡）
+    eMainTaskType_CollectLoreEquips =102;	//收集X件传承装备
+    eMainTaskType_PickUpGold =103;	//拾取几次金币堆
+    eMainTaskType_PickUpDiamond =104;	//拾取几次钻石堆
+    eMainTaskType_FishingCounter =105;	//进行X次钓鱼
+    eMainTaskType_OfferGoldOnAltar =106;	//上供金币
+    eMainTaskType_OfferDiamondOnAltar =107;	//上供钻石
+	
+	eMainTaskType_KillNormalBoss = 108; //击杀{0}只BOSS
+	eMainTaskType_KillLoreBoss = 109; //击杀{0}只传承BOSS
+	eMainTaskType_ArtifactLevels = 110; //神器升级至{0}级
+	eMainTaskType_CollectQualityEquips = 201; //收集{0}件{0}品质装备
+	eMainTaskType_CollectQualityPets = 202; //收集{0}件{0}品质宠物
+	eMainTaskType_CollectQualityLoreEquips = 203; //收集{0}件{0}品质传承装备
+	eMainTaskType_QualitySkillReachLevels = 204; //{0}品质技能到达{0}级
+	eMainTaskType_FinishFixedEvents = 205; //完成{0}次固定点位随机事件
+	eMainTaskType_ShufflePetTalents = 206;  //进行{0}次宠物天赋洗练
+	eMainTaskType_PutOnPetSkillBook	= 207;   //进行{0}宠物打书操作
+}
+
+
+
+//随机任务位置区分
+enum eRandomEventTypeGroup
+{
+    eRandomEventTypeGroup_None = 0;  //无
+    eRandomEventTypeGroup_FixedPosition = 1;  //定点
+    eRandomEventTypeGroup_RandomPositions = 2;  //枚举
+}
+
+
+//钓鱼结果枚举
+enum eFishingResult
+{
+    eFishingResult_Nothing = 0;  //啥都没钓到
+	eFishingResult_AwardGold = 1; //奖励金币
+	eFishingResult_AwardDiamond = 2; //奖励钻石
+	eFishingResult_StageBoss = 3; //普通关卡boss
+	eFishingResult_LoreBoss = 4; //传承boss
+	eFishingResult_MixedItems = 5; //多个道具奖励
+}
+
+
+//随机事件状态
+enum eRandomEventStatus
+{
+    eRandomEventStatus_Dispatched =0;	//生成下发待接受领取中
+    eRandomEventStatus_Taking =1;	//接受进行中
+    eRandomEventStatus_Finished =2;	//完成
+    eRandomEventStatus_Expired =3;	//过期
+	
+    eRandomEventStatus_Max =4;	//最大值
+}
+//随机事件类型
+enum eRandomEventType
+{
+    eRandomEventType_RandomBox =1;	//随机宝箱
+    eRandomEventType_RuinsBuff =2;	//随机建筑遗迹 buff
+    eRandomEventType_NpcTask =3;	//狩猎任务  委托任务
+    eRandomEventType_StageDropPet =4;	//搜寻宠物  在逃宠物
+    eRandomEventType_NextChapterBoss =5;	//传承boss  游荡boss
+    eRandomEventType_RandomDiamond =6;	//钻石矿 随机钻石
+    eRandomEventType_RandomGold =7;	//天女散花 随机金币
+    eRandomEventType_RandomEuip =8;	//砍树 随机
+    eRandomEventType_Fishing =9;	//钓鱼
+    eRandomEventType_AdventureBusinessMan =10;	//奇遇商人
+    eRandomEventType_Max =11;	//最大值
+}
+
+//玩家大地图状态
+enum eChapterMapStatus
+{
+    eChapterMapStatus_InStage =0;	//在关卡中
+    eChapterMapStatus_OnMap =1;	//在大地图上
+	
+    eChapterMapStatus_Max =2;	//最大值
+}
+
+//关卡战斗状态
+enum eBattleStatus
+{
+	eBattleStatus_NoneInCamp = -2;  //没有战斗--在营地
+	eBattleStatus_None = -1;  //没有战斗--默认大地图
+	eBattleStatus_Normal = 0;  //正常过关
+	eBattleStatus_Circle = 1;  //进入循环--挂机
+	
+    eBattleStatus_Max =2;	//最大值
+}
+
+
+// ============邮件相关枚举============
+// 邮件类型
+enum eMailType {
+	eMailType_Unknow	= 0;	// 未知--或表示全部
+	eMailType_System	= 1;	// 系统邮件
+	eMailType_Player	= 2;	// 玩家邮件
+	eMailType_Operation	= 3;	// 运营信件
+}
+
+// 邮件状态，多种状态可以叠加(代码判断时，请进行与&运算) bit位上为0表示用户未操作，为1表示已操作
+enum eMailStatus {
+	eMailStatus_Unknow		= 0;	// 未知
+	eMailStatus_Read		= 1;	// 是否已读   0 未读，  1 已读
+	eMailStatus_Attach		= 2;	// 附件是否领取  0 未领取，  1 已领取
+	//eMailStatus_Others	= 4;	// 其他待定义
+}
+
+// 邮件操作类型
+enum eActionType {
+	eActionType_List = 0;		// 按指定邮件Guid列表提取/删除/标记(客户端,服务端共用)
+	eActionType_Onekey = 1;		// 一键提取/删除/标记所有附件(客户端,服务端共用)
+	//eActionType_Onekey_All = 2;	// 一键提取/删除/标记所有邮件(服务端反馈结果时使用)
+	//eActionType_Onekey_List = 3;// 一键提取/删除/标记部分邮件(服务端反馈结果时使用)
+}
+
+// 邮件标题/内容类型
+enum eMailDescriptionType {
+	eMailDescriptionType_Common = 1;	// 普通文本
+	eMailDescriptionType_Resource = 2;	// 配置资源
+	eMailDescriptionType_Nest = 3;		// 支持字典嵌套
+}
+
+// ============玩家相关枚举============
+//玩家基础数值
+enum ePlayerAttrID 
+{	
+	ePlayerAttrID_Level = 1;			// 等级	
+	ePlayerAttrID_Exp	= 2;			// 经验
+	ePlayerAttrID_VipLevel = 3;			// vip等级	
+	ePlayerAttrID_VipExp	= 4;			// vip经验
+	ePlayerAttrID_ChapterID	= 5;			// 最后选择挑战关卡所在章节 ---
+	ePlayerAttrID_StageID	= 6;			// 最后选择挑战的关卡 ---
+	ePlayerAttrID_SubStageID	= 7;			// 最后挑战关卡时失败的节点 --有记录，挂机状态时客户端用
+	ePlayerAttrID_LatestPassedStageID	= 8;			// 最后通过的 stage_id  
+	ePlayerAttrID_HeroID	= 9;			// 英雄ID，即职业ID
+	ePlayerAttrID_Gold = 10;			// 金币
+	ePlayerAttrID_Diamond = 11;		// 钻石
+	ePlayerAttrID_FreeDiamond = 12;		// 免费钻石--官方赠送
+	ePlayerAttrID_pet_lottery_level = 13;		// 宠物老虎机等级
+	ePlayerAttrID_pet_lottery_exp = 14;		// 宠物老虎机经验
+	ePlayerAttrID_equip_box_level = 15;		// 装备箱子等级
+	ePlayerAttrID_equip_box_exp = 16;		// 装备箱子经验
+	ePlayerAttrID_equip_box_lvlup_time = 17;		// 装备箱子下一次允许升级时间戳
+	ePlayerAttrID_rune_sold_condition = 18;		// 保存用户提交出售符石攻击次数条件
+	ePlayerAttrID_DailyHandledMisc = 19;     //每日玩家已处理日常杂项
+	ePlayerAttrID_OnlineAwardCountTotal = 20;     //在线时长奖励时间累计(未领取一直要保存)
+	ePlayerAttrID_ChangeNameCounter = 21;     //改名次数
+	ePlayerAttrID_OfflineAwardFreeTimes = 22;     //剩余在线免费观看广告奖励次数
+	ePlayerAttrID_OnlineAwardFreeTimes = 23;     //剩余离线线免费观看广告奖励次数
+	ePlayerAttrID_BoxAccFreeTimes = 24;     //装备宝箱剩余免费广告加速次数
+	ePlayerAttrID_HeroExpItemFreeTimes = 25;     //英雄经验药水剩余免费广告加速次数
+	ePlayerAttrID_PetLottoTimesByAd = 26;		// 通过视频宠物抽奖剩余次数
+	ePlayerAttrID_SkillLottoTimesByAd = 27;		// 通过视频技能抽奖剩余次数
+	ePlayerAttrID_skill_lottery_level = 28;		// 技能老虎机等级
+	ePlayerAttrID_skill_lottery_exp = 29;		// 技能老虎机经验
+	ePlayerAttrID_FirstHeroLottoFree = 30;		// 英雄每日首抽免费 --- 为0表示还未使用(浮点用小于1.0f判断)，为1表示已使用(浮点用大于1.0f判断)
+	ePlayerAttrID_StageStatus = 31;		// 关卡状态 ---参见eBattleStatus枚举 为0表示正常战斗过关中(浮点用小于1.0f判断)，为1表示突破(浮点用大于1.0f判断)  2--表示无战斗
+	ePlayerAttrID_NewPlayerChargePack = 32;		// 新人充值礼包是否付费过 --- 为0表示未充值(浮点用小于1.0f判断)，为1表示已充值(浮点用大于1.0f判断)
+	ePlayerAttrID_LoginGiftPackID = 33;		// 当天的可购买登录礼包--为0表示已购买，非0表示LoginGift表的id
+	ePlayerAttrID_IsPernament = 34;		// 是否已购买永久卡--为0表示未购买，1表示已购买
+	
+	ePlayerAttrID_FreeMallDailyPack = 35; //每日礼包免费每日是否领取--为0表示未购买，1表示已购买
+	ePlayerAttrID_FreeMallSignPack = 36; //天天好礼免费每日是否领取--为0表示未购买，1表示已购买
+	ePlayerAttrID_FreeMallHeroCardPack = 37; //英雄特权令免费每日是否领取--为0表示未购买，1表示已购买
+	
+	ePlayerAttrID_HaveClaimedTodayPernamentAward = 38; //是否领取今日永久卡奖励 --- 为0表示未充值(浮点用小于1.0f判断)，为1表示已充值(浮点用大于1.0f判断)
+	ePlayerAttrID_ClaimPernamentDays = 39; //领取永久卡的累计天数
+	
+	ePlayerAttrID_DailyGFPvpChallengerOpportunity = 40; //每日剩余挑战数
+	ePlayerAttrID_YesterdayGFRank = 41;                //昨日排名
+	ePlayerAttrID_TodayGFRank = 42;                  //今日当前排名
+	ePlayerAttrID_YesterdayGFAwardHasClaimed = 43;   //昨日天下第一排名奖励是否领取
+	ePlayerAttrID_YesterdayGFPlayCounter = 44;   //昨日天下第一PVP比赛数
+	ePlayerAttrID_TodayGFPlayCounter = 45;   //今日天下第一PVP比赛数
+	ePlayerAttrID_TodayPurchaseCounter = 46;   //今日购买次数
+	
+	ePlayerAttrID_UsedAvatar = 47;   //玩家选择的头像
+	ePlayerAttrID_UsedAvatarFrame = 48;   //玩家选择的头像框
+	
+	ePlayerAttrID_DailyFinishedRandomEvents = 49;   //今日完成随机任务数
+	//ePlayerAttrID_PlayerMapStatus = 50;   //参见eChapterMapStatus
+	ePlayerAttrID_ChapterIDOfMap = 51;   //最后所在地图对应的章节ID
+	
+	ePlayerAttrID_TalentPoints = 52;   //未分配天赋点数
+	
+	ePlayerAttrID_Shield = 53;  //基本属性盾牌
+	ePlayerAttrID_Emblem = 54;  //基本属性勋章
+	ePlayerAttrID_Rune = 55;  //基本属性符石
+	ePlayerAttrID_sigil = 56;  //基本属性职印
+	
+	ePlayerAttrID_npc_task_points = 57;  //npc任务积分
+	ePlayerAttrID_FreePetLottery4Guide = 58;  //引导免费宠物老虎机标志位    0--未使用 ； 1--已使用
+	ePlayerAttrID_FreeSkillLottery4Guide = 59;  //引导免费技能老虎机标志位   0--未使用 ； 1--已使用
+	
+	
+	ePlayerAttrID_Max = 60;		// 当前字段上限 -1就是字段数
+}
+
+
+//宠物 1=普通-灰;2=良好-绿:3=稀有-蓝:4=史诗-紫:5传说-橙:6=神话-粉:7=不朽-红
+enum ePetQuality
+{	
+	ePetQuality_None = 0;			// 无
+	ePetQuality_Tier1 = 1;			// 1=普通
+	ePetQuality_Tier2 = 2;			// 2=良好
+	ePetQuality_Tier3 = 3;			// 3=稀有
+	ePetQuality_Tier4 = 4;			// 4=史诗
+	ePetQuality_Tier5 = 5;			// 5传说
+	ePetQuality_Tier6 = 6;			// 6=神话
+	ePetQuality_Tier7 = 7;			// 7=不朽
+	ePetQuality_Max = 8;			// 数量 -1;
+}
+
+
+
+//槽栏状态
+enum eSlotStatus
+{
+	eSlotStatus_Normal = 0;			// 正常使用
+	eSlotStatus_Locked = 1;			// 锁定中，未解锁
+	eSlotStatus_Banned = 2;			// 封禁  -- 未使用
+	eSlotStatus_Max = 3;			// 当前字段上限 
+	
+}
+
+
+//装备品质
+enum eLoreEquipQuality
+{
+	eLoreEquipQuality_None = 0;			//0=起始;
+	eLoreEquipQuality_tier1 = 1;			// 1=普通-灰;
+	eLoreEquipQuality_tier2 = 2;			// 2=良好-绿:
+	eLoreEquipQuality_tier3 = 3;			// 3=稀有-蓝:
+	eLoreEquipQuality_tier4 = 4;			// 4=史诗-紫:
+	eLoreEquipQuality_tier5 = 5;			// 5传说-橙:
+	eLoreEquipQuality_tier6 = 6;			// 6=神话-粉:
+	eLoreEquipQuality_tier7 = 7;			// 7=不朽-红	
+	eLoreEquipQuality_Max = 8;			// 数量 -1;
+}
+
+
+
+//符石品质
+enum eRuneQuality
+{
+	eRuneQuality_tier0 = 1;			// 1=普通-灰;
+	eRuneQuality_tier1 = 2;			// 2=良好-绿:
+	eRuneQuality_tier2 = 3;			// 3=稀有-蓝:
+	eRuneQuality_tier3 = 4;			// 4=史诗-紫:
+	eRuneQuality_tier4 = 5;			// 5传说-橙:
+	eRuneQuality_tier5 = 6;			// 6=神话-粉:
+	eRuneQuality_tier6 = 7;			// 7=不朽-红	
+}
+
+//普通装备类型
+enum eEquipType
+{
+	eEquipType_None = 0;			// 无	
+	eEquipType_Weapon = 1;			// 武器	
+	eEquipType_Helmet = 2;			// 头盔
+	eEquipType_ShoulderAmor = 3;			// 肩甲
+	eEquipType_Cuirass = 4;			// 胸甲	
+	eEquipType_Max = 5;			// 最大值-1
+}
+
+//传承装备类型
+enum eLoreEquipType
+{	
+	eLoreEquipType_None = 4;			// 无	
+	eLoreEquipType_Cloak = 5;			// 披风
+	eLoreEquipType_Bracers = 6;			// 护腕	
+	eLoreEquipType_Gloves = 7;			// 手套	
+	eLoreEquipType_Sash = 8;			// 腰带
+	eLoreEquipType_Max = 9;			// 最大值-1
+}
+
+//英雄职业区分
+enum HeroVocationType
+{
+	eHeroVocationType_None = 0; //不存在
+	eHeroVocationType_Warrior = 1; //战士
+	eHeroVocationType_Mage = 2;       //法师
+	eHeroVocationType_Sorcerer = 3;   //术士，道士
+	eHeroVocationType_Max = 4; //类型数量
+}
+
+//英雄角色的职业伤害类型区分
+enum HeroHarmType
+{
+	eHeroHarmType_None = 0; //不存在
+	eHeroHarmType_Physic = 1; //物理伤害
+	eHeroHarmType_Magic = 2;       //魔法伤害
+	eHeroHarmType_Sorcery = 3;   //道术伤害
+	eHeroHarmType_Max = 4; //类型数量
+}
+
+//英雄职业元素属性区分
+enum HeroVocationElementType
+{
+	eHeroVocationElementType_None = 0; //不存在
+	eHeroVocationElementType_Earth = 1; //地系
+	eHeroVocationElementType_Water = 2;       //水系
+	eHeroVocationElementType_Fire = 3;   //火系
+	eHeroVocationElementType_Air = 4;   //气系
+	eHeroVocationElementType_Max = 5; //类型数量
+}
+
+
+
+
+//(全)战斗中属性枚举---玩家,角色，符石，装备，宠物，技能都具备的属性sorcery
+enum eBattleAttr
+{
+
+	eBattleAttr_Begin = 0;   //初始
+	//以下三种伤害客户端无视，需取服务器端下发的eBattleAttr_FinalAttack = 101 用作Attack伤害  
+	eBattleAttr_PhysicAttack = 1;   //物理伤害
+	eBattleAttr_MagicAttack = 2;   //魔法伤害
+	eBattleAttr_SorceryAttack = 3;   //道术伤害
+
+	eBattleAttr_HP = 4;                      //生命--
+	
+	//以下三种伤害客户端无视，需取服务器端下发的eBattleAttr_FinalDefence = 102 用作防御值 
+	eBattleAttr_PhysicDefence = 5;                     //物理防御-- 
+	eBattleAttr_MagicDefence = 6;                     //魔法防御-- 
+	eBattleAttr_SorceryDefence = 7;                     //道术防御-- 
+	
+	eBattleAttr_HP_Recovery = 8;                //生命恢复--
+	eBattleAttr_PetAtk = 9;     //         //附加的宠物伤害（宠物会获得的额外普通攻击伤害）--
+
+	eBattleAttr_Extra_PhysicAttack = 10;   //物理伤害加成--   ‱ 
+	eBattleAttr_Extra_MagicAttack = 11;   //魔法伤害加成--   ‱ 
+	eBattleAttr_Extra_SorceryAttack = 12;   //道术伤害加成--   ‱ 
+	
+	eBattleAttr_Extra_HP_Rate = 13;                  //生命加成比率--  ‱ 
+
+	eBattleAttr_Extra_PhysicDefence = 14;                     //物理防御加成-- -  ‱ 
+	eBattleAttr_Extra_MagicDefence = 15;                     //魔法防御加成-- -  ‱ 
+	eBattleAttr_Extra_SorceryDefence = 16;                     //道术防御加成-- -  ‱ 
+
+	eBattleAttr_Extra_EarthAtk= 17;   //地系伤害加成-- -  ‱ 
+	eBattleAttr_Extra_WaterAtk= 18;   //水系伤害加成-- - ‱ 
+	eBattleAttr_Extra_FireAtk= 19;   //火系伤害加成-- -  ‱ 
+	eBattleAttr_Extra_AirAtk= 20;   //气系伤害加成-- - ‱ 
+	
+	eBattleAttr_Extra_PetAtk= 21;   //附加的宠物伤害加成（宠物会获得的额外普通攻击伤害的加成万分比）-- - ‱ 
+	
+	eBattleAttr_Multiple_HP_Rate = 22;                      //生命倍率-- -  ‱ 
+	eBattleAttr_Multiple_Atk_Rate = 23;                      //伤害倍率-- -  ‱ 
+	eBattleAttr_Jouk_Rate = 24;              //闪避率--  ‱ 
+	eBattleAttr_AtkHit_Rate = 25;             //普通攻击命中率--  ‱ 
+	eBattleAttr_Parry_Rate = 26;             //格挡率--  ‱ 
+	eBattleAttr_Parry_Value = 27;             //格挡值--
+	eBattleAttr_Ignore_Defence_Rate = 28;             //无视防御--  ‱ 
+	eBattleAttr_CriticalStrike_Rate = 29;           //暴击比率 --  ‱ 
+	eBattleAttr_CriticalInjury_Rate = 30;           //爆伤比率--   ‱ 
+	eBattleAttr_Extra_InjuryBoss_Rate = 31;	      //BOSS伤害加成比率--   ‱ 
+	eBattleAttr_Extra_InjuryMonster_Rate = 32;      //小怪伤害加成比率--   ‱ 
+	eBattleAttr_ReduceHurt_Rate = 33;              //减伤比率--  ‱ 
+	eBattleAttr_AbsorptionEnemyHP_Rate = 34;           //吸血比率--   ‱ 
+	eBattleAttr_Hurt_HPRecovery = 35;                //普攻回复的生命具体值--
+	eBattleAttr_SkillAtk_Rate = 36;   //技能伤害比率-- ‱   ** 客户端战斗中根据玩家选择触发实时计算，服务器端只会下发 数据结构中(普通装备赋予+传承装备赋予的技能伤害+神器赋予),还有一个各个技能ID升级给与的，要客户端根据上阵情况自行加成
+	eBattleAttr_SkillAtkMultiple_Rate = 37;           //技能伤害次数(倍数)加成比率--   ‱  ***** 客户端在技能生效且eBattleAttr_SkillAtkMultiple匹配时，才有用
+	eBattleAttr_SkillAtkMultiple = 38;           //技能伤害次数(倍数),服务器端固定为0下发 （客户端不要用服务器端下发的）  ***** 客户端需要根据装备的传承装备获取生效的技能ID与上阵的技能ID匹配，且技能触发时这个倍数才生效
+	eBattleAttr_DropGold_Rate = 39;           //掉落金币加成比率--    ‱ 
+	eBattleAttr_SkillCD_Rate = 40;           //技能冷却比率--  ‱ 
+	eBattleAttr_AtkSpeed_Rate = 41;                //攻速比率-- ‱      
+	eBattleAttr_ComboAtk_Rate = 42;                //连击比率  --  ‱      
+	eBattleAttr_CounterAtk_Rate = 43;              //反击比率--  ‱   
+	eBattleAttr_RareLoreEquipGen_Rate = 44;              //稀有传承概率--  ‱ 
+	eBattleAttr_DropLoreEquip_Rate = 45;              //传承掉落概率--  ‱ 
+	eBattleAttr_OnlineStageAwaardMultiple = 46;           //关卡挂机奖励次数
+	eBattleAttr_HomeTownProduce_ExtraLimit = 47;           //家园挂机时间上限
+	eBattleAttr_BattleFinalAttack = 48;           //战斗最终伤害 ---- 还未投放，暂时为0
+	eBattleAttr_KilledRecovery = 49;           //消灭对象后HP回复
+	
+	
+	eBattleAttr_Max = 50;       //当前属性个数 -1 就是
+	
+	////////大于100的时候为服务器端计算好的职业匹配属性值
+	eBattleAttr_FinalAttack = 101; //   至少要大于1--服务器端算
+	eBattleAttr_FinalDefence = 102;
+}
+
+//其他属性属性枚举---杂项 各种属性
+//enum eOtherAttr
+//{
+//	eOtherAttr_StageOnlineAwardExtra = 20;                      //关卡挂机时间上限
+//	eOtherAttr_HomeProductExtra  = 21;                     //家园挂机时间上限
+//}
+
+
+//战斗中属性变更原因 (事件来源)
+enum eBattleAttrChangeSrc
+{
+	eBattleAttrChangeSrc_FuncUnlock = 1;                      //功能解锁
+	eBattleAttrChangeSrc_PetInSlot = 2;                      //宠物上阵加成
+	eBattleAttrChangeSrc_PetOwned = 3;                      //宠物宠物获得
+	eBattleAttrChangeSrc_PetRemovedFromSlot = 4;                      //宠物下阵变更
+	eBattleAttrChangeSrc_PetLevelUp = 5;                      //宠物升级
+	eBattleAttrChangeSrc_PetReplacedFromSlot = 6;                      //宠物上阵替换
+	eBattleAttrChangeSrc_HeroReplacedFromSlot = 7;                      //英雄替换
+	eBattleAttrChangeSrc_HeroLevelUp = 8;                      //英雄升级
+	eBattleAttrChangeSrc_HeroBreakLevelUp = 9;                      //英雄突破升级
+	eBattleAttrChangeSrc_HeroOwned = 10;                      //英雄获得
+	eBattleAttrChangeSrc_SkillInSlot = 11;                      //技能上阵加成
+	eBattleAttrChangeSrc_SkillOwned = 12;                      //技能获得
+	eBattleAttrChangeSrc_SkillRemovedFromSlot = 13;                      //技能下阵变更
+	eBattleAttrChangeSrc_SkillLevelUp = 14;                      //技能升级
+	eBattleAttrChangeSrc_SkillReplacedFromSlot = 15;                      //技能上阵替换
+	eBattleAttrChangeSrc_RuneOwned = 16;                      //符石获得
+	eBattleAttrChangeSrc_RuneInSlot = 17;                      //符石上阵加成
+	eBattleAttrChangeSrc_RuneRemovedFromSlot = 18;                      //符石下阵变更
+	eBattleAttrChangeSrc_RuneReplacedFromSlot = 19;                      //符石上阵替换
+	eBattleAttrChangeSrc_EquipOwned = 20;                      //装备获得
+	eBattleAttrChangeSrc_EquipInSlot = 21;                      //装备上阵加成
+	eBattleAttrChangeSrc_EquipRemovedFromSlot = 22;                      //装备下阵变更
+	eBattleAttrChangeSrc_EquipReplacedFromSlot = 23;                      //装备上阵替换
+	eBattleAttrChangeSrc_UnlockActivity = 24;                      //活动新增
+	eBattleAttrChangeSrc_NewClassic = 25;                      //新获得典籍
+	eBattleAttrChangeSrc_SwitchClassics = 26;                      //典籍切换
+	//eBattleAttrChangeSrc_TmpBuffRemoved = 27;                      //删除buff
+	//eBattleAttrChangeSrc_TmpBuffGet = 28;                      //获取buff
+	eBattleAttrChangeSrc_TalentGet = 29;                      //天赋获得
+	eBattleAttrChangeSrc_TalentLevelUp = 30;                      //获取buff
+	eBattleAttrChangeSrc_TalentDel = 31;                      //获取buff
+	eBattleAttrChangeSrc_ArtifactLevelUp = 32;                      //神器升级
+	eBattleAttrChangeSrc_LoreEquipOwned = 33;                      //装备获得
+	eBattleAttrChangeSrc_LoreEquipInSlot = 34;                      //装备上阵加成
+	eBattleAttrChangeSrc_LoreEquipRemovedFromSlot = 35;                      //装备下阵变更
+	eBattleAttrChangeSrc_LoreEquipReplacedFromSlot = 36;                      //装备上阵替换
+	eBattleAttrChangeSrc_GetAchievement = 37;                      //成就获取
+	eBattleAttrChangeSrc_PetSkillShufle = 38;                      //宠物天赋重置
+	eBattleAttrChangeSrc_PetSkillBookPutOn = 39;                      //宠物技能书上阵
+}
+
+//战斗中属性变更操作方式
+enum eBattleAttrChangeOp
+{
+	eBattleAttrChangeSrc_Del = 1;                      //属性减少
+	eBattleAttrChangeSrc_Add = 2;                      //属性增加
+	eBattleAttrChangeSrc_Set = 3;                      //属性设定
+	eBattleAttrChangeSrc_Update = 4;                      //属性更新(先减再加)
+}
+
+
+//buff的来源
+enum eBuffTypeSrc
+{
+    eBuffTypeSrc_StageBuff = 0;  //关卡内有效buff
+	eBuffTypeSrc_RuinsBuff = 1;  //大地图废墟buff
+}
+
+//战斗中属性变更原因 (事件来源)
+enum eBuffChangeReason
+{
+	eBuffChangeReason_RuinsBuffRemoved = 1;                      //删除大地图buff
+	eBuffChangeReason_RuinsBuffGet = 2;                      //获取大地图buff
+	eBuffChangeReason_StageBuffRemoved = 3;                      //删除StageBuff
+	eBuffChangeReason_StageBuffGet = 4;                      //获取StageBuff
+}
+
+//buff的属性操作
+//enum eBattleAttrOpByBuff
+//{
+//	eBattleAttrOpByBuff_Del = 1;                      //属性减少
+//	eBattleAttrOpByBuff_Add = 2;                      //属性增加
+//	eBattleAttrOpByBuff_Set = 3;                      //属性设定
+//	eBattleAttrOpByBuff_Update = 4;                      //属性更新(先减再加)
+//}
+
+//游戏里对象枚举--加载战力配置表用
+enum eGameObjType 
+{
+	eGameObjType_Player = 1;	// 角色
+	eGameObjType_Pet = 2;	// 宠物
+	eGameObjType_Equip = 3;	// 玩家装备
+}
+
+
+//统计数据类型
+enum eStatisticType {
+	eStatisticType_SectionSelect = 0;	// 关卡分支选择百分比
+	eStatisticType_Achievement = 1;
+	eStatisticType_SectionFinish = 2;	// 关卡完成百分比
+}
+
+
+
+
+
+//踢出玩家原因
+enum eKickReason {
+	eKickReason_Relogin = 0;			//其他客户端登录
+	eKickReason_ServerKick = 1;			//服务器踢出
+	eKickReason_PMKickPlayer = 2;		//运营后台踢出
+	eKickReason_PMLoginBan = 3;			//运营后台封号
+}
+
+
+// ============充值枚举============
+// 如果Paylist表里面type是2的情况下具体业务细分
+enum eOrderSubTable
+{
+	eOrderSubTable_GiftPack = 0;		// 普通礼包--无任何限制
+	eOrderSubTable_MonthActivity = 1;			// 月卡周卡英雄特权令相关礼包--做成了活动
+	eOrderSubTable_NewPlayerCharge = 2;			// 新人充值
+	eOrderSubTable_PassUnlock = 3;			// 通行证解锁高级部分
+	eOrderSubTable_GuideAward = 4;			// 疯狂指导
+	eOrderSubTable_LoginPack = 5;			// 登录礼包
+	eOrderSubTable_DailyPack = 6;			// 每日礼包
+	eOrderSubTable_WeeklyPack = 7;			// 周礼包
+	eOrderSubTable_2WeeksPack = 8;			// 14天礼包
+	eOrderSubTable_MonthlyPack = 9;			// 月礼包
+	eOrderSubTable_FuncPack = 10;			// 埋点礼包
+}
+
+
+// 订单领取标记
+enum eOrderReceiveFlag
+{
+	eOrderReceiveFlag_False = 0;		// 未领取
+	eOrderReceiveFlag_True = 1;			// 已领取-成功
+	eOrderReceiveFlag_Cancel = 2;		// 订单已取消-后台删除
+	eOrderReceiveFlag_ReceiveFail = 3;	// 已领取-失败(限购等原因)
+}
+
+//准备支持游戏多语言定义
+enum eLanguage_Type
+{
+	eLanguage_Unknown				= -1;	// 未知	
+	eLanguage_English				= 0;	// 英语	
+	eLanguage_Korean				= 1;	// 韩语
+	eLanguage_Japanese				= 2;	// 日本语
+	eLanguage_ChineseSimplified		= 3;	// 简体中文
+	eLanguage_ChineseTraditional	= 4;	// 繁体中文
+	eLanguage_German				= 5;	// 德语
+	eLanguage_French				= 6;	// 法语
+	eLanguage_Spanish				= 7;	// 西班牙语
+	eLanguage_Portuguese			= 8;	// 葡萄牙语
+	eLanguage_Russian				= 9;	// 俄语
+	eLanguage_Indonesian			= 10;	// 印尼语
+	eLanguage_Italian				= 11;	// 意大利语
+	eLanguage_Thai					= 12;	// 泰国语
+	eLanguage_Vietnamese			= 13;	// 越南文
+	eLanguage_Turkish				= 14;	// 土耳其语
+	
+	eLanguage_Brazil				= 100;	// 巴西葡萄牙语
+	eLanguage_Arabic			    = 101;	// 阿拉伯语
+	eLanguage_SpanishLatam			= 102;	// 西班牙语(拉丁美洲)
+	eLanguage_Polish				= 103;	// 波兰语
+	
+	eLanguage_All				= 999;	// 所有语言
+};
+
+//MultiLang.xlsx中多语言列出现的顺序配置
+enum eLanguageOrderInXlsx_Type
+{
+	eLanguageOrderInXlsx_ChineseSimplified		= 1;	// 简体中文
+	eLanguageOrderInXlsx_English				= 2;	// 英语	
+	eLanguageOrderInXlsx_Japanese				= 3;	// 日本语
+	eLanguageOrderInXlsx_Korean				= 4;	// 韩语
+	eLanguageOrderInXlsx_ChineseTraditional	= 5;	// 繁体中文
+};
+
+//多语言替换参数顺序枚举
+enum eLanguageParamOrder_Type
+{
+	eLanguageParamOrder_Left2Right = 0;  //从左到右
+	eLanguageParamOrder_Right2Left = 1;  //从右到左
+	eLanguageParamOrder_Random = 2;  //乱序,特殊约定处理
+}
+
+
+
+enum ePkgFlag {
+	ePkgFlag_SingleOrLast = 0;
+	ePkgFlag_First = 1;
+	ePkgFlag_Middle = 2;
+}
+
+// 每日玩家已完成杂项处理
+enum ePlayerDailyMISC
+{
+	ePlayerDailyMISC_ReadTransferHero					= 1;		// 已读取英雄可转职红点
+	ePlayerDailyMISC_SignIn					= 2;		// 举例--未启用
+	ePlayerDailyMISC_VisitHomeTown					= 4;		// 举例--未启用
+	ePlayerDailyMISC_ReadCommercial					= 8;		// 举例--未启用
+}
+
+// 每日玩家已完成杂项处理BITSET位置
+enum ePlayerDailyMISC_Pos
+{
+	ePlayerDailyMISC_Pos_ReadTransferHero					= 0;		// 已读取英雄可转职红点
+	ePlayerDailyMISC_Pos_SignIn					= 1;		// 举例--未启用
+	ePlayerDailyMISC_Pos_VisitHomeTown					= 2;		// 举例--未启用
+	ePlayerDailyMISC_Pos_ReadCommercial					= 3;		// 举例--未启用
+}
+
+// 成就状态
+enum eAchievementStatusType {	
+	eAchievementStatusType_Unlock			= -1;   //未解锁
+	eAchievementStatusType_InProcess			= 0;     //进行中
+	eAchievementStatusType_FinNotClaim			= 1; //完成未领取
+	eAchievementStatusType_Claimed			= 2;  //2--已领取
+}
+
+
+// buff来源
+enum ePlayerBuffSrc
+{
+	ePlayerBuffSrc_None			= 0;   //初始
+	
+	
+	
+	
+	ePlayerBuffSrc_Max			= 14;   //数量
+}
+
+// 成就内容类型
+//enum eAchievementDetailType {	
+//	eAchievementDetailType_None			= 0;   //初始
+//
+//	eAchievementDetailType_CollectEquip			= 201;   //收集装备
+//	eAchievementDetailType_CollectPartEquip			= 902;   //收集具体部位装备
+//	eAchievementDetailType_PartEquipReachLevel			= 901;   //部位装备达到指定等级
+//	eAchievementDetailType_CollectBossEmblem			= 900;   //收集boss徽章
+//	eAchievementDetailType_ShufflePetTalents			= 206;   //洗练指定次数宠物天赋
+//	eAchievementDetailType_ArtifactLevel			= 110;   //指定神器达到指定等级
+//	eAchievementDetailType_CollectPetsOfQuality			= 202;   //获得指定数量的指定品质的宠物
+//	eAchievementDetailType_PutOnPetSkillBook			= 207;   //消耗指定次数宠物技能书
+//	eAchievementDetailType_GetPetsViaLotto			= 5;   //召唤指定次数宠物
+//	eAchievementDetailType_SkillOfQualityReachLevel			= 204;   //指定品质技能达到指定等级
+//	eAchievementDetailType_GetSkillViaLotto			= 26;   //召唤指定次数的技能
+//	eAchievementDetailType_PassStage			= 1;   //通过某一关卡
+//	eAchievementDetailType_FinishRandomEvents			= 205;   //累计完成大地图指定随机事件指定次数
+//	
+//	
+//	eAchievementDetailType_Max			= 999;   //数量
+//}
+
+// 红点类型
+enum eRedPointType {	
+	eRedPointType_Invalid			= 0;
+	eRedPointType_PlayerTransfer		= 1;	//可以转职
+	eRedPointType_Mail			= 2;  //有未读邮件或登录有未领取奖励邮件
+	eRedPointType_NewPlayerSignIn			= 3;  //新手玩家签到
+	eRedPointType_AchievementNotClaim			= 4;  //成就存在未领取奖励
+}
+
+// 压力测试Robot发送的消息类型位标记
+enum eTestParamBitFlag
+{
+	eTPBF_DataTest2					= 1;		// 是否发送测试数据(CMsgAsioListen_TestData2_Req)
+	eTPBF_DataTest4					= 2;		// 是否发送测试数据(CMsgAsioListen_TestData4_Req)
+	eTPBF_MongoTest1				= 4;		// 是否发送mongo测试数据1（Mongo_Test1_CS）
+	eTPBF_MongoTest2				= 8;		// 是否发送mongo测试数据2（Mongo_Test2_CS）
+	eTPBF_TavernUnlockNPC			= 16;		// 是否发送解锁NPC的消息
+	eTPBF_TavernSendGift			= 32;		// 是否发送赠送礼物给NPC的消息
+	eTPBF_TavernInteractive			= 64;		// 是否发送与NPC互动的消息
+	eTPBF_Copy						= 128;		// 是否开启副本的消息
+	eTPBF_Logout					= 256;		// 是否下线（登录完成后下线）
+    eTPBF_ChatWorld     		    = 512;  	// 是否发送世界频道聊天消息
+    eTPBF_ChatPrivate   		    = 1024; 	// 是否发送私聊消息
+    eTPBF_ChatSetLike       		= 2048; 	// 是否发送点赞消息
+	eTPBF_PlayLuckyWheel			= 4096;		// 是否发送转动幸运转盘消息
+	eTPBF_ArenaDice					= 8192;		// 是否发送竞技场掷骰子消息
+	eTPBF_LuckyPackage_Send			= 16384;	// 发红包
+	eTPBF_LuckyPackage_Receive		= 32768;	// 抢红包
+	eTPBF_LuckyPackage_Refresh		= 65536;	// 刷新红包
+	eTPBF_Friend					= 131072;	// 好友
+	eTPBF_Bargain_AskHelp			= 262144;	// 砍价礼包活动-好友助力
+	eTPBF_Bargain_AllAskHelp 		= 524288;	// 砍价礼包活动-好友助力一键操作
+	eTPBF_ActivityRank_Query		= 1048576;	// 查询通用活动排行榜
+	eTPBF_ActivityRank_Score		= 2097152;	// 通用活动排行榜积分变更
+}
+
+
+
+//PmItem后台发送物品订单状态
+enum ePmItemState {
+	ePmItemState_Normal = 0;			// 订单正常未领取
+	ePmItemState_Received = 1;			// 订单已被领取(删除物品订单的最终结果：ePmItemState_Received_All、ePmItemState_Received_Portion)
+	ePmItemState_Canceled = 2;			// 订单被取消
+	ePmItemState_ReceiveFailed = 3;		// 订单领取失败(添加物品失败等)
+	
+	ePmItemState_Received_All = 4;		// 删除物品的订单领取：全部领取成功
+	ePmItemState_Received_Portion = 5;	// 删除物品的订单领取：一部分领取成功
+}
+
+//PmItem订单插入返回值
+enum ePmItemInsertErrCode {
+	ePmItemInsertErrCode_Succ = 0;
+	ePmItemInsertErrCode_Repeated = 400;
+	ePmItemInsertErrCode_Failed = 402;
+}
+
+//PmItem订单取消返回值
+enum ePmItemCancelErrCode {
+	ePmItemCancelErrCode_Succ = 0;
+	ePmItemCancelErrCode_HadBeenCanceled = 400;
+	ePmItemCancelErrCode_HadBeenReceived = 401;
+	ePmItemCancelErrCode_InternalError = 403;
+	ePmItemCancelErrCode_SnNotExist = 404;
+}
+
+//PmItem订单类型
+enum ePmItemOrderType {
+	ePmItemOrderType_Compensation = 1;		// 运营后台增删道具
+	ePmItemOrderType_CDKey = 2;				// 前端领取CDKey奖励
+	
+	ePmItemOrderType_adreward = 10001;		// 前端广告奖励
+}
+
+
+
+// 更新redis缓存标记类型
+enum eUpdateRedisFlag {
+	eUpdateRedisFlag_Other = 0;			// 其他更新(比如更名,升级等等)
+	eUpdateRedisFlag_Login = 1;			// 玩家登陆完毕后更新(基本信息+详细信息)
+	eUpdateRedisFlag_SearchBase = 2;	// 玩家被搜索时更新(基本信息)
+	eUpdateRedisFlag_SearchDetail = 3;	// 玩家被搜索时更新(详细信息)
+}
+
+
+
+// 操作系统类型
+enum eOSType {
+	eOSType_All		= 0; // 所有系统
+	eOSType_IOS		= 1;
+	eOSType_Android	= 2;
+	eOSType_Unknown	= 3; // 未知
+}
+
+
+
+// 推送类型定义
+enum eNotificationType {
+	eNotificationType_None				= 0; // 
+	eNotificationType_Energy			= 1; // 玩家体力满
+	eNotificationType_Shop				= 2; // 商城刷新
+	eNotificationType_Lottery			= 3; // 可免费抽卡
+	eNotificationType_Login				= 4; // 提醒上线
+}
+
+// 聊天频道类型定义
+enum eChatChannel {
+    eChatChannel_None           = 0;
+    eChatChannel_System         = 1; // 系统频道（用户只能收，不能发）
+    eChatChannel_World          = 2; // 世界频道
+    eChatChannel_Private        = 3; // 1v1聊天频道
+    eChatChannel_Guild	        = 4; // 公会聊天频道
+    eChatChannel_Language       = 5; // 语言频道(根据玩家当前所选语言，决定玩家所属的频道)
+}
+
+// 公共频道的广播方式
+enum eChatBroadcast
+{
+	eChatBroadcast_All = 0;  		// 广播
+	eChatBroadcast_NotSelf = 1;		// 广播，但不包括消息发送者
+	eChatBroadcast_Self = 2; 		// 公共频道，仅消息发送者可见
+	eChatBroadcast_Specific = 3; 	// 特定成员广播，比如公会
+}
+
+
+// 非法字符串检查类型
+enum eForbiddenWords_Check
+{
+	eForbiddenWords_Check_None						= 0;
+
+	eForbiddenWords_Check_Player_ChangeName			= 1;		// 1-角色改名
+	eForbiddenWords_Check_Cat_ChangeName			= 2;		// 2-猫咪改名
+	eForbiddenWords_Check_GetBabyCat				= 3;		// 3-领取出生小猫
+	eForbiddenWords_Check_ReproducationAnnouncement	= 4;		// 4-借猫繁殖公告
+	eForbiddenWords_Check_PM_ChangeName				= 5;		// 5-PM后台修改角色名字
+	eForbiddenWords_Check_GuildCreateNew			= 6;		// 6-创建公会
+	eForbiddenWords_Check_GuildChangeName			= 7;		// 7-公会改名
+	eForbiddenWords_Check_GuildChangeDeclaration	= 8;		// 8-更改公会宣言
+	eForbiddenWords_Check_InvitationCode			= 9;		// 9-邀请码
+	eForbiddenWords_Check_InvitationCode4Veteran	= 10;		// 10-邀请码,兼容老帐户生成邀请码
+	eForbiddenWords_Check_FriendAlias				= 11;		// 11-好友备注
+	eForbiddenWords_Check_DefaultName				= 12;		// 12-默认名字
+}
+//战斗单位角色属性
+enum eRoleAttrType {
+	eRoleAttrType_HP				= 1;//生命值
+	eRoleAttrType_ATK				= 2;//攻击力
+	eRoleAttrType_DFS				= 3;//防御力
+	eRoleAttrType_CRITICAL_RATIO	= 4;//暴击率
+	eRoleAttrType_CRITICAL_DAMAGE	= 5;//暴击伤害倍率
+	eRoleAttrType_HP_LIMIT			= 101;//血量上限
+	eRoleAttrType_SP_FIX			= 102;//当前sp值
+	eRoleAttrType_ATKSPEED			= 103;//攻击速度
+	eRoleAttrType_MOVESPEED			= 104;//移动速度
+	eRoleAttrType_DEBUFF_DEF		= 105;//负面效果抗性
+	eRoleAttrType_SP_LIMIT			= 106;//SP上限值
+	eRoleAttrType_SP_RECOVER_SPEED	= 107;//每秒恢复SP数值
+}
+
+//渠道枚举
+enum ePublisher
+{
+	ePublisher_None				= 0;//无区分或内部测试平台
+	ePublisher_TapTap				= 1;//taptap渠道
+	ePublisher_Quick				= 2;//quick渠道
+}
+//平台枚举
+enum ePlatorm
+{
+	ePlatorm_None				= 0;//未知
+	ePlatorm_Android			= 1;//安卓
+	ePlatorm_iOS				= 2;//苹果
+	ePlatorm_Web				= 3;//页游
+	ePlatorm_MiniGame			= 4;//小游戏
+}
+
+//天下第一战报
+enum GFWarReportType
+{
+	GFWarReportType_InRank_BeChallenged_Win = 1;  //自己在排行榜，且被其他玩家挑战时，挑战者战斗胜利,自己失败
+	GFWarReportType_InRank_BeChallenged_Failed = 2;  //自己在排行榜，且被其他玩家挑战时，挑战者战斗失败,自己获胜
+	GFWarReportType_NotInRank_Challenged_Win = 3;  //自己未在排行榜坑位，挑战榜上其他玩家时，战斗胜利
+	GFWarReportType_NotInRank_Challenged_Failed = 4;  //自己未在排行榜坑位，挑战榜上其他玩家时，战斗失败
+	GFWarReportType_NotInRank_TakenRank = 5;  //未在排行榜,占领成功
+	GFWarReportType_Win_ButNotFirst = 6;  //自己未在排行榜，挑战榜上其他玩家时，被其他玩家抢先胜利
+	GFWarReportType_TakeRank_ButNotFirst = 7;   //自己未在排行榜，挑战排行榜空位，被其他玩家先占领
+}
+
+
+// -----活动解锁类型
+enum eGuildeAwardUnlockType
+{
+	eGuildeAwardUnlockType_Auto = 1;  //到关卡
+	eGuildeAwardUnlockType_Pay = 2; //付费解锁
+}

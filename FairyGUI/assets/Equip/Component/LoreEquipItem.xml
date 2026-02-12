@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,114" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="ctrbg" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="hasCnt" pages="0,,1," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <loader id="n3_ef8u" name="n3" xy="0,0" size="114,114" url="ui://0anhreylkqmidxy8z" fill="scaleFree">
+      <gearIcon controller="ctrbg" pages="0,1,2,3" values="ui://0anhreylkqmidxy8z|ui://0anhreylkqmidxy90|ui://0anhreylkqmidxy91|ui://0anhreylkqmidxy92"/>
+    </loader>
+    <loader id="n4_ef8u" name="qualityIcon" xy="0,0" size="114,114" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader id="n5_ef8u" name="icon" xy="17,17" size="80,80" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_ef8u" name="lvLb" xy="9,75" size="96,39" fontSize="28" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="LV.{value=666}">
+      <gearDisplay controller="hasCnt" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n7_n5nh" name="loreRedPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="82,0" visible="false">
+      <relation target="n4_ef8u" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

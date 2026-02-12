@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,100" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_p4bn" name="icon" xy="0,0" size="190,100" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_eh4f" name="title" xy="35,16" size="129,34" group="n5_eh4f" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="购买">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n2_qonn" name="itemIcon" xy="39,50" size="39,33" group="n3_qonn" url="ui://0anhreylf34jdxy9n" fill="scale"/>
+    <text id="n1_p4bn" name="diamondLb" xy="68,51" size="81,29" group="n3_qonn" fontSize="20" color="#ffffff" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="1000000">
+      <relation target="n2_qonn" sidePair="middle-middle"/>
+    </text>
+    <group id="n3_qonn" name="n3" xy="39,50" size="110,33" group="n5_eh4f" advanced="true" layout="hz" colGap="-10" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n5_eh4f" name="n5" xy="35,16" size="129,67" advanced="true" layout="vt" excludeInvisibles="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

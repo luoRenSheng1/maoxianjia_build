@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden" opaque="false" mask="n3_yd2h">
+  <displayList>
+    <component id="n1_uobv" name="mapPanel" src="uobv1" fileName="Component/MapPanel.xml" xy="0,-257" size="720,1425">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </component>
+    <graph id="n3_yd2h" name="n3" xy="-2,0" size="725,1425" touchable="false" type="rect">
+      <relation target="n1_uobv" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n7_ajor" name="n7" xy="-5,1148" size="730,132" group="n6_sxuy" url="ui://5moj1x39f34jdxybl" fill="scaleFree"/>
+    <component id="n5_sxuy" name="btnClose" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="19,1162" size="116,116" group="n6_sxuy">
+      <relation target="n7_ajor" sidePair="middle-middle,left-left"/>
+      <Button icon="ui://5moj1x39ucd4dxycg"/>
+    </component>
+    <group id="n6_sxuy" name="n6" xy="-5,1148" size="730,132" advanced="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

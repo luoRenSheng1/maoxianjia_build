@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,146" overflow="hidden">
+  <controller name="c1" pages="0,可移动,1,下陷后" selected="0"/>
+  <displayList>
+    <component id="n1_pmwj" name="icon" src="osqg1i" fileName="SokobanBox.xml" xy="0,41">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="0,41|0,86"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n1_pmwj" tween="true" startValue="0,41" endValue="0,86" duration="7" ease="Quad.In"/>
+  </transition>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="310,34" extention="Button">
+  <controller name="button" pages="3,up,4,down" selected="0"/>
+  <displayList>
+    <loader id="n3_ucd4" name="n3" xy="0,-7" size="48,48" url="ui://5moj1x39f34jdxybc"/>
+    <text id="n1_p4bn" name="n1" xy="65,0" size="244,34" fontSize="24" color="#b8df13" align="center" bold="true" strokeColor="#000000" strokeSize="2" text="替换后自动出售原装备">
+      <gearColor controller="button" pages="3,4" values="#b8df13,#000000|#b8df13,#000000"/>
+    </text>
+    <image id="n4_ucd4" name="n4" src="f34jdxybd" fileName="Res/newItem2/general_select_img.png" pkg="5moj1x39" xy="0,-16">
+      <gearDisplay controller="button" pages="4"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

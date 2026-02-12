@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,116">
+  <controller name="flagCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="未达成"/>
+    <remark page="1" value="领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <displayList>
+    <image id="n16_f34j" name="n16" src="f34jdxybh" fileName="Res/newItem2/general_list_bg1.png" pkg="5moj1x39" xy="0,0" size="640,116"/>
+    <component id="n4_sc7h" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="22,18"/>
+    <text id="n5_sc7h" name="desc" xy="111,31" size="196,34" fontSize="24" color="#4c2911" ubb="true" vars="true" autoSize="shrink" bold="true" singleLine="true" text="升级宠物一次"/>
+    <component id="n6_sc7h" name="taskBar" src="eb0tdxxzf" fileName="Component/BarExp.xml" pkg="5moj1x39" xy="111,69" size="278,24">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n14_e6rv" name="n14" src="ju03dxy4y" fileName="Res/ICON-xuetiao02.png" pkg="5moj1x39" xy="118,70" size="232,23" visible="false">
+      <gearDisplay controller="flagCtrl" pages="1"/>
+    </image>
+    <text id="n15_e6rv" name="n15" xy="210,68" size="40,26" visible="false" fontSize="18" color="#ffffff" bold="true" strokeColor="#3b3630" text="完成">
+      <gearDisplay controller="flagCtrl" pages="1"/>
+      <relation target="n14_e6rv" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n21_f34j" name="rewardBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="411,16" size="218,84">
+      <gearLook controller="flagCtrl" pages="0,2" values="1,0,0,1|1,0,1,1" default="1,0,0,1"/>
+      <gearColor controller="flagCtrl" default="#ffffff"/>
+      <gearText controller="flagCtrl" pages="0,2" values="前往|已领取" default="领取奖励"/>
+      <gearIcon controller="flagCtrl" pages="1" values="ui://5moj1x39f34jdxy9s" default="ui://5moj1x39f34jdxyah"/>
+      <Button title="前往" icon="ui://5moj1x39f34jdxyah" controller="flagCtrl" page=""/>
+    </component>
+    <image id="n17_f34j" name="n17" src="f34jdxyb2" fileName="Res/newItem2/general_bottom border_bg1.png" pkg="5moj1x39" xy="0,0" size="640,116">
+      <gearDisplay controller="flagCtrl" pages="2"/>
+    </image>
+    <component id="n10_ija4" name="n10" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="597,16">
+      <gearDisplay controller="flagCtrl" pages="1"/>
+    </component>
+    <image id="n18_f34j" name="n18" src="f34jdxybd" fileName="Res/newItem2/general_select_img.png" pkg="5moj1x39" xy="210,26" group="n20_f34j">
+      <relation target="n19_f34j" sidePair="left-left"/>
+    </image>
+    <text id="n19_f34j" name="n19" xy="276,38" size="88,39" group="n20_f34j" fontSize="28" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="已领取">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n20_f34j" name="n20" xy="210,26" size="154,64" advanced="true">
+      <gearDisplay controller="flagCtrl" pages="2"/>
+    </group>
+  </displayList>
+</component>

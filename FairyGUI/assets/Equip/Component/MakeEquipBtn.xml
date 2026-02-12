@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,173" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isLock" pages="0,,1," selected="0">
+    <remark page="0" value="未解锁"/>
+    <remark page="1" value="已解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n3_ef8u" name="icon" xy="0,0" size="164,164" url="ui://ddc23erlef8udxya4" align="center" vAlign="middle" fill="scale"/>
+    <text id="n4_ef8u" name="num" xy="61,129" size="41,44" visible="false" fontSize="32" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="3" text="×{value=1}">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader id="n5_llb1" name="n5" xy="42,46" size="80,80" url="ui://5moj1x39f34jdxyb7" fill="scale">
+      <gearDisplay controller="isLock" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

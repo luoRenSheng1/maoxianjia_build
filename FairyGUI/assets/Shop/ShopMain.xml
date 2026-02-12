@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="tabCtrl" pages="0,每日特惠,1,天天好礼,2,疯狂指南,3,特权卡" selected="2"/>
+  <controller name="fkznBtnCtrl" pages="0,,1,,2," selected="2">
+    <remark page="0" value="疯狂指南第一章"/>
+    <remark page="1" value="疯狂指南第二章"/>
+    <remark page="2" value="疯狂指南第三章"/>
+  </controller>
+  <displayList>
+    <loader id="n0_ftc9" name="bg" xy="0,0" size="720,305" url="ui://nmzfxo89ftc94" clearOnPublish="true"/>
+    <graph id="n15_r18s" name="spine" xy="310,242" pivot="0.5,1" size="100,100">
+      <relation target="" sidePair="center-center"/>
+    </graph>
+    <image id="n2_ftc9" name="n2" src="ftc99" fileName="Res/b7.png" xy="0,304" size="720,979">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_ftc9" name="tabList" xy="0,248" size="720,106" layout="row" colGap="20" defaultItem="ui://nmzfxo89ftc96" align="center" selectionController="tabCtrl">
+      <item title="每日特惠" icon="ui://nmzfxo89ftc90"/>
+      <item title="天天好礼" icon="ui://nmzfxo89ftc93"/>
+      <item title="疯狂指南" icon="ui://nmzfxo89ftc92"/>
+      <item title="特权卡" icon="ui://nmzfxo89ftc91"/>
+    </list>
+    <component id="n4_ftc9" name="dailyTH" src="ftc9a" fileName="Component/dailyTH.xml" xy="0,355" size="720,820">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_ftc9" name="tthlTH" src="ftc9i" fileName="Component/tthlTH.xml" xy="0,355" size="720,820">
+      <gearDisplay controller="tabCtrl" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n8_ftc9" name="tqTH" src="ftc9l" fileName="Component/tqTH.xml" xy="0,355" size="720,820">
+      <gearDisplay controller="tabCtrl" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n12_plio" name="fkTH" src="plio15" fileName="Component/fengkuangTH.xml" xy="1,364">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n6_ftc9" name="n6" src="r0ab1" fileName="Res/n730.png" pkg="5moj1x39" xy="0,1174" size="720,106">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n7_ftc9" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="22,1199" size="99,68">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button icon="ui://5moj1x39ddc14c"/>
+    </component>
+    <component id="n9_ftc9" name="fkznBtn" src="ftc9x" fileName="Component/fengkuangBuyBtn.xml" xy="263,1173" size="256,104">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+      <gearDisplay2 controller="fkznBtnCtrl" pages="0" condition="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="疯狂指南第一章"/>
+    </component>
+    <component id="n13_ewdx" name="fkznBtn2" src="ftc9x" fileName="Component/fengkuangBuyBtn.xml" xy="263,1173" size="256,104">
+      <gearDisplay controller="fkznBtnCtrl" pages="1"/>
+      <gearDisplay2 controller="tabCtrl" pages="2" condition="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="疯狂指南第二章"/>
+    </component>
+    <component id="n14_ewdx" name="fkznBtn3" src="ftc9x" fileName="Component/fengkuangBuyBtn.xml" xy="263,1173" size="256,104">
+      <gearDisplay controller="fkznBtnCtrl" pages="2"/>
+      <gearDisplay2 controller="tabCtrl" pages="2" condition="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="疯狂指南第三章"/>
+    </component>
+  </displayList>
+</component>

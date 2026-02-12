@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,80" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <controller name="redCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示红点"/>
+    <remark page="1" value="显示红点"/>
+  </controller>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="未锁"/>
+    <remark page="1" value="锁了"/>
+  </controller>
+  <displayList>
+    <loader id="n0_p4bn" name="icon" xy="5,7" size="208,66" fill="scaleFree">
+      <gearSize controller="button" pages="2,3" values="208,66,1,1|218,80,1,1"/>
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="button" pages="2,3" values="|"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_p4bn" name="title" xy="44,14" size="130,50" grayed="true" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="属性">
+      <gearColor controller="button" pages="2,3" values="#ffffff,#000000|#ffffff,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_nfkb" name="n2" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="186,0" size="32,32">
+      <gearDisplay controller="redCtrl" pages="1"/>
+    </component>
+    <image id="n4_f34j" name="n4" src="f34jdxyb7" fileName="Res/newItem2/general_Ununlocked_icon.png" pkg="5moj1x39" xy="12,22" size="35,35" aspect="true">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="61,62" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="lockCtrl" pages="0,,1," selected="1">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <image id="n4_kv23" name="n4" src="kv23dxy3x" fileName="Res/newRes/n112.png" xy="0,0" visible="false"/>
+    <loader id="n1_pdpa" name="icon" xy="12,13" pivot="0.5,0.5" size="40,39" grayed="true" url="ui://s7x7ku0nhachdxy7z" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="lockCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n3_uq40" name="n3" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="19,18" size="24,25">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+  <transition name="autoEff">
+    <item time="0" type="Rotation" target="n1_pdpa" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

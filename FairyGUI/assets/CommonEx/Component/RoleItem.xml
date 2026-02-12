@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="208,218" extention="Button">
+  <controller name="state" exported="true" pages="1,,6," selected="0">
+    <remark page="0" value="有宠物"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <controller name="hasLv" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="需要"/>
+    <remark page="1" value="不需要"/>
+  </controller>
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <controller name="compondCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不用合成"/>
+    <remark page="1" value="碎片够了"/>
+  </controller>
+  <controller name="quality" pages="0,,1,,2,,3,,4,,5,,6," selected="0">
+    <action type="change_page" fromPage="" toPage="" objectId="n11_p4bn" controller="quality" targetPage="~1"/>
+  </controller>
+  <controller name="upLoadCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="已上阵"/>
+    <remark page="1" value="未上阵"/>
+  </controller>
+  <displayList>
+    <loader id="n30_p9n0" name="bg" xy="0,0" size="208,218" url="ui://m37flevdf34jdxy9y" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n31_f34j" name="n31" src="f34jdxy9x" fileName="Res/new/role_intensify_card_bg2.png" pkg="m37flevd" xy="0,0" size="208,218">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <loader id="n1_jp5j" name="icon" xy="45,51" size="115,115" aspect="true" url="ui://5moj1x39rm2cdxy6c" fill="scale" clearOnPublish="true">
+      <gearLook controller="state" pages="6" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <text id="n3_jp5j" name="lvLb" xy="78,147" size="52,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=5}">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="hasLv" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n6_jp5j" name="idLb" xy="62,0" size="119,35" visible="false" fontSize="25" color="#ffffff" vars="true" autoSize="shrink" strokeColor="#000000" text="ID:{value=4}">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <component id="n11_p4bn" name="qIcon" src="ozj9dxy5e" fileName="Component/roleQualityItem.xml" xy="5,0" aspect="true" scale="0.7,0.7" controller="quality,1">
+      <gearLook controller="state" pages="6" values="1,0,1,1" default="1,0,0,1"/>
+    </component>
+    <component id="n13_tw1c" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" xy="176,0" visible="false"/>
+    <text id="n17_ddc1" name="roleName" xy="66,20" size="76,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="小猪灵">
+      <gearColor controller="quality" pages="0,1,2,3,4,5,6" values="#ffffff,#000000|#ffffff,#000000|#80bee4,#000000|#c688dc,#000000|#fbd968,#000000|#ff8bca,#000000|#ff877a,#000000"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n19_ozj9" name="splitItemIcon" xy="46,171" size="45,45" group="n21_ozj9" aspect="true" url="ui://5moj1x39fpa2dxy37" fill="scale"/>
+    <text id="n20_ozj9" name="needItem" xy="93,175" size="67,35" group="n21_ozj9" fontSize="25" color="#ffffff" vars="true" strokeColor="#5c5246" text="{cur=10}/{need=10}"/>
+    <group id="n21_ozj9" name="n21" xy="46,171" size="114,45" advanced="true" layout="hz" colGap="2" excludeInvisibles="true">
+      <gearDisplay controller="state" pages="6"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n25_rm2c" name="hcBtn" src="r0wo10" fileName="Res/nn7.png" xy="49,55">
+      <gearDisplay controller="compondCtrl" pages="1"/>
+      <gearDisplay2 controller="state" pages="6" condition="0"/>
+    </image>
+    <text id="n26_p9n0" name="n26" xy="134,51" size="64,29" fontSize="20" color="#71fc6f" bold="true" strokeColor="#000000" strokeSize="2" text="已上阵">
+      <gearDisplay controller="state" pages="1"/>
+      <gearDisplay2 controller="upLoadCtrl" pages="0" condition="0"/>
+    </text>
+    <text id="n29_p9n0" name="n29" xy="66,143" size="76,34" fontSize="24" color="#f8f2b6" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="未拥有">
+      <gearDisplay controller="state" pages="6"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n32_f34j" name="n32" src="f34jdxy9w" fileName="Res/new/role_intensify_card_bg3.png" pkg="m37flevd" xy="0,0" size="208,218">
+      <gearDisplay controller="state" pages="6"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="addEff" autoPlay="true" autoPlayRepeat="-1"/>
+  <transition name="dragEff"/>
+</component>

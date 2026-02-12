@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://ksm9s29pxezfr" designImageAlpha="0">
+  <controller name="isPay" pages="0,,1,,2," selected="1">
+    <remark page="0" value="未购买"/>
+    <remark page="1" value="购买未领取"/>
+    <remark page="2" value="购买已领取,明日可领取"/>
+  </controller>
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_ez2l" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n61_xezf" name="n61" xy="498,181" size="216,144" group="n44_ez2l" url="ui://ksm9s29pxezfm">
+      <relation target="n53_xezf" sidePair="right-right,bottom-top"/>
+    </loader>
+    <loader id="n53_xezf" name="n53" xy="6,347" size="704,499" group="n44_ez2l" url="ui://ksm9s29pxezfo"/>
+    <loader id="n62_xezf" name="n62" xy="22,493" size="672,221" group="n44_ez2l" url="ui://ksm9s29pxezfp" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n53_xezf" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n54_xezf" name="n54" xy="107,322" size="502,94" group="n44_ez2l" url="ui://5moj1x39f34jdxybj">
+      <relation target="n53_xezf" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n55_xezf" name="n55" xy="292,338" size="132,44" group="n44_ez2l" fontSize="32" color="#ffffff" bold="true" strokeColor="#000000" strokeSize="3" text="新手礼包"/>
+    <loader id="n56_xezf" name="n56" xy="241,436" size="240,48" group="n44_ez2l" url="ui://ksm9s29pxezfn">
+      <relation target="n53_xezf" sidePair="left-left,top-top"/>
+    </loader>
+    <loader id="n57_xezf" name="n57" xy="34,505" size="367,197" group="n24_ez2l" url="ui://ksm9s29pxezfq"/>
+    <text id="n14_ez2l" name="day1" xy="180,519" size="76,34" group="n24_ez2l" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="第一天">
+      <relation target="n57_xezf" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n21_ez2l" name="FPRewardList" xy="52,582" size="333,104" group="n24_ez2l" layout="row" overflow="scroll" scroll="horizontal" colGap="11" defaultItem="ui://ksm9s29pl9l9j" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n57_xezf" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n24_ez2l" name="n24" xy="34,505" size="367,197" group="n44_ez2l" advanced="true">
+      <relation target="n62_xezf" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n58_xezf" name="n58" xy="413,505" size="128,196" group="n25_ez2l" url="ui://ksm9s29pxezfl"/>
+    <text id="n17_ez2l" name="day2" xy="439,519" size="76,34" group="n25_ez2l" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="第二天">
+      <relation target="n58_xezf" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n22_ez2l" name="FPReward2" src="l9l9j" fileName="Component/FirstItem.xml" xy="426,582" group="n25_ez2l">
+      <relation target="n58_xezf" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n25_ez2l" name="n25" xy="413,505" size="128,196" group="n44_ez2l" advanced="true">
+      <relation target="n62_xezf" sidePair="left-left,top-top"/>
+    </group>
+    <loader id="n59_xezf" name="n59" xy="553,505" size="128,196" group="n26_ez2l" url="ui://ksm9s29pxezfl"/>
+    <text id="n20_ez2l" name="day3" xy="580,519" size="76,34" group="n26_ez2l" fontSize="24" color="#ffffff" align="center" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="第三天">
+      <relation target="n59_xezf" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n23_ez2l" name="FPReward3" src="l9l9j" fileName="Component/FirstItem.xml" xy="566,582" group="n26_ez2l">
+      <relation target="n59_xezf" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n26_ez2l" name="n26" xy="553,505" size="128,196" group="n44_ez2l" advanced="true">
+      <relation target="n62_xezf" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n47_ez2l" name="payBtn" src="ez2lh" fileName="Component/FirstPayBtn.xml" xy="251,737" group="n44_ez2l">
+      <gearDisplay controller="isPay" pages="0"/>
+      <relation target="n53_xezf" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n49_ez2l" name="getFPRewardBtn" src="ez2li" fileName="Component/GetFPRewardBtn.xml" xy="251,737" group="n44_ez2l">
+      <gearDisplay controller="isPay" pages="1,2,3"/>
+      <gearLook controller="isPay" default="1,0,0,1"/>
+      <gearText controller="isPay" pages="2" values="明日领取" default="领取"/>
+      <Button title="领取" titleFontSize="28" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n52_baxf" name="n52" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="433,739" group="n44_ez2l">
+      <gearDisplay controller="isPay" pages="1"/>
+    </component>
+    <component id="n60_xezf" name="closeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="318,869" size="84,84" group="n44_ez2l">
+      <Button icon="ui://5moj1x39f34jdxyb0"/>
+    </component>
+    <group id="n44_ez2l" name="n44" xy="6,181" size="708,772" advanced="true">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </group>
+  </displayList>
+</component>

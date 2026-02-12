@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,58" pivot="0.5,0.5" designImage="ui://s7x7ku0npdpadxxyy" designImageOffsetY="-432" designImageAlpha="6">
+  <displayList>
+    <image id="n2_tomp" name="bg" src="i9sldxxyf" fileName="Res/UI-Level heidi.png" xy="17,4" pivot="0.5,0.5" size="685,48">
+      <relation target="n0_tomp" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n0_tomp" name="txt_title" xy="24,11" pivot="0.5,0.5" size="672,35" touchable="false" fontSize="25" color="#ffffff" align="center" vAlign="middle" letterSpacing="6" ubb="true" autoSize="height" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" autoClearText="true" text="功能暂未开启">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+</component>

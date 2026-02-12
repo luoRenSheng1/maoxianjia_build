@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <displayList>
+    <component id="n0_hvya" name="workBar" src="hvyadxy4f" fileName="Component/VillagePetWorkingBar.xml" xy="0,0">
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

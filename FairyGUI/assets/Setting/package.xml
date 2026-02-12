@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zs0w02qt">
+  <resources>
+    <component id="ffpwd" name="SettingMain.xml" path="/" exported="true"/>
+    <component id="qt85i" name="check.xml" path="/Component/"/>
+    <component id="qt85j" name="ExchangeCode.xml" path="/" exported="true"/>
+    <component id="qt85k" name="PlayerNameEdit.xml" path="/" exported="true"/>
+    <component id="qt85l" name="ProblemEdit.xml" path="/" exported="true"/>
+    <component id="q36tp" name="ServerSelect.xml" path="/" exported="true"/>
+    <component id="q36tq" name="ServerItem.xml" path="/Component/"/>
+    <component id="ha87u" name="Slider1_grip.xml" path="/Component/"/>
+    <component id="ha87v" name="Slider1.xml" path="/Component/"/>
+    <component id="baxfx" name="HeadIconChange.xml" path="/Component/"/>
+    <component id="baxfy" name="HeadIconChangeMain.xml" path="/" exported="true"/>
+    <component id="baxf10" name="HeadIcon.xml" path="/Component/"/>
+    <component id="ogek11" name="LangComboBox_item.xml" path="/Component/"/>
+    <component id="ogek12" name="LangComboBox_popup.xml" path="/Component/"/>
+    <component id="ogek13" name="LangComboBox.xml" path="/Component/" exported="true"/>
+    <image id="f34j14" name="personal information_icon21.png" path="/Res/new/"/>
+    <image id="f34j15" name="personal information_icon22.png" path="/Res/new/"/>
+    <image id="f34j16" name="profile_bg.png" path="/Res/new/"/>
+    <image id="f34j17" name="profile_bg2.png" path="/Res/new/"/>
+    <image id="f34j18" name="personal information_bg1.png" path="/Res/new/"/>
+    <image id="f34j19" name="personal information_icon1.png" path="/Res/new/"/>
+    <image id="f34j1a" name="Rectangle 34624912.png" path="/Res/new/"/>
+  </resources>
+  <publish name="Setting" genCode="true"/>
+</packageDescription>

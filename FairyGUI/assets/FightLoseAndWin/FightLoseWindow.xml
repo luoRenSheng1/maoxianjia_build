@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://h7b921iwucd4dxy2k">
+  <displayList>
+    <component id="n14_ucd4" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n12_vcwq" name="n12" xy="-3,0" size="727,500" group="n10_vcwq" aspect="true" url="ui://h7b921iwucd4dxy2m" fill="scaleFree"/>
+    <list id="n9_vcwq" name="failGoList" xy="80,584" size="560,482" group="n10_vcwq" overflow="scroll" lineGap="22" defaultItem="ui://h7b921iwvcwq4" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n15_ucd4" name="n15" xy="182,513" size="356,44" group="n10_vcwq" fontSize="32" color="#ffffff" bold="true" text="通过以下方式让自己变强">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n10_vcwq" name="n10" xy="-3,0" size="727,1066" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

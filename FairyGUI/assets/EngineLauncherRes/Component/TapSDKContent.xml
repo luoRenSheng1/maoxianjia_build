@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="658,361" pivot="0.5,0.5" designImage="ui://n8v1s7mdosttf" designImageOffsetX="-365" designImageOffsetY="-180" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlOp" pages="0,single,1,double" selected="0"/>
+  <controller name="ctrlClose" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n32_n896" name="n32" src="vnmw1y" fileName="Res/8.png" xy="0,0" size="658,361">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n33_n896" name="title" xy="117,4" pivot="0.5,0.5" size="421,44" font="Normal" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="个人信息保护指引​">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <richtext id="n39_n896" name="content" xy="7,61" size="645,195" fontSize="20" ubb="true" vars="true" autoSize="none" autoClearText="true" text="感谢您下载本游戏。如您之前未使用本游戏及相关服务，在您使用本游戏的服务前，请您务必审慎阅读、充分理解[color=#deb555]&lt;a href=&apos;event:userTips&apos;&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href=&apos;event:PrivacyTips&apos;&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]的各条款，了解我们对您个人信息的处理规则。​&#xA;同时，您应特别注意前述协议中​免除或者限制我们责任的条款​、对您权利进行限制的条款​、约定争议解决方式和司法管辖的条款​&#xA;当您点击同意并开始使用我们的服务时，即表示您已理解并同意本公告以及前述条款内容，前述条款将对您产生法律约束力。"/>
+    <component id="n35_n896" name="btnClose" src="porm9" fileName="Component/close.xml" xy="595,7" size="43,39" aspect="true">
+      <gearDisplay controller="ctrlClose" pages="1"/>
+    </component>
+    <component id="n36_n896" name="btnCancel" src="leae11" fileName="Component/YellowButton.xml" xy="300,262" size="224,68" group="n38_n896">
+      <gearDisplay controller="ctrlOp" pages="1"/>
+      <gearXY controller="ctrlOp" pages="1" values="56,285" default="300,262"/>
+      <Button title="拒绝" titleFontSize="36" icon="ui://n8v1s7mdn89628"/>
+    </component>
+    <component id="n37_n896" name="btnOk" src="leae11" fileName="Component/YellowButton.xml" xy="217,289" size="224,72" group="n38_n896">
+      <gearDisplay controller="ctrlOp" pages="0,1"/>
+      <gearXY controller="ctrlOp" pages="0,1" values="217,289|381,285"/>
+      <Button title="同意" titleFontSize="36" icon="ui://n8v1s7mdvnmw1z"/>
+    </component>
+    <group id="n38_n896" name="n38" xy="217,262" size="307,99" advanced="true"/>
+  </displayList>
+</component>

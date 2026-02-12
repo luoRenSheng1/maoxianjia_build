@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,124" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrbg" exported="true" pages="10,,0,,1,,2,,3,,4,,5,,6,,7,,8,,11,,12,,13,,14," selected="0">
+    <remark page="0" value="传承1"/>
+    <remark page="1" value="传承2"/>
+    <remark page="2" value="传承3"/>
+    <remark page="3" value="传承4"/>
+    <remark page="4" value="神器1"/>
+    <remark page="5" value="神器2"/>
+    <remark page="6" value="神器3"/>
+    <remark page="7" value="神器4"/>
+    <remark page="8" value="普通1"/>
+    <remark page="9" value="普通2"/>
+    <remark page="10" value="普通3"/>
+    <remark page="11" value="普通4"/>
+  </controller>
+  <controller name="ctrQuality" pages="0,,1,,2,,3,,4,,21,,22," selected="0"/>
+  <controller name="hasCnt" pages="0,,1," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="有"/>
+  </controller>
+  <displayList>
+    <loader id="n1_pdpa" name="n1" xy="0,0" size="124,124" url="ui://0anhreylkqmidxy8z" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="ctrbg" pages="10,0,1,2,3,4,5,6,7,8,11,12" values="ui://0anhreylkqmidxy8z|ui://0anhreylkqmidxy90|ui://0anhreylkqmidxy91|ui://0anhreylkqmidxy92|ui://0anhreylkqmidxy93|ui://0anhreylkqmidxy94|ui://0anhreylkqmidxy8t|ui://0anhreylkqmidxy8u|ui://0anhreylkqmidxy8v|ui://0anhreylkqmidxy8w|ui://0anhreylkqmidxy8x|ui://0anhreylkqmidxy8y" default="ui://s7x7ku0nnjebdxy71"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n5_mpxe" name="qualityIcon" xy="0,0" size="124,124" aspect="true" visible="false" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="ctrQuality" pages="0,1,2,3,4,21,22" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2_vcwc" name="icon" xy="17,17" size="90,90" aspect="true" url="ui://5moj1x39vcwc7" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n6_ot6f" name="lvLb" xy="17,80" size="89,39" fontSize="28" color="#ffffff" align="center" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=7000}">
+      <gearDisplay controller="hasCnt" pages="1"/>
+      <relation target="n5_mpxe" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader3D id="n7_eh4f" name="equipSpineEff" xy="40,40" pivot="0.5,0.5" anchor="true" size="106,106" aspect="true" visible="false" url="ui://5moj1x39s503dxy4a" align="center" vAlign="middle" fill="scale" animation="idle_Q4" skin="default" loop="true"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

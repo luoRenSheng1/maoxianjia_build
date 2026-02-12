@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="qualityCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="isUpload" pages="0,,1,,2," selected="0">
+    <remark page="0" value="未上阵"/>
+    <remark page="1" value="已上阵"/>
+    <remark page="2" value="已驻扎"/>
+  </controller>
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <displayList>
+    <loader id="n3_hz5c" name="qualityIcon" xy="0,0" size="120,120" url="ui://5moj1x39f34jdxy9x" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="qualityCtrl" pages="0,1,2,3,4,5,6" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader id="n4_hz5c" name="icon" xy="12,12" size="96,96" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scale"/>
+    <image id="n11_f34j" name="n11" src="f34jdxy8p" fileName="Res/new/pet_Selected_img1.png" xy="-1,-2" size="122,124">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n5_hz5c" name="n5" xy="28,81" size="64,29" fontSize="20" color="#9bf452" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="已上阵">
+      <gearDisplay controller="isUpload" pages="1"/>
+    </text>
+    <text id="n9_hz5c" name="petLv" xy="8,4" size="55,29" fontSize="20" color="#ffffff" vars="true" bold="true" strokeColor="#000000" strokeSize="2" text="Lv.{value=11}"/>
+    <image id="n8_hz5c" name="n8" src="s444m" fileName="Res/pet_icon2.png" xy="7,7">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </image>
+    <text id="n12_z11v" name="n12" xy="28,81" size="64,29" fontSize="20" color="#9bf452" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="3" text="已驻扎">
+      <gearDisplay controller="isUpload" pages="2"/>
+    </text>
+    <component id="n13_n5nh" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="88,0" visible="false">
+      <relation target="n3_hz5c" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

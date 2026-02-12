@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ldok" name="frame1" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n2_ldok" name="n2" src="ddc148" fileName="Res/n280.png" xy="62,292" size="596,579" group="n15_ldok"/>
+    <image id="n1_ldok" name="n1" src="ddc147" fileName="Res/n281.png" xy="62,257" group="n15_ldok"/>
+    <text id="n3_ldok" name="n3" xy="258,270" size="204,35" group="n15_ldok" fontSize="25" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#582600" text="日常任务奖励补发"/>
+    <richtext id="n4_ldok" name="desc" xy="125,359" size="470,88" group="n15_ldok" fontSize="20" color="#663e20" autoSize="none" text="各位冒险家：&#xA;&#x9;   你上次的日常任务奖励忘记领取了。现已通过邮件发送，请查收。"/>
+    <image id="n5_ldok" name="n5" src="ozj91y" fileName="Res/nn8.png" xy="102,483" size="160,8" group="n15_ldok"/>
+    <image id="n7_ldok" name="n7" src="pliodxy6r" fileName="Res/nn9.png" xy="267,476" group="n15_ldok"/>
+    <text id="n6_ldok" name="n6" xy="314,471" size="92,32" group="n15_ldok" fontSize="22" color="#663e20" align="center" vAlign="middle" text="获得奖励"/>
+    <image id="n8_ldok" name="n8" src="pliodxy6r" fileName="Res/nn9.png" xy="435,476" group="n15_ldok"/>
+    <image id="n9_ldok" name="n9" src="ozj91y" fileName="Res/nn8.png" xy="464,483" size="153,8" group="n15_ldok"/>
+    <image id="n10_ldok" name="n10" src="ddc13h" fileName="Res/nn3.png" xy="102,521" size="516,205" group="n15_ldok"/>
+    <list id="n11_ldok" name="rewardList" xy="119,537" size="481,174" group="n15_ldok" layout="flow_hz" overflow="scroll" lineGap="15" colGap="15" defaultItem="ui://5moj1x39ewjfdxy22" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_ldok" name="timeLb" xy="312,753" size="96,26" group="n15_ldok" fontSize="18" color="#cb7802" align="center" vAlign="middle" vars="true" text="{value=30}天后过期"/>
+    <component id="n12_ldok" name="getBtn" src="p4bng" fileName="Component/EmptyBtn.xml" xy="288,789" size="143,57" group="n15_ldok">
+      <Button title="领取" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <component id="n14_ldok" name="closeBtn" src="k627dxy69" fileName="Component/CloseBtn2.xml" xy="316,903" group="n15_ldok"/>
+    <group id="n15_ldok" name="n15" xy="62,257" size="596,739" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

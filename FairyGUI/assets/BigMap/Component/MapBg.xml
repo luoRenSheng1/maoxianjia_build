@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="4320,3840">
+  <displayList>
+    <loader id="n0_fpdr" name="bg1" xy="0,0" size="2048,2048" clearOnPublish="true"/>
+    <loader id="n1_fpdr" name="bg2" xy="2048,0" size="2048,2048" clearOnPublish="true"/>
+    <loader id="n2_fpdr" name="bg3" xy="4096,0" size="224,2048" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n3_fpdr" name="bg4" xy="0,2048" size="2048,1793" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n4_fpdr" name="bg5" xy="2048,2048" size="2048,1793" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_fpdr" name="bg6" xy="4096,2048" size="224,1793" fill="scaleFree" clearOnPublish="true"/>
+  </displayList>
+</component>

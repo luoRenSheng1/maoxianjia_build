@@ -1,0 +1,109 @@
+BigMap_ ygz.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+gaotai
+	bounds: 2, 1729, 208, 317
+	offsets: 21, 0, 245, 410
+landian_001
+	bounds: 203, 673, 190, 150
+	offsets: 74, 46, 286, 230
+landian_002
+	bounds: 2, 2, 251, 196
+	offsets: 13, 1, 286, 230
+landian_003
+	bounds: 2, 200, 252, 198
+	offsets: 12, 1, 286, 230
+	rotate: 90
+landian_004
+	bounds: 212, 1644, 252, 198
+	offsets: 12, 3, 286, 230
+landian_005
+	bounds: 2, 454, 253, 198
+	offsets: 12, 4, 286, 230
+	rotate: 90
+landian_006
+	bounds: 2, 709, 253, 199
+	offsets: 12, 5, 286, 230
+	rotate: 90
+landian_007
+	bounds: 2, 1219, 253, 200
+	offsets: 12, 6, 286, 230
+	rotate: 90
+landian_008
+	bounds: 1230, 1847, 253, 199
+	offsets: 12, 8, 286, 230
+landian_009
+	bounds: 720, 1846, 253, 200
+	offsets: 12, 9, 286, 230
+landian_010
+	bounds: 2, 964, 253, 200
+	offsets: 12, 10, 286, 230
+	rotate: 90
+landian_011
+	bounds: 975, 1846, 253, 200
+	offsets: 12, 12, 286, 230
+landian_012
+	bounds: 2, 1474, 253, 201
+	offsets: 12, 13, 286, 230
+	rotate: 90
+landian_013
+	bounds: 1485, 1845, 252, 201
+	offsets: 12, 14, 286, 230
+landian_014
+	bounds: 212, 1844, 252, 202
+	offsets: 12, 15, 286, 230
+landian_015
+	bounds: 1739, 1845, 252, 201
+	offsets: 12, 17, 286, 230
+landian_016
+	bounds: 466, 1844, 252, 202
+	offsets: 12, 18, 286, 230
+landian_017
+	bounds: 466, 1640, 251, 202
+	offsets: 12, 19, 286, 230
+landian_018
+	bounds: 205, 1439, 251, 203
+	offsets: 12, 20, 286, 230
+landian_019
+	bounds: 204, 1236, 250, 201
+	offsets: 12, 22, 286, 230
+landian_020
+	bounds: 293, 314, 206, 87
+	offsets: 12, 23, 286, 230
+	rotate: 90
+landian_021
+	bounds: 202, 314, 206, 89
+	offsets: 12, 24, 286, 230
+	rotate: 90
+landian_022
+	bounds: 675, 1073, 251, 151
+	offsets: 12, 26, 286, 230
+	rotate: 90
+landian_023
+	bounds: 362, 982, 252, 153
+	offsets: 12, 27, 286, 230
+	rotate: 90
+landian_024
+	bounds: 458, 1326, 252, 154
+	offsets: 12, 28, 286, 230
+landian_025
+	bounds: 517, 917, 252, 154
+	offsets: 12, 30, 286, 230
+landian_026
+	bounds: 204, 982, 252, 156
+	offsets: 12, 31, 286, 230
+	rotate: 90
+landian_027
+	bounds: 458, 1482, 252, 156
+	offsets: 12, 33, 286, 230
+landian_028
+	bounds: 517, 1073, 251, 156
+	offsets: 13, 35, 286, 230
+	rotate: 90
+landian_029
+	bounds: 204, 825, 250, 155
+	offsets: 14, 37, 286, 230
+landian_030
+	bounds: 202, 522, 189, 149
+	offsets: 75, 45, 286, 230

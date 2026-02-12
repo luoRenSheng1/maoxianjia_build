@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,800">
+  <displayList>
+    <list id="n0_ftc9" name="ttList" xy="17,183" size="685,609" overflow="scroll" defaultItem="ui://nmzfxo89ftc9j" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n1_ftc9" name="bgUrl" xy="5,2" size="710,176" url="ui://nmzfxo89ftc9g" clearOnPublish="true"/>
+    <component id="n2_ftc9" name="freeItem" src="plio11" fileName="Component/fengkuangItemCom.xml" xy="583,52"/>
+    <component id="n3_r18s" name="tipsBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="663,11" size="30,30">
+      <Button icon="ui://5moj1x39ddc14i"/>
+    </component>
+  </displayList>
+</component>

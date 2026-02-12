@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,282">
+  <controller name="state" pages="0,,7,,1," selected="1">
+    <remark page="0" value="空"/>
+    <remark page="1" value="宠物"/>
+    <remark page="2" value="锁"/>
+  </controller>
+  <controller name="showHandCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不显示"/>
+    <remark page="1" value="显示"/>
+  </controller>
+  <displayList>
+    <image id="n2_ddc1" name="n2" src="ozj92c" fileName="Res/newPetsystem/nn6.png" xy="9,198">
+      <gearDisplay controller="state" pages="0,1"/>
+    </image>
+    <image id="n0_ddc1" name="n0" src="ozj92d" fileName="Res/newPetsystem/nn12.png" xy="45,89">
+      <gearDisplay controller="state" pages="0,1"/>
+    </image>
+    <image id="n1_ddc1" name="n1" src="ozj92e" fileName="Res/newPetsystem/+.png" xy="77,133">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <image id="n3_ddc1" name="n3" src="ozj92f" fileName="Res/newPetsystem/1.png" xy="93,132">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <graph id="n4_ddc1" name="spine" xy="3,4" pivot="0.5,1" size="215,221" lineSize="0"/>
+    <component id="n8_ddc1" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="136,93">
+      <gearDisplay controller="state" pages="0"/>
+    </component>
+    <component id="n10_iqva" name="n10" src="uq40dxy4e" fileName="Component/Window/HandMc.xml" pkg="0anhreyl" xy="81,144">
+      <gearDisplay controller="state" pages="0,7"/>
+      <gearDisplay2 controller="showHandCtrl" pages="1" condition="0"/>
+    </component>
+    <image id="n11_cjbe" name="n11" src="k6272u" fileName="Res/newPetsystem/xingming.png" xy="30,244" group="n7_ddc1"/>
+    <component id="n6_ddc1" name="pName" src="kn0fdxy3p" fileName="Component/qualityLabel.xml" pkg="5moj1x39" xy="75,245" size="67,29" group="n7_ddc1">
+      <relation target="" sidePair="center-center"/>
+      <Label titleFontSize="20"/>
+    </component>
+    <group id="n7_ddc1" name="n7" xy="30,244" size="158,31" advanced="true">
+      <gearDisplay controller="state" pages="7"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

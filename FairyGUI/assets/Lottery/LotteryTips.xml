@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ju03" name="frame" src="pmd7pq" fileName="Component/Common/FrameMask_Tips.xml" pkg="0anhreyl" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_ju03" name="n1" xy="100,350" size="534,721" group="n6_ju03" url="ui://5moj1x39ddc148" fill="scaleFree"/>
+    <loader id="n2_ju03" name="n2" xy="100,294" size="534,76" group="n6_ju03" aspect="true" url="ui://5moj1x39ddc147" fill="scaleFree"/>
+    <richtext id="n3_ju03" name="content" xy="135,373" size="465,579" group="n6_ju03" fontSize="22" color="#663e20" ubb="true" vars="true" autoSize="none" autoClearText="true" text="每日会刷新基础转动转盘次数&#xA;转盘次数也可通过以下内容获得&#xA;通关XX副本&#xA;通关关卡&#xA;商店购买&#xA;家园兑换&#xA;查看广告&#xA;礼包购买&#xA;每次转动转盘会增加转动次数&#xA;转动次数达到宝箱要求即可领取转盘宝箱&#xA;转动次数达到升级条件,转盘会自动升级&#xA;转盘等级越高转盘奖励越好"/>
+    <text id="n4_ju03" name="n4" xy="299,301" size="135,42" group="n6_ju03" fontSize="25" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#582600" text="提示"/>
+    <component id="n5_ju03" name="closeBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="294,974" size="145,58" group="n6_ju03">
+      <Button title="确定" titleColor="#846248" titleFontSize="22" icon="ui://5moj1x39ha87dxy6f"/>
+    </component>
+    <group id="n6_ju03" name="n6" xy="100,294" size="534,777" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,79" overflow="hidden" extention="Button">
+  <controller name="ctrlQuality" exported="true" pages="2,普通,11,良好,12,稀有,13,史诗,14,传说,15,神话,16,不朽" selected="0"/>
+  <controller name="hasCtrl" exported="true" pages="0,,1,,13," selected="0">
+    <remark page="0" value="有"/>
+    <remark page="1" value="无"/>
+    <remark page="2" value="空"/>
+  </controller>
+  <controller name="hasCount" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="需要"/>
+    <remark page="1" value="不需要"/>
+  </controller>
+  <controller name="disableCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="不灰"/>
+    <remark page="1" value="灰态"/>
+  </controller>
+  <displayList>
+    <image id="n145_ewjf" name="n145" src="ewjfdxy23" fileName="Res/5.png" xy="0,0"/>
+    <loader id="n141_skp6" name="n1" xy="0,0" size="79,79" aspect="true" url="ui://5moj1x39f34jdxy9x" fill="scale">
+      <gearDisplay controller="hasCtrl" pages="0,1"/>
+      <gearIcon controller="ctrlQuality" pages="2,11,12,13,14,15,16" values="ui://5moj1x39f34jdxy9x|ui://5moj1x39f34jdxy9w|ui://5moj1x39f34jdxy9v|ui://5moj1x39f34jdxy9u|ui://5moj1x39f34jdxy9t|ui://5moj1x39f34jdxya5|ui://5moj1x39f34jdxyak"/>
+    </loader>
+    <loader id="n144_mpxe" name="icon" xy="12,12" size="54,54" aspect="true" url="ui://5moj1x39vcwc3" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <gearDisplay controller="hasCtrl" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n146_fpa2" name="n146" src="fpa2dxy2w" fileName="Res/ICON-daoju 03.png" xy="1,1" alpha="0.8">
+      <gearDisplay controller="hasCtrl" pages="1"/>
+    </image>
+    <text id="n142_skp6" name="txtLv" xy="11,46" size="61,29" fontSize="20" color="#ffffff" align="right" vAlign="middle" letterSpacing="1" ubb="true" vars="true" autoSize="shrink" strokeColor="#361200" singleLine="true" text="999">
+      <gearDisplay controller="hasCtrl" pages="0"/>
+      <gearDisplay2 controller="hasCount" pages="0" condition="0"/>
+    </text>
+    <loader3D id="n148_s503" name="itemSpineEff" xy="0,0" pivot="0.5,0.5" anchor="true" size="79,79" aspect="true" visible="false" url="ui://5moj1x39llb1dxyed" align="center" vAlign="middle" fill="scale" animation="CommonEx_tyjl_bai" skin="default" loop="true"/>
+    <graph id="n149_qonn" name="n149" xy="0,0" size="79,79" alpha="0.6" type="rect" lineSize="0" fillColor="#ff666666">
+      <gearDisplay controller="disableCtrl" pages="1"/>
+    </graph>
+  </displayList>
+  <Button/>
+</component>

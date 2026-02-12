@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,377">
+  <displayList>
+    <image id="n0_x3dk" name="n0" src="x3dk2x" fileName="Res/6.png" xy="0,0" size="308,377">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_x3dk" name="list" xy="0,0" size="308,377" overflow="scroll" scrollBarFlags="128" lineGap="2" defaultItem="ui://rr0734r5skp62f">
+      <relation target="" sidePair="width-width"/>
+      <item title="[color=#bdaba2]普通及以上[/color]"/>
+      <item title="[color=#7ed2a6]良好及以上[/color]"/>
+      <item title="[color=#82b6d6]稀有及以上[/color]"/>
+      <item title="[color=#ad68c8]史诗及以上[/color]"/>
+      <item title="[color=#f3c95c]传说及以上[/color]"/>
+      <item title="[color=#f081c3]神话及以上[/color]"/>
+      <item title="[color=#f38277]不朽及以上[/color]"/>
+    </list>
+  </displayList>
+  <relation target="n1_x3dk" sidePair="height-height"/>
+</component>

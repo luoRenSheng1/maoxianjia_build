@@ -1,0 +1,62 @@
+RoleMain_jstybj.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+cao2_1_1
+	bounds: 1576, 1064, 102, 59
+	offsets: 0, 0, 103, 60
+	rotate: 90
+cao2_1_2
+	bounds: 1576, 1267, 110, 73
+	offsets: 0, 1, 110, 74
+	rotate: 90
+cao2_2
+	bounds: 1576, 1168, 82, 97
+cao2_3
+	bounds: 1741, 1715, 57, 105
+cao2_4
+	bounds: 1576, 1379, 94, 137
+cao2_5
+	bounds: 1576, 1644, 163, 176
+cao2_6
+	bounds: 1804, 1833, 67, 120
+	rotate: 90
+cao2_7
+	bounds: 1576, 964, 63, 98
+dacao_zhong
+	bounds: 1576, 1822, 226, 224
+	offsets: 30, 0, 256, 224
+dacao_zuo
+	bounds: 1143, 538, 258, 210
+	offsets: 0, 55, 258, 265
+dizuo2
+	bounds: 2, 501, 1139, 565
+	offsets: 19, 0, 1158, 585
+lvdie_ci
+	bounds: 1985, 1972, 61, 74
+	offsets: 0, 1, 61, 76
+lvdie_shen
+	bounds: 1697, 1595, 47, 40
+	offsets: 0, 0, 48, 40
+	rotate: 90
+niao_001
+	bounds: 1804, 1902, 179, 144
+	offsets: 1, 10, 180, 171
+niao_002
+	bounds: 1403, 568, 180, 171
+	rotate: 90
+qingdie_ci
+	bounds: 1576, 1518, 119, 124
+	offsets: 0, 4, 119, 128
+qingdie_shen
+	bounds: 1985, 1903, 67, 45
+	offsets: 0, 0, 67, 46
+	rotate: 90
+shan
+	bounds: 2, 10, 1136, 489
+tiankong
+	bounds: 2, 1068, 1136, 978
+yun
+	bounds: 1143, 750, 1296, 431
+	offsets: 7, 0, 1315, 431
+	rotate: 90

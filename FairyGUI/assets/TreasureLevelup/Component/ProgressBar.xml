@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,32" overflow="hidden" extention="ProgressBar">
+  <displayList>
+    <loader id="n4_f34j" name="n4" xy="0,0" pivot="0.5,0.5" size="144,32" rotation="180" url="ui://v1wfpt3lf34j2l" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n5_f34j" name="bar" src="f34j2k" fileName="Res/new/general_forging_bg21.png" xy="0,0" size="144,32">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

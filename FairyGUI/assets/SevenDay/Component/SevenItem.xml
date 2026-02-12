@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="197,209" pivot="0.5,0.5" extention="Button">
+  <controller name="tag" pages="0,,1,,2," selected="1">
+    <remark page="0" value="正常"/>
+    <remark page="1" value="能领取"/>
+    <remark page="2" value="已领取"/>
+  </controller>
+  <controller name="day" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n9_ucd4" name="n9" xy="0,0" size="197,209" url="ui://1tqiwa7aucd4f" fill="scaleFree">
+      <gearIcon controller="tag" pages="0,2" values="ui://1tqiwa7aucd4i|ui://1tqiwa7aucd4i" default="ui://1tqiwa7aucd4f"/>
+    </loader>
+    <component id="n1_mg7g" name="item" src="ewjfdxy22" fileName="Component/ItemCom.xml" pkg="5moj1x39" xy="59,91" pivot="0.5,0.5" scale="1.3,1.3"/>
+    <text id="n5_mg7g" name="n3" xy="24,8" size="149,39" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" text="第1天">
+      <gearDisplay controller="tag" pages="0,2"/>
+      <gearColor controller="tag" pages="0,1,2" values="#ffffff,#000000|#ffffff,#679c1b|#ffffff,#000000"/>
+      <gearText controller="day" pages="0,1,2,3,4,5" values="第1天|第2天|第3天|第4天|第5天|第6天"/>
+    </text>
+    <text id="n10_ucd4" name="n10" xy="68,7" size="60,39" fontSize="28" color="#fcf78e" bold="true" strokeColor="#000000" strokeSize="3" text="领取">
+      <gearDisplay controller="tag" pages="1"/>
+    </text>
+    <component id="n8_tcgl" name="rewardBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="0,0" size="197,209">
+      <gearDisplay controller="tag" pages="1"/>
+    </component>
+    <loader id="n11_ucd4" name="n11" xy="0,0" size="197,209" url="ui://1tqiwa7aucd4g">
+      <gearDisplay controller="tag" pages="2"/>
+    </loader>
+    <component id="n12_n5nh" name="n12" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="157,8">
+      <gearDisplay controller="tag" pages="1"/>
+      <relation target="n9_ucd4" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false" designImage="ui://ddc23erlucd4dxy9x" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n151_qbcg" name="frame" src="ugrmtd" fileName="Component/Common/FrameMask_Normal.xml" pkg="0anhreyl" xy="0,0" controller="alphaType,1">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n176_ucd4" name="n176" xy="108,396" size="504,488" group="n175_kqmi" url="ui://5moj1x39ucd4dxycp" fill="scaleFree">
+      <relation target="n174_kqmi" sidePair="height-height"/>
+    </loader>
+    <text id="n172_kqmi" name="name" xy="264,433" size="124,34" group="n175_kqmi" fontSize="24" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#000000" strokeSize="2" text="装备的名称">
+      <relation target="n171_kqmi" sidePair="left-right"/>
+    </text>
+    <text id="n180_ucd4" name="equipLv" xy="392,437" size="57,29" group="n175_kqmi" fontSize="20" color="#4c2911" vars="true" bold="true" strokeColor="#000000" text="LV.{value=15}">
+      <relation target="n172_kqmi" sidePair="left-right"/>
+    </text>
+    <component id="n171_kqmi" name="comEquipItem2" src="skp6p" fileName="Component/ComEquipItem.xml" pkg="5moj1x39" xy="129,415" group="n175_kqmi">
+      <relation target="n176_ucd4" sidePair="left-left,top-top"/>
+    </component>
+    <loader id="n179_ucd4" name="n179" xy="279,488" size="136,36" group="n170_kqmi" url="ui://5moj1x39f34jdxya3" fill="scaleFree"/>
+    <loader id="n167_kqmi" name="n167" xy="260,480" size="50,50" group="n170_kqmi" url="ui://5moj1x39f34jdxyax" fill="scaleFree">
+      <relation target="n179_ucd4" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n169_kqmi" name="fightLb2" xy="307,489" size="87,34" group="n170_kqmi" fontSize="24" color="#ffbf43" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" text="6.24M">
+      <relation target="n167_kqmi" sidePair="left-left"/>
+      <relation target="n179_ucd4" sidePair="middle-middle"/>
+    </text>
+    <group id="n170_kqmi" name="n170" xy="260,480" size="155,50" group="n175_kqmi" advanced="true">
+      <relation target="n171_kqmi" sidePair="center-center"/>
+    </group>
+    <text id="n165_kqmi" name="n165" xy="310,560" size="100,34" group="n175_kqmi" fontSize="24" color="#4c2911" align="center" vAlign="middle" bold="true" text="当前装备">
+      <relation target="n176_ucd4" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n173_kqmi" name="mainAttrList" xy="180,616" size="360,35" group="n175_kqmi" defaultItem="ui://ddc23erlskp6o">
+      <relation target="n176_ucd4" sidePair="center-center,top-top"/>
+      <item/>
+    </list>
+    <list id="n174_kqmi" name="attrList" xy="180,655" size="360,203" group="n175_kqmi" defaultItem="ui://ddc23erlx3dk1f">
+      <relation target="n176_ucd4" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n175_kqmi" name="n175" xy="108,396" size="504,488" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

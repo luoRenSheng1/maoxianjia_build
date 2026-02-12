@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n21_jozz" name="icon" xy="-14,-14" size="128,128" url="ui://pdufy3kexq5aicv"/>
+    <movieclip id="n13_100ni" name="n13" src="100ni8g" fileName="Component/Dian.jta" xy="0,10" pivot="0.5,0.5" blend="add"/>
+    <movieclip id="n12_100ni" name="n12" src="100ni5w" fileName="Component/FaGuang.jta" xy="-25,0" pivot="0.5,0.5" blend="add"/>
+    <movieclip id="n14_100ni" name="n14" src="100ni8f" fileName="Component/Xing.jta" xy="0,15" pivot="0.5,0.5" blend="add"/>
+    <loader3D id="n19_xq5a" name="touch" xy="-71,-140" pivot="0.5,0.5" size="243,243" aspect="true" scale="0.25,0.25" visible="false" url="ui://pdufy3kexq5aicz" animation="BigMap_wkqp" skin="" loop="true"/>
+    <component id="n20_utr3" name="bar" src="tdju67" fileName="Component/WorkingBar.xml" xy="10,-80" pivot="0.5,0.5" visible="false">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

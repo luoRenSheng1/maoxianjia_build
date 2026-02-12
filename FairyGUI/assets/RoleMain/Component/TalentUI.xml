@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,600" overflow="scroll" scrollBarFlags="384">
+  <displayList>
+    <component id="n0_llb1" name="talent" src="p9n0dxy7f" fileName="Component/Talent.xml" xy="0,0"/>
+  </displayList>
+</component>

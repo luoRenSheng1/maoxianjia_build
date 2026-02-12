@@ -1,0 +1,605 @@
+AdventureCave_csm.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+h_saoguang_001
+	bounds: 612, 1549, 145, 343
+	offsets: 15, 6, 160, 350
+h_saoguang_002
+	bounds: 1773, 1554, 143, 339
+	offsets: 17, 10, 160, 350
+h_saoguang_003
+	bounds: 604, 1207, 143, 338
+	offsets: 17, 11, 160, 350
+h_saoguang_004
+	bounds: 1031, 1213, 141, 336
+	offsets: 19, 11, 160, 350
+h_saoguang_005
+	bounds: 1483, 1553, 143, 340
+	offsets: 17, 9, 160, 350
+h_saoguang_006
+	bounds: 1174, 1214, 140, 336
+	offsets: 20, 12, 160, 350
+h_saoguang_007
+	bounds: 749, 1210, 139, 337
+	offsets: 21, 11, 160, 350
+h_saoguang_008
+	bounds: 460, 1205, 142, 339
+	offsets: 18, 10, 160, 350
+h_saoguang_009
+	bounds: 904, 1551, 142, 341
+	offsets: 18, 8, 160, 350
+h_saoguang_010
+	bounds: 1048, 1552, 143, 341
+	offsets: 17, 8, 160, 350
+h_saoguang_011
+	bounds: 1193, 1552, 143, 341
+	offsets: 17, 9, 160, 350
+h_saoguang_012
+	bounds: 759, 1550, 143, 342
+	offsets: 17, 7, 160, 350
+h_saoguang_013
+	bounds: 890, 1211, 139, 337
+	offsets: 21, 12, 160, 350
+h_saoguang_014
+	bounds: 1338, 1552, 143, 341
+	offsets: 17, 9, 160, 350
+h_saoguang_015
+	bounds: 1628, 1553, 143, 340
+	offsets: 17, 9, 160, 350
+lan_kuang_001
+	bounds: 689, 77, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_002
+	bounds: 928, 83, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_003
+	bounds: 1043, 463, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_004
+	bounds: 1045, 5, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_005
+	bounds: 1073, 733, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_006
+	bounds: 1190, 730, 115, 110
+	offsets: 0, 0, 116, 110
+	rotate: 90
+lan_kuang_007
+	bounds: 1302, 697, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_008
+	bounds: 1388, 361, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_009
+	bounds: 1404, 473, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_010
+	bounds: 1418, 585, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_011
+	bounds: 1396, 5, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_012
+	bounds: 1505, 361, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_013
+	bounds: 1521, 473, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_014
+	bounds: 1513, 2, 115, 110
+	offsets: 0, 0, 116, 110
+	rotate: 90
+lan_kuang_015
+	bounds: 1622, 361, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_016
+	bounds: 1419, 699, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_017
+	bounds: 1656, 723, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_018
+	bounds: 1656, 611, 115, 110
+	offsets: 0, 0, 116, 110
+lan_xuanwo_022
+	bounds: 1184, 611, 117, 110
+	offsets: 1, 0, 118, 110
+	rotate: 90
+lan_xuanwo_026
+	bounds: 1625, 2, 117, 110
+	offsets: 1, 0, 118, 110
+	rotate: 90
+lan_xuanwo_027
+	bounds: 1737, 2, 117, 110
+	offsets: 1, 0, 118, 110
+	rotate: 90
+lan_zhuan
+	bounds: 432, 5, 93, 88
+	offsets: 15, 12, 120, 110
+landian_001
+	bounds: 921, 766, 190, 150
+	offsets: 74, 46, 286, 230
+	rotate: 90
+landian_002
+	bounds: 1771, 845, 251, 196
+	offsets: 13, 1, 286, 230
+landian_003
+	bounds: 1316, 1043, 252, 198
+	offsets: 12, 1, 286, 230
+	rotate: 90
+landian_004
+	bounds: 357, 945, 252, 198
+	offsets: 12, 3, 286, 230
+	rotate: 90
+landian_005
+	bounds: 1316, 1297, 253, 198
+	offsets: 12, 4, 286, 230
+	rotate: 90
+landian_006
+	bounds: 1516, 1149, 253, 199
+	offsets: 12, 5, 286, 230
+landian_007
+	bounds: 1516, 947, 253, 200
+	offsets: 12, 6, 286, 230
+landian_008
+	bounds: 1771, 1298, 253, 199
+	offsets: 12, 8, 286, 230
+	rotate: 90
+landian_009
+	bounds: 1771, 1043, 253, 200
+	offsets: 12, 9, 286, 230
+	rotate: 90
+landian_010
+	bounds: 155, 885, 253, 200
+	offsets: 12, 10, 286, 230
+	rotate: 90
+landian_011
+	bounds: 155, 630, 253, 200
+	offsets: 12, 12, 286, 230
+	rotate: 90
+landian_012
+	bounds: 1516, 1350, 253, 201
+	offsets: 12, 13, 286, 230
+landian_013
+	bounds: 155, 376, 252, 201
+	offsets: 12, 14, 286, 230
+	rotate: 90
+landian_014
+	bounds: 155, 122, 252, 202
+	offsets: 12, 15, 286, 230
+	rotate: 90
+landian_015
+	bounds: 357, 691, 252, 201
+	offsets: 12, 17, 286, 230
+	rotate: 90
+landian_016
+	bounds: 358, 437, 252, 202
+	offsets: 12, 18, 286, 230
+	rotate: 90
+landian_017
+	bounds: 359, 184, 251, 202
+	offsets: 12, 19, 286, 230
+	rotate: 90
+landian_018
+	bounds: 716, 700, 251, 203
+	offsets: 12, 20, 286, 230
+	rotate: 90
+landian_019
+	bounds: 718, 448, 250, 201
+	offsets: 12, 22, 286, 230
+	rotate: 90
+landian_020
+	bounds: 359, 95, 206, 87
+	offsets: 12, 23, 286, 230
+landian_021
+	bounds: 1918, 1687, 206, 89
+	offsets: 12, 24, 286, 230
+	rotate: 90
+landian_022
+	bounds: 879, 195, 251, 151
+	offsets: 12, 26, 286, 230
+	rotate: 90
+landian_023
+	bounds: 557, 951, 252, 153
+	offsets: 12, 27, 286, 230
+	rotate: 90
+landian_024
+	bounds: 560, 697, 252, 154
+	offsets: 12, 28, 286, 230
+	rotate: 90
+landian_025
+	bounds: 562, 443, 252, 154
+	offsets: 12, 30, 286, 230
+	rotate: 90
+landian_026
+	bounds: 563, 189, 252, 156
+	offsets: 12, 31, 286, 230
+	rotate: 90
+landian_027
+	bounds: 712, 953, 252, 156
+	offsets: 12, 33, 286, 230
+	rotate: 90
+landian_028
+	bounds: 721, 195, 251, 156
+	offsets: 13, 35, 286, 230
+	rotate: 90
+landian_029
+	bounds: 870, 958, 250, 155
+	offsets: 14, 37, 286, 230
+	rotate: 90
+landian_030
+	bounds: 921, 575, 189, 149
+	offsets: 75, 45, 286, 230
+	rotate: 90
+languang
+	bounds: 2, 1838, 293, 208
+	offsets: 24, 12, 350, 220
+lv_kuang_001
+	bounds: 921, 463, 120, 110
+lv_kuang_002
+	bounds: 1918, 1565, 120, 110
+	rotate: 90
+lv_kuang_003
+	bounds: 567, 77, 120, 110
+lv_kuang_004
+	bounds: 806, 83, 120, 110
+lv_kuang_005
+	bounds: 1032, 351, 120, 110
+lv_kuang_006
+	bounds: 1032, 239, 120, 110
+lv_kuang_007
+	bounds: 1045, 117, 120, 110
+	rotate: 90
+lv_kuang_008
+	bounds: 1154, 341, 120, 110
+	rotate: 90
+lv_kuang_009
+	bounds: 1157, 219, 120, 110
+	rotate: 90
+lv_kuang_010
+	bounds: 1162, 97, 120, 110
+	rotate: 90
+lv_kuang_011
+	bounds: 1027, 1089, 120, 110
+	rotate: 90
+lv_kuang_012
+	bounds: 1027, 967, 120, 110
+	rotate: 90
+lv_kuang_013
+	bounds: 1073, 845, 120, 110
+	rotate: 90
+lv_kuang_014
+	bounds: 1072, 611, 120, 110
+	rotate: 90
+lv_kuang_015
+	bounds: 1139, 1091, 120, 110
+	rotate: 90
+lv_kuang_016
+	bounds: 1139, 969, 120, 110
+	rotate: 90
+lv_kuang_017
+	bounds: 1185, 847, 120, 110
+	rotate: 90
+lv_kuang_018
+	bounds: 1160, 499, 120, 110
+lv_kuang_019
+	bounds: 1297, 931, 120, 110
+lv_kuang_020
+	bounds: 1302, 809, 120, 110
+	rotate: 90
+lv_kuang_021
+	bounds: 1296, 585, 120, 110
+lv_kuang_022
+	bounds: 1282, 473, 120, 110
+lv_kuang_023
+	bounds: 1266, 361, 120, 110
+lv_kuang_024
+	bounds: 1269, 239, 120, 110
+	rotate: 90
+lv_kuang_025
+	bounds: 1274, 117, 120, 110
+	rotate: 90
+lv_kuang_026
+	bounds: 1381, 239, 120, 110
+	rotate: 90
+lv_kuang_027
+	bounds: 1386, 117, 120, 110
+	rotate: 90
+lv_kuang_028
+	bounds: 1274, 5, 120, 110
+lv_kuang_029
+	bounds: 1493, 239, 120, 110
+	rotate: 90
+lv_xuanwo_001
+	bounds: 225, 2, 118, 110
+	rotate: 90
+lv_xuanwo_002
+	bounds: 1498, 119, 118, 110
+	rotate: 90
+lv_xuanwo_003
+	bounds: 1605, 241, 118, 110
+	rotate: 90
+lv_xuanwo_004
+	bounds: 1610, 121, 118, 110
+	rotate: 90
+lv_xuanwo_005
+	bounds: 1717, 241, 118, 110
+	rotate: 90
+lv_xuanwo_006
+	bounds: 1722, 121, 118, 110
+	rotate: 90
+lv_xuanwo_007
+	bounds: 1414, 811, 118, 110
+	rotate: 90
+lv_xuanwo_008
+	bounds: 1526, 835, 118, 110
+lv_xuanwo_009
+	bounds: 1646, 835, 118, 110
+lv_xuanwo_010
+	bounds: 1536, 612, 118, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_011
+	bounds: 1773, 510, 118, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_012
+	bounds: 1893, 510, 118, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_013
+	bounds: 1829, 399, 118, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_021
+	bounds: 1536, 723, 118, 110
+lv_xuanwo_022
+	bounds: 1773, 733, 118, 110
+lv_xuanwo_023
+	bounds: 1893, 733, 118, 110
+lv_xuanwo_024
+	bounds: 1773, 621, 118, 110
+lv_xuanwo_025
+	bounds: 1893, 621, 118, 110
+lv_xuanwo_026
+	bounds: 1638, 499, 118, 110
+lv_xuanwo_027
+	bounds: 1829, 287, 118, 110
+lv_xuanwo_028
+	bounds: 1834, 167, 118, 110
+	rotate: 90
+lv_xuanwo_029
+	bounds: 1849, 47, 118, 110
+	rotate: 90
+lv_zhuan
+	bounds: 337, 3, 93, 90
+	offsets: 14, 10, 120, 110
+lvguang_00000
+	bounds: 2, 2, 221, 90
+	offsets: 14, 2, 250, 120
+s_saoguang_001
+	bounds: 2, 94, 151, 346
+	offsets: 0, 0, 160, 350
+s_saoguang_002
+	bounds: 1693, 1895, 151, 346
+	offsets: 0, 0, 160, 350
+	rotate: 90
+s_saoguang_003
+	bounds: 309, 1199, 149, 345
+	offsets: 0, 0, 160, 350
+s_saoguang_004
+	bounds: 156, 1490, 151, 346
+	offsets: 0, 0, 160, 350
+s_saoguang_005
+	bounds: 156, 1142, 151, 346
+	offsets: 0, 0, 160, 350
+s_saoguang_006
+	bounds: 309, 1546, 151, 346
+	offsets: 0, 0, 160, 350
+s_saoguang_007
+	bounds: 2, 1489, 152, 347
+	offsets: 0, 0, 160, 350
+s_saoguang_008
+	bounds: 2, 791, 151, 347
+	offsets: 0, 0, 160, 350
+s_saoguang_009
+	bounds: 995, 1895, 151, 347
+	offsets: 0, 0, 160, 350
+	rotate: 90
+s_saoguang_010
+	bounds: 2, 442, 151, 347
+	offsets: 0, 0, 160, 350
+s_saoguang_011
+	bounds: 462, 1547, 148, 345
+	offsets: 0, 0, 160, 350
+s_saoguang_012
+	bounds: 1344, 1895, 151, 347
+	offsets: 0, 0, 160, 350
+	rotate: 90
+s_saoguang_013
+	bounds: 297, 1894, 152, 347
+	offsets: 0, 0, 160, 350
+	rotate: 90
+s_saoguang_014
+	bounds: 2, 1140, 152, 347
+	offsets: 0, 0, 160, 350
+s_saoguang_015
+	bounds: 646, 1894, 152, 347
+	offsets: 0, 0, 160, 350
+	rotate: 90
+
+AdventureCave_csm_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+lan_kuang_019
+	bounds: 826, 801, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_020
+	bounds: 826, 689, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_021
+	bounds: 360, 562, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_022
+	bounds: 359, 450, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_023
+	bounds: 359, 338, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_024
+	bounds: 359, 226, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_025
+	bounds: 477, 574, 115, 110
+	offsets: 0, 0, 116, 110
+	rotate: 90
+lan_kuang_026
+	bounds: 589, 578, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_027
+	bounds: 706, 578, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_028
+	bounds: 359, 114, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_029
+	bounds: 358, 2, 115, 110
+	offsets: 0, 0, 116, 110
+lan_kuang_030
+	bounds: 475, 2, 115, 110
+	offsets: 0, 0, 116, 110
+lan_xuanwo_001
+	bounds: 241, 801, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_002
+	bounds: 361, 913, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_003
+	bounds: 2, 465, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_004
+	bounds: 121, 577, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_005
+	bounds: 241, 690, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_006
+	bounds: 590, 690, 116, 109
+	offsets: 2, 1, 118, 110
+lan_xuanwo_007
+	bounds: 708, 690, 116, 109
+	offsets: 2, 1, 118, 110
+lan_xuanwo_008
+	bounds: 823, 578, 116, 109
+	offsets: 2, 1, 118, 110
+lan_xuanwo_009
+	bounds: 477, 463, 115, 109
+	offsets: 2, 1, 118, 110
+lan_xuanwo_010
+	bounds: 476, 352, 116, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_011
+	bounds: 476, 241, 116, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_012
+	bounds: 476, 130, 116, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_013
+	bounds: 480, 913, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_014
+	bounds: 2, 354, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_015
+	bounds: 121, 466, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_016
+	bounds: 599, 913, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_017
+	bounds: 2, 243, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_018
+	bounds: 121, 355, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_019
+	bounds: 718, 913, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_020
+	bounds: 2, 132, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_021
+	bounds: 121, 244, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_023
+	bounds: 2, 20, 116, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_024
+	bounds: 121, 132, 116, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_025
+	bounds: 120, 20, 116, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_028
+	bounds: 122, 800, 117, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_029
+	bounds: 242, 912, 117, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_030
+	bounds: 2, 576, 117, 110
+	offsets: 1, 0, 118, 110
+lan_xuanwo_031
+	bounds: 837, 913, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_032
+	bounds: 241, 580, 117, 108
+	offsets: 1, 1, 118, 110
+lan_xuanwo_033
+	bounds: 240, 137, 117, 108
+	offsets: 1, 1, 118, 110
+lan_xuanwo_034
+	bounds: 239, 27, 117, 108
+	offsets: 1, 1, 118, 110
+lan_xuanwo_035
+	bounds: 240, 469, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_036
+	bounds: 240, 358, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_037
+	bounds: 240, 247, 117, 109
+	offsets: 1, 1, 118, 110
+lan_xuanwo_038
+	bounds: 360, 793, 117, 109
+	offsets: 1, 1, 118, 110
+	rotate: 90
+lv_xuanwo_014
+	bounds: 360, 674, 117, 109
+	offsets: 0, 1, 118, 110
+	rotate: 90
+lv_xuanwo_015
+	bounds: 471, 802, 117, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_016
+	bounds: 471, 691, 117, 109
+	offsets: 0, 1, 118, 110
+lv_xuanwo_017
+	bounds: 122, 688, 117, 110
+	offsets: 0, 0, 118, 110
+lv_xuanwo_018
+	bounds: 590, 801, 116, 110
+	offsets: 0, 0, 118, 110
+lv_xuanwo_019
+	bounds: 708, 801, 116, 110
+	offsets: 0, 0, 118, 110
+lv_xuanwo_020
+	bounds: 594, 466, 114, 110
+	offsets: 0, 0, 118, 110
+lv_xuanwo_030
+	bounds: 2, 912, 118, 110
+lv_xuanwo_031
+	bounds: 2, 800, 118, 110
+lv_xuanwo_032
+	bounds: 122, 912, 118, 110
+lv_xuanwo_033
+	bounds: 2, 688, 118, 110

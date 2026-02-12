@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,136">
+  <displayList>
+    <image id="n0_qofb" name="n0" src="il6l1a" fileName="Res/bagnzhu-di.png" xy="0,0" size="512,102"/>
+    <image id="n1_qofb" name="n1" src="il6l1b" fileName="Res/bagnzhu-yuan.png" xy="13,8"/>
+    <loader id="n2_qofb" name="icon" xy="15,10" size="88,89" url="ui://5moj1x39qj2edxy4j" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n3_qofb" name="title" xy="118,10" size="384,83" fontSize="22" color="#663e20" autoSize="none" autoClearText="true" text="帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助帮助"/>
+    <image id="n4_qofb" name="n4" src="il6l1c" fileName="Res/nn7.png" xy="491,112"/>
+    <image id="n5_qofb" name="n5" src="il6l1c" fileName="Res/nn7.png" xy="5,112"/>
+    <image id="n6_qofb" name="n6" src="il6l1d" fileName="Res/nn8.png" xy="36,119" size="447,8"/>
+  </displayList>
+</component>

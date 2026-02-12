@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,92" extention="Label">
+  <controller name="black" exported="true" homePageType="specific" homePage="0" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n88_gssc" name="bg" xy="0,0" size="80,80" visible="false" url="ui://0anhreylb94mdxy89" fill="scale"/>
+    <loader id="n90_gssc" name="txk" xy="0,0" size="92,92" url="ui://0anhreylb94mdxy88" fill="scale"/>
+    <loader id="n84_jx20" name="icon" xy="8,9" pivot="0.5,0.5" size="76,74" url="ui://0anhreylb94mdxy8a" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <component id="n87_baxf" name="selectBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="6,6" size="80,80"/>
+  </displayList>
+</component>

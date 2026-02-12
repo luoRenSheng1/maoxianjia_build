@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z350mxkh">
+  <resources>
+    <component id="rjj21b" name="AdventureCaveShop.xml" path="/" exported="true"/>
+    <image id="rjj22" name="Map1003_0.png" path="/Res/"/>
+    <image id="rjj23" name="Map1003_1.png" path="/Res/"/>
+    <component id="rjj26" name="AdventureCaveMap.xml" path="/Component/"/>
+    <component id="koot1c" name="AdventureCaveView.xml" path="/" exported="true"/>
+    <component id="koot31" name="AdventureCaveMapClip.xml" path="/Component/"/>
+    <image id="koot32" name="1.png" path="/Res/"/>
+    <image id="koot33" name="2.png" path="/Res/"/>
+    <image id="koot34" name="3.png" path="/Res/"/>
+    <image id="koot35" name="4.png" path="/Res/"/>
+    <image id="koot36" name="car.png" path="/Res/"/>
+    <misc id="om2e37" name="AdventureCave_csm.atlas.txt" path="/Res/csm/"/>
+    <image id="om2e38" name="AdventureCave_csm.png" path="/Res/csm/"/>
+    <image id="om2e39" name="AdventureCave_csm_2.png" path="/Res/csm/"/>
+    <spine id="om2e3a" name="AdventureCave_csm.skel" path="/Res/csm/" width="622" height="1056" require="om2e37,om2e38,om2e39" atlasNames="AdventureCave_csm,AdventureCave_csm_2" anchor="302,554"/>
+    <misc id="osqg3b" name="AdventureCave_csmc.atlas.txt" path="/Res/ck/"/>
+    <image id="osqg3c" name="AdventureCave_csmc.png" path="/Res/ck/"/>
+    <spine id="osqg3d" name="AdventureCave_csmc.skel" path="/Res/ck/" width="100" height="100" require="osqg3b,osqg3c" atlasNames="AdventureCave_csmc" anchor="100,100"/>
+  </resources>
+  <publish name="AdventureCave" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,333">
+  <controller name="lockCtrl" pages="0,,1," selected="0">
+    <remark page="0" value="开"/>
+    <remark page="1" value="锁"/>
+  </controller>
+  <displayList>
+    <image id="n12_surf" name="n12" src="surfu" fileName="Res/n12.png" xy="0,0" size="720,333"/>
+    <loader id="n5_surf" name="bgLoader" xy="27,13" size="666,240" touchable="false" url="ui://i7ojazuunjeb31"/>
+    <image id="n16_k4ck" name="n16" src="q9cg15" fileName="Res/month/nn4.png" xy="40,209" size="373,39"/>
+    <loader id="n3_surf" name="n3" xy="52,209" size="33,37" aspect="true" touchable="false" url="ui://0anhreylofkodxy2u" fill="scale"/>
+    <text id="n9_surf" name="n9" xy="93,213" size="64,29" fontSize="20" color="#663e20" bold="true" strokeColor="#ffffff" text="无限期"/>
+    <text id="n10_surf" name="desc" xy="38,278" size="475,29" fontSize="20" color="#b3a28b" autoSize="none" bold="true" text="英雄集结，踏上征程"/>
+    <component id="n11_surf" name="goBtn" src="p4bng" fileName="Component/EmptyBtn.xml" pkg="5moj1x39" xy="548,267" size="125,55">
+      <Button title="进入" titleFontSize="20" icon="ui://5moj1x39ddc13t"/>
+    </component>
+    <image id="n13_k4ck" name="n13" src="k4ck1e" fileName="Res/nn16.png" xy="30,17" pivot="0.5,0.5" rotation="90"/>
+    <image id="n14_k4ck" name="n14" src="k4ck1f" fileName="Res/nn17.png" xy="34,58"/>
+    <component id="n22_qc4n" name="redDot" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="638,266">
+      <gearDisplay controller="lockCtrl" pages="0"/>
+    </component>
+    <text id="n15_k4ck" name="n15" xy="50,30" pivot="0.5,0.5" size="44,29" rotation="-46" fontSize="20" color="#ffffff" bold="true" strokeColor="#792914" strokeSize="2" text="热销"/>
+    <loader3D id="n23_qc4n" name="n23" xy="176,25" size="470,228" url="ui://i7ojazuuqc4n25" fill="scale" animation="idle" skin="" loop="true"/>
+    <graph id="n18_kira" name="n18" xy="0,0" size="720,335" alpha="0.85" type="rect" fillColor="#ff333333">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </graph>
+    <text id="n19_kira" name="lockDesc" xy="133,135" size="250,42" group="n21_kira" fontSize="30" color="#ffffff" autoSize="none" bold="true" strokeColor="#1c8887" text="达到多少解锁"/>
+    <image id="n20_kira" name="n20" src="x3dk2t" fileName="Res/suo.png" pkg="0anhreyl" xy="87,127" group="n21_kira"/>
+    <group id="n21_kira" name="n21" xy="87,127" size="296,53" advanced="true">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </group>
+  </displayList>
+</component>

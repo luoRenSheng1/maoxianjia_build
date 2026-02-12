@@ -1,0 +1,103 @@
+syntax = "proto2";
+import "ErrCode.proto";
+import "Enum.proto";
+import "Common.proto";
+package msg;
+
+
+	         
+	 
+
+
+//vip信息请求
+//message VipInfo_CS   //eMsg_VipInfo_CS = 508;
+//{
+//}
+
+//vip信息请求反馈
+//message VipInfo_SC    //eMsg_VipInfo_SC = 509; 
+//{
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional int32 vip_level = 2;  //vip等级
+//	optional int64 vip_exp = 3; //vip经验
+//	repeated int32 claimed_awards = 4; //已领取的vip等级奖励，内容是 vip_level，表示该等级奖励已领取
+//	repeated int32 purchased_packs = 5; //已购买的vip等级礼包，内容是 vip_level
+//}
+
+//vip信息更新--充值后主动推或运营修改作弊码修改
+//message VipInfo_PC    //eMsg_VipInfo_PC = 514; 
+//{
+//	optional int32 vip_level = 1;  //vip等级
+//	optional int64 vip_exp = 2; //vip经验
+//	repeated int32 claimed_awards = 3; //已领取的vip等级奖励，内容是 vip_level，表示该等级奖励已领取
+//	repeated int32 purchased_packs = 4; //已购买的vip等级礼包，内容是 vip_level
+//}
+	        
+
+	
+	        
+	        
+//领取vip等级奖励请求
+//message ClaimVipLevelAward_CS   //eMsg_ClaimVipLevelAward_CS = 518; 
+//{
+//	optional int32 vip_level = 1;  //领取奖励的vip等级
+//}
+
+//领取vip等级奖励反馈 
+//message ClaimVipLevelAward_SC     //eMsg_ClaimVipLevelAward_SC = 519; 
+//{
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional int32 vip_level = 2;  //vip等级
+//	repeated int32 claimed_awards = 3; //已领取的vip等级奖励，内容是 vip_level，表示该等级奖励已领取
+//	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+//	repeated ItemInfo received_items = 5; //领取的所有道具
+//}         
+	        
+//购买vip等级礼包请求
+//message BuyVipLevelPack_CS   //eMsg_BuyVipLevelPack_CS = 520; 
+//{
+//	optional int32 vip_level = 1;  //领取奖励的vip等级
+//}
+
+//购买vip等级礼包反馈  
+//message BuyVipLevelPack_SC    //eMsg_BuyVipLevelPack_SC = 521; 
+//{
+//	optional eErrCode	result = 1;// [default = eSucceed];	 //处理结果
+//	optional int32 vip_level = 2;  //vip等级
+//	repeated int32 purchased_packs = 3; //已购买的vip等级礼包，内容是 vip_level
+//	optional Finance finance = 4; //最新账户货币信息,各种货币余额
+//	repeated ItemInfo purchased_items = 5; //本次购买成功礼包中的所有道具
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+	
+				
+						
+				        
+
+
+
+
+
+
+
+
+                  
+

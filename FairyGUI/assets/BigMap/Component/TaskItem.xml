@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,116" designImageOffsetX="-41" designImageOffsetY="-234">
+  <controller name="type" pages="0,,1," selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="困难"/>
+  </controller>
+  <controller name="statuCtrl" pages="0,,1,,2,,3," selected="3">
+    <remark page="0" value="领取任务"/>
+    <remark page="1" value="放弃任务"/>
+    <remark page="2" value="领取奖励"/>
+    <remark page="3" value="上供"/>
+  </controller>
+  <displayList>
+    <loader id="n10_f34j" name="n10" xy="0,0" size="640,116" url="ui://5moj1x39f34jdxybh" fill="scaleFree"/>
+    <component id="n11_mqvf" name="item" src="mqvf35" fileName="Component/TaskBtn.xml" xy="14,16">
+      <Button icon="ui://pdufy3kec2niid3"/>
+    </component>
+    <text id="n1_p9n0" name="name" xy="109,19" size="265,34" fontSize="24" color="#4c2911" vAlign="middle" ubb="true" vars="true" bold="true" text="击败深渊之地BOSS({cur=4}/{total=6})"/>
+    <component id="n13_tdju" name="bar" src="p9n0dxy7w" fileName="Component/BarExp2.xml" pkg="5moj1x39" xy="111,68" scale="0.74,0.8">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n7_p9n0" name="takeBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="414,16" size="218,84">
+      <gearDisplay controller="statuCtrl" pages="0"/>
+      <Button title="领取任务" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n15_tdju" name="giveUpTaskBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="414,16" size="218,84">
+      <gearDisplay controller="statuCtrl" pages="1"/>
+      <Button title="放弃任务" icon="ui://5moj1x39f34jdxyag"/>
+    </component>
+    <component id="n16_tdju" name="getRewardBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="414,16" size="218,84">
+      <gearDisplay controller="statuCtrl" pages="2"/>
+      <Button title="领取奖励" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+    <component id="n14_tdju" name="redPoint" src="jl15dxy3s" fileName="Component/RedDotComponent.xml" pkg="5moj1x39" xy="606,6">
+      <gearDisplay controller="statuCtrl" pages="0,2"/>
+      <relation target="n7_p9n0" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n17_ob1s" name="submitBtn" src="fpa2dxy28" fileName="Component/EmptyBtn.xml" pkg="0anhreyl" xy="414,16" size="218,84">
+      <gearDisplay controller="statuCtrl" pages="3"/>
+      <Button title="上供" titleFontSize="32" icon="ui://5moj1x39f34jdxy9s"/>
+    </component>
+  </displayList>
+</component>

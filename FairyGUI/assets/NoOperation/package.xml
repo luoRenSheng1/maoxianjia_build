@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="88ncwg57">
+  <resources>
+    <component id="uobv0" name="NoOperation.xml" path="/" exported="true"/>
+    <component id="uobv1" name="Slider_grip.xml" path="/Component/"/>
+    <component id="uobv2" name="Slider.xml" path="/Component/"/>
+    <image id="uobv3" name="loopIcon.png" path="/Res/"/>
+    <image id="yd2h4" name="2.png" path="/Res/" scale="9grid" scale9grid="60,36,5,10"/>
+    <image id="yd2h5" name="3.png" path="/Res/"/>
+    <image id="yd2h6" name="1.png" path="/Res/" scale="9grid" scale9grid="91,75,12,13"/>
+    <component id="v51s7" name="PetRunRoot.xml" path="/Component/"/>
+    <image id="v51s8" name="222.png" path="/Res/" scale="9grid" scale9grid="32,58,64,13"/>
+  </resources>
+  <publish name="NoOperation" genCode="true"/>
+</packageDescription>

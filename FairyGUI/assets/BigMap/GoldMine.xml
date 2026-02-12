@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n18_jozz" name="icon" xy="-14,-14" size="128,128" url="ui://pdufy3ke100nib1"/>
+    <movieclip id="n12_100ni" name="n12" src="100ni5w" fileName="Component/FaGuang.jta" xy="-25,0" blend="add"/>
+    <movieclip id="n13_100ni" name="n13" src="100ni8g" fileName="Component/Dian.jta" xy="0,10" blend="add"/>
+    <movieclip id="n14_100ni" name="n14" src="100ni8f" fileName="Component/Xing.jta" xy="0,15" blend="add"/>
+  </displayList>
+</component>
