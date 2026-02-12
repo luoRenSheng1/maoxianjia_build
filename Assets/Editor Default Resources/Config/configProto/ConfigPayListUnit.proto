@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPayListUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  string DescNote = 3;
+  string Desc = 4;
+  string DescParam = 5;
+  string XmProductId = 6;
+  string Remarks = 7;
+  int32 RechargeAmount = 8;
+  int32 Sort = 9;
+  int32 FirstAddDiamonds = 10;
+  int32 AddDiamonds = 11;
+  int32 Icon = 12;
+  int32 MoneyType = 13;
+}

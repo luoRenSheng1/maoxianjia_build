@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRaffleUnit.proto";
+
+package Config;
+
+message ConfigRaffle {
+  map<int32, ConfigRaffleUnit> data = 1;
+}

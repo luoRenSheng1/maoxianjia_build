@@ -1,0 +1,41 @@
+Pet_10601.png
+	size: 1024, 128
+	filter: Linear, Linear
+	scale: 0.6
+L_jiaodi_2
+	bounds: 434, 20, 32, 52
+	rotate: 90
+L_shou
+	bounds: 711, 85, 31, 38
+L_shouhu
+	bounds: 375, 6, 55, 69
+L_yan
+	bounds: 490, 28, 16, 24
+	offsets: 0, 1, 16, 25
+L_zhua
+	bounds: 572, 87, 44, 36
+R-zhua
+	bounds: 667, 83, 40, 40
+R_shou
+	bounds: 620, 87, 36, 43
+	rotate: 90
+R_shouhu
+	bounds: 434, 56, 67, 74
+	offsets: 0, 0, 67, 75
+	rotate: 90
+R_yan
+	bounds: 512, 57, 19, 25
+	offsets: 0, 1, 19, 26
+shang
+	bounds: 4, 4, 140, 119
+	offsets: 0, 1, 140, 121
+shenti
+	bounds: 148, 17, 115, 106
+xia
+	bounds: 267, 16, 104, 59
+	offsets: 0, 0, 109, 59
+yan
+	bounds: 512, 86, 56, 37
+	offsets: 1, 0, 57, 37
+yinying
+	bounds: 267, 79, 163, 44

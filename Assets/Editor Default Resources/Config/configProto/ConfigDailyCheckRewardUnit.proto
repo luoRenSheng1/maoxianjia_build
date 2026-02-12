@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigDailyCheckRewardUnit {
+  int32 DailyCheckId = 1;
+  int32 Count = 2;
+  string Reward = 3;
+  string Icon = 4;
+  string Desc = 5;
+}

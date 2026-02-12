@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 750506915
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6de92d7cc281b388d7a101678ab55a56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6de92d7cc281b388d7a101678ab55a56
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/liudong_11.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/mask_05.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/mask_12.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/tw_02.bin

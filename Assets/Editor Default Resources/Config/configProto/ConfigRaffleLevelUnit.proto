@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRaffleLevelUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 Level = 3;
+  string Quality1Pro = 4;
+  string Quality2Pro = 5;
+  string Quality3Pro = 6;
+  string Quality4Pro = 7;
+  string Quality5Pro = 8;
+  string Quality6Pro = 9;
+  string Quality7Pro = 10;
+  int32 Exp = 11;
+}

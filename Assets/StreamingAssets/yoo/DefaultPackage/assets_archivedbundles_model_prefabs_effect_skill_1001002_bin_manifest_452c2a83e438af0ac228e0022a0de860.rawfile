@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 3241008743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 052db7cceca6ab09eb6e5145ce70eaaf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 47e437d5859d34e09ad49dc43a1791a6
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 052db7cceca6ab09eb6e5145ce70eaaf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_1001002.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/bd_02.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/caihong_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/feng03.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/feng04.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/feng05.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_06.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_07.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/jianci_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/liudong_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/shuibo02.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/shuiliu01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/tw09.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/xulie03.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/xulie04.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/xulie05.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/zd_01.bin

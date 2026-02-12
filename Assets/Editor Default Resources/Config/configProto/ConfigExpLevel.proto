@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigExpLevelUnit.proto";
+
+package Config;
+
+message ConfigExpLevel {
+  map<int32, ConfigExpLevelUnit> data = 1;
+}

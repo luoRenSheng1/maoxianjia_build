@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigAptitudeUnit {
+  int32 Id = 1;
+  int32 AptitudeId = 2;
+  int32 Lv = 3;
+  string Name = 4;
+  string NameDoc = 5;
+  int32 Type = 6;
+  string Doc = 7;
+  string NotesDoc = 8;
+  string Count = 9;
+  string CommonNotes1 = 10;
+  int32 Param = 11;
+}

@@ -1,0 +1,15 @@
+Pet_10180_skill.png
+size:211,114
+filter:Linear,Linear
+pma:true
+scale:0.5
+gutou
+bounds:142,51,69,63
+offsets:0,1,70,64
+shenti
+bounds:0,0,140,114
+yandi
+bounds:142,25,55,24
+offsets:0,0,55,25
+yanzhu
+bounds:142,8,15,15

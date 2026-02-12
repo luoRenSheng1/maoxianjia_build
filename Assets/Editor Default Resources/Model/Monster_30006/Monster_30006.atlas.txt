@@ -1,0 +1,45 @@
+Monster_30006.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+10
+	bounds: 0, 265, 226, 234
+11
+	bounds: 230, 414, 164, 85
+12
+	bounds: 231, 190, 72, 61
+13
+	bounds: 175, 155, 52, 96
+	offsets: 1, 1, 54, 98
+14
+	bounds: 0, 0, 162, 85
+3
+	bounds: 242, 121, 65, 38
+	offsets: 0, 0, 65, 61
+3-1
+	bounds: 175, 107, 63, 44
+	offsets: 0, 5, 63, 49
+4
+	bounds: 175, 83, 27, 20
+5
+	bounds: 478, 415, 20, 19
+	offsets: 0, 0, 32, 19
+6
+	bounds: 326, 239, 39, 39
+7
+	bounds: 0, 89, 171, 172
+8
+	bounds: 398, 438, 100, 61
+9
+	bounds: 398, 272, 80, 73
+	offsets: 1, 2, 82, 77
+yan1
+	bounds: 326, 282, 68, 128
+yan2
+	bounds: 230, 255, 92, 155
+yan3
+	bounds: 398, 349, 76, 85
+	offsets: 0, 1, 77, 86
+yinying
+	bounds: 231, 163, 84, 23
+	offsets: 1, 1, 86, 25

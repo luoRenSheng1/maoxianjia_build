@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 4093524153
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5562ac2fb1f5b7b8209da1d2e1d86790
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ece8b7cee0da0b6357ed55ba76a09216
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5562ac2fb1f5b7b8209da1d2e1d86790
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_1007002.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/bd_03.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/feng03.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_01
+  5.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_06.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_41.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/hua3
+  1.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/hua5.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/liudong_13.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/qiliu_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/qiliu_03.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/shuibo01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/tw02
+  1.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/yw05.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/zd_43.bin

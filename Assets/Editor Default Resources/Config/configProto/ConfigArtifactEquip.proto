@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigArtifactEquipUnit.proto";
+
+package Config;
+
+message ConfigArtifactEquip {
+  map<int32, ConfigArtifactEquipUnit> data = 1;
+}

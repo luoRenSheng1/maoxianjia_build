@@ -1,0 +1,61 @@
+Pet_10131.png
+	size: 512, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.7
+L_chatou
+	bounds: 148, 1, 37, 51
+	rotate: 90
+L_chibang
+	bounds: 304, 99, 53, 50
+	rotate: 90
+L_jiemao
+	bounds: 419, 190, 18, 15
+L_shou
+	bounds: 120, 0, 38, 24
+	offsets: 0, 0, 39, 25
+	rotate: 90
+L_yan
+	bounds: 397, 192, 18, 28
+	offsets: 0, 0, 20, 29
+R_chatou
+	bounds: 421, 209, 47, 55
+	offsets: 1, 0, 48, 55
+	rotate: 90
+R_chibang
+	bounds: 321, 169, 72, 51
+R_jiemao
+	bounds: 397, 164, 24, 18
+	rotate: 90
+R_shou
+	bounds: 203, 0, 23, 38
+	offsets: 1, 1, 25, 39
+R_yan
+	bounds: 304, 63, 23, 32
+	offsets: 1, 1, 25, 35
+bozi
+	bounds: 480, 204, 52, 32
+	offsets: 1, 1, 54, 34
+	rotate: 90
+dengpao
+	bounds: 217, 156, 100, 100
+dengzuo
+	bounds: 230, 4, 55, 42
+	offsets: 0, 1, 55, 43
+guang
+	bounds: 0, 42, 213, 214
+	offsets: 10, 9, 232, 233
+meimao
+	bounds: 321, 224, 96, 32
+tou
+	bounds: 217, 50, 102, 83
+	rotate: 90
+wei
+	bounds: 331, 67, 27, 28
+	offsets: 0, 1, 27, 29
+yinying
+	bounds: 0, 6, 116, 32
+	offsets: 1, 1, 118, 34
+zui
+	bounds: 289, 34, 11, 12
+	offsets: 0, 0, 12, 12

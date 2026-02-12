@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillTargetUnit {
+  int32 Id = 1;
+  int32 RangeType = 2;
+  int32 RangeRefer = 3;
+  int32 RangeData = 4;
+  int32 TargetType = 5;
+  int32 TargetPriority = 6;
+  int32 RangeParam = 7;
+  int32 TargetNumber = 8;
+  string Remarks = 9;
+}

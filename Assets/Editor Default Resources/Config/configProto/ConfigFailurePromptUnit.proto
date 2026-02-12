@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigFailurePromptUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  string JumpPath = 3;
+  string Icon = 4;
+  string NameNote = 5;
+  string Name = 6;
+  string DescNote = 7;
+  string Desc = 8;
+  int32 Priority = 9;
+  int32 FunctionEnabled = 10;
+}

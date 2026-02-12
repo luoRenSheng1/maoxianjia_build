@@ -1,0 +1,10 @@
+common_die.png
+size:128,64
+filter:Linear,Linear
+scale:0.5
+1
+bounds:4,15,44,42
+2
+bounds:99,4,22,53
+3
+bounds:52,15,43,42

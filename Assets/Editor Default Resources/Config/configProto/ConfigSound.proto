@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigSoundUnit.proto";
+
+package Config;
+
+message ConfigSound {
+  map<int32, ConfigSoundUnit> data = 1;
+}

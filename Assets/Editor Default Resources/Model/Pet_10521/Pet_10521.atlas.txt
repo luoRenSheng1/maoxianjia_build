@@ -1,0 +1,65 @@
+Pet_10521.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.6
+dunpai
+	bounds: 160, 349, 67, 67
+erduo
+	bounds: 229, 367, 49, 43
+	rotate: 90
+erhuan1
+	bounds: 462, 484, 25, 27
+erhuan2
+	bounds: 229, 349, 16, 22
+	offsets: 0, 1, 17, 23
+	rotate: 90
+shenti
+	bounds: 0, 35, 173, 154
+	rotate: 90
+tou
+	bounds: 160, 418, 114, 93
+wuqi
+	bounds: 0, 210, 158, 301
+	offsets: 1, 0, 159, 301
+xiangquan1
+	bounds: 276, 461, 56, 50
+xiangquan2
+	bounds: 160, 263, 47, 36
+	offsets: 1, 1, 49, 37
+yanbai
+	bounds: 274, 368, 26, 17
+yanzhu
+	bounds: 156, 182, 22, 21
+yinzi
+	bounds: 0, 5, 101, 28
+	offsets: 1, 1, 103, 30
+youdabi
+	bounds: 160, 205, 25, 25
+youdatui
+	bounds: 334, 475, 36, 53
+	rotate: 90
+youjiao
+	bounds: 276, 418, 41, 50
+	rotate: 90
+youshou
+	bounds: 274, 387, 49, 29
+	offsets: 0, 0, 49, 32
+youxiaotui
+	bounds: 103, 11, 40, 22
+	offsets: 0, 0, 41, 22
+zuodabi
+	bounds: 489, 483, 22, 28
+zuodatui
+	bounds: 389, 476, 35, 43
+	rotate: 90
+zuojiao
+	bounds: 160, 301, 50, 46
+	offsets: 2, 0, 52, 47
+zuomuzi
+	bounds: 212, 333, 15, 14
+	offsets: 0, 1, 16, 15
+zuoshou
+	bounds: 434, 480, 26, 31
+zuoxiaobi
+	bounds: 160, 232, 33, 29

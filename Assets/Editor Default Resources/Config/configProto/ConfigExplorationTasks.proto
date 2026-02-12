@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigExplorationTasksUnit.proto";
+
+package Config;
+
+message ConfigExplorationTasks {
+  map<int32, ConfigExplorationTasksUnit> data = 1;
+}

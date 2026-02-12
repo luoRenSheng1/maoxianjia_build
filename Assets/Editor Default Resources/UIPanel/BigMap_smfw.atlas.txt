@@ -1,0 +1,107 @@
+BigMap_smfw.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+fuwenfaguang
+	bounds: 824, 676, 72, 98
+	offsets: 3, 4, 78, 105
+fuwenfaguang0
+	bounds: 2, 55, 136, 113
+	offsets: 6, 9, 145, 128
+fuwenfaguang1
+	bounds: 824, 578, 71, 96
+	offsets: 0, 8, 78, 110
+fuwenfaguang2
+	bounds: 824, 484, 77, 92
+	offsets: 3, 7, 83, 107
+fuwenfaguang3
+	bounds: 210, 102, 57, 66
+	offsets: 7, 8, 70, 82
+fuwenfaguang4
+	bounds: 824, 400, 71, 82
+	offsets: 6, 7, 82, 89
+fuwenshanguang0
+	bounds: 2, 810, 272, 212
+	offsets: 3, 6, 280, 219
+fuwenshanguang1
+	bounds: 2, 596, 272, 212
+	offsets: 3, 6, 280, 219
+fuwenshanguang10
+	bounds: 2, 383, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang11
+	bounds: 276, 597, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang12
+	bounds: 550, 811, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang13
+	bounds: 2, 170, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang14
+	bounds: 276, 810, 272, 212
+	offsets: 3, 6, 280, 219
+fuwenshanguang2
+	bounds: 276, 384, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang3
+	bounds: 550, 598, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang4
+	bounds: 276, 171, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang5
+	bounds: 550, 385, 272, 211
+	offsets: 3, 6, 280, 219
+fuwenshanguang6
+	bounds: 550, 172, 272, 211
+	offsets: 3, 6, 280, 219
+shitou_001
+	bounds: 140, 64, 68, 104
+	offsets: 1, 1, 70, 106
+shitou_002
+	bounds: 78, 21, 24, 32
+	offsets: 1, 1, 26, 34
+shitou_003
+	bounds: 824, 776, 80, 114
+	offsets: 1, 1, 82, 116
+shitou_004
+	bounds: 995, 951, 21, 26
+	offsets: 1, 1, 23, 28
+shitou_005
+	bounds: 824, 892, 169, 130
+	offsets: 1, 1, 171, 132
+shitou_006
+	bounds: 906, 794, 74, 96
+	offsets: 1, 1, 76, 98
+shitou_007
+	bounds: 210, 65, 24, 35
+	offsets: 1, 1, 26, 37
+shitou_008
+	bounds: 2, 6, 47, 74
+	offsets: 1, 1, 49, 76
+	rotate: 90
+shitou_009
+	bounds: 906, 780, 12, 19
+	offsets: 1, 1, 14, 21
+	rotate: 90
+shitou_010
+	bounds: 995, 979, 27, 43
+	offsets: 1, 1, 29, 45
+shitou_011
+	bounds: 824, 360, 29, 38
+	offsets: 1, 1, 31, 40
+
+BigMap_smfw_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+fuwenshanguang7
+	bounds: 2, 123, 271, 210
+	offsets: 3, 7, 280, 219
+fuwenshanguang8
+	bounds: 276, 336, 270, 210
+	offsets: 4, 7, 280, 219
+fuwenshanguang9
+	bounds: 2, 335, 272, 211
+	offsets: 3, 6, 280, 219

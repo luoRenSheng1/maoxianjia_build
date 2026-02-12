@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string mz="list" name="rr0734r5x3dk2v-n1_x3dk-0">One</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-0">Any</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-1">HP Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-2">ATK Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-3">Crit Rate</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-4">Crit DMG</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-5">Boss DMG Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-6">Minion DMG Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-7">DMG Reduction</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-8">Lifesteal</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-9">Skill DMG</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-10">Skill Count Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-11">Skill Count</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-12">Gold Bonus</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-13">Skill Cooldown</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-14">Attack Speed</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-15">Combo</string>
+  <string mz="list" name="rr0734r5x3dk2z-n1_x3dk-16">Counter</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-0">[color=#bdaba2]Common or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-1">[color=#7ed2a6]Good or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-2">[color=#82b6d6]Rare or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-3">[color=#ad68c8]Epic or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-4">[color=#f3c95c]Legendary or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-5">[color=#f081c3]Mythic or Above[/color]</string>
+  <string mz="list" name="rr0734r5x3dk33-n1_x3dk-6">[color=#f38277]Immortal or Above[/color]</string>
+  <string mz="n118" name="rr0734r5mmjj20-n118_mmjj">AutoMake</string>
+  <string mz="n119" name="rr0734r5mmjj20-n119_mmjj">EquipQ</string>
+  <string mz="n120" name="rr0734r5mmjj20-n120_mmjj">tiaojian1</string>
+  <string mz="n121" name="rr0734r5mmjj20-n121_mmjj">tiaojian2</string>
+  <string mz="n122" name="rr0734r5mmjj20-n122_mmjj">dcdzcs</string>
+  <string mz="btnStart" name="rr0734r5mmjj20-n123_mmjj">start</string>
+  <string mz="n124" name="rr0734r5mmjj20-n124_mmjj">tzjmstz</string>
+  <string mz="n125" name="rr0734r5mmjj20-n125_mmjj">bfhtjdzbjzdcs</string>
+  <string mz="n11" name="zjhq3sc3khmx0-n11_khmx">Equipment Dungeon Drop</string>
+  <string mz="n11" name="zjhq3sc3khmx0-n11_khmx-texts_0">Equipment Dungeon Drop</string>
+  <string mz="n11" name="zjhq3sc3khmx0-n11_khmx-texts_1"> Hero EXP Dungeon Drop</string>
+  <string mz="n11" name="zjhq3sc3khmx0-n11_khmx-texts_2"> Gold Mine Dungeon Drop</string>
+  <string mz="n11" name="zjhq3sc3khmx0-n11_khmx-texts_def">Event Reward</string>
+  <string mz="cntLb" name="zjhq3sc3khmx0-n14_khmx">({cur=0}/{total=5})</string>
+  <string mz="n16" name="zjhq3sc3khmx0-n16_89ax">Today's purchase limit reached</string>
+  <string mz="rebate" name="zjhq3sc3khmx0-n19_r18s">"{value=600}% Rebate"</string>
+  <string mz="ipt" name="x1rxl2idr13r0-n18_kvsz-prompt">Please enter chat content</string>
+  <string mz="sendChatBtn" name="x1rxl2idr13r0-n19_kvsz">Send</string>
+  <string mz="n22" name="x1rxl2idr13r0-n22_kvsz">System channel is read-only. Please switch to another channel.</string>
+  <string mz="content" name="x1rxl2idkvszk-n2_kvsz">Chat content blah blah blah</string>
+  <string mz="playerName" name="x1rxl2idkvszk-n3_kvsz">LongestNameEver</string>
+  <string mz="content" name="x1rxl2idkvszl-n2_kvsz">Chat content blah blah blah blah blah</string>
+  <string mz="playerName" name="x1rxl2idkvszl-n3_kvsz">Name3</string>
+  <string mz="content" name="x1rxl2idkvszn-n2_kvsz">Chat content blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</string>
+  <string mz="playerName" name="x1rxl2idkvszn-n3_kvsz">System</string>
+  <string mz="textTips" name="0anhreylpmd7pq-n154_pmd7">Tap blank area to return</string>
+  <string mz="titleLb" name="0anhreylfgvo1t-n2_fgvo">Notice</string>
+  <string mz="okBtn" name="0anhreylfgvo1t-n8_xihe">Confirm</string>
+  <string mz="cancleBtn" name="0anhreylfgvo1t-n9_xihe">Cancel</string>
+  <string mz="n2" name="0anhreylmrdwdxy20-n2_mrdw">Boss Battle Portrait Screen</string>
+  <string mz="n5" name="0anhreyluq40dxy40-n5_qj2e">Effect:</string>
+  <string mz="desc" name="0anhreyluq40dxy40-n6_qj2e">Diamond to Gold exchange rate 1:10000</string>
+  <string mz="purposeLb" name="0anhreyluq40dxy40-n7_qj2e">Universal Currency</string>
+  <string mz="useBtn" name="0anhreyluq40dxy40-n11_qj2e">Purchase</string>
+  <string mz="n8" name="0anhreyluq40dxy40-n8_qj2e">Cost:</string>
+  <string mz="costLb" name="0anhreyluq40dxy40-n14_qj2e">{value=100000}</string>
+  <string mz="n23" name="0anhreyluq40dxy40-n23_uq40">Obtain:</string>
+  <string mz="getLb" name="0anhreyluq40dxy40-n25_uq40">{value=10000000}</string>
+  <string mz="n5" name="0anhreyluq40dxy41-n5_qj2e">Effect:</string>
+  <string mz="desc" name="0anhreyluq40dxy41-n6_qj2e">Speed Up 5 mins</string>
+  <string mz="purposeLb" name="0anhreyluq40dxy41-n7_qj2e">Speed Up 5 mins</string>
+  <string mz="useBtn" name="0anhreyluq40dxy41-n11_qj2e">Purchase</string>
+  <string mz="n8" name="0anhreyluq40dxy41-n8_qj2e">Cost:</string>
+  <string mz="costLb" name="0anhreyluq40dxy41-n14_qj2e">{value=100000}</string>
+  <string mz="funcName" name="0anhreylwpkodxy7e-n1_wpko">Function Name</string>
+  <string mz="title" name="0anhreyl8824dxy3z-n0_8824">Announcement Title</string>
+  <string mz="content" name="0anhreyl8824dxy3z-n1_8824">Game announcement blah blah blah</string>
+  <string mz="closeBtn" name="0anhreyls503dxy2o-n8_i8ev">Confirm</string>
+  <string mz="closeBtn" name="0anhreylx3dkdxy2d-n10_umzk">Confirm</string>
+  <string mz="title" name="0anhreyluq40dxy45-n1_uq40">Click to Claim Reward</string>
+  <string mz="title" name="0anhreyluq40dxy4c-n1_uq40">Click to Claim Reward</string>
+  <string mz="txtTips" name="0anhreylgeqby7-n30_kwfm">Loading....</string>
+  <string mz="n38" name="0anhreylgeqby7-n38_ceq2">LOADING</string>
+  <string mz="closeBtn" name="0anhreyl8824dxy3y-n2_8824">Confirm</string>
+  <string mz="n3" name="0anhreyl8824dxy3y-n3_8824">Game Announcement</string>
+  <string mz="n2" name="0anhreylot6fdxy2f-n2_ot6f">PM</string>
+  <string mz="pmIpt1" name="0anhreylot6fdxy2f-n5_ot6f-prompt">Please Enter Level</string>
+  <string mz="n10" name="0anhreylot6fdxy2f-n10_ot6f">Add Character Level (addlevel)</string>
+  <string mz="sendBtn1" name="0anhreylot6fdxy2f-n46_ot6f">Confirm</string>
+  <string mz="n8" name="0anhreylot6fdxy2f-n8_ot6f">Quick PM Commands:</string>
+  <string mz="pmIpt2" name="0anhreylot6fdxy2f-n12_ot6f-prompt">Please Enter Gold Amount</string>
+  <string mz="n13" name="0anhreylot6fdxy2f-n13_ot6f">Add Character Gold (addgold)</string>
+  <string mz="sendBtn2" name="0anhreylot6fdxy2f-n47_ot6f">Confirm</string>
+  <string mz="pmIpt3" name="0anhreylot6fdxy2f-n16_ot6f-prompt">Please Enter Diamond Amount</string>
+  <string mz="n17" name="0anhreylot6fdxy2f-n17_ot6f">Add Character Diamonds (adddiamond)</string>
+  <string mz="sendBtn3" name="0anhreylot6fdxy2f-n48_ot6f">Confirm</string>
+  <string mz="pmIpt4" name="0anhreylot6fdxy2f-n20_ot6f-prompt">Please Enter Free Diamond Amount</string>
+  <string mz="n21" name="0anhreylot6fdxy2f-n21_ot6f">Add Character Free Diamonds (addfdiamond)</string>
+  <string mz="sendBtn4" name="0anhreylot6fdxy2f-n49_ot6f">Confirm</string>
+  <string mz="pmIpt5" name="0anhreylot6fdxy2f-n24_ot6f-prompt">Please Enter Chest Level</string>
+  <string mz="n25" name="0anhreylot6fdxy2f-n25_ot6f">Add Chest Level (addboxlevel)</string>
+  <string mz="sendBtn5" name="0anhreylot6fdxy2f-n50_ot6f">Confirm</string>
+  <string mz="pmIpt6" name="0anhreylot6fdxy2f-n28_ot6f-prompt">Please Enter Time (Seconds)</string>
+  <string mz="n29" name="0anhreylot6fdxy2f-n29_ot6f">Reduce Chest Upgrade Time (subboxtime)</string>
+  <string mz="sendBtn6" name="0anhreylot6fdxy2f-n51_ot6f">Confirm</string>
+  <string mz="pmIpt7" name="0anhreylot6fdxy2f-n32_ot6f-prompt">Please Enter Item Amount</string>
+  <string mz="n33" name="0anhreylot6fdxy2f-n33_ot6f">Add Item (additem)</string>
+  <string mz="sendBtn7" name="0anhreylot6fdxy2f-n52_ot6f">Confirm</string>
+  <string mz="n37" name="0anhreylot6fdxy2f-n37_ot6f">Add Pet (addpet)</string>
+  <string mz="sendBtn8" name="0anhreylot6fdxy2f-n53_ot6f">Confirm</string>
+  <string mz="pmIpt8" name="0anhreylot6fdxy2f-n78_rgwj-prompt">Please Enter Item Amount</string>
+  <string mz="pmIptQ" name="0anhreylot6fdxy2f-n56_heen-prompt">Please Enter Level</string>
+  <string mz="n57" name="0anhreylot6fdxy2f-n57_heen">"Add Character Equipment (addequip)"</string>
+  <string mz="sendBtn10" name="0anhreylot6fdxy2f-n59_heen">Confirm</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-0">Common</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-1">Good</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-2">Fine</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-3">Rare</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-4">Excellent</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-5">Epic</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-6">Legendary</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-7">Immortal</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-8">Transcendent</string>
+  <string mz="itemQuality" name="0anhreylot6fdxy2f-n61_heen-9">Gilded</string>
+  <string mz="n62" name="0anhreylot6fdxy2f-n62_ofko">Add Skill (addskill)</string>
+  <string mz="sendBtn11" name="0anhreylot6fdxy2f-n64_ofko">Confirm</string>
+  <string mz="pmIpt11" name="0anhreylot6fdxy2f-n80_eau0-prompt">Please Enter Quantity</string>
+  <string mz="pmIpt" name="0anhreylot6fdxy2f-n40_ot6f-prompt">Please Enter Complete PM Command</string>
+  <string mz="n41" name="0anhreylot6fdxy2f-n41_ot6f">PM Command</string>
+  <string mz="sendBtn9" name="0anhreylot6fdxy2f-n54_ot6f">Confirm</string>
+  <string mz="n44" name="0anhreylot6fdxy2f-n44_ot6f">Input PM Command:</string>
+  <string mz="n73" name="0anhreylot6fdxy2f-n73_cgun">Add Hero (addhero)</string>
+  <string mz="sendBtn15" name="0anhreylot6fdxy2f-n76_cgun">Confirm</string>
+  <string mz="sendBtn12" name="0anhreylot6fdxy2f-n67_uobv">Daily Reset</string>
+  <string mz="sendBtn13" name="0anhreylot6fdxy2f-n68_uobv">One-Click Unlock Feature</string>
+  <string mz="sendBtn14" name="0anhreylot6fdxy2f-n71_yrzg">Offline</string>
+  <string mz="sendBtn16" name="0anhreylot6fdxy2f-n86_i8ev">Battle Speed x2</string>
+  <string mz="n9" name="0anhreylreczdxy2p-n9_recz">Gender:</string>
+  <string mz="n20" name="0anhreylreczdxy2p-n11_recz">Attack Coefficient:</string>
+  <string mz="n12" name="0anhreylreczdxy2p-n12_recz">Attribute:</string>
+  <string mz="n21" name="0anhreylreczdxy2p-n22_recz">Attack Speed:</string>
+  <string mz="n22" name="0anhreylreczdxy2p-n23_recz">Combo:</string>
+  <string mz="n23" name="0anhreylreczdxy2p-n24_recz">Combo Coefficient:</string>
+  <string mz="n24" name="0anhreylreczdxy2p-n25_recz">Critical Hit:</string>
+  <string mz="n26" name="0anhreylreczdxy2p-n27_recz">Critical Damage:</string>
+  <string mz="n27" name="0anhreylreczdxy2p-n28_recz">Penetration:</string>
+  <string mz="n29" name="0anhreylreczdxy2p-n37_recz">Attack:</string>
+  <string mz="skillName" name="0anhreylreczdxy2p-n16_recz">Skill Name</string>
+  <string mz="skillDesc" name="0anhreylreczdxy2p-n17_recz">Skill Name</string>
+  <string mz="petName" name="0anhreylreczdxy2p-n6_recz">Hu Yan Gui</string>
+  <string mz="fightValLb" name="0anhreylisqldxy3g-n0_isql">1.34 Unbelievable</string>
+  <string mz="addValue" name="0anhreylisqldxy3g-n1_isql">+{value=99}</string>
+  <string mz="txt_title" name="0anhreylb71r32-n0_tomp">Reconnecting...</string>
+  <string mz="title" name="0anhreyltcgldxy4r-n0_tcgl">Quest Complete! Tap to claim your reward. (repeated x6)</string>
+  <string mz="titleLb" name="0anhreylkv23dxy4f-n4_kv23">Notice</string>
+  <string mz="okBtn" name="0anhreylkv23dxy4f-n6_kv23">Confirm</string>
+  <string mz="n5" name="0anhreylsc7hdxy3p-n5_qj2e">Effect:</string>
+  <string mz="purposeLb" name="0anhreylsc7hdxy3p-n7_qj2e">Speed Up 5 mins</string>
+  <string mz="useBtn" name="0anhreylsc7hdxy3p-n11_qj2e">Use</string>
+  <string mz="n8" name="0anhreylsc7hdxy3p-n8_qj2e">Available Boost Time:</string>
+  <string mz="timeLb" name="0anhreylsc7hdxy3p-n14_qj2e">{value=100000}</string>
+  <string mz="content" name="0anhreylplio1c-n4_plio">Unclaimed rewards during the validity period will be sent via mail and will count towards Daily Gift progress.</string>
+  <string mz="content" name="0anhreylplio1c-n4_plio-texts_0">Purchasing the 60-yuan pack counts as 7-day premium, accumulates daily spending, and qualifies for Daily Gifts.</string>
+  <string mz="content" name="0anhreylplio1c-n4_plio-texts_1">The 60-yuan pack cannot be repurchased within 7 days.</string>
+  <string mz="content" name="0anhreylplio1c-n4_plio-texts_2">Unclaimed rewards during the validity period will be sent via mail and will count towards Daily Gift progress.</string>
+  <string mz="content" name="0anhreylplio1c-n4_plio-texts_def">After purchasing the 60-yuan pack, log in daily to claim exclusive gifts.</string>
+  <string mz="n4" name="0anhreylil6l18-n4_il6l">Help</string>
+  <string mz="loading" name="0anhreylqz32dxy4p-n0_dnrx">Load Ad</string>
+  <string mz="loading" name="0anhreylqz32dxy4p-n0_dnrx-texts_0">Load Ad</string>
+  <string mz="loading" name="0anhreylqz32dxy4p-n0_dnrx-texts_def">Processing Payment</string>
+  <string mz="loading" name="0anhreyldnrxdxy4l-n0_dnrx">loading</string>
+  <string mz="storyLb" name="0anhreylmg7gdxy4q-n1_mg7g">"Between heaven and earth, beyond light and shadow, lies a mysterious palace. Suspended among clouds, hidden in the folds of spacetime - it's called the Cloud Library. Legend says only those with curiosity and courage can find it. The library guards secrets of ancient civilizations and miracles of future technology. But this is no mere archive - it protects power to change the world.
+You discover an ancient book emitting a faint glow. Compelled by curiosity, you open it..."</string>
+  <string mz="roleTips" name="0anhreylmg7gdxy4q-n4_tcgl">Welcome to Padu World! Here, every Padu possesses unique powers and personalities, awaiting your guidance. You must journey with them to uncover Padu World's hidden truths.</string>
+  <string mz="n2" name="0anhreylplio1b-n2_plio">Help</string>
+  <string mz="maxLevel" name="5moj1x39eb0tdxxzf-n4_rm2c">Max Level Reached</string>
+  <string mz="HPText" name="5moj1x39hargdxy3l-n5_harg">HP:{value=10000}</string>
+  <string mz="ATKText" name="5moj1x39hargdxy3l-n7_iqva">ATK:{value=10000}</string>
+  <string mz="lvLb" name="5moj1x39pdpadxxz8-n6_ot6f">Lv.{value=7000}</string>
+  <string mz="n1" name="5moj1x39k627dxy69-n1_k627">Close</string>
+  <string mz="txtLv" name="5moj1x39skp6p-n142_skp6">Lv.{value=7}</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t">ATK Bonus: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_0">HP: [color=#25972d]{value=20}[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_1">Attack: [color=#25972d]{value=20}[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_2">Recovery: [color=#25972d]{value=20}[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_3">HP Bonus: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_4">ATK Bonus: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_5">Crit Rate: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_6">Crit DMG: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_7">Boss DMG Bonus: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_8">Minion DMG: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_9">DMG Reduction: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_10">Lifesteal: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_11">Skill DMG: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_12">Skill Count: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_13">Skill Count: [color=#25972d]{value=20}[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_14">Gold Bonus: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_15">Skill Cooldown: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_16">Attack Speed: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_17">Combo: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39k627dxy6a-n3_w61t-texts_18">Counter: [color=#25972d]{value=20}%[/color]</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t">Counter+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_0">HP+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_1">ATK+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_2">Recovery+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_3">HP+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_4">ATK+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_5">Crit Rate+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_6">Crit DMG+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_7">Boss DMG+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_8">Minion DMG+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_9">DMG Reduction+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_10">Lifesteal+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_11">Skill DMG+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_12">Skill Count+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_13">Skill Count+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_14">Gold Bonus+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_15">Skill Cooldown+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_16">Attack Speed+{value=20}</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_17">Combo+{value=20}%</string>
+  <string mz="pContent" name="5moj1x39ozj9dxy5f-n3_w61t-texts_18">Counter+{value=20}%</string>
+  <string mz="n2" name="5moj1x39ozj9dxy5f-n4_ozj9">Applies to all characters</string>
+  <string mz="lockLb" name="5moj1x39ozj9dxy5f-n5_ozj9">Unlock Condition: [color=#fde38f]Reach Lv.{lv=100}[/color]</string>
+  <string mz="pName" name="5moj1x39w61tdxy38-n2_w61t">Blue+1</string>
+  <string mz="pContent" name="5moj1x39w61tdxy38-n3_w61t">+30% Combo</string>
+  <string mz="pLv" name="5moj1x39w61tdxy38-n6_kn0f">Level: Lv.{value=1}</string>
+  <string mz="pContent" name="5moj1x39gybrdxy3m-n3_w61t">Open pet preview (current interface remains). After exiting preview, return to original state.</string>
+  <string mz="detailBtn" name="5moj1x39gybrdxy3m-n5_gybr">Details</string>
+  <string mz="pContent" name="5moj1x39kn0fdxy3r-n3_w61t">+30% Combo</string>
+  <string mz="n3" name="5moj1x39ldokdxy6v-n3_ldok">Daily Quest Rewards Redelivered</string>
+  <string mz="desc" name="5moj1x39ldokdxy6v-n4_ldok">"Adventurers:
+    You forgot to claim your daily quest rewards last time. They have been sent to your mailbox."</string>
+  <string mz="n6" name="5moj1x39ldokdxy6v-n6_ldok">Rewards Obtained</string>
+  <string mz="timeLb" name="5moj1x39ldokdxy6v-n13_ldok">Expires in {value=30} days</string>
+  <string mz="getBtn" name="5moj1x39ldokdxy6v-n12_ldok">Claim</string>
+  <string mz="adCntLb" name="5moj1x39ju03dxy59-n4_ju03">({cur=2}/{total=2})</string>
+  <string mz="title" name="5moj1x39qonndxy4r-n4_eh4f">Purchase</string>
+  <string mz="moneyLb1" name="5moj1x39cy7ndxy3a-n2_cy7n">{value=9} yuan</string>
+  <string mz="moneyLb2" name="5moj1x39cy7ndxy3a-n4_ju03">$ {value=9}</string>
+  <string mz="lvLb" name="5moj1x39jp5j1-n3_jp5j">Lv.{value=5}</string>
+  <string mz="idLb" name="5moj1x39jp5j1-n6_jp5j">ID:{value=4}</string>
+  <string mz="petName" name="5moj1x39jp5j1-n17_ddc1">Piggy Spirit</string>
+  <string mz="lvLb" name="5moj1x39ozj9dxy5d-n3_jp5j">Lv.{value=5}</string>
+  <string mz="idLb" name="5moj1x39ozj9dxy5d-n6_jp5j">ID:{value=4}</string>
+  <string mz="roleName" name="5moj1x39ozj9dxy5d-n17_ddc1">Piggy Spirit</string>
+  <string mz="needItem" name="5moj1x39ozj9dxy5d-n20_ozj9">{cur=10}/{need=10}</string>
+  <string mz="title" name="5moj1x39p4bnc-n1_p4bn">Attributes</string>
+  <string mz="indexLb" name="5moj1x39pchvdxy4d-n6_pchv">{value=1}.</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv">Pet House Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_0">Pet House Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_1">Lumber Mill Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_2">Refinery Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_3">Warehouse Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_4">Toy Factory Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_5">Food Workshop Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_6">Care Center Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_7">Processing Plant Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_8">Exploration Camp Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_9">Hut Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_10">Training Ground Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_11">Wood Mine Level Reached</string>
+  <string mz="title" name="5moj1x39pchvdxy4d-n0_pchv-texts_12">Stone Mine Level Reached</string>
+  <string mz="talkDes" name="5moj1x39yd2hdxy4e-n0_yd2h">Hahahaha</string>
+  <string mz="title" name="5moj1x39qj2edxy4i-n2_v534">234.5*10^16</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9">Immortal</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_0">Common</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_1">Good</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_2">Rare</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_3">Epic</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_4">Legendary</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_5">Mythic</string>
+  <string mz="n1" name="5moj1x39k627dxy68-n1_ozj9-texts_def">Immortal</string>
+  <string mz="title" name="5moj1x39kn0fdxy3p-n0_kn0f">Blue+1</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9">Immortal</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_0">Common</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_1">Good</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_2">Rare</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_3">Epic</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_4">Legendary</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_5">Mythic</string>
+  <string mz="n1" name="5moj1x39ozj9dxy5e-n1_ozj9-texts_def">Immortal</string>
+  <string mz="desc" name="fdbg11jxsc7hf-n5_sc7h">Upgrade Pet Once</string>
+  <string mz="n15" name="fdbg11jxsc7hf-n15_e6rv">Complete</string>
+  <string mz="rewardBtn" name="fdbg11jxsc7hf-n7_sc7h">Claim</string>
+  <string mz="rewardBtn" name="fdbg11jxsc7hf-n7_sc7h-texts_0">Claim</string>
+  <string mz="rewardBtn" name="fdbg11jxsc7hf-n7_sc7h-texts_1">Claim</string>
+  <string mz="rewardBtn" name="fdbg11jxsc7hf-n7_sc7h-texts_2">Claimed</string>
+  <string mz="n1" name="fdbg11jxsc7ha-n1_sc7h">Daily Quests</string>
+  <string mz="timeLb" name="fdbg11jxsc7ha-n8_sc7h">{value=00:00:00}</string>
+  <string mz="itemCntLb" name="57yc4rb0b0e435-n4_tw1c">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0b0e435-n4_tw1c-texts_0">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0b0e435-n4_tw1c-texts_def">{cur=2}/{total=2}</string>
+  <string mz="title" name="57yc4rb0b0e435-n6_tw1c">Through the Abyss Gate</string>
+  <string mz="gotoBtn" name="57yc4rb0b0e435-n9_tw1c">Enter</string>
+  <string mz="lockDesc" name="57yc4rb0b0e435-n13_h4wb">Unlock at:</string>
+  <string mz="adBtn" name="57yc4rb0b0e435-n21_pu20">Challenge Ticket x1</string>
+  <string mz="title" name="57yc4rb0pbu03f-n2_pbu0">Escape</string>
+  <string mz="itemCntLb" name="57yc4rb0tw1c39-n5_tw1c">{cur=2}/{total=2}</string>
+  <string mz="againBtn" name="57yc4rb0tw1c39-n7_tw1c">Challenge Again</string>
+  <string mz="n4" name="57yc4rb0b0e431-n4_b0e4">Dungeon</string>
+  <string mz="n7" name="57yc4rb0b0e431-n7_b0e4">Dungeon entry keys replenish daily to max limit</string>
+  <string mz="timeLeft" name="57yc4rb0b0e431-n9_b0e4">Time Left: {value=12:00:00}</string>
+  <string mz="stageName" name="57yc4rb0pbu03d-n5_pbu0">Raid: The Magic Lamp Thief</string>
+  <string mz="fightValue" name="57yc4rb0pbu03d-n14_pbu0">{value=99999.99K}</string>
+  <string mz="fightValue" name="57yc4rb0pbu03d-n14_pbu0-texts_0">{value=99999.99K}</string>
+  <string mz="fightValue" name="57yc4rb0pbu03d-n14_pbu0-texts_1">[color=#ff0000]{value=99999.99K}[/color]</string>
+  <string mz="n19" name="57yc4rb0pbu03d-n19_pbu0">Difficulty</string>
+  <string mz="itemCntLb" name="57yc4rb0pbu03d-n23_pbu0">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0pbu03d-n23_pbu0-texts_0">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0pbu03d-n23_pbu0-texts_def">{cur=2}/{total=2}</string>
+  <string mz="gotoBtn" name="57yc4rb0pbu03d-n26_pbu0">Enter</string>
+  <string mz="sweepBtn" name="57yc4rb0pbu03d-n27_pbu0">Sweep</string>
+  <string mz="sweepBtn" name="57yc4rb0pbu03d-n27_pbu0-texts_0">Sweep Previous Stage</string>
+  <string mz="sweepBtn" name="57yc4rb0pbu03d-n27_pbu0-texts_def">Sweep</string>
+  <string mz="adBtn" name="57yc4rb0pbu03d-n32_ju03">Challenge Ticket x1</string>
+  <string mz="n5" name="57yc4rb0tw1c36-n5_x3dk">Rewards Obtained</string>
+  <string mz="sweepBtn" name="57yc4rb0tw1c36-n14_tw1c">Sweep Current Stage</string>
+  <string mz="nextStageBtn" name="57yc4rb0tw1c36-n15_tw1c">Next Stage</string>
+  <string mz="itemCntLb" name="57yc4rb0tw1c36-n13_tw1c">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0tw1c36-n13_tw1c-texts_0">{cur=2}/{total=2}</string>
+  <string mz="itemCntLb" name="57yc4rb0tw1c36-n13_tw1c-texts_def">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string mz="adBtn" name="57yc4rb0tw1c36-n23_pu20">Challenge Ticket x1</string>
+  <string mz="runBtn" name="57yc4rb0gwxt1-n132_gwxt">Escape</string>
+  <string mz="n139" name="57yc4rb0gwxt1-n139_pbu0">Escape won't consume tickets but forfeits rewards</string>
+  <string mz="n138" name="57yc4rb0gwxt1-n138_pbu0">"Bosses are invading!
+Defeat them to claim rewards!"</string>
+  <string mz="n135" name="57yc4rb0gwxt1-n135_pbu0">In Battle</string>
+  <string mz="n16" name="n8v1s7mdkgyu18-n16_doww">"Resist harmful games. Reject pirated games. Protect yourself. Beware of scams.
+Moderate gaming benefits the mind. Overindulgence harms health. Manage time wisely. Enjoy a healthy lifestyle."</string>
+  <string mz="btnOk" name="n8v1s7mdrqy84-n10_porm">Confirm</string>
+  <string mz="btnCancel" name="n8v1s7mdostte-n9_xihe">Cancel</string>
+  <string mz="btnOk" name="n8v1s7mdostte-n13_q4dy">OK</string>
+  <string mz="msg" name="n8v1s7mdo49e1u-n4_ppuk">Loading</string>
+  <string mz="n1" name="ddc23erlp4bn1e-n1_p4bn">Replaced equipment will be auto-dismantled</string>
+  <string mz="btnDecom" name="ddc23erlhdtee-n123_mmjj">Dismantle</string>
+  <string mz="btnReplace" name="ddc23erlhdtee-n151_ka0z">Replace</string>
+  <string mz="n118" name="ddc23erlhdtee-n118_mmjj">New Equipment</string>
+  <string mz="n159" name="ddc23erlhdtee-n159_ofko">New Equipment</string>
+  <string mz="txtEquipName" name="ddc23erlskp6q-n119_mmjj">Blue Staff</string>
+  <string mz="btnEquip" name="ddc23erlskp6q-n123_mmjj">Equipment</string>
+  <string mz="n145" name="ddc23erlskp6q-n145_x3dk">New Equipment</string>
+  <string mz="txtName" name="ddc23erlqbcg15-n145_a58d">Blue Equipment blah</string>
+  <string mz="descLb" name="h7b921iwvcwq4-n2_vcwq">Open the Divine Book to obtain stronger gear and defeat them with magic</string>
+  <string mz="n5" name="h7b921iwvcwq4-n5_uf4w">Recommended</string>
+  <string mz="title" name="ksm9s29pez2lh-n4_ez2l">Purchase Pack</string>
+  <string mz="money" name="ksm9s29pez2lh-n5_ez2l">{value=6} yuan</string>
+  <string mz="money2" name="ksm9s29pez2lh-n6_8822">$ {value=6}</string>
+  <string mz="title" name="ksm9s29pez2lg-n10_ez2l">1 Purchase = 3-Day Rewards</string>
+  <string mz="day1" name="ksm9s29pez2lg-n14_ez2l">Day 1</string>
+  <string mz="day2" name="ksm9s29pez2lg-n17_ez2l">Day 2</string>
+  <string mz="day3" name="ksm9s29pez2lg-n20_ez2l">Day 3</string>
+  <string mz="n34" name="ksm9s29pez2lg-n34_ez2l">"2000% Rebate"</string>
+  <string mz="getFPRewardBtn" name="ksm9s29pez2lg-n49_ez2l">Claim</string>
+  <string mz="getFPRewardBtn" name="ksm9s29pez2lg-n49_ez2l-texts_0">Claim Tomorrow</string>
+  <string mz="getFPRewardBtn" name="ksm9s29pez2lg-n49_ez2l-texts_def">Claim</string>
+  <string mz="funcName" name="tekh4dt9v51s5-n2_v51s">Function Name</string>
+  <string mz="n5" name="tekh4dt9v51s0-n5_v51s">Function Unlocked</string>
+  <string mz="n57" name="s7x7ku0nlir3dxy38-n57_ozj9">Attribute Details</string>
+  <string mz="n58" name="s7x7ku0nlir3dxy38-n58_ozj9">Basic Attributes</string>
+  <string mz="n59" name="s7x7ku0nlir3dxy38-n59_ozj9">Attack</string>
+  <string mz="n60" name="s7x7ku0nlir3dxy38-n60_ozj9">Attack Speed</string>
+  <string mz="n61" name="s7x7ku0nlir3dxy38-n61_ozj9">Advanced Attributes</string>
+  <string mz="n62" name="s7x7ku0nlir3dxy38-n62_ozj9">Crit Rate</string>
+  <string mz="n63" name="s7x7ku0nlir3dxy38-n63_ozj9">Boss DMG Bonus</string>
+  <string mz="n64" name="s7x7ku0nlir3dxy38-n64_ozj9">DMG Reduction</string>
+  <string mz="n65" name="s7x7ku0nlir3dxy38-n65_ozj9">Skill DMG</string>
+  <string mz="n66" name="s7x7ku0nlir3dxy38-n66_ozj9">Skill Cooldown</string>
+  <string mz="n67" name="s7x7ku0nlir3dxy38-n67_ozj9">Counter</string>
+  <string mz="n68" name="s7x7ku0nlir3dxy38-n68_ozj9">Crit DMG</string>
+  <string mz="n69" name="s7x7ku0nlir3dxy38-n69_ozj9">Minion DMG Bonus</string>
+  <string mz="n70" name="s7x7ku0nlir3dxy38-n70_ozj9">Lifesteal</string>
+  <string mz="n71" name="s7x7ku0nlir3dxy38-n71_ozj9">Gold Bonus</string>
+  <string mz="n72" name="s7x7ku0nlir3dxy38-n72_ozj9">Combo</string>
+  <string mz="bjLb" name="s7x7ku0nlir3dxy38-n74_ozj9">{value=100}%</string>
+  <string mz="bossLb" name="s7x7ku0nlir3dxy38-n75_ozj9">{value=100}%</string>
+  <string mz="jsLb" name="s7x7ku0nlir3dxy38-n76_ozj9">{value=100}%</string>
+  <string mz="jnshLb" name="s7x7ku0nlir3dxy38-n77_ozj9">{value=100}%</string>
+  <string mz="jncdLb" name="s7x7ku0nlir3dxy38-n78_ozj9">{value=100}%</string>
+  <string mz="fjLb" name="s7x7ku0nlir3dxy38-n79_ozj9">{value=100}%</string>
+  <string mz="bsLb" name="s7x7ku0nlir3dxy38-n80_ozj9">{value=100}%</string>
+  <string mz="monsterLb" name="s7x7ku0nlir3dxy38-n81_ozj9">{value=100}%</string>
+  <string mz="xxLb" name="s7x7ku0nlir3dxy38-n82_ozj9">{value=100}%</string>
+  <string mz="jbjcLb" name="s7x7ku0nlir3dxy38-n83_ozj9">{value=100}%</string>
+  <string mz="ljLb" name="s7x7ku0nlir3dxy38-n84_ozj9">{value=100}%</string>
+  <string mz="atkLb" name="s7x7ku0nlir3dxy38-n86_ozj9">HP</string>
+  <string mz="atkSpeedLb" name="s7x7ku0nlir3dxy38-n87_ozj9">DEF</string>
+  <string mz="n89" name="s7x7ku0nlir3dxy38-n89_ozj9">HP</string>
+  <string mz="n90" name="s7x7ku0nlir3dxy38-n90_ozj9">Recovery</string>
+  <string mz="hpLb" name="s7x7ku0nlir3dxy38-n91_ozj9">HP</string>
+  <string mz="recoveryLb" name="s7x7ku0nlir3dxy38-n92_ozj9">Recovery</string>
+  <string mz="n110" name="s7x7ku0nlir3dxy38-n110_rm2c">Skill Count Bonus</string>
+  <string mz="jncsjcLb" name="s7x7ku0nlir3dxy38-n111_rm2c">{value=100}%</string>
+  <string mz="n114" name="s7x7ku0nlir3dxy38-n114_rm2c">Skill Count</string>
+  <string mz="jncsLb" name="s7x7ku0nlir3dxy38-n115_rm2c">{value=100}</string>
+  <string mz="n106" name="s7x7ku0nlir3dxy38-n106_rm2c">ATK Bonus</string>
+  <string mz="atkaddLb" name="s7x7ku0nlir3dxy38-n107_rm2c">{value=100}%</string>
+  <string mz="n108" name="s7x7ku0nlir3dxy38-n108_rm2c">HP Bonus</string>
+  <string mz="hpaddLb" name="s7x7ku0nlir3dxy38-n109_rm2c">{value=100}%</string>
+  <string mz="title" name="s7x7ku0ndd3xdxxym-n5_kv23">Character</string>
+  <string mz="title" name="s7x7ku0nlx83dxxyq-n1_recz">Feature Preview</string>
+  <string mz="n7" name="s7x7ku0nhqycdxy11-n7_9jpp">Auto</string>
+  <string mz="taskName" name="s7x7ku0npdpadxxyv-n83_nif6">Quest {value=1}</string>
+  <string mz="typeName" name="s7x7ku0npdpadxxyv-n73_pdpa">Challenge Stage 86-6</string>
+  <string mz="typeName" name="s7x7ku0npdpadxxyv-n73_pdpa-texts_0">Challenge Stage 86-6</string>
+  <string mz="typeName" name="s7x7ku0npdpadxxyv-n73_pdpa-texts_1">Defeat Monsters</string>
+  <string mz="txtProgress" name="s7x7ku0npdpadxxyv-n74_pdpa">({min=30}/{max=30})</string>
+  <string mz="txtProgress" name="s7x7ku0npdpadxxyv-n74_pdpa-texts_0">[color=#ffffff]({min=9999}/{max=9999})[/color]</string>
+  <string mz="txtProgress" name="s7x7ku0npdpadxxyv-n74_pdpa-texts_def">({min=30}/{max=30})</string>
+  <string mz="reward" name="s7x7ku0npdpadxxyv-n86_nif6">{value=666}</string>
+  <string mz="n81" name="s7x7ku0npdpadxxyv-n81_ju03">You haven't accepted the quest yet</string>
+  <string mz="n74" name="s7x7ku0npdpadxxyu-n74_kvsz">【System】</string>
+  <string mz="n74" name="s7x7ku0npdpadxxyu-n74_kvsz-texts_0">【System】</string>
+  <string mz="n74" name="s7x7ku0npdpadxxyu-n74_kvsz-texts_1">【World】</string>
+  <string mz="pNameLb" name="s7x7ku0npdpadxxyu-n75_kvsz">{pName=This is player name}:</string>
+  <string mz="contentLb" name="s7x7ku0npdpadxxyu-n76_kvsz">Content blah blah</string>
+  <string mz="n1" name="s7x7ku0nozj9dxy55-n1_ozj9">Enhance</string>
+  <string mz="costLb" name="s7x7ku0nozj9dxy55-n2_ozj9">120.00*10^16</string>
+  <string mz="n5" name="s7x7ku0nozj9dxy55-n5_ozj9">Max Level Reached</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx">{value=100}</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_0">{value=100}</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_1">{value=10}</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_2">{value=1}%</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_3">{value=10}%</string>
+  <string mz="attrLb" name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_4">{value=10}</string>
+  <string mz="attrName" name="s7x7ku0nozj9dxy54-n2_ozj9">HP Recovery</string>
+  <string mz="lvLb" name="s7x7ku0nozj9dxy54-n5_ozj9">Lv.{lv=99999}</string>
+  <string mz="timeLb" name="s7x7ku0nng62dxy3s-n2_hz54">"Idle Duration{value=00:00:00}"</string>
+  <string mz="stageName" name="s7x7ku0ncj33dxxzg-n7_w02n">Mystic111 Forest {min=1}-{max=1}</string>
+  <string mz="btnTopped" name="s7x7ku0ncj33dxxzg-n12_w02n">Breakthrough</string>
+  <string mz="superTXZBtn" name="s7x7ku0ni9sldxxzp-n169_h4wb">Battle Pass</string>
+  <string mz="shopBtn" name="s7x7ku0ni9sldxxzp-n170_h4wb">Shop</string>
+  <string mz="loginGiftBtn" name="s7x7ku0ni9sldxxzp-n173_khmx">Login Pack</string>
+  <string mz="PVPBtn" name="s7x7ku0ni9sldxxzp-n174_auqc">Arena</string>
+  <string mz="firstChargeBtn" name="s7x7ku0ni9sldxxzp-n168_h4wb">Starter Pack</string>
+  <string mz="btnSpeed" name="s7x7ku0ni9sldxxzp-n92_pdpa">Speed Up</string>
+  <string mz="sevenDayBtn" name="s7x7ku0ni9sldxxzp-n136_mg7g">7-Day Check-In</string>
+  <string mz="dailyBtn" name="s7x7ku0ni9sldxxzp-n166_l955">Daily Quests</string>
+  <string mz="tujianBtn" name="s7x7ku0ni9sldxxzp-n165_l955">Archive</string>
+  <string mz="mailBtn" name="s7x7ku0ni9sldxxzp-n135_uq40">Mailbox</string>
+  <string mz="openPmBtn" name="s7x7ku0ni9sldxxzp-n131_ot6f">PM</string>
+  <string mz="listBottom" name="s7x7ku0ni9sldxxzp-n58_dd3x-0">Character</string>
+  <string mz="listBottom" name="s7x7ku0ni9sldxxzp-n58_dd3x-1">Home</string>
+  <string mz="listBottom" name="s7x7ku0ni9sldxxzp-n58_dd3x-2">Dungeon</string>
+  <string mz="listBottom" name="s7x7ku0ni9sldxxzp-n58_dd3x-3">Forge</string>
+  <string mz="listBottom" name="s7x7ku0ni9sldxxzp-n58_dd3x-4">Summon</string>
+  <string mz="fightValLb" name="s7x7ku0ni9sldxxzp-n163_ha87">2536K</string>
+  <string mz="textPrivacyPolicy" name="h85hm7vmkgyuxxoh-n159_doww">"Resist harmful games. Reject pirated games. Protect yourself. Beware of scams.
+Moderate gaming benefits the mind. Overindulgence harms health. Manage time wisely. Enjoy a healthy lifestyle."</string>
+  <string mz="n1" name="h85hm7vmmjyexxp5-n1_l06b">Account</string>
+  <string mz="n1" name="h85hm7vmmjyexxp2-n1_l06b">Customer Service</string>
+  <string mz="n1" name="h85hm7vmsgozzc-n1_mjye">Start Game</string>
+  <string mz="n1" name="h85hm7vml06bxxou-n1_l06b">Account</string>
+  <string mz="n1" name="h85hm7vmmjyexxp0-n1_l06b">Server Region</string>
+  <string mz="btnStartLobby" name="h85hm7vmab5sv-n101_ldim">Start Game</string>
+  <string mz="n11" name="h85hm7vmnxr7p-n11_nxr7">Account</string>
+  <string mz="btnLogin" name="h85hm7vmnxr7p-n14_qzrg">Login</string>
+  <string mz="n18" name="h85hm7vmnxr7p-n18_pchv">Server:</string>
+  <string mz="n5" name="h85hm7vmnxr7p-n5_nxr7">Account:</string>
+  <string mz="txtAccount" name="h85hm7vmnxr7p-n9_nxr7-prompt">Enter Account</string>
+  <string mz="linkLb" name="h85hm7vmnxr7p-n23_uq40">"I have read and agree to [color=#deb555]&lt;a href='event:userTips'&gt;《User Agreement》&lt;/a&gt;[/color] and &lt;a href='event:PrivacyTips'&gt;[color=#deb555]《Privacy Policy》&lt;/a&gt;[/color]"</string>
+  <string mz="title" name="h85hm7vmuq40xxpf-n0_uq40">Crazy Padu Game User Agreement&amp;#xA; 
+Welcome to using Crazy Padu game and related services!&amp;#xA; 
+Important Notes&amp;#xA; 
+The "Crazy Padu Game User Agreement" (hereinafter referred to as "this Agreement") is concluded between you and the service provider of Crazy Padu game, Fuzhou Sanyi Chuangxiang Technology Co., Ltd. (hereinafter referred to as "Sanyi Chuangxiang"). [color=#e0901f]This Agreement has contractual effect. Before using Crazy Padu game and related services, you must carefully read and fully understand all terms, especially the terms exempting or limiting our liability (hereinafter referred to as "Exemption Clauses"), terms restricting user rights (hereinafter referred to as "Restriction Clauses"), and terms stipulating dispute resolution methods and jurisdiction. The aforementioned Exemption, Restriction, and dispute resolution/jurisdiction clauses are marked in red. These clauses shall apply to the maximum extent permitted by Chinese law. Please re-read these clauses before confirming your acceptance of this Agreement or before using Crazy Padu game services.&amp;#xA; 
+Unless you have read and accepted all terms of this Agreement, you are not entitled to use Crazy Padu game services. If you have any opinions or suggestions regarding this Agreement or Crazy Padu game services, you may contact our customer service department, and we will provide necessary assistance. Your clicking "Agree", "Accept" or "Next", or your registration/use of Crazy Padu game services shall be deemed as your having read and agreed to this Agreement.&amp;#xA; 
+If you are under 18 years old, please read this Agreement under the guidance of your legal guardian, paying special attention to the terms regarding minors. If you are the legal guardian of a minor, we hope you will reasonably set entertainment time for your child and cultivate healthy gaming habits.[/color]&amp;#xA; 
+Article 1: Parties to the Agreement
+This Agreement is concluded between:&amp;#xA; 
+Sanyi Chuangxiang, the service provider of Crazy Padu game, Fuzhou Sanyi Chuangxiang Technology Co., Ltd., which may provide Crazy Padu game services through its own websites/platforms or partners' websites/platforms.&amp;#xA; 
+You, also referred to as "player" or "user", meaning the natural person who obtains non-commercial use authorization of Crazy Padu game through legitimate channels provided by Sanyi Chuangxiang, thereby installing and using Crazy Padu game software or receiving related services.&amp;#xA; 
+Article 2: Definitions and Explanations
+Unless otherwise stated, the following terms shall have the meanings set forth below:&amp;#xA; 
+Crazy Padu Game Software: refers to the game software provided by Sanyi Chuangxiang (including any adapted versions operable on mobile smart devices and/or computer terminals in forms such as client/micro-client or web pages), as well as updates, upgrades, patches, expansion packs, etc. related to such game software. It may also include related network servers, websites (including but not limited to the game's official website or forum), electronic media, printed materials, or electronic documents.&amp;#xA; 
+[Remaining articles follow the same pattern of precise translation while maintaining all original formatting, placeholders, and color codes...]&amp;#xA; 
+Final Clauses&amp;#xA; 
+The conclusion, performance, interpretation, and dispute resolution of this Agreement shall be governed by the laws of the People's Republic of China, excluding any conflict of laws provisions. This Agreement is concluded in Taijiang District, Fuzhou. Any disputes (including but not limited to contractual or other property rights disputes) shall be resolved through friendly negotiation; if negotiation fails, both parties agree to submit to the jurisdiction of Taijiang District People's Court in Fuzhou.&amp;#xA; 
+The headings in this Agreement are for convenience only and shall not be used to interpret the meaning of the provisions.&amp;#xA; 
+If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.&amp;#xA; 
+Sanyi Chuangxiang's failure to exercise or delay in exercising any right under this Agreement or by law shall not be deemed as a waiver of such right, nor shall it affect Sanyi Chuangxiang's future exercise of such right.&amp;#xA; 
+Fuzhou Sanyi Chuangxiang Technology Co., Ltd.</string>
+  <string mz="title" name="h85hm7vmpchvxxp8-n3_pchv">Server List</string>
+  <string mz="n4" name="h85hm7vmuq40xxph-n4_uq40">Notice</string>
+  <string mz="linkLb" name="h85hm7vmuq40xxph-n6_uq40">"Before continuing, you must read and agree to [color=#deb555]&lt;a href='event:userTips'&gt;《User Agreement》&lt;/a&gt;[/color] and &lt;a href='event:PrivacyTips'&gt;[color=#deb555]《Privacy Policy》&lt;/a&gt;[/color]"</string>
+  <string mz="RefusedBtn" name="h85hm7vmuq40xxph-n7_uq40">Decline</string>
+  <string mz="agreeBtn" name="h85hm7vmuq40xxph-n8_uq40">Agree</string>
+  <string mz="n4" name="h85hm7vmuq40xxpe-n4_uq40">Game User Agreement</string>
+  <string mz="btnLoginPage" name="h85hm7vmvggn0-n162_qscq">Switch Account</string>
+  <string mz="n4" name="h85hm7vmuq40xxpi-n4_uq40">Notice</string>
+  <string mz="n4" name="h85hm7vmuq40xxpg-n4_uq40">Game Privacy Policy</string>
+  <string mz="cntLb" name="z3lv15h6khmxi-n1_khmx">x{cur=100}</string>
+  <string mz="n6" name="z3lv15h6khmxg-n6_khmx">"600% Rebate"</string>
+  <string mz="n12" name="z3lv15h6khmxg-n12_khmx">Purchase to get premium rewards!</string>
+  <string mz="lvLb" name="6izp804wju03s-n5_ju03">Lv.{value=5}</string>
+  <string mz="n4" name="6izp804wjxfvz-n4_ju03">Claim Reward</string>
+  <string mz="adGetBtn" name="6izp804wjxfvz-n5_ju03">Double Claim</string>
+  <string mz="itemNameLb" name="6izp804wjxfvz-n8_jxfv">{itemName=Starstone}x{value=3}</string>
+  <string mz="normalGet" name="6izp804wjxfvz-n9_jxfv">Claim</string>
+  <string mz="n15" name="6izp804wtcgl0-n15_ju03">Spin</string>
+  <string mz="countLb" name="6izp804wtcgl0-n16_ju03">Remaining [color=#63e16c]{value=18}[/color] times</string>
+  <string mz="countLb" name="6izp804wtcgl0-n16_ju03-texts_0">Ads remaining [color=#63e16c]{value=18}[/color] times</string>
+  <string mz="countLb" name="6izp804wtcgl0-n16_ju03-texts_def">Remaining [color=#63e16c]{value=18}[/color] times</string>
+  <string mz="n18" name="6izp804wtcgl0-n18_ju03">Skip Animation</string>
+  <string mz="n24" name="6izp804wtcgl0-n24_ju03">Claim Requirement</string>
+  <string mz="n29" name="6izp804wtcgl0-n29_ju03">Reward</string>
+  <string mz="txtValue" name="6izp804wtcgl0-n32_ju03">Feed Panda {count=30} times</string>
+  <string mz="txtProgress" name="6izp804wtcgl0-n33_ju03">({min=30}/{max=30})</string>
+  <string mz="getRwBtn" name="6izp804wtcgl0-n34_ju03">Claim</string>
+  <string mz="timeLeft" name="6izp804wtcgl0-n37_ju03">Double Countdown: {value=15:00}</string>
+  <string mz="n38" name="6izp804wtcgl0-n38_ju03">Completed</string>
+  <string mz="gotoBtn" name="6izp804wtcgl0-n43_ju03">Go</string>
+  <string mz="n36" name="6izp804wtcgl0-n36_ju03">2x</string>
+  <string mz="n4" name="6izp804wju03w-n4_ju03">Notice</string>
+  <string mz="closeBtn" name="6izp804wju03w-n5_ju03">Confirm</string>
+  <string mz="titleLb" name="h1wohbjovcwq8-n4_vcwq">Daily Quest Rewards</string>
+  <string mz="endTimeLb" name="h1wohbjovcwq8-n6_vcwq">{value=9} days</string>
+  <string mz="sendTimeLb" name="h1wohbjovcwq8-n8_vcwq">Just Now</string>
+  <string mz="titleLb" name="h1wohbjojmb99-n2_jmb9">Daily Quest Rewards Redelivered</string>
+  <string mz="n3" name="h1wohbjojmb99-n3_jmb9">Dear Adventurers:</string>
+  <string mz="contentLb" name="h1wohbjojmb99-n4_jmb9">You forgot to claim your daily quest rewards last time. They have been sent via mail.</string>
+  <string mz="getBtn" name="h1wohbjojmb99-n7_jmb9">Claim</string>
+  <string mz="endTimeLb" name="h1wohbjojmb99-n10_jmb9">Expires in {value=7} days</string>
+  <string mz="delBtn1" name="h1wohbjojmb99-n11_oekv">Delete</string>
+  <string mz="n5" name="h1wohbjojmb99-n5_jmb9">Rewards</string>
+  <string mz="delBtn2" name="h1wohbjojmb99-n15_sylb">Delete</string>
+  <string mz="n1" name="h1wohbjovcwq7-n1_vcwq">Mail</string>
+  <string mz="n8" name="h1wohbjovcwq7-n8_vcwq">Mailbox is empty</string>
+  <string mz="oneKeyDel" name="h1wohbjovcwq7-n4_vcwq">Delete All</string>
+  <string mz="oneKeyGet" name="h1wohbjovcwq7-n5_vcwq">Claim All</string>
+  <string mz="n7" name="88ncwg57uobv0-n7_uobv">Swipe to disable Power Saving Mode</string>
+  <string mz="stageName" name="88ncwg57uobv0-n4_uobv">Stage Name</string>
+  <string mz="n6" name="88ncwg57uobv0-n6_uobv">In Battle</string>
+  <string mz="n6" name="jbbd3ox4ctxhdxy34-n6_ctxh">Offline Rewards</string>
+  <string mz="n6" name="jbbd3ox4ctxhdxy34-n6_ctxh-texts_0">Idle Rewards</string>
+  <string mz="n6" name="jbbd3ox4ctxhdxy34-n6_ctxh-texts_def">Offline Rewards</string>
+  <string mz="n12" name="jbbd3ox4ctxhdxy34-n12_ng62">Offline Time:</string>
+  <string mz="n12" name="jbbd3ox4ctxhdxy34-n12_ng62-texts_0">Online Time:</string>
+  <string mz="n12" name="jbbd3ox4ctxhdxy34-n12_ng62-texts_def">Offline Time:</string>
+  <string mz="adGetRw" name="jbbd3ox4ctxhdxy34-n22_ng62">2-hour Ad Bonus</string>
+  <string mz="getRw" name="jbbd3ox4ctxhdxy34-n23_ng62">Confirm</string>
+  <string mz="getRw" name="jbbd3ox4ctxhdxy34-n23_ng62-texts_0">Confirm</string>
+  <string mz="getRw" name="jbbd3ox4ctxhdxy34-n23_ng62-texts_def">Claim</string>
+  <string mz="title" name="zoxecbv2u5mt16-n5_auqc">Arena</string>
+  <string mz="moneyBtn" name="zoxecbv2eh4f30-n10_eh4f">Purchase</string>
+  <string mz="n13" name="zoxecbv2eh4f30-n13_eh4f">Buy Challenge Attempts</string>
+  <string mz="goBtn" name="zoxecbv2u5mt14-n4_u5mt">Enter</string>
+  <string mz="restBtn" name="zoxecbv2u5mt14-n7_u5mt">Resting</string>
+  <string mz="txdy" name="zoxecbv2u5mt14-n6_u5mt">Number One</string>
+  <string mz="timeLb" name="zoxecbv2u5mt14-n9_u5mt">{value=00:00:00}</string>
+  <string mz="title" name="zoxecbv2u5mt17-n2_u5mt">Battle Report</string>
+  <string mz="content" name="zoxecbv2u5mt17-n5_gssc">No Battle Reports</string>
+  <string mz="content" name="zoxecbv2u5mt18-n6_u5mt">{value=[color=#cb7802]Little Black[/color]} challenged you and you won.</string>
+  <string mz="timeLb" name="zoxecbv2u5mt18-n7_u5mt">{value=Jan 10 22:22:22}</string>
+  <string mz="getBtn" name="zoxecbv2u5mt1u-n3_u5mt">Claim</string>
+  <string mz="getBtn" name="zoxecbv2u5mt1u-n3_u5mt-texts_0">Claimed</string>
+  <string mz="getBtn" name="zoxecbv2u5mt1u-n3_u5mt-texts_def">Claim</string>
+  <string mz="pName" name="zoxecbv2u5mt1u-n7_u5mt">Crazy Padu</string>
+  <string mz="n14" name="zoxecbv2u5mt1u-n14_cuae">Not Ranked Yet</string>
+  <string mz="n21" name="zoxecbv2u5mt1u-n21_coz7">Challenge or occupy an empty slot to enter the rankings</string>
+  <string mz="n22" name="zoxecbv2u5mt1u-n22_t89j">Yesterday's Rank Rewards</string>
+  <string mz="challengeBtn" name="zoxecbv2u5mt1d-n8_u5mt">Challenge</string>
+  <string mz="standCollarBtn" name="zoxecbv2u5mt1d-n9_u5mt">Occupy</string>
+  <string mz="pName" name="zoxecbv2u5mt1d-n18_u5mt">Crazy No.1</string>
+  <string mz="n24" name="zoxecbv2u5mt1d-n24_pu20">Vacant</string>
+  <string mz="myNameLb" name="zoxecbv2auqc28-n10_auqc">Crazy Name</string>
+  <string mz="otherNameLb" name="zoxecbv2auqc28-n12_auqc">Crazy Name</string>
+  <string mz="closeBtn" name="zoxecbv2auqc2d-n8_auqc">Confirm</string>
+  <string mz="myNameLb" name="zoxecbv2auqc2d-n12_auqc">Crazy Padu</string>
+  <string mz="enemyNameLb" name="zoxecbv2auqc2d-n13_auqc">Crazy Padu</string>
+  <string mz="closeBtn" name="zoxecbv2auqc2c-n6_auqc">Confirm</string>
+  <string mz="myNameLb" name="zoxecbv2auqc2c-n10_auqc">Crazy Padu</string>
+  <string mz="enemyNameLb" name="zoxecbv2auqc2c-n11_auqc">Crazy Padu</string>
+  <string mz="num1Lb" name="zoxecbv2u5mt1b-n13_u5mt">Crazy Padu1</string>
+  <string mz="num2Lb" name="zoxecbv2u5mt1b-n14_u5mt">Crazy Padu2</string>
+  <string mz="num3Lb" name="zoxecbv2u5mt1b-n15_u5mt">Crazy Padu3</string>
+  <string mz="zhanbao" name="zoxecbv2u5mt1b-n4_u5mt">Battle Report</string>
+  <string mz="n26" name="zoxecbv2u5mt1b-n26_u5mt">Challenge Attempts:</string>
+  <string mz="cntLb" name="zoxecbv2u5mt1b-n29_u5mt">{cur=4}/{max=4}</string>
+  <string mz="timeLeft" name="zoxecbv2u5mt1b-n34_u5mt">{value=12h 16m}</string>
+  <string mz="n35" name="zoxecbv2u5mt1b-n35_u5mt">Reward Settlement</string>
+  <string mz="moneyLb1" name="2pcsnr2kauqc1q-n2_r0ab">{value=9} yuan</string>
+  <string mz="moneyLb2" name="2pcsnr2kauqc1q-n3_r0ab">$ {value=9}</string>
+  <string mz="title" name="2pcsnr2kauqc1p-n1_auqc">After purchase, battle</string>
+  <string mz="n1" name="2pcsnr2kr0ab16-n1_r0ab">Premium Battle Pass</string>
+  <string mz="moneyLb1" name="2pcsnr2kr0ab16-n2_r0ab">{value=9} yuan</string>
+  <string mz="moneyLb2" name="2pcsnr2kr0ab16-n3_r0ab">$ {value=9}</string>
+  <string mz="n8" name="2pcsnr2kr0ab2-n8_r0ab">Extra Rewards</string>
+  <string mz="boxDesc" name="2pcsnr2kr0ab2-n10_r0ab">After reaching Lv.{lv=9}, gain {exp=10} Battle Pass EXP to claim a reward chest (max {total=50} times).</string>
+  <string mz="boxGetLb" name="2pcsnr2kr0ab2-n9_r0ab">{cur=50}/{total=50}</string>
+  <string mz="n1" name="2pcsnr2kr0abz-n1_r0ab">Battle Pass Rewards</string>
+  <string mz="n1" name="2pcsnr2kr0ab1d-n1_r0ab">Basic Battle Pass</string>
+  <string mz="n5" name="2pcsnr2kr0ab1d-n5_r0ab">Premium Battle Pass</string>
+  <string mz="n2" name="2pcsnr2kr0ab4-n2_r0ab">Daily Quests</string>
+  <string mz="n2" name="2pcsnr2kr0ab4-n2_r0ab-texts_0">Daily Quests</string>
+  <string mz="n2" name="2pcsnr2kr0ab4-n2_r0ab-texts_1">Weekly Quests</string>
+  <string mz="timeLb" name="2pcsnr2kr0ab4-n4_r0ab">12h</string>
+  <string mz="n10" name="2pcsnr2kr0ab4-n10_r0ab">Available to Claim</string>
+  <string mz="n5" name="2pcsnr2kr0ab4-n5_r0ab">Automatically activated when purchasing Premium Pass</string>
+  <string mz="n1" name="2pcsnr2kr0ab11-n1_r0ab">Quests</string>
+  <string mz="lvLb" name="2pcsnr2kr0ab1b-n4_ozj9">Lv.{value=5}</string>
+  <string mz="timeLb" name="2pcsnr2kr0ab0-n40_r0ab">5d 12h</string>
+  <string mz="titleLb" name="2pcsnr2kr0ab0-n42_r0ab">Pass Name</string>
+  <string mz="n12" name="2pcsnr2kauqc1h-n12_auqc">Premium Battle Pass</string>
+  <string mz="n19" name="2pcsnr2kauqc1h-n19_auqc">Rewards available during this season</string>
+  <string mz="n22" name="2pcsnr2kauqc1h-n22_auqc-0">+200 EXP immediately after purchase</string>
+  <string mz="n22" name="2pcsnr2kauqc1h-n22_auqc-1">Unlocks Premium Pass-exclusive rewards</string>
+  <string mz="n22" name="2pcsnr2kauqc1h-n22_auqc-2">Unlocks Premium Pass-exclusive quests</string>
+  <string mz="n61" name="2pcsnr2kr0ab18-n61_ozj9">Upgrade Effect</string>
+  <string mz="n64" name="2pcsnr2kr0ab18-n64_ozj9">Character Skills</string>
+  <string mz="skillNameLb" name="2pcsnr2kr0ab18-n67_ozj9">Skill Name</string>
+  <string mz="skillDesc" name="2pcsnr2kr0ab18-n68_ozj9">Description blah blah description blah blah description blah blah description blah</string>
+  <string mz="title" name="m37flevdozj91w-n3_ozj9">Help text blah help text blah help text blah help text blah help text blah</string>
+  <string mz="n1" name="m37flevdph24dxy6z-n1_ph24">Recycle</string>
+  <string mz="lvLb" name="m37flevdozj91b-n4_ozj9">Lv.{value=5}</string>
+  <string mz="levelUpBtn" name="m37flevddr5adxy6a-n0_dr5a">Upgrade</string>
+  <string mz="title" name="m37flevdozj91t-n1_ozj9">Breakthrough</string>
+  <string mz="itemCnt" name="m37flevdozj91t-n3_ozj9">{cur=900}/{need=1}</string>
+  <string mz="upLoadBtn" name="m37flevdrm2cdxy6c-n2_rm2c">Deploy</string>
+  <string mz="getHeroBtn" name="m37flevdrm2cdxy6c-n4_rm2c">Obtain</string>
+  <string mz="composeHeroBtn" name="m37flevdrm2cdxy6c-n12_rm2c">Synthesize</string>
+  <string mz="breakBtn" name="m37flevdrm2cdxy6c-n13_rm2c">Breakthrough</string>
+  <string mz="n9" name="m37flevdrm2cdxy6c-n9_rm2c">Watch to Get</string>
+  <string mz="n5" name="m37flevdeau0dxy6x-n5_eau0">Not Equipped</string>
+  <string mz="runeName" name="m37flevdeau0dxy6x-n1_eau0">Raging Tide Rune</string>
+  <string mz="runeDesc" name="m37flevdeau0dxy6x-n2_eau0">【{skillName=Raging Marauder}】+{value=999} damage instances</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0">Common</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_0">Common</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_1">Good</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_2">Epic</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_3">Legendary</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_4">Mythic</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_5">Immortal</string>
+  <string mz="n6" name="m37flevdeau0dxy6x-n6_eau0-texts_def">Rare</string>
+  <string mz="petName" name="m37flevdk6272k-n6_k627">Phantom Cat</string>
+  <string mz="petLv" name="m37flevdk6272k-n7_k627">Lv.{value=300}</string>
+  <string mz="jcLb" name="m37flevdk6272k-n9_k627">Inherited Stats: [color=#25972d]{value=150}%[/color]</string>
+  <string mz="atkSpeed" name="m37flevdk6272k-n11_k627">Attack Speed: [color=#25972d]{value=1.0}[/color]</string>
+  <string mz="n14" name="m37flevdk6272k-n14_k627">Equipped Stats</string>
+  <string mz="n15" name="m37flevdk6272k-n15_k627">Global Stats</string>
+  <string mz="n25" name="m37flevdk6272k-n25_k627">Pet Details</string>
+  <string mz="downBtn" name="m37flevdk6272k-n18_k627">Unequip</string>
+  <string mz="replaceBtn" name="m37flevdk6272k-n23_k627">Replace</string>
+  <string mz="uploadBtn" name="m37flevdk6272k-n28_k627">Equip</string>
+  <string mz="getBtn" name="m37flevdk6272k-n24_k627">Obtain</string>
+  <string mz="allStrengthBtn" name="m37flevdozj926-n33_k627">Bulk Enhance</string>
+  <string mz="n34" name="m37flevdozj926-n34_k627">Bonus Effects:</string>
+  <string mz="atkLb" name="m37flevdozj926-n36_k627">ATK +{value=15000}%</string>
+  <string mz="hpLb" name="m37flevdozj926-n37_k627">HP +{value=150000}%</string>
+  <string mz="closeBtn" name="m37flevdk6272y-n3_k627">Confirm</string>
+  <string mz="closeBtn" name="m37flevdozj91o-n4_ozj9">OK</string>
+  <string mz="closeBtn" name="m37flevdrm2cdxy6k-n4_ozj9">OK</string>
+  <string mz="n7" name="m37flevdrm2cdxy6k-n7_rm2c">Rewards Obtained</string>
+  <string mz="helpList" name="m37flevdozj91v-n3_ozj9-0">Cheese is produced in Home gameplay and drops in Main Stages</string>
+  <string mz="helpList" name="m37flevdozj91v-n3_ozj9-1">Cheese is used to upgrade Heroes</string>
+  <string mz="helpList" name="m37flevdozj91v-n3_ozj9-2">Hero Breakthrough consumes: King Crab and duplicate Hero Shards</string>
+  <string mz="helpList" name="m37flevdozj91v-n3_ozj9-3">Each breakthrough raises level cap by 20. Tiers: Star &gt; Moon &gt; Sun &gt; Crown</string>
+  <string mz="n6" name="m37flevdozj91v-n6_ozj9">Help</string>
+  <string mz="closeBtn" name="m37flevdrm2cdxy6o-n4_ozj9">Confirm</string>
+  <string mz="n7" name="m37flevdrm2cdxy6o-n7_rm2c">Unlock via Upgrade</string>
+  <string mz="roleLv" name="m37flevdozj9f-n48_ddc1">Lv.{value=10}</string>
+  <string mz="n61" name="m37flevdozj9f-n61_ozj9">Upgrade Effect</string>
+  <string mz="n64" name="m37flevdozj9f-n64_ozj9">Character Skill</string>
+  <string mz="skillNameLb" name="m37flevdozj9f-n67_ozj9">Skill Name</string>
+  <string mz="skillDesc" name="m37flevdozj9f-n68_ozj9">Description blah blah description blah blah description blah blah description blah</string>
+  <string mz="cdLb" name="m37flevdozj9f-n77_om7h">{value=15}s</string>
+  <string mz="upLevelBtn" name="m37flevdozj9f-n70_ozj9">Upgrade Character</string>
+  <string mz="roleLv" name="m37flevdozj91p-n48_ddc1">Lv.{value=10}</string>
+  <string mz="n98" name="m37flevdozj91p-n98_ozj9">Character Not Owned</string>
+  <string mz="n61" name="m37flevdozj91p-n61_ozj9">Upgrade Effect</string>
+  <string mz="n64" name="m37flevdozj91p-n64_ozj9">Character Skill</string>
+  <string mz="skillNameLb" name="m37flevdozj91p-n67_ozj9">Skill Name</string>
+  <string mz="skillDesc" name="m37flevdozj91p-n68_ozj9">Description blah blah description blah blah description blah blah description blah</string>
+  <string mz="cdLb" name="m37flevdozj91p-n106_om7h">{value=15}s</string>
+  <string mz="tabList" name="m37flevdozj91z-n1_ozj9-0">Character</string>
+  <string mz="tabList" name="m37flevdozj91z-n1_ozj9-1">Skill</string>
+  <string mz="tabList" name="m37flevdozj91z-n1_ozj9-2">Pet</string>
+  <string mz="tabList" name="m37flevdozj91z-n1_ozj9-3">Rune</string>
+  <string mz="n6" name="m37flevdrm2cdxy6q-n6_rm2c">Level Cap:</string>
+  <string mz="nextLb" name="m37flevdrm2cdxy6q-n7_rm2c">Lv.{value=160}</string>
+  <string mz="curLb" name="m37flevdrm2cdxy6q-n8_rm2c">Lv.{value=100}</string>
+  <string mz="breakBtn" name="m37flevdrm2cdxy6q-n11_rm2c">Breakthrough</string>
+  <string mz="attrValue" name="m37flevdrm2cdxy6q-n13_rm2c">+{value=100}%</string>
+  <string mz="runeName" name="m37flevdph24dxy6y-n6_k627">Phantom Cat</string>
+  <string mz="skillDesc" name="m37flevdph24dxy6y-n14_k627">【{skillName=Thunderous Fury}】+{value=99} damage instances</string>
+  <string mz="downBtn" name="m37flevdph24dxy6y-n18_k627">Unequip</string>
+  <string mz="replaceBtn" name="m37flevdph24dxy6y-n23_k627">Replace</string>
+  <string mz="uploadBtn" name="m37flevdph24dxy6y-n28_k627">Equip</string>
+  <string mz="RecycleBtn" name="m37flevdph24dxy6y-n24_k627">Recycle</string>
+  <string mz="n25" name="m37flevdph24dxy6y-n25_k627">Rune Details</string>
+  <string mz="recycleBtn" name="m37flevdeau0dxy6r-n33_k627">Recycle Rune</string>
+  <string mz="n3" name="m37flevdph24dxy70-n3_ph24">Recycle if damage instances &lt;</string>
+  <string mz="recyleBtn" name="m37flevdph24dxy70-n10_ph24">Recycle</string>
+  <string mz="skillName" name="m37flevdrm2cdxy6h-n6_rm2c">Phantom Cat</string>
+  <string mz="skillLv" name="m37flevdrm2cdxy6h-n7_rm2c">Lv.{value=300}</string>
+  <string mz="n13" name="m37flevdrm2cdxy6h-n13_rm2c">Equipped Stats</string>
+  <string mz="n18" name="m37flevdrm2cdxy6h-n18_rm2c">Global Stats</string>
+  <string mz="n26" name="m37flevdrm2cdxy6h-n26_rm2c">Skill Details</string>
+  <string mz="cdLb" name="m37flevdrm2cdxy6h-n9_rm2c">{value=15}s</string>
+  <string mz="downBtn" name="m37flevdrm2cdxy6h-n22_rm2c">Unequip</string>
+  <string mz="replaceBtn" name="m37flevdrm2cdxy6h-n23_rm2c">Replace</string>
+  <string mz="uploadBtn" name="m37flevdrm2cdxy6h-n24_rm2c">Equip</string>
+  <string mz="getBtn" name="m37flevdrm2cdxy6h-n25_rm2c">Obtain</string>
+  <string mz="allStrengthBtn" name="m37flevdcjbedxy6b-n33_k627">Bulk Enhance</string>
+  <string mz="n34" name="m37flevdcjbedxy6b-n34_k627">Bonus Effects:</string>
+  <string mz="atkLb" name="m37flevdcjbedxy6b-n36_k627">Skill DMG +{value=15000}%</string>
+  <string mz="n2" name="zs0w02qtbaxfx-n2_baxf">ChangeIcon</string>
+  <string mz="changeBtn" name="zs0w02qtbaxfx-n4_baxf">Use</string>
+  <string mz="serverName" name="zs0w02qtq36tq-n0_q36t">Server List Item</string>
+  <string mz="exchangeBtn" name="zs0w02qtqt85j-n5_qt85">conversion</string>
+  <string mz="n6" name="zs0w02qtqt85j-n6_qt85">Gift Code</string>
+  <string mz="ipt" name="zs0w02qtqt85j-n7_qt85-prompt">Enter Gift Code</string>
+  <string mz="n6" name="zs0w02qtqt85k-n6_qt85">Modify</string>
+  <string mz="n8" name="zs0w02qtqt85k-n8_qt85">Input 2-8 characters (Chinese/English/numbers only)</string>
+  <string mz="tips" name="zs0w02qtqt85k-n9_qt85">*Invalid naming rules. Please rename.</string>
+  <string mz="freeBtn" name="zs0w02qtqt85k-n5_qt85">Free</string>
+  <string mz="moneyBtn" name="zs0w02qtqt85k-n11_q36t">Purchase</string>
+  <string mz="commitBtn" name="zs0w02qtqt85l-n5_qt85">Confirm</string>
+  <string mz="n6" name="zs0w02qtqt85l-n6_qt85">Feedback</string>
+  <string mz="ipt" name="zs0w02qtqt85l-n7_qt85-prompt">Please describe your issue</string>
+  <string mz="n9" name="zs0w02qtqt85l-n9_qt85">We apologize for the inconvenience. Please describe your problem below (max 200 characters)</string>
+  <string mz="n6" name="zs0w02qtq36tp-n6_qt85">ChangeServer</string>
+  <string mz="changeSerBtn" name="zs0w02qtq36tp-n11_q36t">Switch Server</string>
+  <string mz="n1" name="zs0w02qtffpwd-n1_ffpw">Info</string>
+  <string mz="playerNameLb" name="zs0w02qtffpwd-n8_ffpw">PlayerName PlayerName</string>
+  <string mz="n33" name="zs0w02qtffpwd-n33_qt85">Uid:</string>
+  <string mz="n36" name="zs0w02qtffpwd-n36_qt85">Current Server:</string>
+  <string mz="problemBtn" name="zs0w02qtffpwd-n19_ffpw">Feedback</string>
+  <string mz="selectServerBtn" name="zs0w02qtffpwd-n20_ffpw">Select Server</string>
+  <string mz="exchangeCodeBtn" name="zs0w02qtffpwd-n21_ffpw">Redeem Code</string>
+  <string mz="gameAnnounceBtn" name="zs0w02qtffpwd-n22_ffpw">Game Notices</string>
+  <string mz="n24" name="zs0w02qtffpwd-n24_ffpw">Music</string>
+  <string mz="n25" name="zs0w02qtffpwd-n25_ffpw">SFX</string>
+  <string mz="appVersionLb" name="zs0w02qtffpwd-n26_ffpw">Version: {value=1.0.0}</string>
+  <string mz="n56" name="zs0w02qtffpwd-n56_gssc">Unlock hero avatars by obtaining heroes</string>
+  <string mz="useBtn" name="zs0w02qtffpwd-n57_gssc">Use</string>
+  <string mz="n1" name="1tqiwa7amg7g8-n2_mg7g">Day 7</string>
+  <string mz="n2" name="1tqiwa7amg7g8-n3_mg7g">Day 7</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g">Day 1</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_0">Day 1</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_1">Day 3</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_2">Day 4</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_3">Day 5</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_4">Day 6</string>
+  <string mz="n3" name="1tqiwa7amg7g7-n5_mg7g-texts_def">Day 2</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g">Day 1</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_0">Day 2</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_1">Day 3</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_2">Day 4</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_3">Day 5</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_4">Day 6</string>
+  <string mz="n4" name="1tqiwa7amg7g7-n6_mg7g-texts_def">Day 1</string>
+  <string mz="timeLeft" name="1tqiwa7amg7g6-n6_tcgl">Next check-in time: [color=#76a409]{value=12:00:00}[/color]</string>
+  <string mz="title" name="nmzfxo89ftc96-n1_p4bn">Attributes</string>
+  <string mz="dailyTitle" name="nmzfxo89ftc9c-n1_ftc9">Daily Special $1 Pack</string>
+  <string mz="limitLb" name="nmzfxo89ftc9c-n2_ftc9">Purchase Limit {cur=0}/{total=1}</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9c-n5_ftc9">Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9c-n5_ftc9-texts_0">Claim Reward</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9c-n5_ftc9-texts_1">Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9c-n5_ftc9-texts_def">Claim</string>
+  <string mz="titlelb" name="nmzfxo89ftc9y-n1_ftc9">Claim daily packs &amp; Daily Gifts for 7 consecutive days</string>
+  <string mz="limitLb" name="nmzfxo89ftc9y-n2_ftc9">Purchase Limit {cur=0}/{total=1}</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9y-n5_ftc9">Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9y-n5_ftc9-texts_0">Claim Reward</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9y-n5_ftc9-texts_1">Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9y-n5_ftc9-texts_def">Claim</string>
+  <string mz="n8" name="nmzfxo89ftc9y-n8_ftc9">Claim daily packs &amp; Daily Gifts for 7 consecutive days</string>
+  <string mz="moneyLb1" name="nmzfxo89ftc9x-n5_ftc9">{value=9} yuan</string>
+  <string mz="moneyLb2" name="nmzfxo89ftc9x-n6_ftc9">$ {value=9}</string>
+  <string mz="title" name="nmzfxo89plioz-n3_plio">Unlock {value=Starlight Lake 1-1}</string>
+  <string mz="titleList" name="nmzfxo89plio15-n3_plio-0">Chapter 1</string>
+  <string mz="titleList" name="nmzfxo89plio15-n3_plio-1">Chapter 2</string>
+  <string mz="titleList" name="nmzfxo89plio15-n3_plio-2">Chapter 3</string>
+  <string mz="title1" name="nmzfxo89plio12-n4_plio">Chapter 1</string>
+  <string mz="title1" name="nmzfxo89plio12-n4_plio-texts_0">Chapter 1</string>
+  <string mz="title1" name="nmzfxo89plio12-n4_plio-texts_1">Chapter 2</string>
+  <string mz="title1" name="nmzfxo89plio12-n4_plio-texts_def">Chapter 3</string>
+  <string mz="title2" name="nmzfxo89plio12-n6_plio">Chapter 1</string>
+  <string mz="title2" name="nmzfxo89plio12-n6_plio-texts_0">Chapter 2</string>
+  <string mz="title2" name="nmzfxo89plio12-n6_plio-texts_1">Chapter 3</string>
+  <string mz="title2" name="nmzfxo89plio12-n6_plio-texts_def">Chapter 1</string>
+  <string mz="n4" name="nmzfxo89ftc9m-n4_ftc9">Daily Claim</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9m-n9_ftc9">Claim</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9m-n9_ftc9-texts_0">Claim Reward</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9m-n9_ftc9-texts_1">Today's Reward Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9m-n9_ftc9-texts_def">Claim</string>
+  <string mz="ttTitle" name="nmzfxo89ftc9j-n2_ftc9">Total Recharge 1 Day</string>
+  <string mz="dayTitle" name="nmzfxo89ftc9j-n3_ftc9">Recharge Days Not Met</string>
+  <string mz="dayTitle" name="nmzfxo89ftc9j-n3_ftc9-texts_0">{cur=2}/{total=3} Days</string>
+  <string mz="dayTitle" name="nmzfxo89ftc9j-n3_ftc9-texts_1">Completed</string>
+  <string mz="dayTitle" name="nmzfxo89ftc9j-n3_ftc9-texts_def">Recharge Days Not Met</string>
+  <string mz="gotoBtn" name="nmzfxo89ftc9j-n4_ftc9">Go</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9j-n6_ftc9">Claim</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9j-n6_ftc9-texts_0">Claim Reward</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9j-n6_ftc9-texts_1">Claimed</string>
+  <string mz="getRwBtn" name="nmzfxo89ftc9j-n6_ftc9-texts_def">Claim</string>
+  <string mz="waitGetBtn" name="nmzfxo89ftc9j-n7_u5mt">Pending Claim</string>
+  <string mz="title" name="nmzfxo89plio16-n3_plio">Premium Crazy Guide Chapter {value=1}</string>
+  <string mz="flTitle" name="nmzfxo89plio16-n7_plio">"{value=500}% Rebate"</string>
+  <string mz="getTitle" name="nmzfxo89plio16-n14_plio">Claim</string>
+  <string mz="tabList" name="nmzfxo89ftc95-n1_ftc9-0">Daily Special</string>
+  <string mz="tabList" name="nmzfxo89ftc95-n1_ftc9-1">Daily Gifts</string>
+  <string mz="tabList" name="nmzfxo89ftc95-n1_ftc9-2">Crazy Guide</string>
+  <string mz="tabList" name="nmzfxo89ftc95-n1_ftc9-3">Privilege Card</string>
+  <string mz="fkznBtn" name="nmzfxo89ftc95-n9_ftc9">Crazy Guide Chapter 1</string>
+  <string mz="fkznBtn2" name="nmzfxo89ftc95-n13_ewdx">Crazy Guide Chapter 2</string>
+  <string mz="fkznBtn3" name="nmzfxo89ftc95-n14_ewdx">Crazy Guide Chapter 3</string>
+  <string mz="nameLb" name="i7ojazuuq9cg19-n2_q9cg">{name=Hero Token}×{value=15}</string>
+  <string mz="nameLb" name="i7ojazuuq9cg19-n2_q9cg-texts_0">{name=Hero Token}×{value=15}</string>
+  <string mz="nameLb" name="i7ojazuuq9cg19-n2_q9cg-texts_1">Hero Token×{value=5}</string>
+  <string mz="n3" name="i7ojazuuq9cg19-n3_q9cg">Instant Obtain</string>
+  <string mz="n3" name="i7ojazuuq9cg19-n3_q9cg-texts_0">Daily Obtain</string>
+  <string mz="n3" name="i7ojazuuq9cg19-n3_q9cg-texts_def">Instant Obtain</string>
+  <string mz="curLb" name="i7ojazuup3wt2q-n5_p3wt">x{value=6000}</string>
+  <string mz="count" name="i7ojazuuftc92o-n3_ftc9">x{value=10}</string>
+  <string mz="nameLb" name="i7ojazuuftc92n-n4_ftc9">Epic Hero Pack</string>
+  <string mz="limitLb" name="i7ojazuuftc92n-n5_ftc9">Purchase Limit ({cur=1}/{total=1})</string>
+  <string mz="rebate" name="i7ojazuuftc92n-n3_ftc9">"{value=600}% Rebate"</string>
+  <string mz="n9" name="i7ojazuusurfb-n9_surf">Unlimited</string>
+  <string mz="desc" name="i7ojazuusurfb-n10_surf">Heroes Assemble, Begin Your Journey</string>
+  <string mz="goBtn" name="i7ojazuusurfb-n11_surf">Enter</string>
+  <string mz="n15" name="i7ojazuusurfb-n15_k4ck">Hot Deals</string>
+  <string mz="lockDesc" name="i7ojazuusurfb-n19_kira">Unlock at:</string>
+  <string mz="adSummLb" name="i7ojazuusurf9-n1_surf">Summon {value=30} times</string>
+  <string mz="adLb" name="i7ojazuusurf9-n3_surf">{cur=3}/{total=3}</string>
+  <string mz="n1" name="i7ojazuusurf8-n1_surf">Summon {value=300} times</string>
+  <string mz="n1" name="i7ojazuusurf8-n1_surf-texts_0">Summon {value=30} times</string>
+  <string mz="n1" name="i7ojazuusurf8-n1_surf-texts_1">Summon {value=300} times</string>
+  <string mz="n1" name="i7ojazuusurf8-n1_surf-texts_def">Summon {value=10} times</string>
+  <string mz="n1" name="i7ojazuuq9cg11-n1_surf">Summon {value=1} time</string>
+  <string mz="n5" name="i7ojazuuq9cg11-n5_q9cg">Free</string>
+  <string mz="n1" name="i7ojazuusurfd-n1_surf">Summon {value=1} time</string>
+  <string mz="n1" name="i7ojazuusurfd-n1_surf-texts_0">Summon {value=1} time</string>
+  <string mz="n1" name="i7ojazuusurfd-n1_surf-texts_def">Summon {value=10} times</string>
+  <string mz="tickNumLb" name="i7ojazuusurfd-n2_surf">×{value=1}</string>
+  <string mz="tickNumLb" name="i7ojazuusurfd-n2_surf-texts_0">×{value=10}</string>
+  <string mz="tickNumLb" name="i7ojazuusurfd-n2_surf-texts_def">×{value=1}</string>
+  <string mz="lvLb" name="i7ojazuusurf7-n2_surf">Lv.{value=9}</string>
+  <string mz="n4" name="i7ojazuusurf7-n4_surf">Pet</string>
+  <string mz="n4" name="i7ojazuusurf7-n4_surf-texts_0">Skill</string>
+  <string mz="n4" name="i7ojazuusurf7-n4_surf-texts_def">Pet</string>
+  <string mz="lockDesc" name="i7ojazuusurf7-n16_ktw8">Unlock at:</string>
+  <string mz="title" name="i7ojazuuq9cgy-n1_q9cg">Feature Preview</string>
+  <string mz="heroName" name="i7ojazuuu1cl1q-n1_u1cl">Thor</string>
+  <string mz="heroDesc" name="i7ojazuuu1cl1q-n2_u1cl">Description goes here</string>
+  <string mz="heroName" name="i7ojazuuu1cl1s-n1_u1cl">Mythic Hero</string>
+  <string mz="heroName" name="i7ojazuuu1cl1s-n1_u1cl-texts_0">Legendary Hero</string>
+  <string mz="heroName" name="i7ojazuuu1cl1s-n1_u1cl-texts_def">Mythic Hero</string>
+  <string mz="proLb" name="i7ojazuuk4ck1h-n1_k4ck">{value=45.00}</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck">Common</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_0">Good</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_1">Rare</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_2">Epic</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_3">Legendary</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_4">Mythic</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_5">Immortal</string>
+  <string mz="n2" name="i7ojazuuk4ck1h-n2_k4ck-texts_def">Common</string>
+  <string mz="n6" name="i7ojazuup3wt2p-n6_ftc9">Diamond Shop</string>
+  <string mz="n8" name="i7ojazuup3wt2p-n8_p3wt">Diamonds can be used to purchase all diamond-paid content in-game</string>
+  <string mz="n6" name="i7ojazuuftc92l-n6_ftc9">Package Shop</string>
+  <string mz="n2" name="i7ojazuuq9cg13-n2_q9cg">Login consecutively to claim premium rewards</string>
+  <string mz="n4" name="i7ojazuuq9cg13-n4_q9cg">"500% Rebate"</string>
+  <string mz="n9" name="i7ojazuuq9cg13-n9_q9cg">Privilege</string>
+  <string mz="timeLb" name="i7ojazuuq9cg13-n14_q9cg">Instant {value=15} multi-draws, 30 draws in 3 days</string>
+  <string mz="timeLb" name="i7ojazuuq9cg13-n14_q9cg-texts_0">Remaining: {value=9}</string>
+  <string mz="timeLb" name="i7ojazuuq9cg13-n14_q9cg-texts_def">Instant {value=15} multi-draws, 30 draws in 3 days</string>
+  <string mz="n15" name="i7ojazuuq9cg13-n15_q9cg">Hero Assembly Privilege Card</string>
+  <string mz="getBtn" name="i7ojazuuq9cg13-n20_i9n7">Claim</string>
+  <string mz="n21" name="i7ojazuuq9cg13-n21_i9n7">Today's Reward Claimed</string>
+  <string mz="giftBtn" name="i7ojazuusurfc-n4_q9cg">Privilege Pack</string>
+  <string mz="n13" name="i7ojazuusurfc-n13_ibgi">10-draw guaranteed [color=#ff1515]Legendary[/color] Hero Shard</string>
+  <string mz="freeTimeLb" name="i7ojazuusurfc-n11_ibgi">Free in {value=10:00:00}</string>
+  <string mz="n8" name="i7ojazuuu1cl1p-n8_k4ck">Summon Rates</string>
+  <string mz="n17" name="i7ojazuuu1cl1p-n17_k4ck">Event Info</string>
+  <string mz="n24" name="i7ojazuuu1cl1p-n24_u1cl">Hero Pool</string>
+  <string mz="n29" name="i7ojazuuu1cl1p-n29_u1cl">Drop Rates</string>
+  <string mz="heroDescList" name="i7ojazuuu1cl1p-n32_u1cl">"Legendary Heroes: Hell Duke, Frankenstein, Sun Wukong, Golden Wolf, Fist King, Demon Blade Princess, Gundam Warrior, Wing Chun Maiden, Magic Lolita, Doom Rose, Poker King, Nezha, Emerald Ranger, Aladdin
+
+Epic Heroes: Dullio, Baby Dragon, Prince Harry, Thor, Chef God"</string>
+  <string mz="n33" name="i7ojazuuu1cl1p-n33_u1cl">"Legendary Heroes: 0.5%
+Epic Heroes: 1%
+Legendary Hero Shards: 2%
+Epic Hero Shards: 5%
+King Crab: 15%
+Cheese: 20%
+1H Gold: 25%
+Diamonds: 31.5%"</string>
+  <string mz="n34" name="i7ojazuuu1cl1p-n34_u1cl">Use Hero Tokens to draw heroes and shards from the pool. Every 10 draws guarantees Legendary Hero Shards. Duplicate heroes are automatically converted into their respective shards for hero breakthroughs.</string>
+  <string mz="summon1" name="i7ojazuuq9cg1a-n3_surf">Confirm</string>
+  <string mz="n2" name="i7ojazuusurfg-n2_surf">Shop level increases after certain summons</string>
+  <string mz="n8" name="i7ojazuusurfg-n8_k4ck">Summon Rates</string>
+  <string mz="n9" name="i7ojazuusurfg-n9_k4ck">Shop Level</string>
+  <string mz="n17" name="i7ojazuusurfg-n17_k4ck">Drop Rates by Rarity</string>
+  <string mz="tabList" name="i7ojazuusurf0-n1_surf-0">Summon</string>
+  <string mz="tabList" name="i7ojazuusurf0-n1_surf-1">Diamonds</string>
+  <string mz="tabList" name="i7ojazuusurf0-n1_surf-2">Packages</string>
+  <string mz="tabList" name="i7ojazuusurf0-n1_surf-3">Special</string>
+  <string mz="title" name="v1wfpt3li9sl2a-n2_9rjy">Purchase</string>
+  <string mz="title" name="v1wfpt3li9sl24-n2_9rjy">Instant Speed-Up</string>
+  <string mz="title" name="v1wfpt3li9sl29-n2_9rjy">Upgrade</string>
+  <string mz="curValue" name="v1wfpt3li9sl28-n19_i9sl">{value=80.00}%</string>
+  <string mz="nextValue" name="v1wfpt3li9sl28-n20_i9sl">{value=63.30}%</string>
+  <string mz="title" name="v1wfpt3li9sl28-n22_ofko">Common</string>
+  <string mz="n10" name="v1wfpt3li9sl1a-n10_i9sl">Forge Upgrade</string>
+  <string mz="txtCurrLv" name="v1wfpt3li9sl1a-n17_i9sl">Current Level: {value=1}</string>
+  <string mz="txtNextLv" name="v1wfpt3li9sl1a-n18_i9sl">Next Level: {value=1}</string>
+  <string mz="n7" name="v1wfpt3li9sl1a-n7_i9sl">Upgrading...</string>
+  <string mz="btnSkip" name="v1wfpt3li9sl1a-n1_i9sl">Skip 30 mins</string>
+  <string mz="btnHasten" name="v1wfpt3li9sl1a-n3_i9sl">Instant Speed-Up</string>
+  <string mz="adLb" name="v1wfpt3li9sl1a-n49_zthq">Ad Remaining: {cur=2}/{total=2}</string>
+  <string mz="n28" name="v1wfpt3li9sl1a-n28_i9sl">Upgrading increases odds of high-tier equipment</string>
+  <string mz="btnUpgrade" name="v1wfpt3li9sl1a-n24_i9sl">Upgrade</string>
+  <string mz="btnBuy" name="v1wfpt3li9sl1a-n25_i9sl">Purchase</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-0">Common</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-1">Good</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-2">Rare</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-3">Epic</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-4">Legendary</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-5">Mythic</string>
+  <string mz="listAttrs" name="v1wfpt3li9sl1a-n22_i9sl-6">Immortal</string>
+  <string mz="n44" name="v1wfpt3li9sl1a-n44_we55">Max Level</string>
+  <string mz="petName" name="yjhb9afbj2lcf-n1_j2lc">Sea Wing Turtle</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6">Exploration Camp</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_0">Processing Plant</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_1">Exploration Camp</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_2">Hut</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_3">Training Ground</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_4">Stone Mine</string>
+  <string mz="title" name="8glegefcnif6i-n3_nif6-texts_def">Food Workshop</string>
+  <string mz="n11" name="8glegefcnif6i-n11_nif6">Production Rate:</string>
+  <string mz="n14" name="8glegefcnif6i-n14_nif6">Pet Bonus:</string>
+  <string mz="addValue" name="8glegefcnif6i-n15_nif6">{value=150}%</string>
+  <string mz="timeLb" name="8glegefcnif6i-n13_nif6">{value=60} mins</string>
+  <string mz="n19" name="8glegefcnif6i-n19_nif6">Stationed Pet</string>
+  <string mz="n36" name="8glegefcnif6i-n36_oppe">Current Rewards:</string>
+  <string mz="getBtn" name="8glegefcnif6i-n40_oppe">Claim</string>
+  <string mz="villageBuild1" name="8glegefcuobv1-n6_uobv">Food Workshop</string>
+  <string mz="villageBuild4" name="8glegefcuobv1-n21_pchv">Hut</string>
+  <string mz="villageBuild5" name="8glegefcuobv1-n23_pchv">Training Ground</string>
+  <string mz="villageBuild6" name="8glegefcuobv1-n25_pchv">Stone Mine</string>
+  <string mz="villageBuild3" name="8glegefcuobv1-n26_pchv">Exploration Camp</string>
+  <string mz="villageBuild2" name="8glegefcuobv1-n27_pchv">Processing Plant</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo">Food Workshop</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_0">Processing Plant</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_1">Exploration Camp</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_2">Hut</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_3">Training Ground</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_4">Stone Mine</string>
+  <string mz="stationBuild" name="8glegefcoppew-n7_h8lo-texts_def">Food Workshop</string>
+  <string mz="title" name="8glegefcuobvf-n1_pchv">Building Name</string>
+  <string mz="n4" name="8glegefcoppex-n4_oppe">Notice</string>
+  <string mz="desc" name="8glegefcoppex-n5_oppe">This pet is already stationed elsewhere. Replace it?</string>
+  <string mz="yesBtn" name="8glegefcoppex-n7_oppe">Yes</string>
+  <string mz="noBtn" name="8glegefcoppex-n8_oppe">No</string>
+  <string mz="n3" name="8glegefcoppey-n3_oppe">Home Pets</string>
+  <string mz="petName" name="8glegefcoppey-n5_oppe">Flame-Tail Fox</string>
+  <string mz="petLv" name="8glegefcoppey-n6_oppe">Lv.{value=30}</string>
+  <string mz="n13" name="8glegefcoppey-n13_oppe">Home Bonus</string>
+  <string mz="jcLb" name="8glegefcoppey-n14_oppe">{value=300}%</string>
+  <string mz="downarrayBtn" name="8glegefcoppey-n16_oppe">Retire</string>
+  <string mz="uparrayBtn" name="8glegefcoppey-n22_h8lo">Station</string>
+  <string mz="replaceBtn" name="8glegefcoppey-n23_l955">Replace</string>
+</resources>

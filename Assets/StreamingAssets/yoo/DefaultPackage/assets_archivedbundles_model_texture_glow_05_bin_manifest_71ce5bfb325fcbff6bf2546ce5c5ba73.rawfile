@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2751722242
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1939372f4592f44ec228ed92bd28bc82
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1939372f4592f44ec228ed92bd28bc82
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/Glow_05.png
+Dependencies: []

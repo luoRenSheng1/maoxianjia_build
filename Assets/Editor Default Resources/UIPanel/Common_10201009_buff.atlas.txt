@@ -1,0 +1,122 @@
+Common_10201009_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+feng_001
+	bounds: 2, 842, 232, 180
+	offsets: 17, 5, 252, 200
+feng_002
+	bounds: 2, 306, 211, 174
+	offsets: 11, 5, 252, 200
+feng_003
+	bounds: 2, 660, 231, 180
+	offsets: 11, 5, 252, 200
+feng_004
+	bounds: 461, 855, 225, 167
+	offsets: 11, 18, 252, 200
+feng_005
+	bounds: 236, 845, 223, 177
+	offsets: 14, 5, 252, 200
+fengdi
+	bounds: 2, 482, 223, 176
+	offsets: 19, 6, 252, 200
+huo_001
+	bounds: 381, 684, 27, 21
+	offsets: 35, 7, 100, 170
+	rotate: 90
+huo_002
+	bounds: 638, 814, 45, 39
+	offsets: 26, 7, 100, 170
+huo_003
+	bounds: 950, 905, 59, 58
+	offsets: 19, 6, 100, 170
+huo_004
+	bounds: 949, 789, 73, 92
+	offsets: 11, 7, 100, 170
+huo_005
+	bounds: 2, 150, 76, 154
+	offsets: 10, 6, 100, 170
+huo_006
+	bounds: 80, 164, 82, 140
+	offsets: 7, 6, 100, 170
+huo_007
+	bounds: 688, 867, 81, 155
+	offsets: 9, 7, 100, 170
+huo_008
+	bounds: 2, 6, 54, 142
+	offsets: 22, 7, 100, 170
+huo_009
+	bounds: 235, 686, 25, 107
+	offsets: 36, 8, 100, 170
+	rotate: 90
+quan_001
+	bounds: 771, 836, 176, 45
+	offsets: 11, 7, 200, 60
+quan_002
+	bounds: 771, 883, 177, 45
+	offsets: 13, 5, 200, 60
+quan_003
+	bounds: 164, 131, 173, 47
+	offsets: 13, 4, 200, 60
+	rotate: 90
+quan_004
+	bounds: 213, 131, 171, 46
+	offsets: 14, 5, 200, 60
+	rotate: 90
+quan_005
+	bounds: 236, 797, 172, 46
+	offsets: 13, 5, 200, 60
+quan_006
+	bounds: 771, 930, 177, 46
+	offsets: 14, 5, 200, 60
+quan_007
+	bounds: 215, 304, 176, 45
+	offsets: 11, 6, 200, 60
+	rotate: 90
+quan_008
+	bounds: 771, 978, 181, 44
+	offsets: 7, 10, 200, 60
+quan_009
+	bounds: 227, 482, 176, 37
+	offsets: 12, 17, 200, 60
+	rotate: 90
+quan_010
+	bounds: 235, 713, 172, 34
+	offsets: 14, 19, 200, 60
+quan_011
+	bounds: 235, 749, 172, 46
+	offsets: 14, 7, 200, 60
+quan_012
+	bounds: 262, 307, 173, 46
+	offsets: 12, 7, 200, 60
+	rotate: 90
+quan_013
+	bounds: 461, 807, 175, 46
+	offsets: 12, 7, 200, 60
+shui_001
+	bounds: 266, 491, 25, 25
+shui_002
+	bounds: 310, 653, 31, 32
+	offsets: 15, 16, 60, 60
+	rotate: 90
+shui_003
+	bounds: 954, 965, 60, 57
+	offsets: 0, 2, 60, 60
+tu_001
+	bounds: 344, 681, 30, 35
+	offsets: 29, 1, 80, 50
+	rotate: 90
+tu_002
+	bounds: 410, 808, 40, 35
+	offsets: 20, 10, 80, 50
+tu_003
+	bounds: 266, 586, 73, 30
+	offsets: 6, 16, 80, 50
+	rotate: 90
+tu_004
+	bounds: 266, 518, 66, 26
+	offsets: 11, 11, 80, 50
+	rotate: 90
+tu_005
+	bounds: 235, 661, 73, 23
+	offsets: 4, 4, 80, 50

@@ -1,0 +1,175 @@
+Common_11003_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+huo_001
+	bounds: 338, 317, 81, 85
+	offsets: 14, 12, 120, 120
+	rotate: 90
+huo_002
+	bounds: 877, 833, 88, 92
+	offsets: 10, 8, 120, 120
+	rotate: 90
+huo_003
+	bounds: 302, 493, 92, 99
+	offsets: 8, 8, 120, 120
+huo_004
+	bounds: 396, 494, 90, 98
+	offsets: 12, 11, 120, 120
+huo_005
+	bounds: 152, 372, 91, 98
+	offsets: 12, 11, 120, 120
+	rotate: 90
+huo_006
+	bounds: 252, 367, 84, 96
+	offsets: 20, 13, 120, 120
+huo_007
+	bounds: 338, 400, 83, 91
+	offsets: 21, 16, 120, 120
+huo_008
+	bounds: 423, 401, 80, 91
+	offsets: 21, 16, 120, 120
+huo_009
+	bounds: 425, 311, 79, 88
+	offsets: 22, 19, 120, 120
+huo_010
+	bounds: 971, 829, 35, 48
+	offsets: 63, 53, 120, 120
+	rotate: 90
+huo_032
+	bounds: 971, 829, 35, 48
+	offsets: 63, 53, 120, 120
+	rotate: 90
+huo_033
+	bounds: 971, 829, 35, 48
+	offsets: 63, 53, 120, 120
+	rotate: 90
+huo_011
+	bounds: 435, 646, 33, 46
+	offsets: 63, 55, 120, 120
+huo_034
+	bounds: 435, 646, 33, 46
+	offsets: 63, 55, 120, 120
+huo_012
+	bounds: 142, 123, 56, 78
+	offsets: 40, 23, 120, 120
+	rotate: 90
+huo_013
+	bounds: 140, 43, 56, 78
+	offsets: 40, 23, 120, 120
+huo_014
+	bounds: 435, 694, 35, 48
+	offsets: 37, 24, 120, 120
+huo_015
+	bounds: 971, 983, 39, 51
+	offsets: 34, 26, 120, 120
+	rotate: 90
+huo_016
+	bounds: 199, 13, 40, 52
+	offsets: 32, 29, 120, 120
+	rotate: 90
+huo_017
+	bounds: 971, 866, 39, 56
+	offsets: 31, 26, 120, 120
+huo_018
+	bounds: 261, 134, 37, 57
+	offsets: 32, 26, 120, 120
+huo_019
+	bounds: 140, 2, 39, 57
+	offsets: 29, 26, 120, 120
+	rotate: 90
+huo_020
+	bounds: 971, 924, 39, 57
+	offsets: 26, 27, 120, 120
+huo_021
+	bounds: 222, 123, 37, 56
+	offsets: 25, 27, 120, 120
+huo_022
+	bounds: 337, 234, 81, 85
+	offsets: 14, 12, 120, 120
+	rotate: 90
+huo_023
+	bounds: 243, 277, 88, 92
+	offsets: 10, 8, 120, 120
+	rotate: 90
+huo_024
+	bounds: 877, 923, 92, 99
+	offsets: 8, 8, 120, 120
+huo_025
+	bounds: 143, 281, 89, 98
+	offsets: 12, 11, 120, 120
+	rotate: 90
+huo_026
+	bounds: 142, 181, 89, 98
+	offsets: 12, 11, 120, 120
+huo_027
+	bounds: 233, 193, 82, 96
+	offsets: 20, 13, 120, 120
+	rotate: 90
+huo_028
+	bounds: 424, 218, 83, 91
+	offsets: 21, 16, 120, 120
+huo_029
+	bounds: 331, 149, 83, 91
+	offsets: 21, 16, 120, 120
+	rotate: 90
+huo_030
+	bounds: 424, 134, 82, 88
+	offsets: 22, 19, 120, 120
+	rotate: 90
+huo_031
+	bounds: 198, 55, 66, 54
+	offsets: 35, 48, 120, 120
+	rotate: 90
+huoxing_001
+	bounds: 602, 888, 136, 134
+	offsets: 12, 1, 150, 150
+huoxing_002
+	bounds: 2, 161, 138, 134
+	offsets: 10, 2, 150, 150
+huoxing_003
+	bounds: 302, 744, 143, 138
+	offsets: 5, 0, 150, 150
+huoxing_004
+	bounds: 152, 737, 148, 140
+	offsets: 0, 0, 150, 150
+huoxing_005
+	bounds: 152, 879, 148, 143
+	offsets: 0, 0, 150, 150
+huoxing_006
+	bounds: 2, 723, 148, 147
+	offsets: 0, 0, 150, 150
+huoxing_007
+	bounds: 2, 872, 148, 150
+	offsets: 0, 0, 150, 150
+huoxing_008
+	bounds: 2, 580, 148, 141
+	offsets: 0, 9, 150, 150
+huoxing_009
+	bounds: 302, 884, 148, 138
+	offsets: 0, 12, 150, 150
+huoxing_010
+	bounds: 152, 599, 148, 136
+	offsets: 0, 14, 150, 150
+huoxing_011
+	bounds: 152, 465, 148, 132
+	offsets: 0, 18, 150, 150
+huoxing_012
+	bounds: 302, 594, 148, 131
+	offsets: 0, 19, 150, 150
+	rotate: 90
+huoxing_013
+	bounds: 452, 889, 148, 133
+	offsets: 0, 17, 150, 150
+huoxing_014
+	bounds: 2, 441, 148, 137
+	offsets: 0, 13, 150, 150
+huoxing_015
+	bounds: 2, 297, 139, 142
+	offsets: 9, 8, 150, 150
+huoxing_016
+	bounds: 740, 890, 135, 132
+	offsets: 13, 2, 150, 150
+huoxing_017
+	bounds: 2, 24, 136, 135
+	offsets: 12, 0, 150, 150

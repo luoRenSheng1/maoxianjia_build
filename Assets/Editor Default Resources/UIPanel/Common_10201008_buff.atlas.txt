@@ -1,0 +1,28 @@
+Common_10201008_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+10201008_buff1_001
+	bounds: 426, 701, 204, 137
+	offsets: 3, 27, 210, 170
+10201008_buff1_002
+	bounds: 2, 293, 206, 155
+	offsets: 1, 2, 210, 170
+10201008_buff1_003
+	bounds: 214, 503, 204, 145
+	offsets: 2, 19, 210, 170
+10201008_buff1_004
+	bounds: 2, 158, 204, 133
+	offsets: 2, 30, 210, 170
+10201008_buff1_005
+	bounds: 632, 716, 206, 122
+	offsets: 1, 1, 210, 170
+10201008_buff2_001
+	bounds: 2, 450, 210, 191
+	offsets: 0, 0, 210, 200
+10201008_buff2_002
+	bounds: 214, 650, 210, 188
+	offsets: 0, 4, 210, 200
+10201008_buff2_003
+	bounds: 2, 643, 210, 195
+	offsets: 0, 5, 210, 200

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1584751489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 794bd89a72c162a69dd25ab45fbdda33
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 794bd89a72c162a69dd25ab45fbdda33
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/bd03.png
+Dependencies: []

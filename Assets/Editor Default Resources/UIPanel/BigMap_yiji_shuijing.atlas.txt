@@ -1,0 +1,10 @@
+BigMap_yiji_shuijing.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+guang
+	bounds: 2, 63, 111, 98
+	offsets: 4, 1, 120, 100
+shuijng
+	bounds: 2, 2, 66, 59
+	offsets: 2, 2, 70, 63

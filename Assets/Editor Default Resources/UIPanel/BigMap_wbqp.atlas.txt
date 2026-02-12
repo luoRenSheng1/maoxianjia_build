@@ -1,0 +1,7 @@
+BigMap_wbqp.png
+size:256,256
+filter:Linear,Linear
+pma:true
+wabao
+bounds:2,2,156,176
+offsets:10,0,176,176

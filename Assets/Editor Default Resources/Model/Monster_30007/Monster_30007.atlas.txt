@@ -1,0 +1,86 @@
+Monster_30007.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+00000
+	bounds: 494, 488, 23, 17
+	rotate: 90
+00001
+	bounds: 267, 463, 17, 11
+03
+	bounds: 123, 422, 67, 89
+	offsets: 3, 2, 72, 95
+04
+	bounds: 172, 363, 25, 22
+	offsets: 1, 2, 28, 25
+	rotate: 90
+05
+	bounds: 36, 126, 34, 25
+	offsets: 4, 5, 40, 33
+	rotate: 90
+06
+	bounds: 434, 482, 27, 29
+	offsets: 2, 2, 30, 32
+07
+	bounds: 391, 472, 39, 39
+	offsets: 12, 15, 64, 69
+08
+	bounds: 0, 87, 73, 32
+	offsets: 11, 8, 95, 46
+	rotate: 90
+09
+	bounds: 0, 42, 41, 28
+	offsets: 7, 6, 55, 40
+	rotate: 90
+10
+	bounds: 194, 431, 60, 27
+	offsets: 12, 11, 84, 49
+11
+	bounds: 223, 416, 12, 11
+	offsets: 2, 1, 15, 14
+12
+	bounds: 0, 12, 28, 26
+	offsets: 6, 6, 39, 39
+13
+	bounds: 288, 464, 11, 10
+	offsets: 3, 3, 17, 16
+14
+	bounds: 83, 243, 25, 25
+	offsets: 3, 3, 31, 32
+15
+	bounds: 194, 462, 69, 49
+	offsets: 5, 16, 83, 71
+18
+	bounds: 0, 164, 66, 82
+	offsets: 10, 15, 85, 108
+19
+	bounds: 195, 404, 24, 23
+	offsets: 2, 2, 28, 26
+20
+	bounds: 36, 92, 30, 24
+	offsets: 4, 5, 40, 30
+	rotate: 90
+21
+	bounds: 172, 392, 26, 19
+	offsets: 4, 3, 31, 23
+	rotate: 90
+24
+	bounds: 0, 250, 79, 106
+25
+	bounds: 0, 360, 119, 151
+26
+	bounds: 341, 467, 44, 46
+	offsets: 5, 10, 59, 66
+	rotate: 90
+gu1
+	bounds: 123, 364, 45, 54
+	offsets: 0, 1, 45, 55
+gu2
+	bounds: 465, 484, 25, 27
+	offsets: 1, 0, 27, 27
+yinying
+	bounds: 83, 272, 84, 23
+	offsets: 1, 1, 86, 25
+	rotate: 90
+zui
+	bounds: 267, 478, 70, 33

@@ -1,0 +1,107 @@
+ManifestFileVersion: 0
+CRC: 2798167118
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 64a169ca2b1988a830f6d5925413df2e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 64a169ca2b1988a830f6d5925413df2e
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Summon_zh_banner_2.mat
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_fui.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_4.png
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Summon_zh_banner_4.mat
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Summon_zh_banner_3.mat
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner.png
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Summon_zh_banner_5.mat
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_Banner.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_huo.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_huo.png
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_2.png
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_huo_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka_Material-Screen.mat
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Summon_zh_banner.mat
+- Assets/Editor Default Resources/UIPanel/Summon_Banner_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_Banner_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_huo_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx.png
+- Assets/Editor Default Resources/UIPanel/Summon_atlas0.png
+- Assets/Editor Default Resources/UIPanel/Summon_huo_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_atlas4.png
+- Assets/Editor Default Resources/UIPanel/Summon_Banner.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh.png
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_5.png
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner.png
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka.png
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx.png
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx.png
+- Assets/Editor Default Resources/UIPanel/Summon_HeroEx_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_Banner_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_Banner.png
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh.png
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_cwzh_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_HeroBanner_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_3.png
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Summon_zh_banner_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Summon_PetEx_Material.mat
+- Assets/Editor Default Resources/UIPanel/Summon_huo.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Summon_SkillEx_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_jnzh_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Summon_Chouka_Atlas.asset
+Dependencies: []

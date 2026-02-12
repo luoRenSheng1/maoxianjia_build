@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigAttrEnumerationUnit {
+  int32 Id = 1;
+  int32 AttrId = 2;
+  string AttrNameNote = 3;
+  string AttrName = 4;
+  string Icon = 5;
+}

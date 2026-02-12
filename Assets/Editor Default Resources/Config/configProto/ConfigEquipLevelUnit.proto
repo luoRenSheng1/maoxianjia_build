@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEquipLevelUnit {
+  int32 Id = 1;
+  int32 EquipQuality = 2;
+  int32 EquipLevel = 3;
+  string PhysicalAtk = 4;
+  string MagicAtk = 5;
+  string SorceryAtk = 6;
+  string Hp = 7;
+  string PhysicalDef = 8;
+  string MagicDef = 9;
+  string SorceryDef = 10;
+  string Reply = 11;
+  int32 AddEntry = 12;
+}

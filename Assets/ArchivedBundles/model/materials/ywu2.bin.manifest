@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1307928154
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bde16fe20bc8ae2dac82a837145771a8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bde16fe20bc8ae2dac82a837145771a8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/ywu2.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/yw_09.bin

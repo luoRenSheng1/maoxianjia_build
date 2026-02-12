@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEventUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Type = 4;
+  int32 TypeGroup = 5;
+  int32 Quantity = 6;
+  int32 Time = 7;
+  int32 Number = 8;
+  int32 Rate = 9;
+  int32 Location = 10;
+  int32 Range = 11;
+  int32 Resource = 12;
+  string TaskIndex = 13;
+  string Desc = 14;
+}

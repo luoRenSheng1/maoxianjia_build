@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1911849939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2018b0e565be5aa09f12cc5fa0a90b5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b2018b0e565be5aa09f12cc5fa0a90b5
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/TY_8.ogg
+Dependencies: []

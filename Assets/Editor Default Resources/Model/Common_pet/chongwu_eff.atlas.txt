@@ -1,0 +1,27 @@
+chongwu_eff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+guangdian
+	bounds: 32, 74, 54, 53
+	offsets: 3, 3, 60, 60
+guangxian
+	bounds: 2, 31, 28, 163
+	offsets: 6, 20, 40, 200
+ju0001
+	bounds: 2, 320, 196, 147
+	offsets: 2, 2, 200, 151
+ju0002
+	bounds: 2, 196, 175, 122
+	offsets: 22, 10, 200, 151
+ju0003
+	bounds: 200, 353, 137, 114
+	offsets: 39, 18, 200, 151
+ju0004
+	bounds: 339, 372, 66, 95
+	offsets: 67, 29, 200, 151
+ju0005
+	bounds: 32, 129, 57, 65
+	offsets: 68, 48, 200, 151
+xingxing
+	bounds: 407, 407, 60, 60

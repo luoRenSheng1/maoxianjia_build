@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigFailurePromptUnit.proto";
+
+package Config;
+
+message ConfigFailurePrompt {
+  map<int32, ConfigFailurePromptUnit> data = 1;
+}

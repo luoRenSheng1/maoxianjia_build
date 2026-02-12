@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3375656602
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c0d900e85e2a81122b050210fcc73fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7f8408b218f83b216f5b593e2363165
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9c0d900e85e2a81122b050210fcc73fd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_1027001.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gy_21
+  1.bin

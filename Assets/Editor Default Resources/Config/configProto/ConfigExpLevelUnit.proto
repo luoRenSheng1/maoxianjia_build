@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigExpLevelUnit {
+  int32 Id = 1;
+  int32 Exp = 2;
+}

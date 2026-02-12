@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRuneAttrUnit.proto";
+
+package Config;
+
+message ConfigRuneAttr {
+  map<int32, ConfigRuneAttrUnit> data = 1;
+}

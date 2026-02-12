@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigGuideRewardUnit {
+  int32 Id = 1;
+  int32 ChapterId = 2;
+  int32 Levelid = 3;
+  int32 Type = 4;
+  string Reward = 5;
+  int32 PayListID = 6;
+}

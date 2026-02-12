@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigMailUnit.proto";
+
+package Config;
+
+message ConfigMail {
+  map<int32, ConfigMailUnit> data = 1;
+}

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 558230974
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 47f8236e8f094e37988ea12d64d42f78
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 47f8236e8f094e37988ea12d64d42f78
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/Beginner_Doc_004.ogg
+Dependencies: []

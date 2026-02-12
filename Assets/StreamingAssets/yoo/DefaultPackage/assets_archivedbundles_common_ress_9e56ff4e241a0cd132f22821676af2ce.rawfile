@@ -1,0 +1,11 @@
+﻿common/materials/ef_rain.bin
+common/materials/pt_glow.bin
+common/materials/pt_rainblob_blend.bin
+common/materials/pt_raindrop.bin
+common/materials/pt_snow.bin
+common/texture/pt_glow_dot.bin
+common/texture/pt_rainblob.bin
+common/texture/pt_snow.bin
+common/texture/ef/ef_rain.bin
+common/texture/ef/pt_ringcircle.bin
+shader/shader.bin

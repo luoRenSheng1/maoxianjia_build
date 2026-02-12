@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigBubbleUnit {
+  int32 Id = 1;
+  string DocNote = 2;
+  string Doc = 3;
+  int32 Time = 4;
+  int32 Duration = 5;
+  string BubbleResource = 6;
+}

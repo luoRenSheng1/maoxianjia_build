@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 SkillType = 4;
+  int32 SkillQuality = 5;
+  int32 SkillTarget = 6;
+  int32 Radius = 7;
+  int32 SkillDamage = 8;
+  string BuffId = 9;
+  int32 Cd = 10;
+  string SkillIcon = 11;
+  string SkillDesNote = 12;
+  string SkillDes = 13;
+  string RemarkNote = 14;
+  string Remark = 15;
+  string RemarkParam = 16;
+  string SkillAction = 17;
+  repeated int32 CasterEffect = 18;
+  int32 AttackEffect = 19;
+  int32 AttackTime = 20;
+  int32 HitEffect = 21;
+  repeated int32 HitTime = 22;
+  int32 BulletEffect = 23;
+  int32 BulletTime = 24;
+  int32 BulletFlyTime = 25;
+  int32 StartSound = 26;
+}

@@ -1,0 +1,101 @@
+RoleMain_tfbj.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+liuguang_001
+	bounds: 2, 3, 57, 19
+	offsets: 403, 30, 460, 80
+liuguang_002
+	bounds: 1001, 39, 73, 21
+	offsets: 386, 28, 460, 80
+	rotate: 90
+liuguang_005
+	bounds: 799, 18, 200, 40
+	offsets: 243, 8, 460, 80
+liuguang_012
+	bounds: 799, 60, 197, 52
+	offsets: 0, 4, 460, 80
+qiu_002
+	bounds: 799, 339, 223, 225
+	offsets: 7, 5, 240, 240
+qiu_003
+	bounds: 799, 114, 223, 223
+	offsets: 7, 6, 240, 240
+qiu_010
+	bounds: 799, 566, 223, 226
+	offsets: 7, 4, 240, 240
+qiu_012
+	bounds: 799, 794, 223, 228
+	offsets: 7, 3, 240, 240
+san
+	bounds: 2, 24, 795, 998
+	offsets: 15, 33, 810, 1031
+
+RoleMain_tfbj_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+liuguang_003
+	bounds: 563, 738, 101, 32
+	offsets: 350, 17, 460, 80
+liuguang_004
+	bounds: 953, 834, 161, 42
+	offsets: 290, 7, 460, 80
+	rotate: 90
+liuguang_006
+	bounds: 2, 52, 238, 44
+	offsets: 175, 9, 460, 80
+liuguang_007
+	bounds: 381, 244, 257, 43
+	offsets: 140, 10, 460, 80
+	rotate: 90
+liuguang_008
+	bounds: 230, 722, 331, 48
+	offsets: 32, 3, 460, 80
+liuguang_009
+	bounds: 227, 184, 317, 47
+	offsets: 6, 3, 460, 80
+	rotate: 90
+liuguang_010
+	bounds: 331, 216, 285, 48
+	offsets: 0, 3, 460, 80
+	rotate: 90
+liuguang_011
+	bounds: 276, 219, 282, 53
+	offsets: 0, 3, 460, 80
+	rotate: 90
+liuguang_013
+	bounds: 902, 813, 182, 49
+	offsets: 1, 6, 460, 80
+	rotate: 90
+liuguang_014
+	bounds: 452, 542, 178, 45
+	offsets: 4, 9, 460, 80
+	rotate: 90
+liuguang_015
+	bounds: 2, 7, 175, 43
+	offsets: 8, 10, 460, 80
+qiu_001
+	bounds: 455, 772, 220, 223
+	offsets: 10, 7, 240, 240
+qiu_004
+	bounds: 2, 543, 224, 222
+	offsets: 6, 7, 240, 240
+qiu_005
+	bounds: 2, 98, 223, 220
+	offsets: 7, 8, 240, 240
+qiu_006
+	bounds: 677, 777, 223, 218
+	offsets: 7, 9, 240, 240
+qiu_007
+	bounds: 228, 503, 222, 217
+	offsets: 8, 10, 240, 240
+qiu_008
+	bounds: 2, 320, 223, 221
+	offsets: 7, 7, 240, 240
+qiu_009
+	bounds: 230, 772, 223, 223
+	offsets: 7, 6, 240, 240
+qiu_011
+	bounds: 2, 767, 226, 228
+	offsets: 7, 3, 240, 240

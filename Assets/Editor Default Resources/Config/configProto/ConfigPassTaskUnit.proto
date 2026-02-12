@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPassTaskUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  string Param = 3;
+  string NameNote = 4;
+  string Name = 5;
+  int32 PayType = 6;
+  int32 ActivityLevel = 7;
+  int32 CD = 8;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigAptitudeUnlockUnit {
+  int32 BuffId = 1;
+  string Name = 2;
+  int32 Type = 3;
+  string PreId = 4;
+  string Lv = 5;
+  string Doc = 6;
+  int32 Icon = 7;
+}

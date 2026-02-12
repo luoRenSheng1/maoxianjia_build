@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHeroLevelUnit {
+  int32 Id = 1;
+  int32 HeroId = 2;
+  string NameNote = 3;
+  string Name = 4;
+  int32 Level = 5;
+  int32 Exp = 6;
+  int32 Ratio = 7;
+  string Item = 8;
+}

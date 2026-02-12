@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigStageMonsterAttrUnit {
+  int32 Id = 1;
+  int32 Chapter = 2;
+  int32 LevelId = 3;
+  string NameNote = 4;
+  int32 Node = 5;
+  int32 MonsterData = 6;
+  int32 HarmType = 7;
+  int32 EntryNumber = 8;
+  int32 EntryGroup = 9;
+  string PhysicalAtk = 10;
+  string MagicAtk = 11;
+  string SorceryAtk = 12;
+  string PhysicalDef = 13;
+  string MagicDef = 14;
+  string SorceryDef = 15;
+  string Hp = 16;
+  string Reply = 17;
+  string Note1 = 18;
+}

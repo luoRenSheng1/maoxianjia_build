@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillAchieveUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 DevSide = 3;
+  string Name = 4;
+  string Doc = 5;
+  int32 AttrOrAction = 6;
+  int32 Trigger = 7;
+  int32 TriggerValue = 8;
+  int32 HandleObject = 9;
+  int32 InvalidCondition = 10;
+  float LastTime = 11;
+  float EffectTime = 12;
+  int32 OpFrequency = 13;
+  string CommonAttr = 14;
+  int32 ValueChangeType = 15;
+  int32 ActID = 16;
+  float CoverLastTime = 17;
+  float CoverEffectTime = 18;
+  int32 COpFrequency = 19;
+  int32 Ruantity = 20;
+  string CoverCommonParam = 21;
+  int32 BuffEffect = 22;
+  int32 BuffTime = 23;
+  int32 Item = 24;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigContinuousSaveUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string NameParam = 4;
+  int32 Day = 5;
+  string ItemId = 6;
+  string Notes = 7;
+}

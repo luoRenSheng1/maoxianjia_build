@@ -1,0 +1,111 @@
+Common_14001_buff.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+14001_buff_001
+	bounds: 177, 212, 71, 38
+	offsets: 13, 4, 92, 48
+14001_buff_011
+	bounds: 177, 212, 71, 38
+	offsets: 13, 4, 92, 48
+14001_buff_002
+	bounds: 201, 139, 71, 35
+	offsets: 13, 7, 92, 48
+	rotate: 90
+14001_buff_022
+	bounds: 201, 139, 71, 35
+	offsets: 13, 7, 92, 48
+	rotate: 90
+14001_buff_003
+	bounds: 68, 53, 72, 27
+	offsets: 11, 12, 92, 48
+	rotate: 90
+14001_buff_023
+	bounds: 68, 53, 72, 27
+	offsets: 11, 12, 92, 48
+	rotate: 90
+14001_buff_004
+	bounds: 2, 119, 90, 37
+	offsets: 1, 7, 92, 48
+	rotate: 90
+14001_buff_014
+	bounds: 2, 119, 90, 37
+	offsets: 1, 7, 92, 48
+	rotate: 90
+14001_buff_005
+	bounds: 2, 211, 89, 39
+	offsets: 1, 4, 92, 48
+14001_buff_025
+	bounds: 2, 211, 89, 39
+	offsets: 1, 4, 92, 48
+14001_buff_006
+	bounds: 93, 211, 82, 39
+	offsets: 8, 4, 92, 48
+14001_buff_016
+	bounds: 93, 211, 82, 39
+	offsets: 8, 4, 92, 48
+14001_buff_026
+	bounds: 93, 211, 82, 39
+	offsets: 8, 4, 92, 48
+14001_buff_007
+	bounds: 83, 130, 82, 38
+	offsets: 9, 5, 92, 48
+14001_buff_018
+	bounds: 83, 130, 82, 38
+	offsets: 9, 5, 92, 48
+14001_buff_008
+	bounds: 2, 36, 81, 34
+	offsets: 9, 9, 92, 48
+	rotate: 90
+14001_buff_028
+	bounds: 2, 36, 81, 34
+	offsets: 9, 9, 92, 48
+	rotate: 90
+14001_buff_009
+	bounds: 38, 42, 75, 28
+	offsets: 8, 14, 92, 48
+	rotate: 90
+14001_buff_029
+	bounds: 38, 42, 75, 28
+	offsets: 8, 14, 92, 48
+	rotate: 90
+14001_buff_010
+	bounds: 2, 2, 60, 32
+	offsets: 23, 12, 92, 48
+14001_buff_021
+	bounds: 2, 2, 60, 32
+	offsets: 23, 12, 92, 48
+14001_buff_012
+	bounds: 97, 57, 71, 31
+	offsets: 11, 9, 92, 48
+	rotate: 90
+14001_buff_013
+	bounds: 167, 127, 82, 32
+	offsets: 6, 12, 92, 48
+	rotate: 90
+14001_buff_024
+	bounds: 167, 127, 82, 32
+	offsets: 6, 12, 92, 48
+	rotate: 90
+14001_buff_015
+	bounds: 41, 127, 82, 40
+	offsets: 8, 3, 92, 48
+	rotate: 90
+14001_buff_017
+	bounds: 83, 170, 82, 39
+	offsets: 8, 4, 92, 48
+14001_buff_027
+	bounds: 83, 170, 82, 39
+	offsets: 8, 4, 92, 48
+14001_buff_019
+	bounds: 164, 56, 69, 30
+	offsets: 14, 12, 92, 48
+	rotate: 90
+14001_buff_020
+	bounds: 130, 59, 69, 32
+	offsets: 14, 12, 92, 48
+	rotate: 90
+14001_buff_030
+	bounds: 130, 59, 69, 32
+	offsets: 14, 12, 92, 48
+	rotate: 90

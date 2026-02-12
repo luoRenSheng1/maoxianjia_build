@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigAptitudeUnit.proto";
+
+package Config;
+
+message ConfigAptitude {
+  map<int32, ConfigAptitudeUnit> data = 1;
+}

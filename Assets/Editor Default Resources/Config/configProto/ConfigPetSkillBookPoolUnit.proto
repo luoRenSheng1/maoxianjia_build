@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetSkillBookPoolUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 AptitudeId = 3;
+  int32 Rate = 4;
+  string Interval = 5;
+  string Notes1 = 6;
+  string Notes2 = 7;
+}

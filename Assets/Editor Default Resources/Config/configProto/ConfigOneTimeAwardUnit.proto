@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigOneTimeAwardUnit {
+  int32 Id = 1;
+  string Code = 2;
+  string Award = 3;
+}

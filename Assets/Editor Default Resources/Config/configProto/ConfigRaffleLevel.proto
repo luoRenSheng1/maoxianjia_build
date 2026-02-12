@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRaffleLevelUnit.proto";
+
+package Config;
+
+message ConfigRaffleLevel {
+  map<int32, ConfigRaffleLevelUnit> data = 1;
+}

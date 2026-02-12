@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigStageUnit.proto";
+
+package Config;
+
+message ConfigStage {
+  map<int32, ConfigStageUnit> data = 1;
+}

@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 384607161
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6bed09454649b6df5fe6e6a39a1deff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c6bed09454649b6df5fe6e6a39a1deff
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi.png
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_2.png
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_5.png
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_3.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02_Material-Screen.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi_6.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi_5.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_fui.bytes
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_4.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2.png
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_6.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2_Material.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi_4.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_exp.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi_3.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_exp.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02_Material.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Lobby_atlas0.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_exp_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_exp_Material.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_exp_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_exp.png
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi_Lobby_yindi_2.mat
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang02_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Lobby_yindi.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Lobby_kaixiang_fx2.atlas.txt
+Dependencies: []

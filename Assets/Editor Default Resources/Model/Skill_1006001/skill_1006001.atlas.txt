@@ -1,0 +1,7 @@
+skill_1006001.png
+size:138,138
+filter:Linear,Linear
+pma:true
+a_qiu
+bounds:4,63,130,71
+offsets:20,0,150,72

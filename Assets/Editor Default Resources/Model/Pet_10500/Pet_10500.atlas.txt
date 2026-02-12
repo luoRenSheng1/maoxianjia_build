@@ -1,0 +1,68 @@
+Pet_10500.png
+	size: 512, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_er
+	bounds: 219, 62, 14, 17
+	offsets: 0, 1, 15, 18
+	rotate: 90
+R_er
+	bounds: 489, 108, 19, 16
+	offsets: 0, 0, 20, 17
+biyan
+	bounds: 339, 95, 21, 8
+	offsets: 0, 1, 21, 10
+fx/TX_hy1_0001
+	bounds: 219, 80, 63, 67
+	offsets: 3, 0, 69, 70
+fx/TX_hy1_0002
+	bounds: 314, 157, 88, 99
+	offsets: 3, 4, 94, 106
+	rotate: 90
+fx/TX_hy1_0003
+	bounds: 116, 148, 95, 97
+	offsets: 3, 5, 98, 105
+fx/TX_hy1_0004
+	bounds: 4, 43, 97, 96
+	offsets: 1, 6, 98, 103
+fx/TX_hy1_0005
+	bounds: 215, 151, 95, 94
+	offsets: 2, 4, 98, 98
+fx/TX_hy1_0006
+	bounds: 417, 156, 90, 89
+	offsets: 3, 3, 97, 92
+guang
+	bounds: 156, 6, 13, 13
+houtui1
+	bounds: 339, 107, 47, 46
+houtui2
+	bounds: 417, 122, 35, 30
+qiantui1
+	bounds: 390, 120, 33, 23
+	rotate: 90
+qiantui2
+	bounds: 456, 124, 29, 28
+	offsets: 0, 0, 29, 29
+shenti
+	bounds: 4, 143, 108, 102
+tou
+	bounds: 105, 54, 83, 85
+tu
+	bounds: 4, 4, 148, 35
+	offsets: 4, 1, 157, 38
+weiba
+	bounds: 286, 88, 59, 49
+	rotate: 90
+yanbai
+	bounds: 156, 23, 29, 27
+	offsets: 1, 1, 31, 29
+yanpi
+	bounds: 489, 128, 24, 19
+	rotate: 90
+yanzhu
+	bounds: 240, 65, 10, 11
+yinying
+	bounds: 192, 60, 84, 23
+	offsets: 1, 1, 86, 25
+	rotate: 90

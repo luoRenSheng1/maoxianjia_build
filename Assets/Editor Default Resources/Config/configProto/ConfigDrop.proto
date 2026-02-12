@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigDropUnit.proto";
+
+package Config;
+
+message ConfigDrop {
+  map<int32, ConfigDropUnit> data = 1;
+}

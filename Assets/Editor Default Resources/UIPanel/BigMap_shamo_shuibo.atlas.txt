@@ -1,0 +1,241 @@
+BigMap_shamo_shuibo.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+shuibo_001
+	bounds: 2, 1138, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_002
+	bounds: 478, 1204, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_003
+	bounds: 954, 1269, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_004
+	bounds: 1430, 1331, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_005
+	bounds: 2, 1083, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_006
+	bounds: 478, 1149, 474, 53
+	offsets: 0, 10, 474, 70
+shuibo_007
+	bounds: 478, 985, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_008
+	bounds: 954, 1050, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_009
+	bounds: 1430, 1112, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_010
+	bounds: 2, 864, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_011
+	bounds: 478, 931, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_012
+	bounds: 954, 996, 474, 52
+	offsets: 0, 11, 474, 70
+shuibo_013
+	bounds: 954, 1214, 474, 53
+	offsets: 0, 11, 474, 70
+shuibo_014
+	bounds: 1430, 1276, 474, 53
+	offsets: 0, 11, 474, 70
+shuibo_015
+	bounds: 1430, 1058, 474, 52
+	offsets: 0, 12, 474, 70
+shuibo_016
+	bounds: 2, 1028, 474, 53
+	offsets: 0, 11, 474, 70
+shuibo_017
+	bounds: 478, 1094, 474, 53
+	offsets: 0, 11, 474, 70
+shuibo_018
+	bounds: 1906, 1066, 474, 52
+	offsets: 0, 12, 474, 70
+	rotate: 90
+shuibo_019
+	bounds: 2, 810, 474, 52
+	offsets: 0, 12, 474, 70
+shuibo_020
+	bounds: 954, 1159, 474, 53
+	offsets: 0, 12, 474, 70
+shuibo_021
+	bounds: 1430, 1221, 474, 53
+	offsets: 0, 12, 474, 70
+shuibo_022
+	bounds: 2, 973, 474, 53
+	offsets: 0, 12, 474, 70
+shuibo_023
+	bounds: 478, 1427, 474, 54
+	offsets: 0, 11, 474, 70
+shuibo_024
+	bounds: 954, 1492, 474, 54
+	offsets: 0, 11, 474, 70
+shuibo_025
+	bounds: 478, 1540, 474, 55
+	offsets: 0, 10, 474, 70
+shuibo_026
+	bounds: 954, 1605, 474, 55
+	offsets: 0, 10, 474, 70
+shuibo_027
+	bounds: 954, 1720, 474, 56
+	offsets: 0, 10, 474, 70
+shuibo_028
+	bounds: 2, 1709, 474, 57
+	offsets: 0, 9, 474, 70
+shuibo_029
+	bounds: 478, 1773, 474, 57
+	offsets: 0, 9, 474, 70
+shuibo_030
+	bounds: 954, 1837, 474, 57
+	offsets: 0, 9, 474, 70
+shuibo_031
+	bounds: 954, 1896, 474, 58
+	offsets: 0, 8, 474, 70
+shuibo_032
+	bounds: 1430, 1958, 474, 58
+	offsets: 0, 8, 474, 70
+shuibo_033
+	bounds: 478, 1956, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_034
+	bounds: 2, 1830, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_035
+	bounds: 478, 1894, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_036
+	bounds: 954, 1956, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_037
+	bounds: 2, 1955, 474, 61
+	offsets: 0, 6, 474, 70
+shuibo_038
+	bounds: 2, 1892, 474, 61
+	offsets: 0, 6, 474, 70
+shuibo_039
+	bounds: 2, 1768, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_040
+	bounds: 478, 1832, 474, 60
+	offsets: 0, 7, 474, 70
+shuibo_041
+	bounds: 478, 1039, 474, 53
+	offsets: 0, 14, 474, 70
+shuibo_042
+	bounds: 1430, 1554, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_043
+	bounds: 2, 1305, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_044
+	bounds: 478, 1371, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_045
+	bounds: 954, 1436, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_046
+	bounds: 1430, 1498, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_047
+	bounds: 1906, 1542, 474, 54
+	offsets: 0, 14, 474, 70
+	rotate: 90
+shuibo_048
+	bounds: 2, 1249, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_049
+	bounds: 478, 1315, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_050
+	bounds: 954, 1380, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_051
+	bounds: 1430, 1442, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_052
+	bounds: 1962, 1542, 474, 54
+	offsets: 0, 14, 474, 70
+	rotate: 90
+shuibo_053
+	bounds: 2, 1193, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_054
+	bounds: 478, 1259, 474, 54
+	offsets: 0, 14, 474, 70
+shuibo_055
+	bounds: 954, 1104, 474, 53
+	offsets: 0, 14, 474, 70
+shuibo_056
+	bounds: 1430, 1166, 474, 53
+	offsets: 0, 14, 474, 70
+shuibo_057
+	bounds: 2, 918, 474, 53
+	offsets: 0, 14, 474, 70
+shuibo_058
+	bounds: 954, 1324, 474, 54
+	offsets: 0, 13, 474, 70
+shuibo_059
+	bounds: 1430, 1386, 474, 54
+	offsets: 0, 13, 474, 70
+shuibo_060
+	bounds: 1430, 1667, 474, 55
+	offsets: 0, 12, 474, 70
+shuibo_061
+	bounds: 2, 1418, 474, 55
+	offsets: 0, 12, 474, 70
+shuibo_062
+	bounds: 478, 1483, 474, 55
+	offsets: 0, 12, 474, 70
+shuibo_063
+	bounds: 954, 1548, 474, 55
+	offsets: 0, 11, 474, 70
+shuibo_064
+	bounds: 1430, 1610, 474, 55
+	offsets: 0, 11, 474, 70
+shuibo_065
+	bounds: 2, 1361, 474, 55
+	offsets: 0, 11, 474, 70
+shuibo_066
+	bounds: 1430, 1782, 474, 56
+	offsets: 0, 10, 474, 70
+shuibo_067
+	bounds: 2, 1533, 474, 56
+	offsets: 0, 10, 474, 70
+shuibo_068
+	bounds: 478, 1597, 474, 56
+	offsets: 0, 9, 474, 70
+shuibo_069
+	bounds: 954, 1662, 474, 56
+	offsets: 0, 9, 474, 70
+shuibo_070
+	bounds: 1430, 1899, 474, 57
+	offsets: 0, 8, 474, 70
+shuibo_071
+	bounds: 2, 1650, 474, 57
+	offsets: 0, 8, 474, 70
+shuibo_072
+	bounds: 478, 1714, 474, 57
+	offsets: 0, 8, 474, 70
+shuibo_073
+	bounds: 954, 1778, 474, 57
+	offsets: 0, 7, 474, 70
+shuibo_074
+	bounds: 1430, 1840, 474, 57
+	offsets: 0, 7, 474, 70
+shuibo_075
+	bounds: 2, 1591, 474, 57
+	offsets: 0, 7, 474, 70
+shuibo_076
+	bounds: 1430, 1724, 474, 56
+	offsets: 0, 7, 474, 70
+shuibo_077
+	bounds: 478, 1655, 474, 57
+	offsets: 0, 6, 474, 70
+shuibo_078
+	bounds: 2, 1475, 474, 56
+	offsets: 0, 7, 474, 70

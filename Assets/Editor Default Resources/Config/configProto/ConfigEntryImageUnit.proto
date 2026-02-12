@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEntryImageUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Parts = 4;
+  int32 Rate = 5;
+  int32 Icon = 6;
+}

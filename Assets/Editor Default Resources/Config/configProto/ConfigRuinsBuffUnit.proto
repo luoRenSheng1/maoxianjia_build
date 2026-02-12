@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRuinsBuffUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Lv = 4;
+  string Attr = 5;
+  int32 Rate = 6;
+  int32 Time = 7;
+  string Note1 = 8;
+  int32 Icon = 9;
+}

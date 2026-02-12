@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1628831749
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0acc6916cdb436fd525c34b34534baf9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0acc6916cdb436fd525c34b34534baf9
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/DG_04 2.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/mask_05.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/yw_09.bin

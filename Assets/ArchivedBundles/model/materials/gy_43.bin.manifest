@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2069263579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5424ebab20309d4ecfc8a0483152897
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c5424ebab20309d4ecfc8a0483152897
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/gy_43.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/gy33.bin

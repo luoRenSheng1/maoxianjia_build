@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigAttrEnumerationUnit.proto";
+
+package Config;
+
+message ConfigAttrEnumeration {
+  map<int32, ConfigAttrEnumerationUnit> data = 1;
+}

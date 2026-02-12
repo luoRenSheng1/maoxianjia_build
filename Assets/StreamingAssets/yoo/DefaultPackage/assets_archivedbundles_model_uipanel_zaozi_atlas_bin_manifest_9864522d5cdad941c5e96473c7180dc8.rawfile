@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 351634527
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c8495be2d3aa068c77e855e86773e4e3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c8495be2d3aa068c77e855e86773e4e3
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/zaozi.atlas.txt
+Dependencies: []

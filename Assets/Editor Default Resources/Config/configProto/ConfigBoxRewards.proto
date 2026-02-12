@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigBoxRewardsUnit.proto";
+
+package Config;
+
+message ConfigBoxRewards {
+  map<int32, ConfigBoxRewardsUnit> data = 1;
+}

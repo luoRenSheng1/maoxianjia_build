@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1473925786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ef934925589657b1dfd628c1a97de1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9ef934925589657b1dfd628c1a97de1b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/bingqiu.png
+Dependencies: []

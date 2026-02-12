@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 5678975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf4a5853905fdb0f6f9dccbec6330eb5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2282d0dcb27fcebaa6a4394333f3fc02
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bf4a5853905fdb0f6f9dccbec6330eb5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab73f8d7891903142bce2358fdd1c0f4, type: 3}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Manager/SoundEntityManager.prefab
+Dependencies: []

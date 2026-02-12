@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetAptitudeUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 Type = 3;
+  string Name = 4;
+  string NameNote = 5;
+  string Doc = 6;
+  string DocNote = 7;
+  int32 Item = 8;
+}

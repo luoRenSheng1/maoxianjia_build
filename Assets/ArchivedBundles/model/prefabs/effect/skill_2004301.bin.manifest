@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3433464554
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb107ece31b14e92f13ae25bb2056b05
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae8c52309304dbced62e9359e7a02dec
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb107ece31b14e92f13ae25bb2056b05
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_2004301.prefab
+Dependencies: []

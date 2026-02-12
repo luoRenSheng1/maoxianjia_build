@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "xOmVR/Tv6fc",
+	"spine": "4.1.24",
+	"x": -28,
+	"y": -40.15,
+	"width": 56,
+	"height": 77,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "zb", "parent": "root", "y": -1.65 }
+],
+"slots": [
+	{ "name": "zb", "bone": "zb", "attachment": "zb" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"zb": {
+				"zb": { "width": 56, "height": 77 }
+			}
+		}
+	}
+],
+"animations": {
+	"BigMap_wzzb": {
+		"bones": {
+			"zb": {
+				"translate": [
+					{
+						"y": 1.65,
+						"curve": [ 0.167, 0, 0.333, 0, 0.167, 1.65, 0.333, 23.55 ]
+					},
+					{
+						"time": 0.5,
+						"y": 23.55,
+						"curve": [ 0.667, 0, 0.833, 0, 0.667, 23.55, 0.833, 1.65 ]
+					},
+					{ "time": 1, "y": 1.65 }
+				]
+			}
+		}
+	}
+}
+}

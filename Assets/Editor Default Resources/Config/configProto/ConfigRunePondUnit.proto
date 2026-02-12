@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRunePondUnit {
+  int32 Id = 1;
+  int32 Skill = 2;
+  int32 Rate = 3;
+}

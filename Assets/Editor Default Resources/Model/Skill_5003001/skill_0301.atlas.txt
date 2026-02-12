@@ -1,0 +1,38 @@
+skill_0301.png
+	size: 512, 128
+	filter: Linear, Linear
+	scale: 0.5
+hudiejie1
+	bounds: 398, 83, 41, 47
+	offsets: 0, 2, 41, 49
+	rotate: 90
+hudiejie2
+	bounds: 129, 33, 36, 41
+hudiejie3
+	bounds: 27, 11, 44, 47
+	offsets: 0, 0, 48, 47
+hudiejie4
+	bounds: 449, 85, 44, 39
+lian
+	bounds: 4, 62, 73, 62
+shanghezi
+	bounds: 164, 83, 83, 41
+xiahezi
+	bounds: 81, 78, 79, 46
+yaci1
+	bounds: 4, 4, 54, 19
+	rotate: 90
+yaci2
+	bounds: 251, 80, 49, 17
+yinzi
+	bounds: 251, 101, 84, 23
+	offsets: 1, 1, 86, 25
+youshou
+	bounds: 339, 84, 40, 55
+	rotate: 90
+youyan
+	bounds: 304, 83, 15, 14
+zuoshou
+	bounds: 81, 36, 44, 38
+zuoyan
+	bounds: 497, 111, 8, 13

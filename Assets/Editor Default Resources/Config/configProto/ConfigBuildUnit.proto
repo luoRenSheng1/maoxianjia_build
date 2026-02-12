@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigBuildUnit {
+  int32 Id = 1;
+  string BuildNameNote = 2;
+  string BuildName = 3;
+  int32 BuildType = 4;
+  int32 Item = 5;
+  int32 ProduceTime = 6;
+  int32 Number = 7;
+  int32 PeakTime = 8;
+  string ResourcesIcon = 9;
+  string BuildIcon = 10;
+}

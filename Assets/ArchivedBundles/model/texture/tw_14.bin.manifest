@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4243062444
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6d751c3c8cb024895c076be3cfe21948
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6d751c3c8cb024895c076be3cfe21948
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/tw_14.png
+Dependencies: []

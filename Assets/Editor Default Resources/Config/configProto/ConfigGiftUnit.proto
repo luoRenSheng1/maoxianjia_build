@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigGiftUnit {
+  int32 Id = 1;
+  int32 GiftType = 2;
+  string NameNote = 3;
+  string Name = 4;
+  string NameParam = 5;
+  string ItemId = 6;
+  int32 Buy = 7;
+  int32 MoneyType = 8;
+  int32 BuyNumber = 9;
+  int32 Price = 10;
+  int32 Sort = 11;
+  string Rebate = 12;
+  int32 PayList = 13;
+  int32 System = 14;
+  int32 BgUrl = 15;
+}

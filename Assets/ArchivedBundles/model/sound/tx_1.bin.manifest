@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2237621188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0cc10f1474e3fa640f44ec9f1f35382b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0cc10f1474e3fa640f44ec9f1f35382b
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/TX_1.ogg
+Dependencies: []

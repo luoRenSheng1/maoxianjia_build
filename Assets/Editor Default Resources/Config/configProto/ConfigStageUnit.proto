@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigStageUnit {
+  int32 Id = 1;
+  int32 Chapter = 2;
+  int32 LevelId = 3;
+  string NameNote = 4;
+  string Name = 5;
+  int32 MonsterData = 6;
+  int32 Node = 7;
+  string FirstReward = 8;
+  string Gold = 9;
+  int32 LoreRate = 10;
+  string Drop = 11;
+  int32 EquipLevel = 12;
+  string SuggestionStr = 13;
+  int32 UnlockType = 14;
+  string Level = 15;
+}

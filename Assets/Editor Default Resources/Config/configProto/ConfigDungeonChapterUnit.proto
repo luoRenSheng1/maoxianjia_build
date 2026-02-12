@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigDungeonChapterUnit {
+  int32 Id = 1;
+  string NameNoet = 2;
+  string Name = 3;
+  int32 Type = 4;
+  int32 ItemID = 5;
+  string Banner = 6;
+  int32 Scenes = 7;
+  string PassReward = 8;
+  string HelpInformationNote = 9;
+  string HelpInformation = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigDailyTaskUnit.proto";
+
+package Config;
+
+message ConfigDailyTask {
+  map<int32, ConfigDailyTaskUnit> data = 1;
+}

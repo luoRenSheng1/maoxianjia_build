@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEventStoreUnit {
+  int32 Id = 1;
+  int32 ItemId = 2;
+  int32 Number = 3;
+  int32 Score = 4;
+  int32 Limit = 5;
+  int32 Sort = 6;
+  string NameNote = 7;
+}

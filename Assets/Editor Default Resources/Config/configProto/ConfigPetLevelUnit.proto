@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetLevelUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 PetLevel = 3;
+  int32 PetHurt = 4;
+  int32 PetDebris = 5;
+}

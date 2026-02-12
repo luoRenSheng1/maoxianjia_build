@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigStringUnit {
+  int32 Id = 1;
+  string CN = 2;
+  string EN = 3;
+  string JP = 4;
+  string KR = 5;
+  string ZH = 6;
+}

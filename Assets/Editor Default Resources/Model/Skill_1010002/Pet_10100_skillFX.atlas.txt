@@ -1,0 +1,8 @@
+Pet_10100_skillFX.png
+size:61,61
+filter:Linear,Linear
+pma:true
+scale:0.5
+mogu
+bounds:0,0,61,61
+offsets:2,2,64,63

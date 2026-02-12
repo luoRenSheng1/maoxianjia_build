@@ -1,0 +1,59 @@
+Pet_10181.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.55
+133
+	bounds: 263, 373, 21, 29
+L_shou1
+	bounds: 150, 335, 81, 63
+	offsets: 0, 0, 81, 64
+L_shou2
+	bounds: 339, 418, 85, 83
+L_tui1
+	bounds: 2, 11, 33, 31
+	offsets: 0, 0, 33, 32
+	rotate: 90
+L_tui2
+	bounds: 286, 380, 25, 22
+	offsets: 0, 0, 28, 23
+R_shou
+	bounds: 150, 400, 100, 101
+	offsets: 1, 0, 101, 101
+R_tui1
+	bounds: 233, 365, 28, 33
+	offsets: 0, 0, 29, 34
+R_tui2
+	bounds: 233, 337, 27, 26
+	offsets: 0, 0, 28, 26
+body1
+	bounds: 2, 354, 146, 147
+guangdian
+	bounds: 135, 330, 22, 13
+	rotate: 90
+gulou
+	bounds: 47, 171, 85, 72
+jianzhi1
+	bounds: 98, 113, 32, 56
+jianzhi2
+	bounds: 2, 111, 76, 30
+	rotate: 90
+jianzhi3
+	bounds: 426, 418, 75, 83
+tou11
+	bounds: 47, 245, 107, 86
+	rotate: 90
+tou_daizi
+	bounds: 2, 46, 63, 28
+	rotate: 90
+tou_dao
+	bounds: 34, 125, 44, 62
+	offsets: 0, 0, 44, 63
+	rotate: 90
+wuqi1
+	bounds: 252, 404, 85, 97
+	offsets: 0, 1, 85, 98
+yinying
+	bounds: 2, 189, 163, 43
+	offsets: 1, 2, 165, 47
+	rotate: 90

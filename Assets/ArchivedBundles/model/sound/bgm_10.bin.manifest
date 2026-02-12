@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 646377996
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f5985e71743bc77bada8dba20d3ca9ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f5985e71743bc77bada8dba20d3ca9ea
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/BGM_10.ogg
+Dependencies: []

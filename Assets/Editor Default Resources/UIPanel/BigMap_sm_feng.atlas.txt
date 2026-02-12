@@ -1,0 +1,39 @@
+BigMap_sm_feng.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+fengchui4
+	bounds: 939, 2, 907, 668
+	offsets: 53, 0, 1000, 716
+fengchui5
+	bounds: 947, 672, 934, 670
+	offsets: 26, 9, 1000, 716
+fengchui7
+	bounds: 2, 1335, 943, 709
+	offsets: 17, 0, 1000, 716
+fengchui8
+	bounds: 2, 627, 935, 706
+	offsets: 25, 0, 1000, 716
+fengchui9
+	bounds: 947, 1344, 931, 700
+	offsets: 29, 0, 1000, 716
+
+BigMap_sm_feng_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+fengchui0
+	bounds: 935, 708, 775, 646
+	offsets: 130, 32, 1000, 716
+fengchui1
+	bounds: 2, 2, 872, 679
+	offsets: 80, 0, 1000, 716
+fengchui2
+	bounds: 935, 1356, 870, 668
+	offsets: 64, 3, 1000, 716
+fengchui3
+	bounds: 2, 683, 896, 667
+	offsets: 64, 0, 1000, 716
+fengchui6
+	bounds: 2, 1352, 931, 672
+	offsets: 29, 0, 1000, 716

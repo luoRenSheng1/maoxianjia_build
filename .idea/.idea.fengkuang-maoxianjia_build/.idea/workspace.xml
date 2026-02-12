@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbf64239-994f-4c50-8481-e1b11e855c97" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$" beforeDir="true" afterPath="$PROJECT_DIR$" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/Assets" beforeDir="true" afterPath="$PROJECT_DIR$/Assets" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources" beforeDir="true" afterPath="$PROJECT_DIR$/Assets/Resources" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/036bc5ebf03c4684b11effa0bd40532e11a00/bd/1305ddb7/AndroidJavaObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/19/9b7b70d4/AsyncOperation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/1f/ac3a2b53/SetupCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/30/9a7bfe28/Shader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/33/1b97dbfb/Vector2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/36/1be601f4/MonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/41/fb176250/Texture2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/4c/9eccc7e2/LoadSceneMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/64/83b1ddba/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/77/b960b830/SystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/80/354bd205/Resources.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/89/5aaa53e0/ReflectionProbe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/a0/33ab7c42/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/a1/1ff5ac95/Application.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/a9/9327a790/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13b092c0a6c54f29bb731555a2ae9c5115b200/ca/260207ab/Material.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/141b6fbfe39b4d93913d77843337d17e4000/14/5380de48/Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1af02d07d2cb42c89d266e73ef200491be00/5c/b8404a09/UnityWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314b4d15eff24a75a00f1081558dfa59335a00/65/ffffb069/EventDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314b4d15eff24a75a00f1081558dfa59335a00/68/c1330ee3/VersionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314b4d15eff24a75a00f1081558dfa59335a00/77/a9987910/PlayerPrefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/314b4d15eff24a75a00f1081558dfa59335a00/cc/51328f4e/TSingleton`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/337e6bcec4064265a21590f9e7051e5b1200/2b/82e43333/ITapUpdateBridge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3789ee403a53437cbb6b5d9ab6311f51573620/e4/d786c281/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41e5d835fcc44171a345bfc23f1271b982aa00/ae/1b9b9017/BuildPipelineInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41e5d835fcc44171a345bfc23f1271b982aa00/d6/dd396a33/EditorUserBuildSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/487e528c992b4333913a4cf415048a5746ac00/09/0f4b3b50/Int32.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/487e528c992b4333913a4cf415048a5746ac00/5d/f5914ccd/Activator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/487e528c992b4333913a4cf415048a5746ac00/bd/b30b2f77/NullReferenceException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/487e528c992b4333913a4cf415048a5746ac00/f2/f4edf525/AsyncVoidMethodBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b18a8b3398e74bca86895881dd02956c573648/b6/225aff52/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Net/MsgProto/Common.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Net/MsgProto/Pet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Net/MsgProto/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Net/MsgProto/Stage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.taptap.sdk.core@4.7.1/Runtime/Public/TapTapSDK.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.taptap.sdk.login@4.7.1/Runtime/Public/TapTapLogin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.taptap.sdk.update@4.7.1/Runtime/Internal/TapUpdateInitTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.taptap.sdk.update@4.7.1/Runtime/Public/TapTapUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vCcZaUt1YTCp5aNT1LNOTdC8A8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Proofreading missing languages information&quot;: &quot;审校缺少的语言信息&quot;,
+    &quot;Notification.DoNotAsk-Proofreading missing languages information&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.34980237&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;附加到 Unity 编辑器.附加到 Unity 编辑器.executor&quot;: &quot;Debug&quot;,
+    &quot;附加到 Unity 编辑器.附加到 Unity 编辑器并运行.executor&quot;: &quot;Debug&quot;
+  }
+}</component>
+  <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器并运行">
+    <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity Hub\Editor\Unity 2021.3.41f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath E:\1Client\fengkuang-maoxianjia_build -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\1Client\fengkuang-maoxianjia_build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="单元测试(批处理模式)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity Hub\Editor\Unity 2021.3.41f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\1Client\fengkuang-maoxianjia_build -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\1Client\fengkuang-maoxianjia_build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19476">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="19476" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list>
+          <MonoRuntime />
+        </list>
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="独立播放器.单元测试(批处理模式)" />
+      <item itemvalue="独立播放器.启动 Unity" />
+      <item itemvalue="附加到 Unity 编辑器.附加到 Unity 编辑器" />
+      <item itemvalue="附加到 Unity 编辑器.附加到 Unity 编辑器并运行" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\1Client\fengkuang-maoxianjia_build" />
+          <option name="myCopyRoot" value="E:\1Client\fengkuang-maoxianjia_build" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\1Client\fengkuang-maoxianjia_build" />
+          <option name="myCopyRoot" value="E:\1Client\fengkuang-maoxianjia_build" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fbf64239-994f-4c50-8481-e1b11e855c97" name="更改" comment="" />
+      <created>1743652552633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743652552633</updated>
+      <workItem from="1743652553727" duration="655000" />
+      <workItem from="1743655343485" duration="143000" />
+      <workItem from="1743655493847" duration="214000" />
+      <workItem from="1743947454522" duration="7884000" />
+      <workItem from="1743989957933" duration="11900000" />
+      <workItem from="1749900481641" duration="1501000" />
+      <workItem from="1750050313819" duration="372000" />
+      <workItem from="1750050691868" duration="5361000" />
+      <workItem from="1750751449972" duration="17235000" />
+      <workItem from="1750836990430" duration="19119000" />
+      <workItem from="1750902056453" duration="33376000" />
+      <workItem from="1750988454858" duration="12529000" />
+      <workItem from="1751075417793" duration="29265000" />
+      <workItem from="1751247987453" duration="33367000" />
+      <workItem from="1751334858473" duration="29635000" />
+      <workItem from="1751420600727" duration="32324000" />
+      <workItem from="1751506844118" duration="21756000" />
+      <workItem from="1751597404588" duration="13429000" />
+      <workItem from="1751685261815" duration="30147000" />
+      <workItem from="1751852534689" duration="30833000" />
+      <workItem from="1751938470992" duration="34861000" />
+      <workItem from="1752024880535" duration="35979000" />
+      <workItem from="1752111661121" duration="24509000" />
+      <workItem from="1752199076257" duration="3956000" />
+      <workItem from="1754535218509" duration="20870000" />
+      <workItem from="1754566175094" duration="5297000" />
+      <workItem from="1754617493400" duration="15922000" />
+      <workItem from="1754879527910" duration="32682000" />
+      <workItem from="1754962556018" duration="33585000" />
+      <workItem from="1755049366811" duration="25664000" />
+      <workItem from="1755096539983" duration="7343000" />
+      <workItem from="1755137948520" duration="31565000" />
+      <workItem from="1755222614554" duration="23874000" />
+      <workItem from="1755326634331" duration="10597000" />
+      <workItem from="1755483667782" duration="9076000" />
+      <workItem from="1755680527530" duration="9159000" />
+      <workItem from="1755741395937" duration="13168000" />
+      <workItem from="1756523212568" duration="4763000" />
+      <workItem from="1757385726733" duration="16423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineLauncher/CI.cs</url>
+          <line>74</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\EngineLauncher\CI.cs" containingFunctionPresentation="方法 'InitSDK'">
+            <startOffsets>
+              <option value="1391" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1410" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineLauncher/CI.cs</url>
+          <line>75</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\EngineLauncher\CI.cs" containingFunctionPresentation="方法 'InitSDK'">
+            <startOffsets>
+              <option value="1423" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1430" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>668</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TrackGameStart'">
+            <startOffsets>
+              <option value="21965" />
+            </startOffsets>
+            <endOffsets>
+              <option value="22008" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>681</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TrackGameEnd'">
+            <startOffsets>
+              <option value="22368" />
+            </startOffsets>
+            <endOffsets>
+              <option value="22409" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>348</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TapSDKLogin'">
+            <startOffsets>
+              <option value="12321" />
+            </startOffsets>
+            <endOffsets>
+              <option value="12350" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>349</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TapSDKLogin'">
+            <startOffsets>
+              <option value="12371" />
+            </startOffsets>
+            <endOffsets>
+              <option value="12399" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>437</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TapSDKLogout'">
+            <startOffsets>
+              <option value="15087" />
+            </startOffsets>
+            <endOffsets>
+              <option value="15088" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>438</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TapSDKLogout'">
+            <startOffsets>
+              <option value="15112" />
+            </startOffsets>
+            <endOffsets>
+              <option value="15158" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Manager/TapSDKManager.cs</url>
+          <line>439</line>
+          <properties documentPath="E:\1Client\fengkuang-maoxianjia_build\Assets\Scripts\Manager\TapSDKManager.cs" containingFunctionPresentation="方法 'TapSDKLogout'">
+            <startOffsets>
+              <option value="15182" />
+            </startOffsets>
+            <endOffsets>
+              <option value="15202" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="grid.GetNeighbours(currentNode)" />
+        <watch expression="targetPos1" />
+        <watch expression="achieve.CommonAttr.Split(&quot;,&quot;).Length" />
+        <watch expression="DataManager.Instance.GetRoleData().userID" />
+        <watch expression="GetAppVersion()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

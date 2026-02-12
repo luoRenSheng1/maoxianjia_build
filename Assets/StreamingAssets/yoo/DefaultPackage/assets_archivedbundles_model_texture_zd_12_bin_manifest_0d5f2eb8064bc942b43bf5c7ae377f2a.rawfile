@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2003982492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ae68955834bc440dcbf4add319b12690
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ae68955834bc440dcbf4add319b12690
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/zd_12.png
+Dependencies: []

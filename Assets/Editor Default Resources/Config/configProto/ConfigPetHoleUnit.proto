@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetHoleUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 Hole1 = 3;
+  int32 Hole2 = 4;
+  int32 Hole3 = 5;
+  int32 Book1 = 6;
+  int32 Book2 = 7;
+  int32 Book3 = 8;
+  int32 Type = 9;
+}

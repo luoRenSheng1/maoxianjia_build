@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2053484663
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3364c9e8d97f44075516d481a7fdb7bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3364c9e8d97f44075516d481a7fdb7bd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/sw2.png
+Dependencies: []

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigDailyTaskUnit {
+  int32 Id = 1;
+  int32 TaskType = 2;
+  int32 Type = 3;
+  string Param = 4;
+  int32 Difficulty = 5;
+  string NameNote = 6;
+  string Name = 7;
+  string Reward = 8;
+  int32 SystemId = 9;
+  int32 Conduct = 10;
+}

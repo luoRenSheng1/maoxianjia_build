@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigAchievementUnit {
+  int32 Id = 1;
+  int32 AID = 2;
+  string Name = 3;
+  int32 AchievementType = 4;
+  int32 Type = 5;
+  string Doc = 6;
+  string NotesDoc = 7;
+  int32 PreAchievementID = 8;
+  string Param1 = 9;
+  string TexParam = 10;
+  string Reward = 11;
+  int32 SortID = 12;
+  int32 Item = 13;
+}

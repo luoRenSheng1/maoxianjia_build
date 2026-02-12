@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRuinsBuffUnit.proto";
+
+package Config;
+
+message ConfigRuinsBuff {
+  map<int32, ConfigRuinsBuffUnit> data = 1;
+}

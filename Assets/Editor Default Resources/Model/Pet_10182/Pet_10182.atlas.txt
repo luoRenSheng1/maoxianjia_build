@@ -1,0 +1,139 @@
+Pet_10182.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+L_hubi1
+	bounds: 267, 195, 55, 56
+L_hubi2
+	bounds: 389, 347, 60, 61
+L_hutui1
+	bounds: 321, 133, 20, 26
+	rotate: 90
+L_shou1
+	bounds: 306, 258, 59, 77
+L_tui1
+	bounds: 393, 181, 22, 26
+L_xie
+	bounds: 442, 187, 23, 18
+L_zhi1
+	bounds: 166, 3, 35, 32
+L_zhi2
+	bounds: 363, 209, 46, 46
+R_hubi3
+	bounds: 311, 337, 71, 76
+	rotate: 90
+R_hubi4
+	bounds: 258, 92, 58, 43
+R_hubi5
+	bounds: 207, 253, 82, 97
+	rotate: 90
+R_hubib
+	bounds: 363, 180, 27, 28
+	rotate: 90
+R_hutui1
+	bounds: 318, 105, 24, 26
+R_shou1
+	bounds: 122, 95, 70, 81
+R_shou2
+	bounds: 456, 244, 51, 44
+R_tui1
+	bounds: 321, 155, 28, 28
+R_xie
+	bounds: 417, 193, 23, 19
+diaodai
+	bounds: 234, 42, 22, 53
+hong1
+	bounds: 258, 42, 24, 43
+	rotate: 90
+hong2
+	bounds: 456, 410, 44, 52
+	rotate: 90
+kouzhao
+	bounds: 367, 257, 78, 44
+	rotate: 90
+mao1
+	bounds: 446, 456, 64, 54
+mao2
+	bounds: 262, 137, 57, 56
+	offsets: 1, 1, 58, 57
+mao3
+	bounds: 413, 246, 27, 40
+	rotate: 90
+mao4
+	bounds: 183, 203, 48, 82
+	rotate: 90
+mao5
+	bounds: 207, 40, 25, 55
+niukou
+	bounds: 411, 214, 29, 30
+pf
+	bounds: 2, 178, 179, 93
+pf2
+	bounds: 207, 337, 102, 84
+s1
+	bounds: 456, 290, 58, 49
+	rotate: 90
+s2
+	bounds: 116, 31, 58, 43
+	rotate: 90
+s3
+	bounds: 413, 275, 70, 41
+	rotate: 90
+shenti
+	bounds: 2, 91, 118, 85
+shipin
+	bounds: 326, 448, 118, 62
+t_2_0008
+	bounds: 442, 224, 48, 18
+	offsets: 108, 223, 288, 512
+t_2_0009
+	bounds: 116, 2, 48, 27
+	offsets: 108, 223, 288, 512
+t_2_0010
+	bounds: 324, 207, 49, 37
+	offsets: 107, 224, 288, 512
+	rotate: 90
+t_2_0011
+	bounds: 161, 37, 56, 44
+	offsets: 103, 222, 288, 512
+	rotate: 90
+t_2_0012
+	bounds: 194, 97, 62, 49
+	offsets: 99, 219, 288, 512
+t_2_0013
+	bounds: 194, 148, 66, 53
+	offsets: 96, 217, 288, 512
+t_2_0014
+	bounds: 451, 350, 58, 57
+	offsets: 106, 216, 288, 512
+	rotate: 90
+t_2_0015
+	bounds: 446, 448, 6, 6
+	offsets: 138, 253, 288, 512
+tou
+	bounds: 2, 2, 87, 112
+	rotate: 90
+tou_ni
+	bounds: 207, 423, 117, 87
+weapon
+	bounds: 2, 273, 203, 237
+	offsets: 2, 1, 205, 238
+yao1
+	bounds: 183, 256, 17, 15
+yao2
+	bounds: 492, 218, 24, 18
+	rotate: 90
+yaodai1
+	bounds: 324, 185, 20, 37
+	offsets: 0, 0, 20, 38
+	rotate: 90
+yaodai2
+	bounds: 442, 207, 15, 35
+	offsets: 0, 0, 16, 38
+	rotate: 90
+yaodai3
+	bounds: 258, 68, 46, 22
+yinying
+	bounds: 326, 410, 128, 36
+	offsets: 1, 1, 130, 38

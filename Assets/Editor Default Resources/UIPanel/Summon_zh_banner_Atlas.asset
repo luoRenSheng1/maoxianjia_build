@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Summon_zh_banner_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 692a244c11929a24da93cb2620211c6c, type: 3}
+  materials:
+  - {fileID: 2100000, guid: fb4c6affccb27614eb5a91acefd7894a, type: 2}
+  - {fileID: 2100000, guid: d9430f8510403fe4aa10aa2ee54ebd23, type: 2}
+  - {fileID: 2100000, guid: 895ba0163de580248b2f510bb5fff099, type: 2}
+  - {fileID: 2100000, guid: 41a4244732de1c44d9cc598d373b184f, type: 2}
+  - {fileID: 2100000, guid: 5ddbe6dc68d3fd14c8eb3a0e70f8cc6f, type: 2}

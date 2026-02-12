@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetAptitudePoolUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 AptitudeId = 3;
+  int32 AptitudeLV = 4;
+  int32 Rate = 5;
+  string Notes1 = 6;
+  string Notes1Note = 7;
+  string Notes2 = 8;
+  string Notes2Note = 9;
+  string Common = 10;
+  string Interval = 11;
+  int32 HandleObject = 12;
+}

@@ -1,0 +1,68 @@
+Common_1014_fly.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+1014_fly_001
+	bounds: 2, 183, 77, 86
+	offsets: 64, 261, 200, 360
+1014_fly_002
+	bounds: 2, 478, 83, 258
+	offsets: 56, 78, 200, 360
+1014_fly_003
+	bounds: 2, 738, 101, 284
+	offsets: 49, 61, 200, 360
+1014_fly_004
+	bounds: 377, 723, 111, 104
+	offsets: 55, 41, 200, 360
+	rotate: 90
+1014_fly_005
+	bounds: 80, 364, 107, 110
+	offsets: 41, 27, 200, 360
+	rotate: 90
+1014_fly_006
+	bounds: 475, 859, 138, 163
+	offsets: 50, 11, 200, 360
+1014_fly_007
+	bounds: 105, 836, 183, 186
+	offsets: 11, 0, 200, 360
+1014_fly_008
+	bounds: 290, 836, 183, 186
+	offsets: 11, 0, 200, 360
+1014_fly_009
+	bounds: 615, 895, 149, 127
+	offsets: 0, 8, 200, 360
+1014_fly_010
+	bounds: 87, 604, 116, 120
+	offsets: 37, 37, 200, 360
+1014_fly_011
+	bounds: 483, 737, 106, 120
+	offsets: 37, 37, 200, 360
+1014_fly_012
+	bounds: 766, 907, 127, 115
+	offsets: 30, 37, 200, 360
+1014_fly_013
+	bounds: 2, 271, 115, 91
+	offsets: 42, 47, 200, 360
+1014_fly_014
+	bounds: 105, 726, 134, 108
+	offsets: 26, 41, 200, 360
+1014_fly_015
+	bounds: 241, 726, 134, 108
+	offsets: 26, 41, 200, 360
+1014_fly_016
+	bounds: 2, 364, 112, 76
+	offsets: 44, 60, 200, 360
+	rotate: 90
+1014_fly_017
+	bounds: 205, 622, 134, 102
+	offsets: 27, 42, 200, 360
+1014_fly_018
+	bounds: 119, 321, 65, 41
+	offsets: 89, 82, 200, 360
+1014_fly_019
+	bounds: 895, 929, 127, 93
+	offsets: 34, 44, 200, 360
+1014_fly_020
+	bounds: 87, 473, 129, 103
+	offsets: 34, 49, 200, 360
+	rotate: 90

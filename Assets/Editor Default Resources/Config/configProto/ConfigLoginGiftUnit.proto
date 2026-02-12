@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigLoginGiftUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 Time = 3;
+  string NameNote = 4;
+  string Name = 5;
+  string ItemId = 6;
+  int32 BuyNumber = 7;
+  int32 PayListId = 8;
+}

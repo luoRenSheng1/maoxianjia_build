@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSmokeUnit {
+  int32 Id = 1;
+  int32 Day = 2;
+  string Reward = 3;
+}

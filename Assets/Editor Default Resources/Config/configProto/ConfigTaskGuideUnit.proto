@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigTaskGuideUnit {
+  int32 Id = 1;
+  string TaskName = 2;
+  int32 Conduct = 3;
+  string ConductNote = 4;
+  string JumpPath = 5;
+  int32 FingerPosition = 6;
+  int32 Doc = 7;
+  string DocNote = 8;
+}

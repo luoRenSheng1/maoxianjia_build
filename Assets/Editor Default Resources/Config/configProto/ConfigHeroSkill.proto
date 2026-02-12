@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigHeroSkillUnit.proto";
+
+package Config;
+
+message ConfigHeroSkill {
+  map<int32, ConfigHeroSkillUnit> data = 1;
+}

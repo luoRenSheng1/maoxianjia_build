@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 2891750057
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 07fdc3f583f37a418fa92105df1724e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef8df23fa8f1eb4b6c1004e331b5ee78
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 07fdc3f583f37a418fa92105df1724e7
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_atlas0_1.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_item.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_item.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_r0abdxy6s.ogg
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl_CommonEx_tyjl_2.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_item.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_item_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl_2.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_GetPet_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_fui.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_atlas0.png
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl_CommonEx_tyjl.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_item_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_bx.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi.atlas.txt
+- Assets/Editor Default Resources/UIPanel/CommonEx_weiba.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_tenman_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/CommonEx_tyjl.skel.bytes
+- Assets/Editor Default Resources/UIPanel/CommonEx_xiangzi_Material.mat
+- Assets/Editor Default Resources/UIPanel/CommonEx_item_SkeletonData.asset
+Dependencies: []

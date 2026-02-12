@@ -1,0 +1,25 @@
+Common_yindao.png
+	size: 1024, 512
+	filter: Linear, Linear
+	scale: 0.4
+Book1/Book1
+	bounds: 2, 225, 181, 210
+	offsets: 0, 5, 182, 216
+Book1/Book1 shadow
+	bounds: 385, 281, 154, 193
+	offsets: 0, 0, 154, 194
+	rotate: 90
+Book2/Book2 Cover Back
+	bounds: 2, 15, 166, 208
+Book2/Book2 Cover Front
+	bounds: 185, 156, 118, 205
+	rotate: 90
+book3/Book 3 Sheet
+	bounds: 767, 279, 174, 156
+	offsets: 0, 0, 175, 156
+book3/Book3 Cover Back
+	bounds: 185, 276, 198, 159
+book3/Book3 Cover Front
+	bounds: 580, 280, 185, 155
+book3/Book3 Down
+	bounds: 2, 2, 39, 11

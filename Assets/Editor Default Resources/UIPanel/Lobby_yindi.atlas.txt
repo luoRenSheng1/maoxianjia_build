@@ -1,0 +1,180 @@
+Lobby_yindi.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_001
+	bounds: 2, 758, 551, 260
+	offsets: 24, 53, 600, 340
+chong_003
+	bounds: 2, 492, 547, 264
+	offsets: 26, 57, 600, 340
+chong_004
+	bounds: 2, 225, 546, 265
+	offsets: 27, 60, 600, 340
+chong_006
+	bounds: 555, 244, 543, 268
+	offsets: 29, 65, 600, 340
+	rotate: 90
+chong_008
+	bounds: 825, 244, 543, 157
+	offsets: 32, 71, 600, 340
+	rotate: 90
+chong_013
+	bounds: 2, 63, 545, 160
+	offsets: 40, 84, 600, 340
+chong_027
+	bounds: 555, 789, 390, 229
+	offsets: 186, 49, 600, 340
+huo_001
+	bounds: 191, 19, 42, 52
+	offsets: 0, 0, 42, 61
+	rotate: 90
+huo_002
+	bounds: 245, 19, 42, 50
+	offsets: 0, 0, 42, 61
+	rotate: 90
+huo_003
+	bounds: 947, 960, 41, 58
+	offsets: 0, 0, 42, 61
+huo_004
+	bounds: 128, 25, 36, 61
+	offsets: 2, 0, 42, 61
+	rotate: 90
+huo_005
+	bounds: 947, 897, 35, 61
+	offsets: 3, 0, 42, 61
+quan_
+	bounds: 2, 2, 124, 59
+	offsets: 4, 7, 130, 70
+
+Lobby_yindi_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_002
+	bounds: 263, 194, 549, 261
+	offsets: 25, 55, 600, 340
+	rotate: 90
+chong_005
+	bounds: 2, 745, 544, 267
+	offsets: 28, 62, 600, 340
+chong_009
+	bounds: 263, 34, 543, 158
+	offsets: 34, 73, 600, 340
+chong_028
+	bounds: 526, 194, 549, 229
+	offsets: 27, 52, 600, 340
+	rotate: 90
+chong_037
+	bounds: 757, 461, 551, 255
+	offsets: 23, 53, 600, 340
+	rotate: 90
+chong_038
+	bounds: 2, 191, 552, 259
+	offsets: 23, 52, 600, 340
+	rotate: 90
+
+Lobby_yindi_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_007
+	bounds: 2, 716, 542, 267
+	offsets: 31, 68, 600, 340
+chong_010
+	bounds: 232, 2, 544, 158
+	offsets: 35, 76, 600, 340
+chong_029
+	bounds: 232, 162, 552, 228
+	offsets: 24, 56, 600, 340
+	rotate: 90
+chong_030
+	bounds: 462, 162, 552, 228
+	offsets: 23, 59, 600, 340
+	rotate: 90
+chong_031
+	bounds: 2, 161, 553, 228
+	offsets: 22, 62, 600, 340
+	rotate: 90
+chong_032
+	bounds: 692, 431, 552, 228
+	offsets: 22, 65, 600, 340
+	rotate: 90
+
+Lobby_yindi_4.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_016
+	bounds: 803, 423, 541, 161
+	offsets: 44, 93, 600, 340
+	rotate: 90
+chong_022
+	bounds: 2, 29, 525, 245
+	offsets: 50, 31, 600, 340
+chong_025
+	bounds: 555, 440, 524, 246
+	offsets: 52, 42, 600, 340
+	rotate: 90
+chong_033
+	bounds: 2, 736, 551, 228
+	offsets: 21, 68, 600, 340
+chong_034
+	bounds: 2, 506, 548, 228
+	offsets: 22, 71, 600, 340
+chong_035
+	bounds: 2, 276, 545, 228
+	offsets: 22, 74, 600, 340
+
+Lobby_yindi_5.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_017
+	bounds: 528, 2, 528, 161
+	offsets: 45, 96, 600, 340
+	rotate: 90
+chong_018
+	bounds: 691, 495, 526, 242
+	offsets: 47, 19, 600, 340
+	rotate: 90
+chong_019
+	bounds: 2, 778, 526, 243
+	offsets: 48, 21, 600, 340
+chong_020
+	bounds: 2, 532, 525, 244
+	offsets: 49, 24, 600, 340
+chong_023
+	bounds: 2, 285, 524, 245
+	offsets: 51, 35, 600, 340
+chong_024
+	bounds: 2, 38, 524, 245
+	offsets: 52, 39, 600, 340
+
+Lobby_yindi_6.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_011
+	bounds: 778, 477, 544, 158
+	offsets: 37, 79, 600, 340
+	rotate: 90
+chong_012
+	bounds: 231, 209, 545, 159
+	offsets: 38, 82, 600, 340
+chong_014
+	bounds: 231, 370, 545, 160
+	offsets: 41, 87, 600, 340
+chong_015
+	bounds: 231, 47, 543, 160
+	offsets: 43, 90, 600, 340
+chong_021
+	bounds: 2, 778, 525, 243
+	offsets: 50, 28, 600, 340
+chong_026
+	bounds: 2, 532, 522, 244
+	offsets: 54, 46, 600, 340
+chong_036
+	bounds: 2, 2, 528, 227
+	offsets: 22, 78, 600, 340
+	rotate: 90

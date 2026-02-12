@@ -1,0 +1,7 @@
+skill_20001.png
+size:128,128
+filter:Linear,Linear
+scale:0.6
+xxz
+bounds:4,4,74,73
+offsets:0,1,75,74

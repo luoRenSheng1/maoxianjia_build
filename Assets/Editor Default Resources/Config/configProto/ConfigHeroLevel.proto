@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigHeroLevelUnit.proto";
+
+package Config;
+
+message ConfigHeroLevel {
+  map<int32, ConfigHeroLevelUnit> data = 1;
+}

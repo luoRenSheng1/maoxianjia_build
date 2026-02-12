@@ -1,0 +1,110 @@
+14002_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+10571_chx
+	bounds: 154, 46, 109, 93
+	rotate: 90
+diquan_001
+	bounds: 327, 109, 63, 14
+	offsets: 68, 25, 200, 60
+	rotate: 90
+diquan_002
+	bounds: 383, 27, 87, 20
+	offsets: 56, 22, 200, 60
+	rotate: 90
+diquan_003
+	bounds: 332, 2, 105, 24
+	offsets: 47, 20, 200, 60
+	rotate: 90
+diquan_004
+	bounds: 249, 34, 121, 30
+	offsets: 39, 16, 200, 60
+	rotate: 90
+diquan_005
+	bounds: 121, 11, 122, 31
+	offsets: 39, 15, 200, 60
+	rotate: 90
+diquan_006
+	bounds: 117, 135, 134, 33
+	offsets: 34, 13, 200, 60
+	rotate: 90
+diquan_007
+	bounds: 432, 140, 150, 37
+	offsets: 26, 11, 200, 60
+	rotate: 90
+diquan_008
+	bounds: 344, 121, 170, 41
+	offsets: 16, 9, 200, 60
+	rotate: 90
+diquan_009
+	bounds: 204, 412, 194, 47
+	offsets: 4, 6, 200, 60
+diquan_010
+	bounds: 204, 461, 200, 49
+	offsets: 0, 5, 200, 60
+diquan_011
+	bounds: 2, 459, 200, 51
+	offsets: 0, 4, 200, 60
+diquan_012
+	bounds: 2, 406, 200, 51
+	offsets: 0, 4, 200, 60
+diquan_013
+	bounds: 387, 116, 174, 43
+	offsets: 14, 8, 200, 60
+	rotate: 90
+diquan_014
+	bounds: 471, 154, 136, 33
+	offsets: 33, 13, 200, 60
+	rotate: 90
+diquan_015
+	bounds: 358, 29, 90, 23
+	offsets: 56, 18, 200, 60
+	rotate: 90
+guang_001
+	bounds: 385, 363, 8, 47
+	offsets: 83, 4, 140, 140
+guang_002
+	bounds: 326, 293, 117, 57
+	offsets: 12, 0, 140, 140
+	rotate: 90
+guang_003
+	bounds: 152, 157, 117, 97
+	offsets: 12, 1, 140, 140
+	rotate: 90
+guang_004
+	bounds: 2, 8, 117, 125
+	offsets: 12, 2, 140, 140
+guang_005
+	bounds: 2, 271, 115, 133
+	offsets: 13, 1, 140, 140
+guang_006
+	bounds: 2, 135, 113, 134
+	offsets: 14, 1, 140, 140
+guang_007
+	bounds: 400, 292, 110, 134
+	offsets: 16, 1, 140, 140
+guang_008
+	bounds: 119, 276, 105, 128
+	offsets: 18, 1, 140, 140
+guang_009
+	bounds: 226, 289, 98, 121
+	offsets: 22, 1, 140, 140
+guang_010
+	bounds: 251, 174, 91, 113
+	offsets: 25, 1, 140, 140
+guang_011
+	bounds: 406, 428, 82, 104
+	offsets: 29, 1, 140, 140
+	rotate: 90
+guang_012
+	bounds: 281, 76, 44, 96
+	offsets: 47, 2, 140, 140
+guang_013
+	bounds: 154, 3, 41, 92
+	offsets: 50, 2, 140, 140
+	rotate: 90
+jian__00001
+	bounds: 281, 46, 28, 49
+	offsets: 1, 0, 30, 50
+	rotate: 90

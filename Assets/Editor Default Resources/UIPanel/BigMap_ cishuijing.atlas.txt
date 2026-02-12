@@ -1,0 +1,7 @@
+BigMap_ cishuijing.png
+	size: 128, 128
+	filter: Linear, Linear
+	pma: true
+lan_jing
+	bounds: 2, 2, 54, 66
+	offsets: 8, 7, 70, 80

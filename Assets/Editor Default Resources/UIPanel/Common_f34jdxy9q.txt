@@ -1,0 +1,76 @@
+13002_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+13002_buff_001
+	bounds: 306, 327, 93, 103
+	offsets: 15, 19, 120, 140
+	rotate: 90
+13002_buff_002
+	bounds: 2, 288, 93, 107
+	offsets: 15, 15, 120, 140
+13002_buff_003
+	bounds: 435, 412, 93, 70
+	offsets: 15, 20, 120, 140
+	rotate: 90
+13002_buff_004
+	bounds: 84, 193, 93, 83
+	offsets: 9, 11, 120, 140
+	rotate: 90
+13002_buff_005
+	bounds: 84, 106, 93, 85
+	offsets: 9, 13, 120, 140
+13002_buff_006
+	bounds: 83, 13, 93, 91
+	offsets: 9, 11, 120, 140
+13002_buff_007
+	bounds: 103, 303, 95, 95
+	offsets: 8, 12, 120, 140
+13002_buff_008
+	bounds: 411, 316, 94, 94
+	offsets: 9, 15, 120, 140
+13002_buff_009
+	bounds: 305, 232, 93, 94
+	offsets: 10, 17, 120, 140
+	rotate: 90
+13002_buff_010
+	bounds: 179, 138, 78, 92
+	offsets: 28, 21, 120, 140
+13002_buff_011
+	bounds: 259, 158, 78, 72
+	offsets: 28, 25, 120, 140
+13002_buff_012
+	bounds: 339, 152, 78, 71
+	offsets: 28, 30, 120, 140
+	rotate: 90
+13002_buff_013
+	bounds: 401, 233, 100, 81
+	offsets: 9, 25, 120, 140
+13002_buff_014
+	bounds: 2, 397, 99, 108
+	offsets: 9, 2, 120, 140
+13002_buff_015
+	bounds: 321, 422, 83, 112
+	offsets: 8, 3, 120, 140
+	rotate: 90
+13002_buff_016
+	bounds: 2, 49, 79, 116
+	offsets: 12, 4, 120, 140
+13002_buff_017
+	bounds: 2, 167, 80, 119
+	offsets: 12, 6, 120, 140
+13002_buff_018
+	bounds: 200, 425, 80, 119
+	offsets: 12, 9, 120, 140
+	rotate: 90
+13002_buff_019
+	bounds: 103, 400, 95, 105
+	offsets: 14, 11, 120, 140
+13002_buff_020
+	bounds: 200, 328, 95, 104
+	offsets: 14, 14, 120, 140
+	rotate: 90
+13002_buff_021
+	bounds: 200, 232, 94, 103
+	offsets: 14, 17, 120, 140
+	rotate: 90

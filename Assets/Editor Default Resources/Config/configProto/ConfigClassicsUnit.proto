@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigClassicsUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  int32 ClassicsID = 3;
+  int32 Vocation = 4;
+  int32 Type = 5;
+  int32 Lv = 6;
+  int32 Gold = 7;
+  string Attr = 8;
+  string Attr2 = 9;
+  string Notes1 = 10;
+  string Notes2 = 11;
+  int32 ItemID = 12;
+}

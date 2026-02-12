@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RoleMain_tfbj_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: afb06bd1dc2e9c943bd32babbfa146e9, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 249c14c0d07500040b3ac5c52f14b548, type: 2}
+  - {fileID: 2100000, guid: c831d0ee2c568434d80e09c6e56ff178, type: 2}

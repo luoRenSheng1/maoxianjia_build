@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigLoginGiftUnit.proto";
+
+package Config;
+
+message ConfigLoginGift {
+  map<int32, ConfigLoginGiftUnit> data = 1;
+}

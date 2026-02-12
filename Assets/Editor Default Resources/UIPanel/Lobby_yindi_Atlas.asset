@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Lobby_yindi_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: ff06b271c56b90347ae61a7f3335865e, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 45044e7da0bf90843ac9d36dae29a1e2, type: 2}
+  - {fileID: 2100000, guid: 0210ce7a57a64f84981af50ac6366eac, type: 2}
+  - {fileID: 2100000, guid: ec5fa309b541c854dad868a7c01c51a4, type: 2}
+  - {fileID: 2100000, guid: a1af0135c09fc4a44bf697b54352a4d4, type: 2}
+  - {fileID: 2100000, guid: 02b3c3ccee2b1994783fe2158f397a37, type: 2}
+  - {fileID: 2100000, guid: 7385d763ce876d54bafd6d5392e54328, type: 2}

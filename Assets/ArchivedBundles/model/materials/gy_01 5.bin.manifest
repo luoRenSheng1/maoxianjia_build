@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 970936917
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f8067cc4c2c68e2a0ded8b0e95b5c62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6f8067cc4c2c68e2a0ded8b0e95b5c62
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/gy_01 5.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/cd 1.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/glow_12.bin

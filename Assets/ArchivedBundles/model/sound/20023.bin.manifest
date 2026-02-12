@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2593691782
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7648334789cf1c7414d6a8abf2cce79e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7648334789cf1c7414d6a8abf2cce79e
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/20023.ogg
+Dependencies: []

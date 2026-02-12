@@ -1,0 +1,69 @@
+Monster_30005.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+01
+	bounds: 171, 198, 83, 58
+	offsets: 0, 1, 83, 59
+02
+	bounds: 83, 188, 84, 68
+03
+	bounds: 0, 181, 79, 75
+	offsets: 1, 1, 80, 76
+04
+	bounds: 0, 1, 71, 54
+	offsets: 0, 1, 72, 55
+05
+	bounds: 0, 59, 75, 55
+	offsets: 1, 1, 77, 56
+06
+	bounds: 0, 118, 78, 59
+	offsets: 0, 0, 79, 59
+07
+	bounds: 198, 93, 13, 19
+	offsets: 1, 1, 15, 21
+08
+	bounds: 216, 80, 12, 5
+	offsets: 1, 1, 14, 7
+09
+	bounds: 180, 93, 14, 19
+	offsets: 1, 1, 16, 21
+10
+	bounds: 82, 88, 66, 62
+	offsets: 3, 3, 72, 68
+11
+	bounds: 101, 6, 28, 22
+	offsets: 0, 1, 29, 24
+12
+	bounds: 152, 89, 24, 23
+	offsets: 2, 0, 27, 23
+13
+	bounds: 186, 19, 29, 31
+	offsets: 3, 3, 35, 37
+14
+	bounds: 83, 154, 69, 30
+	offsets: 0, 1, 69, 32
+15
+	bounds: 216, 89, 22, 29
+	offsets: 1, 0, 23, 29
+16
+	bounds: 75, 0, 22, 28
+	offsets: 0, 0, 23, 28
+17
+	bounds: 139, 30, 43, 54
+	offsets: 0, 1, 43, 56
+18
+	bounds: 156, 116, 54, 51
+	offsets: 1, 1, 55, 53
+19
+	bounds: 214, 122, 35, 45
+	offsets: 1, 1, 36, 46
+20
+	bounds: 79, 32, 56, 52
+	offsets: 0, 1, 57, 54
+21
+	bounds: 186, 54, 26, 35
+	offsets: 1, 1, 28, 37
+yinying
+	bounds: 171, 171, 84, 23
+	offsets: 1, 1, 86, 25

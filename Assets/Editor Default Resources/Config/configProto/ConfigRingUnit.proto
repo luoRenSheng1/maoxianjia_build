@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRingUnit {
+  int32 Id = 1;
+  int32 AttrLevel = 2;
+  int32 Atk = 3;
+  int32 HP = 4;
+  int32 CriticalStrike = 5;
+  int32 CriticalInjury = 6;
+  int32 Recovery = 7;
+  int64 Consume = 8;
+}

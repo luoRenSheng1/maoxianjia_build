@@ -1,0 +1,46 @@
+Pet_10270.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.55
+huoshan
+	bounds: 165, 196, 62, 58
+	offsets: 0, 0, 63, 58
+shenti
+	bounds: 2, 129, 161, 125
+shuizhi2
+	bounds: 165, 132, 27, 9
+suishi1
+	bounds: 208, 179, 18, 15
+	offsets: 1, 1, 19, 17
+suishi2
+	bounds: 76, 82, 23, 17
+	offsets: 0, 0, 24, 17
+suishi3
+	bounds: 2, 2, 12, 16
+	rotate: 90
+suishi5
+	bounds: 229, 206, 13, 16
+	offsets: 1, 0, 14, 20
+suishi6
+	bounds: 229, 224, 30, 19
+	offsets: 1, 0, 31, 19
+	rotate: 90
+yanbai
+	bounds: 2, 56, 72, 43
+yanzhu1
+	bounds: 36, 5, 9, 13
+	offsets: 1, 0, 10, 13
+	rotate: 90
+yanzhu2
+	bounds: 20, 2, 12, 14
+	offsets: 0, 0, 13, 14
+	rotate: 90
+yinzi
+	bounds: 2, 101, 151, 26
+	offsets: 1, 1, 153, 28
+youshou
+	bounds: 165, 143, 41, 51
+zuoshou
+	bounds: 2, 16, 38, 71
+	rotate: 90

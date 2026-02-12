@@ -1,0 +1,128 @@
+-keep class com.sglib.easymobile.androidnative.** { *; }
+-keepattributes *Annotation*
+-dontobfuscate
+
+-keep class com.appsflyer.** {*;}
+-keep class com.besthttp.proxy.** {*;}
+-keep class com.zhuque.catsoup.** {*;}
+-keep class com.qk.** {*;}
+-keep class cn.thinkingdata.engine.** {*;}
+-keep class com.yasirkula.unity.* { *; }
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keepattributes JavascriptInterface
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+
+
+-keep class com.my.target.** {*;}
+
+
+-keepattributes SourceFile,LineNumberTable
+-keep class com.inmobi.** { *; }
+-dontwarn com.inmobi.**
+-dontwarn com.squareup.picasso.**
+
+# skip the Picasso library classes
+-keep class com.squareup.picasso.** {*;}
+-dontwarn com.squareup.picasso.**
+-dontwarn com.squareup.okhttp.**
+# skip Moat classes
+-keep class com.moat.** {*;}
+-dontwarn com.moat.**
+# skip AVID classes
+-keep class com.integralads.avid.library.* {*;}
+
+# Vungle
+-keep class com.vungle.warren.** { *; }
+-dontwarn com.vungle.warren.error.VungleError$ErrorCode
+# Moat SDK
+-keep class com.moat.** { *; }
+-dontwarn com.moat.**
+# Okio
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+# Retrofit
+-dontwarn okio.**
+-dontwarn retrofit2.Platform$Java8
+# Gson
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn sun.misc.**
+-keep class com.google.gson.examples.android.model.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+
+# Pangle
+-keep class com.bytedance.sdk.openadsdk.*{ public *; }
+-keep class com.bytedance.sdk.** { *; }
+-keep class com.pgl.sys.ces.* {*;}
+
+# Keep filenames and line numbers for stack traces
+-keepattributes SourceFile,LineNumberTable
+# Keep JavascriptInterface for WebView bridge
+-keepattributes JavascriptInterface
+# Sometimes keepattributes is not enough to keep annotations
+-keep class android.webkit.JavascriptInterface {
+   *;
+}
+# Keep all classes in Unity Ads package
+-keep class com.unity3d.ads.** {
+   *;
+}
+# Keep all classes in Unity Services package
+-keep class com.unity3d.services.** {
+   *;
+}
+-dontwarn com.google.ar.core.**
+-dontwarn com.unity3d.services.**
+-dontwarn com.ironsource.adapters.unityads.**
+
+#TapJoy
+-keep class com.tapjoy.** { *; }
+-keep class com.moat.** { *; }
+-keepattributes JavascriptInterface
+-keepattributes *Annotation*
+-keep class * extends java.util.ListResourceBundle {
+protected Object[][] getContents();
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+
+-keepnames class * implements android.os.Parcelable {
+public static final ** CREATOR;
+}
+
+# Moat SDK
+-keep class com.moat.** { *; }
+-dontwarn com.moat.**
+
+# GSON
+-keepattributes *Annotation*
+-keepattributes Signature
+# Prevent R8 from leaving Data object members always null
+-keepclassmembers,allowobfuscation class * {
+  @com.google.gson.annotations.SerializedName <fields>;
+}
+
+# OkHttp + Okio
+-dontwarn javax.annotation.**
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+-dontwarn okhttp3.internal.platform.ConscryptPlatform
+
+###TrackingIO###  
+# bouncycastle
+
+-dontwarn org.bouncycastle.**  
+-keep class org.bouncycastle.** {*;}  
+# reyun sdk  
+-dontwarn com.reyun.tracking.**  
+-keep class com.reyun.tracking.** {*;}
+-keep class com.seayoo.sdk.** {*;}

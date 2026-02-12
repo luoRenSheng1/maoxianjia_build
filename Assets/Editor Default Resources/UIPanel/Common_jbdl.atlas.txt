@@ -1,0 +1,13 @@
+Common_jbdl.png
+size:256,256
+filter:Linear,Linear
+pma:true
+ce
+bounds:99,170,29,100
+offsets:1,0,30,101
+rotate:90
+zhen
+bounds:2,104,95,95
+zhence
+bounds:2,6,86,96
+offsets:0,0,86,97

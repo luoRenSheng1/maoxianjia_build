@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 481948775
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef20e664be164ddfdbdf1eb956fa91bb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3cfbcdbb26aaf7139a6cdf28df6206e1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ef20e664be164ddfdbdf1eb956fa91bb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f76231be85d3fd488b86ded0c6b7785, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b41cbc13aad95734aa4eb7fa8b4fecab, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Manager/AdapterManager.prefab
+Dependencies: []

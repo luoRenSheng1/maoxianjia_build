@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetAptitudeRateUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 QualityRate1 = 3;
+  int32 QualityRate2 = 4;
+  int32 QualityRate3 = 5;
+  int32 QualityRate4 = 6;
+  int32 QualityRate5 = 7;
+}

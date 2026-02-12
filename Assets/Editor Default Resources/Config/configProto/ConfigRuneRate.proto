@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRuneRateUnit.proto";
+
+package Config;
+
+message ConfigRuneRate {
+  map<int32, ConfigRuneRateUnit> data = 1;
+}

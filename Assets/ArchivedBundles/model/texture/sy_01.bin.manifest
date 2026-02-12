@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4180753903
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b6c61e779233df58acf8a35c94f4c098
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b6c61e779233df58acf8a35c94f4c098
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/SY_01.png
+Dependencies: []

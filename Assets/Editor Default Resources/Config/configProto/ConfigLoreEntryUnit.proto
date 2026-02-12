@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigLoreEntryUnit {
+  int32 Id = 1;
+  int32 EquipLevel = 2;
+  int32 Quality = 3;
+  string NameNote = 4;
+  string Name = 5;
+  int32 Rate = 6;
+  int32 AttributeId = 7;
+  int32 Floor = 8;
+  int32 Peak = 9;
+}

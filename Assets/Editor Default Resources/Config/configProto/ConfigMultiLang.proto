@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigMultiLangUnit.proto";
+
+package Config;
+
+message ConfigMultiLang {
+  map<string, ConfigMultiLangUnit> data = 1;
+}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RoleMain_shubanner_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: f299c12d5b4a4ce48833e8aa720d3461, type: 3}
+  materials:
+  - {fileID: 2100000, guid: f10ced163cf44a347ae50982a097e3be, type: 2}
+  - {fileID: 2100000, guid: a631fdd024b7b7043a1c7a7f0a502516, type: 2}
+  - {fileID: 2100000, guid: bcda996139706d240b2d8f4a75c94198, type: 2}
+  - {fileID: 2100000, guid: 73ce28592917f4b439835fb5f93e8124, type: 2}
+  - {fileID: 2100000, guid: 332227b99271f9a409f5e485754928e2, type: 2}

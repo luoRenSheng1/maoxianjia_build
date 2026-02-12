@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigCommonUnit {
+  int32 Id = 1;
+  string Param1 = 2;
+  string Param2 = 3;
+  string Param3 = 4;
+  string Param4 = 5;
+  string Param5 = 6;
+  string Remarks = 7;
+}

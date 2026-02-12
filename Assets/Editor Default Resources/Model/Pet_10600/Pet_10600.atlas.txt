@@ -1,0 +1,22 @@
+Pet_10600.png
+	size: 256, 128
+	filter: Linear, Linear
+	scale: 0.5
+L_jiao
+	bounds: 99, 63, 24, 35
+L_jiaodi
+	bounds: 99, 24, 24, 35
+L_yan
+	bounds: 4, 4, 13, 20
+	offsets: 0, 1, 13, 21
+	rotate: 90
+R_jiao
+	bounds: 181, 103, 35, 21
+R_yan
+	bounds: 99, 4, 16, 21
+	offsets: 0, 1, 16, 22
+	rotate: 90
+body
+	bounds: 4, 21, 91, 103
+yinying
+	bounds: 99, 102, 78, 22

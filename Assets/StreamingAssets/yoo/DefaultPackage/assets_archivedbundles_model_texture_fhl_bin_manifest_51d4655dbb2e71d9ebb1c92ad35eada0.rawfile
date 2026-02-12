@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1375704942
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0880d8617a9a85a3cf3d698d989740be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0880d8617a9a85a3cf3d698d989740be
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/fhl.png
+Dependencies: []

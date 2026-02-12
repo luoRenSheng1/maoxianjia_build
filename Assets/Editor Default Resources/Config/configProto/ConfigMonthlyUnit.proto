@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMonthlyUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Type = 4;
+  int32 Time = 5;
+  string ItemId = 6;
+  string DailyItemId = 7;
+  string Attr = 8;
+  string OtherAttr = 9;
+  int32 PayListID = 10;
+  string TxtNote = 11;
+  string Txt = 12;
+}

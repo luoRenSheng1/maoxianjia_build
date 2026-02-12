@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigBossTraitUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string Clock = 4;
+  int32 Icon = 5;
+  string DescriptionNote = 6;
+  string Description = 7;
+}

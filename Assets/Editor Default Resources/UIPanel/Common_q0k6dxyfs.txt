@@ -1,0 +1,26 @@
+Common_10301012_buff.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+dian
+	bounds: 2, 2, 9, 9
+jia_001
+	bounds: 2, 161, 66, 69
+	offsets: 2, 3, 70, 76
+jia_002
+	bounds: 70, 173, 57, 71
+	offsets: 11, 2, 70, 76
+	rotate: 90
+jia_003
+	bounds: 143, 191, 39, 73
+	offsets: 18, 1, 70, 76
+	rotate: 90
+jia_004
+	bounds: 44, 13, 31, 73
+	offsets: 19, 1, 70, 76
+jia_005
+	bounds: 2, 13, 40, 73
+	offsets: 15, 1, 70, 76
+jia_006
+	bounds: 2, 88, 58, 71
+	offsets: 7, 2, 70, 76

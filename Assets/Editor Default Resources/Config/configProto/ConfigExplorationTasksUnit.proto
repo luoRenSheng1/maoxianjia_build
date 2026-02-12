@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigExplorationTasksUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 ExplorationTasksGroup = 3;
+  int32 TaskPro = 4;
+  int32 Time = 5;
+  string Model = 6;
+  string Desc = 7;
+  repeated int32 ReqOccupation = 8;
+  repeated int32 OccupationPro = 9;
+  int32 Power = 10;
+  int32 PowerPro = 11;
+  int32 PhysicalExertion = 12;
+  string Reward = 13;
+}

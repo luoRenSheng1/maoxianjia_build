@@ -1,0 +1,10 @@
+skill_1003201.png
+size:72,72
+filter:Linear,Linear
+pma:true
+TX/xian
+bounds:4,4,18,35
+offsets:0,3,22,38
+rotate:90
+TX/zt1
+bounds:4,26,61,42

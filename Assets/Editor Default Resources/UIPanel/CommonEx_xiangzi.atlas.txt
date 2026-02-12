@@ -1,0 +1,25 @@
+CommonEx_xiangzi.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+hui_001
+	bounds: 2, 335, 209, 84
+	offsets: 0, 4, 210, 108
+hui_002
+	bounds: 213, 425, 208, 85
+	offsets: 1, 5, 210, 108
+hui_003
+	bounds: 2, 421, 209, 89
+	offsets: 0, 4, 210, 108
+hui_004
+	bounds: 213, 336, 189, 87
+	offsets: 1, 5, 210, 108
+hui_005
+	bounds: 423, 319, 191, 87
+	offsets: 0, 5, 210, 108
+	rotate: 90
+hui_006
+	bounds: 2, 239, 189, 94
+	offsets: 1, 5, 210, 108
+xiang
+	bounds: 2, 108, 105, 129

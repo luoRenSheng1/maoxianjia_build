@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1904862217
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d749d55f5abc9f2cdfffb44529cdecbc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d749d55f5abc9f2cdfffb44529cdecbc
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Sound/5007004.ogg
+Dependencies: []

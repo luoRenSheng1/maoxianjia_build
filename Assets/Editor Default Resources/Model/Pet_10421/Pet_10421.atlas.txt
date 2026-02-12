@@ -1,0 +1,126 @@
+Pet_10421.png
+	size: 512, 512
+	filter: Linear, Linear
+	scale: 0.6
+1_bizi
+	bounds: 128, 303, 20, 16
+	rotate: 90
+1_meimao1
+	bounds: 137, 294, 7, 10
+	rotate: 90
+1_meimap2
+	bounds: 289, 374, 11, 7
+	rotate: 90
+1_tou
+	bounds: 212, 387, 80, 70
+1_yanjing1
+	bounds: 151, 346, 7, 14
+	rotate: 90
+1_yanjing2
+	bounds: 477, 358, 22, 13
+1_youer
+	bounds: 488, 459, 26, 20
+	offsets: 0, 2, 26, 22
+	rotate: 90
+1_zuiba
+	bounds: 118, 235, 55, 23
+	rotate: 90
+1_zuoer
+	bounds: 419, 368, 19, 25
+	rotate: 90
+2_bizi
+	bounds: 477, 373, 26, 18
+	offsets: 0, 0, 26, 19
+2_meimao
+	bounds: 160, 332, 12, 10
+	rotate: 90
+2_shetou
+	bounds: 446, 362, 29, 29
+2_tou
+	bounds: 2, 116, 87, 117
+2_yaci1
+	bounds: 186, 359, 12, 14
+	rotate: 90
+2_yaci2
+	bounds: 151, 355, 16, 16
+	offsets: 0, 0, 17, 17
+2_yaci3
+	bounds: 148, 331, 10, 13
+2_yanjing
+	bounds: 128, 348, 21, 21
+	offsets: 1, 0, 22, 21
+3_bizi
+	bounds: 128, 325, 18, 21
+3_meimao
+	bounds: 202, 364, 8, 7
+3_tou
+	bounds: 294, 388, 69, 69
+3_yanjing
+	bounds: 419, 389, 23, 15
+3_yanlei
+	bounds: 128, 292, 9, 7
+	rotate: 90
+3_youer
+	bounds: 488, 487, 22, 23
+3_zuiba
+	bounds: 110, 2, 46, 35
+	rotate: 90
+3_zuoer
+	bounds: 169, 358, 15, 13
+bo
+	bounds: 2, 371, 130, 82
+shenti
+	bounds: 2, 235, 134, 71
+	rotate: 90
+texiao/guihuo_000
+	bounds: 75, 292, 51, 77
+texiao/guihuo_001
+	bounds: 330, 459, 51, 77
+	rotate: 90
+texiao/guihuo_002
+	bounds: 409, 459, 51, 77
+	rotate: 90
+texiao/guihuo_003
+	bounds: 365, 406, 51, 77
+	rotate: 90
+texiao/guihuo_004
+	bounds: 57, 37, 51, 77
+texiao/guihuo_005
+	bounds: 91, 156, 51, 77
+tui1
+	bounds: 91, 116, 38, 63
+	rotate: 90
+tui2
+	bounds: 444, 393, 37, 61
+	rotate: 90
+tui3
+	bounds: 110, 50, 41, 64
+tui4
+	bounds: 57, 3, 32, 50
+	rotate: 90
+xiangquan1
+	bounds: 2, 8, 106, 53
+	rotate: 90
+xiangquan2
+	bounds: 207, 459, 121, 51
+yinzi
+	bounds: 2, 455, 203, 55
+	offsets: 1, 2, 205, 59
+youyaci1
+	bounds: 444, 432, 66, 25
+youyaci2
+	bounds: 147, 5, 43, 19
+	rotate: 90
+youzuiba
+	bounds: 365, 376, 52, 28
+zhangzuitou
+	bounds: 134, 373, 80, 76
+	rotate: 90
+zuoyaci1
+	bounds: 261, 341, 44, 26
+	rotate: 90
+zuoyaci2
+	bounds: 75, 235, 55, 41
+	rotate: 90
+zuozuiba
+	bounds: 212, 347, 47, 38

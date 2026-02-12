@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 2109573089
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad67d41d23c3c2ebdcaa6a5f6df9097b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ad67d41d23c3c2ebdcaa6a5f6df9097b
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp.skel.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner.skel.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp_Material.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_5.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_RoleMain_shubanner_4.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_fui.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj.skel.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_2.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_4.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_3.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_atlas0.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_RoleMain_tfbj.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj.skel.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_2(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_2.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner.atlas.txt
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_RoleMain_tfbj_2.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj.atlas.txt
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_RoleMain_shubanner_3.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_5(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill_Material.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_4(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj.atlas.txt
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill.atlas.txt
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill.skel.bytes
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_RoleMain_shubanner.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_RoleMain_shubanner_5.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_Skill.png
+- Assets/Editor Default Resources/UIPanel/RoleMain_StarUp.atlas.txt
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_3(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_2(1).png
+- Assets/Editor Default Resources/UIPanel/RoleMain_jstybj_Material.mat
+- Assets/Editor Default Resources/UIPanel/RoleMain_tfbj_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/RoleMain_shubanner_RoleMain_shubanner_2.mat
+Dependencies: []

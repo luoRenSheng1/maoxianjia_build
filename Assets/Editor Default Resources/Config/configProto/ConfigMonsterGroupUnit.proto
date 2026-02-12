@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMonsterGroupUnit {
+  int32 Id = 1;
+  int32 GroupId = 2;
+  int32 MonsterId = 3;
+  int32 Num = 4;
+  string IsBoss = 5;
+  string Remark = 6;
+  int32 AtkSkill = 7;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSoundUnit {
+  int32 Id = 1;
+  string Desc = 2;
+  string Filename = 3;
+  int32 Loop = 4;
+  int32 Volume = 5;
+  int32 Priority = 6;
+  int32 Pitch = 7;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMonsterUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 HarmType = 4;
+  int32 AtkSkill = 5;
+  string MonsterBody = 6;
+  string Model = 7;
+  int32 AtkSpeed = 8;
+  int32 Speed = 9;
+  int32 Size = 10;
+  int32 BossSize = 11;
+  int32 HpShifting = 12;
+  int32 PetBasis = 13;
+}

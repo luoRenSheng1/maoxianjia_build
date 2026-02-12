@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigPushUnit.proto";
+
+package Config;
+
+message ConfigPush {
+  map<int32, ConfigPushUnit> data = 1;
+}

@@ -1,0 +1,57 @@
+Common_13001_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+huixue_001
+	bounds: 2, 17, 43, 124
+	offsets: 42, 14, 150, 180
+	rotate: 90
+huixue_002
+	bounds: 373, 275, 91, 129
+	offsets: 41, 11, 150, 180
+	rotate: 90
+huixue_003
+	bounds: 117, 95, 89, 131
+	offsets: 43, 10, 150, 180
+huixue_004
+	bounds: 2, 62, 113, 138
+	offsets: 18, 9, 150, 180
+huixue_005
+	bounds: 2, 352, 114, 150
+	offsets: 17, 6, 150, 180
+huixue_006
+	bounds: 118, 359, 114, 143
+	offsets: 17, 13, 150, 180
+huixue_007
+	bounds: 234, 391, 111, 146
+	offsets: 19, 17, 150, 180
+	rotate: 90
+huixue_008
+	bounds: 2, 202, 110, 148
+	offsets: 20, 21, 150, 180
+huixue_009
+	bounds: 234, 279, 110, 137
+	offsets: 20, 32, 150, 180
+	rotate: 90
+huixue_010
+	bounds: 382, 368, 111, 134
+	offsets: 21, 34, 150, 180
+huixue_011
+	bounds: 128, 228, 104, 129
+	offsets: 23, 36, 150, 180
+huixue_012
+	bounds: 208, 93, 91, 101
+	offsets: 35, 38, 150, 180
+	rotate: 90
+huixue_013
+	bounds: 311, 89, 91, 93
+	offsets: 35, 40, 150, 180
+	rotate: 90
+huixue_014
+	bounds: 338, 182, 91, 98
+	offsets: 35, 41, 150, 180
+	rotate: 90
+huixue_015
+	bounds: 234, 186, 91, 102
+	offsets: 35, 43, 150, 180
+	rotate: 90

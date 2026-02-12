@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigBubbleUnit.proto";
+
+package Config;
+
+message ConfigBubble {
+  map<int32, ConfigBubbleUnit> data = 1;
+}

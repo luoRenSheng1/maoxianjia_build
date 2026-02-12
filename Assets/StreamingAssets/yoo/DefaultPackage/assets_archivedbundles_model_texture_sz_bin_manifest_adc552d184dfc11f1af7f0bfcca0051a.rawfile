@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3736622826
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99a62642125a3eba6e077276304b055e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 99a62642125a3eba6e077276304b055e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/sz.png
+Dependencies: []

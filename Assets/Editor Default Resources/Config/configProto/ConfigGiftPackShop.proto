@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigGiftPackShopUnit.proto";
+
+package Config;
+
+message ConfigGiftPackShop {
+  map<int32, ConfigGiftPackShopUnit> data = 1;
+}

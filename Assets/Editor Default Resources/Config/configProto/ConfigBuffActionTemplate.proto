@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigBuffActionTemplateUnit.proto";
+
+package Config;
+
+message ConfigBuffActionTemplate {
+  map<int32, ConfigBuffActionTemplateUnit> data = 1;
+}

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2758055485
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9883eeaaaa14eb8200e5b5b05da03542
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 940b1b260c757af7ca49fdfd446b944b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9883eeaaaa14eb8200e5b5b05da03542
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/niuqu01.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/mask_01.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/noise_01.bin

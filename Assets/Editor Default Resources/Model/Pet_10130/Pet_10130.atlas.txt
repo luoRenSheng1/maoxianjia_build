@@ -1,0 +1,43 @@
+Pet_10130.png
+	size: 512, 128
+	filter: Linear, Linear
+	pma: true
+	scale: 0.6
+L_er
+	bounds: 333, 70, 20, 21
+L_mei
+	bounds: 260, 22, 19, 6
+L_wen
+	bounds: 133, 28, 14, 13
+	offsets: 0, 0, 15, 14
+R_er
+	bounds: 426, 100, 20, 21
+	offsets: 0, 0, 20, 22
+R_mei
+	bounds: 0, 0, 22, 11
+R_yan
+	bounds: 0, 0, 22, 11
+R_wen
+	bounds: 133, 14, 12, 14
+	offsets: 1, 0, 14, 14
+	rotate: 90
+chibang
+	bounds: 103, 17, 28, 24
+	offsets: 0, 0, 29, 25
+fei
+	bounds: 333, 93, 91, 28
+guang
+	bounds: 0, 43, 147, 78
+	offsets: 0, 0, 147, 164
+lian
+	bounds: 260, 64, 71, 57
+	offsets: 1, 1, 72, 58
+shenti
+	bounds: 149, 15, 106, 109
+	rotate: 90
+touding
+	bounds: 260, 30, 35, 32
+	offsets: 0, 0, 35, 33
+yinying
+	bounds: 0, 13, 101, 28
+	offsets: 1, 1, 103, 30

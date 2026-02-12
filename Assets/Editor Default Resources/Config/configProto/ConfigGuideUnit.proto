@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigGuideUnit {
+  int32 Id = 1;
+  repeated int32 RelationId = 2;
+  string Tips = 3;
+  string Remarks = 4;
+  int32 GuideType = 5;
+}

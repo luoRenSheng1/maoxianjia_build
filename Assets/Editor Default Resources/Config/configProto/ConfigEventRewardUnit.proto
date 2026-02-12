@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEventRewardUnit {
+  int32 Id = 1;
+  int32 Chapter = 2;
+  int32 Type = 3;
+  string Gold = 4;
+  string Diamond = 5;
+  int32 Reward = 6;
+  string NameNotes = 7;
+  string Range = 8;
+}

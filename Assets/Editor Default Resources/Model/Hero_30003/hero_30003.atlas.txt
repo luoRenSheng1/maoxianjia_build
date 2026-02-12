@@ -1,0 +1,49 @@
+hero_30003.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+houfa
+	bounds: 442, 397, 267, 228
+	offsets: 0, 0, 269, 228
+	rotate: 90
+qingpigu
+	bounds: 704, 806, 207, 208
+	offsets: 1, 1, 209, 210
+qingtou
+	bounds: 913, 821, 193, 101
+	offsets: 1, 1, 195, 103
+	rotate: 90
+shenti
+	bounds: 442, 666, 260, 348
+tou
+	bounds: 2, 598, 438, 416
+	offsets: 2, 1, 441, 418
+tou1
+	bounds: 2, 180, 438, 416
+	offsets: 1, 0, 439, 416
+wuguan
+	bounds: 672, 347, 128, 117
+	offsets: 1, 1, 130, 119
+wuguan2
+	bounds: 754, 217, 128, 79
+	offsets: 1, 1, 130, 81
+	rotate: 90
+wuguan3
+	bounds: 2, 9, 155, 62
+	offsets: 1, 1, 157, 64
+yinying
+	bounds: 2, 73, 390, 105
+	offsets: 2, 4, 394, 113
+youfa
+	bounds: 654, 229, 98, 116
+youshou
+	bounds: 704, 668, 136, 269
+	rotate: 90
+youtui
+	bounds: 672, 466, 149, 198
+zuofa
+	bounds: 394, 59, 79, 119
+zuoshou
+	bounds: 442, 206, 210, 189
+zuotui
+	bounds: 823, 473, 150, 193

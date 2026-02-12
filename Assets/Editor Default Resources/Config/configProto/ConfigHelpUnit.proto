@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHelpUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  string Name = 3;
+  string ContentNote = 4;
+  string Content = 5;
+  string ContentParam = 6;
+  int32 Order = 7;
+  int32 Icon = 8;
+}

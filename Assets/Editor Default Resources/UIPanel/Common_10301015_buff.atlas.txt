@@ -1,0 +1,147 @@
+Common_10301015_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+buff1_003
+	bounds: 2, 758, 282, 264
+	offsets: 9, 7, 300, 280
+buff1_004
+	bounds: 2, 467, 289, 251
+	offsets: 8, 21, 300, 280
+	rotate: 90
+buff1_005
+	bounds: 329, 481, 281, 245
+	offsets: 18, 27, 300, 280
+	rotate: 90
+buff1_011
+	bounds: 850, 805, 217, 148
+	offsets: 46, 115, 300, 280
+	rotate: 90
+buff1_012
+	bounds: 863, 31, 180, 134
+	offsets: 71, 122, 300, 280
+	rotate: 90
+buff2_005
+	bounds: 568, 766, 280, 256
+	offsets: 0, 0, 280, 260
+buff2_006
+	bounds: 286, 764, 280, 258
+	offsets: 0, 0, 280, 260
+buff2_007
+	bounds: 576, 487, 277, 258
+	offsets: 3, 0, 280, 260
+	rotate: 90
+buff2_008
+	bounds: 2, 187, 278, 254
+	offsets: 2, 3, 280, 260
+	rotate: 90
+buff2_009
+	bounds: 333, 202, 277, 251
+	offsets: 3, 4, 280, 260
+	rotate: 90
+buff2_010
+	bounds: 586, 209, 276, 242
+	offsets: 4, 10, 280, 260
+	rotate: 90
+buff2_013
+	bounds: 586, 2, 221, 205
+	offsets: 22, 16, 280, 260
+buff3_001
+	bounds: 809, 12, 195, 52
+	offsets: 56, 21, 300, 100
+	rotate: 90
+buff3_002
+	bounds: 282, 5, 233, 63
+	offsets: 37, 17, 300, 100
+buff3_003
+	bounds: 282, 70, 254, 69
+	offsets: 27, 14, 300, 100
+buff3_004
+	bounds: 903, 214, 265, 70
+	offsets: 20, 14, 300, 100
+	rotate: 90
+buff3_005
+	bounds: 255, 473, 283, 72
+	offsets: 10, 13, 300, 100
+	rotate: 90
+buff3_006
+	bounds: 258, 188, 283, 73
+	offsets: 10, 12, 300, 100
+	rotate: 90
+buff3_007
+	bounds: 836, 481, 283, 76
+	offsets: 10, 11, 300, 100
+	rotate: 90
+buff3_008
+	bounds: 2, 108, 278, 77
+	offsets: 14, 11, 300, 100
+buff3_009
+	bounds: 2, 29, 278, 77
+	offsets: 14, 11, 300, 100
+buff3_010
+	bounds: 830, 213, 266, 71
+	offsets: 20, 17, 300, 100
+	rotate: 90
+buff3_011
+	bounds: 914, 536, 267, 70
+	offsets: 17, 18, 300, 100
+	rotate: 90
+buff3_012
+	bounds: 333, 141, 240, 59
+	offsets: 35, 24, 300, 100
+buff3_013
+	bounds: 809, 2, 26, 8
+	offsets: 232, 29, 300, 100
+
+Common_10301015_buff_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+buff1_001
+	bounds: 264, 521, 246, 261
+	offsets: 10, 6, 300, 280
+buff1_002
+	bounds: 2, 259, 264, 252
+	offsets: 9, 5, 300, 280
+	rotate: 90
+buff1_006
+	bounds: 2, 784, 279, 238
+	offsets: 20, 33, 300, 280
+buff1_007
+	bounds: 562, 792, 278, 230
+	offsets: 20, 39, 300, 280
+buff1_008
+	bounds: 283, 790, 277, 232
+	offsets: 21, 39, 300, 280
+buff1_009
+	bounds: 256, 254, 265, 225
+	offsets: 28, 44, 300, 280
+	rotate: 90
+buff1_010
+	bounds: 512, 537, 251, 210
+	offsets: 34, 53, 300, 280
+	rotate: 90
+buff1_013
+	bounds: 842, 801, 106, 63
+	offsets: 105, 180, 300, 280
+	rotate: 90
+buff2_001
+	bounds: 842, 909, 82, 113
+	offsets: 0, 19, 280, 260
+buff2_002
+	bounds: 483, 284, 196, 235
+	offsets: 0, 0, 280, 260
+buff2_003
+	bounds: 237, 18, 237, 234
+	offsets: 6, 0, 280, 260
+buff2_004
+	bounds: 2, 525, 260, 257
+	offsets: 7, 0, 280, 260
+buff2_011
+	bounds: 2, 2, 255, 233
+	offsets: 22, 13, 280, 260
+	rotate: 90
+buff2_012
+	bounds: 724, 548, 242, 227
+	offsets: 25, 13, 280, 260
+	rotate: 90

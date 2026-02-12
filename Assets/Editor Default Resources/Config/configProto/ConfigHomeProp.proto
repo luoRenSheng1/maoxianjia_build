@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigHomePropUnit.proto";
+
+package Config;
+
+message ConfigHomeProp {
+  map<int32, ConfigHomePropUnit> data = 1;
+}

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2336005020
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13fb0b64faba945be36e41501ffabb32
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 13fb0b64faba945be36e41501ffabb32
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/jb.png
+Dependencies: []

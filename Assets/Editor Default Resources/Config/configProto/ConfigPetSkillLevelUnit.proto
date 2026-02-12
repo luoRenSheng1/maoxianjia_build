@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetSkillLevelUnit {
+  int32 Id = 1;
+  int32 SkillId = 2;
+  int32 Lv = 3;
+  string Doc = 4;
+  int32 SkillHurt = 5;
+  string SkillAchieveId = 6;
+  string CoverCommonParam = 7;
+  int32 PetDebris = 8;
+  string Notes = 9;
+  string Notes2 = 10;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigGiftPackShopUnit {
+  int32 Id = 1;
+  int32 ResetType = 2;
+  string Name = 3;
+  string ItemId = 4;
+  int32 Sort = 5;
+  int32 StockNum = 6;
+  int32 Price = 7;
+  int32 PayListId = 8;
+}

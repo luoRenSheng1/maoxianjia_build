@@ -1,0 +1,156 @@
+Pet_10422.png
+	size: 1024, 512
+	filter: Linear, Linear
+	scale: 0.8
+1_LHtui1
+	bounds: 782, 283, 38, 58
+	rotate: 90
+1_LHtui2
+	bounds: 280, 2, 50, 74
+	offsets: 0, 0, 51, 74
+	rotate: 90
+1_LHtui3
+	bounds: 196, 2, 46, 82
+	rotate: 90
+1_Lshou1
+	bounds: 375, 88, 59, 104
+	offsets: 0, 1, 59, 106
+1_Lshou2
+	bounds: 505, 272, 114, 82
+1_Lzhi1
+	bounds: 981, 453, 41, 57
+1_Lzhi2
+	bounds: 540, 10, 59, 63
+1_Lzhi3
+	bounds: 842, 302, 43, 42
+1_RHtui1
+	bounds: 689, 284, 51, 91
+	rotate: 90
+1_RHtui2
+	bounds: 793, 323, 42, 62
+	offsets: 0, 1, 43, 64
+1_RHtui3
+	bounds: 626, 203, 55, 82
+	offsets: 1, 1, 56, 83
+1_RQtui1
+	bounds: 196, 50, 117, 78
+	rotate: 90
+1_RQtui2
+	bounds: 496, 139, 71, 104
+	offsets: 1, 1, 72, 106
+	rotate: 90
+1_Rzhua1
+	bounds: 770, 223, 33, 58
+1_Rzhua2
+	bounds: 915, 337, 47, 66
+	rotate: 90
+1_Rzhua3
+	bounds: 805, 231, 40, 50
+1_huo
+	bounds: 2, 339, 266, 171
+1_quan1
+	bounds: 2, 26, 192, 141
+1_quan2
+	bounds: 494, 394, 194, 116
+1_shenti
+	bounds: 2, 169, 259, 168
+1_weiba
+	bounds: 270, 337, 222, 173
+L_Ler
+	bounds: 983, 362, 39, 54
+	offsets: 0, 0, 39, 55
+L_Lyan
+	bounds: 406, 197, 23, 25
+L_Rer
+	bounds: 621, 287, 66, 49
+	offsets: 1, 0, 68, 49
+L_Ryan
+	bounds: 981, 418, 41, 33
+L_bizi
+	bounds: 683, 203, 79, 85
+	offsets: 0, 1, 79, 87
+	rotate: 90
+L_gutou
+	bounds: 505, 212, 119, 58
+L_huomao
+	bounds: 496, 75, 62, 107
+	rotate: 90
+L_tou
+	bounds: 690, 387, 123, 145
+	offsets: 0, 0, 123, 146
+	rotate: 90
+M_Ler
+	bounds: 692, 163, 38, 81
+	offsets: 1, 0, 40, 82
+	rotate: 90
+M_Lyan
+	bounds: 2, 10, 14, 32
+	rotate: 90
+M_Rer
+	bounds: 690, 337, 48, 101
+	offsets: 1, 0, 49, 101
+	rotate: 90
+M_Ryan
+	bounds: 983, 322, 38, 38
+M_tou
+	bounds: 837, 386, 142, 124
+M_xiaer
+	bounds: 276, 94, 97, 98
+	offsets: 0, 1, 98, 99
+M_xiaer2
+	bounds: 406, 224, 97, 111
+R_Ler
+	bounds: 632, 338, 54, 56
+	rotate: 90
+R_Lhuo
+	bounds: 464, 2, 71, 74
+	offsets: 0, 0, 72, 74
+	rotate: 90
+R_Lyandi
+	bounds: 887, 324, 26, 20
+R_Lyantong
+	bounds: 494, 344, 10, 8
+	rotate: 90
+R_Rer
+	bounds: 837, 346, 38, 76
+	offsets: 1, 1, 40, 77
+	rotate: 90
+R_Rhuo
+	bounds: 276, 54, 38, 92
+	rotate: 90
+R_Ryandi
+	bounds: 436, 75, 30, 26
+	rotate: 90
+R_Ryantong
+	bounds: 263, 182, 10, 11
+	rotate: 90
+R_shanger
+	bounds: 370, 2, 92, 71
+R_she
+	bounds: 436, 107, 58, 115
+	offsets: 1, 1, 59, 117
+R_tou
+	bounds: 263, 194, 141, 141
+	offsets: 1, 1, 142, 142
+texiao/guihuo_000
+	bounds: 720, 81, 35, 80
+	offsets: 16, 7, 68, 102
+texiao/guihuo_001
+	bounds: 757, 80, 34, 81
+	offsets: 15, 7, 68, 102
+texiao/guihuo_002
+	bounds: 680, 80, 38, 81
+	offsets: 11, 7, 68, 102
+texiao/guihuo_003
+	bounds: 605, 76, 36, 87
+	offsets: 15, 7, 68, 102
+texiao/guihuo_004
+	bounds: 602, 165, 36, 88
+	offsets: 16, 7, 68, 102
+	rotate: 90
+texiao/guihuo_005
+	bounds: 643, 76, 35, 87
+	offsets: 16, 7, 68, 102
+yinzi
+	bounds: 494, 356, 136, 36
+	offsets: 1, 2, 138, 40

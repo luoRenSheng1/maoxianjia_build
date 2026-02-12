@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3225840627
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d61b221cf5ed5eb09a96068884f565bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d61b221cf5ed5eb09a96068884f565bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/tg3.png
+Dependencies: []

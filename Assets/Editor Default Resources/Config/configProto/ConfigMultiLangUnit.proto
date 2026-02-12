@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMultiLangUnit {
+  string Id = 1;
+  string CN = 2;
+  string EN = 3;
+  string JP = 4;
+  string KR = 5;
+  string ZH = 6;
+  int32 Params = 7;
+  string ParamOrder = 8;
+}

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 384385423
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 932aa2b9904fcbcc396c0d84995c8a21
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 932aa2b9904fcbcc396c0d84995c8a21
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_2003201.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/zd_54.bin

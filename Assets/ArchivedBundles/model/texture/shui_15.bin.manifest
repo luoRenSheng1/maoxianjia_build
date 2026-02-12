@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2576860810
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e252018c8e5468d2abbea49c11ca3bd6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e252018c8e5468d2abbea49c11ca3bd6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/shui_15.png
+Dependencies: []

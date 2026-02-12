@@ -1,0 +1,148 @@
+HeroUI_20001.png
+	size: 1024, 128
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_huzi
+	bounds: 532, 4, 29, 24
+	offsets: 0, 0, 30, 24
+	rotate: 90
+L_jiao
+	bounds: 594, 6, 22, 11
+	offsets: 1, 0, 23, 12
+	rotate: 90
+L_mei
+	bounds: 265, 4, 23, 17
+	offsets: 0, 1, 23, 19
+	rotate: 90
+L_shou1
+	bounds: 286, 6, 27, 21
+L_shou2
+	bounds: 582, 32, 34, 25
+	offsets: 0, 0, 34, 26
+	rotate: 90
+L_shou3
+	bounds: 674, 85, 45, 39
+	offsets: 1, 1, 47, 41
+L_tui1
+	bounds: 954, 91, 33, 34
+	offsets: 0, 0, 33, 35
+	rotate: 90
+L_tui2
+	bounds: 177, 4, 30, 26
+	offsets: 0, 0, 31, 26
+	rotate: 90
+L_yanbai
+	bounds: 630, 8, 13, 19
+	offsets: 1, 1, 15, 21
+L_yanjing
+	bounds: 542, 37, 29, 36
+	offsets: 1, 0, 30, 36
+	rotate: 90
+L_yantong
+	bounds: 744, 73, 10, 15
+	offsets: 0, 1, 10, 17
+L_zhi1
+	bounds: 145, 4, 30, 28
+	rotate: 90
+L_zhi2
+	bounds: 519, 39, 19, 14
+L_zhi3
+	bounds: 207, 4, 30, 25
+	offsets: 1, 1, 32, 27
+	rotate: 90
+R_huzi1
+	bounds: 612, 50, 33, 25
+R_huzi2
+	bounds: 723, 73, 15, 17
+	offsets: 0, 0, 15, 18
+	rotate: 90
+R_jiao
+	bounds: 317, 4, 23, 10
+	offsets: 0, 0, 24, 11
+	rotate: 90
+R_mei
+	bounds: 649, 49, 26, 18
+	offsets: 1, 1, 28, 19
+	rotate: 90
+R_shou1
+	bounds: 560, 4, 24, 30
+	rotate: 90
+R_shou2
+	bounds: 992, 99, 28, 25
+R_shou3
+	bounds: 402, 4, 47, 40
+	offsets: 1, 0, 48, 41
+R_shoubu
+	bounds: 612, 79, 58, 45
+R_tui1
+	bounds: 110, 4, 30, 31
+	offsets: 0, 0, 31, 31
+	rotate: 90
+R_tui2
+	bounds: 236, 4, 25, 23
+R_yanbai
+	bounds: 992, 73, 28, 22
+	offsets: 1, 0, 29, 22
+R_yanjing
+	bounds: 829, 88, 36, 38
+	rotate: 90
+R_yantong
+	bounds: 331, 10, 10, 17
+	offsets: 0, 0, 11, 17
+R_zhi1
+	bounds: 609, 6, 17, 21
+	offsets: 0, 1, 18, 22
+R_zhi2
+	bounds: 871, 89, 37, 35
+	offsets: 1, 0, 39, 36
+bizi
+	bounds: 496, 32, 21, 19
+	offsets: 1, 0, 23, 19
+	rotate: 90
+erbin
+	bounds: 611, 31, 15, 26
+	offsets: 1, 1, 16, 27
+	rotate: 90
+maodi
+	bounds: 723, 92, 52, 32
+maozi
+	bounds: 110, 38, 125, 86
+	offsets: 0, 1, 125, 87
+mawei
+	bounds: 542, 70, 66, 54
+pidai
+	bounds: 493, 4, 24, 35
+	offsets: 1, 0, 25, 36
+	rotate: 90
+shenti
+	bounds: 345, 4, 53, 40
+	offsets: 1, 0, 55, 40
+tou
+	bounds: 345, 48, 89, 76
+	offsets: 1, 0, 90, 76
+wangyajing
+	bounds: 912, 92, 38, 32
+	offsets: 0, 1, 38, 33
+xianzu
+	bounds: 453, 4, 40, 36
+	offsets: 1, 1, 42, 38
+	rotate: 90
+yaobu
+	bounds: 496, 57, 42, 35
+yinying
+	bounds: 438, 96, 100, 28
+	offsets: 1, 1, 102, 30
+yubashou
+	bounds: 438, 48, 44, 54
+	offsets: 1, 1, 45, 55
+	rotate: 90
+yugan
+	bounds: 4, 7, 102, 117
+yugou
+	bounds: 779, 89, 35, 46
+	offsets: 1, 1, 37, 48
+	rotate: 90
+yuxian
+	bounds: 239, 31, 93, 102
+	rotate: 90

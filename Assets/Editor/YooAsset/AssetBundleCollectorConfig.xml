@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root Version="v2.1">
+  <Common ShowPackageView="False" ShowEditorAlias="True" UniqueBundleName="False" />
+  <Package PackageName="DefaultPackage" PackageDesc="DefaultPackage" AutoAddressable="False" LocationToLower="False" IncludeAssetGUID="False" IgnoreRuleName="RawFileIgnoreRule">
+    <Group GroupActiveRule="EnableGroup" GroupName="ArchivedBundles" GroupDesc="ArchivedBundles" AssetTags="">
+      <Collector CollectPath="Assets/ArchivedBundles" CollectGUID="3076088e7a2d8a6438d90ee870fc2851" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackRawFile" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+  </Package>
+</root>

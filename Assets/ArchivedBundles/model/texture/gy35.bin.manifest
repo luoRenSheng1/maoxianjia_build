@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 520893882
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d556aaa6e01ad8a671d0d8de818b33b4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d556aaa6e01ad8a671d0d8de818b33b4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/gy35.png
+Dependencies: []

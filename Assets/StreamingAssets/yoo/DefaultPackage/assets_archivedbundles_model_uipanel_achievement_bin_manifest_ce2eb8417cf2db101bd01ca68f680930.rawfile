@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 4001179687
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b17f30f333d6e43c06fc0ed4ff44bb9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3b17f30f333d6e43c06fc0ed4ff44bb9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/Achievement_atlas0.png
+- Assets/Editor Default Resources/UIPanel/Achievement_fui.bytes
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2614210347
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f2272b4957d7c2d96ca568ee93885dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1f2272b4957d7c2d96ca568ee93885dd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/dg4.png
+Dependencies: []

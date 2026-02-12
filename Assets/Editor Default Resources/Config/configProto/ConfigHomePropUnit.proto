@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHomePropUnit {
+  int32 Id = 1;
+  string Name = 2;
+  int32 Icon = 3;
+  int32 Type = 4;
+  int32 Function = 5;
+  string FunctionRemarks = 6;
+  int32 Gold = 7;
+  string MaterialReq = 8;
+  int32 ProficiencyReq = 9;
+  string ProficiencyReward = 10;
+  int32 Time = 11;
+  int32 Sort = 12;
+}

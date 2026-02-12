@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRingUnit.proto";
+
+package Config;
+
+message ConfigRing {
+  map<int32, ConfigRingUnit> data = 1;
+}

@@ -1,0 +1,192 @@
+Pet_cwxq.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+bj
+	bounds: 2, 633, 720, 360
+chong_001
+	bounds: 2, 371, 551, 260
+	offsets: 24, 53, 600, 340
+chong_003
+	bounds: 2, 105, 547, 264
+	offsets: 26, 57, 600, 340
+chong_006
+	bounds: 724, 450, 543, 268
+	offsets: 29, 65, 600, 340
+	rotate: 90
+chong_016
+	bounds: 555, 90, 541, 161
+	offsets: 44, 93, 600, 340
+	rotate: 90
+chong_027
+	bounds: 718, 58, 390, 229
+	offsets: 186, 49, 600, 340
+	rotate: 90
+guai_001
+	bounds: 319, 48, 71, 55
+	offsets: 11, 3, 96, 60
+guai_002
+	bounds: 171, 50, 72, 53
+	offsets: 10, 5, 96, 60
+guai_003
+	bounds: 392, 54, 71, 49
+	offsets: 12, 5, 96, 60
+guai_004
+	bounds: 94, 53, 75, 50
+	offsets: 11, 4, 96, 60
+guai_005
+	bounds: 2, 2, 88, 50
+	offsets: 5, 4, 96, 60
+guai_006
+	bounds: 2, 54, 90, 49
+	offsets: 4, 5, 96, 60
+guai_007
+	bounds: 245, 46, 72, 57
+	offsets: 13, 0, 96, 60
+
+Pet_cwxq_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_002
+	bounds: 550, 424, 549, 261
+	offsets: 25, 55, 600, 340
+	rotate: 90
+chong_004
+	bounds: 2, 708, 546, 265
+	offsets: 27, 60, 600, 340
+chong_005
+	bounds: 2, 439, 544, 267
+	offsets: 28, 62, 600, 340
+chong_007
+	bounds: 2, 170, 542, 267
+	offsets: 31, 68, 600, 340
+chong_013
+	bounds: 2, 8, 545, 160
+	offsets: 40, 84, 600, 340
+chong_014
+	bounds: 813, 428, 545, 160
+	offsets: 41, 87, 600, 340
+	rotate: 90
+yunyou
+	bounds: 549, 140, 224, 137
+	offsets: 4, 2, 228, 139
+yunzuo
+	bounds: 546, 279, 319, 143
+	offsets: 0, 1, 328, 144
+
+Pet_cwxq_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_029
+	bounds: 2, 268, 552, 228
+	offsets: 24, 56, 600, 340
+chong_030
+	bounds: 2, 38, 552, 228
+	offsets: 23, 59, 600, 340
+chong_031
+	bounds: 556, 461, 553, 228
+	offsets: 22, 62, 600, 340
+	rotate: 90
+chong_032
+	bounds: 786, 462, 552, 228
+	offsets: 22, 65, 600, 340
+	rotate: 90
+chong_037
+	bounds: 2, 498, 551, 255
+	offsets: 23, 53, 600, 340
+chong_038
+	bounds: 2, 755, 552, 259
+	offsets: 23, 52, 600, 340
+
+Pet_cwxq_4.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_017
+	bounds: 803, 436, 528, 161
+	offsets: 45, 96, 600, 340
+	rotate: 90
+chong_025
+	bounds: 555, 440, 524, 246
+	offsets: 52, 42, 600, 340
+	rotate: 90
+chong_028
+	bounds: 2, 505, 549, 229
+	offsets: 27, 52, 600, 340
+chong_033
+	bounds: 2, 736, 551, 228
+	offsets: 21, 68, 600, 340
+chong_034
+	bounds: 2, 275, 548, 228
+	offsets: 22, 71, 600, 340
+chong_035
+	bounds: 2, 45, 545, 228
+	offsets: 22, 74, 600, 340
+
+Pet_cwxq_5.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_018
+	bounds: 247, 249, 526, 242
+	offsets: 47, 19, 600, 340
+	rotate: 90
+chong_019
+	bounds: 2, 249, 526, 243
+	offsets: 48, 21, 600, 340
+	rotate: 90
+chong_020
+	bounds: 491, 250, 525, 244
+	offsets: 49, 24, 600, 340
+	rotate: 90
+chong_022
+	bounds: 2, 777, 525, 245
+	offsets: 50, 31, 600, 340
+chong_023
+	bounds: 2, 2, 524, 245
+	offsets: 51, 35, 600, 340
+chong_024
+	bounds: 737, 498, 524, 245
+	offsets: 52, 39, 600, 340
+	rotate: 90
+
+Pet_cwxq_6.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_010
+	bounds: 231, 49, 544, 158
+	offsets: 35, 76, 600, 340
+chong_011
+	bounds: 776, 477, 544, 158
+	offsets: 37, 79, 600, 340
+	rotate: 90
+chong_012
+	bounds: 231, 209, 545, 159
+	offsets: 38, 82, 600, 340
+chong_015
+	bounds: 231, 370, 543, 160
+	offsets: 43, 90, 600, 340
+chong_021
+	bounds: 2, 778, 525, 243
+	offsets: 50, 28, 600, 340
+chong_026
+	bounds: 2, 532, 522, 244
+	offsets: 54, 46, 600, 340
+chong_036
+	bounds: 2, 2, 528, 227
+	offsets: 22, 78, 600, 340
+	rotate: 90
+
+Pet_cwxq_7.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+chong_008
+	bounds: 2, 228, 543, 157
+	offsets: 32, 71, 600, 340
+chong_009
+	bounds: 2, 387, 543, 158
+	offsets: 34, 73, 600, 340

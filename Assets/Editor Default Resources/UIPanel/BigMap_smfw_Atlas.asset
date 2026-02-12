@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: BigMap_smfw_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 523a1bcaa779439408dfacc7e895eef2, type: 3}
+  materials:
+  - {fileID: 2100000, guid: efe6fcba8bf14b2459d0db21e79b2085, type: 2}
+  - {fileID: 2100000, guid: e3d6656878e0b5844a5a93a242e7d2f5, type: 2}

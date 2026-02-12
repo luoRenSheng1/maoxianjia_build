@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigAchievementUnit.proto";
+
+package Config;
+
+message ConfigAchievement {
+  map<int32, ConfigAchievementUnit> data = 1;
+}

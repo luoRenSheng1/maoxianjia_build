@@ -1,0 +1,6 @@
+BigMap_aixing.png
+	size: 64, 64
+	filter: Linear, Linear
+	pma: true
+ai
+	bounds: 2, 12, 48, 38

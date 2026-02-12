@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigLoreSkiirateUnit {
+  int32 Id = 1;
+  int32 SkillGroup = 2;
+  int32 Skill = 3;
+  int32 Rate = 4;
+  int32 LV = 5;
+}

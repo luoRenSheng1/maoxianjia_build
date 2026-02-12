@@ -1,0 +1,61 @@
+Pet_10151.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1-hezi1
+	bounds: 94, 315, 53, 35
+1-hezi2
+	bounds: 2, 159, 52, 32
+1-lian
+	bounds: 368, 430, 80, 73
+1-liandao
+	bounds: 2, 400, 245, 103
+1-lingzi
+	bounds: 2, 193, 80, 57
+	offsets: 0, 15, 80, 72
+1-shetou
+	bounds: 2, 117, 33, 40
+	offsets: 1, 0, 34, 40
+1-tanhuang1
+	bounds: 450, 459, 44, 44
+1-tanhuang2
+	bounds: 2, 78, 37, 33
+	rotate: 90
+1-tanhuang3
+	bounds: 450, 434, 23, 38
+	offsets: 1, 0, 24, 38
+	rotate: 90
+1-youmuzhi
+	bounds: 56, 170, 19, 21
+	offsets: 0, 1, 19, 23
+1-youshou
+	bounds: 94, 273, 39, 40
+	offsets: 0, 1, 40, 42
+1-youshoubi
+	bounds: 2, 252, 90, 98
+1-youshouzhi
+	bounds: 2, 2, 34, 23
+	offsets: 1, 0, 36, 24
+	rotate: 90
+1-youyan
+	bounds: 249, 402, 9, 13
+	offsets: 0, 1, 9, 14
+1-zuiba
+	bounds: 173, 369, 68, 29
+1-zuoshou
+	bounds: 2, 38, 32, 38
+	offsets: 1, 0, 33, 38
+1-zuoshoubi
+	bounds: 249, 417, 86, 117
+	rotate: 90
+1-zuoshouhzi
+	bounds: 149, 324, 19, 26
+	offsets: 0, 1, 19, 28
+1-zuoyan
+	bounds: 368, 421, 7, 12
+	offsets: 1, 1, 9, 13
+	rotate: 90
+yinzi
+	bounds: 2, 352, 169, 46
+	offsets: 1, 2, 171, 49

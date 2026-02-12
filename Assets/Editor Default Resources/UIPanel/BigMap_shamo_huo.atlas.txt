@@ -1,0 +1,101 @@
+BigMap_shamo_huo.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+huoyan0
+	bounds: 863, 861, 112, 161
+	offsets: 21, 0, 154, 173
+huoyan1
+	bounds: 121, 679, 117, 169
+	offsets: 19, 0, 154, 173
+huoyan10
+	bounds: 355, 911, 111, 173
+	offsets: 20, 0, 154, 173
+	rotate: 90
+huoyan11
+	bounds: 697, 913, 109, 164
+	offsets: 21, 2, 154, 173
+	rotate: 90
+huoyan12
+	bounds: 2, 38, 114, 162
+	offsets: 16, 4, 154, 173
+	rotate: 90
+huoyan13
+	bounds: 240, 682, 115, 166
+	offsets: 15, 7, 154, 173
+huoyan14
+	bounds: 2, 500, 116, 172
+	offsets: 18, 1, 154, 173
+huoyan2
+	bounds: 240, 850, 113, 172
+	offsets: 20, 0, 154, 173
+huoyan2_0
+	bounds: 574, 828, 48, 81
+	offsets: 7, 3, 60, 110
+huoyan2_10
+	bounds: 574, 828, 48, 81
+	offsets: 7, 3, 60, 110
+huoyan2_5
+	bounds: 574, 828, 48, 81
+	offsets: 7, 3, 60, 110
+huoyan2_1
+	bounds: 520, 821, 52, 88
+	offsets: 5, 3, 60, 110
+huoyan2_11
+	bounds: 520, 821, 52, 88
+	offsets: 5, 3, 60, 110
+huoyan2_6
+	bounds: 520, 821, 52, 88
+	offsets: 5, 3, 60, 110
+huoyan2_12
+	bounds: 470, 811, 48, 98
+	offsets: 7, 3, 60, 110
+huoyan2_2
+	bounds: 470, 811, 48, 98
+	offsets: 7, 3, 60, 110
+huoyan2_7
+	bounds: 470, 811, 48, 98
+	offsets: 7, 3, 60, 110
+huoyan2_13
+	bounds: 357, 699, 47, 103
+	offsets: 8, 3, 60, 110
+	rotate: 90
+huoyan2_3
+	bounds: 357, 699, 47, 103
+	offsets: 8, 3, 60, 110
+	rotate: 90
+huoyan2_8
+	bounds: 357, 699, 47, 103
+	offsets: 8, 3, 60, 110
+	rotate: 90
+huoyan2_14
+	bounds: 977, 919, 45, 103
+	offsets: 8, 3, 60, 110
+huoyan2_4
+	bounds: 977, 919, 45, 103
+	offsets: 8, 3, 60, 110
+huoyan2_9
+	bounds: 977, 919, 45, 103
+	offsets: 8, 3, 60, 110
+huoyan3
+	bounds: 2, 154, 111, 172
+	offsets: 19, 0, 154, 173
+huoyan4
+	bounds: 530, 911, 111, 165
+	offsets: 18, 0, 154, 173
+	rotate: 90
+huoyan5
+	bounds: 2, 849, 117, 173
+	offsets: 15, 0, 154, 173
+huoyan6
+	bounds: 2, 674, 117, 173
+	offsets: 18, 0, 154, 173
+huoyan7
+	bounds: 2, 328, 115, 170
+	offsets: 19, 0, 154, 173
+huoyan8
+	bounds: 357, 748, 111, 161
+	offsets: 22, 0, 154, 173
+huoyan9
+	bounds: 121, 850, 117, 172
+	offsets: 20, 0, 154, 173

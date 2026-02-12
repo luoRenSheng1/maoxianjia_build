@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigDungeonStageUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string NameParam = 4;
+  int32 Type = 5;
+  int32 Stage = 6;
+  repeated int32 MonsterData = 7;
+  int32 HarmType = 8;
+  int32 EntryNumber = 9;
+  int32 EntryGroup = 10;
+  string PhysicalAtk = 11;
+  string MagicAtk = 12;
+  string SorceryAtk = 13;
+  string PhysicalDef = 14;
+  string MagicDef = 15;
+  string SorceryDef = 16;
+  string Hp = 17;
+  string Reply = 18;
+  int32 Time = 19;
+  string PassReward = 20;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigItemTypeUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  string NameNote = 3;
+  string Name = 4;
+  string DescNote = 5;
+  string Desc = 6;
+  string DescParam = 7;
+  string Icon = 8;
+  int32 Quality = 9;
+  int32 Sell = 10;
+  int32 Parts = 11;
+  int32 Param = 12;
+  int32 Tipstype = 13;
+  string RuleParam = 14;
+}

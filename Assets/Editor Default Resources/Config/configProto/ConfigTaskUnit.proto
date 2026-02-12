@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigTaskUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string NameParam = 4;
+  int32 TaskMode = 5;
+  int32 NextId = 6;
+  int32 Type = 7;
+  string TypeNameNote = 8;
+  string TypeName = 9;
+  string TypeNameParam = 10;
+  string Param1 = 11;
+  int32 Reward = 12;
+  int32 Conduct = 13;
+}

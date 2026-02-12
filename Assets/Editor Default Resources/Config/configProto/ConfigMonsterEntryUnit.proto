@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMonsterEntryUnit {
+  int32 Id = 1;
+  int32 EntryGroup = 2;
+  int32 Rate = 3;
+  string MonsterEntryName = 4;
+  string MonsterEntryDoc = 5;
+  string SkillAchieveId = 6;
+  string Notes1 = 7;
+  string Notes2 = 8;
+  int32 Icon = 9;
+}

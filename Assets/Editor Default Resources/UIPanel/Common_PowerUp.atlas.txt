@@ -1,0 +1,17 @@
+Common_PowerUp.png
+size:512,128
+filter:Linear,Linear
+scale:0.6
+images/4di
+bounds:4,57,448,52
+offsets:0,3,448,60
+images/4xianguang
+bounds:162,13,127,40
+offsets:27,9,154,49
+images/fangkuai
+bounds:456,90,19,19
+images/hengxian
+bounds:4,15,154,38
+images/mask_trail_da_004
+bounds:293,4,70,49
+offsets:4,14,77,77

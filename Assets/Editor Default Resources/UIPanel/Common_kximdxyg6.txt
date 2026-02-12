@@ -1,0 +1,21 @@
+Common_10401021_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+dun0001
+	bounds: 2, 314, 154, 196
+	offsets: 18, 3, 180, 200
+dun0002
+	bounds: 2, 116, 154, 196
+	offsets: 18, 3, 180, 200
+dun0003
+	bounds: 158, 314, 154, 196
+	offsets: 18, 3, 180, 200
+dun0004
+	bounds: 314, 356, 154, 196
+	offsets: 18, 3, 180, 200
+	rotate: 90
+dun0005
+	bounds: 314, 200, 154, 196
+	offsets: 18, 3, 180, 200
+	rotate: 90

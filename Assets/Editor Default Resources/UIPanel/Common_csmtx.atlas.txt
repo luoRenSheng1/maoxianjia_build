@@ -1,0 +1,199 @@
+Common_csmtx.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+di_001
+	bounds: 657, 943, 112, 28
+	offsets: 34, 11, 180, 70
+di_002
+	bounds: 525, 939, 130, 32
+	offsets: 25, 10, 180, 70
+di_003
+	bounds: 354, 847, 135, 34
+	offsets: 22, 9, 180, 70
+di_004
+	bounds: 140, 593, 141, 40
+	offsets: 19, 8, 180, 70
+di_005
+	bounds: 193, 814, 147, 46
+	offsets: 18, 7, 180, 70
+di_006
+	bounds: 686, 973, 154, 49
+	offsets: 13, 7, 180, 70
+di_007
+	bounds: 525, 973, 159, 49
+	offsets: 10, 7, 180, 70
+di_008
+	bounds: 359, 972, 164, 50
+	offsets: 7, 7, 180, 70
+di_009
+	bounds: 193, 917, 164, 51
+	offsets: 7, 6, 180, 70
+di_010
+	bounds: 193, 970, 164, 52
+	offsets: 7, 6, 180, 70
+di_011
+	bounds: 2, 311, 164, 52
+	offsets: 7, 6, 180, 70
+	rotate: 90
+di_012
+	bounds: 359, 918, 159, 52
+	offsets: 11, 6, 180, 70
+di_013
+	bounds: 2, 149, 160, 52
+	offsets: 10, 6, 180, 70
+	rotate: 90
+di_014
+	bounds: 193, 862, 159, 53
+	offsets: 10, 6, 180, 70
+di_015
+	bounds: 842, 973, 149, 49
+	offsets: 16, 10, 180, 70
+di_016
+	bounds: 56, 326, 149, 49
+	offsets: 15, 10, 180, 70
+	rotate: 90
+di_017
+	bounds: 56, 175, 149, 49
+	offsets: 14, 10, 180, 70
+	rotate: 90
+di_018
+	bounds: 96, 666, 146, 49
+	offsets: 14, 10, 180, 70
+	rotate: 90
+di_019
+	bounds: 96, 518, 146, 42
+	offsets: 13, 11, 180, 70
+	rotate: 90
+di_020
+	bounds: 50, 2, 145, 41
+	offsets: 13, 12, 180, 70
+	rotate: 90
+di_021
+	bounds: 147, 678, 143, 41
+	offsets: 13, 11, 180, 70
+di_022
+	bounds: 147, 635, 143, 41
+	offsets: 13, 11, 180, 70
+di_023
+	bounds: 140, 516, 143, 36
+	offsets: 13, 12, 180, 70
+di_024
+	bounds: 140, 554, 142, 37
+	offsets: 14, 12, 180, 70
+di_025
+	bounds: 359, 883, 141, 33
+	offsets: 16, 16, 180, 70
+dian_001
+	bounds: 56, 158, 15, 15
+	offsets: 26, 0, 80, 50
+dian_002
+	bounds: 107, 465, 25, 22
+	offsets: 21, 0, 80, 50
+dian_003
+	bounds: 96, 489, 36, 27
+	offsets: 17, 0, 80, 50
+dian_004
+	bounds: 230, 484, 43, 30
+	offsets: 15, 1, 80, 50
+dian_005
+	bounds: 292, 614, 50, 36
+	offsets: 13, 0, 80, 50
+dian_006
+	bounds: 342, 564, 55, 39
+	offsets: 11, 0, 80, 50
+dian_007
+	bounds: 352, 707, 60, 41
+	offsets: 9, 0, 80, 50
+dian_008
+	bounds: 421, 802, 63, 43
+	offsets: 8, 0, 80, 50
+dian_009
+	bounds: 352, 801, 67, 44
+	offsets: 6, 0, 80, 50
+dian_010
+	bounds: 594, 891, 70, 46
+	offsets: 5, 0, 80, 50
+dian_011
+	bounds: 520, 891, 72, 46
+	offsets: 4, 0, 80, 50
+dian_012
+	bounds: 666, 894, 72, 47
+	offsets: 4, 0, 80, 50
+dian_013
+	bounds: 771, 923, 73, 48
+	offsets: 3, 0, 80, 50
+dian_014
+	bounds: 846, 923, 73, 48
+	offsets: 3, 0, 80, 50
+dian_015
+	bounds: 921, 923, 73, 48
+	offsets: 3, 0, 80, 50
+dian_016
+	bounds: 292, 652, 73, 49
+	offsets: 3, 0, 80, 50
+	rotate: 90
+dian_017
+	bounds: 352, 750, 61, 49
+	offsets: 15, 0, 80, 50
+dian_018
+	bounds: 343, 656, 60, 49
+	offsets: 16, 0, 80, 50
+dian_019
+	bounds: 344, 605, 56, 49
+	offsets: 20, 0, 80, 50
+dian_020
+	bounds: 284, 563, 56, 49
+	offsets: 20, 0, 80, 50
+dian_021
+	bounds: 285, 513, 51, 48
+	offsets: 25, 0, 80, 50
+dian_022
+	bounds: 134, 475, 48, 39
+	offsets: 28, 0, 80, 50
+dian_023
+	bounds: 184, 477, 44, 37
+	offsets: 32, 1, 80, 50
+fang
+	bounds: 147, 721, 117, 91
+	offsets: 1, 1, 120, 95
+huan
+	bounds: 2, 2, 145, 46
+	offsets: 7, 2, 160, 50
+	rotate: 90
+sudu_001
+	bounds: 2, 814, 94, 208
+	offsets: 0, 13, 94, 230
+sudu_002
+	bounds: 2, 814, 94, 208
+	offsets: 0, 13, 94, 230
+sudu_003
+	bounds: 2, 611, 92, 201
+	offsets: 1, 11, 94, 230
+sudu_004
+	bounds: 2, 611, 92, 201
+	offsets: 1, 11, 94, 230
+sudu_005
+	bounds: 2, 611, 92, 201
+	offsets: 1, 11, 94, 230
+sudu_006
+	bounds: 98, 840, 93, 182
+	offsets: 1, 14, 94, 230
+sudu_007
+	bounds: 98, 840, 93, 182
+	offsets: 1, 14, 94, 230
+sudu_008
+	bounds: 2, 477, 92, 132
+	offsets: 1, 11, 94, 230
+sudu_009
+	bounds: 2, 477, 92, 132
+	offsets: 1, 11, 94, 230
+sudu_010
+	bounds: 2, 477, 92, 132
+	offsets: 1, 11, 94, 230
+sudu_011
+	bounds: 266, 727, 84, 85
+	offsets: 9, 13, 94, 230
+sudu_012
+	bounds: 266, 727, 84, 85
+	offsets: 9, 13, 94, 230

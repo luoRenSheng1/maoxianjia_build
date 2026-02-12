@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 84450590
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0197e2ba114d94daab143cd16e924e3e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0197e2ba114d94daab143cd16e924e3e
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc.png
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_2.png
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc.skel.bytes
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS_Material.mat
+- Assets/Editor Default Resources/UIPanel/PVPMap_fui.bytes
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc.atlas.txt
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS.png
+- Assets/Editor Default Resources/UIPanel/PVPMap_atlas0.png
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS.skel.bytes
+- Assets/Editor Default Resources/UIPanel/PVPMap_VS.atlas.txt
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_PVPMap_jjc.mat
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_PVPMap_jjc_2.mat
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_3.png
+- Assets/Editor Default Resources/UIPanel/PVPMap_jjc_PVPMap_jjc_3.mat
+Dependencies: []

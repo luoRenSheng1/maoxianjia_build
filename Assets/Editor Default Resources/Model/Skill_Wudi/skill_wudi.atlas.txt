@@ -1,0 +1,9 @@
+skill_wudi.png
+size:189,327
+filter:Linear,Linear
+effect1_1
+bounds:4,153,171,170
+offsets:16,8,200,192
+sk1_d2
+bounds:4,4,181,145
+offsets:12,10,200,160

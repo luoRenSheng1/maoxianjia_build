@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigMailUnit {
+  int32 Id = 1;
+  string TitleNote = 2;
+  string Title = 3;
+  string TitleParam = 4;
+  string TxtNote = 5;
+  string Txt = 6;
+  string TxtParam = 7;
+  string SenderNameNote = 8;
+  string SenderName = 9;
+  int32 LiveTime = 10;
+  string StartTime = 11;
+  string EndTime = 12;
+  int32 IsOneClick = 13;
+}

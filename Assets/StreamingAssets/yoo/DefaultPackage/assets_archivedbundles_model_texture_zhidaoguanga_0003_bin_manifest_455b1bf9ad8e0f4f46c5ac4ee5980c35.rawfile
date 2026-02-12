@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4049402428
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b344c4c89e4c911a0cfac50fb2aff64a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b344c4c89e4c911a0cfac50fb2aff64a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/zhidaoguanga_0003.png
+Dependencies: []

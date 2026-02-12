@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2188702827
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5ed7ae952159d5bfcf8b60994c4120c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c5ed7ae952159d5bfcf8b60994c4120c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Common/Materials/pt_glow.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/common/texture/pt_glow_dot.bin

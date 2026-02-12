@@ -1,0 +1,421 @@
+Hero_20001.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_huzi
+	bounds: 41, 258, 29, 24
+	offsets: 0, 0, 30, 24
+	rotate: 90
+L_jiao
+	bounds: 41, 245, 22, 11
+	offsets: 1, 0, 23, 12
+L_mei
+	bounds: 76, 372, 23, 17
+	offsets: 0, 1, 23, 19
+L_shou1
+	bounds: 1001, 996, 26, 21
+	offsets: 1, 0, 28, 21
+	rotate: 90
+L_shou2
+	bounds: 541, 870, 34, 25
+	offsets: 0, 0, 34, 26
+	rotate: 90
+L_shou3
+	bounds: 38, 391, 45, 39
+	offsets: 1, 1, 47, 41
+L_tui1
+	bounds: 2, 50, 33, 34
+	offsets: 0, 0, 33, 35
+L_tui2
+	bounds: 10, 288, 30, 26
+	offsets: 0, 0, 31, 26
+	rotate: 90
+L_yanbai
+	bounds: 40, 202, 13, 19
+	offsets: 1, 1, 15, 21
+	rotate: 90
+L_yanjing
+	bounds: 38, 311, 29, 36
+	offsets: 1, 0, 30, 36
+	rotate: 90
+L_yantong
+	bounds: 408, 702, 10, 15
+	offsets: 0, 1, 10, 17
+	rotate: 90
+L_zhi1
+	bounds: 539, 906, 30, 28
+L_zhi2
+	bounds: 437, 890, 19, 14
+L_zhi3
+	bounds: 638, 918, 30, 25
+	offsets: 1, 1, 32, 27
+R_huzi1
+	bounds: 604, 918, 32, 25
+	offsets: 1, 0, 34, 25
+R_huzi2
+	bounds: 39, 183, 15, 17
+	offsets: 0, 0, 15, 18
+R_jiao
+	bounds: 2, 2, 23, 10
+	offsets: 0, 0, 24, 11
+R_mei
+	bounds: 87, 428, 26, 18
+	offsets: 1, 1, 28, 19
+R_shou1
+	bounds: 670, 917, 26, 30
+	offsets: 2, 0, 28, 30
+	rotate: 90
+R_shou2
+	bounds: 541, 840, 28, 25
+	rotate: 90
+R_shou3
+	bounds: 38, 432, 47, 40
+	offsets: 1, 0, 48, 41
+R_shoubu
+	bounds: 402, 769, 58, 45
+R_tui1
+	bounds: 571, 912, 31, 31
+R_tui2
+	bounds: 87, 448, 25, 24
+R_yanbai
+	bounds: 96, 474, 28, 22
+	offsets: 1, 0, 29, 22
+R_yanjing
+	bounds: 2, 205, 36, 38
+R_yantong
+	bounds: 27, 2, 10, 17
+	offsets: 0, 0, 11, 17
+	rotate: 90
+R_zhi1
+	bounds: 76, 349, 17, 21
+	offsets: 0, 1, 18, 22
+R_zhi2
+	bounds: 2, 166, 37, 35
+	offsets: 1, 0, 39, 36
+	rotate: 90
+bizi
+	bounds: 1001, 975, 21, 19
+	offsets: 1, 0, 23, 19
+chan
+	bounds: 203, 884, 232, 138
+erbin
+	bounds: 85, 391, 15, 26
+	offsets: 1, 1, 16, 27
+	rotate: 90
+gaozi
+	bounds: 2, 757, 199, 265
+	offsets: 8, 0, 207, 265
+han
+	bounds: 101, 508, 81, 58
+jitui
+	bounds: 10, 659, 165, 96
+maodi
+	bounds: 179, 570, 52, 32
+maozi
+	bounds: 437, 936, 124, 86
+	offsets: 0, 0, 124, 87
+mawei
+	bounds: 402, 816, 66, 54
+	rotate: 90
+shitou1
+	bounds: 39, 170, 11, 11
+	offsets: 0, 0, 12, 12
+shitou2
+	bounds: 714, 945, 11, 9
+	offsets: 1, 2, 12, 12
+shui_001
+	bounds: 714, 956, 15, 12
+	offsets: 24, 0, 65, 25
+	rotate: 90
+shui_002
+	bounds: 38, 289, 29, 20
+	offsets: 17, 1, 65, 25
+shui_003
+	bounds: 844, 950, 46, 22
+	offsets: 8, 2, 65, 25
+	rotate: 90
+shui_004
+	bounds: 43, 474, 51, 22
+	offsets: 6, 3, 65, 25
+shui_005
+	bounds: 355, 706, 55, 18
+	offsets: 4, 5, 65, 25
+	rotate: 90
+shui_006
+	bounds: 499, 714, 59, 16
+	offsets: 2, 5, 65, 25
+	rotate: 90
+shui_007
+	bounds: 232, 682, 60, 18
+	offsets: 2, 3, 65, 25
+shui_008
+	bounds: 307, 763, 63, 15
+	offsets: 0, 1, 65, 25
+shui_009
+	bounds: 525, 842, 62, 14
+	offsets: 1, 0, 65, 25
+	rotate: 90
+shui_010
+	bounds: 2, 293, 6, 5
+	offsets: 58, 1, 65, 25
+shuibo_001
+	bounds: 294, 687, 13, 3
+	offsets: 11, 6, 35, 15
+	rotate: 90
+shuibo_002
+	bounds: 184, 508, 14, 3
+	offsets: 11, 6, 35, 15
+shuibo_003
+	bounds: 83, 296, 18, 5
+	offsets: 9, 5, 35, 15
+	rotate: 90
+shuibo_004
+	bounds: 425, 702, 22, 6
+	offsets: 7, 4, 35, 15
+shuibo_005
+	bounds: 203, 757, 26, 6
+	offsets: 5, 4, 35, 15
+shuibo_006
+	bounds: 126, 479, 28, 7
+	offsets: 4, 4, 35, 15
+shuibo_007
+	bounds: 134, 498, 30, 8
+	offsets: 3, 3, 35, 15
+shuibo_008
+	bounds: 126, 488, 30, 8
+	offsets: 3, 3, 35, 15
+shuibo_009
+	bounds: 101, 498, 31, 8
+	offsets: 2, 3, 35, 15
+shuibo_010
+	bounds: 283, 649, 31, 8
+	offsets: 2, 3, 35, 15
+	rotate: 90
+shuibo_011
+	bounds: 283, 649, 31, 8
+	offsets: 2, 3, 35, 15
+	rotate: 90
+shuibo_012
+	bounds: 921, 959, 31, 8
+	offsets: 2, 3, 35, 15
+	rotate: 90
+shuibo_013
+	bounds: 76, 316, 31, 7
+	offsets: 2, 3, 35, 15
+	rotate: 90
+shuibo_014
+	bounds: 85, 316, 31, 7
+	offsets: 2, 3, 35, 15
+	rotate: 90
+shuibo_015
+	bounds: 375, 705, 31, 7
+	offsets: 2, 3, 35, 15
+shuibodang_001
+	bounds: 228, 610, 15, 3
+	offsets: 0, 6, 30, 15
+	rotate: 90
+shuibodang_002
+	bounds: 228, 610, 15, 3
+	offsets: 0, 6, 30, 15
+	rotate: 90
+shuibodang_003
+	bounds: 69, 290, 19, 5
+	offsets: 0, 5, 30, 15
+	rotate: 90
+shuibodang_004
+	bounds: 283, 627, 20, 5
+	offsets: 1, 5, 30, 15
+	rotate: 90
+shuibodang_005
+	bounds: 462, 708, 23, 7
+	offsets: 1, 4, 30, 15
+shuibodang_006
+	bounds: 518, 812, 26, 7
+	offsets: 0, 4, 30, 15
+	rotate: 90
+shuibodang_007
+	bounds: 518, 812, 26, 7
+	offsets: 0, 4, 30, 15
+	rotate: 90
+shuibodang_008
+	bounds: 51, 217, 26, 8
+	offsets: 0, 3, 30, 15
+	rotate: 90
+shuibodang_009
+	bounds: 518, 784, 26, 8
+	offsets: 1, 3, 30, 15
+	rotate: 90
+shuibodang_010
+	bounds: 702, 917, 26, 9
+	offsets: 1, 2, 30, 15
+	rotate: 90
+shuibodang_011
+	bounds: 372, 769, 27, 9
+	offsets: 1, 2, 30, 15
+shuibodang_012
+	bounds: 372, 769, 27, 9
+	offsets: 1, 2, 30, 15
+shuibodang_013
+	bounds: 40, 217, 26, 9
+	offsets: 2, 2, 30, 15
+	rotate: 90
+shuibodang_014
+	bounds: 527, 815, 25, 9
+	offsets: 4, 2, 30, 15
+	rotate: 90
+shuibodang_015
+	bounds: 114, 448, 24, 9
+	offsets: 5, 2, 30, 15
+	rotate: 90
+shuibodang_016
+	bounds: 538, 829, 24, 9
+	offsets: 5, 2, 30, 15
+shuibodang_017
+	bounds: 538, 829, 24, 9
+	offsets: 5, 2, 30, 15
+shuibodang_018
+	bounds: 115, 425, 21, 8
+	offsets: 8, 2, 30, 15
+	rotate: 90
+shuibodang_019
+	bounds: 571, 904, 21, 6
+	offsets: 8, 3, 30, 15
+shuibodang_020
+	bounds: 76, 295, 19, 5
+	offsets: 9, 3, 30, 15
+	rotate: 90
+shuibodang_021
+	bounds: 604, 911, 18, 5
+	offsets: 9, 3, 30, 15
+shuibodang_022
+	bounds: 604, 911, 18, 5
+	offsets: 9, 3, 30, 15
+shuijing1
+	bounds: 728, 954, 58, 42
+	offsets: 0, 0, 59, 42
+shuijing2
+	bounds: 873, 992, 62, 30
+	offsets: 2, 0, 64, 30
+tou
+	bounds: 101, 568, 89, 76
+	offsets: 1, 0, 90, 76
+	rotate: 90
+tukuai1
+	bounds: 299, 700, 5, 5
+	offsets: 1, 2, 8, 8
+tukuai2
+	bounds: 563, 938, 6, 5
+	offsets: 1, 2, 8, 8
+wangyajing
+	bounds: 2, 125, 39, 33
+	rotate: 90
+xianzu
+	bounds: 2, 245, 41, 37
+	rotate: 90
+yan_001
+	bounds: 738, 998, 24, 133
+	offsets: 2, 4, 31, 173
+	rotate: 90
+yan_002
+	bounds: 563, 945, 26, 149
+	offsets: 3, 5, 31, 173
+	rotate: 90
+yan_003
+	bounds: 10, 486, 31, 171
+	offsets: 0, 0, 31, 173
+yan_004
+	bounds: 43, 498, 30, 159
+	offsets: 1, 1, 31, 173
+yan_005
+	bounds: 10, 320, 26, 164
+	offsets: 0, 4, 31, 173
+yan_006
+	bounds: 563, 973, 25, 163
+	offsets: 1, 0, 31, 173
+	rotate: 90
+yan_007
+	bounds: 563, 1000, 22, 173
+	offsets: 2, 0, 31, 173
+	rotate: 90
+yan_008
+	bounds: 75, 498, 24, 159
+	offsets: 4, 7, 31, 173
+yaobu
+	bounds: 462, 775, 54, 63
+yinying
+	bounds: 437, 906, 100, 28
+	offsets: 1, 1, 102, 30
+youtuishou
+	bounds: 868, 953, 37, 51
+	offsets: 0, 0, 38, 52
+	rotate: 90
+yubashou
+	bounds: 788, 952, 44, 54
+	offsets: 1, 1, 45, 55
+	rotate: 90
+yugan
+	bounds: 203, 765, 102, 117
+yugou
+	bounds: 38, 342, 36, 47
+	offsets: 1, 1, 37, 48
+yuxian
+	bounds: 307, 780, 93, 102
+yvpiao_001
+	bounds: 538, 818, 23, 9
+	offsets: 0, 55, 65, 64
+yvpiao_002
+	bounds: 85, 408, 26, 18
+	offsets: 0, 46, 65, 64
+yvpiao_003
+	bounds: 177, 661, 48, 27
+	offsets: 0, 37, 65, 64
+yvpiao_004
+	bounds: 425, 710, 57, 35
+	offsets: 0, 29, 65, 64
+	rotate: 90
+yvpiao_005
+	bounds: 937, 978, 62, 44
+	offsets: 0, 20, 65, 64
+yvpiao_006
+	bounds: 177, 690, 65, 53
+	offsets: 0, 11, 65, 64
+	rotate: 90
+yvpiao_007
+	bounds: 232, 702, 65, 61
+	offsets: 0, 3, 65, 64
+yvpiao_008
+	bounds: 458, 840, 65, 64
+yvxian
+	bounds: 2, 300, 455, 6
+	rotate: 90
+za_001
+	bounds: 2, 86, 33, 37
+	offsets: 13, 10, 60, 60
+za_002
+	bounds: 228, 627, 53, 53
+	offsets: 3, 4, 60, 60
+za_003
+	bounds: 299, 707, 54, 54
+	offsets: 3, 4, 60, 60
+za_004
+	bounds: 233, 572, 53, 53
+	offsets: 3, 4, 60, 60
+za_005
+	bounds: 235, 517, 53, 53
+	offsets: 3, 4, 60, 60
+za_006
+	bounds: 375, 714, 48, 53
+	offsets: 6, 4, 60, 60
+za_007
+	bounds: 179, 604, 47, 55
+	offsets: 7, 3, 60, 60
+za_008
+	bounds: 184, 513, 49, 55
+	offsets: 6, 3, 60, 60
+za_009
+	bounds: 2, 14, 34, 33
+	offsets: 18, 23, 60, 60
+	rotate: 90
+zuotuishou
+	bounds: 462, 717, 35, 56

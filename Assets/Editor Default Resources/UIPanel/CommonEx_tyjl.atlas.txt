@@ -1,0 +1,377 @@
+CommonEx_tyjl.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+bai_001
+	bounds: 2, 416, 138, 150
+	offsets: 0, 0, 150, 150
+bai_002
+	bounds: 426, 877, 137, 145
+	offsets: 0, 0, 150, 150
+bai_003
+	bounds: 2, 269, 137, 145
+	offsets: 0, 0, 150, 150
+bai_004
+	bounds: 867, 732, 135, 143
+	offsets: 0, 0, 150, 150
+bai_005
+	bounds: 863, 597, 133, 139
+	offsets: 0, 0, 150, 150
+	rotate: 90
+bai_006
+	bounds: 143, 439, 132, 134
+	offsets: 3, 0, 150, 150
+	rotate: 90
+chen_001
+	bounds: 2, 720, 139, 150
+	offsets: 0, 0, 150, 150
+chen_002
+	bounds: 565, 877, 137, 145
+	offsets: 0, 0, 150, 150
+chen_003
+	bounds: 2, 122, 137, 145
+	offsets: 0, 0, 150, 150
+chen_004
+	bounds: 424, 462, 135, 143
+	offsets: 0, 0, 150, 150
+	rotate: 90
+chen_005
+	bounds: 707, 326, 134, 140
+	offsets: 0, 0, 150, 150
+	rotate: 90
+chen_006
+	bounds: 142, 304, 133, 134
+	offsets: 3, 0, 150, 150
+	rotate: 90
+chen_007
+	bounds: 410, 65, 126, 124
+	offsets: 9, 4, 150, 150
+chen_008
+	bounds: 538, 65, 126, 124
+	offsets: 9, 4, 150, 150
+chen_009
+	bounds: 2, 2, 116, 118
+	offsets: 17, 9, 150, 150
+fen_001
+	bounds: 144, 872, 139, 150
+	offsets: 0, 0, 150, 150
+fen_002
+	bounds: 571, 599, 137, 144
+	offsets: 0, 0, 150, 150
+	rotate: 90
+fen_003
+	bounds: 717, 599, 137, 144
+	offsets: 0, 0, 150, 150
+	rotate: 90
+fen_004
+	bounds: 421, 325, 135, 142
+	offsets: 0, 0, 150, 150
+	rotate: 90
+fen_005
+	bounds: 283, 584, 134, 139
+	offsets: 0, 0, 150, 150
+	rotate: 90
+fen_006
+	bounds: 276, 169, 132, 133
+	offsets: 4, 0, 150, 150
+fen_007
+	bounds: 276, 44, 125, 123
+	offsets: 10, 4, 150, 150
+hong_001
+	bounds: 2, 568, 139, 150
+	offsets: 0, 0, 150, 150
+hong_002
+	bounds: 704, 877, 137, 145
+	offsets: 0, 0, 150, 150
+hong_003
+	bounds: 843, 877, 137, 145
+	offsets: 0, 0, 150, 150
+hong_004
+	bounds: 569, 462, 135, 143
+	offsets: 0, 0, 150, 150
+	rotate: 90
+hong_005
+	bounds: 849, 324, 134, 140
+	offsets: 0, 0, 150, 150
+	rotate: 90
+hong_006
+	bounds: 278, 305, 132, 134
+	offsets: 4, 0, 150, 150
+	rotate: 90
+hong_016
+	bounds: 922, 78, 108, 85
+	offsets: 21, 31, 150, 150
+	rotate: 90
+lan_001
+	bounds: 143, 720, 139, 150
+	offsets: 0, 0, 150, 150
+lan_002
+	bounds: 426, 738, 137, 145
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lan_003
+	bounds: 573, 738, 137, 145
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lan_004
+	bounds: 714, 462, 135, 143
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lan_005
+	bounds: 707, 190, 134, 140
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lan_006
+	bounds: 414, 191, 132, 134
+	offsets: 4, 0, 150, 150
+	rotate: 90
+lv_001
+	bounds: 285, 872, 139, 150
+	offsets: 0, 0, 150, 150
+lv_002
+	bounds: 720, 738, 137, 145
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lv_003
+	bounds: 424, 599, 137, 145
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lv_004
+	bounds: 859, 460, 135, 143
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lv_005
+	bounds: 849, 188, 134, 140
+	offsets: 0, 0, 150, 150
+	rotate: 90
+lv_006
+	bounds: 550, 191, 132, 134
+	offsets: 4, 0, 150, 150
+	rotate: 90
+zi_001
+	bounds: 2, 872, 140, 150
+	offsets: 0, 0, 150, 150
+zi_002
+	bounds: 143, 573, 138, 145
+	offsets: 0, 0, 150, 150
+zi_003
+	bounds: 284, 725, 138, 145
+	offsets: 0, 0, 150, 150
+zi_004
+	bounds: 283, 439, 136, 143
+	offsets: 0, 0, 150, 150
+zi_005
+	bounds: 565, 325, 135, 140
+	offsets: 0, 0, 150, 150
+	rotate: 90
+zi_006
+	bounds: 141, 168, 133, 134
+	offsets: 4, 0, 150, 150
+zi_007
+	bounds: 666, 64, 126, 124
+	offsets: 10, 4, 150, 150
+zi_008
+	bounds: 794, 62, 126, 124
+	offsets: 10, 4, 150, 150
+zi_009
+	bounds: 120, 2, 116, 118
+	offsets: 18, 9, 150, 150
+
+CommonEx_tyjl_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+bai_007
+	bounds: 129, 644, 124, 123
+	offsets: 10, 4, 150, 150
+bai_008
+	bounds: 256, 770, 124, 123
+	offsets: 10, 4, 150, 150
+bai_009
+	bounds: 2, 397, 115, 118
+	offsets: 17, 9, 150, 150
+bai_010
+	bounds: 2, 46, 107, 113
+	offsets: 22, 13, 150, 150
+bai_011
+	bounds: 228, 196, 103, 109
+	offsets: 24, 16, 150, 150
+	rotate: 90
+bai_012
+	bounds: 667, 142, 103, 103
+	offsets: 23, 22, 150, 150
+bai_013
+	bounds: 839, 798, 105, 105
+	offsets: 22, 21, 150, 150
+bai_014
+	bounds: 119, 178, 107, 107
+	offsets: 21, 20, 150, 150
+bai_015
+	bounds: 228, 301, 109, 109
+	offsets: 20, 19, 150, 150
+bai_016
+	bounds: 111, 67, 109, 109
+	offsets: 20, 19, 150, 150
+chen_010
+	bounds: 617, 905, 108, 113
+	offsets: 21, 13, 150, 150
+chen_011
+	bounds: 228, 89, 105, 109
+	offsets: 22, 16, 150, 150
+	rotate: 90
+chen_012
+	bounds: 720, 37, 103, 103
+	offsets: 23, 22, 150, 150
+chen_013
+	bounds: 468, 463, 107, 107
+	offsets: 21, 20, 150, 150
+chen_014
+	bounds: 449, 354, 107, 107
+	offsets: 21, 20, 150, 150
+chen_015
+	bounds: 246, 533, 109, 109
+	offsets: 20, 19, 150, 150
+chen_016
+	bounds: 332, 2, 83, 85
+	offsets: 33, 31, 150, 150
+fen_008
+	bounds: 129, 769, 125, 123
+	offsets: 10, 4, 150, 150
+fen_009
+	bounds: 129, 524, 115, 118
+	offsets: 18, 9, 150, 150
+fen_010
+	bounds: 837, 905, 107, 113
+	offsets: 22, 13, 150, 150
+fen_011
+	bounds: 334, 422, 104, 109
+	offsets: 23, 16, 150, 150
+fen_012
+	bounds: 772, 142, 103, 102
+	offsets: 23, 22, 150, 150
+	rotate: 90
+fen_013
+	bounds: 667, 355, 106, 106
+	offsets: 22, 20, 150, 150
+fen_014
+	bounds: 450, 245, 107, 106
+	offsets: 21, 20, 150, 150
+	rotate: 90
+fen_015
+	bounds: 339, 311, 109, 108
+	offsets: 20, 19, 150, 150
+	rotate: 90
+fen_016
+	bounds: 468, 572, 108, 108
+	offsets: 21, 19, 150, 150
+hong_007
+	bounds: 2, 894, 125, 124
+	offsets: 10, 4, 150, 150
+hong_008
+	bounds: 2, 768, 125, 124
+	offsets: 10, 4, 150, 150
+hong_009
+	bounds: 383, 899, 115, 119
+	offsets: 18, 9, 150, 150
+hong_010
+	bounds: 2, 161, 107, 114
+	offsets: 22, 13, 150, 150
+hong_011
+	bounds: 228, 412, 104, 110
+	offsets: 23, 16, 150, 150
+hong_012
+	bounds: 825, 37, 103, 103
+	offsets: 23, 22, 150, 150
+hong_013
+	bounds: 450, 136, 106, 107
+	offsets: 22, 20, 150, 150
+hong_014
+	bounds: 558, 354, 107, 107
+	offsets: 21, 20, 150, 150
+hong_015
+	bounds: 339, 200, 109, 109
+	offsets: 20, 19, 150, 150
+lan_007
+	bounds: 129, 894, 125, 124
+	offsets: 10, 4, 150, 150
+lan_008
+	bounds: 2, 642, 125, 124
+	offsets: 10, 4, 150, 150
+lan_009
+	bounds: 500, 900, 115, 118
+	offsets: 18, 9, 150, 150
+lan_010
+	bounds: 119, 402, 107, 113
+	offsets: 22, 13, 150, 150
+lan_011
+	bounds: 617, 799, 104, 109
+	offsets: 23, 16, 150, 150
+	rotate: 90
+lan_012
+	bounds: 493, 683, 103, 103
+	offsets: 23, 22, 150, 150
+lan_013
+	bounds: 577, 463, 106, 107
+	offsets: 22, 20, 150, 150
+lan_014
+	bounds: 558, 245, 107, 107
+	offsets: 21, 20, 150, 150
+lan_015
+	bounds: 339, 89, 109, 109
+	offsets: 20, 19, 150, 150
+lan_016
+	bounds: 222, 2, 108, 85
+	offsets: 21, 31, 150, 150
+lv_007
+	bounds: 256, 895, 125, 123
+	offsets: 10, 5, 150, 150
+lv_008
+	bounds: 2, 517, 125, 123
+	offsets: 10, 5, 150, 150
+lv_009
+	bounds: 2, 277, 115, 118
+	offsets: 18, 10, 150, 150
+lv_010
+	bounds: 119, 287, 107, 113
+	offsets: 22, 14, 150, 150
+lv_011
+	bounds: 728, 799, 104, 109
+	offsets: 23, 17, 150, 150
+	rotate: 90
+lv_012
+	bounds: 578, 578, 103, 103
+	offsets: 24, 22, 150, 150
+lv_013
+	bounds: 667, 247, 106, 106
+	offsets: 22, 21, 150, 150
+lv_014
+	bounds: 558, 136, 107, 107
+	offsets: 22, 20, 150, 150
+lv_015
+	bounds: 383, 788, 109, 109
+	offsets: 21, 19, 150, 150
+lv_016
+	bounds: 494, 789, 108, 108
+	offsets: 21, 20, 150, 150
+zi_010
+	bounds: 727, 905, 108, 113
+	offsets: 22, 13, 150, 150
+zi_011
+	bounds: 382, 682, 104, 109
+	offsets: 24, 16, 150, 150
+	rotate: 90
+zi_012
+	bounds: 598, 684, 103, 103
+	offsets: 24, 22, 150, 150
+zi_013
+	bounds: 502, 27, 107, 107
+	offsets: 22, 20, 150, 150
+zi_014
+	bounds: 611, 27, 107, 107
+	offsets: 22, 20, 150, 150
+zi_015
+	bounds: 357, 571, 109, 109
+	offsets: 21, 19, 150, 150
+zi_016
+	bounds: 417, 2, 83, 85
+	offsets: 34, 31, 150, 150

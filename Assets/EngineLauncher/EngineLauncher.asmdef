@@ -1,0 +1,19 @@
+{
+    "name": "EngineLauncher",
+    "rootNamespace": "",
+    "references": [
+        "GUID:196ce905d6451d24b956ea9ca9529bde",
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:5efd170ecd8084500bed5692932fe14e",
+        "GUID:98f82600ec25c424a9bbd8c8eaacb4cf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

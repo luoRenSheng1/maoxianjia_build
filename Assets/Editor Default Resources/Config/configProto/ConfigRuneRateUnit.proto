@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRuneRateUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 Rate = 3;
+  int32 Floor = 4;
+  int32 Peak = 5;
+}

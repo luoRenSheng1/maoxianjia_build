@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 3439902458
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e7de7f8a5ad3dc61a875dff6b96666a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9e7de7f8a5ad3dc61a875dff6b96666a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/Pet_banner_Pet_banner.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_Pet_cwds_2.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_3.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_Pet_cwxl.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwds.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_Pet_cwxl_2.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_2.png
+- Assets/Editor Default Resources/UIPanel/Pet_banner_2.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_5.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_6.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwds(1).png
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_7.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl(1).png
+- Assets/Editor Default Resources/UIPanel/Pet_banner.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_3.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_4.mat
+- Assets/Editor Default Resources/UIPanel/Pet_banner.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_5.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Pet_banner_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_7.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_2(1).png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_2.png
+- Assets/Editor Default Resources/UIPanel/Pet_banner_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Pet_banner_Pet_banner_2.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_2.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwds.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Pet_cwds.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Pet_cwds_Pet_cwds.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_2.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq.mat
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl_2(1).png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_4.png
+- Assets/Editor Default Resources/UIPanel/Pet_cwxl.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Pet_fui.bytes
+- Assets/Editor Default Resources/UIPanel/Pet_banner.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Pet_cwxq_Pet_cwxq_6.mat
+- Assets/Editor Default Resources/UIPanel/Pet_atlas0.png
+Dependencies: []

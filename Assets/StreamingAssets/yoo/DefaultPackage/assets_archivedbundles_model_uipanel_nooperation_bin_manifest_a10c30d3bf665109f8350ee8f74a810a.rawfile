@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2960907002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 217857b3bea648787c4569a847e4c36c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 217857b3bea648787c4569a847e4c36c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/NoOperation_atlas0.png
+- Assets/Editor Default Resources/UIPanel/NoOperation_fui.bytes
+Dependencies: []

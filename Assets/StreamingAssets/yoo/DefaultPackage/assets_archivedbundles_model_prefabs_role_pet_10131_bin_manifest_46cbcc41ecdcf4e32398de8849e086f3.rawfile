@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 4026623185
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c225ca3de5c7b512d17e5a3758bf8e66
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6bfe5373bb1d57c1eb44588851e5dcf4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c225ca3de5c7b512d17e5a3758bf8e66
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials
+Assets:
+- Assets/Editor Default Resources/Prefabs/Role/Pet_10131.prefab
+Dependencies: []

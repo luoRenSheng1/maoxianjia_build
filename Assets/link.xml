@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+       <assembly fullname="mscorlib">
+	       	<namespace fullname="System.Collections.Generic" preserve="all"/>
+       </assembly>
+	   <assembly fullname="UnityEngine">
+	       	<type fullname="UnityEngine.AnimatorOverrideController" preserve="all"/>
+			<type fullname="UnityEngine.ParticleSystemRenderer" preserve="all"/>
+			<type fullname="UnityEngine.TrailRenderer" preserve="all"/>
+			<type fullname="UnityEngine.CombineInstance" preserve="all"/>
+       </assembly>
+</linker>

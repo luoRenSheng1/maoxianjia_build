@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigEntryImageUnit.proto";
+
+package Config;
+
+message ConfigEntryImage {
+  map<int32, ConfigEntryImageUnit> data = 1;
+}

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 830440691
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 12482099c90fb85f1dc1d52405ed40e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 12482099c90fb85f1dc1d52405ed40e1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/FirstPay_atlas0.png
+- Assets/Editor Default Resources/UIPanel/FirstPay_fui.bytes
+Dependencies: []

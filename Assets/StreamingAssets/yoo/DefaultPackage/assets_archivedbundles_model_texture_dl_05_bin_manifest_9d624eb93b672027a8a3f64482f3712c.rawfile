@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2239695356
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b4aacb10d2527fca0fb6a20ed9d7978
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4b4aacb10d2527fca0fb6a20ed9d7978
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/DL_05.png
+Dependencies: []

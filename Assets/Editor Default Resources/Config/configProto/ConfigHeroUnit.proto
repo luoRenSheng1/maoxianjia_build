@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHeroUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Vocation = 4;
+  int32 HarmType = 5;
+  int32 VocationAttr = 6;
+  int32 HeroQuality = 7;
+  int32 AtkSkill = 8;
+  int32 ActiveSkill = 9;
+  string Passive = 10;
+  string HeroBody = 11;
+  string Model = 12;
+  string Model1 = 13;
+  int32 AtkSpeed = 14;
+  int32 Speed = 15;
+  int32 ModelScale = 16;
+  int32 Item = 17;
+  int32 Conflate = 18;
+}

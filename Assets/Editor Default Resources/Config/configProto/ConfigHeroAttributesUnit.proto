@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHeroAttributesUnit {
+  int32 Id = 1;
+  int32 ObjectType = 2;
+  int32 HeroType = 3;
+  int32 AttributesType = 4;
+  int32 AttributesID = 5;
+  string Doc = 6;
+  string DocNote = 7;
+  int32 SortID = 8;
+  int32 ShowID = 9;
+  string RemarkNote = 10;
+}

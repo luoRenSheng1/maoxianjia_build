@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigChapterUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string NameParam = 4;
+  int32 Scenes = 5;
+  string MapPos = 6;
+}

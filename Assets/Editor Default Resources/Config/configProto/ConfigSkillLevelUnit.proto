@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillLevelUnit {
+  int32 Id = 1;
+  int32 SkillId = 2;
+  string Name = 3;
+  int32 SkillLevel = 4;
+  int32 CardNumber = 5;
+  int32 SkillValue = 6;
+  int32 CarryValue = 7;
+  int32 AttrValue = 8;
+  string Doc = 9;
+  string DocNote = 10;
+}

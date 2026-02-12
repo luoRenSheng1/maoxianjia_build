@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigEventStageUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  int32 Type = 4;
+  int32 ChapterId = 5;
+  int32 Rate = 6;
+  int32 MonsterData = 7;
+  int32 HarmType = 8;
+  int32 EntryNumber = 9;
+  int32 EntryGroup = 10;
+  string PhysicalAtk = 11;
+  string MagicAtk = 12;
+  string SorceryAtk = 13;
+  string PhysicalDef = 14;
+  string MagicDef = 15;
+  string SorceryDef = 16;
+  string Hp = 17;
+  string Reply = 18;
+  int32 Time = 19;
+  int32 Lv = 20;
+  int32 LoreRate = 21;
+  string Number = 22;
+  int32 Drop = 23;
+  string Note1 = 24;
+}

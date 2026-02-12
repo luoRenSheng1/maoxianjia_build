@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigRunePondUnit.proto";
+
+package Config;
+
+message ConfigRunePond {
+  map<int32, ConfigRunePondUnit> data = 1;
+}

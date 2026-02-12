@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1169449858
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 557af0a7e74da9f1007c3ba4a05bb916
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e7a8211d1220a65f149cab164f436878
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 557af0a7e74da9f1007c3ba4a05bb916
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/Login_atlas_9pidxxpk.png
+- Assets/Editor Default Resources/UIPanel/Login_fui.bytes
+- Assets/Editor Default Resources/UIPanel/Login_atlas0.png
+Dependencies: []

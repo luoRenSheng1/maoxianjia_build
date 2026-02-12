@@ -1,0 +1,71 @@
+BigMap_qiao.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+you1
+	bounds: 297, 871, 86, 140
+	offsets: 0, 4, 86, 165
+you11
+	bounds: 657, 965, 46, 165
+	offsets: 0, 7, 47, 189
+	rotate: 90
+you111
+	bounds: 101, 731, 94, 280
+	offsets: 0, 9, 94, 307
+you112
+	bounds: 199, 760, 94, 251
+	offsets: 0, 9, 94, 260
+you12
+	bounds: 812, 915, 46, 130
+	offsets: 0, 7, 47, 154
+	rotate: 90
+you13
+	bounds: 826, 965, 46, 132
+	offsets: 0, 5, 47, 154
+	rotate: 90
+you14
+	bounds: 199, 708, 48, 115
+	offsets: 0, 4, 50, 130
+	rotate: 90
+you2
+	bounds: 4, 144, 86, 135
+	offsets: 0, 2, 86, 154
+you3
+	bounds: 387, 875, 86, 136
+	offsets: 0, 2, 86, 154
+you4
+	bounds: 4, 283, 86, 136
+zuo1
+	bounds: 101, 586, 86, 141
+	offsets: 0, 3, 86, 165
+zuo11
+	bounds: 657, 902, 59, 151
+	offsets: 0, 0, 59, 165
+	rotate: 90
+zuo111
+	bounds: 4, 564, 93, 158
+	offsets: 0, 9, 93, 177
+zuo112
+	bounds: 4, 726, 93, 285
+	offsets: 0, 4, 93, 289
+zuo113
+	bounds: 297, 760, 93, 107
+	offsets: 0, 0, 93, 118
+zuo12
+	bounds: 394, 749, 59, 132
+	offsets: 0, 5, 59, 154
+	rotate: 90
+zuo13
+	bounds: 4, 4, 59, 136
+zuo14
+	bounds: 394, 812, 59, 134
+	offsets: 1, 2, 60, 136
+	rotate: 90
+zuo2
+	bounds: 567, 876, 86, 135
+	offsets: 0, 2, 86, 154
+zuo3
+	bounds: 4, 423, 86, 137
+	offsets: 0, 1, 86, 154
+zuo4
+	bounds: 477, 875, 86, 136

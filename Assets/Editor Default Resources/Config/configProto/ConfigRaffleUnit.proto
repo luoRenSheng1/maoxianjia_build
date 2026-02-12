@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigRaffleUnit {
+  int32 Id = 1;
+  int32 Type = 2;
+  int32 Level = 3;
+  int32 ItemType = 4;
+  int32 Number = 5;
+  int32 Probability = 6;
+  string P1 = 7;
+  string P2 = 8;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigTreasureChestUnit {
+  int32 Id = 1;
+  int32 NextID = 2;
+  string GoldCoins = 3;
+  int32 GoldCoinsNum = 4;
+  int32 Consume = 5;
+  int32 UpTime = 6;
+  string QualityPro = 7;
+  string QualityProShow = 8;
+  string PartPro = 9;
+}

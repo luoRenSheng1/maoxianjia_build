@@ -1,0 +1,63 @@
+BigMap_smfz_1.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+fazhen1
+	bounds: 431, 337, 427, 341
+	offsets: 36, 13, 499, 404
+fazhen10
+	bounds: 431, 2, 422, 333
+	offsets: 38, 15, 499, 404
+fazhen13
+	bounds: 2, 335, 427, 342
+	offsets: 36, 13, 499, 404
+fazhen14
+	bounds: 2, 679, 427, 343
+	offsets: 36, 13, 499, 404
+fazhen2
+	bounds: 431, 680, 427, 342
+	offsets: 36, 13, 499, 404
+fazhen9
+	bounds: 2, 5, 422, 328
+	offsets: 38, 15, 499, 404
+
+BigMap_smfz_1_2.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+fazhen0
+	bounds: 2, 682, 427, 340
+	offsets: 36, 13, 499, 404
+fazhen11
+	bounds: 431, 2, 422, 335
+	offsets: 38, 15, 499, 404
+fazhen12
+	bounds: 2, 341, 427, 339
+	offsets: 36, 13, 499, 404
+fazhen3
+	bounds: 2, 2, 427, 337
+	offsets: 36, 13, 499, 404
+fazhen5
+	bounds: 431, 339, 422, 340
+	offsets: 38, 15, 499, 404
+fazhen6
+	bounds: 431, 681, 422, 341
+	offsets: 38, 15, 499, 404
+
+BigMap_smfz_1_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+fazhen4
+	bounds: 2, 557, 422, 337
+	offsets: 38, 15, 499, 404
+fazhen7
+	bounds: 426, 576, 422, 318
+	offsets: 38, 15, 499, 404
+fazhen8
+	bounds: 2, 231, 422, 324
+	offsets: 38, 15, 499, 404
+zhen_1
+	bounds: 2, 2, 349, 227
+zhen_2
+	bounds: 426, 367, 222, 207

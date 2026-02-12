@@ -1,0 +1,39 @@
+Common_12001_buff.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+wudi_001
+	bounds: 2, 363, 121, 62
+	offsets: 10, 10, 140, 80
+wudi_002
+	bounds: 2, 427, 123, 62
+	offsets: 8, 10, 140, 80
+wudi_003
+	bounds: 127, 429, 122, 60
+	offsets: 6, 10, 140, 80
+wudi_004
+	bounds: 2, 239, 122, 60
+	offsets: 6, 10, 140, 80
+	rotate: 90
+wudi_005
+	bounds: 64, 245, 116, 59
+	offsets: 12, 11, 140, 80
+	rotate: 90
+wudi_006
+	bounds: 374, 432, 115, 57
+	offsets: 15, 14, 140, 80
+wudi_007
+	bounds: 61, 124, 113, 56
+	offsets: 17, 15, 140, 80
+	rotate: 90
+wudi_008
+	bounds: 2, 2, 113, 58
+	offsets: 17, 13, 140, 80
+	rotate: 90
+wudi_009
+	bounds: 2, 117, 120, 57
+	offsets: 12, 13, 140, 80
+	rotate: 90
+wudi_010
+	bounds: 251, 431, 121, 58
+	offsets: 11, 12, 140, 80

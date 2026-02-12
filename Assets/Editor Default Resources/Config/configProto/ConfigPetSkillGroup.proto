@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigPetSkillGroupUnit.proto";
+
+package Config;
+
+message ConfigPetSkillGroup {
+  map<int32, ConfigPetSkillGroupUnit> data = 1;
+}

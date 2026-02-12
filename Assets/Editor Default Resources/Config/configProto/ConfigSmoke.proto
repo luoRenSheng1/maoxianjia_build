@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigSmokeUnit.proto";
+
+package Config;
+
+message ConfigSmoke {
+  map<int32, ConfigSmokeUnit> data = 1;
+}

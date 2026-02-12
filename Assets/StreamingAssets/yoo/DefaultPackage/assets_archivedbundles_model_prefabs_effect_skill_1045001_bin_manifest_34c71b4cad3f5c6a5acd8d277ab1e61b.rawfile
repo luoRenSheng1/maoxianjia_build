@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 597527848
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 329e5b0845fe1e22126ac24b86d92d45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7f8408b218f83b216f5b593e2363165
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 329e5b0845fe1e22126ac24b86d92d45
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_1045001.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/shito02.bin

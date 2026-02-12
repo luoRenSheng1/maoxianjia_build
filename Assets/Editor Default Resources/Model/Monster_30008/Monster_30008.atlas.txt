@@ -1,0 +1,58 @@
+Monster_30008.png
+	size: 212, 62
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_huo
+	bounds: 145, 5, 16, 25
+L_shou
+	bounds: 159, 40, 18, 20
+	offsets: 0, 1, 18, 21
+L_zhi1
+	bounds: 196, 19, 11, 9
+	offsets: 0, 1, 11, 10
+L_zhi2
+	bounds: 177, 3, 10, 13
+L_zhi3
+	bounds: 198, 49, 11, 12
+	rotate: 90
+L_zhi4
+	bounds: 183, 18, 10, 11
+	rotate: 90
+R_huo
+	bounds: 117, 2, 22, 26
+	rotate: 90
+R_shou
+	bounds: 163, 18, 18, 20
+R_zhi1
+	bounds: 183, 30, 9, 12
+	rotate: 90
+R_zhi2
+	bounds: 163, 3, 12, 13
+R_zhi3
+	bounds: 101, 2, 13, 14
+	rotate: 90
+R_zhi4
+	bounds: 198, 36, 12, 11
+bei
+	bounds: 116, 26, 34, 18
+	rotate: 90
+bengdai
+	bounds: 136, 32, 28, 21
+	offsets: 0, 0, 29, 22
+	rotate: 90
+huoyan
+	bounds: 66, 12, 48, 33
+	offsets: 3, 0, 51, 41
+	rotate: 90
+shenti
+	bounds: 2, 4, 62, 56
+yanbai
+	bounds: 179, 41, 17, 19
+yanpi
+	bounds: 66, 2, 18, 8
+yantong
+	bounds: 189, 5, 10, 11
+yinying
+	bounds: 101, 17, 43, 13
+	rotate: 90

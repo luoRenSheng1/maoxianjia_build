@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3247906500
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 50273f90a17ffb4ac92f9497918c2eeb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 50273f90a17ffb4ac92f9497918c2eeb
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/dilie3.png
+Dependencies: []

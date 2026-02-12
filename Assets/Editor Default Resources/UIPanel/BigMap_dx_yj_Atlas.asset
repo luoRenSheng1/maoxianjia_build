@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: BigMap_dx_yj_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: d8411f052e64b8b4b9636ea4fea0af2f, type: 3}
+  materials:
+  - {fileID: 2100000, guid: b43e5e5a25111c14594a1cb645530842, type: 2}
+  - {fileID: 2100000, guid: a14fe064ed8df394ab73761cfcdfbea0, type: 2}
+  - {fileID: 2100000, guid: 859b3d1ae749d654287bcc726d86c71d, type: 2}
+  - {fileID: 2100000, guid: 445cda4045e18094fbf940b044e86659, type: 2}
+  - {fileID: 2100000, guid: b6fb6ad9fc94a8f49a0c3966a24fb81a, type: 2}
+  - {fileID: 2100000, guid: 7320c5c8bf78d874e86829c231f490b7, type: 2}
+  - {fileID: 2100000, guid: 667cd6c69d3b1534796be6c2741ec186, type: 2}
+  - {fileID: 2100000, guid: adc0009f706dcfe4cb53b466ec8988eb, type: 2}
+  - {fileID: 2100000, guid: 4e7137beb465b3c4298cd916f37f775f, type: 2}
+  - {fileID: 2100000, guid: 56c4311e6035d36489424e6c636f678e, type: 2}
+  - {fileID: 2100000, guid: f82f22343c34c6041ba4eab392f7f0d7, type: 2}

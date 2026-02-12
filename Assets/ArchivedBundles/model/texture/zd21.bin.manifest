@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4081167667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f308e1d2406c68a9ca4e38eae3c82cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7f308e1d2406c68a9ca4e38eae3c82cd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/zd21.png
+Dependencies: []

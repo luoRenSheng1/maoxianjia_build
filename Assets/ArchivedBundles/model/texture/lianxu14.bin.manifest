@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2573383555
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e5b0189f24ef1373dd0322f1fb92b6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9e5b0189f24ef1373dd0322f1fb92b6e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/lianxu14.png
+Dependencies: []

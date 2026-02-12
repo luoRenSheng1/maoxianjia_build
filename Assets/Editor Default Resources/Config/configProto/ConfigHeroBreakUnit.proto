@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHeroBreakUnit {
+  int32 Id = 1;
+  int32 HeroId = 2;
+  string Name = 3;
+  int32 Level = 4;
+}

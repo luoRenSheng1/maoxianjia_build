@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigBuffActionTemplateUnit {
+  int32 Id = 1;
+  string Name = 2;
+  int32 BuffEventType = 3;
+  float CoverLastTime = 4;
+  float EffectTime = 5;
+  int32 COpFrequency = 6;
+  string Function = 7;
+  int32 Object = 8;
+  string Range = 9;
+  int32 Ruantity = 10;
+  string Common = 11;
+  int32 BuffEffect = 12;
+  int32 BuffTime = 13;
+  int32 DevSide = 14;
+}

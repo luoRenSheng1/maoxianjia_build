@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+CRC: 799303689
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad83716f5dd85a05577d6f2f487f3527
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ad83716f5dd85a05577d6f2f487f3527
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Editor Default Resources/UIPanel/Village_XunLian_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_XunLian.png
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong.png
+- Assets/Editor Default Resources/UIPanel/Village_FuShi_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_XunLian.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_XunLian_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_FuShi_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_JinBi.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng.png
+- Assets/Editor Default Resources/UIPanel/Village_JinBi_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_FuShi.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_FuShi_Material-Screen.mat
+- Assets/Editor Default Resources/UIPanel/Village_JinBi_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_JinBi.png
+- Assets/Editor Default Resources/UIPanel/Village_XunLian_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_XunLian.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_FuShi.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_JinBi.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi.png
+- Assets/Editor Default Resources/UIPanel/Village_FuShi.png
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng.skel.bytes
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_JiaGong.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_LiangShi_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/Village_WoPeng.atlas.txt
+- Assets/Editor Default Resources/UIPanel/Village_JinBi_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_FuShi_Material.mat
+- Assets/Editor Default Resources/UIPanel/Village_atlas0.png
+- Assets/Editor Default Resources/UIPanel/Village_fui.bytes
+Dependencies: []

@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Achievement/AchievementMain.xml -->
+  <string name="b8bvql0ir1ahh-n2_r1ah" mz="n2">成就</string>
+  <string name="b8bvql0ir1ahh-n4_rwnp-0" mz="tabList">装备</string>
+  <string name="b8bvql0ir1ahh-n4_rwnp-1" mz="tabList">宠物</string>
+  <string name="b8bvql0ir1ahh-n4_rwnp-2" mz="tabList">技能</string>
+  <string name="b8bvql0ir1ahh-n4_rwnp-3" mz="tabList">玩法</string>
+  <!-- Achievement/Component/AchievementItem.xml -->
+  <string name="b8bvql0ir1ahi-n2_rwnp" mz="desc">获得9种不朽品质的装备</string>
+  <string name="b8bvql0ir1ahi-n9_f34j" mz="n9">已完成</string>
+  <!-- Achievement/Component/AchievementSelectBtn.xml -->
+  <string name="b8bvql0irwnpm-n4_rwnp" mz="title">成就</string>
+  <!-- Achievement/Component/Bar.xml -->
+  <string name="b8bvql0irwnpl-n8_rwnp" mz="n8">完成</string>
+  <!-- Achievement/Component/GetBtn.xml -->
+  <string name="b8bvql0irwnpk-n4_rwnp" mz="n4">领取奖励</string>
+  <string name="b8bvql0irwnpk-n4_rwnp-texts_0" mz="n4">已完成</string>
+  <string name="b8bvql0irwnpk-n4_rwnp-texts_def" mz="n4">领取奖励</string>
+  <!-- AdventureCave/AdventureCaveShop.xml -->
+  <string name="z350mxkhrjj21b-n12_rjj2" mz="title">奇遇商店</string>
+  <!-- AdventureCave/AdventureCaveView.xml -->
+  <string name="z350mxkhkoot1c-n44_i5zg" mz="ziti">奇遇山洞1层</string>
+  <!-- Artifact/ArtifactMain.xml -->
+  <string name="v9y2d69nkqmidxy95-n2_kqmi" mz="n2">神器</string>
+  <string name="v9y2d69nkqmidxy95-n5_kqmi-0" mz="tabList">盾牌</string>
+  <string name="v9y2d69nkqmidxy95-n5_kqmi-1" mz="tabList">勋章</string>
+  <string name="v9y2d69nkqmidxy95-n5_kqmi-2" mz="tabList">符石</string>
+  <string name="v9y2d69nkqmidxy95-n5_kqmi-3" mz="tabList">职印</string>
+  <string name="v9y2d69nkqmidxy95-n13_kqmi" mz="name">神器名称</string>
+  <string name="v9y2d69nkqmidxy95-n14_kqmi" mz="desc">物品描述</string>
+  <string name="v9y2d69nkqmidxy95-n10_kqmi" mz="n10">升级预览</string>
+  <string name="v9y2d69nkqmidxy95-n19_kqmi" mz="curLv">{curLv=19}级</string>
+  <string name="v9y2d69nkqmidxy95-n20_kqmi" mz="nextLv">{next=20}级</string>
+  <string name="v9y2d69nkqmidxy95-n27_kqmi" mz="maxLv">{max=33}级</string>
+  <string name="v9y2d69nkqmidxy95-n47_ucd4" mz="upLvBtn">升级</string>
+  <string name="v9y2d69nkqmidxy95-n47_ucd4-texts_0" mz="upLvBtn">已满级</string>
+  <string name="v9y2d69nkqmidxy95-n47_ucd4-texts_def" mz="upLvBtn">升级</string>
+  <!-- Artifact/Component/ArtifactAttrItem.xml -->
+  <string name="v9y2d69nkqmidxy9b-n0_kqmi" mz="curAttrName">{name=攻击力} + </string>
+  <string name="v9y2d69nkqmidxy9b-n1_kqmi" mz="nextAttr">+ {value=1001}</string>
+  <!-- Artifact/Component/ArtifactAttrItem2.xml -->
+  <string name="v9y2d69nkqmidxy9c-n1_kqmi" mz="name">攻击力</string>
+  <string name="v9y2d69nkqmidxy9c-n0_kqmi" mz="num">+ {value=100333}</string>
+  <!-- Artifact/Component/ArtifactAttrItem3.xml -->
+  <string name="v9y2d69nkqmi1-n0_kqmi" mz="attrName">生命恢复</string>
+  <!-- Artifact/Component/ArtifactAttrTip.xml -->
+  <string name="v9y2d69nkqmi0-n6_kqmi" mz="name">神器名称</string>
+  <string name="v9y2d69nkqmi0-n16_ucd4" mz="equipLv">LV.{value=15}</string>
+  <string name="v9y2d69nkqmi0-n15_ucd4" mz="n15">当前装备</string>
+  <!-- Artifact/Component/ArtifactItem.xml -->
+  <string name="v9y2d69nhz5cdxy9w-n6_hz5c" mz="lvLb">Lv.{value=700}</string>
+  <!-- Artifact/Component/ArtifactSelectBtn.xml -->
+  <string name="v9y2d69nkqmidxy9a-n4_kqmi" mz="title">神器</string>
+  <!-- AutoUnpack/Component/openCountList.xml -->
+  <string name="rr0734r5x3dk2v-n1_x3dk-0" mz="list">一个</string>
+  <!-- AutoUnpack/Component/openEntryList.xml -->
+  <string name="rr0734r5x3dk2z-n1_x3dk-0" mz="list">任意</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-1" mz="list">生命加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-2" mz="list">攻击加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-3" mz="list">暴击</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-4" mz="list">爆伤</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-5" mz="list">Boss伤害加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-6" mz="list">小怪伤害加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-7" mz="list">减伤</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-8" mz="list">吸血</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-9" mz="list">技能伤害</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-10" mz="list">技能次数加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-11" mz="list">技能次数</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-12" mz="list">金币加成</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-13" mz="list">技能冷却</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-14" mz="list">攻速</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-15" mz="list">连击</string>
+  <string name="rr0734r5x3dk2z-n1_x3dk-16" mz="list">反击</string>
+  <!-- AutoUnpack/Component/openEquipQualityList.xml -->
+  <string name="rr0734r5x3dk33-n1_x3dk-0" mz="list">[color=#bdaba2]普通及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-1" mz="list">[color=#7ed2a6]良好及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-2" mz="list">[color=#82b6d6]稀有及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-3" mz="list">[color=#ad68c8]史诗及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-4" mz="list">[color=#f3c95c]传说及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-5" mz="list">[color=#f081c3]神话及以上[/color]</string>
+  <string name="rr0734r5x3dk33-n1_x3dk-6" mz="list">[color=#f38277]不朽及以上[/color]</string>
+  <!-- AutoUnpack/UI/Panel.xml -->
+  <string name="rr0734r5mmjj20-n118_mmjj" mz="n118">自动锻造</string>
+  <string name="rr0734r5mmjj20-n119_mmjj" mz="n119">装备品质</string>
+  <string name="rr0734r5mmjj20-n120_mmjj" mz="n120">筛选条件一</string>
+  <string name="rr0734r5mmjj20-n121_mmjj" mz="n121">筛选条件二</string>
+  <string name="rr0734r5mmjj20-n122_mmjj" mz="n122">单次开启锻造次数</string>
+  <string name="rr0734r5mmjj20-n123_mmjj" mz="btnStart">开始</string>
+  <string name="rr0734r5mmjj20-n124_mmjj" mz="n124">挑战券满时停止</string>
+  <string name="rr0734r5mmjj20-n125_mmjj" mz="n125">不符合条件的装备将自动出售</string>
+  <!-- BigMap/ChapterEventBossStageDetail.xml -->
+  <string name="pdufy3kep9n01o-n1_f7h7" mz="txtName">游荡boss</string>
+  <string name="pdufy3kep9n01o-n14_jvjm" mz="n14">关卡奖励</string>
+  <string name="pdufy3kep9n01o-n2_f7h7" mz="txtDesc">独眼巨人</string>
+  <string name="pdufy3kep9n01o-n5_f7h7" mz="btnFight">挑战</string>
+  <string name="pdufy3kep9n01o-n45_f34j" mz="n45">特性</string>
+  <string name="pdufy3kep9n01o-n46_11bz8" mz="txtTitleTime">[color=#FCF78E]{value=5}秒[/color]后自动进入战斗</string>
+  <!-- BigMap/ChapterEventStageDetail.xml -->
+  <string name="pdufy3kep9n01p-n51_om2e" mz="Btn3">预览</string>
+  <string name="pdufy3kep9n01p-n48_rjj2" mz="Btn1">前往挖掘</string>
+  <string name="pdufy3kep9n01p-n49_rjj2" mz="Btn2">我再逛逛</string>
+  <string name="pdufy3kep9n01p-n2_f7h7" mz="name">深渊领主</string>
+  <string name="pdufy3kep9n01p-n14_jvjm" mz="desc">埋藏的远古冒险者收集的宝藏</string>
+  <string name="pdufy3kep9n01p-n34_syvc" mz="txtBtn">开启遗迹或宝箱</string>
+  <!-- BigMap/ChapterStageDetail.xml -->
+  <string name="pdufy3kef7h7b-n1_f7h7" mz="txtName">穿越深渊之门1-6</string>
+  <string name="pdufy3kef7h7b-n14_jvjm" mz="txtRewardName">关卡奖励</string>
+  <string name="pdufy3kef7h7b-n22_jvjm" mz="txtMonsterAtk">{value=161.23}万</string>
+  <string name="pdufy3kef7h7b-n2_f7h7" mz="txtDesc">独眼巨人</string>
+  <string name="pdufy3kef7h7b-n5_f7h7" mz="btnFight">挑战</string>
+  <string name="pdufy3kef7h7b-n44_x2p0" mz="btnFight2">挑战</string>
+  <string name="pdufy3kef7h7b-n50_f34j" mz="n50">特性</string>
+  <string name="pdufy3kef7h7b-n16_jvjm" mz="n16">首次通关可获得奖励</string>
+  <!-- BigMap/ChapterTaskStageDetail.xml -->
+  <string name="pdufy3kep9n01n-n14_tdju" mz="n14">只能选择一个任务</string>
+  <string name="pdufy3kep9n01n-n3_p9n0" mz="name">狩猎任务</string>
+  <string name="pdufy3kep9n01n-n15_tdju" mz="resetTaskBtn">刷新任务</string>
+  <!-- BigMap/Component/BuffAttrItem.xml -->
+  <string name="pdufy3kep2jcidr-n0_p2jc" mz="attr">{name=地系伤害加成}[color=#34991C]+{value=999999}[/color]</string>
+  <!-- BigMap/Component/BuffAttrItem2.xml -->
+  <string name="pdufy3kep2jcidu-n0_p2jc" mz="attrValue">{name=角色攻击力提升}+{value=30%}</string>
+  <!-- BigMap/Component/ComInfo.xml -->
+  <string name="pdufy3ke9kp72c-n103_llb1" mz="n103">可领取</string>
+  <string name="pdufy3ke9kp72c-n83_nif6" mz="taskName">任务{value=1}</string>
+  <string name="pdufy3ke9kp72c-n86_nif6" mz="reward">{value=666}</string>
+  <string name="pdufy3ke9kp72c-n73_pdpa" mz="typeName">挑战关卡86-6</string>
+  <string name="pdufy3ke9kp72c-n73_pdpa-texts_0" mz="typeName">消灭怪物</string>
+  <string name="pdufy3ke9kp72c-n73_pdpa-texts_def" mz="typeName">挑战关卡86-6</string>
+  <string name="pdufy3ke9kp72c-n95_tdju" mz="typeName2">挑战关卡86-6</string>
+  <string name="pdufy3ke9kp72c-n74_pdpa" mz="txtProgress">({min=9999}/{max=9999})</string>
+  <string name="pdufy3ke9kp72c-n96_tdju" mz="txtProgress2">领取奖励</string>
+  <string name="pdufy3ke9kp72c-n81_ju03" mz="n81">您还未接受任务</string>
+  <!-- BigMap/Component/CostItemCom.xml -->
+  <string name="pdufy3ketdju5k-n2_tdju" mz="num">{total=5566}/{cost=1}</string>
+  <!-- BigMap/Component/FightCurStageBtn.xml -->
+  <string name="pdufy3kellb1ijl-n4_llb1" mz="n4">挑战</string>
+  <string name="pdufy3kellb1ijl-n5_llb1" mz="stageInfo">关卡 {chapter=1}-{stage=2}</string>
+  <string name="pdufy3kellb1ijl-n6_llb1" mz="n6">下一章节</string>
+  <!-- BigMap/Component/FishingBtn.xml -->
+  <string name="pdufy3keka12igw-n4_ka12" mz="n4">收杆</string>
+  <!-- BigMap/Component/HuntingShopBtn.xml -->
+  <string name="pdufy3ketdju5l-n5_tdju" mz="n5">狩猎商店</string>
+  <!-- BigMap/Component/HuntingShopItem.xml -->
+  <string name="pdufy3ketdju5o-n4_tdju" mz="name">强击秘典</string>
+  <string name="pdufy3ketdju5o-n10_tdju" mz="n10">售馨</string>
+  <!-- BigMap/Component/RuinItem.xml -->
+  <string name="pdufy3kew224id7-n1_w224" mz="name">遗迹BUFF名称</string>
+  <string name="pdufy3kew224id7-n5_w224" mz="ruinTime">{value=125}s</string>
+  <!-- BigMap/Component/RunAwayBtn.xml -->
+  <string name="pdufy3kef7h7c-n2_pbu0" mz="title">逃跑</string>
+  <!-- BigMap/Component/ShopBuyBtn.xml -->
+  <string name="pdufy3ketdju5q-n5_tdju" mz="title">购买</string>
+  <!-- BigMap/Component/TaskBarExp.xml -->
+  <string name="pdufy3kellb1ijk-n4_rm2c" mz="maxLevel">已满级</string>
+  <!-- BigMap/Component/TaskItem.xml -->
+  <string name="pdufy3kep9n015-n1_p9n0" mz="name">击败深渊之地BOSS({cur=4}/{total=6})</string>
+  <string name="pdufy3kep9n015-n7_p9n0" mz="takeBtn">领取任务</string>
+  <string name="pdufy3kep9n015-n15_tdju" mz="giveUpTaskBtn">放弃任务</string>
+  <string name="pdufy3kep9n015-n16_tdju" mz="getRewardBtn">领取奖励</string>
+  <string name="pdufy3kep9n015-n17_ob1s" mz="submitBtn">上供</string>
+  <!-- BigMap/Component/Tip.xml -->
+  <string name="pdufy3kesyvcs-n1_syvc" mz="title">抗性</string>
+  <string name="pdufy3kesyvcs-n2_syvc" mz="desc">Boss提升[color=#FCE76F]{value=50}%[/color]的火元素抗性，挑战者的回复效果减少[color=#FCE76F]{value=20}%[/color]</string>
+  <!-- BigMap/Component/attrBtn.xml -->
+  <string name="pdufy3keipa310-n4_ipa3" mz="name">高暴12</string>
+  <!-- BigMap/Component/stageItem.xml -->
+  <string name="pdufy3kehbptidt-n0_hbpt" mz="title">月光神坛</string>
+  <!-- BigMap/FishingBossStageDetail.xml -->
+  <string name="pdufy3keka12igz-n5_ka12" mz="title">普通BOSS</string>
+  <string name="pdufy3keka12igz-n5_ka12-texts_0" mz="title">普通BOSS</string>
+  <string name="pdufy3keka12igz-n5_ka12-texts_1" mz="title">传承BOSS</string>
+  <string name="pdufy3keka12igz-n9_ka12" mz="txtDesc">独眼巨人</string>
+  <string name="pdufy3keka12igz-n7_ka12" mz="n7">关卡奖励</string>
+  <string name="pdufy3keka12igz-n13_ka12" mz="n13">特性</string>
+  <string name="pdufy3keka12igz-n8_ka12" mz="btnFight">挑战</string>
+  <string name="pdufy3keka12igz-n14_ka12" mz="txtTitleTime">[color=#FCF78E]{value=5}秒[/color]后自动进入战斗</string>
+  <!-- BigMap/FishingFail.xml -->
+  <string name="pdufy3keka12igl-n1_ka12" mz="againFishingBtn">再次垂钓</string>
+  <!-- BigMap/FishingReward.xml -->
+  <string name="pdufy3keka12igk-n1_ka12" mz="n1">垂钓获得</string>
+  <string name="pdufy3keka12igk-n4_ka12" mz="getRewardBtn">领取</string>
+  <string name="pdufy3keka12igk-n7_ga86" mz="againFishingBtn">再次垂钓</string>
+  <!-- BigMap/HuntingShopBuyTips.xml -->
+  <string name="pdufy3ketdju5p-n2_tdju" mz="n2">购买</string>
+  <string name="pdufy3ketdju5p-n4_tdju" mz="name">普鲁斯特神剑</string>
+  <string name="pdufy3ketdju5p-n7_tdju" mz="desc">是一把神器，是一把神器是一把神器</string>
+  <!-- BigMap/HuntingShopMain.xml -->
+  <string name="pdufy3ketdju5n-n4_tdju" mz="n4">狩猎商店</string>
+  <!-- BigMap/HuntingTaskMain.xml -->
+  <string name="pdufy3ketdju5m-n5_tdju" mz="n5">狩猎任务</string>
+  <!-- BigMap/RuinAttrTips.xml -->
+  <string name="pdufy3kew224idl-n2_w224" mz="name">攻击属性增益</string>
+  <string name="pdufy3kew224idl-n5_w224" mz="desc">角色攻击力提升30%</string>
+  <string name="pdufy3kew224idl-n9_w224" mz="time">125小时</string>
+  <!-- BigMap/RuinBuffTips.xml -->
+  <string name="pdufy3kep2jcids-n3_p2jc" mz="name">攻击属性增益</string>
+  <string name="pdufy3kep2jcids-n8_p2jc" mz="time">125小时</string>
+  <!-- BigMap/RuinSelectMain.xml -->
+  <string name="pdufy3kew224id6-n8_p2jc" mz="n8">选择增益</string>
+  <string name="pdufy3kew224id6-n9_p2jc" mz="n9">从下方选择一个增益</string>
+  <string name="pdufy3kew224id6-n6_w224" mz="n6">倒计时:</string>
+  <string name="pdufy3kew224id6-n11_p2jc" mz="submitBtn">确认</string>
+  <!-- BigMap/StageBigMap.xml -->
+  <string name="pdufy3kelht02-n2_j610" mz="txtTime">倒计时：{time=0}</string>
+  <!-- BigMap/SubmitGoldAndDiaMain.xml -->
+  <string name="pdufy3keob1sid5-n2_ob1s" mz="n2">提示</string>
+  <string name="pdufy3keob1sid5-n3_ob1s" mz="desc">上供{value=100}金币可完成此任务</string>
+  <string name="pdufy3keob1sid5-n3_ob1s-texts_0" mz="desc">上供{value=100}砖石可完成此任务</string>
+  <string name="pdufy3keob1sid5-n3_ob1s-texts_def" mz="desc">上供{value=100}金币可完成此任务</string>
+  <string name="pdufy3keob1sid5-n4_ob1s" mz="giveUpBtn">放弃任务</string>
+  <string name="pdufy3keob1sid5-n5_ob1s" mz="submitBtn">上供</string>
+  <!-- BuryGiftPack/BuryGiftPack.xml -->
+  <string name="zjhq3sc3khmx0-n11_khmx" mz="n11">装备副本获得</string>
+  <string name="zjhq3sc3khmx0-n11_khmx-texts_0" mz="n11">装备副本获得</string>
+  <string name="zjhq3sc3khmx0-n11_khmx-texts_1" mz="n11">英雄经验副本获得</string>
+  <string name="zjhq3sc3khmx0-n11_khmx-texts_2" mz="n11">金矿副本获得</string>
+  <string name="zjhq3sc3khmx0-n11_khmx-texts_def" mz="n11">运营活动获得</string>
+  <string name="zjhq3sc3khmx0-n14_khmx" mz="cntLb">({cur=0}/{total=5})</string>
+  <string name="zjhq3sc3khmx0-n16_89ax" mz="n16">今日已到购买上限</string>
+  <string name="zjhq3sc3khmx0-n19_r18s" mz="rebate">{value=600}%
+返利</string>
+  <!-- Chat/ChatView.xml -->
+  <string name="x1rxl2idr13r0-n3_r13r-0" mz="chatBtnList">世界</string>
+  <string name="x1rxl2idr13r0-n3_r13r-1" mz="chatBtnList">系统</string>
+  <string name="x1rxl2idr13r0-n18_kvsz-prompt" mz="ipt">请输入聊天内容</string>
+  <string name="x1rxl2idr13r0-n19_kvsz" mz="sendChatBtn">发送</string>
+  <string name="x1rxl2idr13r0-n22_kvsz" mz="n22">系统频道不能发言，请切换至其他频道。</string>
+  <!-- Chat/Component/ChatLeftItem.xml -->
+  <string name="x1rxl2idkvszk-n2_kvsz" mz="content">聊天内容啊聊天内容啊聊天内容</string>
+  <string name="x1rxl2idkvszk-n3_kvsz" mz="playerName">名字最长</string>
+  <!-- Chat/Component/ChatRightItem.xml -->
+  <string name="x1rxl2idkvszl-n2_kvsz" mz="content">聊天内容啊聊天内容啊聊天内容</string>
+  <string name="x1rxl2idkvszl-n3_kvsz" mz="playerName">名字3</string>
+  <!-- Chat/Component/ChatSysItem.xml -->
+  <string name="x1rxl2idkvszn-n2_kvsz" mz="content">聊天内容啊聊天内容啊聊天内容啊聊天内容啊聊天内容啊啊聊天内啊聊天内容啊啊聊天啊聊</string>
+  <string name="x1rxl2idkvszn-n3_kvsz" mz="playerName">系统</string>
+  <!-- Chat/Component/TabBtn.xml -->
+  <string name="x1rxl2idr13re-n7_f34j" mz="title">世界</string>
+  <!-- Common/Component/AttrUpItem.xml -->
+  <string name="0anhreylsyvcdxy8o-n1_syvc" mz="desc">攻击力增加</string>
+  <string name="0anhreylsyvcdxy8o-n2_syvc" mz="num">+{value=666}%</string>
+  <string name="0anhreylsyvcdxy8o-n3_syvc" mz="time">{value=20}分钟</string>
+  <!-- Common/Component/AttrUpItem2.xml -->
+  <string name="0anhreylsyvcdxy8q-n2_syvc" mz="desc">攻击力增</string>
+  <string name="0anhreylsyvcdxy8q-n4_syvc" mz="num">+{value=666}%</string>
+  <string name="0anhreylsyvcdxy8q-n5_pc71" mz="time">{value=20}</string>
+  <!-- Common/Component/Common/CurrencyAdd.xml -->
+  <string name="0anhreylf34jdxy9l-n5_f34j" mz="value">5566W</string>
+  <!-- Common/Component/Common/FrameMask_Tips.xml -->
+  <string name="0anhreylpmd7pq-n154_pmd7" mz="textTips">点击关闭页面</string>
+  <!-- Common/Component/Common/MessageBox.xml -->
+  <string name="0anhreylfgvo1t-n2_fgvo" mz="titleLb">系统提示</string>
+  <string name="0anhreylfgvo1t-n8_xihe" mz="okBtn">确认</string>
+  <string name="0anhreylfgvo1t-n9_xihe" mz="cancleBtn">取消</string>
+  <!-- Common/Component/Common/MessageTips.xml -->
+  <string name="0anhreyl9kp7dxy8s-n4_uq40" mz="n4">提示</string>
+  <string name="0anhreyl9kp7dxy8s-n6_uq40" mz="txtContent">继续游戏前，需要你阅读并同意[color=#deb555]&lt;a href='event:userTips'&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href='event:PrivacyTips'&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]
+</string>
+  <string name="0anhreyl9kp7dxy8s-n7_uq40" mz="RefusedBtn">拒绝</string>
+  <string name="0anhreyl9kp7dxy8s-n8_uq40" mz="agreeBtn">同意</string>
+  <!-- Common/Component/Common/NewCurrency.xml -->
+  <string name="0anhreyltdjudxyh8-n0_ucd4" mz="txtValue">99.99K</string>
+  <!-- Common/Component/Common/NpcTips.xml -->
+  <string name="0anhreylua62dxyhv-n9_ua62" mz="txt">重点是放假啦快速减肥重点是放假啦快速减肥重点是放假啦快速减肥重点是放假啦快速减肥</string>
+  <!-- Common/Component/ProgressBar/BossTime.xml -->
+  <string name="0anhreyliv53dxyha-n3_z3j5" mz="title">60秒</string>
+  <!-- Common/Component/Reward/GetBuffReward.xml -->
+  <string name="0anhreylsyvcdxy8p-n4_syvc" mz="n4">增益</string>
+  <string name="0anhreylsyvcdxy8p-n6_syvc" mz="n6">确认</string>
+  <!-- Common/Component/Reward/Reward1.xml -->
+  <string name="0anhreylk5xhdxyhu-n4_syvc" mz="n4">奖励</string>
+  <string name="0anhreylk5xhdxyhu-n8_syvc" mz="n8">领取</string>
+  <!-- Common/Component/Reward/Reward2.xml -->
+  <string name="0anhreylsyvcdxy8m-n3_syvc" mz="n3">奖励</string>
+  <string name="0anhreylsyvcdxy8m-n7_syvc" mz="n7">确认</string>
+  <!-- Common/Component/Reward/Reward3.xml -->
+  <string name="0anhreylsyvcdxy8n-n3_syvc" mz="n3">奖励</string>
+  <string name="0anhreylsyvcdxy8n-n7_syvc" mz="n7">确认</string>
+  <!-- Common/Component/Reward/Reward4.xml -->
+  <string name="0anhreylkqmidxy95-n4_syvc" mz="n4">奖励</string>
+  <string name="0anhreylkqmidxy95-n6_syvc" mz="n6">确认</string>
+  <!-- Common/Component/Reward/RewardItem.xml -->
+  <string name="0anhreyl9k6jdxyht-n3_9k6j" mz="name">道具名称</string>
+  <!-- Common/Component/Reward/SingleReward.xml -->
+  <string name="0anhreylsyvcdxy8j-n4_syvc" mz="Title">捕捉成功</string>
+  <string name="0anhreylsyvcdxy8j-n19_9k6j" mz="Desc">从下方选择一个奖励</string>
+  <string name="0anhreylsyvcdxy8j-n8_syvc" mz="btnTxt">确定</string>
+  <string name="0anhreylsyvcdxy8j-n20_9k6j" mz="time">倒计时：[color=#FCF78E]{value=90:9}[/color]</string>
+  <!-- Common/Component/Window/BossFightWindow.xml -->
+  <string name="0anhreylmrdwdxy20-n2_mrdw" mz="n2">对战BOSS立绘界面</string>
+  <!-- Common/Component/Window/BuyGoldItem.xml -->
+  <string name="0anhreyluq40dxy40-n5_qj2e" mz="n5">作用:</string>
+  <string name="0anhreyluq40dxy40-n6_qj2e" mz="desc">钻石转换金币数量1:10000</string>
+  <string name="0anhreyluq40dxy40-n7_qj2e" mz="purposeLb">通用货币</string>
+  <string name="0anhreyluq40dxy40-n11_qj2e" mz="useBtn">购买</string>
+  <string name="0anhreyluq40dxy40-n8_qj2e" mz="n8">花费：</string>
+  <string name="0anhreyluq40dxy40-n14_qj2e" mz="costLb">{value=100000}</string>
+  <string name="0anhreyluq40dxy40-n23_uq40" mz="n23">获得：</string>
+  <string name="0anhreyluq40dxy40-n25_uq40" mz="getLb">{value=10000000}</string>
+  <!-- Common/Component/Window/BuySpeedTicket.xml -->
+  <string name="0anhreyluq40dxy41-n5_qj2e" mz="n5">作用:</string>
+  <string name="0anhreyluq40dxy41-n6_qj2e" mz="desc">加速5分钟</string>
+  <string name="0anhreyluq40dxy41-n7_qj2e" mz="purposeLb">加速5分钟</string>
+  <string name="0anhreyluq40dxy41-n11_qj2e" mz="useBtn">购买</string>
+  <string name="0anhreyluq40dxy41-n8_qj2e" mz="n8">花费：</string>
+  <string name="0anhreyluq40dxy41-n14_qj2e" mz="costLb">{value=100000}</string>
+  <!-- Common/Component/Window/Component/FuncOpenItem.xml -->
+  <string name="0anhreylwpkodxy7e-n1_wpko" mz="funcName">功能名称</string>
+  <!-- Common/Component/Window/Component/noticeItem.xml -->
+  <string name="0anhreyl8824dxy3z-n0_8824" mz="title">公告标题</string>
+  <string name="0anhreyl8824dxy3z-n1_8824" mz="content">游戏公告啊个啊噶噶</string>
+  <!-- Common/Component/Window/GetPetReward.xml -->
+  <string name="0anhreyls503dxy2o-n8_i8ev" mz="closeBtn">确定</string>
+  <!-- Common/Component/Window/GetReward.xml -->
+  <string name="0anhreylx3dkdxy2d-n20_kqmi" mz="name">奖励</string>
+  <string name="0anhreylx3dkdxy2d-n23_ucd4" mz="closeBtn">确认</string>
+  <!-- Common/Component/Window/GuideTips.xml -->
+  <string name="0anhreyluq40dxy45-n1_uq40" mz="title">点击领取奖励</string>
+  <!-- Common/Component/Window/GuideTips2.xml -->
+  <string name="0anhreyluq40dxy4c-n1_uq40" mz="title">点击领取奖励</string>
+  <!-- Common/Component/Window/LoadingUI.xml -->
+  <string name="0anhreylgeqby7-n30_kwfm" mz="txtTips">Loading....</string>
+  <string name="0anhreylgeqby7-n38_ceq2" mz="n38">LOADING</string>
+  <!-- Common/Component/Window/Notice.xml -->
+  <string name="0anhreyl8824dxy3y-n2_8824" mz="closeBtn">确定</string>
+  <string name="0anhreyl8824dxy3y-n3_8824" mz="n3">游戏公告</string>
+  <!-- Common/Component/Window/PMWindow.xml -->
+  <string name="0anhreylot6fdxy2f-n2_ot6f" mz="n2">PM</string>
+  <string name="0anhreylot6fdxy2f-n5_ot6f-prompt" mz="pmIpt1">请输入等级</string>
+  <string name="0anhreylot6fdxy2f-n10_ot6f" mz="n10">增加角色等级(addlevel)</string>
+  <string name="0anhreylot6fdxy2f-n46_ot6f" mz="sendBtn1">确定</string>
+  <string name="0anhreylot6fdxy2f-n8_ot6f" mz="n8">快捷PM命令：</string>
+  <string name="0anhreylot6fdxy2f-n12_ot6f-prompt" mz="pmIpt2">请输入金币数额</string>
+  <string name="0anhreylot6fdxy2f-n13_ot6f" mz="n13">增加角色金币(addgold)</string>
+  <string name="0anhreylot6fdxy2f-n47_ot6f" mz="sendBtn2">确定</string>
+  <string name="0anhreylot6fdxy2f-n16_ot6f-prompt" mz="pmIpt3">请输入钻石数额</string>
+  <string name="0anhreylot6fdxy2f-n17_ot6f" mz="n17">增加角色钻石(adddiamond)</string>
+  <string name="0anhreylot6fdxy2f-n48_ot6f" mz="sendBtn3">确定</string>
+  <string name="0anhreylot6fdxy2f-n20_ot6f-prompt" mz="pmIpt4">请输入免费钻石数额</string>
+  <string name="0anhreylot6fdxy2f-n21_ot6f" mz="n21">增加角色免费钻石(addfdiamond)</string>
+  <string name="0anhreylot6fdxy2f-n49_ot6f" mz="sendBtn4">确定</string>
+  <string name="0anhreylot6fdxy2f-n24_ot6f-prompt" mz="pmIpt5">请输入宝箱等级</string>
+  <string name="0anhreylot6fdxy2f-n25_ot6f" mz="n25">增加宝箱等级(addboxlevel)</string>
+  <string name="0anhreylot6fdxy2f-n50_ot6f" mz="sendBtn5">确定</string>
+  <string name="0anhreylot6fdxy2f-n28_ot6f-prompt" mz="pmIpt6">请输入时间(秒)</string>
+  <string name="0anhreylot6fdxy2f-n29_ot6f" mz="n29">减少宝箱升级时间(subboxtime)</string>
+  <string name="0anhreylot6fdxy2f-n51_ot6f" mz="sendBtn6">确定</string>
+  <string name="0anhreylot6fdxy2f-n32_ot6f-prompt" mz="pmIpt7">请输入道具数额</string>
+  <string name="0anhreylot6fdxy2f-n33_ot6f" mz="n33">添加道具(additem)</string>
+  <string name="0anhreylot6fdxy2f-n52_ot6f" mz="sendBtn7">确定</string>
+  <string name="0anhreylot6fdxy2f-n37_ot6f" mz="n37">增加宠物(addpet)</string>
+  <string name="0anhreylot6fdxy2f-n53_ot6f" mz="sendBtn8">确定</string>
+  <string name="0anhreylot6fdxy2f-n78_rgwj-prompt" mz="pmIpt8">请输入道具数额</string>
+  <string name="0anhreylot6fdxy2f-n56_heen-prompt" mz="pmIptQ">请输入等级</string>
+  <string name="0anhreylot6fdxy2f-n57_heen" mz="n57">添加角色装备
+(addequip)</string>
+  <string name="0anhreylot6fdxy2f-n59_heen" mz="sendBtn10">确定</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-0" mz="itemQuality">普通</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-1" mz="itemQuality">优秀</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-2" mz="itemQuality">精良</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-3" mz="itemQuality">稀有</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-4" mz="itemQuality">卓越</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-5" mz="itemQuality">史诗</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-6" mz="itemQuality">传奇</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-7" mz="itemQuality">不朽</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-8" mz="itemQuality">超越</string>
+  <string name="0anhreylot6fdxy2f-n61_heen-9" mz="itemQuality">鎏金</string>
+  <string name="0anhreylot6fdxy2f-n62_ofko" mz="n62">增加技能(addskill)</string>
+  <string name="0anhreylot6fdxy2f-n64_ofko" mz="sendBtn11">确定</string>
+  <string name="0anhreylot6fdxy2f-n80_eau0-prompt" mz="pmIpt11">请输入数量</string>
+  <string name="0anhreylot6fdxy2f-n40_ot6f" mz="pmIpt">setevent 1001</string>
+  <string name="0anhreylot6fdxy2f-n40_ot6f-prompt" mz="pmIpt">请输入完整的PM命令</string>
+  <string name="0anhreylot6fdxy2f-n41_ot6f" mz="n41">PM命令</string>
+  <string name="0anhreylot6fdxy2f-n54_ot6f" mz="sendBtn9">确定</string>
+  <string name="0anhreylot6fdxy2f-n44_ot6f" mz="n44">输入PM命令：</string>
+  <string name="0anhreylot6fdxy2f-n73_cgun" mz="n73">添加英雄(addhero)</string>
+  <string name="0anhreylot6fdxy2f-n76_cgun" mz="sendBtn15">确定</string>
+  <string name="0anhreylot6fdxy2f-n67_uobv" mz="sendBtn12">每日重置</string>
+  <string name="0anhreylot6fdxy2f-n68_uobv" mz="sendBtn13">一键解锁功能</string>
+  <string name="0anhreylot6fdxy2f-n71_yrzg" mz="sendBtn14">下线</string>
+  <string name="0anhreylot6fdxy2f-n86_i8ev" mz="sendBtn16">战斗倍数X2</string>
+  <string name="0anhreylot6fdxy2f-n87_x6fp" mz="sendBtn17">关闭引导</string>
+  <string name="0anhreylot6fdxy2f-n88_jozz" mz="sendBtn18">跑的快</string>
+  <!-- Common/Component/Window/PetTipShowDetail.xml -->
+  <string name="0anhreylreczdxy2p-n9_recz" mz="n9">性别：</string>
+  <string name="0anhreylreczdxy2p-n11_recz" mz="n20">攻击系数：</string>
+  <string name="0anhreylreczdxy2p-n12_recz" mz="n12">属性：</string>
+  <string name="0anhreylreczdxy2p-n22_recz" mz="n21">攻速：</string>
+  <string name="0anhreylreczdxy2p-n23_recz" mz="n22">连击：</string>
+  <string name="0anhreylreczdxy2p-n24_recz" mz="n23">连击系数：</string>
+  <string name="0anhreylreczdxy2p-n25_recz" mz="n24">暴击：</string>
+  <string name="0anhreylreczdxy2p-n27_recz" mz="n26">爆伤：</string>
+  <string name="0anhreylreczdxy2p-n28_recz" mz="n27">穿透：</string>
+  <string name="0anhreylreczdxy2p-n37_recz" mz="n29">攻击：</string>
+  <string name="0anhreylreczdxy2p-n16_recz" mz="skillName">技能名称</string>
+  <string name="0anhreylreczdxy2p-n17_recz" mz="skillDesc">技能名称</string>
+  <string name="0anhreylreczdxy2p-n6_recz" mz="petName">胡雁归</string>
+  <!-- Common/Component/Window/PowerUp.xml -->
+  <string name="0anhreylisqldxy3g-n0_isql" mz="fightValLb">1.34不可思议</string>
+  <string name="0anhreylisqldxy3g-n1_isql" mz="addValue">+{value=99}</string>
+  <!-- Common/Component/Window/ReconnectWindow.xml -->
+  <string name="0anhreylb71r32-n0_tomp" mz="txt_title">断线重连中...</string>
+  <!-- Common/Component/Window/RoleTips.xml -->
+  <string name="0anhreyltcgldxy4r-n0_tcgl" mz="title">恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励恭喜完成任务，点击即可领取任务奖励</string>
+  <!-- Common/Component/Window/TipInfoShow.xml -->
+  <string name="0anhreylkv23dxy4f-n4_kv23" mz="titleLb">提示</string>
+  <!-- Common/Component/Window/UseSpeedItem.xml -->
+  <string name="0anhreylsc7hdxy3p-n5_qj2e" mz="n5">作用:</string>
+  <string name="0anhreylsc7hdxy3p-n7_qj2e" mz="purposeLb">加速5分钟</string>
+  <string name="0anhreylsc7hdxy3p-n11_qj2e" mz="useBtn">使用</string>
+  <string name="0anhreylsc7hdxy3p-n8_qj2e" mz="n8">可加速时间：</string>
+  <string name="0anhreylsc7hdxy3p-n14_qj2e" mz="timeLb">{value=100000}</string>
+  <!-- Common/Component/helpItem.xml -->
+  <string name="0anhreylplio1c-n7_hz5c" mz="content">购买60元礼包后，可每天登录领取每日特惠礼包</string>
+  <!-- Common/HelpPicture.xml -->
+  <string name="0anhreylil6l18-n4_il6l" mz="n4">帮助</string>
+  <!-- Common/PayLoading.xml -->
+  <string name="0anhreylqz32dxy4p-n0_dnrx" mz="loading">拉取广告</string>
+  <string name="0anhreylqz32dxy4p-n0_dnrx-texts_0" mz="loading">拉取广告</string>
+  <string name="0anhreylqz32dxy4p-n0_dnrx-texts_def" mz="loading">支付中</string>
+  <!-- Common/SCLoading.xml -->
+  <string name="0anhreyldnrxdxy4l-n0_dnrx" mz="loading">loading</string>
+  <!-- Common/StoryHome.xml -->
+  <string name="0anhreylmg7gdxy4q-n1_mg7g" mz="storyLb">        在天与地之间，光与影之外，存在着一个神秘的宫殿。它悬浮于云端，藏匿于时空的缝隙之中，被称为——云端书殿；传说，只有那些心怀求知欲和勇气的人才能找到它。书殿中，隐藏着无数古老文明的秘密和未来科技的奇迹。但这并不是简单的知识库，书殿还守护着改变世界的力量
+        你偶然发现了一本古老的书，书的封面发出微弱的光芒。好奇心驱使下，你翻开了它</string>
+  <string name="0anhreylmg7gdxy4q-n4_tcgl" mz="roleTips">欢迎来到啪嘟世界，在这里，每一个啪嘟都有着独特的力量和性格，它们正等待着你的指引。你必须与它们结伴，穿越各地，揭开隐藏在啪嘟世界背后的真相</string>
+  <!-- Common/help.xml -->
+  <string name="0anhreylplio1b-n10_hz5c" mz="n10">帮助</string>
+  <!-- CommonEx/Component/AttrItem.xml -->
+  <string name="5moj1x39fr3pdxyd1-n0_fr3p" mz="attrName">物理伤害</string>
+  <!-- CommonEx/Component/AttrTips.xml -->
+  <string name="5moj1x39fr3pdxyd0-n1_fr3p" mz="n1">属性详情</string>
+  <!-- CommonEx/Component/BarExp.xml -->
+  <string name="5moj1x39eb0tdxxzf-n4_rm2c" mz="maxLevel">已满级</string>
+  <!-- CommonEx/Component/BarExp2.xml -->
+  <string name="5moj1x39p9n0dxy7w-n7_tdju" mz="n7">已满级</string>
+  <!-- CommonEx/Component/BarHpComponent.xml -->
+  <string name="5moj1x39hargdxy3l-n5_harg" mz="HPText">HP:{value=10000}</string>
+  <string name="5moj1x39hargdxy3l-n7_iqva" mz="ATKText">ATK:{value=10000}  </string>
+  <!-- CommonEx/Component/BtnCom2.xml -->
+  <string name="5moj1x39hz5cdxy9b-n4_hz5c" mz="title">升级</string>
+  <!-- CommonEx/Component/BtnEquip.xml -->
+  <string name="5moj1x39pdpadxxz8-n6_ot6f" mz="lvLb">Lv.{value=7000}</string>
+  <!-- CommonEx/Component/BtnEquip2.xml -->
+  <string name="5moj1x39ef8udxycu-n6_ot6f" mz="lvLb">Lv.{value=7000}</string>
+  <!-- CommonEx/Component/Bubble.xml -->
+  <string name="5moj1x39sshpdxycv-n0_yd2h" mz="talkDes">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</string>
+  <!-- CommonEx/Component/CloseBtn2.xml -->
+  <string name="5moj1x39k627dxy69-n1_k627" mz="n1">关闭</string>
+  <!-- CommonEx/Component/ComEquipItem.xml -->
+  <string name="5moj1x39skp6p-n142_skp6" mz="txtLv">Lv.{value=7}</string>
+  <!-- CommonEx/Component/CommonAttrItem.xml -->
+  <string name="5moj1x39k627dxy6a-n3_w61t" mz="pContent">地系伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_0" mz="pContent">物理伤害：{value=20}</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_1" mz="pContent">魔法伤害：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_2" mz="pContent">道术伤害：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_3" mz="pContent">生命值：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_4" mz="pContent">物理防御：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_5" mz="pContent">魔法防御：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_6" mz="pContent">道术防御：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_7" mz="pContent">生命恢复：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_8" mz="pContent">宠物伤害：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_9" mz="pContent">物伤加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_10" mz="pContent">魔伤加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_11" mz="pContent">道伤加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_12" mz="pContent">生命加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_13" mz="pContent">物防加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_14" mz="pContent">魔防加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_15" mz="pContent">道防加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_16" mz="pContent">地系伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_17" mz="pContent">水系伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_18" mz="pContent">火系伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_19" mz="pContent">风系伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_20" mz="pContent">宠物伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_21" mz="pContent">生命倍率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_22" mz="pContent">伤害倍率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_23" mz="pContent">闪避率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_24" mz="pContent">命中率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_25" mz="pContent">格挡率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_26" mz="pContent">格挡值：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_27" mz="pContent">无视防御：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_28" mz="pContent">暴击：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_29" mz="pContent">爆伤：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_30" mz="pContent">Boss伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_31" mz="pContent">小怪伤害加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_32" mz="pContent">减伤：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_33" mz="pContent">吸血：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_34" mz="pContent">攻击回复：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_35" mz="pContent">技能伤害：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_36" mz="pContent">技能次数加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_37" mz="pContent">技能次数：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_38" mz="pContent">金币加成：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_39" mz="pContent">技能冷却：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_40" mz="pContent">攻速：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_41" mz="pContent">连击：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_42" mz="pContent">反击：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_43" mz="pContent">稀有传承概率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_44" mz="pContent">传承掉落概率：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_45" mz="pContent">关卡挂机奖励次数：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_46" mz="pContent">家园挂机时间上限：[color=#25972d]{value=20}[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_47" mz="pContent">最终伤害：[color=#25972d]{value=20}%[/color]</string>
+  <string name="5moj1x39k627dxy6a-n3_w61t-texts_48" mz="pContent">击杀回复：[color=#25972d]{value=20}%[/color]</string>
+  <!-- CommonEx/Component/CommonAttrTips.xml -->
+  <string name="5moj1x39i18ndxy7t-n3_w61t" mz="pContentDesc">增加30%连击a增加30%连击a增加30%连击a增加30%连击000000000</string>
+  <!-- CommonEx/Component/CommonCopyBossTxTips.xml -->
+  <string name="5moj1x39llb1dxye5-n3_w61t" mz="pContentDesc">增加30%连击a增加30%连击a增加30%连击a增加30%连击000000000</string>
+  <!-- CommonEx/Component/CommonHeroLevelAttrTips.xml -->
+  <string name="5moj1x39ozj9dxy5f-n6_llb1" mz="n6">详情</string>
+  <string name="5moj1x39ozj9dxy5f-n3_w61t" mz="pContent">{name=物理伤害}+{value=20}</string>
+  <string name="5moj1x39ozj9dxy5f-n4_ozj9" mz="n2">适用于所有角色</string>
+  <string name="5moj1x39ozj9dxy5f-n5_ozj9" mz="lockLb">解锁条件:[color=#fde38f]达到{lv=100}级[/color]</string>
+  <!-- CommonEx/Component/CommonItemTips.xml -->
+  <string name="5moj1x39w61tdxy38-n7_llb1" mz="n7">详情</string>
+  <string name="5moj1x39w61tdxy38-n2_w61t" mz="pName">蓝色+1</string>
+  <string name="5moj1x39w61tdxy38-n3_w61t" mz="pContent">增加30%连击</string>
+  <string name="5moj1x39w61tdxy38-n6_kn0f" mz="pLv">等级：Lv.{value=1}</string>
+  <!-- CommonEx/Component/CommonPetTips.xml -->
+  <string name="5moj1x39gybrdxy3m-n3_w61t" mz="pContent">打开宠物预览界面，不关闭当前界面，推出预览后需返回显示打开预览前的样子</string>
+  <string name="5moj1x39gybrdxy3m-n5_gybr" mz="detailBtn">详情</string>
+  <!-- CommonEx/Component/CommonSkillTips.xml -->
+  <string name="5moj1x39kn0fdxy3r-n3_w61t" mz="pContent">增加30%连击</string>
+  <!-- CommonEx/Component/DailyRwReissue.xml -->
+  <string name="5moj1x39ldokdxy6v-n3_ldok" mz="n3">日常任务奖励补发</string>
+  <string name="5moj1x39ldokdxy6v-n4_ldok" mz="desc">各位冒险家：
+	   你上次的日常任务奖励忘记领取了。现已通过邮件发送，请查收。</string>
+  <string name="5moj1x39ldokdxy6v-n6_ldok" mz="n6">获得奖励</string>
+  <string name="5moj1x39ldokdxy6v-n13_ldok" mz="timeLb">{value=30}天后过期</string>
+  <string name="5moj1x39ldokdxy6v-n12_ldok" mz="getBtn">领取</string>
+  <!-- CommonEx/Component/EmptyAdBtn2.xml -->
+  <string name="5moj1x39ju03dxy59-n4_ju03" mz="adCntLb">({cur=2}/{total=2})</string>
+  <!-- CommonEx/Component/EmptyDimandBtn.xml -->
+  <string name="5moj1x39qonndxy4r-n4_eh4f" mz="title">购买</string>
+  <!-- CommonEx/Component/EmptyRMB.xml -->
+  <string name="5moj1x39cy7ndxy3a-n2_cy7n" mz="moneyLb1">{value=9} 元</string>
+  <string name="5moj1x39cy7ndxy3a-n4_ju03" mz="moneyLb2">$ {value=9}</string>
+  <!-- CommonEx/Component/HitCom.xml -->
+  <string name="5moj1x39l8pndxy7r-n1_l8pn" mz="n1">提示</string>
+  <string name="5moj1x39l8pndxy7r-n2_l8pn" mz="desc">文案文案文案文案文案文案</string>
+  <string name="5moj1x39l8pndxy7r-n6_l8pn" mz="n6">是</string>
+  <string name="5moj1x39l8pndxy7r-n5_l8pn" mz="n5">否</string>
+  <!-- CommonEx/Component/PetBar.xml -->
+  <string name="5moj1x39ucd4dxycm-n6_ucd4" mz="maxLevel">已满级</string>
+  <!-- CommonEx/Component/PetItem.xml -->
+  <string name="5moj1x39jp5j1-n3_jp5j" mz="lvLb">{value=5}级</string>
+  <string name="5moj1x39jp5j1-n6_jp5j" mz="idLb">ID:{value=4}</string>
+  <string name="5moj1x39jp5j1-n17_ddc1" mz="petName">小猪灵</string>
+  <!-- CommonEx/Component/PetItemEx.xml -->
+  <string name="5moj1x39iqvadxy67-n157_f34j" mz="n157">已装备</string>
+  <!-- CommonEx/Component/RoleItem.xml -->
+  <string name="5moj1x39ozj9dxy5d-n3_jp5j" mz="lvLb">Lv.{value=5}</string>
+  <string name="5moj1x39ozj9dxy5d-n6_jp5j" mz="idLb">ID:{value=4}</string>
+  <string name="5moj1x39ozj9dxy5d-n17_ddc1" mz="roleName">小猪灵</string>
+  <string name="5moj1x39ozj9dxy5d-n20_ozj9" mz="needItem">{cur=10}/{need=10}</string>
+  <string name="5moj1x39ozj9dxy5d-n26_p9n0" mz="n26">已上阵</string>
+  <string name="5moj1x39ozj9dxy5d-n29_p9n0" mz="n29">未拥有</string>
+  <!-- CommonEx/Component/TabBtn.xml -->
+  <string name="5moj1x39p4bnc-n1_p4bn" mz="title">属性</string>
+  <!-- CommonEx/Component/TabCom.xml -->
+  <string name="5moj1x39kqmidxy8g-n2_kqmi" mz="num1">5555.00万</string>
+  <string name="5moj1x39kqmidxy8g-n3_kqmi" mz="num2">{value=5555}/{cost=11}</string>
+  <!-- CommonEx/Component/Tips.xml -->
+  <string name="5moj1x39p9n0dxy8a-n2_p9n0" mz="name">生命恢复</string>
+  <string name="5moj1x39p9n0dxy8a-n1_p9n0" mz="num">+{value=11000}</string>
+  <!-- CommonEx/Component/UpLvBuildConditItem.xml -->
+  <string name="5moj1x39pchvdxy4d-n6_pchv" mz="indexLb">{value=1}.</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv" mz="title">宠物小屋等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_0" mz="title">宠物小屋等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_1" mz="title">伐木场等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_2" mz="title">精炼厂等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_3" mz="title">仓库等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_4" mz="title">玩具工厂等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_5" mz="title">粮食工坊等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_6" mz="title">护理中心等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_7" mz="title">加工厂等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_8" mz="title">探索营地等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_9" mz="title">窝棚等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_10" mz="title">训练场等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_11" mz="title">木头矿区等级达到</string>
+  <string name="5moj1x39pchvdxy4d-n0_pchv-texts_12" mz="title">石头矿区等级达到</string>
+  <!-- CommonEx/Component/VillagePetTalk.xml -->
+  <string name="5moj1x39yd2hdxy4e-n0_yd2h" mz="talkDes">哈哈哈哈</string>
+  <!-- CommonEx/Component/comBtn.xml -->
+  <string name="5moj1x39p9n0dxy87-n4_p9n0" mz="title">强化</string>
+  <string name="5moj1x39p9n0dxy87-n4_p9n0-texts_0" mz="title">强化</string>
+  <string name="5moj1x39p9n0dxy87-n4_p9n0-texts_def" mz="title">已满级</string>
+  <!-- CommonEx/Component/fightCom.xml -->
+  <string name="5moj1x39qj2edxy4i-n2_v534" mz="title">234.5京</string>
+  <!-- CommonEx/Component/petQualityItem.xml -->
+  <string name="5moj1x39k627dxy68-n1_ozj9" mz="n1">不朽</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_0" mz="n1">普通</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_1" mz="n1">良好</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_2" mz="n1">稀有</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_3" mz="n1">史诗</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_4" mz="n1">传说</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_5" mz="n1">神话</string>
+  <string name="5moj1x39k627dxy68-n1_ozj9-texts_def" mz="n1">不朽</string>
+  <!-- CommonEx/Component/qualityLabel.xml -->
+  <string name="5moj1x39kn0fdxy3p-n0_kn0f" mz="title">蓝色+1</string>
+  <!-- CommonEx/Component/roleQualityItem.xml -->
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9" mz="n1">普通</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_0" mz="n1">普通</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_1" mz="n1">良好</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_2" mz="n1">稀有</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_3" mz="n1">史诗</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_4" mz="n1">传说</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_5" mz="n1">神话</string>
+  <string name="5moj1x39ozj9dxy5e-n1_ozj9-texts_def" mz="n1">不朽</string>
+  <!-- DailyTask/Component/DailyTaskItem.xml -->
+  <string name="fdbg11jxsc7hf-n5_sc7h" mz="desc">升级宠物一次</string>
+  <string name="fdbg11jxsc7hf-n15_e6rv" mz="n15">完成</string>
+  <string name="fdbg11jxsc7hf-n21_f34j" mz="rewardBtn">领取奖励</string>
+  <string name="fdbg11jxsc7hf-n21_f34j-texts_0" mz="rewardBtn">已领取</string>
+  <string name="fdbg11jxsc7hf-n21_f34j-texts_def" mz="rewardBtn">领取奖励</string>
+  <string name="fdbg11jxsc7hf-n19_f34j" mz="n19">已领取</string>
+  <!-- DailyTask/DailyTask.xml -->
+  <string name="fdbg11jxsc7ha-n1_sc7h" mz="n1">日常任务</string>
+  <string name="fdbg11jxsc7ha-n8_sc7h" mz="timeLb">{value=00:00:00}</string>
+  <!-- DungeonMap/Component/DungeonItem.xml -->
+  <string name="57yc4rb0b0e435-n4_tw1c" mz="itemCntLb">[color=#ff0000]{cur=200}[/color]/{total=2}</string>
+  <string name="57yc4rb0b0e435-n4_tw1c-texts_0" mz="itemCntLb">[color=#ff0000]{cur=200}[/color]/{total=2}</string>
+  <string name="57yc4rb0b0e435-n4_tw1c-texts_def" mz="itemCntLb">{cur=2}/{total=2}</string>
+  <string name="57yc4rb0b0e435-n6_tw1c" mz="title">穿越深渊之门</string>
+  <string name="57yc4rb0b0e435-n9_tw1c" mz="gotoBtn">入场</string>
+  <string name="57yc4rb0b0e435-n21_pu20" mz="adBtn">挑战券x1</string>
+  <string name="57yc4rb0b0e435-n13_h4wb" mz="lockDesc">达到多少解锁</string>
+  <!-- DungeonMap/Component/RunAwayBtn.xml -->
+  <string name="57yc4rb0pbu03f-n2_pbu0" mz="title">逃跑</string>
+  <!-- DungeonMap/DungeonFailed.xml -->
+  <string name="57yc4rb0tw1c39-n5_tw1c" mz="itemCntLb">{cur=2}/{total=2}</string>
+  <string name="57yc4rb0tw1c39-n7_tw1c" mz="againBtn">再次挑战</string>
+  <!-- DungeonMap/DungeonStage.xml -->
+  <string name="57yc4rb0b0e431-n4_b0e4" mz="n4">副本</string>
+  <string name="57yc4rb0b0e431-n24_llb1" mz="tiemdesc">时间</string>
+  <string name="57yc4rb0b0e431-n9_b0e4" mz="timeLeft">{value=12:00:00}</string>
+  <!-- DungeonMap/DungeonStageDetail.xml -->
+  <string name="57yc4rb0pbu03d-n5_pbu0" mz="stageName">突袭的神灯小偷</string>
+  <string name="57yc4rb0pbu03d-n19_pbu0" mz="n19">最高记录:</string>
+  <string name="57yc4rb0pbu03d-n18_pbu0" mz="stageIdLb">LV.{value=10}</string>
+  <string name="57yc4rb0pbu03d-n40_llb1" mz="n40">通关奖励</string>
+  <string name="57yc4rb0pbu03d-n23_pbu0" mz="itemCntLb">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string name="57yc4rb0pbu03d-n23_pbu0-texts_0" mz="itemCntLb">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string name="57yc4rb0pbu03d-n23_pbu0-texts_def" mz="itemCntLb">{cur=2}/{total=2}</string>
+  <string name="57yc4rb0pbu03d-n26_pbu0" mz="gotoBtn">入场</string>
+  <string name="57yc4rb0pbu03d-n27_pbu0" mz="sweepBtn">扫荡</string>
+  <string name="57yc4rb0pbu03d-n27_pbu0-texts_0" mz="sweepBtn">扫荡上一关卡</string>
+  <string name="57yc4rb0pbu03d-n27_pbu0-texts_def" mz="sweepBtn">扫荡</string>
+  <string name="57yc4rb0pbu03d-n32_ju03" mz="adBtn">挑战券x1</string>
+  <!-- DungeonMap/GetDungeonReward.xml -->
+  <string name="57yc4rb0tw1c36-n5_x3dk" mz="n5">恭喜获得</string>
+  <string name="57yc4rb0tw1c36-n14_tw1c" mz="sweepBtn">扫荡当前关卡</string>
+  <string name="57yc4rb0tw1c36-n15_tw1c" mz="nextStageBtn">下一关</string>
+  <string name="57yc4rb0tw1c36-n13_tw1c" mz="itemCntLb">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string name="57yc4rb0tw1c36-n13_tw1c-texts_0" mz="itemCntLb">{cur=2}/{total=2}</string>
+  <string name="57yc4rb0tw1c36-n13_tw1c-texts_def" mz="itemCntLb">[color=#ff0000]{cur=2}[/color]/{total=2}</string>
+  <string name="57yc4rb0tw1c36-n23_pu20" mz="adBtn">挑战券x1</string>
+  <!-- DungeonMap/UI/Panel.xml -->
+  <string name="57yc4rb0gwxt1-n138_pbu0" mz="txtBattleContent">as法大大阿萨大大阿萨大大\n阿萨</string>
+  <string name="57yc4rb0gwxt1-n135_pbu0" mz="n135">正在挑战</string>
+  <string name="57yc4rb0gwxt1-n132_gwxt" mz="runBtn">逃跑</string>
+  <string name="57yc4rb0gwxt1-n139_pbu0" mz="txtDesc">逃跑不扣除副本券，但不获得副本奖励</string>
+  <!-- EngineLauncherRes/Component/Announcement.xml -->
+  <string name="n8v1s7mdkgyu18-n16_doww" mz="n16">抵制不良游戏  拒绝盗版游戏  注意自我保护  谨防受骗上当
+适度游戏益脑  沉迷游戏伤身  合理安排时间  享受健康生活</string>
+  <!-- EngineLauncherRes/Component/MaintainWindow.xml -->
+  <string name="n8v1s7mdrqy84-n10_porm" mz="btnOk">确定</string>
+  <!-- EngineLauncherRes/Component/TapSDKContent.xml -->
+  <string name="n8v1s7mdn89627-n36_n896" mz="btnCancel">拒绝</string>
+  <string name="n8v1s7mdn89627-n37_n896" mz="btnOk">同意</string>
+  <!-- EngineLauncherRes/Component/TipWindow.xml -->
+  <string name="n8v1s7mdostte-n9_xihe" mz="btnCancel">取消</string>
+  <string name="n8v1s7mdostte-n13_q4dy" mz="btnOk">确认</string>
+  <!-- EngineLauncherRes/Component/loading.xml -->
+  <string name="n8v1s7mdo49e1u-n4_ppuk" mz="msg">加载中</string>
+  <!-- Equip/ArtifactEquip.xml -->
+  <string name="ddc23erlef8udxyax-n28_ef8u" mz="tab0">盾牌</string>
+  <string name="ddc23erlef8udxyax-n29_ef8u" mz="tab1">勋章</string>
+  <string name="ddc23erlef8udxyax-n30_ef8u" mz="tab2">符石</string>
+  <string name="ddc23erlef8udxyax-n31_ef8u" mz="tab3">职印</string>
+  <string name="ddc23erlef8udxyax-n1_ef8u" mz="n1">神器详情</string>
+  <string name="ddc23erlef8udxyax-n6_ef8u" mz="name">神器名称</string>
+  <string name="ddc23erlef8udxyax-n7_ef8u" mz="desc">物品描述</string>
+  <string name="ddc23erlef8udxyax-n11_ef8u" mz="n11">升级预览</string>
+  <string name="ddc23erlef8udxyax-n12_ef8u" mz="curLv">{curLv=19}级</string>
+  <string name="ddc23erlef8udxyax-n13_ef8u" mz="nextLv">{next=20}级</string>
+  <string name="ddc23erlef8udxyax-n17_ef8u" mz="maxLv">{max=33}级</string>
+  <string name="ddc23erlef8udxyax-n24_ef8u" mz="upLvBtn">升级</string>
+  <string name="ddc23erlef8udxyax-n24_ef8u-texts_0" mz="upLvBtn">已满级</string>
+  <string name="ddc23erlef8udxyax-n24_ef8u-texts_def" mz="upLvBtn">升级</string>
+  <!-- Equip/Component/ArtifactAttrItem.xml -->
+  <string name="ddc23erlef8udxyb4-n0_kqmi" mz="curAttr">{name=攻击力} + {value=100}</string>
+  <string name="ddc23erlef8udxyb4-n1_kqmi" mz="nextAttr">+ {value=1001}</string>
+  <!-- Equip/Component/ArtifactAttrItem2.xml -->
+  <string name="ddc23erlef8udxyb6-n1_kqmi" mz="name">攻击力</string>
+  <string name="ddc23erlef8udxyb6-n0_kqmi" mz="num">+ {value=100333}</string>
+  <!-- Equip/Component/ArtifactItem1.xml -->
+  <string name="ddc23erlef8udxybc-n6_ef8u" mz="lvLb">Lv.{value=700}</string>
+  <!-- Equip/Component/ArtifactSelectBtn.xml -->
+  <string name="ddc23erlef8udxybb-n4_kqmi" mz="title">神器</string>
+  <!-- Equip/Component/Check.xml -->
+  <string name="ddc23erlp4bn1e-n1_p4bn" mz="n1">替换后自动出售原装备</string>
+  <!-- Equip/Component/ComAttributeItem2.xml -->
+  <string name="ddc23erlucd4dxy9u-n0_ucd4" mz="txtAttrName">物理攻击</string>
+  <string name="ddc23erlucd4dxy9u-n1_ucd4" mz="txtAttrValue">100.50K</string>
+  <!-- Equip/Component/ComEntryAttributeItem2.xml -->
+  <string name="ddc23erlucd4dxy9v-n0_ucd4" mz="txtAttrName">生命恢复</string>
+  <!-- Equip/Component/EquipCurrency.xml -->
+  <string name="ddc23erlef8udxyau-n0_ucd4" mz="txtValue">99.99K</string>
+  <!-- Equip/Component/EquipTabBtn.xml -->
+  <string name="ddc23erlef8udxy9z-n1_p4bn" mz="title">属性</string>
+  <!-- Equip/Component/InheritReItem.xml -->
+  <string name="ddc23erlkqmidxy93-n2_kqmi" mz="desc">回收普通品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_0" mz="desc">回收普通品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_1" mz="desc">回收稀有品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_2" mz="desc">回收史诗品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_3" mz="desc">回收传奇品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_4" mz="desc">回收神话品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_5" mz="desc">回收不朽品质</string>
+  <string name="ddc23erlkqmidxy93-n2_kqmi-texts_def" mz="desc">回收良好品质</string>
+  <string name="ddc23erlkqmidxy93-n5_kqmi" mz="num">{value=1000}件</string>
+  <!-- Equip/Component/LoreEquipItem.xml -->
+  <string name="ddc23erlef8udxyaw-n6_ef8u" mz="lvLb">LV.{value=666}</string>
+  <!-- Equip/Component/MakeEquipBtn.xml -->
+  <string name="ddc23erlef8udxyat-n4_ef8u" mz="num">×{value=1}</string>
+  <!-- Equip/Component/UpLvBtn.xml -->
+  <string name="ddc23erlef8udxyas-n4_ef8u" mz="title">矿镐升级</string>
+  <string name="ddc23erlef8udxyas-n5_ef8u" mz="lvLb">LV.{value=15}</string>
+  <!-- Equip/EquipSystem.xml -->
+  <string name="ddc23erlef8udxy9y-n1_ef8u-0" mz="tabList">装备</string>
+  <string name="ddc23erlef8udxy9y-n1_ef8u-1" mz="tabList">传承装备</string>
+  <string name="ddc23erlef8udxy9y-n1_ef8u-2" mz="tabList">神器</string>
+  <!-- Equip/EquipSystemEquip.xml -->
+  <string name="ddc23erlef8udxyar-n5_ef8u" mz="n5">装备列表</string>
+  <!-- Equip/InheritRecycle.xml -->
+  <string name="ddc23erlkqmidxy8s-n2_kqmi" mz="n2">回收</string>
+  <string name="ddc23erlkqmidxy8s-n7_kqmi" mz="n7">回收</string>
+  <string name="ddc23erlkqmidxy8s-n15_ucd4" mz="recycleBtn">一键回收</string>
+  <!-- Equip/LoreEquip.xml -->
+  <string name="ddc23erlef8udxyav-n1_ef8u" mz="n1">传承装备列表</string>
+  <string name="ddc23erlef8udxyav-n11_ef8u" mz="recycleBtn">一键回收</string>
+  <!-- Equip/UI/NewEquipObtain.xml -->
+  <string name="ddc23erlhdtee-n245_ucd4" mz="name3">装备的名称</string>
+  <string name="ddc23erlhdtee-n246_ucd4" mz="equipLv3">LV.{value=1}</string>
+  <string name="ddc23erlhdtee-n248_ucd4" mz="n248">战力</string>
+  <string name="ddc23erlhdtee-n226_ucd4" mz="name4">新装备的名称</string>
+  <string name="ddc23erlhdtee-n227_ucd4" mz="equipLv4">LV.{value=16}</string>
+  <string name="ddc23erlhdtee-n223_ucd4" mz="n223">战力</string>
+  <string name="ddc23erlhdtee-n235_ucd4" mz="resolveBtn4">出售</string>
+  <string name="ddc23erlhdtee-n236_ucd4" mz="repalceBtn4">替换</string>
+  <string name="ddc23erlhdtee-n238_ucd4" mz="recycleBtn4">回收</string>
+  <string name="ddc23erlhdtee-n239_ucd4" mz="replaceBtn5">替换</string>
+  <!-- Equip/UI/NewEquipRecommend.xml -->
+  <string name="ddc23erlskp6q-n178_ucd4" mz="txtEquipItem">新装备的名称</string>
+  <string name="ddc23erlskp6q-n179_ucd4" mz="equipLv">LV.{value=16}</string>
+  <string name="ddc23erlskp6q-n181_ucd4" mz="n181">战力</string>
+  <string name="ddc23erlskp6q-n187_ucd4" mz="btnEquip2">装备</string>
+  <string name="ddc23erlskp6q-n188_ucd4" mz="recycleBtn2">回收</string>
+  <string name="ddc23erlskp6q-n189_ucd4" mz="upLoadBtn2">装备</string>
+  <string name="ddc23erlskp6q-n190_ucd4" mz="downBtn2">卸下</string>
+  <!-- Equip/UI/NewInheritObtain.xml -->
+  <string name="ddc23erlkqmidxy9b-n4_kqmi" mz="n4">当前装备</string>
+  <string name="ddc23erlkqmidxy9b-n4_kqmi-texts_0" mz="n4">新装备</string>
+  <string name="ddc23erlkqmidxy9b-n4_kqmi-texts_def" mz="n4">当前装备</string>
+  <string name="ddc23erlkqmidxy9b-n12_kqmi" mz="fightLb1">6.24M</string>
+  <string name="ddc23erlkqmidxy9b-n16_kqmi" mz="name">这是神器名称</string>
+  <string name="ddc23erlkqmidxy9b-n8_kqmi" mz="n8">新准备</string>
+  <string name="ddc23erlkqmidxy9b-n8_kqmi-texts_0" mz="n8">当前准备</string>
+  <string name="ddc23erlkqmidxy9b-n8_kqmi-texts_def" mz="n8">新准备</string>
+  <string name="ddc23erlkqmidxy9b-n25_kqmi" mz="fightLb2">6.24M</string>
+  <string name="ddc23erlkqmidxy9b-n27_kqmi" mz="name2">这是神器名称</string>
+  <string name="ddc23erlkqmidxy9b-n29_kqmi" mz="recycleBtn">回收</string>
+  <string name="ddc23erlkqmidxy9b-n30_kqmi" mz="replaceBtn">替换</string>
+  <!-- Equip/UI/NewInheritRecommend.xml -->
+  <string name="ddc23erlkqmidxy9c-n3_kqmi" mz="n3">当前装备</string>
+  <string name="ddc23erlkqmidxy9c-n8_kqmi" mz="fightLb">6.24M</string>
+  <string name="ddc23erlkqmidxy9c-n15_kqmi" mz="name">这是神器名称</string>
+  <string name="ddc23erlkqmidxy9c-n11_kqmi" mz="recycleBtn">回收</string>
+  <string name="ddc23erlkqmidxy9c-n12_kqmi" mz="downBtn">卸下</string>
+  <string name="ddc23erlkqmidxy9c-n18_kqmi" mz="upLoadBtn">装备</string>
+  <!-- Equip/UI/PopupEquipAttribute.xml -->
+  <string name="ddc23erlqbcg15-n172_kqmi" mz="name">装备的名称</string>
+  <string name="ddc23erlqbcg15-n180_ucd4" mz="equipLv">LV.{value=15}</string>
+  <string name="ddc23erlqbcg15-n169_kqmi" mz="fightLb2">6.24M</string>
+  <string name="ddc23erlqbcg15-n165_kqmi" mz="n165">当前装备</string>
+  <!-- FightLoseAndWin/Component/FailItem.xml -->
+  <string name="h7b921iwvcwq4-n2_vcwq" mz="descLb">翻开神书，获取更强大的</string>
+  <string name="h7b921iwvcwq4-n5_uf4w" mz="n5">推荐</string>
+  <!-- FightLoseAndWin/FightLoseWindow.xml -->
+  <string name="h7b921iwq38ddxy23-n15_ucd4" mz="n15">通过以下方式让自己变强</string>
+  <!-- FightLoseAndWin/FightWinWindow.xml -->
+  <string name="h7b921iwj3d5dxy2a-n5_llb1" mz="desc">是否前往下一关</string>
+  <string name="h7b921iwj3d5dxy2a-n4_llb1" mz="nextStageBtn">下一关</string>
+  <string name="h7b921iwj3d5dxy2a-n7_llb1" mz="timeLb">点击关闭页面({value=24}s)</string>
+  <!-- FirstPay/Component/FirstPayBtn.xml -->
+  <string name="ksm9s29pez2lh-n5_ez2l" mz="money">{value=6}元</string>
+  <string name="ksm9s29pez2lh-n6_8822" mz="money2">$ {value=6}</string>
+  <!-- FirstPay/FirstPayMain.xml -->
+  <string name="ksm9s29pez2lg-n55_xezf" mz="n55">新手礼包</string>
+  <string name="ksm9s29pez2lg-n14_ez2l" mz="day1">第一天</string>
+  <string name="ksm9s29pez2lg-n17_ez2l" mz="day2">第二天</string>
+  <string name="ksm9s29pez2lg-n20_ez2l" mz="day3">第三天</string>
+  <string name="ksm9s29pez2lg-n49_ez2l" mz="getFPRewardBtn">领取</string>
+  <string name="ksm9s29pez2lg-n49_ez2l-texts_0" mz="getFPRewardBtn">明日领取</string>
+  <string name="ksm9s29pez2lg-n49_ez2l-texts_def" mz="getFPRewardBtn">领取</string>
+  <!-- FunctionPreview/Component/FuncOpenItem.xml -->
+  <string name="tekh4dt9v51s5-n2_v51s" mz="funcName">功能名称</string>
+  <!-- FunctionPreview/FuncPreview.xml -->
+  <string name="tekh4dt9v51s0-n5_v51s" mz="n5">功能开启</string>
+  <!-- Lobby/AllHeroAttrPanel.xml -->
+  <string name="s7x7ku0nlir3dxy38-n210_a2kw" mz="n210">属性详情</string>
+  <string name="s7x7ku0nlir3dxy38-n211_a2kw" mz="n211">基础属性</string>
+  <string name="s7x7ku0nlir3dxy38-n214_a2kw" mz="n214">高级属性</string>
+  <!-- Lobby/Component/AttrItem.xml -->
+  <string name="s7x7ku0nax20dxy8q-n1_ax20" mz="num">+{value=6666}</string>
+  <string name="s7x7ku0nax20dxy8q-n1_ax20-texts_0" mz="num">+{value=11}%</string>
+  <string name="s7x7ku0nax20dxy8q-n1_ax20-texts_def" mz="num">+{value=6666}</string>
+  <string name="s7x7ku0nax20dxy8q-n3_ax20" mz="n3">满级激活</string>
+  <!-- Lobby/Component/AttrItem1.xml -->
+  <string name="s7x7ku0nax20dxy89-n1_e4bb" mz="num">+{value=12345}</string>
+  <!-- Lobby/Component/AttrItem2.xml -->
+  <string name="s7x7ku0nax20dxy8o-n1_ax20" mz="num">+{value=11}</string>
+  <string name="s7x7ku0nax20dxy8o-n2_ax20" mz="n2">满级激活</string>
+  <!-- Lobby/Component/BtnBottom.xml -->
+  <string name="s7x7ku0ndd3xdxxym-n5_kv23" mz="title">角色</string>
+  <!-- Lobby/Component/BtnBuff.xml -->
+  <string name="s7x7ku0na2kwdxyas-n3_uzka" mz="txtValue">+{value=666}%</string>
+  <!-- Lobby/Component/BtnChat.xml -->
+  <string name="s7x7ku0nrx0xo8b-n3_f34j" mz="n3">世界</string>
+  <!-- Lobby/Component/BtnFucntionIcon.xml -->
+  <string name="s7x7ku0nlx83dxxyq-n1_recz" mz="title">功能预告</string>
+  <!-- Lobby/Component/BtnIconSkillBig.xml -->
+  <string name="s7x7ku0nhqycdxy11-n2_u84q" mz="n2">自动
+  开</string>
+  <string name="s7x7ku0nhqycdxy11-n3_u84q" mz="n3">自动
+  关</string>
+  <!-- Lobby/Component/BtnToppedAni.xml -->
+  <string name="s7x7ku0nllb1dxycr-n0_llb1" mz="btnTopped">突破</string>
+  <!-- Lobby/Component/ClassicInfo.xml -->
+  <string name="s7x7ku0nmtmsdxycn-n1_mtms" mz="classicName">秘典名字</string>
+  <string name="s7x7ku0nmtmsdxycn-n7_mtms" mz="n7">满级加成</string>
+  <string name="s7x7ku0nmtmsdxycn-n7_mtms-texts_0" mz="n7">已激活</string>
+  <string name="s7x7ku0nmtmsdxycn-n7_mtms-texts_def" mz="n7">满级加成</string>
+  <string name="s7x7ku0nmtmsdxycn-n11_fr3p" mz="n11">满级解锁额外加成</string>
+  <!-- Lobby/Component/ClassicMaxAttrItem.xml -->
+  <string name="s7x7ku0nmtmsdxycp-n0_mtms" mz="maxAttrLb">{value=+8}{name=攻击力}</string>
+  <!-- Lobby/Component/ComInfo.xml -->
+  <string name="s7x7ku0npdpadxxyv-n73_pdpa" mz="typeName">挑战关卡挑战</string>
+  <string name="s7x7ku0npdpadxxyv-n73_pdpa-texts_0" mz="typeName">挑战关卡挑战</string>
+  <string name="s7x7ku0npdpadxxyv-n73_pdpa-texts_1" mz="typeName">消灭怪物</string>
+  <string name="s7x7ku0npdpadxxyv-n74_pdpa" mz="txtProgress">({min=999}/{max=999})</string>
+  <string name="s7x7ku0npdpadxxyv-n95_jsfx" mz="typeName2">挑战关卡挑战</string>
+  <string name="s7x7ku0npdpadxxyv-n96_jsfx" mz="txtProgress2">({min=9999}/{max=9999})</string>
+  <string name="s7x7ku0npdpadxxyv-n86_nif6" mz="reward">{value=666}</string>
+  <string name="s7x7ku0npdpadxxyv-n83_nif6" mz="taskName">任务{value=1}</string>
+  <string name="s7x7ku0npdpadxxyv-n81_ju03" mz="n81">您还未接受任务</string>
+  <string name="s7x7ku0npdpadxxyv-n104_llb1" mz="n104">可领取</string>
+  <!-- Lobby/Component/ComMessage.xml -->
+  <string name="s7x7ku0npdpadxxyu-n74_kvsz" mz="n74">【系统】</string>
+  <string name="s7x7ku0npdpadxxyu-n74_kvsz-texts_0" mz="n74">【系统】</string>
+  <string name="s7x7ku0npdpadxxyu-n74_kvsz-texts_1" mz="n74">【世界】</string>
+  <string name="s7x7ku0npdpadxxyu-n75_kvsz" mz="pNameLb">{pName=这是玩家名字}:</string>
+  <string name="s7x7ku0npdpadxxyu-n76_kvsz" mz="contentLb">内容啊啊啊啊</string>
+  <!-- Lobby/Component/GrimoireItem.xml -->
+  <string name="s7x7ku0nax20dxy88-n0_ax20" mz="name">黑魔法</string>
+  <string name="s7x7ku0nax20dxy88-n4_ax20" mz="Lv">LV.{cur=10}</string>
+  <!-- Lobby/Component/HeroAttrBtn.xml -->
+  <string name="s7x7ku0nozj9dxy55-n1_ozj9" mz="n1">强化</string>
+  <string name="s7x7ku0nozj9dxy55-n2_ozj9" mz="costLb">120.00京</string>
+  <string name="s7x7ku0nozj9dxy55-n5_ozj9" mz="n5">已满级</string>
+  <!-- Lobby/Component/HeroAttrItem.xml -->
+  <string name="s7x7ku0na2kwdxyav-n1_a2kw" mz="attrName">物理伤害</string>
+  <string name="s7x7ku0na2kwdxyav-n2_a2kw" mz="attrValue">31.1K</string>
+  <!-- Lobby/Component/HeroAttrLabel.xml -->
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx" mz="attrLb">{value=100}</string>
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_0" mz="attrLb">{value=100}</string>
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_1" mz="attrLb">{value=10}</string>
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_2" mz="attrLb">{value=1}%</string>
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_3" mz="attrLb">{value=10}%</string>
+  <string name="s7x7ku0nkhmxdxy5j-n0_khmx-texts_4" mz="attrLb">{value=10}</string>
+  <!-- Lobby/Component/LobbyHeroAttrAdd.xml -->
+  <string name="s7x7ku0nozj9dxy54-n2_ozj9" mz="attrName">攻击力</string>
+  <string name="s7x7ku0nozj9dxy54-n5_ozj9" mz="lvLb">Lv.{lv=9999}</string>
+  <!-- Lobby/Component/OnlineBox.xml -->
+  <string name="s7x7ku0nng62dxy3s-n2_hz54" mz="timeLb">放置时长
+{value=00:00:00}</string>
+  <string name="s7x7ku0nng62dxy3s-n4_a2kw" mz="title">挂机奖励</string>
+  <!-- Lobby/Component/RecycleBtn.xml -->
+  <string name="s7x7ku0nkqmidxy9h-n4_kqmi" mz="title">一键回收</string>
+  <!-- Lobby/Component/TaskBarExp.xml -->
+  <string name="s7x7ku0nllb1dxycy-n4_rm2c" mz="maxLevel">已满级</string>
+  <!-- Lobby/Component/UpBtn.xml -->
+  <string name="s7x7ku0nax20dxy8c-n4_ax20" mz="title">升级</string>
+  <string name="s7x7ku0nax20dxy8c-n8_ax20" mz="n8">已满级</string>
+  <!-- Lobby/Component/battleRoot.xml -->
+  <string name="s7x7ku0ncj33dxxzg-n7_w02n" mz="stageName">奇111森林{min=1}-{max=1}</string>
+  <string name="s7x7ku0ncj33dxxzg-n21_hach" mz="zctz">再次挑战</string>
+  <string name="s7x7ku0ncj33dxxzg-n22_ez9m" mz="btnStage">下一关</string>
+  <string name="s7x7ku0ncj33dxxzg-n24_iv53" mz="copyBossStageName">传承B0SS</string>
+  <!-- Lobby/UI/Panel.xml -->
+  <string name="s7x7ku0ni9sldxxzp-n136_mg7g" mz="sevenDayBtn">七日签到</string>
+  <string name="s7x7ku0ni9sldxxzp-n166_l955" mz="dailyBtn">日常任务</string>
+  <string name="s7x7ku0ni9sldxxzp-n165_l955" mz="tujianBtn">图鉴</string>
+  <string name="s7x7ku0ni9sldxxzp-n135_uq40" mz="mailBtn">邮箱</string>
+  <string name="s7x7ku0ni9sldxxzp-n202_c2gl" mz="villageBtn">家园</string>
+  <string name="s7x7ku0ni9sldxxzp-n212_a2kw" mz="copyBtn">副本</string>
+  <string name="s7x7ku0ni9sldxxzp-n169_h4wb" mz="superTXZBtn">通行证</string>
+  <string name="s7x7ku0ni9sldxxzp-n168_h4wb" mz="firstChargeBtn">新人礼包</string>
+  <string name="s7x7ku0ni9sldxxzp-n134_ng62" mz="onlineBtn">挂机奖励</string>
+  <string name="s7x7ku0ni9sldxxzp-n203_rwnp" mz="achieveBtn">成就</string>
+  <string name="s7x7ku0ni9sldxxzp-n239_spta-0" mz="rightFunctionList">通行证</string>
+  <string name="s7x7ku0ni9sldxxzp-n239_spta-1" mz="rightFunctionList">新人礼包</string>
+  <string name="s7x7ku0ni9sldxxzp-n239_spta-2" mz="rightFunctionList">挂机奖励</string>
+  <string name="s7x7ku0ni9sldxxzp-n239_spta-3" mz="rightFunctionList">成就</string>
+  <string name="s7x7ku0ni9sldxxzp-n174_auqc" mz="PVPBtn">竞技</string>
+  <string name="s7x7ku0ni9sldxxzp-n173_khmx" mz="loginGiftBtn">每日礼包</string>
+  <string name="s7x7ku0ni9sldxxzp-n170_h4wb" mz="shopBtn">商城</string>
+  <string name="s7x7ku0ni9sldxxzp-n238_spta-0" mz="leftFunctionList">竞技</string>
+  <string name="s7x7ku0ni9sldxxzp-n238_spta-1" mz="leftFunctionList">每日礼包</string>
+  <string name="s7x7ku0ni9sldxxzp-n238_spta-2" mz="leftFunctionList">商城</string>
+  <string name="s7x7ku0ni9sldxxzp-n238_spta-3" mz="leftFunctionList">副本</string>
+  <string name="s7x7ku0ni9sldxxzp-n92_pdpa" mz="btnSpeed">加速</string>
+  <string name="s7x7ku0ni9sldxxzp-n183_kqmi" mz="n183">传承装备</string>
+  <string name="s7x7ku0ni9sldxxzp-n185_kqmi" mz="packageBtn">包裹</string>
+  <string name="s7x7ku0ni9sldxxzp-n187_kqmi" mz="n187">神器</string>
+  <string name="s7x7ku0ni9sldxxzp-n188_kqmi" mz="upLvBtn">升级</string>
+  <string name="s7x7ku0ni9sldxxzp-n191_kqmi" mz="n191">普通装备</string>
+  <string name="s7x7ku0ni9sldxxzp-n194_kqmi" mz="n194">传承装备包裹</string>
+  <string name="s7x7ku0ni9sldxxzp-n197_kqmi" mz="closeBtn">关闭</string>
+  <string name="s7x7ku0ni9sldxxzp-n243_ntmn" mz="noClassicTips">还未获得秘典</string>
+  <string name="s7x7ku0ni9sldxxzp-n131_ot6f" mz="openPmBtn">PM</string>
+  <string name="s7x7ku0ni9sldxxzp-n58_dd3x-0" mz="listBottom">角色</string>
+  <string name="s7x7ku0ni9sldxxzp-n58_dd3x-1" mz="listBottom">装备</string>
+  <string name="s7x7ku0ni9sldxxzp-n58_dd3x-2" mz="listBottom">大地图</string>
+  <string name="s7x7ku0ni9sldxxzp-n58_dd3x-3" mz="listBottom">宠物</string>
+  <string name="s7x7ku0ni9sldxxzp-n58_dd3x-4" mz="listBottom">召唤</string>
+  <string name="s7x7ku0ni9sldxxzp-n249_llb1" mz="n249">战力</string>
+  <string name="s7x7ku0ni9sldxxzp-n163_ha87" mz="fightValLb">2530.60万</string>
+  <string name="s7x7ku0ni9sldxxzp-n231_a2kw" mz="playerName">游戏名123456</string>
+  <string name="s7x7ku0ni9sldxxzp-n227_a2kw-0" mz="otherList">签到</string>
+  <string name="s7x7ku0ni9sldxxzp-n227_a2kw-1" mz="otherList">任务</string>
+  <string name="s7x7ku0ni9sldxxzp-n227_a2kw-2" mz="otherList">家园</string>
+  <string name="s7x7ku0ni9sldxxzp-n227_a2kw-3" mz="otherList">邮件</string>
+  <string name="s7x7ku0ni9sldxxzp-n227_a2kw-4" mz="otherList">图鉴</string>
+  <!-- Login/Component/Announcement.xml -->
+  <string name="h85hm7vmkgyuxxoh-n159_doww" mz="textPrivacyPolicy">抵制不良游戏  拒绝盗版游戏  注意自我保护  谨防受骗上当
+适度游戏益脑  沉迷游戏伤身  合理安排时间  享受健康生活</string>
+  <!-- Login/Component/BtnGongGao.xml -->
+  <string name="h85hm7vmmjyexxp5-n1_l06b" mz="n1">账号</string>
+  <!-- Login/Component/BtnKeFu.xml -->
+  <string name="h85hm7vmmjyexxp2-n1_l06b" mz="n1">客服</string>
+  <!-- Login/Component/BtnStart.xml -->
+  <string name="h85hm7vmsgozzc-n1_mjye" mz="n1">开始游戏</string>
+  <!-- Login/Component/BtnSwitchAccount.xml -->
+  <string name="h85hm7vml06bxxou-n1_l06b" mz="n1">账号</string>
+  <!-- Login/Component/BtnSwitchServer.xml -->
+  <string name="h85hm7vmmjyexxp0-n1_l06b" mz="n1">区服</string>
+  <!-- Login/Component/ComponentLobby.xml -->
+  <string name="h85hm7vmab5sv-n101_ldim" mz="btnStartLobby">开始游戏</string>
+  <!-- Login/Component/LoginPage.xml -->
+  <string name="h85hm7vmnxr7p-n11_nxr7" mz="n11">账号</string>
+  <string name="h85hm7vmnxr7p-n14_qzrg" mz="btnLogin">登录</string>
+  <string name="h85hm7vmnxr7p-n18_pchv" mz="n18">服务器：</string>
+  <string name="h85hm7vmnxr7p-n5_nxr7" mz="n5">账号：</string>
+  <string name="h85hm7vmnxr7p-n9_nxr7-prompt" mz="txtAccount">输入账号</string>
+  <string name="h85hm7vmnxr7p-n23_uq40" mz="linkLb">我已阅读并同意[color=#deb555]&lt;a href='event:userTips'&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href='event:PrivacyTips'&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]
+</string>
+  <!-- Login/Component/ScrollRichTxt.xml -->
+  <string name="h85hm7vmuq40xxpf-n0_uq40" mz="title">疯狂啪嘟游戏用户协议&amp;#xA; 
+欢迎您使用《疯狂啪嘟》游戏及相关服务！&amp;#xA; 
+重要须知&amp;#xA; 
+1、《疯狂啪嘟游戏用户协议》（以下简称“本协议”）由您与《疯狂啪嘟》游戏服务提供方”福州叁壹创想科技有限公司”(以下简称“叁壹创想”)共同缔结，[color=#e0901f]本协议具有合同效力。您在使用疯狂啪嘟游戏及相关服务前，请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制我司责任的条款（以下称“免责条款”）、对用户权利进行限制的条款（以下称“限制条款”）、约定争议解决方式和司法管辖的条款，以及开通或使用某项服务的单独协议。前述免责、限制及争议解决方式和管辖条款用红色字条标记提示，这些条款应在中国法律所允许的范围内最大程度地适用，请您在确认同意本协议之前或在使用《疯狂啪嘟》游戏服务之前再次阅读前述条款。&amp;#xA; 
+2、除非您已阅读并接受本协议所有条款，否则您无权使用《疯狂啪嘟》游戏服务。如果您对本协议或《疯狂啪嘟》游戏服务有意见或建议，可与我司客户服务部门联系，我们会给予您必要的帮助。您点击同意、接受或下一步，或您注册、使用《疯狂啪嘟》游戏服务均视为您已阅读并同意签署本协议。[/color]&amp;#xA; 
+3、如果您未满18周岁，请在法定监护人的陪同下阅读本协议，并特别注意未成年人使用条款。如您为未成年人法定监护人，希望合理设定孩子娱乐时间，培养孩子健康游戏习惯的。&amp;#xA; 
+第一条协议签署方&amp;#xA; 
+本协议在如下双方之间签署：&amp;#xA; 
+1、叁壹创想公司。即《疯狂啪嘟》游戏服务的提供方，福州叁壹创想科技有限公司，叁壹创想公司可能通过自有的网站与平台、合作方的网站与平台向您提供《疯狂啪嘟》游戏服务。&amp;#xA; 
+2、您，又称“玩家”或“用户”。即通过叁壹创想公司提供的合法途径，获得《疯狂啪嘟》游戏非商业使用性质之授权，从而安装、使用《疯狂啪嘟》游戏软件或接受相关服务的自然人。&amp;#xA; 
+第二条定义与说明&amp;#xA; 
+如无相反说明，以下词语具有如下含义：&amp;#xA; 
+1、《疯狂啪嘟》游戏软件：指叁壹创想公司提供的游戏软件（包括任何可在移动智能设备及/或电脑终端上，以客户端/微端或网页等形式进行操作的适配版本），以及与该等游戏软件相关的更新、升级、补丁、资料片等。并可能包括相关的网络服务器、网站（包括但不限于该游戏之官方网站或官方论坛)、电子媒体、印刷材料或电子文档等。&amp;#xA; 
+2、叁壹创想游戏服务：指叁壹创想公司向您提供的、与前述《疯狂啪嘟》游戏软件相关的各项在线运营服务，包括但不限于游戏素材、用户工具、游戏官网、游戏论坛等。&amp;#xA; 
+3、增值服务代用币：指叁壹创想公司为满足玩家在《疯狂啪嘟》游戏服务中的正常交易交流需求，而设计的一种虚拟兑换工具，通过人民币按游戏不时调整的比例直接或间接购买，可用于换取游戏中指定的各类虚拟物品使用权或增值服务，并仅限于在特定游戏中使用和流通。&amp;#xA; 
+4、您：又称“玩家”或“用户”，指被授权使用《疯狂啪嘟》游戏及其服务的自然人。&amp;#xA; 
+5、游戏数据：指您在使用《疯狂啪嘟》游戏过程中产生的被服务器记录的各种数据，包括但不限于角色数据、虚拟物品数据、行为日志、购买日志等等数据。&amp;#xA; 
+第三条知识产权声明&amp;#xA; 
+（一）叁壹创想公司的知识产权即许可&amp;#xA; 
+1、叁壹创想公司依法享有《疯狂啪嘟》游戏软件的一切合法权益（包括但不限于其中涉及的计算机软件著作权、美术作品著作权和专利权等知识产权，运营《疯狂啪嘟》游戏软件的权利等），或已从合法权利人处取得合法授权，从而有权为用户提供《疯狂啪嘟》游戏软件及叁壹创想游戏服务。&amp;#xA; 
+2、叁壹创想游戏服务所体现的“叁壹创想游戏”、“FKPDYX”的文字、LOGO（图形），以及在具体服务中使用的用以标识服务名称与来源的文字、LOGO（图形）等（包括但不限于叁壹创想游戏服务的名称、LOGO、ICON，《疯狂啪嘟》游戏软件开发者的名称、LOGO、ICON等），属于叁壹创想公司及/或其关联公司、合作公司在中国及/或其他国家/地区的商标或者注册商标。&amp;#xA; 
+3、叁壹创想游戏服务可能涉及第三方知识产权，如该等第三方对您在叁壹创想游戏服务中使用该等知识产权有要求的，叁壹创想公司将以适当方式向您告知该等要求，您应当遵守该等要求。&amp;#xA; 
+4、本协议未明确授予您的权利均由叁壹创想公司保留。&amp;#xA; 
+（二）用户的知识产权即许可&amp;#xA; 
+&amp;#xA; 
+1、叁壹创想公司尊重知识产权并注重保护用户享有的各项权利。在叁壹创想游戏服务中，您可能需要通过上传、发布等各种方式向叁壹创想公司提供内容。在此情况下，您仍然享有此等内容的完整知识产权。2、您在此明确同意，您在提供前述内容的同时，不可撤销地授予叁壹创想公司及其关联公司一项全球性的、永久的免费许可，允许叁壹创想公司及其关联公司使用、传播、复制、修改、再许可、翻译、出版、表演及展示此等内容，以及使用此等内容创作衍生作品。&amp;#xA; 
+第四条叁壹创想游戏服务的许可与限制&amp;#xA; 
+1、在用户同意接受本协议全部条款的前提下，叁壹创想公司同意授予用户非商业使用性质的、可撤销的、可变更的、非专有的、不可转让且不可转授权的使用本《疯狂啪嘟》游戏软件及叁壹创想游戏服务的权利。用户可在授权范围内将本《疯狂啪嘟》游戏软件安装在供个人使用的移动智能设备或电脑终端上，并以叁壹创想公司指定的方式运行本《疯狂啪嘟》游戏软件的一份副本并享受叁壹创想公司提供的服务。叁壹创想公司基于本协议授予用户的许可是针对个人使用的许可。如用户有需要在个人使用的范围以外使用《疯狂啪嘟》游戏软件及叁壹创想游戏服务或者将《疯狂啪嘟》游戏软件与叁壹创想游戏服务用于任何商业用途，则用户应与叁壹创想公司联系并获得叁壹创想公司的另行授权。任何未经叁壹创想公司许可的安装、使用、访问、显示、运行、商业使用等行为均属对叁壹创想公司的侵权。&amp;#xA; 
+2、除非本协议另有约定，否则，未经叁壹创想公司事先书面同意，用户不得实施下列行为（无论是营利的还是非营利的）：&amp;#xA; 
+[color=#e0901f]（1）复制、翻录、反编译（de-compile）、反汇编（disassemble）、传播和陈列《疯狂啪嘟》游戏软件的程序、使用手册和其它图文音像资料的全部或部分内容，或对《疯狂啪嘟》游戏软件的任何功能或程序进行反向工程（reverseengineering）。&amp;#xA; 
+（2）公开展示和以各种形式、在各种平台（包括但不限于网络直播平台、网站、APP等）播放《疯狂啪嘟》游戏软件/叁壹创想游戏服务的全部或部分内容。&amp;#xA; 
+（3）出租、销售《疯狂啪嘟》游戏软件或者利用《疯狂啪嘟》游戏软件从事任何营利行为。&amp;#xA; 
+（4）修改或遮盖《疯狂啪嘟》游戏软件程序、图像、动画、包装和手册等内容上的服务名称、公司标志、商标（或）版权信息、其他知识产权声明等内容。&amp;#xA; 
+（5）其它违反商标法、著作权法、计算机软件保护条例和相关法律法规、国际条约的行为。[/color]&amp;#xA; 
+3、用户应当自行承担其利用叁壹创想游戏服务所发布的信息内容所涉及的责任。特别地，用户不得利用叁壹创想游戏服务发布下列内容：&amp;#xA; 
+[color=#e0901f]（1）反对中华人民共和国宪法所确定的基本原则的；&amp;#xA; 
+（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；&amp;#xA; 
+（3）损害国家荣誉和利益的；&amp;#xA; 
+（4）煽动民族仇恨、民族歧视，破坏民族团结的；&amp;#xA; 
+（5）破坏国家宗教政策，宣扬邪教和封建迷信的；&amp;#xA; 
+（6）散布谣言，扰乱社会秩序，破坏社会稳定的；&amp;#xA; 
+（7）散布、教唆、参与、实施淫秽、色情、赌博、暴力、凶杀、恐怖的；&amp;#xA; 
+（8）侮辱或者诽谤他人，侵害他人合法权益的；&amp;#xA; 
+（9）发布任何经叁壹创想公司合理判断为不妥当或者叁壹创想公司未认可的软件、文件等在内的主页地址或者链接的；&amp;#xA; 
+（10）有中华人民共和国法律、行政法规禁止的其他内容的。[/color]&amp;#xA; 
+4、用户不得通过不正当的手段或其他不公平的手段使用《疯狂啪嘟》游戏软件或叁壹创想游戏服务参与以下游戏活动：&amp;#xA; 
+[color=#e0901f]（1）用户不得干扰叁壹创想公司正常地提供软件和服务，恶意破坏服务设施、扰乱正常服务秩序，包括但不限于：攻击、侵入叁壹创想公司的服务器或使服务器过载；&amp;#xA; 
+（2）用户不得利用程序的漏洞和错误(Bug)破坏游戏的正常进行、传播该漏洞或错误(Bug)、不正当获利或达到其他个人目的；&amp;#xA; 
+（3）用户不得通过异常或者非法的方式登录、使用《疯狂啪嘟》游戏软件游戏，获取叁壹创想游戏服务；&amp;#xA; 
+（4）制作、宣扬、教唆使用、使用妨碍游戏公平性的辅助工具或程序（如外挂）、私服以及木马的相关内容的；&amp;#xA; 
+（5）盗取他人游戏账号、游戏物品，或虽未主动参与盗取，但获得的账号、物品是他人通过盗取所得；&amp;#xA; 
+&amp;#xA; 
+（6）通过虚假承诺、虚构事实、隐瞒真相、故意误导、冒充他人、故意混淆等方式，扰乱游戏秩序，或从他人或游戏系统处骗取的游戏虚拟物品、其他财物、利益、游戏优势，或虽未主动参与欺诈，但获得的财物是他人通过欺诈所得；&amp;#xA; 
+（7）宣传或进行线下交易：用户只可在游戏内或者通过叁壹创想公司认可的交易平台（如有）进行游戏虚拟物品交易。用户不得在任何非叁壹创想公司事先认可的充值平台或交易平台进行充值或进行交易；&amp;#xA; 
+（8）其他在行业内被广泛认可的不当行为。&amp;#xA; 
+5、用户理解并同意，叁壹创想公司向用户提供《疯狂啪嘟》游戏服务，是为了让用户体验丰富多彩的游戏内容，而非利用叁壹创想游戏服务赚取现实世界的金钱或牟取经济利益。而用户不以体验游戏内容为目的，在游戏中主要进行交易和牟利的行为，会破坏游戏内经济系统的公平性或平衡性，从而对其他用户的游戏体验、游戏本身造成不利影响。因此，用户承诺不以营利为目的从事游戏行为或交易虚拟物品，任何以营利为目的从事游戏行为或交易虚拟物品的情形将被视为牟取不正当利益。[/color]&amp;#xA; 
+6、为了确保用户遵守上述1-5条叁壹创想游戏服务使用限制，叁壹创想公司有权审查您对《疯狂啪嘟》游戏或叁壹创想游戏服务的使用情况，以及采取叁壹创想公司根据其自行判断认为的适当行为（包括[color=#e0901f]但不限于警告、倒扣数值、冻结或回收游戏虚拟物品、移除用户提供的游戏素材、限制用户权限、暂时或永久冻结玩法、强制离线、封禁用户帐号、删除档案等等）。[/color]&amp;#xA; 
+第五条资费政策&amp;#xA; 
+[color=#e0901f]1、叁壹创想公司有权决定《疯狂啪嘟》游戏软件及叁壹创想游戏服务的收费方式和资费标准，叁壹创想公司有权就《疯狂啪嘟》游戏软件和叁壹创想游戏服务在不同阶段确定不同的收费方式和资费标准，且叁壹创想公司有权根据需要对资费政策随时进行调整。[/color]&amp;#xA; 
+具体收费方式、资费标准，包括但不限于《疯狂啪嘟》游戏软件的收费标准、游戏中虚拟物品的使用权以及增值服务（如有）的具体收费标准等，均由叁壹创想公司在APPSTORE或其他APP发布渠道、游戏内道具商城、道具购买界面、游戏官网等游戏模块上，以网络游戏行业通用的形式颁布。&amp;#xA; 
+[color=#e0901f]用户有义务在选择前仔细阅读，一旦用户选择下载收费的《疯狂啪嘟》游戏软件、购买相关虚拟物品使用权或者接受相关服务，则表明用户已经充分理解并接受相应的收费方式和资费标准。您充分理解并确认，收费项目或收费标准的改变、调整是一种正常的商业行为，您不得应收费项目或收费标准的改变、调整而要求叁壹创想公司进行赔偿或补偿。[/color]&amp;#xA; 
+2、叁壹创想公司有权根据需要，在游戏中设立、添加、修改增值服务并发行增值服务代用币。[color=#e0901f]您知悉并同意，增值服务代用币通过使用人民币兑换获得，人民币一经兑换成增值服务代用币，则视为您购买了游戏服务，您所购买的增值服务代用币不可退还或兑换成人民币。增值服务代用币可用于购买相关虚拟物品使用权或者接受相关增值服务。[/color]&amp;#xA; 
+在以用户购买虚拟物品的使用权或者以接受其他增值服务作为收费项目的情况下，如超出该虚拟物品的有效使用期限或增值服务的有效服务期限（不管用户是否已经实际使用或者享受服务），或者超出有效使用或服务次数，叁壹创想公司即有权采取措施取消用户对上述虚拟物品的使用权或者停止提供增值服务。&amp;#xA; 
+第六条游戏虚拟物品&amp;#xA; 
+[color=#e0901f]1、游戏虚拟物品（或简称“虚拟物品”）包括但不限于游戏角色、资源、道具（包括但不限于游戏中的武器、坐骑、宠物、装备等）等，其所有权归叁壹创想公司，用户只能在合乎法律规定的情况下，根据游戏规则在游戏服务器开放期间进行使用。[/color]&amp;#xA; 
+2、游戏中各类虚拟物品，如对使用期限无特殊标识的，均默认用户可在获得使用权后持续使用，直至相应叁壹创想游戏服务终止；如对使用期限有特殊标识的，则其使用期以特殊标识的期限为准，超过使用期的，叁壹创想公司有权不另行通知用户而随时收回其使用权（该使用期限不因任何原因而中断、中止）。&amp;#xA; 
+第七条用户信息收集、使用与保护&amp;#xA; 
+1、叁壹创想公司要求用户提供与其个人身份有关的信息资料时，应当事先以明确而易见的方式向用户公开其隐私权保护政策和个人信息利用政策，并采取必要措施保护用户的个人信息资料的安全。未经用户许可叁壹创想公司不得向任何第三方提供、公开或共享用户注册资料中的姓名、个人有效身份证件号码、联系方式、家庭住址等个人身份信息，但下列情况除外：&amp;#xA; 
+(1)   [color=#e0901f]用户或用户监护人授权叁壹创想公司披露的；&amp;#xA; 
+(2)   有关法律要求叁壹创想公司披露的；&amp;#xA; 
+(3)   司法机关或行政机关基于法定程序要求叁壹创想公司提供的；&amp;#xA; 
+&amp;#xA; 
+(4)叁壹创想公司为了维护自己合法权益而向用户提起诉讼或者仲裁时；&amp;#xA; 
+(5)应用户监护人的合法要求而提供用户个人身份信息时；&amp;#xA; 
+(6)应证券交易所、证券监督管理机构以及具备专业知识及保密义务的会计师、律师、技术人员的要求时。[/color]&amp;#xA; 
+2、除前述个人信息资料之外，您同意并授权叁壹创想公司基于行政/司法机关的要求或安全、用户体验优化等考虑而收集您的其他必要信息，但叁壹创想公司仅可为履行本协议之目的收集与利用该等信息。&amp;#xA; 
+[color=#e0901f]3、您充分理解并同意：叁壹创想公司根据您的用户信息，通过短信、电话、邮件等各种方式向您提供关于叁壹创想公司游戏的活动信息、推广信息等各类信息。&amp;#xA; 
+4、保护用户信息及隐私是叁壹创想公司的一项基本原则。除本协议另有规定外，叁壹创想游戏服务对用户信息收集、使用及保护等将遵循《叁壹创想游戏隐私政策》等协议规定，请用户详细阅读该政策的内容。[/color]除法律另有规定外，如您已同意或授权叁壹创想公司依据前述协议或规定收集、使用或处理涉及您的个人信息的，在您撤回该同意或授权后，不影响叁壹创想公司在此之前已基于您的同意或授权所进行的个人信息的收集、使用或处理，叁壹创想公司对此前相关个人信息收集、使用或处理继续有效。&amp;#xA; 
+第九条叁壹创想游戏服务&amp;#xA; 
+1、叁壹创想公司同意通过互联网络，根据本协议约定，为用户提供叁壹创想游戏服务。&amp;#xA; 
+2、您充分理解并同意，叁壹创想公司有权依合理判断对违反有关法律法规或本协议规定的行为进行处理，对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等，用户应独自承担由此而产生的一切法律责任。&amp;#xA; 
+[color=#e0901f]3、在使用《疯狂啪嘟》游戏游戏虚拟货币的过程中，用户有权向叁壹创想公司要求协助调取游戏虚拟货币充值记录和转移记录，叁壹创想公司应当要求用户提供并核实与其注册身份信息相一致的个人有效身份信息或证明，叁壹创想公司核实用户所提供的个人有效身份信息或证明与所注册的身份信息相一致的，应当予以协助提供。用户没有提供其个人有效身份信息或证明，或者用户提供的个人有效身份信息或证明与所注册的身份信息不一致的，叁壹创想公司有权拒绝用户前述请求。&amp;#xA; 
+4、您充分理解并同意：游戏装备、游戏币及其他游戏道具等是叁壹创想游戏服务的一部分，叁壹创想公司在此许可您依本协议而获得其使用权。您购买、使用游戏装备、游戏币及其他游戏道具等应遵循本协议、游戏具体规则的要求；同时，游戏装备、游戏币及其他游戏道具等可能受到一定有效期限的限制，即使您在规定的有效期内未使用，除不可抗力或可归责于叁壹创想公司的原因外，一旦有效期届满，将会自动失效。[/color]&amp;#xA; 
+5、您充分理解并同意：为更好地向用户提供叁壹创想游戏服务，叁壹创想公司有权对游戏相关内容（包括但不限于游戏角色、游戏装备及其他游戏道具的设计、性能及相关数值设置等）作出调整、更新或优化。&amp;#xA; 
+6、您充分理解并同意：为保障您游戏账号安全，为营造公平、健康及安全的游戏环境，在您使用叁壹创想游戏服务的过程中，在不违反相关法律规定情况下，叁壹创想公司可以通过技术手段了解您终端设备的随机存储内存以及与《疯狂啪嘟》游戏同时运行的相关程序。一经发现有任何未经授权的、危害叁壹创想游戏服务正常运营的相关程序，叁壹创想公司可以收集所有与此有关的信息并采取合理措施予以打击。&amp;#xA; 
+[color=#e0901f]7、您充分理解并同意，为高效利用服务器资源，如果您2年内未使用游戏账号登录《疯狂啪嘟》游戏软件，叁壹创想公司有权在提前通知的情况下，对该账号及其账号下的游戏数据及相关信息采取删除等处置措施。&amp;#xA; 
+8、您知悉并确认，未绑定手机号账号进行游戏的充值或消费，一旦您卸载或者重装游戏，或者更换手机、电脑等终端设备或该等终端设备损坏的，您在未绑定手机号账号下所有游戏相关数据可能都将会被清空，且无法查询和恢复。如因此造成您任何损失的，均由您自行承担。[/color]&amp;#xA; 
+第十条防沉迷措施&amp;#xA; 
+1、叁壹创想公司将按照相关法律法规和本协议的规定，采取切实有效的措施保护未成年人在使用叁壹创想游戏服务过程中的合法权益，包括可能采取技术措施、禁止未成年人接触不适宜的游戏或者游戏功能、限制未成年人的游戏时间、预防未成年人沉迷网络。作为游戏规则的一部分，叁壹创想公司还将在适当位置发布《疯狂啪嘟》游戏用户指引和警示说明，包括游戏内容介绍、正确使用游戏的方法以及防止危害发生的方法。所有未成年人用户都应在法定监护人的指导下仔细阅读并遵照执行这些指引和说&amp;#xA; 
+&amp;#xA; 
+明；其他玩家在使用叁壹创想游戏服务的过程中应避免发布、产生任何有损未成年人身心健康的内容，共同营造健康游戏环境。&amp;#xA; 
+[color=#e0901f]2、您知悉并同意，出现以下情形之一的，叁壹创想公司有权将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施：&amp;#xA; 
+（1）系统判断您未满18周岁的；或&amp;#xA; 
+（2）您提交的实名身份信息不规范的；或&amp;#xA; 
+（3）您实名验证未通过的；或&amp;#xA; 
+（4）游客模式登录的；或&amp;#xA; 
+（5）其他国家法律法规政策要求或叁壹创想公司有合理理由认为需要纳入防沉迷系统的情形的。[/color]&amp;#xA; 
+另外，为了进一步提高实名认证的精准度，最大限度防止未成年人冒用他人身份信息，我们可能在部分游戏或针对部分用户启用人脸识别验证，或者从第三方平台获取您的游戏账号信息，并基于未成年人保护策略识别记录您的游戏行为，并判断游戏行为是否符合未成年人游戏行为特征。如《疯狂啪嘟》游戏要求您进行人脸识别验证，而您未通过或拒绝的，我们也会将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施。&amp;#xA; 
+[color=#e0901f]对纳入相应防沉迷系统的游戏账号，我们有权依据国家有关法律法规及政策规定、本协议其他条款规定、《疯狂啪嘟》游戏运营策略或根据您法定监护人的合理要求采取以下一种或多种措施：&amp;#xA; 
+（1）将与您游戏相关的信息（包括但不限于您游戏账号的登录信息、充值流水信息等）提供给您的法定监护人，使得您法定监护人可及时或同步了解您游戏情况；&amp;#xA; 
+（2）限制您游戏账号的消费额度；&amp;#xA; 
+（3）采取技术措施屏蔽某些游戏或游戏的某些功能，或限定您游戏时间或游戏时长；&amp;#xA; 
+（4）注销或删除您游戏账号及游戏数据等相关信息；&amp;#xA; 
+（5）您法定监护人要求采取的，或叁壹创想公司认为可采取的其他合理措施，以限制或禁止您使用《疯狂啪嘟》游戏；&amp;#xA; 
+（6）国家法律法规或政策要求的相关措施。[/color]&amp;#xA; 
+第十一条服务的中断、中止、终止&amp;#xA; 
+[color=#e0901f]1、对用户服务的中止与终止&amp;#xA; 
+（1）用户有发布违法信息、严重违背社会公德、以及其他违反法律禁止性规定的行为，叁壹创想公司有权立即终止对用户提供服务。&amp;#xA; 
+（2）用户在接受叁壹创想游戏服务时实施不正当行为的，叁壹创想公司有权终止对用户提供服务。该不正当行为的具体情形应当在本协议中有明确约定或属于叁壹创想公司事先明确告知的应被终止服务的禁止性行为，否则，叁壹创想公司不得终止对用户提供服务。&amp;#xA; 
+（3）用户提供虚假注册身份信息，或实施违反本协议的行为，叁壹创想公司有权中止对用户提供全部或部分服务；叁壹创想公司采取中止措施应当通知用户并告知中止期间，中止期间应该是合理的，中止期间届满叁壹创想公司应当及时恢复对用户的服务。[/color]&amp;#xA; 
+（4）叁壹创想公司根据本款⑴、⑵、⑶项的约定中止或终止对用户提供部分或全部服务的，叁壹创想公司应负举证责任。&amp;#xA; 
+[color=#e0901f]2、对游戏服务器运营的中断、中止与终止[/color]&amp;#xA; 
+（1）为了游戏服务器的正常运行，叁壹创想公司需要定期对游戏服务器进行停机维护或针对突发事件进行紧急停机维护；因上述情况而造成的正常服务中断、中止，请您予以理解，叁壹创想公司则有义务尽力将中断时间限制在最短时间内。&amp;#xA; 
+[color=#e0901f]发生下列情形之一时，叁壹创想公司有权终止或中断游戏服务器所提供之全部或部分服务，对因此而产生的不便或损害，叁壹创想公司对用户或第三人均不承担任何责任：&amp;#xA; 
+①定期检查或施工，更新软硬件等，叁壹创想公司有权暂停服务，但叁壹创想公司会尽快完成维护、更新工作；&amp;#xA; 
+②    戏服务器遭受损害，无法正常运作；&amp;#xA; 
+③    发性的软硬件设备与电子通信设备故障；&amp;#xA; 
+④    络提供商线路或其他故障；&amp;#xA; 
+⑤    紧急情况之下依照法律的规定或为用户及第三者之人身安全；&amp;#xA; 
+⑥    三方原因或其他不可抗力的情形。[/color]&amp;#xA; 
+&amp;#xA; 
+（2）叁壹创想公司保留在其认为有必要的情况下，终止或部分终止提供叁壹创想游戏服务的权利，终止前将提前予以公告。&amp;#xA; 
+[color=#e0901f]（3）您知悉并确认，不管由于何种原因终止叁壹创想游戏服务，您应采取相应的措施自行处理游戏虚拟物品，包括但不限于注销或停止使用用户帐号、游戏虚拟物品等相关事宜。用户不得因全面终止游戏服务而要求叁壹创想公司承担您尚未使用的增值服务代用币的任何形式的赔偿或补偿责任，包括但不限于因不再能继续使用用户帐号、游戏虚拟物品等而要求的赔偿。[/color]&amp;#xA; 
+第十二条命名管理规则&amp;#xA; 
+1、虽然人物昵称、玩家所建立的组织名称等可以由玩家来命名，但是为了维护游戏世界中的洁净与和谐，叁壹创想公司不允许出现包括但不限于涉及种族/宗教、国家政治、国家领导人、淫秽的/粗俗的、诽谤/恐吓、宗教或宗教人物、工作人员、攻击性的、污辱性的、可能引起误会的、违禁药品等内容的名称。&amp;#xA; 
+2、如若发现前述情形，违规玩家根据情况将有可能受到以下处罚：警告；禁言；暂时冻结玩法；永久冻结玩法；强制离线；暂时禁止登录；永久禁止登录；修改昵称；解散组织。&amp;#xA; 
+十三条利用游戏Bug以及第三方软件处理规则&amp;#xA; 
+1、游戏BUG指游戏系统、程序、设定等方面存在的漏洞或不合理的现象。玩家有义务向GM报告在游戏中出现的BUG。严禁玩家直接或间接利用游戏BUG、程序漏洞等获利或扰乱游戏秩序，或者利用BUG、漏洞以达到个人目的。如果玩家有该等行为，一经查实，可能受到如下处罚措施：没收玩家利用BUG进行游戏而直接、间接获得之不正当利益；倒扣数值（包括但不限于经验值）；撤销交易；扣除违规交易所得；交易功能限制；强制离线；暂时冻结玩法；永久冻结玩法；暂时禁止登录；永久禁止登录；删除档案；承担法律责任。&amp;#xA; 
+2、未经许可的第三方软件指可用于在游戏中获取优势，但不属于相应《疯狂啪嘟》游戏软件一部分的任何文件或程序，包括作弊性质的外挂以及相关辅助性质的外挂等（包括但不限于自动升级、自动练级、自动吃药、自动完成任务、加速性质、模拟加点、战斗显血或其他超出游戏设定范围的操作）。如若发现使用作弊性质的外挂以及相关辅助性质的外挂等，我们将对其采取严厉的处罚措施，包括：没收玩家利用第三方软件进行游戏而直接、间接获得之不正当利益；倒扣数值（包括但不限于经验值）；撤销交易；扣除违规交易所得；交易功能限制；暂时冻结玩法；永久冻结玩法；强制离线；暂时禁止登录；永久禁止登录；删除档案；承担法律责任。&amp;#xA; 
+任何与《疯狂啪嘟》游戏软件同时使用的外部第三方软件可能会对游戏产生不良的影响。使用外部应用程序可能造成的主要后果是数据传送不流畅，导致玩家频繁掉线或卡机。外部应用软件可能使玩家移动智能设备（包括但不限于手机、平板电脑）、电脑等感染病毒、间谍软件和其他不明程序的侵扰。第三方软件还可能窃取玩家存储在移动智能设备（包括但不限于手机、平板电脑）、电脑中的信息，例如账号、密码等个人信息。&amp;#xA; 
+第十四条盗号与盗号相关行为处理规则&amp;#xA; 
+1、为保障玩家能愉悦的体验游戏，保障玩家的正当利益不受到侵害，叁壹创想公司对盗号及盗号相关行为（包括但不限于盗取用户帐号、游戏数据、玩家个人资料、协助盗号者操作及转移游戏虚拟物品等行为）将予以严厉打击和处罚。[color=#e0901f]一经查证属实或应有权机关的要求，叁壹创想公司有权视具体情况立即采取暂时限制游戏行为、收回游戏虚拟物品、暂时禁止登录、永久禁止登录、封停账号、删除档案等处罚措施，情节严重的，叁壹创想公司保留对涉案玩家追究法律责任的权利。[/color]&amp;#xA; 
+2、尽管您未主动参与盗号，但如您获得的游戏虚拟物品是他人通过盗号方式获得，而后转移或者分配给您的，为了维护被盗玩家的权益及游戏中公平公正的游戏秩序，叁壹创想公司有权收回您购买的该游戏虚拟物品。&amp;#xA; 
+[color=#e0901f]3、在查证玩家被盗事件的过程中，为能够快速调查、处理问题，叁壹创想公司可能会请相关玩家协助调查，其方式包括但不限于禁止登录调查、线上交流、线下交流等。[/color]&amp;#xA; 
+第十五条游戏内欺诈行为处理规则&amp;#xA; 
+1、诚实信用是游戏中的基本原则。游戏中的欺诈行为是指以非法占有为目的，通过虚假承诺、虚构事实、隐瞒真相、故意误导、冒充他人、故意混淆等方式，骗取他人的游戏虚拟物品或其它财物。游戏内的欺诈行为包括昵称相似欺诈、冒充好友、冒充官方及其他形式。&amp;#xA; 
+2、如玩家在游戏内进行欺诈，我们将根据玩家欺诈情节，采取各种处理措施，[color=#e0901f]包括但不限于如下一项或几项：收回游戏虚拟物品；倒扣数值（包括但不限于经验值）；暂时冻结玩法；永久冻结玩法；强制离线；暂时禁止登录；永久禁止登录。&amp;#xA; 
+&amp;#xA; 
+3、尽管您未主动参与欺诈，但如您获得的游戏虚拟物品是他人通过欺诈方式获得，而后转移或者分配给您的，为了维护被盗玩家的权益及游戏中公平公正的游戏秩序，叁壹创想公司有权收回您购买的该游戏虚拟物品。[/color]&amp;#xA; 
+第十六条损害赔偿&amp;#xA; 
+[color=#e0901f]如您在游戏内的违规行为给叁壹创想公司或第三方造成损害的，您应承担相应的法律责任，而且针对自身的损害叁壹创想公司有权采取一切合理的行动，包括但不限于收回游戏虚拟物品等，叁壹创想公司并有权向您索回损失额并要求您承担叁壹创想公司合理的追索费用。[/color]&amp;#xA; 
+第十七条不可抗力&amp;#xA; 
+叁壹创想公司对不可抗力导致的损失不承担责任。本协议所称不可抗力包括：天灾、法律法规或政府指令的变更，因网络服务特性而特有的原因，例如境内外基础电信运营商的故障、计算机、移动设备或互联网相关技术缺陷、互联网覆盖范围限制、计算机、移动设备病毒、黑客攻击等因素，及其他合法范围内的不能预见、不能避免并不能克服的客观情况。&amp;#xA; 
+第十八条链接及广告信息&amp;#xA; 
+1、叁壹创想公司在游戏官方网站、游戏官方论坛、游戏中所提供的所有链接，可能链接到其他个人、公司或组织的网站，提供该等网站的目的，是便利用户自行搜索或取得相关信息，[color=#e0901f]叁壹创想公司对于被链接的个人、公司或组织的网站所提供的产品、服务或信息，不担保其真实性、完整性、实时性或可信度。第三方个人、公司或组织应该就其与用户之间所产生的交易行为或其提供的产品、服务和信息承担法律责任。如叁壹创想公司发现上述第三方内容存在侵犯他人合法权益、违反法律法规或公序良俗等情况，叁壹创想公司有权移除上述内容。[/color]&amp;#xA; 
+2、叁壹创想公司在游戏官方网站、游戏官方论坛、游戏内可能刊登商业广告或其他推广活动信息。这些广告或推广活动信息是由广告商或商业服务提供者提供，并承担相应责任，叁壹创想公司仅提供刊登内容的媒介。用户通过该等链接的网站或广告所购买的商品或服务，其交易行为仅存在于用户与该商品或服务的提供者之间，与叁壹创想公司无关，叁壹创想公司不就用户与该商品或服务的提供者之间所产生的交易行为承担任何法律责任，用户应予以特别留意。&amp;#xA; 
+第十九条条款变更&amp;#xA; 
+[color=#e0901f]叁壹创想公司有权在必要的时候修改本协议条款，敬请用户定期查询有关内容。用户如继续使用本协议涉及的服务，则视为对修改内容的同意；用户在不同意修改内容的情况下，应当卸载《疯狂啪嘟》游戏软件、终止本协议并停止使用叁壹创想游戏服务。[/color]&amp;#xA; 
+第二十条游戏数据&amp;#xA; 
+在用户参加游戏过程中产生并储存于叁壹创想游戏服务器中的任何数据信息，包括但不限于账号数据信息、角色数据信息、等级及虚拟物品数据信息等（但用户的姓名、身份证号、电话号码等个人身份数据信息除外），属于游戏软件的一部分，由叁壹创想公司所有并进行管理，用户有权在遵守游戏规则的前提下通过正当的途径对属于自身用户帐号的数据信息进行修改、转移、抛弃等。&amp;#xA; 
+第二十一条通知&amp;#xA; 
+叁壹创想公司所有发给用户的通知可通过游戏内、游戏官方网站或游戏官方论坛重要页面的公告、电子邮件或常规的电话、易信、信件等形式传送。&amp;#xA; 
+第二十二条其他约定&amp;#xA; 
+[color=#e0901f]1、本协议的订立、履行、解释及争议的解决均适用中华人民共和国法律并排除其他一切冲突法的适用。本协议订立于福州台江区。如双方就本协议的内容或其执行发生任何争议（包括但不限于合同或者其他财产性权益纠纷），双方应友好协商解决；协商不成时，双方同意交由福州台江区人民法院管辖并处理。[/color]&amp;#xA; 
+为避免争议，本协议涉及到的有关数据、有关技术方面的问题，用户同意以叁壹创想公司服务器所储存的数据作为判断标准。叁壹创想公司保证该数据的真实性。&amp;#xA; 
+2、本协议所有条款的标题仅为方便阅读，本身并无实际涵义，不能作为本协议及相关条款涵义解释的依据。&amp;#xA; 
+3、如本协议中的任何条款因任何原因被判定为完全或部分无效或不具有执行力的，本协议的其他条款仍应有效并且有执行力。&amp;#xA; 
+4、叁壹创想公司不行使、未能及时行使或者未充分行使本协议或者按照法律规定所享有的权利，不应被视为放弃该权利，也不影响叁壹创想公司在将来行使该权利。&amp;#xA; 
+福州叁壹创想科技有限公司&amp;#xA; </string>
+  <!-- Login/Component/ServerCombox.xml -->
+  <string name="h85hm7vmpchvxxp8-n3_pchv" mz="title">服务器列表</string>
+  <!-- Login/GameAgreement.xml -->
+  <string name="h85hm7vmuq40xxph-n4_uq40" mz="n4">提示</string>
+  <string name="h85hm7vmuq40xxph-n6_uq40" mz="linkLb">继续游戏前，需要你阅读并同意[color=#deb555]&lt;a href='event:userTips'&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href='event:PrivacyTips'&gt;[color=#deb555]《隐私政策》&lt;/a&gt;[/color]
+</string>
+  <string name="h85hm7vmuq40xxph-n7_uq40" mz="RefusedBtn">拒绝</string>
+  <string name="h85hm7vmuq40xxph-n8_uq40" mz="agreeBtn">同意</string>
+  <!-- Login/GameUserAgreement.xml -->
+  <string name="h85hm7vmuq40xxpe-n4_uq40" mz="n4">游戏用户协议</string>
+  <!-- Login/Main.xml -->
+  <string name="h85hm7vmvggn0-n162_qscq" mz="btnLoginPage">切换账号</string>
+  <!-- Login/Plus12.xml -->
+  <string name="h85hm7vmuq40xxpi-n4_uq40" mz="n4">提示</string>
+  <!-- Login/PrivateAgreement.xml -->
+  <string name="h85hm7vmuq40xxpg-n4_uq40" mz="n4">游戏隐私政策</string>
+  <!-- LoginGift/Component/RewardItem.xml -->
+  <string name="z3lv15h6khmxi-n1_khmx" mz="cntLb">x{cur=100}</string>
+  <!-- LoginGift/Component/RightPanel.xml -->
+  <string name="z3lv15h6khmxg-n6_khmx" mz="n6">600%
+返利</string>
+  <string name="z3lv15h6khmxg-n12_khmx" mz="n12">购买获得超值豪礼!</string>
+  <!-- Lottery/Component/LotteyBoxReward.xml -->
+  <string name="6izp804wju03s-n5_ju03" mz="lvLb">Lv.{value=5}</string>
+  <!-- Lottery/LotteryGetReward.xml -->
+  <string name="6izp804wjxfvz-n4_ju03" mz="n4">领取奖励</string>
+  <string name="6izp804wjxfvz-n5_ju03" mz="adGetBtn">双倍领取</string>
+  <string name="6izp804wjxfvz-n8_jxfv" mz="itemNameLb">{itemName=升星石}x{value=3}</string>
+  <string name="6izp804wjxfvz-n9_jxfv" mz="normalGet">领取</string>
+  <!-- Lottery/LotteryTask.xml -->
+  <string name="6izp804wtcgl0-n15_ju03" mz="n15">转动</string>
+  <string name="6izp804wtcgl0-n16_ju03" mz="countLb">剩余[color=#63e16c]{value=18}[/color]次</string>
+  <string name="6izp804wtcgl0-n16_ju03-texts_0" mz="countLb">广告剩余[color=#63e16c]{value=18}[/color]次</string>
+  <string name="6izp804wtcgl0-n16_ju03-texts_def" mz="countLb">剩余[color=#63e16c]{value=18}[/color]次</string>
+  <string name="6izp804wtcgl0-n18_ju03" mz="n18">跳过动画</string>
+  <string name="6izp804wtcgl0-n24_ju03" mz="n24">领取要求</string>
+  <string name="6izp804wtcgl0-n29_ju03" mz="n29">奖励</string>
+  <string name="6izp804wtcgl0-n32_ju03" mz="txtValue">喂食熊猫{count=30}次</string>
+  <string name="6izp804wtcgl0-n33_ju03" mz="txtProgress">({min=30}/{max=30})</string>
+  <string name="6izp804wtcgl0-n34_ju03" mz="getRwBtn">领取</string>
+  <string name="6izp804wtcgl0-n37_ju03" mz="timeLeft">双倍倒计时：{value=15:00}</string>
+  <string name="6izp804wtcgl0-n38_ju03" mz="n38">已完成</string>
+  <string name="6izp804wtcgl0-n43_ju03" mz="gotoBtn">前往</string>
+  <string name="6izp804wtcgl0-n36_ju03" mz="n36">2倍</string>
+  <!-- Lottery/LotteryTips.xml -->
+  <string name="6izp804wju03w-n4_ju03" mz="n4">提示</string>
+  <string name="6izp804wju03w-n5_ju03" mz="closeBtn">确定</string>
+  <!-- Mail/Component/MailItem.xml -->
+  <string name="h1wohbjovcwq8-n4_vcwq" mz="titleLb">日常任务奖励</string>
+  <string name="h1wohbjovcwq8-n6_vcwq" mz="endTimeLb">{value=9}天后到期</string>
+  <string name="h1wohbjovcwq8-n8_vcwq" mz="sendTimeLb">刚刚</string>
+  <string name="h1wohbjovcwq8-n13_f34j" mz="getBtn">领取奖励</string>
+  <string name="h1wohbjovcwq8-n16_f34j" mz="n16">已领取</string>
+  <!-- Mail/MailInfo.xml -->
+  <string name="h1wohbjojmb99-n2_jmb9" mz="titleLb">每日任务奖励补发</string>
+  <string name="h1wohbjojmb99-n3_jmb9" mz="n3">各位冒险家：</string>
+  <string name="h1wohbjojmb99-n4_jmb9" mz="contentLb">        您上次的日常任务奖励忘记领取了。现已通关邮件发送，请查收</string>
+  <string name="h1wohbjojmb99-n7_jmb9" mz="getBtn">领取</string>
+  <string name="h1wohbjojmb99-n10_jmb9" mz="endTimeLb">{value=7}天后到期</string>
+  <string name="h1wohbjojmb99-n11_oekv" mz="delBtn1">删除</string>
+  <string name="h1wohbjojmb99-n5_jmb9" mz="n5">获得奖励</string>
+  <string name="h1wohbjojmb99-n15_sylb" mz="delBtn2">删除</string>
+  <!-- Mail/MailMain.xml -->
+  <string name="h1wohbjovcwq7-n1_vcwq" mz="n1">邮件</string>
+  <string name="h1wohbjovcwq7-n8_vcwq" mz="n8">邮箱里空空如也</string>
+  <string name="h1wohbjovcwq7-n4_vcwq" mz="oneKeyDel">一键删除</string>
+  <string name="h1wohbjovcwq7-n5_vcwq" mz="oneKeyGet">一键领取</string>
+  <!-- NoOperation/NoOperation.xml -->
+  <string name="88ncwg57uobv0-n7_uobv" mz="n7">滑动解除省电模式</string>
+  <string name="88ncwg57uobv0-n4_uobv" mz="stageName">关卡名称</string>
+  <string name="88ncwg57uobv0-n6_uobv" mz="n6">正在战斗</string>
+  <!-- Offline/OfflineReward.xml -->
+  <string name="jbbd3ox4ctxhdxy34-n6_ctxh" mz="n6">挂机奖励</string>
+  <string name="jbbd3ox4ctxhdxy34-n6_ctxh-texts_0" mz="n6">挂机奖励</string>
+  <string name="jbbd3ox4ctxhdxy34-n6_ctxh-texts_def" mz="n6">离线奖励</string>
+  <string name="jbbd3ox4ctxhdxy34-n12_ng62" mz="n12">在线时间：</string>
+  <string name="jbbd3ox4ctxhdxy34-n12_ng62-texts_0" mz="n12">在线时间：</string>
+  <string name="jbbd3ox4ctxhdxy34-n12_ng62-texts_def" mz="n12">离线时间：</string>
+  <string name="jbbd3ox4ctxhdxy34-n22_ng62" mz="adGetRw">广告2小时收益</string>
+  <string name="jbbd3ox4ctxhdxy34-n23_ng62" mz="getRw">领取</string>
+  <string name="jbbd3ox4ctxhdxy34-n23_ng62-texts_0" mz="getRw">确认</string>
+  <string name="jbbd3ox4ctxhdxy34-n23_ng62-texts_def" mz="getRw">领取</string>
+  <!-- PVPMap/AthleticsMain.xml -->
+  <string name="zoxecbv2u5mt16-n5_auqc" mz="title">竞技</string>
+  <!-- PVPMap/BuyFightTimes.xml -->
+  <string name="zoxecbv2eh4f30-n13_eh4f" mz="n13">挑战次数购买</string>
+  <string name="zoxecbv2eh4f30-n22_xezf" mz="itemNum">挑战券*{value=2}</string>
+  <string name="zoxecbv2eh4f30-n10_eh4f" mz="moneyBtn">购买</string>
+  <!-- PVPMap/Component/AthleticsItem.xml -->
+  <string name="zoxecbv2u5mt14-n4_u5mt" mz="goBtn">进入</string>
+  <string name="zoxecbv2u5mt14-n7_u5mt" mz="restBtn">休息中</string>
+  <string name="zoxecbv2u5mt14-n6_u5mt" mz="txdy">竞技场</string>
+  <string name="zoxecbv2u5mt14-n9_u5mt" mz="timeLb">{value=00:00:00}</string>
+  <!-- PVPMap/Component/BattleReport.xml -->
+  <string name="zoxecbv2u5mt17-n2_u5mt" mz="title">战报</string>
+  <string name="zoxecbv2u5mt17-n7_xezf" mz="n7">暂无战报</string>
+  <!-- PVPMap/Component/BattleReportItem.xml -->
+  <string name="zoxecbv2u5mt18-n7_u5mt" mz="timeLb">{value=1月10日 22:22:22}</string>
+  <string name="zoxecbv2u5mt18-n6_u5mt" mz="content">{value=[color=#cb7802]小黑[/color]}对你挑战，您获得了胜利。</string>
+  <!-- PVPMap/Component/MyselfItem.xml -->
+  <string name="zoxecbv2u5mt1u-n22_t89j" mz="n22">昨日排名奖励</string>
+  <string name="zoxecbv2u5mt1u-n14_cuae" mz="n14">暂未上榜</string>
+  <string name="zoxecbv2u5mt1u-n7_u5mt" mz="pName">名字123456789</string>
+  <string name="zoxecbv2u5mt1u-n21_coz7" mz="n21">挑战或者占领空位即可进入榜单</string>
+  <string name="zoxecbv2u5mt1u-n3_u5mt" mz="getBtn">领取</string>
+  <string name="zoxecbv2u5mt1u-n3_u5mt-texts_0" mz="getBtn">已领取</string>
+  <string name="zoxecbv2u5mt1u-n3_u5mt-texts_def" mz="getBtn">领取</string>
+  <!-- PVPMap/Component/RankingItem.xml -->
+  <string name="zoxecbv2u5mt1d-n18_u5mt" mz="pName">名字123456789</string>
+  <string name="zoxecbv2u5mt1d-n20_u5mt" mz="fightingCapacity">6.24M</string>
+  <string name="zoxecbv2u5mt1d-n8_u5mt" mz="challengeBtn">挑战</string>
+  <string name="zoxecbv2u5mt1d-n9_u5mt" mz="standCollarBtn">占领</string>
+  <string name="zoxecbv2u5mt1d-n24_pu20" mz="n24">虚位以待</string>
+  <!-- PVPMap/Component/ReportBtn.xml -->
+  <string name="zoxecbv2xezf47-n5_xezf" mz="n5">战报</string>
+  <!-- PVPMap/PVPFight.xml -->
+  <string name="zoxecbv2auqc28-n10_auqc" mz="myNameLb">疯狂的名称</string>
+  <string name="zoxecbv2auqc28-n12_auqc" mz="otherNameLb">疯狂的名称</string>
+  <!-- PVPMap/PVPLose.xml -->
+  <string name="zoxecbv2auqc2d-n8_auqc" mz="closeBtn">确定</string>
+  <string name="zoxecbv2auqc2d-n12_auqc" mz="myNameLb">疯狂帕度</string>
+  <string name="zoxecbv2auqc2d-n13_auqc" mz="enemyNameLb">疯狂帕度</string>
+  <!-- PVPMap/PVPWin.xml -->
+  <string name="zoxecbv2auqc2c-n6_auqc" mz="closeBtn">确定</string>
+  <string name="zoxecbv2auqc2c-n10_auqc" mz="myNameLb">疯狂帕度</string>
+  <string name="zoxecbv2auqc2c-n11_auqc" mz="enemyNameLb">疯狂帕度</string>
+  <!-- PVPMap/RankingListMain.xml -->
+  <string name="zoxecbv2u5mt1b-n13_u5mt" mz="num1Lb">疯狂啪嘟1</string>
+  <string name="zoxecbv2u5mt1b-n14_u5mt" mz="num2Lb">疯狂啪嘟2</string>
+  <string name="zoxecbv2u5mt1b-n15_u5mt" mz="num3Lb">疯狂啪嘟3</string>
+  <string name="zoxecbv2u5mt1b-n35_u5mt" mz="n35">奖励发放</string>
+  <string name="zoxecbv2u5mt1b-n34_u5mt" mz="timeLeft">{value=12小时16分}</string>
+  <string name="zoxecbv2u5mt1b-n26_u5mt" mz="n26">挑战次数</string>
+  <string name="zoxecbv2u5mt1b-n29_u5mt" mz="cntLb">{cur=4}/{max=4}</string>
+  <!-- Passport/Component/AdvanccBuyBtn.xml -->
+  <string name="2pcsnr2kauqc1q-n2_r0ab" mz="moneyLb1">{value=9} 元</string>
+  <string name="2pcsnr2kauqc1q-n3_r0ab" mz="moneyLb2">$ {value=9}</string>
+  <!-- Passport/Component/AdvanceDescItem.xml -->
+  <string name="2pcsnr2kauqc1p-n1_auqc" mz="title">购买后，战斗</string>
+  <!-- Passport/Component/AdvancePassportBtn.xml -->
+  <string name="2pcsnr2kr0ab16-n1_r0ab" mz="n1">购买高级通行证</string>
+  <string name="2pcsnr2kr0ab16-n2_r0ab" mz="moneyLb1">{value=98}元</string>
+  <string name="2pcsnr2kr0ab16-n3_r0ab" mz="moneyLb2">$ {value=98}</string>
+  <!-- Passport/Component/BoxItem.xml -->
+  <string name="2pcsnr2kr0ab2-n8_r0ab" mz="n8">额外奖励</string>
+  <string name="2pcsnr2kr0ab2-n9_r0ab" mz="boxGetLb">{cur=50}/{total=50}</string>
+  <string name="2pcsnr2kr0ab2-n10_r0ab" mz="boxDesc">到达{lv=9}级后，每获得{exp=10}点通行证经验，可以领取一次奖励宝箱，最多{total=50}次。</string>
+  <!-- Passport/Component/LeftTabBtn.xml -->
+  <string name="2pcsnr2kr0abz-n1_r0ab" mz="n1">通行证奖励</string>
+  <!-- Passport/Component/PassBarExp.xml -->
+  <string name="2pcsnr2kxezf2p-n4_rm2c" mz="maxLevel">已满级</string>
+  <!-- Passport/Component/PassportTaskItem.xml -->
+  <string name="2pcsnr2kr0ab4-n2_r0ab" mz="n2">每日任务</string>
+  <string name="2pcsnr2kr0ab4-n2_r0ab-texts_0" mz="n2">每日任务</string>
+  <string name="2pcsnr2kr0ab4-n2_r0ab-texts_1" mz="n2">每周任务</string>
+  <string name="2pcsnr2kr0ab4-n4_r0ab" mz="timeLb">12小时</string>
+  <string name="2pcsnr2kr0ab4-n17_r0ab" mz="getRwBtn">领取</string>
+  <string name="2pcsnr2kr0ab4-n24_xezf" mz="n24">未完成</string>
+  <string name="2pcsnr2kr0ab4-n25_xezf" mz="n25">已领取</string>
+  <string name="2pcsnr2kr0ab4-n5_r0ab" mz="n5">购买高级通行证自动解锁</string>
+  <string name="2pcsnr2kr0ab4-n28_xezf" mz="n28">已完成</string>
+  <!-- Passport/Component/RightTabBtn.xml -->
+  <string name="2pcsnr2kr0ab11-n1_r0ab" mz="n1">任务</string>
+  <!-- Passport/Component/RoleAttrItem.xml -->
+  <string name="2pcsnr2kr0ab1b-n4_ozj9" mz="lvLb">Lv.{value=5}</string>
+  <!-- Passport/Component/TaskBarExp.xml -->
+  <string name="2pcsnr2kxezf2n-n7_xezf" mz="n7">已完成</string>
+  <!-- Passport/Passport.xml -->
+  <string name="2pcsnr2kr0ab0-n42_r0ab" mz="titleLb">通行证名称</string>
+  <string name="2pcsnr2kr0ab0-n40_r0ab" mz="timeLb">5天12小时</string>
+  <!-- Passport/PassportDetail.xml -->
+  <string name="2pcsnr2kauqc1h-n12_auqc" mz="n12">高级战斗通行证</string>
+  <string name="2pcsnr2kauqc1h-n19_auqc" mz="n19">本赛季期间可获得的奖励</string>
+  <string name="2pcsnr2kauqc1h-n22_auqc-0" mz="n22">购买后，战斗通行证立即获得+200经验</string>
+  <string name="2pcsnr2kauqc1h-n22_auqc-1" mz="n22">解锁高级战斗通行证专用奖励</string>
+  <string name="2pcsnr2kauqc1h-n22_auqc-2" mz="n22">解锁高级战斗通行证专用任务</string>
+  <!-- Passport/RolePassportDetail.xml -->
+  <string name="2pcsnr2kr0ab18-n61_ozj9" mz="n61">升级效果</string>
+  <string name="2pcsnr2kr0ab18-n64_ozj9" mz="n64">角色技能</string>
+  <string name="2pcsnr2kr0ab18-n67_ozj9" mz="skillNameLb">技能名称</string>
+  <string name="2pcsnr2kr0ab18-n68_ozj9" mz="skillDesc">这里是描述啊啊这里是描述啊啊这里是描述啊啊这里是描述啊</string>
+  <!-- Pet/Component/Component/InheritReItem.xml -->
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi" mz="desc">回收普通品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_0" mz="desc">回收普通品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_1" mz="desc">回收稀有品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_2" mz="desc">回收史诗品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_3" mz="desc">回收传奇品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_4" mz="desc">回收神话品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_5" mz="desc">回收不朽品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n2_kqmi-texts_def" mz="desc">回收良好品质</string>
+  <string name="lxs2h4ifhz5cdxy7i-n5_kqmi" mz="num">{value=1000}件</string>
+  <!-- Pet/Component/MakeBtn.xml -->
+  <string name="lxs2h4ifllb1dxyc6-n4_hz5c" mz="title">升级</string>
+  <!-- Pet/Component/PetBookItem.xml -->
+  <string name="lxs2h4ifhz5cdxy7a-n6_hz5c" mz="name">技能名称</string>
+  <!-- Pet/Component/PetItem.xml -->
+  <string name="lxs2h4ifhz5cdxy7c-n5_hz5c" mz="n5">已上阵</string>
+  <string name="lxs2h4ifhz5cdxy7c-n9_hz5c" mz="petLv">Lv.{value=11}</string>
+  <string name="lxs2h4ifhz5cdxy7c-n12_z11v" mz="n12">已驻扎</string>
+  <!-- Pet/Component/PetQualityLb.xml -->
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c" mz="title">普通</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_0" mz="title">良好</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_1" mz="title">稀有</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_2" mz="title">史诗</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_3" mz="title">传说</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_4" mz="title">神话</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_5" mz="title">不朽</string>
+  <string name="lxs2h4ifhz5cdxy7d-n1_hz5c-texts_def" mz="title">普通</string>
+  <!-- Pet/Component/PetSkillBtn.xml -->
+  <string name="lxs2h4ifhz5cdxy78-n6_jn60" mz="num">Lv.{value=123}</string>
+  <!-- Pet/Component/PetSkillTips.xml -->
+  <string name="lxs2h4ifhz5cdxy7f-n4_hz5c" mz="n4">天赋详情</string>
+  <string name="lxs2h4ifhz5cdxy7f-n4_hz5c-texts_0" mz="n4">技能书详情</string>
+  <string name="lxs2h4ifhz5cdxy7f-n4_hz5c-texts_def" mz="n4">天赋详情</string>
+  <string name="lxs2h4ifhz5cdxy7f-n7_hz5c" mz="skillName">尖锐音波</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c" mz="skillType">伤害型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c-texts_0" mz="skillType">伤害型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c-texts_1" mz="skillType">防御型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c-texts_2" mz="skillType">回复型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c-texts_3" mz="skillType">辅助型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n8_hz5c-texts_4" mz="skillType">恢复型</string>
+  <string name="lxs2h4ifhz5cdxy7f-n11_hz5c" mz="skillDesc">技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述</string>
+  <!-- Pet/Component/PetTalentItem.xml -->
+  <string name="lxs2h4ifhz5cdxy79-n7_hz5c" mz="talentName">天赋名称</string>
+  <!-- Pet/Component/PetUpLoadItem.xml -->
+  <string name="lxs2h4ifoo1wp-n19_hz5c" mz="petName">宠物名称</string>
+  <!-- Pet/Component/RecyclePetBtn.xml -->
+  <string name="lxs2h4ifllb1dxyc7-n4_llb1" mz="title">回收</string>
+  <string name="lxs2h4ifllb1dxyc7-n6_llb1" mz="num">+{value=20}</string>
+  <!-- Pet/Component/TalentItem.xml -->
+  <string name="lxs2h4ifhz5cdxy7s-n1_hz5c" mz="talentName">尖锐音波</string>
+  <string name="lxs2h4ifhz5cdxy7s-n2_hz5c" mz="talentdesc">发出音波攻击，造成[color=#48A542]{value=10000}[/color]点伤害。</string>
+  <!-- Pet/Component/Type.xml -->
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c" mz="title">伤害型</string>
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c-texts_0" mz="title">伤害型</string>
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c-texts_1" mz="title">辅助型</string>
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c-texts_2" mz="title">回复型</string>
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c-texts_3" mz="title">防御型</string>
+  <string name="lxs2h4ifhz5cdxy77-n1_hz5c-texts_4" mz="title">恢复型</string>
+  <!-- Pet/Component/makeBtnAni.xml -->
+  <string name="lxs2h4ifllb1dxyc4-n0_llb1" mz="makeBtn">开槽</string>
+  <!-- Pet/PetDetail.xml -->
+  <string name="lxs2h4ifk6272k-n31_hz5c" mz="n31">宠物详情</string>
+  <string name="lxs2h4ifk6272k-n36_hz5c" mz="petName">幻影猫</string>
+  <string name="lxs2h4ifk6272k-n58_hz5c" mz="gorwValue">成长率:{value=1.97}</string>
+  <string name="lxs2h4ifk6272k-n59_hz5c" mz="inherit">属性继承:{value=89}%</string>
+  <string name="lxs2h4ifk6272k-n41_hz5c" mz="skillName">尖锐音波</string>
+  <string name="lxs2h4ifk6272k-n70_jsfx" mz="skillDesc">发出音波攻击，造成[color=#48A542]{value=10000}[/color]点伤害。</string>
+  <string name="lxs2h4ifk6272k-n45_hz5c" mz="n45">宠物天赋</string>
+  <string name="lxs2h4ifk6272k-n83_5rox" mz="TalentUnlockText">解锁描述</string>
+  <string name="lxs2h4ifk6272k-n47_hz5c" mz="n47">宠物技能书</string>
+  <string name="lxs2h4ifk6272k-n86_5rox" mz="SkillBookUnlockText">解锁描述</string>
+  <string name="lxs2h4ifk6272k-n78_llb1" mz="recyclePetBtn">回收</string>
+  <string name="lxs2h4ifk6272k-n73_ucd4" mz="downBtn">卸下</string>
+  <string name="lxs2h4ifk6272k-n74_ucd4" mz="uploadBtn">装备</string>
+  <string name="lxs2h4ifk6272k-n75_ucd4" mz="replaceBtn">替换</string>
+  <string name="lxs2h4ifk6272k-n76_ucd4" mz="getBtn">获取</string>
+  <!-- Pet/PetRecycle.xml -->
+  <string name="lxs2h4ifhz5cdxy7g-n2_kqmi" mz="n2">回收</string>
+  <string name="lxs2h4ifhz5cdxy7g-n7_kqmi" mz="n7">回收</string>
+  <string name="lxs2h4ifhz5cdxy7g-n16_ucd4" mz="recycleBtn">一键回收</string>
+  <string name="lxs2h4ifhz5cdxy7g-n17_ucd4" mz="recycleBtn2">一键回收</string>
+  <!-- Pet/PetStrength.xml -->
+  <string name="lxs2h4ifk6272y-n10_f34j" mz="n10">强化</string>
+  <string name="lxs2h4ifk6272y-n3_k627" mz="closeBtn">确认</string>
+  <!-- Pet/PetSystem.xml -->
+  <string name="lxs2h4ifs4440-n1_ozj9-0" mz="tabList">详情</string>
+  <string name="lxs2h4ifs4440-n1_ozj9-1" mz="tabList">上阵</string>
+  <string name="lxs2h4ifs4440-n1_ozj9-2" mz="tabList">天赋</string>
+  <string name="lxs2h4ifs4440-n1_ozj9-3" mz="tabList">宠物书</string>
+  <!-- Pet/PetSystemBattle.xml -->
+  <string name="lxs2h4ifs444d-n69_jsfx" mz="n69">宠物列表</string>
+  <string name="lxs2h4ifs444d-n71_ucd4" mz="recycleBtn">一键回收</string>
+  <!-- Pet/PetSystemBook.xml -->
+  <string name="lxs2h4ifs444f-n8_hz5c" mz="name">尖锐音波</string>
+  <string name="lxs2h4ifs444f-n9_hz5c" mz="desc">发出音波攻击，造成[color=#48A542]{value=10000}[/color]点伤害。</string>
+  <string name="lxs2h4ifs444f-n15_hz5c" mz="makeBtn">开槽</string>
+  <string name="lxs2h4ifs444f-n34_ucd4" mz="openBookBtn">打书</string>
+  <string name="lxs2h4ifs444f-n34_ucd4-texts_0" mz="openBookBtn">上阵</string>
+  <string name="lxs2h4ifs444f-n34_ucd4-texts_def" mz="openBookBtn">打书</string>
+  <string name="lxs2h4ifs444f-n20_hz5c" mz="n20">已上阵</string>
+  <string name="lxs2h4ifs444f-n26_hz5c" mz="n26">请先上阵宠物</string>
+  <!-- Pet/PetSystemDetail.xml -->
+  <string name="lxs2h4ifs444c-n37_hz5c" mz="n37">属性</string>
+  <string name="lxs2h4ifs444c-n40_hz5c" mz="n40">技能</string>
+  <string name="lxs2h4ifs444c-n50_hz5c" mz="skillName">尖锐音波</string>
+  <string name="lxs2h4ifs444c-n52_hz5c" mz="skillDesc">造成[color=#48A542]{value=10000}[/color]点伤害</string>
+  <string name="lxs2h4ifs444c-n53_hz5c" mz="strongBtn">强化</string>
+  <string name="lxs2h4ifs444c-n72_hz5c" mz="petName">拳击兔</string>
+  <string name="lxs2h4ifs444c-n73_hz5c" mz="petLv">Lv.{value=290}</string>
+  <string name="lxs2h4ifs444c-n57_hz5c" mz="n57">宠物天赋</string>
+  <string name="lxs2h4ifs444c-n85_hz5c" mz="n85">请先上阵宠物</string>
+  <string name="lxs2h4ifs444c-n119_5rox" mz="TalentUnlockText">解锁描述</string>
+  <string name="lxs2h4ifs444c-n61_hz5c" mz="n61">宠物技能书</string>
+  <string name="lxs2h4ifs444c-n84_hz5c" mz="n84">请先上阵宠物</string>
+  <string name="lxs2h4ifs444c-n120_5rox" mz="SkillBookUnlockText">解锁描述</string>
+  <string name="lxs2h4ifs444c-n67_hz5c" mz="n67">已上阵</string>
+  <string name="lxs2h4ifs444c-n83_hz5c" mz="n83">请先上阵宠物</string>
+  <!-- Pet/PetSystemTalent.xml -->
+  <string name="lxs2h4ifs444e-n11_hz5c" mz="n11">已上阵</string>
+  <string name="lxs2h4ifs444e-n19_hz5c" mz="n19">请先上阵宠物</string>
+  <string name="lxs2h4ifs444e-n7_hz5c" mz="talentBtn">洗练天赋</string>
+  <!-- RoleMain/Component/ActivateBtn.xml -->
+  <string name="m37flevdp9n0dxy9c-n4_p9n0" mz="title">激活</string>
+  <!-- RoleMain/Component/HelpItem.xml -->
+  <string name="m37flevdozj91w-n3_ozj9" mz="title">这里是帮助这里是帮助这里是帮助这里是帮助这里是帮助这里是帮助</string>
+  <!-- RoleMain/Component/HeroBarExp.xml -->
+  <string name="m37flevducd4dxydd-n5_ucd4" mz="maxLevel">已满级</string>
+  <!-- RoleMain/Component/HolyItem.xml -->
+  <string name="m37flevda2kwdxyb1-n8_a2kw" mz="level">Lv.{value=1}</string>
+  <string name="m37flevda2kwdxyb1-n5_a2kw" mz="n5">已装备</string>
+  <!-- RoleMain/Component/RecycleBtn.xml -->
+  <string name="m37flevdph24dxy6z-n1_ph24" mz="n1">回收</string>
+  <!-- RoleMain/Component/ResetBtn.xml -->
+  <string name="m37flevdp9n0dxy7e-n5_p9n0" mz="title">重置</string>
+  <!-- RoleMain/Component/RoleAttrItem.xml -->
+  <string name="m37flevdozj91b-n4_ozj9" mz="lvLb">Lv.{value=500}</string>
+  <!-- RoleMain/Component/RoleCurrency.xml -->
+  <string name="m37flevducd4dxyde-n0_ucd4" mz="txtValue">99.99K</string>
+  <!-- RoleMain/Component/RoleOptAniBtn.xml -->
+  <string name="m37flevddr5adxy6a-n0_dr5a" mz="levelUpBtn">升级</string>
+  <!-- RoleMain/Component/RoleOptBtn.xml -->
+  <string name="m37flevdozj91t-n1_ozj9" mz="title">突破</string>
+  <string name="m37flevdozj91t-n3_ozj9" mz="itemCnt">{cur=900}/{need=1}</string>
+  <!-- RoleMain/Component/RoleSelectBottom.xml -->
+  <string name="m37flevdrm2cdxy6c-n17_p9n0" mz="n17">上阵</string>
+  <string name="m37flevdrm2cdxy6c-n22_p9n0" mz="n22">获得</string>
+  <string name="m37flevdrm2cdxy6c-n25_p9n0" mz="n25">合成</string>
+  <string name="m37flevdrm2cdxy6c-n27_p9n0" mz="n27">突破</string>
+  <!-- RoleMain/Component/RuneDetailItem.xml -->
+  <string name="m37flevdeau0dxy6x-n5_eau0" mz="n5">未装备</string>
+  <string name="m37flevdeau0dxy6x-n1_eau0" mz="runeName">怒涛符石</string>
+  <string name="m37flevdeau0dxy6x-n2_eau0" mz="runeDesc">【{skillName=怒海狂徒}】伤害次数增加{value=999}次</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0" mz="n6">普通</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_0" mz="n6">普通</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_1" mz="n6">良好</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_2" mz="n6">史诗</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_3" mz="n6">传说</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_4" mz="n6">神话</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_5" mz="n6">不朽</string>
+  <string name="m37flevdeau0dxy6x-n6_eau0-texts_def" mz="n6">稀有</string>
+  <!-- RoleMain/Component/TalentBigItem.xml -->
+  <string name="m37flevdllb1dxyfn-n6_llb1" mz="Lv">{cur=11}/{max=100}</string>
+  <string name="m37flevdllb1dxyfn-n7_llb1" mz="n7">最高等级</string>
+  <string name="m37flevdllb1dxyfn-n8_llb1" mz="n8">可激活</string>
+  <!-- RoleMain/Component/TalentMiddleItem.xml -->
+  <string name="m37flevdllb1dxyfm-n6_llb1" mz="n6">可激活</string>
+  <string name="m37flevdllb1dxyfm-n7_llb1" mz="n7">最高等级</string>
+  <string name="m37flevdllb1dxyfm-n8_llb1" mz="Lv">{cur=11}/{max=100}</string>
+  <!-- RoleMain/Component/TalentSelect.xml -->
+  <string name="m37flevdp9n0dxy94-n3_p9n0-0" mz="btnList">伤害</string>
+  <string name="m37flevdp9n0dxy94-n3_p9n0-1" mz="btnList">防御</string>
+  <string name="m37flevdp9n0dxy94-n3_p9n0-2" mz="btnList">辅助</string>
+  <!-- RoleMain/Component/TalentSmallItem.xml -->
+  <string name="m37flevdllb1dxyfl-n9_llb1" mz="Lv">{cur=11}/{max=100}</string>
+  <string name="m37flevdllb1dxyfl-n7_llb1" mz="n7">可激活</string>
+  <string name="m37flevdllb1dxyfl-n8_llb1" mz="n8">最高等级</string>
+  <!-- RoleMain/Component/TalentTypeBtn.xml -->
+  <string name="m37flevdp9n0dxy7d-n4_p9n0" mz="title">辅助</string>
+  <!-- RoleMain/Component/skillAttrLb.xml -->
+  <string name="m37flevda2kwdxyan-n0_a2kw" mz="pContent">{name=技能伤害}：[color=#B8DF13]{value=20}%[/color]</string>
+  <!-- RoleMain/HolyMain.xml -->
+  <string name="m37flevda2kwdxyao-n3_a2kw" mz="n3">圣物列表</string>
+  <string name="m37flevda2kwdxyao-n47_mqvf" mz="holyName">神圣药剂</string>
+  <string name="m37flevda2kwdxyao-n9_a2kw" mz="curLv">LV.{value=1}</string>
+  <string name="m37flevda2kwdxyao-n10_a2kw" mz="curDesc">减少怪物的暴击率{value=1}%</string>
+  <string name="m37flevda2kwdxyao-n11_a2kw" mz="nextLv">LV.{value=2}</string>
+  <string name="m37flevda2kwdxyao-n12_a2kw" mz="nextDesc">减少怪物的暴击率{value=5}%</string>
+  <string name="m37flevda2kwdxyao-n25_a2kw" mz="maxLv">LV.{value=10}</string>
+  <string name="m37flevda2kwdxyao-n26_a2kw" mz="maxDesc">减少怪物的暴击率{value=5}%</string>
+  <string name="m37flevda2kwdxyao-n13_a2kw" mz="strongBtn">强化</string>
+  <string name="m37flevda2kwdxyao-n14_a2kw" mz="downBtn">卸下</string>
+  <string name="m37flevda2kwdxyao-n15_a2kw" mz="maxBtn">已满级</string>
+  <string name="m37flevda2kwdxyao-n16_a2kw" mz="upBtn">装备</string>
+  <string name="m37flevda2kwdxyao-n17_a2kw" mz="replaceBtn">替换</string>
+  <string name="m37flevda2kwdxyao-n18_a2kw" mz="noBtn">未获取</string>
+  <!-- RoleMain/PetDetail.xml -->
+  <string name="m37flevdhz5cdxy9e-n6_k627" mz="petName">幻影猫</string>
+  <string name="m37flevdhz5cdxy9e-n7_k627" mz="petLv">Lv.{value=300}</string>
+  <string name="m37flevdhz5cdxy9e-n9_k627" mz="jcLb">继承属性：[color=#25972d]{value=150}%[/color]</string>
+  <string name="m37flevdhz5cdxy9e-n11_k627" mz="atkSpeed">攻速：[color=#25972d]{value=1.0}[/color]</string>
+  <string name="m37flevdhz5cdxy9e-n14_k627" mz="n14">佩戴属性</string>
+  <string name="m37flevdhz5cdxy9e-n15_k627" mz="n15">全局属性</string>
+  <string name="m37flevdhz5cdxy9e-n25_k627" mz="n25">宠物详情</string>
+  <string name="m37flevdhz5cdxy9e-n18_k627" mz="downBtn">卸下</string>
+  <string name="m37flevdhz5cdxy9e-n23_k627" mz="replaceBtn">替换</string>
+  <string name="m37flevdhz5cdxy9e-n28_k627" mz="uploadBtn">装备</string>
+  <string name="m37flevdhz5cdxy9e-n24_k627" mz="getBtn">获取</string>
+  <!-- RoleMain/PetMain.xml -->
+  <string name="m37flevdozj926-n33_k627" mz="allStrengthBtn">批量强化</string>
+  <string name="m37flevdozj926-n34_k627" mz="n34">加成效果：</string>
+  <string name="m37flevdozj926-n36_k627" mz="atkLb">攻击+{value=15000}%</string>
+  <string name="m37flevdozj926-n37_k627" mz="hpLb">生命+{value=150000}%</string>
+  <!-- RoleMain/PetStrength.xml -->
+  <string name="m37flevdhz5cdxy9f-n3_k627" mz="closeBtn">确认</string>
+  <!-- RoleMain/RoleBreak.xml -->
+  <string name="m37flevdozj91o-n4_ozj9" mz="closeBtn">确定</string>
+  <!-- RoleMain/RoleGet.xml -->
+  <string name="m37flevdrm2cdxy6k-n4_ozj9" mz="closeBtn">确定</string>
+  <string name="m37flevdrm2cdxy6k-n7_rm2c" mz="n7">恭喜获得</string>
+  <!-- RoleMain/RoleHelp.xml -->
+  <string name="m37flevdozj91v-n3_ozj9-0" mz="helpList">奶酪在家园玩法中产出，主线关卡也会掉落</string>
+  <string name="m37flevdozj91v-n3_ozj9-1" mz="helpList">奶酪可以用于升级英雄</string>
+  <string name="m37flevdozj91v-n3_ozj9-2" mz="helpList">英雄突破消耗道具：帝王蟹与同名英雄碎片</string>
+  <string name="m37flevdozj91v-n3_ozj9-3" mz="helpList">每次突破提升20级等级上限，突破梯度：星星、月亮、太阳、皇冠</string>
+  <string name="m37flevdozj91v-n6_ozj9" mz="n6">帮助</string>
+  <!-- RoleMain/RoleLevelUpGet.xml -->
+  <string name="m37flevdrm2cdxy6o-n4_ozj9" mz="closeBtn">确定</string>
+  <string name="m37flevdrm2cdxy6o-n7_rm2c" mz="n7">升级解锁</string>
+  <!-- RoleMain/RoleMain.xml -->
+  <string name="m37flevdozj9f-n48_ddc1" mz="roleLv">等级{value=100}</string>
+  <string name="m37flevdozj9f-n61_ozj9" mz="n61">升级效果</string>
+  <string name="m37flevdozj9f-n84_p9n0" mz="n84">技能</string>
+  <string name="m37flevdozj9f-n85_p9n0" mz="n85">普攻</string>
+  <string name="m37flevdozj9f-n86_p9n0" mz="n86">被动</string>
+  <string name="m37flevdozj9f-n96_p9n0" mz="desc">发出音波攻击，造成[color=#FCE76F]{value=10000}[/color]点伤害</string>
+  <string name="m37flevdozj9f-n70_ozj9" mz="upLevelBtn">强化</string>
+  <!-- RoleMain/RoleSelect.xml -->
+  <string name="m37flevdozj91p-n98_ozj9" mz="n98">尚未拥有此角色</string>
+  <string name="m37flevdozj91p-n48_ddc1" mz="roleLv">等级{value=120}</string>
+  <string name="m37flevdozj91p-n61_ozj9" mz="n61">升级效果</string>
+  <string name="m37flevdozj91p-n64_ozj9" mz="n64">角色技能</string>
+  <string name="m37flevdozj91p-n122_p9n0" mz="skillLv">Lv.{cur=10}</string>
+  <string name="m37flevdozj91p-n67_ozj9" mz="skillNameLb">尖锐音波</string>
+  <string name="m37flevdozj91p-n68_ozj9" mz="skillDesc">这里是描述啊啊这里是描述啊啊</string>
+  <string name="m37flevdozj91p-n119_p9n0" mz="strongBtn">强化</string>
+  <!-- RoleMain/RoleSystem.xml -->
+  <string name="m37flevdozj91z-n1_ozj9-0" mz="tabList">角色</string>
+  <string name="m37flevdozj91z-n1_ozj9-1" mz="tabList">技能</string>
+  <string name="m37flevdozj91z-n1_ozj9-2" mz="tabList">天赋</string>
+  <string name="m37flevdozj91z-n1_ozj9-3" mz="tabList">圣物</string>
+  <!-- RoleMain/RoleToBreak.xml -->
+  <string name="m37flevdrm2cdxy6q-n15_llb1" mz="n15">角色突破</string>
+  <string name="m37flevdrm2cdxy6q-n6_rm2c" mz="n6">等级上限</string>
+  <string name="m37flevdrm2cdxy6q-n8_rm2c" mz="curLb">Lv.{value=100}</string>
+  <string name="m37flevdrm2cdxy6q-n7_rm2c" mz="nextLb">Lv.{value=160}</string>
+  <string name="m37flevdrm2cdxy6q-n23_llb1" mz="n23">属性提升</string>
+  <string name="m37flevdrm2cdxy6q-n24_llb1" mz="attrName">生命上限:</string>
+  <string name="m37flevdrm2cdxy6q-n13_rm2c" mz="attrValue">+{value=100}%</string>
+  <string name="m37flevdrm2cdxy6q-n11_rm2c" mz="breakBtn">突破</string>
+  <!-- RoleMain/RuneDetail.xml -->
+  <string name="m37flevdph24dxy6y-n6_k627" mz="runeName">幻影猫</string>
+  <string name="m37flevdph24dxy6y-n14_k627" mz="skillDesc">【{skillName=雷霆万钧}】伤害次数增加{value=99}次</string>
+  <string name="m37flevdph24dxy6y-n18_k627" mz="downBtn">卸下</string>
+  <string name="m37flevdph24dxy6y-n23_k627" mz="replaceBtn">替换</string>
+  <string name="m37flevdph24dxy6y-n28_k627" mz="uploadBtn">装备</string>
+  <string name="m37flevdph24dxy6y-n24_k627" mz="RecycleBtn">回收</string>
+  <string name="m37flevdph24dxy6y-n25_k627" mz="n25">符石详情</string>
+  <!-- RoleMain/RuneMain.xml -->
+  <string name="m37flevdeau0dxy6r-n33_k627" mz="recycleBtn">回收符石</string>
+  <!-- RoleMain/RuneRecyle.xml -->
+  <string name="m37flevdph24dxy70-n3_ph24" mz="n3">符石伤害次数低于</string>
+  <string name="m37flevdph24dxy70-n10_ph24" mz="recyleBtn">回收</string>
+  <!-- RoleMain/SkillDetail.xml -->
+  <string name="m37flevdrm2cdxy6h-n26_rm2c" mz="n26">技能详情</string>
+  <string name="m37flevdrm2cdxy6h-n9_rm2c" mz="cdLb">{value=15}秒</string>
+  <string name="m37flevdrm2cdxy6h-n6_rm2c" mz="skillName">幻影猫</string>
+  <string name="m37flevdrm2cdxy6h-n7_rm2c" mz="skillLv">LV.{value=300}</string>
+  <string name="m37flevdrm2cdxy6h-n13_rm2c" mz="n13">佩戴属性</string>
+  <string name="m37flevdrm2cdxy6h-n18_rm2c" mz="n18">全局属性</string>
+  <string name="m37flevdrm2cdxy6h-n22_rm2c" mz="downBtn">卸下</string>
+  <string name="m37flevdrm2cdxy6h-n23_rm2c" mz="replaceBtn">替换</string>
+  <string name="m37flevdrm2cdxy6h-n24_rm2c" mz="uploadBtn">装备</string>
+  <string name="m37flevdrm2cdxy6h-n25_rm2c" mz="getBtn">获取</string>
+  <!-- RoleMain/SkillMain.xml -->
+  <string name="m37flevdcjbedxy6b-n58_f34j" mz="n58">技能列表</string>
+  <string name="m37flevdcjbedxy6b-n33_k627" mz="allStrengthBtn">批量强化</string>
+  <string name="m37flevdcjbedxy6b-n34_k627" mz="n34">加成效果：</string>
+  <string name="m37flevdcjbedxy6b-n36_k627" mz="atkLb">技能伤害+{value=15000}%</string>
+  <!-- RoleMain/TalentMain.xml -->
+  <string name="m37flevdp9n0dxy7b-n64_llb1" mz="name">天赋名称</string>
+  <string name="m37flevdp9n0dxy7b-n1_p9n0" mz="desc">天赋描述123456789</string>
+  <string name="m37flevdp9n0dxy7b-n34_p9n0" mz="resetBtn">重置</string>
+  <string name="m37flevdp9n0dxy7b-n39_p9n0" mz="upLvBtn">升级</string>
+  <string name="m37flevdp9n0dxy7b-n48_p9n0" mz="activateBtn">激活</string>
+  <string name="m37flevdp9n0dxy7b-n49_p9n0" mz="maxBtn">已满级</string>
+  <!-- Setting/Component/HeadIcon.xml -->
+  <string name="zs0w02qtbaxf10-n15_f34j" mz="n15">使用中</string>
+  <!-- Setting/Component/HeadIconChange.xml -->
+  <string name="zs0w02qtbaxfx-n2_baxf" mz="n2">更换头像</string>
+  <string name="zs0w02qtbaxfx-n4_baxf" mz="changeBtn">使用</string>
+  <!-- Setting/Component/LangComboBox.xml -->
+  <string name="zs0w02qtogek13-n3_ogek" mz="title">选择语言</string>
+  <!-- Setting/Component/ServerItem.xml -->
+  <string name="zs0w02qtq36tq-n0_q36t" mz="serverName">服务器列表项</string>
+  <!-- Setting/ExchangeCode.xml -->
+  <string name="zs0w02qtqt85j-n5_qt85" mz="exchangeBtn">兑换</string>
+  <string name="zs0w02qtqt85j-n6_qt85" mz="n6">礼包码</string>
+  <string name="zs0w02qtqt85j-n7_qt85-prompt" mz="ipt">请输入礼包码</string>
+  <!-- Setting/PlayerNameEdit.xml -->
+  <string name="zs0w02qtqt85k-n6_qt85" mz="n6">修改</string>
+  <string name="zs0w02qtqt85k-n7_qt85-prompt" mz="ipt">可输入2-8个字，只能输入汉字，英文，数字</string>
+  <string name="zs0w02qtqt85k-n9_qt85" mz="tips">*不符合命名规则，需要修改名称</string>
+  <string name="zs0w02qtqt85k-n5_qt85" mz="freeBtn">免费</string>
+  <string name="zs0w02qtqt85k-n11_q36t" mz="moneyBtn">购买</string>
+  <!-- Setting/ProblemEdit.xml -->
+  <string name="zs0w02qtqt85l-n5_qt85" mz="commitBtn">确认</string>
+  <string name="zs0w02qtqt85l-n6_qt85" mz="n6">问题反馈</string>
+  <string name="zs0w02qtqt85l-n7_qt85-prompt" mz="ipt">请输入问题</string>
+  <string name="zs0w02qtqt85l-n9_qt85" mz="n9">很抱歉给你带来不便，你可以把问题写在下面（最多200字）</string>
+  <!-- Setting/ServerSelect.xml -->
+  <string name="zs0w02qtq36tp-n6_qt85" mz="n6">选择服务器</string>
+  <string name="zs0w02qtq36tp-n11_q36t" mz="changeSerBtn">切换服务器</string>
+  <!-- Setting/SettingMain.xml -->
+  <string name="zs0w02qtffpwd-n1_ffpw" mz="n1">个人信息</string>
+  <string name="zs0w02qtffpwd-n63_f34j" mz="n63">ID</string>
+  <string name="zs0w02qtffpwd-n8_ffpw" mz="playerNameLb">游戏名字</string>
+  <string name="zs0w02qtffpwd-n33_qt85" mz="n33">UID</string>
+  <string name="zs0w02qtffpwd-n36_qt85" mz="n36">服务器</string>
+  <string name="zs0w02qtffpwd-n24_ffpw" mz="n24">音乐</string>
+  <string name="zs0w02qtffpwd-n25_ffpw" mz="n25">音效</string>
+  <string name="zs0w02qtffpwd-n19_ffpw" mz="problemBtn">问题反馈</string>
+  <string name="zs0w02qtffpwd-n20_ffpw" mz="selectServerBtn">选择服务器</string>
+  <string name="zs0w02qtffpwd-n21_ffpw" mz="exchangeCodeBtn">兑换码</string>
+  <string name="zs0w02qtffpwd-n22_ffpw" mz="gameAnnounceBtn">游戏公告</string>
+  <string name="zs0w02qtffpwd-n26_ffpw" mz="appVersionLb">版本号:{value=1.0.0}</string>
+  <string name="zs0w02qtffpwd-n78_ibdz" mz="txtRecord">备案号  闽ICP备2025092450号-3A</string>
+  <string name="zs0w02qtffpwd-n81_ibdz" mz="btnRecord">查看</string>
+  <string name="zs0w02qtffpwd-n82_ibdz" mz="linkLb">[color=#FFBF43]&lt;a href='event:userTips'&gt;《用户协议》&lt;/a&gt;[/color]和&lt;a href='event:PrivacyTips'&gt;[color=#FFBF43]《隐私政策》&lt;/a&gt;[/color]
+</string>
+  <string name="zs0w02qtffpwd-n56_gssc" mz="n56">拥有英雄即可解锁对应头像</string>
+  <string name="zs0w02qtffpwd-n57_gssc" mz="useBtn">使用</string>
+  <!-- SevenDay/Component/SevenBigItem.xml -->
+  <string name="1tqiwa7amg7g8-n2_mg7g" mz="n1">第7天</string>
+  <string name="1tqiwa7amg7g8-n9_ucd4" mz="n9">领取</string>
+  <!-- SevenDay/Component/SevenItem.xml -->
+  <string name="1tqiwa7amg7g7-n5_mg7g" mz="n3">第1天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_0" mz="n3">第1天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_1" mz="n3">第2天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_2" mz="n3">第3天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_3" mz="n3">第4天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_4" mz="n3">第5天</string>
+  <string name="1tqiwa7amg7g7-n5_mg7g-texts_5" mz="n3">第6天</string>
+  <string name="1tqiwa7amg7g7-n10_ucd4" mz="n10">领取</string>
+  <!-- SevenDay/SevenDay.xml -->
+  <string name="1tqiwa7amg7g6-n9_ucd4" mz="n9">七日签到</string>
+  <string name="1tqiwa7amg7g6-n6_tcgl" mz="timeLeft">下次签到时间：[color=#76a409]{value=12:00:00}[/color]</string>
+  <!-- Shop/Component/TabBtn.xml -->
+  <string name="nmzfxo89ftc96-n1_p4bn" mz="title">属性</string>
+  <!-- Shop/Component/dailyTHItem.xml -->
+  <string name="nmzfxo89ftc9c-n1_ftc9" mz="dailyTitle">每日特惠1元礼包</string>
+  <string name="nmzfxo89ftc9c-n2_ftc9" mz="limitLb">限购{cur=0}/{total=2}</string>
+  <string name="nmzfxo89ftc9c-n5_ftc9" mz="getRwBtn">已领取</string>
+  <string name="nmzfxo89ftc9c-n5_ftc9-texts_0" mz="getRwBtn">领取奖励</string>
+  <string name="nmzfxo89ftc9c-n5_ftc9-texts_1" mz="getRwBtn">已领取</string>
+  <string name="nmzfxo89ftc9c-n5_ftc9-texts_def" mz="getRwBtn">领取</string>
+  <!-- Shop/Component/dailyTHItemAll.xml -->
+  <string name="nmzfxo89ftc9y-n1_ftc9" mz="titlelb">60元连买7日</string>
+  <string name="nmzfxo89ftc9y-n2_ftc9" mz="limitLb">限购{cur=0}/{total=1}</string>
+  <string name="nmzfxo89ftc9y-n5_ftc9" mz="getRwBtn">已领取</string>
+  <string name="nmzfxo89ftc9y-n5_ftc9-texts_0" mz="getRwBtn">领取奖励</string>
+  <string name="nmzfxo89ftc9y-n5_ftc9-texts_1" mz="getRwBtn">已领取</string>
+  <string name="nmzfxo89ftc9y-n5_ftc9-texts_def" mz="getRwBtn">领取</string>
+  <string name="nmzfxo89ftc9y-n8_ftc9" mz="n8">连续7日领取下方礼包与天天好礼</string>
+  <!-- Shop/Component/fengkuangBuyBtn.xml -->
+  <string name="nmzfxo89ftc9x-n5_ftc9" mz="moneyLb1">{value=9} 元</string>
+  <string name="nmzfxo89ftc9x-n6_ftc9" mz="moneyLb2">$ {value=9}</string>
+  <!-- Shop/Component/fengkuangItem.xml -->
+  <string name="nmzfxo89plioz-n3_plio" mz="title">解锁{value=星光湖1-1}</string>
+  <!-- Shop/Component/fengkuangTH.xml -->
+  <string name="nmzfxo89plio15-n3_plio-0" mz="titleList">第一章</string>
+  <string name="nmzfxo89plio15-n3_plio-1" mz="titleList">第二章</string>
+  <string name="nmzfxo89plio15-n3_plio-2" mz="titleList">第三章</string>
+  <!-- Shop/Component/fkTabBtn.xml -->
+  <string name="nmzfxo89plio12-n4_plio" mz="title1">第一章</string>
+  <string name="nmzfxo89plio12-n4_plio-texts_0" mz="title1">第一章</string>
+  <string name="nmzfxo89plio12-n4_plio-texts_1" mz="title1">第二章</string>
+  <string name="nmzfxo89plio12-n4_plio-texts_def" mz="title1">第三章</string>
+  <string name="nmzfxo89plio12-n6_plio" mz="title2">第一章</string>
+  <string name="nmzfxo89plio12-n6_plio-texts_0" mz="title2">第二章</string>
+  <string name="nmzfxo89plio12-n6_plio-texts_1" mz="title2">第三章</string>
+  <string name="nmzfxo89plio12-n6_plio-texts_def" mz="title2">第一章</string>
+  <!-- Shop/Component/tqTHItem.xml -->
+  <string name="nmzfxo89ftc9m-n4_ftc9" mz="n4">每日领取</string>
+  <string name="nmzfxo89ftc9m-n9_ftc9" mz="getRwBtn">领取</string>
+  <string name="nmzfxo89ftc9m-n9_ftc9-texts_0" mz="getRwBtn">领取奖励</string>
+  <string name="nmzfxo89ftc9m-n9_ftc9-texts_1" mz="getRwBtn">今日已领取</string>
+  <string name="nmzfxo89ftc9m-n9_ftc9-texts_def" mz="getRwBtn">领取</string>
+  <!-- Shop/Component/tthlTHItem.xml -->
+  <string name="nmzfxo89ftc9j-n2_ftc9" mz="ttTitle">累计充值1天</string>
+  <string name="nmzfxo89ftc9j-n3_ftc9" mz="dayTitle">未达成充值天数</string>
+  <string name="nmzfxo89ftc9j-n3_ftc9-texts_0" mz="dayTitle">{cur=2}/{total=3}天</string>
+  <string name="nmzfxo89ftc9j-n3_ftc9-texts_1" mz="dayTitle">已达成</string>
+  <string name="nmzfxo89ftc9j-n3_ftc9-texts_def" mz="dayTitle">未达成充值天数</string>
+  <string name="nmzfxo89ftc9j-n4_ftc9" mz="gotoBtn">前往</string>
+  <string name="nmzfxo89ftc9j-n6_ftc9" mz="getRwBtn">领取</string>
+  <string name="nmzfxo89ftc9j-n6_ftc9-texts_0" mz="getRwBtn">领取奖励</string>
+  <string name="nmzfxo89ftc9j-n6_ftc9-texts_1" mz="getRwBtn">已领取</string>
+  <string name="nmzfxo89ftc9j-n6_ftc9-texts_def" mz="getRwBtn">领取</string>
+  <string name="nmzfxo89ftc9j-n7_u5mt" mz="waitGetBtn">待领取</string>
+  <!-- Shop/FengkuangPay.xml -->
+  <string name="nmzfxo89plio16-n3_plio" mz="title">高级疯狂指南第{value=1}章</string>
+  <string name="nmzfxo89plio16-n7_plio" mz="flTitle">{value=500}%
+返利</string>
+  <string name="nmzfxo89plio16-n14_plio" mz="getTitle">领取</string>
+  <!-- Shop/ShopMain.xml -->
+  <string name="nmzfxo89ftc95-n1_ftc9-0" mz="tabList">每日特惠</string>
+  <string name="nmzfxo89ftc95-n1_ftc9-1" mz="tabList">天天好礼</string>
+  <string name="nmzfxo89ftc95-n1_ftc9-2" mz="tabList">疯狂指南</string>
+  <string name="nmzfxo89ftc95-n1_ftc9-3" mz="tabList">特权卡</string>
+  <string name="nmzfxo89ftc95-n9_ftc9" mz="fkznBtn">疯狂指南第一章</string>
+  <string name="nmzfxo89ftc95-n13_ewdx" mz="fkznBtn2">疯狂指南第二章</string>
+  <string name="nmzfxo89ftc95-n14_ewdx" mz="fkznBtn3">疯狂指南第三章</string>
+  <!-- Sokoban/Component/SokobanMap.xml -->
+  <string name="2nawooiyosqg1f-n5_q30a" mz="btnReset">重置</string>
+  <!-- Sokoban/SokobanMap.xml -->
+  <string name="2nawooiyjhjz1z-n5_q30a" mz="btnReset">重置</string>
+  <!-- Sokoban/SokobanRewardView.xml -->
+  <string name="2nawooiyjnq814-n2_jnq8" mz="title">宝藏奖励</string>
+  <string name="2nawooiyjnq814-n3_rjj2" mz="btn">领取</string>
+  <!-- Summon/Component/CardItem.xml -->
+  <string name="i7ojazuuq9cg19-n2_q9cg" mz="nameLb">{name=英雄令}×{value=15}</string>
+  <string name="i7ojazuuq9cg19-n2_q9cg-texts_0" mz="nameLb">{name=英雄令}×{value=15}</string>
+  <string name="i7ojazuuq9cg19-n2_q9cg-texts_1" mz="nameLb">英雄令×{value=5}</string>
+  <string name="i7ojazuuq9cg19-n3_q9cg" mz="n3">立即获得</string>
+  <string name="i7ojazuuq9cg19-n3_q9cg-texts_0" mz="n3">每日获得</string>
+  <string name="i7ojazuuq9cg19-n3_q9cg-texts_def" mz="n3">立即获得</string>
+  <!-- Summon/Component/ChargeBtn.xml -->
+  <string name="i7ojazuuf34j3e-n4_f34j" mz="moneyLb1">{value=9} 元</string>
+  <string name="i7ojazuuf34j3e-n5_f34j" mz="moneyLb2">$ {value=9}</string>
+  <!-- Summon/Component/DiamondItem.xml -->
+  <string name="i7ojazuup3wt2q-n5_p3wt" mz="curLb">X{value=6000}</string>
+  <!-- Summon/Component/GainHeroPro.xml -->
+  <string name="i7ojazuul5cy3o-n0_l5cy" mz="name">钻石</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_0" mz="name">史诗英雄</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_1" mz="name">传说英雄碎片</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_2" mz="name">史诗英雄碎片</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_3" mz="name">帝王蟹</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_4" mz="name">奶酪</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_5" mz="name">金币1H</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_6" mz="name">钻石</string>
+  <string name="i7ojazuul5cy3o-n0_l5cy-texts_def" mz="name">传说英雄</string>
+  <!-- Summon/Component/GiftItemRewardItem.xml -->
+  <string name="i7ojazuuftc92o-n3_ftc9" mz="count">x{value=10}</string>
+  <!-- Summon/Component/GiftListItem.xml -->
+  <string name="i7ojazuuftc92n-n4_ftc9" mz="nameLb">史诗英雄礼包</string>
+  <string name="i7ojazuuftc92n-n5_ftc9" mz="limitLb">限购（{cur=1}/{total=1}）</string>
+  <string name="i7ojazuuftc92n-n3_ftc9" mz="rebate">{value=600}%
+返利</string>
+  <!-- Summon/Component/HeroIntroItem.xml -->
+  <string name="i7ojazuul5cy3p-n1_l5cy" mz="desc">雷神  介绍介绍介绍介绍介绍介绍介绍介绍介绍</string>
+  <!-- Summon/Component/SpecialItem.xml -->
+  <string name="i7ojazuusurfb-n9_surf" mz="n9">无限期</string>
+  <string name="i7ojazuusurfb-n10_surf" mz="desc">英雄集结，踏上征程</string>
+  <string name="i7ojazuusurfb-n11_surf" mz="goBtn">进入</string>
+  <string name="i7ojazuusurfb-n15_k4ck" mz="n15">热销</string>
+  <string name="i7ojazuusurfb-n19_kira" mz="lockDesc">达到多少解锁</string>
+  <!-- Summon/Component/SummonAdBtn.xml -->
+  <string name="i7ojazuusurf9-n1_surf" mz="adSummLb">召唤{value=30}次</string>
+  <string name="i7ojazuusurf9-n3_surf" mz="adLb">{cur=3}/{total=3}</string>
+  <!-- Summon/Component/SummonBarExp.xml -->
+  <string name="i7ojazuullb152-n4_rm2c" mz="maxLevel">已满级</string>
+  <!-- Summon/Component/SummonBtn.xml -->
+  <string name="i7ojazuusurf8-n1_surf" mz="n1">召唤{value=10}次</string>
+  <string name="i7ojazuusurf8-n1_surf-texts_0" mz="n1">召唤{value=30}次</string>
+  <string name="i7ojazuusurf8-n1_surf-texts_1" mz="n1">召唤{value=300}次</string>
+  <string name="i7ojazuusurf8-n1_surf-texts_def" mz="n1">召唤{value=10}次</string>
+  <string name="i7ojazuusurf8-n9_a332" mz="Free">免费</string>
+  <!-- Summon/Component/SummonFreeHeroBtn.xml -->
+  <string name="i7ojazuuq9cg11-n1_surf" mz="n1">召唤{value=1}次</string>
+  <string name="i7ojazuuq9cg11-n5_q9cg" mz="n5">免费</string>
+  <!-- Summon/Component/SummonHeroBtn.xml -->
+  <string name="i7ojazuusurfd-n1_surf" mz="n1">召唤{value=1}次</string>
+  <string name="i7ojazuusurfd-n1_surf-texts_0" mz="n1">召唤{value=1}次</string>
+  <string name="i7ojazuusurfd-n1_surf-texts_def" mz="n1">召唤{value=10}次</string>
+  <string name="i7ojazuusurfd-n2_surf" mz="tickNumLb">×{value=1}</string>
+  <string name="i7ojazuusurfd-n2_surf-texts_0" mz="tickNumLb">×{value=10}</string>
+  <string name="i7ojazuusurfd-n2_surf-texts_def" mz="tickNumLb">×{value=1}</string>
+  <!-- Summon/Component/SummonItem.xml -->
+  <string name="i7ojazuusurf7-n4_surf" mz="n4">宠物</string>
+  <string name="i7ojazuusurf7-n4_surf-texts_0" mz="n4">技能</string>
+  <string name="i7ojazuusurf7-n4_surf-texts_def" mz="n4">宠物</string>
+  <string name="i7ojazuusurf7-n2_surf" mz="lvLb">{value=9}级</string>
+  <string name="i7ojazuusurf7-n16_ktw8" mz="lockDesc">达到多少解锁</string>
+  <!-- Summon/Component/functionBtn.xml -->
+  <string name="i7ojazuuq9cgy-n1_q9cg" mz="title">功能预告</string>
+  <!-- Summon/Component/heroDetailItem.xml -->
+  <string name="i7ojazuuu1cl1q-n1_u1cl" mz="heroName">雷神</string>
+  <string name="i7ojazuuu1cl1q-n2_u1cl" mz="heroDesc">这里是介绍</string>
+  <!-- Summon/Component/heroProbItem.xml -->
+  <string name="i7ojazuuu1cl1s-n1_u1cl" mz="heroName">神话英雄</string>
+  <string name="i7ojazuuu1cl1s-n1_u1cl-texts_0" mz="heroName">传说英雄</string>
+  <string name="i7ojazuuu1cl1s-n1_u1cl-texts_def" mz="heroName">神话英雄</string>
+  <!-- Summon/Component/probablyItem.xml -->
+  <string name="i7ojazuuk4ck1h-n2_k4ck" mz="n2">普通</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_0" mz="n2">良好</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_1" mz="n2">稀有</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_2" mz="n2">史诗</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_3" mz="n2">传说</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_4" mz="n2">神话</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_5" mz="n2">不朽</string>
+  <string name="i7ojazuuk4ck1h-n2_k4ck-texts_def" mz="n2">普通</string>
+  <string name="i7ojazuuk4ck1h-n1_k4ck" mz="proLb">{value=45.00}</string>
+  <!-- Summon/DimaondInfo.xml -->
+  <string name="i7ojazuup3wt2p-n6_ftc9" mz="n6">钻石商店</string>
+  <string name="i7ojazuup3wt2p-n8_p3wt" mz="n8">钻石可直接用于购买游戏内所有钻石付费内容</string>
+  <!-- Summon/GiftInfo.xml -->
+  <string name="i7ojazuuftc92l-n6_ftc9" mz="n6">礼包商店</string>
+  <!-- Summon/SpecialCard.xml -->
+  <string name="i7ojazuuq9cg13-n2_q9cg" mz="n2">连续登录领取超值奖励</string>
+  <string name="i7ojazuuq9cg13-n4_q9cg" mz="n4">500%
+返利</string>
+  <string name="i7ojazuuq9cg13-n9_q9cg" mz="n9">特权</string>
+  <string name="i7ojazuuq9cg13-n14_q9cg" mz="timeLb">还剩{value=9}</string>
+  <string name="i7ojazuuq9cg13-n14_q9cg-texts_0" mz="timeLb">还剩{value=9}</string>
+  <string name="i7ojazuuq9cg13-n14_q9cg-texts_def" mz="timeLb">立得{value=15}连抽,3天30抽</string>
+  <string name="i7ojazuuq9cg13-n15_q9cg" mz="n15">英雄集结特权卡</string>
+  <string name="i7ojazuuq9cg13-n20_i9n7" mz="getBtn">领取</string>
+  <string name="i7ojazuuq9cg13-n21_i9n7" mz="n21">今日已领取</string>
+  <!-- Summon/SummonGetReward.xml -->
+  <string name="i7ojazuusurfe-n14_f34j" mz="n14">奖励</string>
+  <!-- Summon/SummonHero.xml -->
+  <string name="i7ojazuusurfc-n4_q9cg" mz="giftBtn">特权礼包</string>
+  <string name="i7ojazuusurfc-n13_ibgi" mz="n13">10连必出[color=#ff1515]传说[/color]英雄碎片</string>
+  <string name="i7ojazuusurfc-n11_ibgi" mz="freeTimeLb">{value=10:00:00}后免费</string>
+  <!-- Summon/SummonHeroHelp.xml -->
+  <string name="i7ojazuuu1cl1p-n8_k4ck" mz="n8">帮助</string>
+  <string name="i7ojazuuu1cl1p-n17_k4ck" mz="n17">活动介绍</string>
+  <string name="i7ojazuuu1cl1p-n34_u1cl" mz="n34">        使用英雄令可以抽取卡池中的角色和角色碎片，每累计10次抽卡必得传说英雄碎片，抽取到已有的英雄会自动转化成该英雄碎片，可以用于该英雄的突破</string>
+  <string name="i7ojazuuu1cl1p-n24_u1cl" mz="n24">英雄介绍</string>
+  <string name="i7ojazuuu1cl1p-n29_u1cl" mz="n29">获得概率</string>
+  <!-- Summon/SummonHeroReward.xml -->
+  <string name="i7ojazuuq9cg1a-n14_f34j" mz="n14">奖励</string>
+  <string name="i7ojazuuq9cg1a-n3_surf" mz="summon1">确定</string>
+  <!-- Summon/SummonProbability.xml -->
+  <string name="i7ojazuusurfg-n8_k4ck" mz="n8">召唤概率</string>
+  <string name="i7ojazuusurfg-n17_k4ck" mz="n17">各品质获得概率</string>
+  <string name="i7ojazuusurfg-n9_k4ck" mz="n9">商店等级</string>
+  <string name="i7ojazuusurfg-n2_surf" mz="n2">召唤一定数量后，商店等级增加</string>
+  <!-- Summon/SummonSystem.xml -->
+  <string name="i7ojazuusurf0-n1_surf-0" mz="tabList">召唤</string>
+  <string name="i7ojazuusurf0-n1_surf-1" mz="tabList">钻石</string>
+  <string name="i7ojazuusurf0-n1_surf-2" mz="tabList">礼包</string>
+  <string name="i7ojazuusurf0-n1_surf-3" mz="tabList">特殊</string>
+  <!-- TreasureLevelup/Component/BtnBuy.xml -->
+  <string name="v1wfpt3li9sl2a-n2_9rjy" mz="title">购买</string>
+  <!-- TreasureLevelup/Component/BtnHasten.xml -->
+  <string name="v1wfpt3li9sl24-n2_9rjy" mz="title">一键加速</string>
+  <!-- TreasureLevelup/Component/BtnUpgrade.xml -->
+  <string name="v1wfpt3li9sl29-n2_9rjy" mz="title">升级</string>
+  <!-- TreasureLevelup/Component/ComAttrItem.xml -->
+  <string name="v1wfpt3li9sl28-n19_i9sl" mz="curValue">{value=80.00}%</string>
+  <string name="v1wfpt3li9sl28-n20_i9sl" mz="nextValue">{value=63.30}%</string>
+  <string name="v1wfpt3li9sl28-n22_ofko" mz="title">普通</string>
+  <!-- TreasureLevelup/UI/Panel.xml -->
+  <string name="v1wfpt3li9sl1a-n10_i9sl" mz="n10">矿镐升级</string>
+  <string name="v1wfpt3li9sl1a-n60_f34j" mz="n60">当前等级:</string>
+  <string name="v1wfpt3li9sl1a-n17_i9sl" mz="txtCurrLv">{value=1}级</string>
+  <string name="v1wfpt3li9sl1a-n61_f34j" mz="n61">下一等级:</string>
+  <string name="v1wfpt3li9sl1a-n18_i9sl" mz="txtNextLv">{value=30}级</string>
+  <string name="v1wfpt3li9sl1a-n28_i9sl" mz="n28">升级提高获得高级装备的概率</string>
+  <string name="v1wfpt3li9sl1a-n24_i9sl" mz="btnUpgrade">升级</string>
+  <string name="v1wfpt3li9sl1a-n25_i9sl" mz="btnBuy">购买</string>
+  <string name="v1wfpt3li9sl1a-n49_zthq" mz="adLb">广告剩余次数:{cur=2}/{total=2}</string>
+  <string name="v1wfpt3li9sl1a-n7_i9sl" mz="n7">升级中:</string>
+  <string name="v1wfpt3li9sl1a-n1_i9sl" mz="btnSkip">跳过30分钟</string>
+  <string name="v1wfpt3li9sl1a-n3_i9sl" mz="btnHasten">加速</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-0" mz="listAttrs">普通</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-1" mz="listAttrs">良好</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-2" mz="listAttrs">稀有</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-3" mz="listAttrs">史诗</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-4" mz="listAttrs">传说</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-5" mz="listAttrs">神话</string>
+  <string name="v1wfpt3li9sl1a-n22_i9sl-6" mz="listAttrs">不朽</string>
+  <string name="v1wfpt3li9sl1a-n73_ucd4" mz="n73">已满级</string>
+  <!-- Tujian/Component/TujianPetItem.xml -->
+  <string name="yjhb9afbj2lcf-n1_j2lc" mz="petName">海冀龟</string>
+  <!-- Village/BuildInfo.xml -->
+  <string name="8glegefcnif6i-n3_nif6" mz="title">粮食工坊</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_0" mz="title">加工厂</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_1" mz="title">探索营地</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_2" mz="title">窝棚</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_3" mz="title">训练场</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_4" mz="title">石头矿区</string>
+  <string name="8glegefcnif6i-n3_nif6-texts_def" mz="title">粮食工坊</string>
+  <string name="8glegefcnif6i-n11_nif6" mz="n11">当前产能:</string>
+  <string name="8glegefcnif6i-n14_nif6" mz="n14">宠物加成:</string>
+  <string name="8glegefcnif6i-n15_nif6" mz="addValue">{value=150}%</string>
+  <string name="8glegefcnif6i-n13_nif6" mz="timeLb">{value=60}分钟</string>
+  <string name="8glegefcnif6i-n19_nif6" mz="n19">驻扎宠物</string>
+  <string name="8glegefcnif6i-n36_oppe" mz="n36">当前奖励:</string>
+  <string name="8glegefcnif6i-n40_oppe" mz="getBtn">领取</string>
+  <!-- Village/Component/MapPanel.xml -->
+  <string name="8glegefcuobv1-n6_uobv" mz="villageBuild1">粮食工坊</string>
+  <string name="8glegefcuobv1-n21_pchv" mz="villageBuild4">窝棚</string>
+  <string name="8glegefcuobv1-n23_pchv" mz="villageBuild5">训练场</string>
+  <string name="8glegefcuobv1-n25_pchv" mz="villageBuild6">石头矿区</string>
+  <string name="8glegefcuobv1-n26_pchv" mz="villageBuild3">探索营地</string>
+  <string name="8glegefcuobv1-n27_pchv" mz="villageBuild2">加工厂</string>
+  <!-- Village/Component/PetCom.xml -->
+  <string name="8glegefcoppew-n7_h8lo" mz="stationBuild">粮食工坊</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_0" mz="stationBuild">加工厂</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_1" mz="stationBuild">探索营地</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_2" mz="stationBuild">窝棚</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_3" mz="stationBuild">训练场</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_4" mz="stationBuild">石头矿区</string>
+  <string name="8glegefcoppew-n7_h8lo-texts_def" mz="stationBuild">粮食工坊</string>
+  <string name="8glegefcoppew-n8_ajor" mz="n8">已驻扎</string>
+  <!-- Village/Component/PetShow.xml -->
+  <string name="8glegefcoppet-n4_oppe" mz="petName">宠物名字</string>
+  <!-- Village/Component/VillageBuildItem.xml -->
+  <string name="8glegefcuobvf-n1_pchv" mz="title">建筑名称</string>
+  <!-- Village/Hint.xml -->
+  <string name="8glegefcoppex-n4_oppe" mz="n4">系统提示</string>
+  <string name="8glegefcoppex-n5_oppe" mz="desc">当前宠物已在其他建筑驻扎，是否确认替换？</string>
+  <string name="8glegefcoppex-n7_oppe" mz="yesBtn">是</string>
+  <string name="8glegefcoppex-n8_oppe" mz="noBtn">否</string>
+  <!-- Village/PetInfo.xml -->
+  <string name="8glegefcoppey-n3_oppe" mz="n3">家园宠物</string>
+  <string name="8glegefcoppey-n5_oppe" mz="petName">炎尾狐</string>
+  <string name="8glegefcoppey-n6_oppe" mz="petLv">LV.{value=30}</string>
+  <string name="8glegefcoppey-n13_oppe" mz="n13">家园加成</string>
+  <string name="8glegefcoppey-n14_oppe" mz="jcLb">{value=300}%</string>
+  <string name="8glegefcoppey-n16_oppe" mz="downarrayBtn">下阵</string>
+  <string name="8glegefcoppey-n22_h8lo" mz="uparrayBtn">驻扎</string>
+  <string name="8glegefcoppey-n23_l955" mz="replaceBtn">替换</string>
+</resources>

@@ -1,0 +1,145 @@
+AdventureCave_csmc.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+dian_001
+	bounds: 1045, 1306, 130, 197
+	offsets: 15, 24, 160, 240
+	rotate: 90
+dian_002
+	bounds: 911, 1679, 129, 181
+	offsets: 16, 28, 160, 240
+	rotate: 90
+dian_003
+	bounds: 909, 1285, 134, 193
+	offsets: 13, 23, 160, 240
+dian_004
+	bounds: 466, 1593, 143, 209
+	offsets: 10, 13, 160, 240
+dian_005
+	bounds: 789, 1810, 151, 216
+	offsets: 5, 10, 160, 240
+dian_006
+	bounds: 164, 1349, 152, 218
+	offsets: 5, 9, 160, 240
+dian_007
+	bounds: 326, 1804, 156, 222
+	offsets: 3, 7, 160, 240
+dian_008
+	bounds: 326, 1804, 156, 222
+	offsets: 3, 7, 160, 240
+dian_009
+	bounds: 2, 1099, 155, 223
+	offsets: 2, 7, 160, 240
+dian_010
+	bounds: 164, 1569, 155, 225
+	offsets: 2, 6, 160, 240
+dian_011
+	bounds: 164, 1796, 160, 230
+	offsets: 0, 3, 160, 240
+dian_012
+	bounds: 2, 1324, 160, 230
+	offsets: 0, 7, 160, 240
+dian_013
+	bounds: 2, 1792, 160, 234
+	offsets: 0, 2, 160, 240
+dian_014
+	bounds: 2, 1556, 160, 234
+	offsets: 0, 2, 160, 240
+dian_015
+	bounds: 911, 1480, 158, 197
+	offsets: 1, 30, 160, 240
+guang_001
+	bounds: 1749, 1881, 145, 212
+	offsets: 11, 12, 160, 240
+	rotate: 90
+guang_002
+	bounds: 2, 2, 145, 212
+	offsets: 11, 12, 160, 240
+guang_003
+	bounds: 321, 1583, 143, 211
+	offsets: 13, 13, 160, 240
+guang_004
+	bounds: 153, 885, 141, 212
+	offsets: 14, 13, 160, 240
+guang_005
+	bounds: 1094, 1737, 140, 214
+	offsets: 14, 14, 160, 240
+	rotate: 90
+guang_006
+	bounds: 148, 664, 137, 212
+	offsets: 18, 16, 160, 240
+guang_007
+	bounds: 159, 1114, 141, 208
+	offsets: 13, 21, 160, 240
+guang_008
+	bounds: 1313, 1739, 142, 207
+	offsets: 13, 22, 160, 240
+	rotate: 90
+guang_009
+	bounds: 1522, 1736, 144, 207
+	offsets: 10, 22, 160, 240
+	rotate: 90
+guang_010
+	bounds: 1731, 1734, 145, 207
+	offsets: 9, 24, 160, 240
+	rotate: 90
+guang_011
+	bounds: 763, 1394, 144, 204
+	offsets: 9, 27, 160, 240
+guang_012
+	bounds: 470, 1385, 145, 206
+	offsets: 8, 24, 160, 240
+guang_013
+	bounds: 611, 1595, 145, 209
+	offsets: 8, 23, 160, 240
+guang_014
+	bounds: 617, 1387, 144, 206
+	offsets: 8, 24, 160, 240
+guang_015
+	bounds: 1533, 1882, 144, 214
+	offsets: 8, 18, 160, 240
+	rotate: 90
+guang_016
+	bounds: 1313, 1883, 143, 218
+	offsets: 7, 14, 160, 240
+	rotate: 90
+guang_017
+	bounds: 2, 216, 143, 217
+	offsets: 7, 12, 160, 240
+guang_018
+	bounds: 2, 656, 144, 220
+	offsets: 6, 8, 160, 240
+guang_019
+	bounds: 2, 435, 143, 219
+	offsets: 6, 5, 160, 240
+guang_020
+	bounds: 1094, 1879, 147, 217
+	offsets: 6, 6, 160, 240
+	rotate: 90
+guang_021
+	bounds: 484, 1806, 149, 220
+	offsets: 5, 3, 160, 240
+guang_022
+	bounds: 2, 878, 149, 219
+	offsets: 5, 2, 160, 240
+guang_023
+	bounds: 942, 1810, 150, 216
+	offsets: 5, 4, 160, 240
+guang_024
+	bounds: 635, 1810, 152, 216
+	offsets: 5, 4, 160, 240
+guang_025
+	bounds: 758, 1600, 151, 208
+	offsets: 6, 12, 160, 240
+guang_026
+	bounds: 318, 1360, 150, 207
+	offsets: 7, 12, 160, 240
+guang_027
+	bounds: 1094, 1585, 150, 209
+	offsets: 7, 12, 160, 240
+	rotate: 90
+guang_028
+	bounds: 1071, 1438, 145, 209
+	offsets: 11, 14, 160, 240
+	rotate: 90

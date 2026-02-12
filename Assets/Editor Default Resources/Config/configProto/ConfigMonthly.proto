@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigMonthlyUnit.proto";
+
+package Config;
+
+message ConfigMonthly {
+  map<int32, ConfigMonthlyUnit> data = 1;
+}

@@ -1,0 +1,112 @@
+BigMap_bobo.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+zhubo_001
+	bounds: 2, 272, 232, 33
+	offsets: 12, 6, 250, 50
+zhubo_002
+	bounds: 2, 272, 232, 33
+	offsets: 12, 6, 250, 50
+zhubo_003
+	bounds: 2, 272, 232, 33
+	offsets: 12, 6, 250, 50
+zhubo_004
+	bounds: 244, 341, 233, 33
+	offsets: 11, 6, 250, 50
+zhubo_005
+	bounds: 244, 341, 233, 33
+	offsets: 11, 6, 250, 50
+zhubo_006
+	bounds: 244, 341, 233, 33
+	offsets: 11, 6, 250, 50
+zhubo_007
+	bounds: 244, 341, 233, 33
+	offsets: 11, 6, 250, 50
+zhubo_008
+	bounds: 244, 306, 233, 33
+	offsets: 11, 6, 250, 50
+zhubo_009
+	bounds: 2, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_010
+	bounds: 2, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_011
+	bounds: 2, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_012
+	bounds: 2, 442, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_013
+	bounds: 244, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_014
+	bounds: 244, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_015
+	bounds: 244, 477, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_016
+	bounds: 2, 407, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_017
+	bounds: 244, 442, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_018
+	bounds: 244, 442, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_019
+	bounds: 244, 442, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_020
+	bounds: 244, 408, 240, 32
+	offsets: 4, 6, 250, 50
+zhubo_021
+	bounds: 2, 372, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_022
+	bounds: 2, 372, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_023
+	bounds: 2, 372, 240, 33
+	offsets: 4, 6, 250, 50
+zhubo_024
+	bounds: 2, 339, 240, 31
+	offsets: 4, 8, 250, 50
+zhubo_025
+	bounds: 244, 376, 240, 30
+	offsets: 4, 8, 250, 50
+zhubo_026
+	bounds: 244, 376, 240, 30
+	offsets: 4, 8, 250, 50
+zhubo_027
+	bounds: 244, 376, 240, 30
+	offsets: 4, 8, 250, 50
+zhubo_028
+	bounds: 2, 307, 240, 30
+	offsets: 4, 8, 250, 50
+zhubo_029
+	bounds: 479, 143, 231, 31
+	offsets: 13, 8, 250, 50
+	rotate: 90
+zhubo_030
+	bounds: 479, 143, 231, 31
+	offsets: 13, 8, 250, 50
+	rotate: 90
+zhubo_031
+	bounds: 479, 143, 231, 31
+	offsets: 13, 8, 250, 50
+	rotate: 90
+zhubo_032
+	bounds: 2, 206, 231, 30
+	offsets: 13, 9, 250, 50
+zhubo_033
+	bounds: 2, 238, 231, 32
+	offsets: 13, 7, 250, 50
+zhubo_034
+	bounds: 2, 238, 231, 32
+	offsets: 13, 7, 250, 50
+zhubo_035
+	bounds: 2, 238, 231, 32
+	offsets: 13, 7, 250, 50

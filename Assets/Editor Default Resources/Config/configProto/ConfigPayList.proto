@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigPayListUnit.proto";
+
+package Config;
+
+message ConfigPayList {
+  map<int32, ConfigPayListUnit> data = 1;
+}

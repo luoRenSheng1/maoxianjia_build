@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillEffectUnit {
+  int32 Id = 1;
+  string Remark = 2;
+  int32 Type = 3;
+  string TypeData = 4;
+  string Path = 5;
+  string Ani = 6;
+  int32 Loop = 7;
+  int32 Size = 8;
+  int32 Delay = 9;
+  int32 Time = 10;
+  int32 Attach = 11;
+  string Bone = 12;
+  string TargetBone = 13;
+  int32 Speed = 14;
+  int32 Endfx = 15;
+  int32 Endsound = 16;
+  int32 AniScale = 17;
+}

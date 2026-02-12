@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3395870542
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d50d7514c2f3e3ddb3f7721ec761bdf1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9f3d136959ac0e7043e721e899342fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d50d7514c2f3e3ddb3f7721ec761bdf1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Materials/huoy3.mat
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/shader/shader.bin
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/texture/huoy2.bin

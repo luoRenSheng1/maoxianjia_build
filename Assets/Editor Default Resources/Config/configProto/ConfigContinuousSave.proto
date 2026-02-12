@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigContinuousSaveUnit.proto";
+
+package Config;
+
+message ConfigContinuousSave {
+  map<int32, ConfigContinuousSaveUnit> data = 1;
+}

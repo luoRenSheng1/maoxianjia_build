@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPushUnit {
+  int32 Id = 1;
+  string NameNote = 2;
+  string Name = 3;
+  string DocNote = 4;
+  string Doc = 5;
+  int32 Type = 6;
+  int32 Priority = 7;
+  string Parameter = 8;
+  int32 JumpPathId = 9;
+  int32 SystemId = 10;
+  int32 Icon = 11;
+}

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 16898975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04b468929a5cfb8965d16059cc007e1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 04b468929a5cfb8965d16059cc007e1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Prefabs/Effect/Skill_1052001.prefab
+Dependencies:
+- E:/1Client/fengkuang-maoxianjia_build/Assets/ArchivedBundles/model/materials/gun.bin

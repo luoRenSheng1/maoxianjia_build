@@ -1,0 +1,8 @@
+skill_3000901.png
+size:46,42
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/qiu
+bounds:4,4,38,34
+offsets:76,74,200,200

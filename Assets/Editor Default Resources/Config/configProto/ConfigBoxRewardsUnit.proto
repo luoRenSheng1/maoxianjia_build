@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigBoxRewardsUnit {
+  int32 Id = 1;
+  string Style = 2;
+  string Reward = 3;
+}

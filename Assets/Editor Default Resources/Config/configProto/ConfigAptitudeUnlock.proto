@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigAptitudeUnlockUnit.proto";
+
+package Config;
+
+message ConfigAptitudeUnlock {
+  repeated ConfigAptitudeUnlockUnit data = 1;
+}

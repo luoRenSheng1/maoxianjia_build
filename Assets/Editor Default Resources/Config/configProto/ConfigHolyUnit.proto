@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigHolyUnit {
+  int32 Id = 1;
+  int32 HolyId = 2;
+  string Name = 3;
+  string Notes1 = 4;
+  int32 Type = 5;
+  int32 Lv = 6;
+  int32 Consume1 = 7;
+  int32 Consume2 = 8;
+  string Doc = 9;
+  string Notes2 = 10;
+  string Common = 11;
+  int32 ItemID = 12;
+}

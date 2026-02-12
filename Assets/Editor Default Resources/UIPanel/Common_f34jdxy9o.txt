@@ -1,0 +1,65 @@
+11001_buff.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+hit_001
+	bounds: 1000, 764, 22, 37
+	offsets: 105, 150, 280, 334
+hit_002
+	bounds: 193, 95, 57, 62
+	offsets: 97, 133, 280, 334
+hit_003
+	bounds: 212, 207, 85, 137
+	offsets: 84, 98, 280, 334
+	rotate: 90
+hit_004
+	bounds: 212, 294, 110, 155
+	offsets: 74, 88, 280, 334
+hit_005
+	bounds: 2, 52, 133, 189
+	offsets: 65, 72, 280, 334
+	rotate: 90
+hit_006
+	bounds: 864, 803, 154, 219
+	offsets: 58, 59, 280, 334
+hit_007
+	bounds: 677, 782, 185, 240
+	offsets: 41, 49, 280, 334
+hit_008
+	bounds: 470, 762, 205, 260
+	offsets: 34, 40, 280, 334
+hit_009
+	bounds: 251, 752, 217, 270
+	offsets: 29, 35, 280, 334
+hit_010
+	bounds: 2, 451, 232, 280
+	offsets: 23, 30, 280, 334
+hit_011
+	bounds: 2, 733, 247, 289
+	offsets: 17, 25, 280, 334
+hit_012
+	bounds: 2, 187, 262, 208
+	offsets: 11, 58, 280, 334
+	rotate: 90
+hit_013
+	bounds: 212, 159, 127, 46
+	offsets: 79, 111, 280, 334
+hit_014
+	bounds: 2, 2, 132, 48
+	offsets: 76, 107, 280, 334
+hit_015
+	bounds: 864, 751, 134, 50
+	offsets: 75, 102, 280, 334
+hit_016
+	bounds: 677, 746, 110, 34
+	offsets: 101, 114, 280, 334
+hit_017
+	bounds: 136, 36, 42, 14
+	offsets: 101, 128, 280, 334
+hit_018
+	bounds: 236, 717, 14, 12
+	offsets: 128, 123, 280, 334
+	rotate: 90
+hit_019
+	bounds: 789, 769, 12, 11
+	offsets: 129, 118, 280, 334

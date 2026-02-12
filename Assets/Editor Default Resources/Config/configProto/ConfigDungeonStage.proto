@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigDungeonStageUnit.proto";
+
+package Config;
+
+message ConfigDungeonStage {
+  map<int32, ConfigDungeonStageUnit> data = 1;
+}

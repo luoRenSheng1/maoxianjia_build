@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3594345533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5f7c3e34a4e82e50375994bf098493e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5f7c3e34a4e82e50375994bf098493e9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/xulie_11.png
+Dependencies: []

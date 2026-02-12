@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1749940335
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f06b30b340154375c2c2d33786a6dfe8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f06b30b340154375c2c2d33786a6dfe8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Texture/cao3.png
+Dependencies: []

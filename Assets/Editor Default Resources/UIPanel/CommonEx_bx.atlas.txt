@@ -1,0 +1,55 @@
+CommonEx_bx.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+diandian
+	bounds: 190, 393, 6, 6
+	offsets: 2, 2, 10, 10
+diguang
+	bounds: 118, 106, 144, 64
+	offsets: 5, 2, 150, 70
+	rotate: 90
+qianguang
+	bounds: 2, 109, 114, 141
+	offsets: 5, 0, 120, 160
+xiang_1
+	bounds: 2, 389, 186, 121
+	offsets: 0, 1, 186, 122
+xiang_2
+	bounds: 2, 252, 166, 135
+xiang_3
+	bounds: 190, 401, 166, 109
+yan_001
+	bounds: 184, 158, 109, 85
+	offsets: 6, 0, 120, 100
+	rotate: 90
+yan_002
+	bounds: 363, 293, 115, 92
+	offsets: 3, 0, 120, 100
+	rotate: 90
+yan_003
+	bounds: 268, 283, 116, 93
+	offsets: 2, 0, 120, 100
+	rotate: 90
+yan_004
+	bounds: 170, 269, 118, 96
+	offsets: 0, 0, 120, 100
+	rotate: 90
+yan_005
+	bounds: 94, 7, 119, 97
+	offsets: 0, 0, 120, 100
+yan_006
+	bounds: 358, 410, 118, 100
+	offsets: 0, 0, 120, 100
+yan_007
+	bounds: 2, 2, 105, 90
+	offsets: 6, 10, 120, 100
+	rotate: 90
+yan_008
+	bounds: 271, 180, 101, 68
+	offsets: 9, 31, 120, 100
+	rotate: 90
+yan_009
+	bounds: 478, 431, 79, 27
+	offsets: 10, 68, 120, 100
+	rotate: 90

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPassGiftUnit {
+  int32 Id = 1;
+  int32 Level = 2;
+  int32 Score = 3;
+  string Gift = 4;
+  string FancyGift = 5;
+  int32 StageLevelId = 6;
+}

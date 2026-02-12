@@ -1,0 +1,7 @@
+skill_3000601.png
+size:38,37
+filter:Linear,Linear
+pma:true
+scale:0.35
+tx
+bounds:4,4,30,29

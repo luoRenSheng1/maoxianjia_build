@@ -1,0 +1,111 @@
+Pet_10361.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_shou1
+	bounds: 87, 73, 28, 28
+	offsets: 0, 0, 29, 29
+L_shou2
+	bounds: 130, 24, 22, 14
+	rotate: 90
+L_shou3
+	bounds: 113, 13, 14, 14
+	offsets: 0, 7, 21, 22
+L_shou4
+	bounds: 2, 3, 19, 26
+	offsets: 0, 0, 20, 26
+	rotate: 90
+L_shou5
+	bounds: 140, 82, 19, 26
+L_shougan
+	bounds: 146, 58, 22, 18
+	rotate: 90
+L_yan
+	bounds: 146, 15, 17, 21
+	offsets: 0, 1, 17, 22
+	rotate: 90
+L_zhi1
+	bounds: 146, 34, 22, 18
+	rotate: 90
+L_zhi2
+	bounds: 214, 122, 16, 18
+L_zhi3
+	bounds: 232, 95, 18, 18
+R_shou1
+	bounds: 90, 103, 43, 29
+	offsets: 0, 9, 44, 38
+R_shou2
+	bounds: 217, 145, 23, 13
+	offsets: 0, 0, 23, 14
+	rotate: 90
+R_shou3
+	bounds: 135, 110, 27, 22
+	offsets: 6, 9, 33, 31
+R_shougan
+	bounds: 117, 74, 27, 21
+	offsets: 0, 1, 27, 22
+	rotate: 90
+R_shougan1
+	bounds: 232, 135, 23, 22
+	offsets: 0, 1, 23, 23
+	rotate: 90
+R_yan
+	bounds: 88, 5, 23, 22
+	offsets: 0, 1, 23, 23
+R_zhi1
+	bounds: 232, 115, 18, 22
+	rotate: 90
+R_zhi2
+	bounds: 130, 48, 14, 24
+R_zhi3
+	bounds: 30, 2, 12, 21
+	rotate: 90
+bozi
+	bounds: 214, 103, 16, 17
+	offsets: 0, 1, 16, 19
+daocao
+	bounds: 93, 29, 35, 42
+fengzheng
+	bounds: 90, 134, 45, 55
+	rotate: 90
+fkouzi
+	bounds: 53, 2, 10, 12
+lingjie
+	bounds: 232, 160, 39, 22
+	offsets: 0, 0, 40, 23
+	rotate: 90
+maogan
+	bounds: 147, 134, 15, 45
+	offsets: 1, 1, 16, 46
+maozi
+	bounds: 2, 181, 168, 73
+tou
+	bounds: 172, 201, 75, 53
+toufa
+	bounds: 164, 116, 48, 24
+	offsets: 0, 0, 49, 24
+tuigan
+	bounds: 164, 142, 26, 51
+	offsets: 0, 0, 27, 52
+	rotate: 90
+weifu1
+	bounds: 2, 127, 86, 52
+	offsets: 4, 0, 90, 52
+weifu2
+	bounds: 172, 170, 29, 58
+	offsets: 0, 1, 29, 59
+	rotate: 90
+yanjing
+	bounds: 32, 34, 59, 33
+	offsets: 0, 1, 60, 34
+yifu
+	bounds: 32, 69, 53, 56
+	offsets: 0, 0, 53, 57
+yinying
+	bounds: 2, 24, 101, 28
+	offsets: 1, 1, 103, 30
+	rotate: 90
+zui
+	bounds: 32, 16, 54, 16
+	offsets: 1, 0, 55, 16

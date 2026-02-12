@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigLoreSkiirateUnit.proto";
+
+package Config;
+
+message ConfigLoreSkiirate {
+  map<int32, ConfigLoreSkiirateUnit> data = 1;
+}

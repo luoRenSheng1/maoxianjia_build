@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1246863056
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8566c1ea733e95b976faeb74a8b042ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8566c1ea733e95b976faeb74a8b042ea
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm.atlas.txt
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm_AdventureCave_csm_2.mat
+- Assets/Editor Default Resources/UIPanel/AdventureCave_atlas0.png
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx.skel.bytes
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx.png
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc.png
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm.png
+- Assets/Editor Default Resources/UIPanel/AdventureCave_fui.bytes
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm_2.png
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc.skel.bytes
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm_AdventureCave_csm.mat
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc.atlas.txt
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx.atlas.txt
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmtx_Material.mat
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm.skel.bytes
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csmc_Material.mat
+- Assets/Editor Default Resources/UIPanel/AdventureCave_csm_Atlas.asset
+Dependencies: []

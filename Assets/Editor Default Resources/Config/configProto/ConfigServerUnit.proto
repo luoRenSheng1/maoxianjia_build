@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigServerUnit {
+  int32 Id = 1;
+  string Name = 2;
+  string IP = 3;
+  int32 Port = 4;
+  int32 New = 5;
+  int32 IsShowPm = 6;
+  int32 IsRecharge = 7;
+}

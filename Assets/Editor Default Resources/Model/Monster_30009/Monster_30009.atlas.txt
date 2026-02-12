@@ -1,0 +1,53 @@
+Monster_30009.png
+	size: 125, 128
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+L_jiao
+	bounds: 75, 2, 19, 19
+L_mei
+	bounds: 68, 48, 44, 36
+L_shou
+	bounds: 17, 2, 37, 34
+	rotate: 90
+L_yanbai
+	bounds: 114, 113, 13, 9
+	offsets: 0, 1, 14, 10
+	rotate: 90
+L_yantong
+	bounds: 114, 76, 5, 7
+	rotate: 90
+R_jiao
+	bounds: 2, 48, 22, 19
+R_mei
+	bounds: 75, 23, 30, 23
+R_shou
+	bounds: 68, 86, 40, 44
+	rotate: 90
+R_yanbai
+	bounds: 107, 24, 22, 15
+	offsets: 0, 1, 22, 16
+	rotate: 90
+R_yantong
+	bounds: 114, 69, 5, 7
+	offsets: 1, 0, 6, 7
+	rotate: 90
+hua1
+	bounds: 114, 83, 9, 6
+hua2
+	bounds: 114, 102, 9, 9
+	offsets: 0, 0, 10, 9
+hua3
+	bounds: 114, 91, 9, 9
+shenti
+	bounds: 2, 69, 57, 64
+	rotate: 90
+touding
+	bounds: 53, 2, 37, 20
+	offsets: 0, 0, 37, 21
+	rotate: 90
+yinying
+	bounds: 2, 3, 43, 13
+	rotate: 90
+zui
+	bounds: 26, 41, 39, 26

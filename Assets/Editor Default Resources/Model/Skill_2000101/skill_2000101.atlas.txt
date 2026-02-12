@@ -1,0 +1,8 @@
+skill_2000101.png
+size:42,42
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/wuqi
+bounds:4,4,30,34
+offsets:0,0,32,34

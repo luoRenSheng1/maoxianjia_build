@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1031536154
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8a85436cc6fecd6098ec9d2b2a8657a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 689be02fd51023ca4ed2fc8972c0beb5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e8a85436cc6fecd6098ec9d2b2a8657a
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 200
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Shader/VFX/VFX_Standard.shader
+- Assets/Editor Default Resources/Shader/ShaderVariants.shadervariants
+- Assets/Editor Default Resources/Shader/CloudShader.shader
+Dependencies: []

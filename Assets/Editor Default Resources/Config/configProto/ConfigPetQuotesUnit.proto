@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigPetQuotesUnit {
+  int32 Id = 1;
+  string Desc = 2;
+  string CN = 3;
+  string EN = 4;
+}

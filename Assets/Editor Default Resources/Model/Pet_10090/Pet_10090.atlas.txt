@@ -1,0 +1,58 @@
+Pet_10090.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.9
+L_er
+	bounds: 173, 53, 21, 26
+	offsets: 1, 0, 23, 26
+L_houtui
+	bounds: 0, 3, 26, 40
+	offsets: 0, 1, 27, 42
+	rotate: 180
+L_qiantui
+	bounds: 144, 12, 37, 67
+	offsets: 0, 1, 37, 68
+L_xuegao
+	bounds: 144, 83, 39, 70
+	offsets: 1, 1, 40, 72
+L_yanbai
+	bounds: 101, 0, 25, 27
+	offsets: 1, 1, 27, 29
+	rotate: 90
+R-xuegao
+	bounds: 125, 157, 38, 72
+	offsets: 0, 1, 38, 73
+R_er
+	bounds: 75, 71, 27, 23
+	offsets: 1, 1, 29, 25
+R_houtui
+	bounds: 0, 117, 37, 43
+	offsets: 0, 0, 38, 43
+R_qiantui
+	bounds: 70, 23, 34, 46
+	offsets: 0, 5, 34, 51
+R_yanbai
+	bounds: 167, 157, 30, 28
+	offsets: 1, 5, 31, 41
+	rotate: 90
+bizi
+	bounds: 167, 191, 31, 26
+	rotate: 90
+shenti
+	bounds: 0, 92, 122, 137
+	offsets: 0, 30, 122, 167
+tou
+	bounds: 0, 25, 80, 72
+	rotate: 270
+wei
+	bounds: 27, 0, 21, 27
+	offsets: 0, 1, 22, 28
+	rotate: 90
+yanhei
+	bounds: 118, 139, 11, 11
+	offsets: 1, 1, 13, 13
+yinying
+	bounds: 110, 29, 106, 30
+	offsets: 1, 1, 108, 32
+	rotate: 90

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2443485164
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 184d7dd9156c86fcbd8b28c79b98e2b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 184d7dd9156c86fcbd8b28c79b98e2b7
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/UIPanel/zaozi.skel.bytes
+Dependencies: []

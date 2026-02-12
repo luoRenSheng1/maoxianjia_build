@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigSkillBuffUnit {
+  int32 Id = 1;
+  int32 BuffId = 2;
+  int32 Type = 3;
+  string Name = 4;
+  string DocNote = 5;
+  string Doc = 6;
+  string Common = 7;
+  string Time = 8;
+  int32 Item = 9;
+}

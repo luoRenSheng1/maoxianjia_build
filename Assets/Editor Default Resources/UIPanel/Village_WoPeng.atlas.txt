@@ -1,0 +1,14 @@
+Village_WoPeng.png
+size:512,128
+filter:Linear,Linear
+scale:0.5
+bg
+bounds:0,0,301,126
+dan
+bounds:303,64,52,62
+images/lizi726
+bounds:357,116,10,10
+offsets:1,1,11,11
+images/xinnn20
+bounds:303,28,29,34
+offsets:2,5,33,41

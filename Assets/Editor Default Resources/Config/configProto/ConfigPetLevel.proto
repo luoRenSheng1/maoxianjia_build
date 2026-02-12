@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigPetLevelUnit.proto";
+
+package Config;
+
+message ConfigPetLevel {
+  map<int32, ConfigPetLevelUnit> data = 1;
+}

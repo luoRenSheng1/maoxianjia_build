@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Pet_cwxq_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 8bab4c9288549884d92c702a7c223b73, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 2bd19b65bd1578c4ba3ae848506d5406, type: 2}
+  - {fileID: 2100000, guid: 245958c235fb4a9439375569cdbea1e0, type: 2}
+  - {fileID: 2100000, guid: 9a421636190fe7044bf07f4b952dca16, type: 2}
+  - {fileID: 2100000, guid: 0a7c99fd398c04f44ba4b4291141f612, type: 2}
+  - {fileID: 2100000, guid: 14a842e49a28da449b9affe889f62281, type: 2}
+  - {fileID: 2100000, guid: a2ca476f83bb7a7408c44452f15c79d4, type: 2}
+  - {fileID: 2100000, guid: 159c62b8f6e0c924c9c80f5e0860f7d2, type: 2}

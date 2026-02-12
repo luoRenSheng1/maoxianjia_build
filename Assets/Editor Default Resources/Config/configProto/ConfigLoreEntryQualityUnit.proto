@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigLoreEntryQualityUnit {
+  int32 Id = 1;
+  int32 Quality = 2;
+  int32 Rate = 3;
+  string HpRatio = 4;
+  string AtkRatio = 5;
+}

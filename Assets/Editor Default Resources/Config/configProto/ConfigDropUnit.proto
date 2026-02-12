@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Config;
+
+message ConfigDropUnit {
+  int32 Id = 1;
+  int32 DropType = 2;
+  int32 DropGroup = 3;
+  int32 DropId = 4;
+  int32 Item = 5;
+  string NotesName = 6;
+  int32 Rate = 7;
+  int32 Few = 8;
+  int32 Many = 9;
+  string NotesUse = 10;
+}

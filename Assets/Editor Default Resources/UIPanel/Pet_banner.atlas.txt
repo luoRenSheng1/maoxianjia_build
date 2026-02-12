@@ -1,0 +1,207 @@
+Pet_banner.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+dian_001
+	bounds: 705, 326, 140, 115
+	offsets: 22, 3, 180, 150
+dian_002
+	bounds: 665, 210, 140, 114
+	offsets: 22, 6, 180, 150
+dian_003
+	bounds: 665, 94, 140, 114
+	offsets: 22, 8, 180, 150
+dian_004
+	bounds: 550, 123, 141, 113
+	offsets: 22, 11, 180, 150
+	rotate: 90
+dian_005
+	bounds: 903, 878, 144, 115
+	offsets: 20, 11, 180, 150
+	rotate: 90
+dian_006
+	bounds: 705, 682, 144, 113
+	offsets: 21, 15, 180, 150
+dian_007
+	bounds: 851, 611, 143, 113
+	offsets: 21, 16, 180, 150
+dian_008
+	bounds: 849, 496, 143, 113
+	offsets: 21, 17, 180, 150
+dian_009
+	bounds: 847, 381, 143, 113
+	offsets: 21, 19, 180, 150
+dian_010
+	bounds: 847, 266, 143, 113
+	offsets: 22, 21, 180, 150
+dian_011
+	bounds: 434, 122, 142, 114
+	offsets: 22, 23, 180, 150
+	rotate: 90
+dian_012
+	bounds: 705, 565, 142, 115
+	offsets: 22, 25, 180, 150
+dian_013
+	bounds: 807, 150, 140, 114
+	offsets: 23, 28, 180, 150
+dian_014
+	bounds: 807, 37, 140, 111
+	offsets: 23, 29, 180, 150
+dian_015
+	bounds: 949, 124, 140, 61
+	offsets: 23, 31, 180, 150
+	rotate: 90
+dian_018
+	bounds: 638, 10, 139, 82
+	offsets: 23, 20, 180, 150
+dian_020
+	bounds: 434, 268, 121, 85
+	offsets: 41, 25, 180, 150
+dian_023
+	bounds: 705, 443, 137, 120
+	offsets: 26, 2, 180, 150
+dian_024
+	bounds: 900, 726, 140, 122
+	offsets: 23, 2, 180, 150
+	rotate: 90
+ditu
+	bounds: 2, 860, 682, 162
+qixing_001
+	bounds: 641, 364, 204, 62
+	offsets: 7, 17, 220, 100
+	rotate: 90
+qixing_002
+	bounds: 218, 425, 209, 66
+	offsets: 5, 15, 220, 100
+qixing_003
+	bounds: 362, 71, 209, 70
+	offsets: 4, 15, 220, 100
+	rotate: 90
+qixing_004
+	bounds: 2, 326, 211, 72
+	offsets: 3, 15, 220, 100
+qixing_005
+	bounds: 2, 251, 210, 73
+	offsets: 3, 15, 220, 100
+qixing_006
+	bounds: 2, 400, 212, 73
+	offsets: 2, 15, 220, 100
+qixing_007
+	bounds: 2, 35, 214, 69
+	offsets: 0, 16, 220, 100
+	rotate: 90
+qixing_008
+	bounds: 219, 567, 211, 68
+	offsets: 2, 16, 220, 100
+qixing_009
+	bounds: 216, 354, 211, 69
+	offsets: 3, 14, 220, 100
+qixing_010
+	bounds: 437, 712, 209, 69
+	offsets: 4, 14, 220, 100
+qixing_011
+	bounds: 289, 71, 209, 71
+	offsets: 4, 12, 220, 100
+	rotate: 90
+qixing_012
+	bounds: 218, 493, 209, 72
+	offsets: 4, 11, 220, 100
+qixing_013
+	bounds: 434, 641, 209, 69
+	offsets: 4, 14, 220, 100
+qixing_014
+	bounds: 427, 2, 209, 67
+	offsets: 4, 16, 220, 100
+qixing_015
+	bounds: 571, 360, 208, 68
+	offsets: 5, 15, 220, 100
+	rotate: 90
+qixing_016
+	bounds: 433, 570, 209, 69
+	offsets: 5, 15, 220, 100
+qixing_017
+	bounds: 500, 359, 209, 69
+	offsets: 5, 15, 220, 100
+	rotate: 90
+qixing_018
+	bounds: 429, 355, 210, 69
+	offsets: 5, 15, 220, 100
+	rotate: 90
+qixing_019
+	bounds: 146, 37, 212, 69
+	offsets: 5, 15, 220, 100
+	rotate: 90
+qixing_020
+	bounds: 686, 797, 212, 69
+	offsets: 4, 15, 220, 100
+qixing_021
+	bounds: 215, 282, 211, 70
+	offsets: 4, 15, 220, 100
+qixing_022
+	bounds: 217, 69, 211, 70
+	offsets: 4, 15, 220, 100
+	rotate: 90
+qixing_023
+	bounds: 73, 37, 212, 71
+	offsets: 4, 15, 220, 100
+	rotate: 90
+qixing_024
+	bounds: 220, 709, 212, 71
+	offsets: 4, 15, 220, 100
+qixing_025
+	bounds: 2, 549, 214, 74
+	offsets: 3, 15, 220, 100
+qixing_026
+	bounds: 437, 783, 214, 75
+	offsets: 3, 15, 220, 100
+qixing_027
+	bounds: 686, 868, 215, 75
+	offsets: 3, 15, 220, 100
+qixing_028
+	bounds: 220, 782, 215, 76
+	offsets: 3, 14, 220, 100
+qixing_029
+	bounds: 686, 945, 215, 77
+	offsets: 3, 13, 220, 100
+qixing_030
+	bounds: 2, 702, 215, 77
+	offsets: 3, 13, 220, 100
+qixing_031
+	bounds: 2, 781, 216, 77
+	offsets: 3, 12, 220, 100
+qixing_032
+	bounds: 2, 625, 215, 75
+	offsets: 3, 13, 220, 100
+qixing_033
+	bounds: 2, 475, 214, 72
+	offsets: 4, 15, 220, 100
+qixing_034
+	bounds: 219, 637, 212, 70
+	offsets: 5, 16, 220, 100
+qixing_035
+	bounds: 217, 2, 208, 65
+	offsets: 7, 19, 220, 100
+shuijing
+	bounds: 851, 743, 46, 52
+	offsets: 2, 2, 49, 57
+
+Pet_banner_2.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+dian_016
+	bounds: 282, 345, 140, 77
+	offsets: 23, 19, 180, 150
+dian_017
+	bounds: 140, 342, 140, 80
+	offsets: 22, 19, 180, 150
+dian_019
+	bounds: 2, 50, 136, 83
+	offsets: 26, 23, 180, 150
+	rotate: 90
+dian_021
+	bounds: 2, 188, 135, 115
+	offsets: 27, 0, 180, 150
+dian_022
+	bounds: 2, 305, 136, 117
+	offsets: 26, 1, 180, 150

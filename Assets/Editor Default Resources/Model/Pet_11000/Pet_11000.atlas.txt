@@ -1,0 +1,10 @@
+Pet_11000.png
+size:256,256
+filter:Linear,Linear
+scale:0.38
+Pet_100
+bounds:0,19,233,234
+offsets:102,87,380,380
+yinying
+bounds:0,0,63,17
+offsets:1,1,65,19

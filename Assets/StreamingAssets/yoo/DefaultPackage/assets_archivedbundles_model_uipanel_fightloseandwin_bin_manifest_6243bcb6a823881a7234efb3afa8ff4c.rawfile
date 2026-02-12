@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 4241582323
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6eeb789c85ac7a5a45b2408ec5417281
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f50e3e63cab7966e46deecbb0afa56f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6eeb789c85ac7a5a45b2408ec5417281
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: ThirdParty
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win_Atlas.asset
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_atlas0.png
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win.atlas.txt
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win_SkeletonData.asset
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win.png
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win_Material.mat
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_win.skel.bytes
+- Assets/Editor Default Resources/UIPanel/FightLoseAndWin_fui.bytes
+Dependencies: []

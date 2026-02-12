@@ -1,0 +1,6 @@
+skill_20022.png
+size:256,256
+filter:Linear,Linear
+scale:0.7
+weapon
+bounds:4,4,151,220

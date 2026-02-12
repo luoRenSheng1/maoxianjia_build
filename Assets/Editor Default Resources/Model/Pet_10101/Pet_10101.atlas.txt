@@ -1,0 +1,46 @@
+Pet_10101.png
+	size: 512, 256
+	filter: Linear, Linear
+	scale: 0.6
+L_shou
+	bounds: 346, 11, 45, 55
+	offsets: 2, 0, 47, 59
+L_tui
+	bounds: 390, 153, 54, 45
+	offsets: 0, 1, 54, 46
+L_yan
+	bounds: 497, 225, 13, 15
+	offsets: 0, 0, 14, 16
+R_shou
+	bounds: 285, 22, 44, 59
+	rotate: 90
+R_tui
+	bounds: 311, 68, 61, 49
+	offsets: 0, 1, 61, 50
+R_yan
+	bounds: 446, 181, 20, 17
+biao
+	bounds: 120, 16, 85, 85
+	offsets: 1, 0, 86, 85
+chuanketie
+	bounds: 207, 33, 76, 47
+dai_hou
+	bounds: 218, 132, 92, 61
+	offsets: 2, 0, 94, 62
+dai_qian
+	bounds: 390, 200, 105, 40
+	offsets: 1, 0, 106, 42
+lian
+	bounds: 218, 82, 91, 48
+	offsets: 1, 0, 92, 48
+mogu
+	bounds: 312, 119, 74, 74
+	offsets: 2, 2, 77, 76
+mogutou
+	bounds: 2, 103, 214, 137
+shenti
+	bounds: 2, 2, 116, 99
+	offsets: 0, 1, 116, 100
+yinying
+	bounds: 218, 195, 170, 45
+	offsets: 1, 2, 172, 49

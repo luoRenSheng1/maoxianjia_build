@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ConfigMonsterGroupUnit.proto";
+
+package Config;
+
+message ConfigMonsterGroup {
+  map<int32, ConfigMonsterGroupUnit> data = 1;
+}

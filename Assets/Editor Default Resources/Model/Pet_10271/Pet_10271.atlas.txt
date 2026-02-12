@@ -1,0 +1,104 @@
+Pet_10271.png
+	size: 512, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.55
+huoshan
+	bounds: 54, 274, 117, 72
+	rotate: 90
+meimao1
+	bounds: 59, 176, 46, 36
+	offsets: 0, 1, 46, 37
+meimao2
+	bounds: 305, 378, 41, 30
+	offsets: 1, 0, 42, 30
+shenti
+	bounds: 2, 393, 130, 117
+shetou
+	bounds: 59, 127, 47, 34
+	rotate: 90
+suishi1
+	bounds: 367, 412, 24, 51
+	rotate: 90
+suishi2
+	bounds: 207, 382, 49, 39
+suishi3
+	bounds: 477, 452, 58, 31
+	offsets: 0, 0, 58, 34
+	rotate: 90
+suishi4
+	bounds: 107, 188, 19, 24
+tou
+	bounds: 134, 423, 127, 87
+tx/huo_000
+	bounds: 128, 170, 31, 37
+	offsets: 17, 0, 70, 70
+	rotate: 90
+tx/huo_002
+	bounds: 57, 2, 49, 57
+	offsets: 9, 5, 70, 70
+tx/huo_004
+	bounds: 2, 61, 54, 57
+	offsets: 7, 10, 70, 70
+tx/huo_006
+	bounds: 2, 2, 57, 53
+	offsets: 7, 15, 70, 70
+	rotate: 90
+tx/huo_008
+	bounds: 128, 335, 56, 49
+	offsets: 9, 19, 70, 70
+tx/huo_010
+	bounds: 128, 235, 53, 41
+	offsets: 12, 25, 70, 70
+	rotate: 90
+tx/huo_012
+	bounds: 186, 356, 18, 28
+	offsets: 46, 38, 70, 70
+tx/huo_014
+	bounds: 403, 389, 13, 21
+	offsets: 49, 43, 70, 70
+yandi
+	bounds: 134, 386, 71, 35
+yanjiang
+	bounds: 477, 440, 22, 10
+yinzi
+	bounds: 2, 205, 186, 50
+	offsets: 1, 2, 188, 54
+	rotate: 90
+youjiao
+	bounds: 54, 214, 72, 58
+youshou
+	bounds: 2, 120, 83, 55
+	rotate: 90
+youyan
+	bounds: 239, 364, 16, 17
+	offsets: 1, 0, 17, 17
+	rotate: 90
+youzhi1
+	bounds: 348, 374, 25, 34
+youzhi2
+	bounds: 128, 203, 30, 41
+	offsets: 0, 1, 30, 42
+	rotate: 90
+youzhi3
+	bounds: 258, 380, 28, 45
+	offsets: 0, 0, 28, 46
+	rotate: 90
+youzhi4
+	bounds: 420, 410, 26, 46
+	rotate: 90
+zui
+	bounds: 263, 410, 102, 100
+zuojiao
+	bounds: 128, 290, 52, 43
+zuoshou
+	bounds: 367, 438, 108, 72
+zuoshouzhi1
+	bounds: 206, 353, 27, 31
+	offsets: 0, 0, 27, 32
+	rotate: 90
+zuoshouzhi2
+	bounds: 375, 374, 26, 36
+zuoyan
+	bounds: 186, 339, 16, 15
+	offsets: 0, 0, 16, 16
